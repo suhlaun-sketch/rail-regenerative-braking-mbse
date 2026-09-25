@@ -1,0 +1,1537 @@
+{
+  "metadata": {
+    "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+    "profile_id": "CRH_AC25KV_SC",
+    "allocation_count": 191
+  },
+  "function_allocations": [
+    {
+      "allocation_id": "ALLOC-F-3000-01-3000",
+      "function_id": "F-3000-01",
+      "product_code": "3000",
+      "product_name": "转向架及其辅助",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3100-01-3100",
+      "function_id": "F-3100-01",
+      "product_code": "3100",
+      "product_name": "轮轴组成",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3110-01-3110",
+      "function_id": "F-3110-01",
+      "product_code": "3110",
+      "product_name": "车轮车轴",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3111-01-3111",
+      "function_id": "F-3111-01",
+      "product_code": "3111",
+      "product_name": "车轮",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3112-01-3112",
+      "function_id": "F-3112-01",
+      "product_code": "3112",
+      "product_name": "车轴",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3120-01-3120",
+      "function_id": "F-3120-01",
+      "product_code": "3120",
+      "product_name": "齿轮箱及附件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3121-01-3121",
+      "function_id": "F-3121-01",
+      "product_code": "3121",
+      "product_name": "齿轮箱主体",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3130-01-3130",
+      "function_id": "F-3130-01",
+      "product_code": "3130",
+      "product_name": "制动盘",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3131-01-3131",
+      "function_id": "F-3131-01",
+      "product_code": "3131",
+      "product_name": "外轮盘",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3132-01-3132",
+      "function_id": "F-3132-01",
+      "product_code": "3132",
+      "product_name": "内轮盘",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3133-01-3133",
+      "function_id": "F-3133-01",
+      "product_code": "3133",
+      "product_name": "轴盘",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3500-01-3500",
+      "function_id": "F-3500-01",
+      "product_code": "3500",
+      "product_name": "牵引传动耦合组件及其附件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3510-01-3510",
+      "function_id": "F-3510-01",
+      "product_code": "3510",
+      "product_name": "传动耦合机构",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3511-01-3511",
+      "function_id": "F-3511-01",
+      "product_code": "3511",
+      "product_name": "联轴节(电机侧)",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3512-01-3512",
+      "function_id": "F-3512-01",
+      "product_code": "3512",
+      "product_name": "联轴节(齿轮箱侧)",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3514-01-3514",
+      "function_id": "F-3514-01",
+      "product_code": "3514",
+      "product_name": "万向轴",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3600-01-3600",
+      "function_id": "F-3600-01",
+      "product_code": "3600",
+      "product_name": "转向架相关检测",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3640-01-3640",
+      "function_id": "F-3640-01",
+      "product_code": "3640",
+      "product_name": "速度检测组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3641-01-3641",
+      "function_id": "F-3641-01",
+      "product_code": "3641",
+      "product_name": "轴端速度传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3643-01-3643",
+      "function_id": "F-3643-01",
+      "product_code": "3643",
+      "product_name": "齿轮箱速度传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3644-01-3644",
+      "function_id": "F-3644-01",
+      "product_code": "3644",
+      "product_name": "牵引电机速度传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3800-01-3800",
+      "function_id": "F-3800-01",
+      "product_code": "3800",
+      "product_name": "辅助增粘及轮缘润滑",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3810-01-3810",
+      "function_id": "F-3810-01",
+      "product_code": "3810",
+      "product_name": "撒砂装置",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3811-01-3811",
+      "function_id": "F-3811-01",
+      "product_code": "3811",
+      "product_name": "撒砂控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3811-02-3811",
+      "function_id": "F-3811-02",
+      "product_code": "3811",
+      "product_name": "撒砂控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3813-01-3813",
+      "function_id": "F-3813-01",
+      "product_code": "3813",
+      "product_name": "撒砂阀板组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-3814-01-3814",
+      "function_id": "F-3814-01",
+      "product_code": "3814",
+      "product_name": "撒砂喷嘴组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4000-01-4000",
+      "function_id": "F-4000-01",
+      "product_code": "4000",
+      "product_name": "主供电",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4100-01-4100",
+      "function_id": "F-4100-01",
+      "product_code": "4100",
+      "product_name": "高压受流",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4110-01-4110",
+      "function_id": "F-4110-01",
+      "product_code": "4110",
+      "product_name": "受电弓总成",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4111-01-4111",
+      "function_id": "F-4111-01",
+      "product_code": "4111",
+      "product_name": "碳滑板",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-411C-01-411C",
+      "function_id": "F-411C-01",
+      "product_code": "411C",
+      "product_name": "受电弓电子控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-411C-02-411C",
+      "function_id": "F-411C-02",
+      "product_code": "411C",
+      "product_name": "受电弓电子控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4200-01-4200",
+      "function_id": "F-4200-01",
+      "product_code": "4200",
+      "product_name": "网侧高压分配及控制",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4210-01-4210",
+      "function_id": "F-4210-01",
+      "product_code": "4210",
+      "product_name": "高压开关",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4211-01-4211",
+      "function_id": "F-4211-01",
+      "product_code": "4211",
+      "product_name": "真空断路器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4212-01-4212",
+      "function_id": "F-4212-01",
+      "product_code": "4212",
+      "product_name": "非真空隔离开关",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4230-01-4230",
+      "function_id": "F-4230-01",
+      "product_code": "4230",
+      "product_name": "高压保护及检测部件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4235-01-4235",
+      "function_id": "F-4235-01",
+      "product_code": "4235",
+      "product_name": "高压电压互感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4236-01-4236",
+      "function_id": "F-4236-01",
+      "product_code": "4236",
+      "product_name": "高压电流互感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4238-01-4238",
+      "function_id": "F-4238-01",
+      "product_code": "4238",
+      "product_name": "高压控制输入输出单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4238-02-4238",
+      "function_id": "F-4238-02",
+      "product_code": "4238",
+      "product_name": "高压控制输入输出单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4238-03-4238",
+      "function_id": "F-4238-03",
+      "product_code": "4238",
+      "product_name": "高压控制输入输出单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4239-01-4239",
+      "function_id": "F-4239-01",
+      "product_code": "4239",
+      "product_name": "高压控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4239-02-4239",
+      "function_id": "F-4239-02",
+      "product_code": "4239",
+      "product_name": "高压控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4239-03-4239",
+      "function_id": "F-4239-03",
+      "product_code": "4239",
+      "product_name": "高压控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4240-01-4240",
+      "function_id": "F-4240-01",
+      "product_code": "4240",
+      "product_name": "能量测量",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4241-01-4241",
+      "function_id": "F-4241-01",
+      "product_code": "4241",
+      "product_name": "处理单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4241-02-4241",
+      "function_id": "F-4241-02",
+      "product_code": "4241",
+      "product_name": "处理单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4241-03-4241",
+      "function_id": "F-4241-03",
+      "product_code": "4241",
+      "product_name": "处理单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4400-01-4400",
+      "function_id": "F-4400-01",
+      "product_code": "4400",
+      "product_name": "回流及接地",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4410-01-4410",
+      "function_id": "F-4410-01",
+      "product_code": "4410",
+      "product_name": "主回路回流设备",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4411-01-4411",
+      "function_id": "F-4411-01",
+      "product_code": "4411",
+      "product_name": "接地变压器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4412-01-4412",
+      "function_id": "F-4412-01",
+      "product_code": "4412",
+      "product_name": "主回路接地电阻",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4413-01-4413",
+      "function_id": "F-4413-01",
+      "product_code": "4413",
+      "product_name": "回流碳刷",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4500-01-4500",
+      "function_id": "F-4500-01",
+      "product_code": "4500",
+      "product_name": "主变压器及其冷却",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4510-01-4510",
+      "function_id": "F-4510-01",
+      "product_code": "4510",
+      "product_name": "主变压器主体及其控制",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4511-01-4511",
+      "function_id": "F-4511-01",
+      "product_code": "4511",
+      "product_name": "主变压器主体",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4513-01-4513",
+      "function_id": "F-4513-01",
+      "product_code": "4513",
+      "product_name": "电抗器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4517-01-4517",
+      "function_id": "F-4517-01",
+      "product_code": "4517",
+      "product_name": "主变压器检测及保护元件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4518-01-4518",
+      "function_id": "F-4518-01",
+      "product_code": "4518",
+      "product_name": "主变压器控制装置",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-4518-02-4518",
+      "function_id": "F-4518-02",
+      "product_code": "4518",
+      "product_name": "主变压器控制装置",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5000-01-5000",
+      "function_id": "F-5000-01",
+      "product_code": "5000",
+      "product_name": "牵引",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5100-01-5100",
+      "function_id": "F-5100-01",
+      "product_code": "5100",
+      "product_name": "牵引变流器主体及其控制",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5110-01-5110",
+      "function_id": "F-5110-01",
+      "product_code": "5110",
+      "product_name": "牵引变流器控制",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5111-01-5111",
+      "function_id": "F-5111-01",
+      "product_code": "5111",
+      "product_name": "网侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5111-02-5111",
+      "function_id": "F-5111-02",
+      "product_code": "5111",
+      "product_name": "网侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5111-03-5111",
+      "function_id": "F-5111-03",
+      "product_code": "5111",
+      "product_name": "网侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5111-04-5111",
+      "function_id": "F-5111-04",
+      "product_code": "5111",
+      "product_name": "网侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5112-01-5112",
+      "function_id": "F-5112-01",
+      "product_code": "5112",
+      "product_name": "电机侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5112-02-5112",
+      "function_id": "F-5112-02",
+      "product_code": "5112",
+      "product_name": "电机侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5112-03-5112",
+      "function_id": "F-5112-03",
+      "product_code": "5112",
+      "product_name": "电机侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5112-04-5112",
+      "function_id": "F-5112-04",
+      "product_code": "5112",
+      "product_name": "电机侧变流器控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5113-01-5113",
+      "function_id": "F-5113-01",
+      "product_code": "5113",
+      "product_name": "变流器检测保护组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5120-01-5120",
+      "function_id": "F-5120-01",
+      "product_code": "5120",
+      "product_name": "输入及预充电单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5121-01-5121",
+      "function_id": "F-5121-01",
+      "product_code": "5121",
+      "product_name": "预充电组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5122-01-5122",
+      "function_id": "F-5122-01",
+      "product_code": "5122",
+      "product_name": "输入组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5130-01-5130",
+      "function_id": "F-5130-01",
+      "product_code": "5130",
+      "product_name": "变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5131-01-5131",
+      "function_id": "F-5131-01",
+      "product_code": "5131",
+      "product_name": "网侧变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5131-02-5131",
+      "function_id": "F-5131-02",
+      "product_code": "5131",
+      "product_name": "网侧变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5132-01-5132",
+      "function_id": "F-5132-01",
+      "product_code": "5132",
+      "product_name": "电机侧变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5132-02-5132",
+      "function_id": "F-5132-02",
+      "product_code": "5132",
+      "product_name": "电机侧变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5133-01-5133",
+      "function_id": "F-5133-01",
+      "product_code": "5133",
+      "product_name": "放电电阻控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5133-02-5133",
+      "function_id": "F-5133-02",
+      "product_code": "5133",
+      "product_name": "放电电阻控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5133-03-5133",
+      "function_id": "F-5133-03",
+      "product_code": "5133",
+      "product_name": "放电电阻控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5140-01-5140",
+      "function_id": "F-5140-01",
+      "product_code": "5140",
+      "product_name": "中间直流环节组件及其",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5142-01-5142",
+      "function_id": "F-5142-01",
+      "product_code": "5142",
+      "product_name": "放电电阻器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5142-02-5142",
+      "function_id": "F-5142-02",
+      "product_code": "5142",
+      "product_name": "放电电阻器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5145-01-5145",
+      "function_id": "F-5145-01",
+      "product_code": "5145",
+      "product_name": "中间直流环节检测保护组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5300-01-5300",
+      "function_id": "F-5300-01",
+      "product_code": "5300",
+      "product_name": "牵引电机及其冷却",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5310-01-5310",
+      "function_id": "F-5310-01",
+      "product_code": "5310",
+      "product_name": "牵引电机组成",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5311-01-5311",
+      "function_id": "F-5311-01",
+      "product_code": "5311",
+      "product_name": "牵引电机",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-5311-02-5311",
+      "function_id": "F-5311-02",
+      "product_code": "5311",
+      "product_name": "牵引电机",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7000-01-7000",
+      "function_id": "F-7000-01",
+      "product_code": "7000",
+      "product_name": "供风制动",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7100-01-7100",
+      "function_id": "F-7100-01",
+      "product_code": "7100",
+      "product_name": "供风",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7120-01-7120",
+      "function_id": "F-7120-01",
+      "product_code": "7120",
+      "product_name": "风缸",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7124-01-7124",
+      "function_id": "F-7124-01",
+      "product_code": "7124",
+      "product_name": "制动风缸",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7130-01-7130",
+      "function_id": "F-7130-01",
+      "product_code": "7130",
+      "product_name": "列车级压缩空气分配组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7131-01-7131",
+      "function_id": "F-7131-01",
+      "product_code": "7131",
+      "product_name": "总风管",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7140-01-7140",
+      "function_id": "F-7140-01",
+      "product_code": "7140",
+      "product_name": "供风压力开关及传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7142-01-7142",
+      "function_id": "F-7142-01",
+      "product_code": "7142",
+      "product_name": "总风管压力传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7200-01-7200",
+      "function_id": "F-7200-01",
+      "product_code": "7200",
+      "product_name": "制动",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7210-01-7210",
+      "function_id": "F-7210-01",
+      "product_code": "7210",
+      "product_name": "制动控制组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7211-01-7211",
+      "function_id": "F-7211-01",
+      "product_code": "7211",
+      "product_name": "电子制动控制单元(EBCU)",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7211-02-7211",
+      "function_id": "F-7211-02",
+      "product_code": "7211",
+      "product_name": "电子制动控制单元(EBCU)",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7211-03-7211",
+      "function_id": "F-7211-03",
+      "product_code": "7211",
+      "product_name": "电子制动控制单元(EBCU)",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7211-04-7211",
+      "function_id": "F-7211-04",
+      "product_code": "7211",
+      "product_name": "电子制动控制单元(EBCU)",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7213-01-7213",
+      "function_id": "F-7213-01",
+      "product_code": "7213",
+      "product_name": "制动控制接触器及其他",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7220-01-7220",
+      "function_id": "F-7220-01",
+      "product_code": "7220",
+      "product_name": "直接制动控制",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7222-01-7222",
+      "function_id": "F-7222-01",
+      "product_code": "7222",
+      "product_name": "电空转换阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7223-01-7223",
+      "function_id": "F-7223-01",
+      "product_code": "7223",
+      "product_name": "中继阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7224-01-7224",
+      "function_id": "F-7224-01",
+      "product_code": "7224",
+      "product_name": "空重车调整阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7225-01-7225",
+      "function_id": "F-7225-01",
+      "product_code": "7225",
+      "product_name": "控制电磁阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7226-01-7226",
+      "function_id": "F-7226-01",
+      "product_code": "7226",
+      "product_name": "紧急制动阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7227-01-7227",
+      "function_id": "F-7227-01",
+      "product_code": "7227",
+      "product_name": "缓解阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7228-01-7228",
+      "function_id": "F-7228-01",
+      "product_code": "7228",
+      "product_name": "车厢直接制动截断塞门",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7229-01-7229",
+      "function_id": "F-7229-01",
+      "product_code": "7229",
+      "product_name": "调压阀",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-722A-01-722A",
+      "function_id": "F-722A-01",
+      "product_code": "722A",
+      "product_name": "防滑阀组成",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-722B-01-722B",
+      "function_id": "F-722B-01",
+      "product_code": "722B",
+      "product_name": "压力传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-722C-01-722C",
+      "function_id": "F-722C-01",
+      "product_code": "722C",
+      "product_name": "压力开关",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7250-01-7250",
+      "function_id": "F-7250-01",
+      "product_code": "7250",
+      "product_name": "制动夹钳及其配套组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7252-01-7252",
+      "function_id": "F-7252-01",
+      "product_code": "7252",
+      "product_name": "非停放制动夹钳装置",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7254-01-7254",
+      "function_id": "F-7254-01",
+      "product_code": "7254",
+      "product_name": "闸片",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7255-01-7255",
+      "function_id": "F-7255-01",
+      "product_code": "7255",
+      "product_name": "增压缸",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7280-01-7280",
+      "function_id": "F-7280-01",
+      "product_code": "7280",
+      "product_name": "其它制动元件及附件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7281-01-7281",
+      "function_id": "F-7281-01",
+      "product_code": "7281",
+      "product_name": "制动指示器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7284-01-7284",
+      "function_id": "F-7284-01",
+      "product_code": "7284",
+      "product_name": "转向架制动截断塞门",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-7285-01-7285",
+      "function_id": "F-7285-01",
+      "product_code": "7285",
+      "product_name": "单轴制动截断塞门",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8000-01-8000",
+      "function_id": "F-8000-01",
+      "product_code": "8000",
+      "product_name": "网络及辅助监控",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8100-01-8100",
+      "function_id": "F-8100-01",
+      "product_code": "8100",
+      "product_name": "列车主干网及安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8120-01-8120",
+      "function_id": "F-8120-01",
+      "product_code": "8120",
+      "product_name": "控制单元及输入输出模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8121-01-8121",
+      "function_id": "F-8121-01",
+      "product_code": "8121",
+      "product_name": "主控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8121-02-8121",
+      "function_id": "F-8121-02",
+      "product_code": "8121",
+      "product_name": "主控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8121-03-8121",
+      "function_id": "F-8121-03",
+      "product_code": "8121",
+      "product_name": "主控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8122-01-8122",
+      "function_id": "F-8122-01",
+      "product_code": "8122",
+      "product_name": "车辆控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8122-02-8122",
+      "function_id": "F-8122-02",
+      "product_code": "8122",
+      "product_name": "车辆控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8122-03-8122",
+      "function_id": "F-8122-03",
+      "product_code": "8122",
+      "product_name": "车辆控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8122-04-8122",
+      "function_id": "F-8122-04",
+      "product_code": "8122",
+      "product_name": "车辆控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8122-05-8122",
+      "function_id": "F-8122-05",
+      "product_code": "8122",
+      "product_name": "车辆控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8125-01-8125",
+      "function_id": "F-8125-01",
+      "product_code": "8125",
+      "product_name": "列车级牵引控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8125-02-8125",
+      "function_id": "F-8125-02",
+      "product_code": "8125",
+      "product_name": "列车级牵引控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8125-03-8125",
+      "function_id": "F-8125-03",
+      "product_code": "8125",
+      "product_name": "列车级牵引控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8125-04-8125",
+      "function_id": "F-8125-04",
+      "product_code": "8125",
+      "product_name": "列车级牵引控制单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8127-01-8127",
+      "function_id": "F-8127-01",
+      "product_code": "8127",
+      "product_name": "ATP接口单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8127-02-8127",
+      "function_id": "F-8127-02",
+      "product_code": "8127",
+      "product_name": "ATP接口单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8128-01-8128",
+      "function_id": "F-8128-01",
+      "product_code": "8128",
+      "product_name": "输入输出单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8128-02-8128",
+      "function_id": "F-8128-02",
+      "product_code": "8128",
+      "product_name": "输入输出单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8128-03-8128",
+      "function_id": "F-8128-03",
+      "product_code": "8128",
+      "product_name": "输入输出单元",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8150-01-8150",
+      "function_id": "F-8150-01",
+      "product_code": "8150",
+      "product_name": "整车级安全回路及其附件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8151-01-8151",
+      "function_id": "F-8151-01",
+      "product_code": "8151",
+      "product_name": "高压安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8151-02-8151",
+      "function_id": "F-8151-02",
+      "product_code": "8151",
+      "product_name": "高压安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8152-01-8152",
+      "function_id": "F-8152-01",
+      "product_code": "8152",
+      "product_name": "制动安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8152-02-8152",
+      "function_id": "F-8152-02",
+      "product_code": "8152",
+      "product_name": "制动安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8154-01-8154",
+      "function_id": "F-8154-01",
+      "product_code": "8154",
+      "product_name": "牵引安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8154-02-8154",
+      "function_id": "F-8154-02",
+      "product_code": "8154",
+      "product_name": "牵引安全回路",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8160-01-8160",
+      "function_id": "F-8160-01",
+      "product_code": "8160",
+      "product_name": "其它附件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8166-01-8166",
+      "function_id": "F-8166-01",
+      "product_code": "8166",
+      "product_name": "能量计",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8166-02-8166",
+      "function_id": "F-8166-02",
+      "product_code": "8166",
+      "product_name": "能量计",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8166-03-8166",
+      "function_id": "F-8166-03",
+      "product_code": "8166",
+      "product_name": "能量计",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-8166-04-8166",
+      "function_id": "F-8166-04",
+      "product_code": "8166",
+      "product_name": "能量计",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D000-01-D000",
+      "function_id": "F-D000-01",
+      "product_code": "D000",
+      "product_name": "驾驶设施",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D100-01-D100",
+      "function_id": "F-D100-01",
+      "product_code": "D100",
+      "product_name": "操纵设施",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D110-01-D110",
+      "function_id": "F-D110-01",
+      "product_code": "D110",
+      "product_name": "基本操纵组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D112-01-D112",
+      "function_id": "F-D112-01",
+      "product_code": "D112",
+      "product_name": "方向操作元件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D113-01-D113",
+      "function_id": "F-D113-01",
+      "product_code": "D113",
+      "product_name": "牵引操作元件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D114-01-D114",
+      "function_id": "F-D114-01",
+      "product_code": "D114",
+      "product_name": "制动操作元件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D120-01-D120",
+      "function_id": "F-D120-01",
+      "product_code": "D120",
+      "product_name": "紧急响应元件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D121-01-D121",
+      "function_id": "F-D121-01",
+      "product_code": "D121",
+      "product_name": "紧急制动按钮",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D130-01-D130",
+      "function_id": "F-D130-01",
+      "product_code": "D130",
+      "product_name": "开关按钮功能组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-D13B-01-D13B",
+      "function_id": "F-D13B-01",
+      "product_code": "D13B",
+      "product_name": "撒砂按钮",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-E000-01-E000",
+      "function_id": "F-E000-01",
+      "product_code": "E000",
+      "product_name": "电务车载",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-E100-01-E100",
+      "function_id": "F-E100-01",
+      "product_code": "E100",
+      "product_name": "ATP车载",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X000-01-X000",
+      "function_id": "F-X000-01",
+      "product_code": "X000",
+      "product_name": "再生储能扩展",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X100-01-X100",
+      "function_id": "F-X100-01",
+      "product_code": "X100",
+      "product_name": "车载再生储能",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X110-01-X110",
+      "function_id": "F-X110-01",
+      "product_code": "X110",
+      "product_name": "双向储能变流及控制",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X111-01-X111",
+      "function_id": "F-X111-01",
+      "product_code": "X111",
+      "product_name": "双向DC/DC变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X111-02-X111",
+      "function_id": "F-X111-02",
+      "product_code": "X111",
+      "product_name": "双向DC/DC变流模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X112-01-X112",
+      "function_id": "F-X112-01",
+      "product_code": "X112",
+      "product_name": "双向DC/DC控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X112-02-X112",
+      "function_id": "F-X112-02",
+      "product_code": "X112",
+      "product_name": "双向DC/DC控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X112-03-X112",
+      "function_id": "F-X112-03",
+      "product_code": "X112",
+      "product_name": "双向DC/DC控制模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X113-01-X113",
+      "function_id": "F-X113-01",
+      "product_code": "X113",
+      "product_name": "双向DC/DC检测保护组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X120-01-X120",
+      "function_id": "F-X120-01",
+      "product_code": "X120",
+      "product_name": "超级电容储能组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X121-01-X121",
+      "function_id": "F-X121-01",
+      "product_code": "X121",
+      "product_name": "超级电容模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X121-02-X121",
+      "function_id": "F-X121-02",
+      "product_code": "X121",
+      "product_name": "超级电容模块",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X122-01-X122",
+      "function_id": "F-X122-01",
+      "product_code": "X122",
+      "product_name": "超级电容电压传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X123-01-X123",
+      "function_id": "F-X123-01",
+      "product_code": "X123",
+      "product_name": "超级电容电流传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X124-01-X124",
+      "function_id": "F-X124-01",
+      "product_code": "X124",
+      "product_name": "超级电容温度传感器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X130-01-X130",
+      "function_id": "F-X130-01",
+      "product_code": "X130",
+      "product_name": "储能接入与保护",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X131-01-X131",
+      "function_id": "F-X131-01",
+      "product_code": "X131",
+      "product_name": "储能主接触器",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X132-01-X132",
+      "function_id": "F-X132-01",
+      "product_code": "X132",
+      "product_name": "储能预充电组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    },
+    {
+      "allocation_id": "ALLOC-F-X133-01-X133",
+      "function_id": "F-X133-01",
+      "product_code": "X133",
+      "product_name": "储能支路保护组件",
+      "allocation_type": "FUNCTION_TO_PRODUCT",
+      "source": "deterministic owner Product allocation"
+    }
+  ]
+}

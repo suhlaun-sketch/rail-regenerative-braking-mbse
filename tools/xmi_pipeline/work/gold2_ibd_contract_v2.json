@@ -1,0 +1,13 @@
+{
+  "contract_id": "GOLD2-IBD-CONTRACT-V2",
+  "rules": {
+    "diagram": "ownedDiagram under context Block modelExtension",
+    "owner_context": "ownerOfDiagram=context=Block xmi:id",
+    "scope": "direct child Parts only",
+    "usedObjects_usedElements": "all presented Part, Port, Connector, and ConnectorEnd model IDs resolve",
+    "connector_path": "solid native Connector; never an independent InformationFlow path",
+    "itemflow_display": "conveyed compartment plus connector label on Connector presentation"
+  },
+  "gold2_ibd_count": 7,
+  "gold2_connector_native_presentation": true
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-11T16:45:04.357Z",
+  "overall_status": "PASS",
+  "authoritative_data": {
+    "primary_excel": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\Rail_MBSE_Function_Interface_v1_final.xlsx",
+    "primary_excel_size": 151107,
+    "primary_excel_last_write_time": "2026-09-09T04:21:47.265Z",
+    "full_sysml": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\full_engineering_model\\01_generated\\Rail_MBSE_Full_v1.sysml",
+    "full_sysml_sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+    "products": 147,
+    "items": 144,
+    "raw_ports": 517,
+    "functions": 191,
+    "allocations": 191,
+    "connections": 184,
+    "physical_nets": 9
+  },
+  "official_sysml_validation": {
+    "runtime": "official SysML v2 Pilot Jupyter kernel",
+    "version": "0.59.0",
+    "syntax_errors": 0,
+    "semantic_errors": 0,
+    "warnings": 0,
+    "exception": null,
+    "status": "PASS"
+  },
+  "ssi": {
+    "version": "SSI_v1.0.0",
+    "repository": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\third_party\\ssi_transformer\\Standard-System-Interface",
+    "commit": "ad6cae115d05a0fb45dada962fed5b0d9eed61ac",
+    "author_source_modified": false,
+    "all16_projection": "PASS",
+    "l2_components": "16/16",
+    "promoted_ports": 138,
+    "interface_definitions": 51,
+    "cross_l2_connections": 74,
+    "validation_errors": 0,
+    "ssd": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\ssi_integration\\03_ssd\\Rail_MBSE_L2_All16_v1.ssd",
+    "ssd_components": 16,
+    "ssd_connectors": 138,
+    "ssd_connections": 74,
+    "component_mapping": "16/16",
+    "port_mapping": "138/138",
+    "connection_mapping": "74/74",
+    "status": "PASS"
+  },
+  "syside": {
+    "version": "0.10.3",
+    "standard_library": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syside_integration\\config\\syside-0.10.3\\share\\sysml.library",
+    "files_parsed": [
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\full_engineering_model\\01_generated\\Rail_MBSE_Full_v1.sysml"
+    ],
+    "syntax_diagnostics": 0,
+    "semantic_diagnostics": 0,
+    "warnings": 0,
+    "unsupported_constructs": 0,
+    "status": "PASS"
+  },
+  "syson": {
+    "version": "v2026.7.0",
+    "deployment_method": "Official Eclipse SysON application JAR + PostgreSQL 15.19",
+    "url": "http://localhost:8080",
+    "project_id": "4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf",
+    "full_sysml_import": "PASS",
+    "semantic_projection": "NOT_NEEDED",
+    "visualization_projection": "GENERATED",
+    "products_visualized": "147/147",
+    "ports_visualized": "517/517",
+    "functions_visualized": "191/191",
+    "allocations_visualized": "191/191",
+    "connections_visualized": "184/184",
+    "physical_nets_visualized": "9/9",
+    "l2_detailed_views": "16/16",
+    "persisted_views": "76/76",
+    "svg_exports": "76/76",
+    "valid_svg_exports": "76/76",
+    "svg_export_bytes": 1229909881,
+    "full_architecture_overview": "PASS",
+    "regenerative_braking_view": "PASS",
+    "status": "PASS"
+  },
+  "integrity": {
+    "original_excel_modified": false,
+    "original_excel_evidence": "LastWriteTime remains 2026-09-09T04:21:47.265Z (before this toolchain run)",
+    "original_full_sysml_modified": false,
+    "original_final_connections_modified": false,
+    "author_ssi_source_modified": false,
+    "second_manually_maintained_sysml_model_created": false,
+    "generated_visualization_projection": true
+  },
+  "output_check": {
+    "required_files": [
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\full_engineering_model\\01_generated\\Rail_MBSE_Full_v1.sysml",
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\ssi_integration\\03_ssd\\Rail_MBSE_L2_All16_v1.ssd",
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\ssi_integration\\03_ssd\\Rail_MBSE_L2_All16_v1_mapping.json",
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\ssi_integration\\05_reports\\SSI_All16_Integration_Report.md",
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syside_integration\\SysIDE_Validation_Report.md",
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\SysON_Visualization_Coverage.json",
+      "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\SysON_Visualization_Report.md"
+    ],
+    "missing_files": [],
+    "pass": true
+  }
+}

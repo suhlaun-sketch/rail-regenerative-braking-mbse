@@ -1,0 +1,971 @@
+{
+  "meta": {
+    "physical_nets": 9,
+    "net_memberships": 82,
+    "external_boundaries": 3
+  },
+  "physical_nets": [
+    {
+      "net_id": "NET-DC-LINK-01",
+      "connection_mode": "NET",
+      "net_kind": "shared DC Link",
+      "item_code": "ITM-PHY-003",
+      "interface_type_id": "IF-PHY-003",
+      "observation": "U_dc",
+      "pairwise_clique_generated": false,
+      "name": "DC Link",
+      "domain": "牵引/储能",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "connection_mode": "NET",
+      "net_kind": "storage DC upstream bus",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Storage DC upstream bus",
+      "domain": "储能",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "connection_mode": "NET",
+      "net_kind": "storage DC protected intermediate bus",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Storage DC protected bus",
+      "domain": "储能",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "connection_mode": "NET",
+      "net_kind": "supercapacitor terminal net",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "observation": "U_sc",
+      "pairwise_clique_generated": false,
+      "name": "Supercapacitor terminal net",
+      "domain": "储能",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-PNEU-MAIN-01",
+      "connection_mode": "NET",
+      "net_kind": "main reservoir shared pneumatic net",
+      "item_code": "ITM-PHY-008",
+      "interface_type_id": "IF-PHY-008",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Main reservoir pneumatic net",
+      "domain": "气动制动",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "connection_mode": "NET",
+      "net_kind": "brake supply pneumatic net",
+      "item_code": "ITM-PHY-009",
+      "interface_type_id": "IF-PHY-009",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Brake supply pneumatic net",
+      "domain": "气动制动",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "connection_mode": "NET",
+      "net_kind": "cylinder/control pressure candidate net",
+      "item_code": "ITM-PHY-010",
+      "interface_type_id": "IF-PHY-010",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Cylinder/control pressure net",
+      "domain": "气动制动",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-LVDC-CONTROL-01",
+      "connection_mode": "NET",
+      "net_kind": "low-voltage control supply net",
+      "item_code": "ITM-PHY-015",
+      "interface_type_id": "IF-PHY-015",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Low-voltage control supply",
+      "domain": "控制供电",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "net_id": "NET-MAIN-RETURN-01",
+      "connection_mode": "NET",
+      "net_kind": "traction return/ground candidate net",
+      "item_code": "ITM-PHY-011",
+      "interface_type_id": "IF-PHY-011",
+      "observation": null,
+      "pairwise_clique_generated": false,
+      "name": "Traction return net",
+      "domain": "主供电",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    }
+  ],
+  "net_memberships": [
+    {
+      "membership_id": "NM-A34F0F7421806ABF692AC2DA",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "5121",
+      "port_id": "PORT::5121::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-71BD62DF74A80BBC8E042C32",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "5122",
+      "port_id": "PORT::5122::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-1F9BA05F4B4A9FCD1E5556AC",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "5131",
+      "port_id": "PORT::5131::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-9A9B71E4C73551070D4E97D1",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "5132",
+      "port_id": "PORT::5132::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-1B1CD4760AE9B4FAF72D2FF0",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "5142",
+      "port_id": "PORT::5142::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-83F0193F22FA8E6C799943EE",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "X111",
+      "port_id": "PORT::X111::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-30A23E02006221AB7F6AF585",
+      "net_id": "NET-DC-LINK-01",
+      "product_code": "X113",
+      "port_id": "PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理",
+      "item_code": "ITM-PHY-003",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-576ECBB0C4C89F9D7EB1D36F",
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "product_code": "X111",
+      "port_id": "PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-69C07E638CC1866A8BB2BB4E",
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "product_code": "X113",
+      "port_id": "PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-C3844158E43FEFB8C1BE2480",
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "product_code": "X131",
+      "port_id": "PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-51A611CCAEB3B63B8B4B9F47",
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "product_code": "X132",
+      "port_id": "PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-CAB3FAF4AC1CDC5A571662BA",
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "product_code": "X131",
+      "port_id": "PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-1AFB1AAA5E57299DDBE7C492",
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "product_code": "X132",
+      "port_id": "PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-DAADEA56F0C4101340E56CB1",
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "product_code": "X133",
+      "port_id": "PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-B15116FB37186C1C769A14C4",
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "product_code": "X133",
+      "port_id": "PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-FBCD11A931EDCFC9C446FD88",
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "product_code": "X121",
+      "port_id": "PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "ENERGY"
+    },
+    {
+      "membership_id": "NM-17F11AEF9672081282BAEB18",
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "product_code": "X122",
+      "port_id": "PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-A26AAC0E28BEBD12DB68A713",
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "product_code": "X123",
+      "port_id": "PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "item_code": "ITM-PHY-016",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-CCFB16EC5E7F7793AAF364F0",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "3813",
+      "port_id": "PORT::3813::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-6A642A419E02820C1C077E1D",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7124",
+      "port_id": "PORT::7124::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-48A85403C5BC98313ED2D372",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7131",
+      "port_id": "PORT::7131::总风管末端压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-47DF0C3725DDE5721668FA87",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7131",
+      "port_id": "PORT::7131::总风管首端压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-CB78CBCB2E8238C27C96AAB7",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7142",
+      "port_id": "PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-FC40578BDF9A8C309E4D71A2",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7222",
+      "port_id": "PORT::7222::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-8B40290DCF98266B2FD7A8FF",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7223",
+      "port_id": "PORT::7223::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-5C784537F9C356693E08577A",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7224",
+      "port_id": "PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-8BE7C9DC84D17DFA6254CD2F",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7225",
+      "port_id": "PORT::7225::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-3FA41B110171B8C6D8A4065D",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7226",
+      "port_id": "PORT::7226::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-13B8689D7D91907A7745F8A1",
+      "net_id": "NET-PNEU-MAIN-01",
+      "product_code": "7229",
+      "port_id": "PORT::7229::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "item_code": "ITM-PHY-008",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-4226C6B4A7319CF1CDF3E778",
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "product_code": "7222",
+      "port_id": "PORT::7222::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "item_code": "ITM-PHY-009",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-37B8A91EDCA5F085BECC9380",
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "product_code": "7223",
+      "port_id": "PORT::7223::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "item_code": "ITM-PHY-009",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-BB977877C3DF3BEA25C73862",
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "product_code": "7224",
+      "port_id": "PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "item_code": "ITM-PHY-009",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-91A7A218B568112CEA9A3653",
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "product_code": "7225",
+      "port_id": "PORT::7225::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "item_code": "ITM-PHY-009",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-9A9257B8F180AA278C1254BC",
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "product_code": "7226",
+      "port_id": "PORT::7226::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "item_code": "ITM-PHY-009",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-E08FFEC384831FF495A85AF1",
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "product_code": "7229",
+      "port_id": "PORT::7229::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "item_code": "ITM-PHY-009",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-E0777BDBC9302684FBAAAA67",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7223",
+      "port_id": "PORT::7223::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-0446D45436609F94A0BB1392",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7226",
+      "port_id": "PORT::7226::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-0CC09D95F645AF828EEEBD4E",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7227",
+      "port_id": "PORT::7227::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-EE247FD24DE4E024788AEF44",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7228",
+      "port_id": "PORT::7228::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-B67A134140F5CB89DB1DEB77",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7228",
+      "port_id": "PORT::7228::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-BAA7C4C425CBBB5D602C1D2D",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "722A",
+      "port_id": "PORT::722A::上游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-46894E2A77AF744DB3AC5CDF",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "722A",
+      "port_id": "PORT::722A::下游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-63611B9438D98CD72B5F2265",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "722B",
+      "port_id": "PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-EBD87951C6451AB12680D5AD",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "722C",
+      "port_id": "PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "TAP"
+    },
+    {
+      "membership_id": "NM-3014D98149D4DAC146AF457C",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7252",
+      "port_id": "PORT::7252::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-4259AE7E97E872CEAF83691A",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7255",
+      "port_id": "PORT::7255::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-8CEB7A6D05F0E7AE7F5F0AD6",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7284",
+      "port_id": "PORT::7284::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-5BB8F5B8B34E66C441FC5B72",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7284",
+      "port_id": "PORT::7284::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-38DAEC2357BF6B231514967A",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7285",
+      "port_id": "PORT::7285::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-71A59F816A9AFEE7633409DC",
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "product_code": "7285",
+      "port_id": "PORT::7285::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "item_code": "ITM-PHY-010",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "FLOW"
+    },
+    {
+      "membership_id": "NM-9DE551BFC71B6D1C033EB493",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "3811",
+      "port_id": "PORT::3811::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-85E201217387FB6C04BAF553",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "411C",
+      "port_id": "PORT::411C::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-C036505CA3071E8509914457",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "4238",
+      "port_id": "PORT::4238::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-49F85C24DEF33D6CF2842B56",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "4239",
+      "port_id": "PORT::4239::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-C0FB186C02AD307B5A1EE477",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "4241",
+      "port_id": "PORT::4241::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-5E341C8A8A90B97B99F5F9D8",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "4517",
+      "port_id": "PORT::4517::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-189756D1521F742E10A7C1FC",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "4518",
+      "port_id": "PORT::4518::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-297D876075576F112B91A6AA",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "5111",
+      "port_id": "PORT::5111::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-EC18B79AD1E8741C4D489135",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "5112",
+      "port_id": "PORT::5112::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-7C5AC982493C7E9A08E0A73E",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "5113",
+      "port_id": "PORT::5113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-936A595924D0DAB85E731F07",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "5133",
+      "port_id": "PORT::5133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-26DE73A6E15F77CE0ABD7E5C",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "5145",
+      "port_id": "PORT::5145::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-B3425D511D6427F840414A85",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "7211",
+      "port_id": "PORT::7211::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-E36676A13CBBDC3409FE5C41",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "7213",
+      "port_id": "PORT::7213::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-E7C3F20FE119B5E4DC222AFC",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "7281",
+      "port_id": "PORT::7281::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-5C56E781F5466D8C446A34B5",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8121",
+      "port_id": "PORT::8121::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-6F1BBE25970ECA38113E33F5",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8122",
+      "port_id": "PORT::8122::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-90A2FDE422622A1F6E82C7FC",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8125",
+      "port_id": "PORT::8125::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-448F443E0242DEB53B45AC15",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8127",
+      "port_id": "PORT::8127::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-7C5470B14D682E71A4BBDD67",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8128",
+      "port_id": "PORT::8128::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-CDF7EF638B1781F1BE30637F",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8151",
+      "port_id": "PORT::8151::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-6D0C55EE3D875B5D968A2024",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8152",
+      "port_id": "PORT::8152::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-94ECC2EB9F0C956A75F631AC",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8154",
+      "port_id": "PORT::8154::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-D555FB3E9AD29A7810FF3439",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "8166",
+      "port_id": "PORT::8166::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-A1F239529C12E4CDB10D9AEA",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "X112",
+      "port_id": "PORT::X112::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-5A0CC2CD90119231C8F82A24",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "X113",
+      "port_id": "PORT::X113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-BF6CE5E38A92A7E96461FAD9",
+      "net_id": "NET-LVDC-CONTROL-01",
+      "product_code": "X133",
+      "port_id": "PORT::X133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "item_code": "ITM-PHY-015",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "LOAD"
+    },
+    {
+      "membership_id": "NM-B279BE5D905DD9EACEB437EA",
+      "net_id": "NET-MAIN-RETURN-01",
+      "product_code": "4411",
+      "port_id": "PORT::4411::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "item_code": "ITM-PHY-011",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "RETURN"
+    },
+    {
+      "membership_id": "NM-C453F2E2B9B0827B4C43D134",
+      "net_id": "NET-MAIN-RETURN-01",
+      "product_code": "4411",
+      "port_id": "PORT::4411::回流侧电流端口::ITM-PHY-011::双向物理",
+      "item_code": "ITM-PHY-011",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "RETURN"
+    },
+    {
+      "membership_id": "NM-A205B2374CB9CB0DDE2C8131",
+      "net_id": "NET-MAIN-RETURN-01",
+      "product_code": "4412",
+      "port_id": "PORT::4412::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "item_code": "ITM-PHY-011",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "RETURN"
+    },
+    {
+      "membership_id": "NM-D6CBA40CC99875366A9FA59D",
+      "net_id": "NET-MAIN-RETURN-01",
+      "product_code": "4412",
+      "port_id": "PORT::4412::回流侧电流端口::ITM-PHY-011::双向物理",
+      "item_code": "ITM-PHY-011",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "RETURN"
+    },
+    {
+      "membership_id": "NM-FE81F69A57FDF248580A3048",
+      "net_id": "NET-MAIN-RETURN-01",
+      "product_code": "4413",
+      "port_id": "PORT::4413::旋转端回流电流端口::ITM-PHY-011::双向物理",
+      "item_code": "ITM-PHY-011",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+      "participation": "RETURN"
+    }
+  ],
+  "external_boundaries": [
+    {
+      "boundary_id": "BOUNDARY-CATENARY-25KV",
+      "name": "External 25 kV AC catenary",
+      "domain": "electrical",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "boundary_id": "BOUNDARY-RAIL",
+      "name": "Rail mechanical and traction-return boundary",
+      "domain": "mechanical/electrical",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    },
+    {
+      "boundary_id": "BOUNDARY-THERMAL-ENVIRONMENT",
+      "name": "Ambient thermal sink",
+      "domain": "thermal",
+      "profile_id": "CRH_AC25KV_SC",
+      "project_id": "RAIL_MBSE_TRACTION_BRAKE"
+    }
+  ]
+}

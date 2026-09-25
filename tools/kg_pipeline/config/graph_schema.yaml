@@ -1,0 +1,78 @@
+{
+  "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+  "uri": "neo4j://127.0.0.1:7687",
+  "database": "motor-brake-system",
+  "user": "neo4j",
+  "profile": {
+    "profile_id": "CRH_AC25KV_SC",
+    "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+    "supply_mode": "AC25KV",
+    "energy_storage": "SuperCap",
+    "description": "动车组牵引—制动—再生能量回收通用参考架构的25 kV AC与车载超级电容实例。"
+  },
+  "custom_products": [
+    {"code":"D000","name":"驾驶设施","level":1,"parent_code":"","parent_name":"","node_role":"项目自定义驾驶设施","source_type":"project_extension","source_ref":"CONFIG:custom_products:D000","source_basis":"任务规定的D项目扩展层级。"},
+    {"code":"D100","name":"操纵设施","level":2,"parent_code":"D000","parent_name":"驾驶设施","node_role":"操纵设施","source_type":"project_extension","source_ref":"CONFIG:custom_products:D100","source_basis":"任务规定的D项目扩展层级。"},
+    {"code":"D110","name":"基本操纵组件","level":3,"parent_code":"D100","parent_name":"操纵设施","node_role":"基本操纵组件","source_type":"project_extension","source_ref":"CONFIG:custom_products:D110","source_basis":"D112/D113/D114父名称。"},
+    {"code":"D120","name":"紧急响应元件","level":3,"parent_code":"D100","parent_name":"操纵设施","node_role":"紧急响应元件","source_type":"project_extension","source_ref":"CONFIG:custom_products:D120","source_basis":"D121父名称。"},
+    {"code":"D130","name":"开关按钮功能组件","level":3,"parent_code":"D100","parent_name":"操纵设施","node_role":"开关按钮功能组件","source_type":"project_extension","source_ref":"CONFIG:custom_products:D130","source_basis":"D13B父名称。"},
+    {"code":"D112","name":"方向操作元件","level":4,"parent_code":"D110","parent_name":"基本操纵组件","node_role":"驾驶命令边界","source_type":"project_extension","source_ref":"入选!84 / Sheet3!84","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"D113","name":"牵引操作元件","level":4,"parent_code":"D110","parent_name":"基本操纵组件","node_role":"驾驶命令边界","source_type":"project_extension","source_ref":"入选!85 / Sheet3!85","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"D114","name":"制动操作元件","level":4,"parent_code":"D110","parent_name":"基本操纵组件","node_role":"驾驶命令边界","source_type":"project_extension","source_ref":"入选!86 / Sheet3!86","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"D121","name":"紧急制动按钮","level":4,"parent_code":"D120","parent_name":"紧急响应元件","node_role":"驾驶命令边界","source_type":"project_extension","source_ref":"入选!87 / Sheet3!87","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"D13B","name":"撒砂按钮","level":4,"parent_code":"D130","parent_name":"开关按钮功能组件","node_role":"低黏着人工输入","source_type":"project_extension","source_ref":"入选!88 / Sheet3!88","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"E000","name":"电务车载","level":1,"parent_code":"","parent_name":"","node_role":"外部技术系统边界","source_type":"external_system","source_ref":"全部!617","source_basis":"全部Sheet直接提供E000。"},
+    {"code":"E100","name":"ATP车载","level":2,"parent_code":"E000","parent_name":"电务车载","node_role":"外部技术系统边界","source_type":"external_system","source_ref":"全部!618 / 入选!90","source_basis":"全部Sheet与入选Sheet共同证明E100父子关系；不补虚构中间层。"},
+    {"code":"X000","name":"再生储能扩展","level":1,"parent_code":"","parent_name":"","node_role":"项目自定义再生储能扩展","source_type":"project_extension","source_ref":"CONFIG:custom_products:X000","source_basis":"任务规定的X项目扩展层级。"},
+    {"code":"X100","name":"车载再生储能","level":2,"parent_code":"X000","parent_name":"再生储能扩展","node_role":"车载储能子系统","source_type":"project_extension","source_ref":"CONFIG:custom_products:X100","source_basis":"任务规定的X项目扩展层级。"},
+    {"code":"X110","name":"双向储能变流及控制","level":3,"parent_code":"X100","parent_name":"车载再生储能","node_role":"储能功率变换与控制","source_type":"project_extension","source_ref":"CONFIG:custom_products:X110","source_basis":"X111/X112/X113父名称。"},
+    {"code":"X120","name":"超级电容储能组件","level":3,"parent_code":"X100","parent_name":"车载再生储能","node_role":"超级电容储能与测量","source_type":"project_extension","source_ref":"CONFIG:custom_products:X120","source_basis":"X121/X122/X123/X124父名称。"},
+    {"code":"X130","name":"储能接入与保护","level":3,"parent_code":"X100","parent_name":"车载再生储能","node_role":"储能接入与保护","source_type":"project_extension","source_ref":"CONFIG:custom_products:X130","source_basis":"X131/X132/X133父名称。"},
+    {"code":"X111","name":"双向DC/DC变流模块","level":4,"parent_code":"X110","parent_name":"双向储能变流及控制","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!70 / Sheet3!70","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X112","name":"双向DC/DC控制模块","level":4,"parent_code":"X110","parent_name":"双向储能变流及控制","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!71 / Sheet3!71","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X113","name":"双向DC/DC检测保护组件","level":4,"parent_code":"X110","parent_name":"双向储能变流及控制","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!72 / Sheet3!72","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X121","name":"超级电容模块","level":4,"parent_code":"X120","parent_name":"超级电容储能组件","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!73 / Sheet3!73","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X122","name":"超级电容电压传感器","level":4,"parent_code":"X120","parent_name":"超级电容储能组件","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!74 / Sheet3!74","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X123","name":"超级电容电流传感器","level":4,"parent_code":"X120","parent_name":"超级电容储能组件","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!75 / Sheet3!75","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X124","name":"超级电容温度传感器","level":4,"parent_code":"X120","parent_name":"超级电容储能组件","node_role":"储能保护测量","source_type":"project_extension","source_ref":"入选!91 / Sheet3!91","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X131","name":"储能主接触器","level":4,"parent_code":"X130","parent_name":"储能接入与保护","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!76 / Sheet3!76","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X132","name":"储能预充电组件","level":4,"parent_code":"X130","parent_name":"储能接入与保护","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!77 / Sheet3!77","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"},
+    {"code":"X133","name":"储能支路保护组件","level":4,"parent_code":"X130","parent_name":"储能接入与保护","node_role":"储能扩展核心","source_type":"project_extension","source_ref":"入选!78 / Sheet3!78","source_basis":"入选与Sheet3提供名称和父名称；非299标准节点。"}
+  ],
+  "managed_labels": ["Product", "Item", "Profile"],
+  "managed_relationships": ["CONTAINS", "EXPOSES"],
+  "forbidden_labels": ["Port"],
+  "forbidden_relationships": ["CONNECTS_TO", "Connection", "PART_OF"],
+  "constraints": [
+    {
+      "name": "product_code_unique",
+      "cypher": "CREATE CONSTRAINT product_code_unique IF NOT EXISTS FOR (n:Product) REQUIRE n.code IS UNIQUE"
+    },
+    {
+      "name": "item_code_unique",
+      "cypher": "CREATE CONSTRAINT item_code_unique IF NOT EXISTS FOR (n:Item) REQUIRE n.item_code IS UNIQUE"
+    },
+    {
+      "name": "profile_id_unique",
+      "cypher": "CREATE CONSTRAINT profile_id_unique IF NOT EXISTS FOR (n:Profile) REQUIRE n.profile_id IS UNIQUE"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "product_level_index",
+      "cypher": "CREATE INDEX product_level_index IF NOT EXISTS FOR (n:Product) ON (n.level)"
+    },
+    {
+      "name": "product_name_index",
+      "cypher": "CREATE INDEX product_name_index IF NOT EXISTS FOR (n:Product) ON (n.name)"
+    },
+    {
+      "name": "item_family_index",
+      "cypher": "CREATE INDEX item_family_index IF NOT EXISTS FOR (n:Item) ON (n.item_family)"
+    },
+    {
+      "name": "item_domain_index",
+      "cypher": "CREATE INDEX item_domain_index IF NOT EXISTS FOR (n:Item) ON (n.domain)"
+    }
+  ]
+}

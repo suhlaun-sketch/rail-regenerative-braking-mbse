@@ -1,0 +1,146 @@
+{
+  "validation_id": "RAIL-MBSE-ITEMFLOW-DISPLAY-PROBE-V5-QA",
+  "counts": {
+    "signal_connections": 147,
+    "information_flows": 147,
+    "item_flows": 147,
+    "illegal_item_property": 0,
+    "signal_chinese_names": 79,
+    "interface_block_chinese_names": 221,
+    "interface_blocks_with_complete_code_metadata": 221,
+    "interface_code_properties": 884,
+    "independent_information_flow_symbols": 0
+  },
+  "qa": [
+    {
+      "id": "FLOW-QA-01",
+      "status": "PASS",
+      "detail": "147 SIGNAL Final Connections have standard Connectors in the frozen baseline."
+    },
+    {
+      "id": "FLOW-QA-02",
+      "status": "PASS",
+      "detail": "Signal Connectors are standard uml:Connector elements."
+    },
+    {
+      "id": "FLOW-QA-03",
+      "status": "PASS",
+      "detail": "Corrected deterministic mapping contains 147 InformationFlows; frozen baseline count remains 147."
+    },
+    {
+      "id": "FLOW-QA-04",
+      "status": "PASS",
+      "detail": "Corrected deterministic mapping contains 147 standard ItemFlows; frozen baseline count remains 147."
+    },
+    {
+      "id": "FLOW-QA-05",
+      "status": "PASS",
+      "detail": "Each SIGNAL connection maps to exactly one InformationFlow."
+    },
+    {
+      "id": "FLOW-QA-06",
+      "status": "PASS",
+      "detail": "Each SIGNAL connection maps to exactly one ItemFlow application."
+    },
+    {
+      "id": "FLOW-QA-07",
+      "status": "PASS",
+      "detail": "Every conveyed reference resolves to its Item Signal classifier; the Probe conveyed classifier is uml:Signal."
+    },
+    {
+      "id": "FLOW-QA-08",
+      "status": "PASS",
+      "detail": "All conveyed Signal classifiers use frozen Chinese engineering Item names."
+    },
+    {
+      "id": "FLOW-QA-09",
+      "status": "PASS",
+      "detail": "All InformationFlow sources are effective out Ports."
+    },
+    {
+      "id": "FLOW-QA-10",
+      "status": "PASS",
+      "detail": "All InformationFlow targets are effective in Ports."
+    },
+    {
+      "id": "FLOW-QA-11",
+      "status": "PASS",
+      "detail": "Every InformationFlow realizes its frozen Connector."
+    },
+    {
+      "id": "FLOW-QA-12",
+      "status": "PASS",
+      "detail": "No ItemFlow references an InterfaceBlock-owned FlowProperty as itemProperty."
+    },
+    {
+      "id": "FLOW-QA-13",
+      "status": "PASS",
+      "detail": "Static source of the MagicDraw common-owner ItemProperty warning is absent."
+    },
+    {
+      "id": "FLOW-QA-14",
+      "status": "PASS",
+      "detail": "No independent dashed InformationFlow diagram symbol is generated."
+    },
+    {
+      "id": "FLOW-QA-15",
+      "status": "PASS",
+      "detail": "ItemFlow direction is source out -> target in for all 147 mappings."
+    },
+    {
+      "id": "NAME-QA-01",
+      "status": "PASS",
+      "detail": "No InterfaceBlock primary name starts with a technical code prefix."
+    },
+    {
+      "id": "NAME-QA-02",
+      "status": "PASS",
+      "detail": "All 221 directional InterfaceBlocks have Chinese engineering names; both Probe names are Chinese."
+    },
+    {
+      "id": "NAME-QA-03",
+      "status": "PASS",
+      "detail": "interface_type_code is retained as a standard UML String Property for all InterfaceBlocks."
+    },
+    {
+      "id": "NAME-QA-04",
+      "status": "PASS",
+      "detail": "item_code is retained as a standard UML String Property for all InterfaceBlocks."
+    },
+    {
+      "id": "NAME-QA-05",
+      "status": "PASS",
+      "detail": "port_type_code is retained as a standard UML String Property for all InterfaceBlocks."
+    },
+    {
+      "id": "NAME-QA-06",
+      "status": "PASS",
+      "detail": "All frozen Port names remain Chinese engineering names; Probe Port names are unchanged."
+    },
+    {
+      "id": "NAME-QA-07",
+      "status": "PASS",
+      "detail": "All 79 distinct conveyed Signal classifiers use their frozen Chinese Item names."
+    }
+  ],
+  "qa_summary": {
+    "PASS": 22,
+    "FAIL": 0
+  },
+  "probe_checks": {
+    "structure_unchanged_from_v4": true,
+    "probe_connector_count": true,
+    "probe_information_flow_count": true,
+    "probe_itemflow_count": true,
+    "probe_illegal_itemproperty_count": true,
+    "probe_code_metadata": true,
+    "probe_signal_name_chinese": true,
+    "probe_interface_names_chinese": true,
+    "probe_no_vendor_diagram": true,
+    "byte_deterministic": true
+  },
+  "probe_status": "PASS",
+  "probe_path": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_SysML17_itemflow_probe_v5.xmi",
+  "magicdraw_presentation": "GOLDEN_SAMPLE_REQUIRED",
+  "full_xmi_published": false
+}

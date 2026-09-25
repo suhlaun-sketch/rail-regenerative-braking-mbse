@@ -1,0 +1,5784 @@
+{
+  "meta": {
+    "total_active_ports": 511,
+    "counts": {
+      "EXTERNAL_BOUNDARY": 12,
+      "CONNECTED": 283,
+      "TAP_CONNECTED": 17,
+      "OPTIONAL_OPEN": 126,
+      "NET_MEMBER": 73
+    },
+    "critical_unresolved": 0
+  },
+  "coverage": [
+    {
+      "port_id": "PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理",
+      "product_code": "3111",
+      "item_code": "ITM-PHY-006",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-C53D41B4A1F64D70B4607AA4"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3111::轮轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3111",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C81A2253CDA9FC6173740074"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3112::传动段旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3112",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-AF75A5003A9B1A8DE28924E1"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3112",
+      "item_code": "ITM-PHY-005",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-C81A2253CDA9FC6173740074",
+        "CG-FA31DFA220FEF0D6FAC8EB67"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3121",
+      "item_code": "ITM-PHY-005",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-AF75A5003A9B1A8DE28924E1",
+        "CG-4CB0735167799FD438F90DD2"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3121",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3CA6C3BF7D7B4F80CF0990D0"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "product_code": "3131",
+      "item_code": "ITM-PHY-007",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-DA869E241F8A36DBAAC07E48"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3131::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "3131",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-D9940860A6DB9E6BD5200881"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "product_code": "3132",
+      "item_code": "ITM-PHY-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3132::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "3132",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-7CA35F612B7EF59664CE06F0"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "product_code": "3133",
+      "item_code": "ITM-PHY-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3133::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "3133",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-91B4F6F81C7185E848BAF73E"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3511::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3511",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-338D68ABEF709ACD5E0DDCC6"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3511::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3511",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4B59832BB120B07245DB82FA"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3512::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3512",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-5CC6DABFA52A640C8BC115E5"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3512::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3512",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3CA6C3BF7D7B4F80CF0990D0"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3514::第一轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3514",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4B59832BB120B07245DB82FA"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3514::第二轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3514",
+      "item_code": "ITM-PHY-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-5CC6DABFA52A640C8BC115E5"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3641::旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3641",
+      "item_code": "ITM-PHY-005",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-FA31DFA220FEF0D6FAC8EB67"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3641::轴端角速度输出::ITM-MEA-002::输出",
+      "product_code": "3641",
+      "item_code": "ITM-MEA-002",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3643::旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3643",
+      "item_code": "ITM-PHY-005",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-4CB0735167799FD438F90DD2"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3643::齿轮箱转速输出::ITM-MEA-003::输出",
+      "product_code": "3643",
+      "item_code": "ITM-MEA-003",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3644::旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "3644",
+      "item_code": "ITM-PHY-005",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-07AF42BFA3927EF22F7BDDE7"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3644::牵引电机转速输出::ITM-MEA-004::输出",
+      "product_code": "3644",
+      "item_code": "ITM-MEA-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-89DF67BFD358C3EEF4DB05F2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3811::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "3811",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3811::撒砂执行指令输出::ITM-CMD-032::输出",
+      "product_code": "3811",
+      "item_code": "ITM-CMD-032",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-943AD35B9C94E8B079F6212A"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3811::撒砂状态输出::ITM-STA-012::输出",
+      "product_code": "3811",
+      "item_code": "ITM-STA-012",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3811::撒砂请求输入::ITM-CMD-024::输入",
+      "product_code": "3811",
+      "item_code": "ITM-CMD-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-565AF053FC6E3FF333FD7433"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3813::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "3813",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3813::撒砂执行指令输入::ITM-CMD-032::输入",
+      "product_code": "3813",
+      "item_code": "ITM-CMD-032",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-943AD35B9C94E8B079F6212A"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3813::撒砂状态输出::ITM-STA-012::输出",
+      "product_code": "3813",
+      "item_code": "ITM-STA-012",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::3813::砂流端口::ITM-PHY-012::双向物理",
+      "product_code": "3813",
+      "item_code": "ITM-PHY-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E5A3740D9F06BF31CB55A481"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::3814::砂流端口::ITM-PHY-012::双向物理",
+      "product_code": "3814",
+      "item_code": "ITM-PHY-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E5A3740D9F06BF31CB55A481"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4111::导流端高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4111",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9EB19436ED0A54ECCF52C717"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4111::接触面高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4111",
+      "item_code": "ITM-PHY-001",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-992C677E70DA53B7B40EA26C"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::411C::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "411C",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::411C::受电弓控制指令输入::ITM-CMD-018::输入",
+      "product_code": "411C",
+      "item_code": "ITM-CMD-018",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2EE117B4B0633E38D394B904"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::411C::受电弓状态输出::ITM-STA-015::输出",
+      "product_code": "411C",
+      "item_code": "ITM-STA-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8F81398231970DBDB0A7F854"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::411C::高压系统故障状态输出::ITM-STA-016::输出",
+      "product_code": "411C",
+      "item_code": "ITM-STA-016",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4211::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4211",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3632726B793CD5429112CAD4"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4211::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4211",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9EB19436ED0A54ECCF52C717"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4211::高压断路器指令输入::ITM-CMD-016::输入",
+      "product_code": "4211",
+      "item_code": "ITM-CMD-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E0DB6C9771E2E272BC041D82"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4211::高压断路器状态输出::ITM-STA-013::输出",
+      "product_code": "4211",
+      "item_code": "ITM-STA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C9CA06B236DB453EEFEC07E6"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4211::高压系统故障状态输出::ITM-STA-016::输出",
+      "product_code": "4211",
+      "item_code": "ITM-STA-016",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4212",
+      "item_code": "ITM-PHY-001",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-BF14D9A0947A4893C7260661",
+        "CG-51C22959FEAD177C3827B364"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4212::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4212",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3632726B793CD5429112CAD4"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4212::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "product_code": "4212",
+      "item_code": "ITM-CMD-017",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4104726E8B8410405C176AF3"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4212::高压隔离开关状态输出::ITM-STA-014::输出",
+      "product_code": "4212",
+      "item_code": "ITM-STA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-0B7698B3C627150EF560B4B0"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4235::高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4235",
+      "item_code": "ITM-PHY-001",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-51C22959FEAD177C3827B364"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4235::高压线路电压输出::ITM-MEA-005::输出",
+      "product_code": "4235",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8EE395387745CC0A6FB55207",
+        "CG-002543DBE0F9A7FBC2A3FDD3"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4236::第一测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4236",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BF14D9A0947A4893C7260661"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4236::第二测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4236",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B483D5C4E4EC5F805E3B0F19"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4236::高压线路电流输出::ITM-MEA-006::输出",
+      "product_code": "4236",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C346B9ABBAE556A332DA422F",
+        "CG-20C0A22ECCF07864FDBA3F5A"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "4238",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4238::受电弓控制指令输入::ITM-CMD-018::输入",
+      "product_code": "4238",
+      "item_code": "ITM-CMD-018",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C3FD4BDC3D0E9ABF609DAE81"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::受电弓控制指令输出::ITM-CMD-018::输出",
+      "product_code": "4238",
+      "item_code": "ITM-CMD-018",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2EE117B4B0633E38D394B904"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::受电弓状态输入::ITM-STA-015::输入",
+      "product_code": "4238",
+      "item_code": "ITM-STA-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8F81398231970DBDB0A7F854"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::受电弓状态输出::ITM-STA-015::输出",
+      "product_code": "4238",
+      "item_code": "ITM-STA-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8E2E18108BE2E7B2FB898537"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压断路器指令输入::ITM-CMD-016::输入",
+      "product_code": "4238",
+      "item_code": "ITM-CMD-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-F85BCC7C68AD281053865693"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压断路器指令输出::ITM-CMD-016::输出",
+      "product_code": "4238",
+      "item_code": "ITM-CMD-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E0DB6C9771E2E272BC041D82",
+        "CG-9ACDE46A41EE650430438B91"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压断路器状态输入::ITM-STA-013::输入",
+      "product_code": "4238",
+      "item_code": "ITM-STA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C9CA06B236DB453EEFEC07E6"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压断路器状态输出::ITM-STA-013::输出",
+      "product_code": "4238",
+      "item_code": "ITM-STA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C64E0682EDDBDDD748BA13CA",
+        "CG-37792F42F4274C7C51C63270"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+      "product_code": "4238",
+      "item_code": "ITM-STA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2274BA128E639FDE4D4F56EC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压系统故障状态输出::ITM-STA-016::输出",
+      "product_code": "4238",
+      "item_code": "ITM-STA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A7173AC81E21DD801A82E73D",
+        "CG-CE2820923CC0CB141833E11D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压线路电压输入::ITM-MEA-005::输入",
+      "product_code": "4238",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8EE395387745CC0A6FB55207"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压线路电压输出::ITM-MEA-005::输出",
+      "product_code": "4238",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-6C6B569AD3F71A70A799D067",
+        "CG-D44FA955851A05FB81FD0837",
+        "CG-1C5FC46A1E7682144A3BDDDF"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压线路电流输入::ITM-MEA-006::输入",
+      "product_code": "4238",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C346B9ABBAE556A332DA422F"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压线路电流输出::ITM-MEA-006::输出",
+      "product_code": "4238",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CD05C34D37DBECA08731CAFA",
+        "CG-43EF4A944142319DE5088758",
+        "CG-FE573ED935CFF37491A053E8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "product_code": "4238",
+      "item_code": "ITM-CMD-017",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-676A4A51307B0199D39544B7"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "product_code": "4238",
+      "item_code": "ITM-CMD-017",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4104726E8B8410405C176AF3"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压隔离开关状态输入::ITM-STA-014::输入",
+      "product_code": "4238",
+      "item_code": "ITM-STA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-0B7698B3C627150EF560B4B0"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4238::高压隔离开关状态输出::ITM-STA-014::输出",
+      "product_code": "4238",
+      "item_code": "ITM-STA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D2E26B7066F1A62115B06D59"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "4239",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4239::受电弓控制指令输出::ITM-CMD-018::输出",
+      "product_code": "4239",
+      "item_code": "ITM-CMD-018",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C3FD4BDC3D0E9ABF609DAE81"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::受电弓状态输入::ITM-STA-015::输入",
+      "product_code": "4239",
+      "item_code": "ITM-STA-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8E2E18108BE2E7B2FB898537"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::线路频率输入::ITM-MEA-007::输入",
+      "product_code": "4239",
+      "item_code": "ITM-MEA-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压安全回路状态输入::ITM-STA-024::输入",
+      "product_code": "4239",
+      "item_code": "ITM-STA-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-F55B5E17D8CBFAC80E0961C2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压断路器指令输出::ITM-CMD-016::输出",
+      "product_code": "4239",
+      "item_code": "ITM-CMD-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-F85BCC7C68AD281053865693"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压断路器状态输入::ITM-STA-013::输入",
+      "product_code": "4239",
+      "item_code": "ITM-STA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C64E0682EDDBDDD748BA13CA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压系统故障状态汇总输出::ITM-STA-016::输出",
+      "product_code": "4239",
+      "item_code": "ITM-STA-016",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+      "product_code": "4239",
+      "item_code": "ITM-STA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A7173AC81E21DD801A82E73D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压线路电压输入::ITM-MEA-005::输入",
+      "product_code": "4239",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-6C6B569AD3F71A70A799D067"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压线路电流输入::ITM-MEA-006::输入",
+      "product_code": "4239",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CD05C34D37DBECA08731CAFA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "product_code": "4239",
+      "item_code": "ITM-CMD-017",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-676A4A51307B0199D39544B7"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4239::高压隔离开关状态输入::ITM-STA-014::输入",
+      "product_code": "4239",
+      "item_code": "ITM-STA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D2E26B7066F1A62115B06D59"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "4241",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4241::回馈电网功率输出::ITM-ACC-003::输出",
+      "product_code": "4241",
+      "item_code": "ITM-ACC-003",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::回馈电网累计能量输出::ITM-ACC-009::输出",
+      "product_code": "4241",
+      "item_code": "ITM-ACC-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::牵引实际功率输出::ITM-ACC-001::输出",
+      "product_code": "4241",
+      "item_code": "ITM-ACC-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::牵引累计能量输出::ITM-ACC-007::输出",
+      "product_code": "4241",
+      "item_code": "ITM-ACC-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::能量计量有效状态输出::ITM-STA-035::输出",
+      "product_code": "4241",
+      "item_code": "ITM-STA-035",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::高压线路电压输入::ITM-MEA-005::输入",
+      "product_code": "4241",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D44FA955851A05FB81FD0837"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4241::高压线路电流输入::ITM-MEA-006::输入",
+      "product_code": "4241",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-43EF4A944142319DE5088758"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4411::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "product_code": "4411",
+      "item_code": "ITM-PHY-011",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-MAIN-RETURN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4411::回流侧电流端口::ITM-PHY-011::双向物理",
+      "product_code": "4411",
+      "item_code": "ITM-PHY-011",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-MAIN-RETURN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4411::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "4411",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-76271B14A422D23C0C6E327D"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4412::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "product_code": "4412",
+      "item_code": "ITM-PHY-011",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-MAIN-RETURN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4412::回流侧电流端口::ITM-PHY-011::双向物理",
+      "product_code": "4412",
+      "item_code": "ITM-PHY-011",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-MAIN-RETURN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4412::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "4412",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-2C24BA16EF5F2F7E99733CD6"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4413::固定端回流电流端口::ITM-PHY-011::双向物理",
+      "product_code": "4413",
+      "item_code": "ITM-PHY-011",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-48B77E7B4DEB11D4F5543CCB"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4413::旋转端回流电流端口::ITM-PHY-011::双向物理",
+      "product_code": "4413",
+      "item_code": "ITM-PHY-011",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-MAIN-RETURN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4511::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "product_code": "4511",
+      "item_code": "ITM-PHY-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1803BC1FF5BB8C1A4F69CBA8"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4511::高压交流电能端口::ITM-PHY-001::双向物理",
+      "product_code": "4511",
+      "item_code": "ITM-PHY-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B483D5C4E4EC5F805E3B0F19"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4513::第一交流电能端口::ITM-PHY-014::双向物理",
+      "product_code": "4513",
+      "item_code": "ITM-PHY-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1803BC1FF5BB8C1A4F69CBA8"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4513::第二交流电能端口::ITM-PHY-014::双向物理",
+      "product_code": "4513",
+      "item_code": "ITM-PHY-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-118F2C2B84D1D301C7BE63F8",
+        "CG-117A3F0E6C8FF8FF0013A46B"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4517::主变压器温度输出::ITM-MEA-022::输出",
+      "product_code": "4517",
+      "item_code": "ITM-MEA-022",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1687BE836F7FC44BCDADF2D2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4517::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "4517",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4517::高压系统故障状态输出::ITM-STA-016::输出",
+      "product_code": "4517",
+      "item_code": "ITM-STA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2274BA128E639FDE4D4F56EC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4518::主变压器温度输入::ITM-MEA-022::输入",
+      "product_code": "4518",
+      "item_code": "ITM-MEA-022",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1687BE836F7FC44BCDADF2D2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4518::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "4518",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::4518::高压断路器指令输出::ITM-CMD-016::输出",
+      "product_code": "4518",
+      "item_code": "ITM-CMD-016",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4518::高压断路器状态输入::ITM-STA-013::输入",
+      "product_code": "4518",
+      "item_code": "ITM-STA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-37792F42F4274C7C51C63270"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+      "product_code": "4518",
+      "item_code": "ITM-STA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CE2820923CC0CB141833E11D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "5111",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-57C4C380DFA4E14C0890F4FC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+      "product_code": "5111",
+      "item_code": "ITM-MEA-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E85E42C2A83EE58624438A26"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "5111",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5111::再生功率上限输出::ITM-LIM-004::输出",
+      "product_code": "5111",
+      "item_code": "ITM-LIM-004",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出",
+      "product_code": "5111",
+      "item_code": "ITM-LIM-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BDD8747118488C9BE895D95F",
+        "CG-08375F15DCE75E45D4C45CE8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "product_code": "5111",
+      "item_code": "ITM-STA-019",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::线路频率输入::ITM-MEA-007::输入",
+      "product_code": "5111",
+      "item_code": "ITM-MEA-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::网侧变流器状态输出::ITM-STA-017::输出",
+      "product_code": "5111",
+      "item_code": "ITM-STA-017",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::网侧变流控制指令输出::ITM-CMD-010::输出",
+      "product_code": "5111",
+      "item_code": "ITM-CMD-010",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B99AB8690BDE418D1F8055E3"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+      "product_code": "5111",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-002543DBE0F9A7FBC2A3FDD3"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5111::高压线路电流输入::ITM-MEA-006::输入",
+      "product_code": "5111",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-20C0A22ECCF07864FDBA3F5A"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "5112",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D338FAEF97B977B2FE95051B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+      "product_code": "5112",
+      "item_code": "ITM-MEA-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A467E486FE1FCC1FD2410729"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "5112",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5112::再生功率上限输出::ITM-LIM-004::输出",
+      "product_code": "5112",
+      "item_code": "ITM-LIM-004",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::动态制动可用状态输出::ITM-STA-002::输出",
+      "product_code": "5112",
+      "item_code": "ITM-STA-002",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::可用动态制动力输出::ITM-LIM-001::输出",
+      "product_code": "5112",
+      "item_code": "ITM-LIM-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+      "product_code": "5112",
+      "item_code": "ITM-LIM-003",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "product_code": "5112",
+      "item_code": "ITM-STA-019",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::牵引可用状态输出::ITM-STA-001::输出",
+      "product_code": "5112",
+      "item_code": "ITM-STA-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "product_code": "5112",
+      "item_code": "ITM-MEA-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D4DF5719633CB5B375F35094"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::牵引电机转矩请求输入::ITM-CMD-012::输入",
+      "product_code": "5112",
+      "item_code": "ITM-CMD-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7365C853DD9391D9914E0C8A"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::牵引电机转速输入::ITM-MEA-004::输入",
+      "product_code": "5112",
+      "item_code": "ITM-MEA-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-46A1EE350324445D016EAF45"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::电机侧变流器状态输出::ITM-STA-018::输出",
+      "product_code": "5112",
+      "item_code": "ITM-STA-018",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::电机侧变流控制指令输出::ITM-CMD-011::输出",
+      "product_code": "5112",
+      "item_code": "ITM-CMD-011",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-62B37C74D7B0F1346E00D437"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+      "product_code": "5112",
+      "item_code": "ITM-MEA-011",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-37ECA5B04E215AC3E6A4B472"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+      "product_code": "5112",
+      "item_code": "ITM-MEA-010",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BDE1416487389FCF7B495D3E"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "product_code": "5113",
+      "item_code": "ITM-MEA-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::中间直流母线电流输出::ITM-MEA-009::输出",
+      "product_code": "5113",
+      "item_code": "ITM-MEA-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::中间直流环节保护状态输出::ITM-STA-020::输出",
+      "product_code": "5113",
+      "item_code": "ITM-STA-020",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "5113",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5113::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "product_code": "5113",
+      "item_code": "ITM-STA-019",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-55513667B46680F5B87A0939"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::牵引变流器温度输出::ITM-MEA-023::输出",
+      "product_code": "5113",
+      "item_code": "ITM-MEA-023",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::电机侧相电流输出::ITM-MEA-010::输出",
+      "product_code": "5113",
+      "item_code": "ITM-MEA-010",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BDE1416487389FCF7B495D3E"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "product_code": "5113",
+      "item_code": "ITM-LIM-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5121::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "5121",
+      "item_code": "ITM-PHY-003",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5121::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "product_code": "5121",
+      "item_code": "ITM-PHY-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-118F2C2B84D1D301C7BE63F8",
+        "CG-4DBAA813D3DED180F94E9B7F"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5121::预充电指令输入::ITM-CMD-013::输入",
+      "product_code": "5121",
+      "item_code": "ITM-CMD-013",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5121::预充电状态输出::ITM-STA-021::输出",
+      "product_code": "5121",
+      "item_code": "ITM-STA-021",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5122::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "5122",
+      "item_code": "ITM-PHY-003",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5122::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "product_code": "5122",
+      "item_code": "ITM-PHY-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-117A3F0E6C8FF8FF0013A46B",
+        "CG-13AAF69570338FD5B6C27BC3"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5122::牵引输入接通指令输入::ITM-CMD-014::输入",
+      "product_code": "5122",
+      "item_code": "ITM-CMD-014",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5122::牵引输入接通状态输出::ITM-STA-022::输出",
+      "product_code": "5122",
+      "item_code": "ITM-STA-022",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5131::中间直流母线电压输出::ITM-MEA-008::输出",
+      "product_code": "5131",
+      "item_code": "ITM-MEA-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5131::中间直流母线电流输出::ITM-MEA-009::输出",
+      "product_code": "5131",
+      "item_code": "ITM-MEA-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5131::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "5131",
+      "item_code": "ITM-PHY-003",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5131::回馈电网功率输出::ITM-ACC-003::输出",
+      "product_code": "5131",
+      "item_code": "ITM-ACC-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B399D92EE15558C08A95FA03"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5131::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "product_code": "5131",
+      "item_code": "ITM-PHY-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4DBAA813D3DED180F94E9B7F",
+        "CG-13AAF69570338FD5B6C27BC3"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5131::网侧变流控制指令输入::ITM-CMD-010::输入",
+      "product_code": "5131",
+      "item_code": "ITM-CMD-010",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B99AB8690BDE418D1F8055E3"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5131::高压线路电压输出::ITM-MEA-005::输出",
+      "product_code": "5131",
+      "item_code": "ITM-MEA-005",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5131::高压线路电流输出::ITM-MEA-006::输出",
+      "product_code": "5131",
+      "item_code": "ITM-MEA-006",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5132::三相交流电能端口::ITM-PHY-004::双向物理",
+      "product_code": "5132",
+      "item_code": "ITM-PHY-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3BD24EBE88F37EEFFE563597"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5132::中间直流母线电压输出::ITM-MEA-008::输出",
+      "product_code": "5132",
+      "item_code": "ITM-MEA-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5132::中间直流母线电流输出::ITM-MEA-009::输出",
+      "product_code": "5132",
+      "item_code": "ITM-MEA-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5132::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "5132",
+      "item_code": "ITM-PHY-003",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5132::实际再生功率输出::ITM-ACC-002::输出",
+      "product_code": "5132",
+      "item_code": "ITM-ACC-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-40ADD911FF2840BEEAA67F8D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5132::电机侧变流控制指令输入::ITM-CMD-011::输入",
+      "product_code": "5132",
+      "item_code": "ITM-CMD-011",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-62B37C74D7B0F1346E00D437"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5132::电机侧相电压输出::ITM-MEA-011::输出",
+      "product_code": "5132",
+      "item_code": "ITM-MEA-011",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5132::电机侧相电流输出::ITM-MEA-010::输出",
+      "product_code": "5132",
+      "item_code": "ITM-MEA-010",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "5133",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9731BEC15024660A6C266D47"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "5133",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5133::制动斩波器指令输入::ITM-CMD-015::输入",
+      "product_code": "5133",
+      "item_code": "ITM-CMD-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3BE61F5C037C7491E88F4334"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5133::制动斩波器状态输出::ITM-STA-023::输出",
+      "product_code": "5133",
+      "item_code": "ITM-STA-023",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5133::制动电阻可耗散功率输出::ITM-LIM-006::输出",
+      "product_code": "5133",
+      "item_code": "ITM-LIM-006",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5142::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "5142",
+      "item_code": "ITM-PHY-003",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5142::制动电阻温度输出::ITM-MEA-024::输出",
+      "product_code": "5142",
+      "item_code": "ITM-MEA-024",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5142::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "product_code": "5142",
+      "item_code": "ITM-ACC-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A35E2178763C6233BE73AA36"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5142::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+      "product_code": "5142",
+      "item_code": "ITM-ACC-012",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5142::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "5142",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-BDBC6DE36D711BE7257BA6A4"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "product_code": "5145",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-57C4C380DFA4E14C0890F4FC",
+        "CG-D338FAEF97B977B2FE95051B",
+        "CG-9731BEC15024660A6C266D47",
+        "CG-732BB9F5922B7AC9420BB2D0",
+        "CG-C8FE042475056BF85CFA2B40",
+        "CG-A424455519797490E4F865AA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5145::中间直流母线电流输出::ITM-MEA-009::输出",
+      "product_code": "5145",
+      "item_code": "ITM-MEA-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E85E42C2A83EE58624438A26",
+        "CG-A467E486FE1FCC1FD2410729",
+        "CG-4E4C49F08CEE642A5C3C67EB"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5145::中间直流环节保护状态输出::ITM-STA-020::输出",
+      "product_code": "5145",
+      "item_code": "ITM-STA-020",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5145::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "5145",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5145::制动斩波器指令输出::ITM-CMD-015::输出",
+      "product_code": "5145",
+      "item_code": "ITM-CMD-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3BE61F5C037C7491E88F4334"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5145::直流母线电压上限输出::ITM-LIM-007::输出",
+      "product_code": "5145",
+      "item_code": "ITM-LIM-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5311::三相交流电能端口::ITM-PHY-004::双向物理",
+      "product_code": "5311",
+      "item_code": "ITM-PHY-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3BD24EBE88F37EEFFE563597"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "product_code": "5311",
+      "item_code": "ITM-PHY-005",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive TAP connection",
+      "connection_ids": [
+        "CG-07AF42BFA3927EF22F7BDDE7",
+        "CG-338D68ABEF709ACD5E0DDCC6"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::5311::牵引电机实际转矩输出::ITM-MEA-012::输出",
+      "product_code": "5311",
+      "item_code": "ITM-MEA-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D4DF5719633CB5B375F35094",
+        "CG-65E377DBF988541FA5778D1E"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5311::牵引电机转速输出::ITM-MEA-004::输出",
+      "product_code": "5311",
+      "item_code": "ITM-MEA-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-46A1EE350324445D016EAF45"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5311::电机侧相电压输出::ITM-MEA-011::输出",
+      "product_code": "5311",
+      "item_code": "ITM-MEA-011",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-37ECA5B04E215AC3E6A4B472"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::5311::电机侧相电流输出::ITM-MEA-010::输出",
+      "product_code": "5311",
+      "item_code": "ITM-MEA-010",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7124::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7124",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7124::制动风缸压力输出::ITM-MEA-015::输出",
+      "product_code": "7124",
+      "item_code": "ITM-MEA-015",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7131::总风管末端压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7131",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7131::总风管首端压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7131",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7142",
+      "item_code": "ITM-PHY-008",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7142::低风压状态输出::ITM-STA-009::输出",
+      "product_code": "7142",
+      "item_code": "ITM-STA-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7142::总风管压力输出::ITM-MEA-014::输出",
+      "product_code": "7142",
+      "item_code": "ITM-MEA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-739E53DD845C8CD2646C8E39"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "7211",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7211::低风压状态输入::ITM-STA-009::输入",
+      "product_code": "7211",
+      "item_code": "ITM-STA-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-5E309780F220E97DE29B2A38"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::列车质量输入::ITM-MEA-018::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-018",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::列车速度输入::ITM-MEA-001::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动安全回路状态输入::ITM-STA-025::输入",
+      "product_code": "7211",
+      "item_code": "ITM-STA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CE151D40A2BF816F41762F4C"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动拖滞状态输出::ITM-STA-008::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动控制接触器指令输出::ITM-CMD-031::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-031",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E9AAF8010953F56E28D65ACF"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动控制故障状态输出::ITM-STA-007::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动施加状态输出::ITM-STA-004::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7AAA105058D4FD893E634E16"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动电磁阀指令输出::ITM-CMD-022::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-022",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2B17DCC398F786E916C9C8DC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动系统可用状态输出::ITM-STA-003::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-944069F2CBBFA2A01274A9DB",
+        "CG-1102EBD35D52A38B96D5D2E7"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动缓解指令输出::ITM-CMD-019::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-019",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1D4D143F52B7F4D880B3CB30"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动缓解状态输出::ITM-STA-005::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1A5B4FFFE2C9C8ED85759C3D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动缸压力输入::ITM-MEA-016::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1AEA8B915E14A5D0FFEE30D9"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动隔离指令输出::ITM-CMD-020::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-020",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-FD763799DECBFD4A6F4F94AD",
+        "CG-CCE3D228C7F2AEE6207C1B6A",
+        "CG-3981A8B947B66F597AA9E03F"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::制动隔离状态输出::ITM-STA-006::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9B0510538F8E21B452D8C165"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::动态制动力请求输出::ITM-CMD-006::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B251741505CB19FE47559F29"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::动态制动可用状态输入::ITM-STA-002::输入",
+      "product_code": "7211",
+      "item_code": "ITM-STA-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1ACF37CC65D3FF235E8BD75C"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::可用动态制动力输入::ITM-LIM-001::输入",
+      "product_code": "7211",
+      "item_code": "ITM-LIM-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BEDE0932E86628B2EFCA8CCD"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::可用摩擦制动力输出::ITM-LIM-002::输出",
+      "product_code": "7211",
+      "item_code": "ITM-LIM-002",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::可用黏着系数估计输入::ITM-MEA-021::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-021",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::可用黏着限制输入::ITM-LIM-008::输入",
+      "product_code": "7211",
+      "item_code": "ITM-LIM-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-ED49C68C1459BB1005D412BB"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7211::实际动态制动力输入::ITM-MEA-013::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::实际摩擦制动力输入::ITM-MEA-017::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-017",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C7C6703197747322B57096B5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::总风管压力输入::ITM-MEA-014::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A0B82CF482DDFB4553F8CFCA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::摩擦制动力请求输出::ITM-CMD-007::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::最大允许减速度输入::ITM-LIM-014::输入",
+      "product_code": "7211",
+      "item_code": "ITM-LIM-014",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::最大允许制动力输入::ITM-LIM-013::输入",
+      "product_code": "7211",
+      "item_code": "ITM-LIM-013",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::服务制动请求输入::ITM-CMD-003::输入",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-979C19823B520B68E370ECB6"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7211::牵引切除请求输出::ITM-CMD-008::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::电空转换阀指令输出::ITM-CMD-021::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-021",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D1D66AE9099CD7FA32C270A6"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::紧急制动请求输入::ITM-CMD-004::输入",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-071B7693DAFA8B87ADA0A61E"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7211::车辆载荷系数输入::ITM-MEA-019::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-019",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::轮轨滑移率输入::ITM-MEA-020::输入",
+      "product_code": "7211",
+      "item_code": "ITM-MEA-020",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::防滑干预指令输出::ITM-CMD-023::输出",
+      "product_code": "7211",
+      "item_code": "ITM-CMD-023",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-56E4DA6D8C7C1FCFA93A8C7B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::防滑故障状态输出::ITM-STA-011::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-011",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7211::防滑激活状态输出::ITM-STA-010::输出",
+      "product_code": "7211",
+      "item_code": "ITM-STA-010",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7213::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "7213",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7213::制动控制接触器指令输入::ITM-CMD-031::输入",
+      "product_code": "7213",
+      "item_code": "ITM-CMD-031",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E9AAF8010953F56E28D65ACF"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7213::制动控制接触器状态输出::ITM-STA-036::输出",
+      "product_code": "7213",
+      "item_code": "ITM-STA-036",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7222::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7222",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7222::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "product_code": "7222",
+      "item_code": "ITM-PHY-009",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7222::电空转换阀指令输入::ITM-CMD-021::输入",
+      "product_code": "7222",
+      "item_code": "ITM-CMD-021",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D1D66AE9099CD7FA32C270A6"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7223::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7223",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7223::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "product_code": "7223",
+      "item_code": "ITM-PHY-009",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7223::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7223",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7224",
+      "item_code": "ITM-PHY-008",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "product_code": "7224",
+      "item_code": "ITM-PHY-009",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7224::车辆载荷系数输入::ITM-MEA-019::输入",
+      "product_code": "7224",
+      "item_code": "ITM-MEA-019",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7225::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7225",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7225::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "product_code": "7225",
+      "item_code": "ITM-PHY-009",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7225::制动电磁阀指令输入::ITM-CMD-022::输入",
+      "product_code": "7225",
+      "item_code": "ITM-CMD-022",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2B17DCC398F786E916C9C8DC"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7226::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7226",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7226::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "product_code": "7226",
+      "item_code": "ITM-PHY-009",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7226::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7226",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7226::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "product_code": "7226",
+      "item_code": "ITM-CMD-030",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7226::紧急制动请求输入::ITM-CMD-004::输入",
+      "product_code": "7226",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4163C3EB1F2D16B7AFCB21C9"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7227::制动缓解指令输入::ITM-CMD-019::输入",
+      "product_code": "7227",
+      "item_code": "ITM-CMD-019",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1D4D143F52B7F4D880B3CB30"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7227::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7227",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7228::制动隔离指令输入::ITM-CMD-020::输入",
+      "product_code": "7228",
+      "item_code": "ITM-CMD-020",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-FD763799DECBFD4A6F4F94AD"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7228::制动隔离状态输出::ITM-STA-006::输出",
+      "product_code": "7228",
+      "item_code": "ITM-STA-006",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7228::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7228",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7228::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7228",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7229::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "product_code": "7229",
+      "item_code": "ITM-PHY-008",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-MAIN-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7229::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "product_code": "7229",
+      "item_code": "ITM-PHY-009",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::722A::上游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "722A",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::722A::下游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "722A",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::722A::防滑干预指令输入::ITM-CMD-023::输入",
+      "product_code": "722A",
+      "item_code": "ITM-CMD-023",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-56E4DA6D8C7C1FCFA93A8C7B"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::722A::防滑故障状态输出::ITM-STA-011::输出",
+      "product_code": "722A",
+      "item_code": "ITM-STA-011",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::722A::防滑激活状态输出::ITM-STA-010::输出",
+      "product_code": "722A",
+      "item_code": "ITM-STA-010",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::722B::制动缸压力输出::ITM-MEA-016::输出",
+      "product_code": "722B",
+      "item_code": "ITM-MEA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E9224B53F74EDFCCFDA0FC70"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "722B",
+      "item_code": "ITM-PHY-010",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::722C::低风压状态输出::ITM-STA-009::输出",
+      "product_code": "722C",
+      "item_code": "ITM-STA-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-5E309780F220E97DE29B2A38"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "722C",
+      "item_code": "ITM-PHY-010",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7252::制动施加状态输出::ITM-STA-004::输出",
+      "product_code": "7252",
+      "item_code": "ITM-STA-004",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7252::制动缓解状态输出::ITM-STA-005::输出",
+      "product_code": "7252",
+      "item_code": "ITM-STA-005",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7252::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7252",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7252::实际摩擦制动力输出::ITM-MEA-017::输出",
+      "product_code": "7252",
+      "item_code": "ITM-MEA-017",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C7C6703197747322B57096B5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "product_code": "7252",
+      "item_code": "ITM-PHY-007",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-686A357580FCAB93907E7B31",
+        "CG-7D415C2FE2A98E99E69F2808"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "product_code": "7254",
+      "item_code": "ITM-PHY-007",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-686A357580FCAB93907E7B31",
+        "CG-DA869E241F8A36DBAAC07E48"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7254::摩擦制动耗散功率输出::ITM-ACC-006::输出",
+      "product_code": "7254",
+      "item_code": "ITM-ACC-006",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7254::摩擦制动耗散累计能量输出::ITM-ACC-013::输出",
+      "product_code": "7254",
+      "item_code": "ITM-ACC-013",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7254::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "7254",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-F69B9F4B8E034908EE3FE467"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7255::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7255",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "product_code": "7255",
+      "item_code": "ITM-PHY-007",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7D415C2FE2A98E99E69F2808"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7281::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "7281",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+      "product_code": "7281",
+      "item_code": "ITM-STA-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7AAA105058D4FD893E634E16"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+      "product_code": "7281",
+      "item_code": "ITM-STA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1A5B4FFFE2C9C8ED85759C3D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+      "product_code": "7281",
+      "item_code": "ITM-STA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9B0510538F8E21B452D8C165"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7284::制动隔离指令输入::ITM-CMD-020::输入",
+      "product_code": "7284",
+      "item_code": "ITM-CMD-020",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CCE3D228C7F2AEE6207C1B6A"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7284::制动隔离状态输出::ITM-STA-006::输出",
+      "product_code": "7284",
+      "item_code": "ITM-STA-006",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7284::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7284",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7284::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7284",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7285::制动隔离指令输入::ITM-CMD-020::输入",
+      "product_code": "7285",
+      "item_code": "ITM-CMD-020",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3981A8B947B66F597AA9E03F"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7285::制动隔离状态输出::ITM-STA-006::输出",
+      "product_code": "7285",
+      "item_code": "ITM-STA-006",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::7285::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7285",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::7285::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "product_code": "7285",
+      "item_code": "ITM-PHY-010",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "product_code": "8121",
+      "item_code": "ITM-STA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-ACA2BC6B6BBEF201778733FC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8121",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8121::列车方向指令输入::ITM-CMD-001::输入",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A3B31951ADAE62C498E76260"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::列车方向指令输出::ITM-CMD-001::输出",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-767F79CB763B96968C94D7AD"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::列车速度输入::ITM-MEA-001::输入",
+      "product_code": "8121",
+      "item_code": "ITM-MEA-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::制动安全回路状态输入::ITM-STA-025::输入",
+      "product_code": "8121",
+      "item_code": "ITM-STA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3352802713B03806EB2934A1"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::制动系统可用状态输入::ITM-STA-003::输入",
+      "product_code": "8121",
+      "item_code": "ITM-STA-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-944069F2CBBFA2A01274A9DB"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C6A9FBA7CCD28311320F3552"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8121::服务制动请求输入::ITM-CMD-003::输入",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-41AD09EEB4EAB9DC956C08F8"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8121::服务制动请求输出::ITM-CMD-003::输出",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-979C19823B520B68E370ECB6",
+        "CG-410B8D702206200512DD3731"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::牵引使能指令输出::ITM-CMD-009::输出",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-44E8AB4EA7ED953642770E4E",
+        "CG-2C4335E39D698D9A34096F73"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::牵引切除请求输出::ITM-CMD-008::输出",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-14318213721CBD91F198F77B",
+        "CG-50AB5ECD4830D34487B7B557"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::牵引可用状态输入::ITM-STA-001::输入",
+      "product_code": "8121",
+      "item_code": "ITM-STA-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BB962E06FB56D8459F9A2BF0"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::牵引安全回路状态输入::ITM-STA-026::输入",
+      "product_code": "8121",
+      "item_code": "ITM-STA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-6546CFCB7800C785459AC8E1"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::牵引指令输入::ITM-CMD-002::输入",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2E8F3CC8A8EBCDE6B7CF4D27"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::牵引指令输出::ITM-CMD-002::输出",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7AEA5BA2801064550BBE6D02",
+        "CG-121266057FF9E69E8769A5CA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::紧急制动请求输入::ITM-CMD-004::输入",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8EED0159D22D9EDC70A9EA67"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8121::紧急制动请求输出::ITM-CMD-004::输出",
+      "product_code": "8121",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-071B7693DAFA8B87ADA0A61E",
+        "CG-4163C3EB1F2D16B7AFCB21C9",
+        "CG-1D8165FC25AEFF761DD29797"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8121::高压安全回路状态输入::ITM-STA-024::输入",
+      "product_code": "8121",
+      "item_code": "ITM-STA-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C0F5EB5317440FA36F0491AE"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "8122",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-732BB9F5922B7AC9420BB2D0"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8122",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8122::储能主接触器指令输出::ITM-CMD-027::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1AE13610E33C0DC7055CFCED"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能功率请求输出::ITM-CMD-025::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7A2381DC8C36A40B747035A5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+      "product_code": "8122",
+      "item_code": "ITM-LIM-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CB302083C9F33A1345D9C406"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+      "product_code": "8122",
+      "item_code": "ITM-LIM-010",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-DAF7D43DDD825831F29A70F8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+      "product_code": "8122",
+      "item_code": "ITM-ACC-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-093EFCE58F3AB220CFEC48AC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能故障复位指令输出::ITM-CMD-029::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-029",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D8FCE908D4FD9343C6353985"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能系统可用状态输入::ITM-STA-030::输入",
+      "product_code": "8122",
+      "item_code": "ITM-STA-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+      "product_code": "8122",
+      "item_code": "ITM-STA-031",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C113ED5B462ACDD4ACE56E91"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::储能预充电指令输出::ITM-CMD-028::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D9CD1E8933F596F319A67625"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+      "product_code": "8122",
+      "item_code": "ITM-LIM-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BE9EAF0E7F50C277DA344138"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::列车方向指令输入::ITM-CMD-001::输入",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-767F79CB763B96968C94D7AD"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::列车速度输入::ITM-MEA-001::输入",
+      "product_code": "8122",
+      "item_code": "ITM-MEA-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+      "product_code": "8122",
+      "item_code": "ITM-ACC-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A35E2178763C6233BE73AA36"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::制动系统可用状态输入::ITM-STA-003::输入",
+      "product_code": "8122",
+      "item_code": "ITM-STA-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1102EBD35D52A38B96D5D2E7"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::动态制动可用状态输入::ITM-STA-002::输入",
+      "product_code": "8122",
+      "item_code": "ITM-STA-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-14D79A46EA4824EAC69F2DCF"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-25DC22E45A984D1CB28D188B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "product_code": "8122",
+      "item_code": "ITM-MEA-029",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::可用动态制动力输入::ITM-LIM-001::输入",
+      "product_code": "8122",
+      "item_code": "ITM-LIM-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B5CE3B88204C1D03AD0527D2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+      "product_code": "8122",
+      "item_code": "ITM-ACC-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B399D92EE15558C08A95FA03"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9AE6E470A1C767E917CAED42"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+      "product_code": "8122",
+      "item_code": "ITM-ACC-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-40ADD911FF2840BEEAA67F8D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::实际动态制动力输入::ITM-MEA-013::输入",
+      "product_code": "8122",
+      "item_code": "ITM-MEA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7664DA49869213FC03120E3B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::接触网可接收功率输入::ITM-LIM-005::输入",
+      "product_code": "8122",
+      "item_code": "ITM-LIM-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BDD8747118488C9BE895D95F"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::撒砂请求输出::ITM-CMD-024::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-53ADA5E90929843D3AD53312"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::服务制动请求输入::ITM-CMD-003::输入",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-410B8D702206200512DD3731"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8122::牵引使能指令输出::ITM-CMD-009::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::牵引切除请求输出::ITM-CMD-008::输出",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+      "product_code": "8122",
+      "item_code": "ITM-STA-019",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-55513667B46680F5B87A0939"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::牵引可用状态输入::ITM-STA-001::输入",
+      "product_code": "8122",
+      "item_code": "ITM-STA-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B1E191297C1D862473B2D371"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::牵引指令输入::ITM-CMD-002::输入",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-121266057FF9E69E8769A5CA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::紧急制动请求输入::ITM-CMD-004::输入",
+      "product_code": "8122",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1D8165FC25AEFF761DD29797"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8122::能量回收率输入::ITM-ACC-015::输入",
+      "product_code": "8122",
+      "item_code": "ITM-ACC-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9D3B4C2BDF604CDEBBA07160"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8122::超级电容SOC输入::ITM-MEA-028::输入",
+      "product_code": "8122",
+      "item_code": "ITM-MEA-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "8125",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C8FE042475056BF85CFA2B40"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8125",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8125::再生功率上限输出::ITM-LIM-004::输出",
+      "product_code": "8125",
+      "item_code": "ITM-LIM-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BE9EAF0E7F50C277DA344138"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::列车速度输入::ITM-MEA-001::输入",
+      "product_code": "8125",
+      "item_code": "ITM-MEA-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::动态制动力请求输入::ITM-CMD-006::输入",
+      "product_code": "8125",
+      "item_code": "ITM-CMD-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-B251741505CB19FE47559F29"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::动态制动可用状态输出::ITM-STA-002::输出",
+      "product_code": "8125",
+      "item_code": "ITM-STA-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1ACF37CC65D3FF235E8BD75C",
+        "CG-14D79A46EA4824EAC69F2DCF"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::可用动态制动力输出::ITM-LIM-001::输出",
+      "product_code": "8125",
+      "item_code": "ITM-LIM-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BEDE0932E86628B2EFCA8CCD",
+        "CG-B5CE3B88204C1D03AD0527D2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::实际动态制动力输出::ITM-MEA-013::输出",
+      "product_code": "8125",
+      "item_code": "ITM-MEA-013",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E8DAA56D71F2BE4B5E1C9BBF",
+        "CG-7664DA49869213FC03120E3B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::接触网可接收功率输入::ITM-LIM-005::输入",
+      "product_code": "8125",
+      "item_code": "ITM-LIM-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-08375F15DCE75E45D4C45CE8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+      "product_code": "8125",
+      "item_code": "ITM-LIM-003",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引使能指令输入::ITM-CMD-009::输入",
+      "product_code": "8125",
+      "item_code": "ITM-CMD-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-44E8AB4EA7ED953642770E4E"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+      "product_code": "8125",
+      "item_code": "ITM-CMD-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-14318213721CBD91F198F77B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "product_code": "8125",
+      "item_code": "ITM-STA-019",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引可用状态输出::ITM-STA-001::输出",
+      "product_code": "8125",
+      "item_code": "ITM-STA-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BB962E06FB56D8459F9A2BF0",
+        "CG-B1E191297C1D862473B2D371"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引安全回路状态输入::ITM-STA-026::输入",
+      "product_code": "8125",
+      "item_code": "ITM-STA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-464B2D6F08DDD0D4287D0294"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引指令输入::ITM-CMD-002::输入",
+      "product_code": "8125",
+      "item_code": "ITM-CMD-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7AEA5BA2801064550BBE6D02"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "product_code": "8125",
+      "item_code": "ITM-MEA-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-65E377DBF988541FA5778D1E"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引电机转矩请求输出::ITM-CMD-012::输出",
+      "product_code": "8125",
+      "item_code": "ITM-CMD-012",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7365C853DD9391D9914E0C8A"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::牵引电机转速输入::ITM-MEA-004::输入",
+      "product_code": "8125",
+      "item_code": "ITM-MEA-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-89DF67BFD358C3EEF4DB05F2"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::电机侧变流器状态输出::ITM-STA-018::输出",
+      "product_code": "8125",
+      "item_code": "ITM-STA-018",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8125::网侧变流器状态输出::ITM-STA-017::输出",
+      "product_code": "8125",
+      "item_code": "ITM-STA-017",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8127::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "product_code": "8127",
+      "item_code": "ITM-STA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-0D68248E62957CCB92C5A2A5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8127::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "product_code": "8127",
+      "item_code": "ITM-STA-027",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8127::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8127",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8127::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "product_code": "8127",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-86987C60BCB826208FEFEF31"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "product_code": "8127",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-ED49C68C1459BB1005D412BB",
+        "CG-697084EEC1DCA9E975638C14",
+        "CG-C6A9FBA7CCD28311320F3552",
+        "CG-9AE6E470A1C767E917CAED42"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "product_code": "8128",
+      "item_code": "ITM-STA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-89318B491DF9CED18997C36D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "product_code": "8128",
+      "item_code": "ITM-STA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-ACA2BC6B6BBEF201778733FC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8128",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8128::制动安全回路状态输入::ITM-STA-025::输入",
+      "product_code": "8128",
+      "item_code": "ITM-STA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2CE5C7F366544DF5F5AB234B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::制动安全回路状态输出::ITM-STA-025::输出",
+      "product_code": "8128",
+      "item_code": "ITM-STA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-3352802713B03806EB2934A1"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::制动缸压力输入::ITM-MEA-016::输入",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-E9224B53F74EDFCCFDA0FC70"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::制动缸压力输出::ITM-MEA-016::输出",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1AEA8B915E14A5D0FFEE30D9"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::总风管压力输入::ITM-MEA-014::输入",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-739E53DD845C8CD2646C8E39"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::总风管压力输出::ITM-MEA-014::输出",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-014",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A0B82CF482DDFB4553F8CFCA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::撒砂请求输入::ITM-CMD-024::输入",
+      "product_code": "8128",
+      "item_code": "ITM-CMD-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-53ADA5E90929843D3AD53312"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::撒砂请求输出::ITM-CMD-024::输出",
+      "product_code": "8128",
+      "item_code": "ITM-CMD-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-565AF053FC6E3FF333FD7433"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::牵引安全回路状态输入::ITM-STA-026::输入",
+      "product_code": "8128",
+      "item_code": "ITM-STA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-44890BAD0E32A867EFFB7EBB"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出",
+      "product_code": "8128",
+      "item_code": "ITM-STA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-6546CFCB7800C785459AC8E1",
+        "CG-464B2D6F08DDD0D4287D0294"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::超级电容温度输入::ITM-MEA-027::输入",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-027",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::超级电容温度输出::ITM-MEA-027::输出",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-027",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::超级电容电压输入::ITM-MEA-025::输入",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-025",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::超级电容电压输出::ITM-MEA-025::输出",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-025",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::超级电容电流输入::ITM-MEA-026::输入",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-026",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::超级电容电流输出::ITM-MEA-026::输出",
+      "product_code": "8128",
+      "item_code": "ITM-MEA-026",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::高压安全回路状态输入::ITM-STA-024::输入",
+      "product_code": "8128",
+      "item_code": "ITM-STA-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-70D940D7F34BF27762FED746"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8128::高压安全回路状态输出::ITM-STA-024::输出",
+      "product_code": "8128",
+      "item_code": "ITM-STA-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-F55B5E17D8CBFAC80E0961C2",
+        "CG-C0F5EB5317440FA36F0491AE"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8151::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8151",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8151::高压安全回路状态输出::ITM-STA-024::输出",
+      "product_code": "8151",
+      "item_code": "ITM-STA-024",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-70D940D7F34BF27762FED746"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8151::高压断路器指令输入::ITM-CMD-016::输入",
+      "product_code": "8151",
+      "item_code": "ITM-CMD-016",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9ACDE46A41EE650430438B91"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8152::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8152",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8152::制动安全回路状态输出::ITM-STA-025::输出",
+      "product_code": "8152",
+      "item_code": "ITM-STA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CE151D40A2BF816F41762F4C",
+        "CG-2CE5C7F366544DF5F5AB234B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8152::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "product_code": "8152",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-697084EEC1DCA9E975638C14"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8152::紧急制动请求输入::ITM-CMD-004::输入",
+      "product_code": "8152",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-663CDC611495882DCD3E5B8F"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8154::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8154",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8154::牵引使能指令输入::ITM-CMD-009::输入",
+      "product_code": "8154",
+      "item_code": "ITM-CMD-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2C4335E39D698D9A34096F73"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+      "product_code": "8154",
+      "item_code": "ITM-CMD-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-50AB5ECD4830D34487B7B557"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8154::牵引安全回路状态输出::ITM-STA-026::输出",
+      "product_code": "8154",
+      "item_code": "ITM-STA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-44890BAD0E32A867EFFB7EBB"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "8166",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A424455519797490E4F865AA"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+      "product_code": "8166",
+      "item_code": "ITM-MEA-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-4E4C49F08CEE642A5C3C67EB"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "8166",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::8166::储能吸收功率输出::ITM-ACC-004::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-004",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::储能吸收累计能量输出::ITM-ACC-010::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-010",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::储能释放累计能量输出::ITM-ACC-011::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-011",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::再生发电累计能量输出::ITM-ACC-008::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-008",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-005",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-012",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::可用制动能量输出::ITM-ACC-014::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-014",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::回馈电网功率输出::ITM-ACC-003::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-003",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::回馈电网累计能量输出::ITM-ACC-009::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::实际再生功率输出::ITM-ACC-002::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-002",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::牵引实际功率输出::ITM-ACC-001::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-001",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::牵引累计能量输出::ITM-ACC-007::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-007",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::能量回收率输出::ITM-ACC-015::输出",
+      "product_code": "8166",
+      "item_code": "ITM-ACC-015",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9D3B4C2BDF604CDEBBA07160"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::能量计量有效状态输出::ITM-STA-035::输出",
+      "product_code": "8166",
+      "item_code": "ITM-STA-035",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::高压线路电压输入::ITM-MEA-005::输入",
+      "product_code": "8166",
+      "item_code": "ITM-MEA-005",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1C5FC46A1E7682144A3BDDDF"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::8166::高压线路电流输入::ITM-MEA-006::输入",
+      "product_code": "8166",
+      "item_code": "ITM-MEA-006",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-FE573ED935CFF37491A053E8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::D112::列车方向指令输出::ITM-CMD-001::输出",
+      "product_code": "D112",
+      "item_code": "ITM-CMD-001",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A3B31951ADAE62C498E76260"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::D113::牵引指令输出::ITM-CMD-002::输出",
+      "product_code": "D113",
+      "item_code": "ITM-CMD-002",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-2E8F3CC8A8EBCDE6B7CF4D27"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::D114::服务制动请求输出::ITM-CMD-003::输出",
+      "product_code": "D114",
+      "item_code": "ITM-CMD-003",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-41AD09EEB4EAB9DC956C08F8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::D121::紧急制动请求输出::ITM-CMD-004::输出",
+      "product_code": "D121",
+      "item_code": "ITM-CMD-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-8EED0159D22D9EDC70A9EA67",
+        "CG-663CDC611495882DCD3E5B8F"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::D13B::撒砂请求输出::ITM-CMD-024::输出",
+      "product_code": "D13B",
+      "item_code": "ITM-CMD-024",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::E100::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "product_code": "E100",
+      "item_code": "ITM-STA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-89318B491DF9CED18997C36D",
+        "CG-0D68248E62957CCB92C5A2A5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::E100::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "product_code": "E100",
+      "item_code": "ITM-CMD-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-86987C60BCB826208FEFEF31"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X111::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "X111",
+      "item_code": "ITM-PHY-003",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X111",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X111::储能功率请求输入::ITM-CMD-025::输入",
+      "product_code": "X111",
+      "item_code": "ITM-CMD-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A0E50849D53632A6F599B298"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X111::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "product_code": "X111",
+      "item_code": "ITM-CMD-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-61CA88D0219D5B46EEFA0E92"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X111::双向DC_DC实际功率输出::ITM-MEA-029::输出",
+      "product_code": "X111",
+      "item_code": "ITM-MEA-029",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C2F8D7B23A3941D29EE9543F",
+        "CG-A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X111::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "product_code": "X111",
+      "item_code": "ITM-STA-029",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X111::双向DC_DC状态输出::ITM-STA-028::输出",
+      "product_code": "X111",
+      "item_code": "ITM-STA-028",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X111::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "product_code": "X111",
+      "item_code": "ITM-MEA-030",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-686E1C0741D80B3DE2EEBA80"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "X112",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X112::储能主接触器指令输入::ITM-CMD-027::输入",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1AE13610E33C0DC7055CFCED"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能主接触器指令输出::ITM-CMD-027::输出",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能主接触器状态输入::ITM-STA-032::输入",
+      "product_code": "X112",
+      "item_code": "ITM-STA-032",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C5E43804F4CA212D668FD997"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+      "product_code": "X112",
+      "item_code": "ITM-STA-034",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-166B9301CD54035D82DA7711"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能功率请求输入::ITM-CMD-025::输入",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-7A2381DC8C36A40B747035A5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能功率请求输出::ITM-CMD-025::输出",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-A0E50849D53632A6F599B298"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能可用充电功率输出::ITM-LIM-009::输出",
+      "product_code": "X112",
+      "item_code": "ITM-LIM-009",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-CB302083C9F33A1345D9C406"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能可用放电功率输出::ITM-LIM-010::输出",
+      "product_code": "X112",
+      "item_code": "ITM-LIM-010",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-DAF7D43DDD825831F29A70F8"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能吸收功率输出::ITM-ACC-004::输出",
+      "product_code": "X112",
+      "item_code": "ITM-ACC-004",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-093EFCE58F3AB220CFEC48AC"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能故障复位指令输入::ITM-CMD-029::输入",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-029",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D8FCE908D4FD9343C6353985"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能系统可用状态输出::ITM-STA-030::输出",
+      "product_code": "X112",
+      "item_code": "ITM-STA-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能系统故障状态输出::ITM-STA-031::输出",
+      "product_code": "X112",
+      "item_code": "ITM-STA-031",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C113ED5B462ACDD4ACE56E91"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能预充电指令输入::ITM-CMD-028::输入",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D9CD1E8933F596F319A67625"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能预充电指令输出::ITM-CMD-028::输出",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C003C81FB79009EC9E0DAC6B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::储能预充电状态输入::ITM-STA-033::输入",
+      "product_code": "X112",
+      "item_code": "ITM-STA-033",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-734E10C63B7A36C2BB06360D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-25DC22E45A984D1CB28D188B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "product_code": "X112",
+      "item_code": "ITM-CMD-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-61CA88D0219D5B46EEFA0E92"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-029",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C2F8D7B23A3941D29EE9543F"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "product_code": "X112",
+      "item_code": "ITM-STA-029",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::双向DC_DC状态输出::ITM-STA-028::输出",
+      "product_code": "X112",
+      "item_code": "ITM-STA-028",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D9445FD2D7B8285174B3AE22"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+      "product_code": "X112",
+      "item_code": "ITM-LIM-007",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BC53696D702792E563E6C045"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::超级电容SOC输入::ITM-MEA-028::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-169E84593A2DDD6DA3BAE4D5"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::超级电容充电允许状态输出::ITM-LIM-011::输出",
+      "product_code": "X112",
+      "item_code": "ITM-LIM-011",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::超级电容放电允许状态输出::ITM-LIM-012::输出",
+      "product_code": "X112",
+      "item_code": "ITM-LIM-012",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1BA0ACBF380D191A9BED4AE4"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+      "product_code": "X112",
+      "item_code": "ITM-MEA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-86C48EA2DE057325EEB9853C"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "product_code": "X113",
+      "item_code": "ITM-MEA-008",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-686E1C0741D80B3DE2EEBA80"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理",
+      "product_code": "X113",
+      "item_code": "ITM-PHY-003",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-DC-LINK-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "X113",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X113",
+      "item_code": "ITM-PHY-016",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X113::储能保护跳闸状态输出::ITM-STA-034::输出",
+      "product_code": "X113",
+      "item_code": "ITM-STA-034",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::储能可用充电功率输出::ITM-LIM-009::输出",
+      "product_code": "X113",
+      "item_code": "ITM-LIM-009",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::储能可用放电功率输出::ITM-LIM-010::输出",
+      "product_code": "X113",
+      "item_code": "ITM-LIM-010",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::储能系统故障状态输出::ITM-STA-031::输出",
+      "product_code": "X113",
+      "item_code": "ITM-STA-031",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "product_code": "X113",
+      "item_code": "ITM-STA-029",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "product_code": "X113",
+      "item_code": "ITM-MEA-030",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-D9445FD2D7B8285174B3AE22"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "product_code": "X113",
+      "item_code": "ITM-LIM-007",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-BC53696D702792E563E6C045"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::超级电容温度输出::ITM-MEA-027::输出",
+      "product_code": "X113",
+      "item_code": "ITM-MEA-027",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::超级电容电压输出::ITM-MEA-025::输出",
+      "product_code": "X113",
+      "item_code": "ITM-MEA-025",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X113::超级电容电流输出::ITM-MEA-026::输出",
+      "product_code": "X113",
+      "item_code": "ITM-MEA-026",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X121",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X121::热能_热流端口::ITM-PHY-013::双向物理",
+      "product_code": "X121",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-585503C9572B9BF371266D8B",
+        "CG-1BF39653E0AA099A8515E223"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X121::超级电容SOC输出::ITM-MEA-028::输出",
+      "product_code": "X121",
+      "item_code": "ITM-MEA-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-169E84593A2DDD6DA3BAE4D5",
+        "CG-9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X122",
+      "item_code": "ITM-PHY-016",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X122::超级电容电压输出::ITM-MEA-025::输出",
+      "product_code": "X122",
+      "item_code": "ITM-MEA-025",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X123",
+      "item_code": "ITM-PHY-016",
+      "disposition": "TAP_CONNECTED",
+      "reason": "non-intrusive NET tap membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X123::超级电容电流输出::ITM-MEA-026::输出",
+      "product_code": "X123",
+      "item_code": "ITM-MEA-026",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-86C48EA2DE057325EEB9853C"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X124::超级电容温度输出::ITM-MEA-027::输出",
+      "product_code": "X124",
+      "item_code": "ITM-MEA-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-1BA0ACBF380D191A9BED4AE4"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理",
+      "product_code": "X124",
+      "item_code": "ITM-PHY-013",
+      "disposition": "EXTERNAL_BOUNDARY",
+      "reason": "explicit ExternalBoundary connection",
+      "connection_ids": [
+        "CG-A9A3297C8A71DEFC8975FC31",
+        "CG-1BF39653E0AA099A8515E223"
+      ],
+      "net_id": null,
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X131::储能主接触器指令输入::ITM-CMD-027::输入",
+      "product_code": "X131",
+      "item_code": "ITM-CMD-027",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X131::储能主接触器状态输出::ITM-STA-032::输出",
+      "product_code": "X131",
+      "item_code": "ITM-STA-032",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C5E43804F4CA212D668FD997"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X131",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X131",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X132::储能预充电指令输入::ITM-CMD-028::输入",
+      "product_code": "X132",
+      "item_code": "ITM-CMD-028",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-C003C81FB79009EC9E0DAC6B"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X132::储能预充电状态输出::ITM-STA-033::输出",
+      "product_code": "X132",
+      "item_code": "ITM-STA-033",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-734E10C63B7A36C2BB06360D"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X132",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X132",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "product_code": "X133",
+      "item_code": "ITM-PHY-015",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-LVDC-CONTROL-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X133",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "product_code": "X133",
+      "item_code": "ITM-PHY-016",
+      "disposition": "NET_MEMBER",
+      "reason": "PhysicalNet membership",
+      "connection_ids": [],
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "critical": true
+    },
+    {
+      "port_id": "PORT::X133::储能保护跳闸状态输出::ITM-STA-034::输出",
+      "product_code": "X133",
+      "item_code": "ITM-STA-034",
+      "disposition": "CONNECTED",
+      "reason": "resolved final connection",
+      "connection_ids": [
+        "CG-166B9301CD54035D82DA7711"
+      ],
+      "net_id": null,
+      "critical": false
+    },
+    {
+      "port_id": "PORT::X133::储能系统故障状态输出::ITM-STA-031::输出",
+      "product_code": "X133",
+      "item_code": "ITM-STA-031",
+      "disposition": "OPTIONAL_OPEN",
+      "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+      "connection_ids": [],
+      "net_id": null,
+      "critical": false
+    }
+  ]
+}

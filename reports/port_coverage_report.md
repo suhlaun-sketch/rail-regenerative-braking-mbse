@@ -1,0 +1,94 @@
+# Port Coverage Report
+
+- total_active_ports: 511
+- connected: 205
+- external_boundary: 11
+- net_member: 74
+- optional_open: 122
+- tap_connected: 17
+- unresolved: 82
+
+## UNRESOLVED (82)
+
+- `PORT::3811::撒砂请求输入::ITM-CMD-024::输入` — no hard-rule-safe unique topology disposition
+- `PORT::3813::砂流端口::ITM-PHY-012::双向物理` — no hard-rule-safe unique topology disposition
+- `PORT::3814::砂流端口::ITM-PHY-012::双向物理` — no hard-rule-safe unique topology disposition
+- `PORT::4238::高压断路器指令输入::ITM-CMD-016::输入` — no hard-rule-safe unique topology disposition
+- `PORT::4238::高压系统故障状态输入::ITM-STA-016::输入` — no hard-rule-safe unique topology disposition
+- `PORT::4239::线路频率输入::ITM-MEA-007::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5111::线路频率输入::ITM-MEA-007::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5111::高压线路电压输入::ITM-MEA-005::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5111::高压线路电流输入::ITM-MEA-006::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5112::电机侧相电压输入::ITM-MEA-011::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5112::电机侧相电流输入::ITM-MEA-010::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5121::预充电指令输入::ITM-CMD-013::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5122::牵引输入接通指令输入::ITM-CMD-014::输入` — no hard-rule-safe unique topology disposition
+- `PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::低风压状态输入::ITM-STA-009::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::列车质量输入::ITM-MEA-018::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::列车速度输入::ITM-MEA-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::制动安全回路状态输入::ITM-STA-025::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::可用黏着系数估计输入::ITM-MEA-021::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::可用黏着限制输入::ITM-LIM-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::最大允许减速度输入::ITM-LIM-014::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::最大允许制动力输入::ITM-LIM-013::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::车辆载荷系数输入::ITM-MEA-019::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7211::轮轨滑移率输入::ITM-MEA-020::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7224::车辆载荷系数输入::ITM-MEA-019::输入` — no hard-rule-safe unique topology disposition
+- `PORT::7226::安全停车_制动请求输入::ITM-CMD-030::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8121::列车速度输入::ITM-MEA-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8121::安全停车_制动请求输入::ITM-CMD-030::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8121::牵引可用状态输入::ITM-STA-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::再生功率上限输入::ITM-LIM-004::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::列车方向指令输入::ITM-CMD-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::列车速度输入::ITM-MEA-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::动态制动可用状态输入::ITM-STA-002::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::双向DC_DC实际功率输入::ITM-MEA-029::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::可用动态制动力输入::ITM-LIM-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::回馈电网功率输入::ITM-ACC-003::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::安全停车_制动请求输入::ITM-CMD-030::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::实际再生功率输入::ITM-ACC-002::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::服务制动请求输入::ITM-CMD-003::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::牵引可用状态输入::ITM-STA-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::牵引指令输入::ITM-CMD-002::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::紧急制动请求输入::ITM-CMD-004::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8122::超级电容SOC输入::ITM-MEA-028::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8125::列车速度输入::ITM-MEA-001::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8125::牵引电机实际转矩输入::ITM-MEA-012::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8125::牵引电机转速输入::ITM-MEA-004::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8127::ATP_外部安全系统状态输入::ITM-STA-027::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8128::制动安全回路状态输入::ITM-STA-025::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8128::撒砂请求输入::ITM-CMD-024::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8128::牵引安全回路状态输入::ITM-STA-026::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8128::超级电容温度输入::ITM-MEA-027::输入` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::8128::超级电容温度输出::ITM-MEA-027::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::8128::超级电容电压输入::ITM-MEA-025::输入` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::8128::超级电容电压输出::ITM-MEA-025::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::8128::超级电容电流输入::ITM-MEA-026::输入` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::8128::超级电容电流输出::ITM-MEA-026::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::8128::高压安全回路状态输入::ITM-STA-024::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8154::牵引使能指令输入::ITM-CMD-009::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8154::牵引切除请求输入::ITM-CMD-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入` — no hard-rule-safe unique topology disposition
+- `PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入` — no hard-rule-safe unique topology disposition
+- `PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入` — no hard-rule-safe unique topology disposition
+- `PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入` — no hard-rule-safe unique topology disposition
+- `PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入` — no hard-rule-safe unique topology disposition
+- `PORT::X112::超级电容温度输入::ITM-MEA-027::输入` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X112::超级电容电压输入::ITM-MEA-025::输入` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X112::超级电容电流输入::ITM-MEA-026::输入` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X113::超级电容温度输出::ITM-MEA-027::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X113::超级电容电压输出::ITM-MEA-025::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X113::超级电容电流输出::ITM-MEA-026::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X122::超级电容电压输出::ITM-MEA-025::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X123::超级电容电流输出::ITM-MEA-026::输出` — I/O deployment route unresolved; direct bypass suppressed
+- `PORT::X124::超级电容温度输出::ITM-MEA-027::输出` — I/O deployment route unresolved; direct bypass suppressed

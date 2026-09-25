@@ -1,0 +1,11 @@
+{
+  "path": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_SysML17_structure_probe_v4.xmi",
+  "sha256": "1a0b1543e27087889f586f18c1e1c4683fffce83bebcc872f3d114ef2b4a11f9",
+  "byte_deterministic": true,
+  "probe_product_blocks": 10,
+  "probe_context_blocks": 1,
+  "probe_composite_parts": 10,
+  "probe_proxy_ports": 2,
+  "probe_directional_interface_blocks": 2,
+  "full_xmi_published": false
+}

@@ -1,0 +1,64 @@
+{
+  "ssd_component": "L2_7100",
+  "l2_code": "7100",
+  "l2_engineering_name": "供风",
+  "future_simulink_model": "L2_7100.slx",
+  "future_fmu_file": "L2_7100.fmu",
+  "source_structural_connectors": [
+    "L2_7100.p_7142_rp_52f3b82b80918b84"
+  ],
+  "inputs": [],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_7100::out_main_reservoir_pressure",
+      "variable_name": "out_main_reservoir_pressure",
+      "engineering_meaning": "总风管压力传感器输出。",
+      "quantity": "main_reservoir_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0023"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_739E53DD845C8CD2646C8E39"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7100.p_N_7140.p_N_7142.rp_52f3b82b80918b84",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7100",
+      "source_ssd_connectors": [
+        "L2_7100.p_7142_rp_52f3b82b80918b84"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 0,
+    "outputs": 1,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 1
+  },
+  "readiness": "READY"
+}

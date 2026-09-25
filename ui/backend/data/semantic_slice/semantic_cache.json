@@ -1,0 +1,4019 @@
+{
+  "local:我想看制动系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-001",
+      "REQ-BRK-012",
+      "REQ-BRK-015",
+      "REQ-BRK-007",
+      "REQ-BRK-013",
+      "REQ-BRK-005",
+      "PRJ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 26.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 25.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 25.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 23.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 23.083,
+        "reason": "domain、user_phrases、primary_product",
+        "matched_keywords": [
+          "制动",
+          "制动系统漏不漏气",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-015",
+        "semantic_score": 22.667,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "所有电制动停止工作时，空气制动系统及空气驱动部件应维持规定的安全运行和制动能力。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-013",
+        "semantic_score": 20.583,
+        "reason": "domain、primary_product",
+        "matched_keywords": [
+          "制动",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-005",
+        "semantic_score": 19.167,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "制动系统应具有常用制动、紧急制动功能，并能根据载荷变化自动调整制动力大小。"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-BRK-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T09:58:04.903308+00:00"
+  },
+  "local:我想看再生制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-BRK-004",
+      "REQ-BRK-009",
+      "REQ-BRK-006",
+      "REQ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 56.083,
+        "reason": "name、domain、text、keywords、user_phrases、expected_function_semantics、known function name",
+        "matched_keywords": [
+          "再生制动优先需求",
+          "制动",
+          "电制动时宜优先采用再生制动。",
+          "再生制动",
+          "只看再生制动",
+          "再生制动能力评估;电机制动输出;能量路由"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 35.167,
+        "reason": "domain、user_phrases、known function name",
+        "matched_keywords": [
+          "制动",
+          "没有再生制动还能不能停车"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 32.833,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 29.5,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 28.0,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T09:58:04.936697+00:00"
+  },
+  "local:我想看能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-ENE-005",
+      "REQ-BRK-007",
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-ENE-003",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003",
+      "REQ-ENE-002",
+      "REQ-ENE-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-ENE-005",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 16.667,
+        "reason": "keywords、known function name",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 14.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 13.167,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 7.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-003",
+        "semantic_score": 6.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-004",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T09:58:04.963504+00:00"
+  },
+  "local:我只想看X100": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "REQ-ENE-002",
+      "PRJ-ENE-004",
+      "REQ-BRK-007"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 17.25,
+        "reason": "keywords、primary_product、linked product",
+        "matched_keywords": [
+          "X100",
+          "5100牵引变流器;X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 15.583,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 13.75,
+        "reason": "user_phrases、primary_product",
+        "matched_keywords": [
+          "X100状态怎么上传",
+          "X100车载再生储能;监测/控制系统"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 12.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能;制动协调"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 12.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "制动协调;牵引变流器;牵引电机;X100储能"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T09:58:04.984499+00:00"
+  },
+  "local:我想看牵引系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-TRAC-004",
+      "REQ-TRAC-001",
+      "REQ-TRAC-002",
+      "REQ-TRAC-003",
+      "REQ-BRK-012",
+      "PRJ-PWR-001",
+      "PRJ-ENE-001",
+      "REQ-BRK-004",
+      "REQ-BRK-014"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-TRAC-004",
+        "semantic_score": 20.667,
+        "reason": "domain、user_phrases",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统是什么架构"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-002",
+        "semantic_score": 14.333,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-003",
+        "semantic_score": 13.5,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统应充分利用轮轨黏着条件，按车辆载荷自动调整牵引力或电制动力，并具有防空转、防滑行和防冲动控制。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 6.833,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-PWR-001",
+        "semantic_score": 6.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-014",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      }
+    ],
+    "created_at": "2026-09-22T09:58:05.006560+00:00"
+  },
+  "local:我想看制动时为什么需要机械制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-011",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-008"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 15.714,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-011",
+        "semantic_score": 13.857,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 13.143,
+        "reason": "domain、synonyms",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 12.429,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-008",
+        "semantic_score": 10.714,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T09:58:05.035012+00:00"
+  },
+  "local:制动产生的能量是怎么进入超级电容的": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-002",
+      "PRJ-ENE-003",
+      "REQ-ENE-001",
+      "PRJ-BRK-001",
+      "REQ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-BRK-001",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T09:58:05.061527+00:00"
+  },
+  "local:今天天气怎么样": {
+    "provider": "LOCAL",
+    "requirement_ids": [],
+    "matches": [],
+    "created_at": "2026-09-22T09:58:05.103588+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:auto:我想看再生制动能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "PRJ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-ENE-001",
+      "REQ-BRK-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "domain": "制动",
+        "name": "再生制动优先需求",
+        "text": "电制动时宜优先采用再生制动。",
+        "requirement_type": "功能/能量",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "电制动时优先采用再生制动。",
+        "applicable_conditions": "电制动可用、储能/电网具备可接纳条件时。",
+        "keywords": [
+          "再生制动",
+          "电制动",
+          "优先",
+          "能量回收"
+        ],
+        "synonyms": [
+          "回馈制动",
+          "再生优先",
+          "电机制动"
+        ],
+        "user_phrases": [
+          "只看再生制动",
+          "为什么优先回收能量",
+          "制动能量去哪"
+        ],
+        "expected_function_semantics": "再生制动能力评估;电机制动输出;能量路由",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;X100储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前基准模型已形成再生制动→车载储能路径；V&V证据仍应区分项目工况与标准型式试验。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 27.929,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "再生制动",
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "domain": "能量回收",
+        "name": "无电网再生接纳时车载储能吸收需求",
+        "text": "在当前仿真设定的电网不接纳再生功率工况下，可利用的再生制动能量应优先进入车载储能系统，并受储能可用能力约束。",
+        "requirement_type": "项目功能",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "当前场景 grid_regen_acceptance = 0 W；能量优先路由至X100，在功率/SOC/电流限制内吸收。",
+        "applicable_conditions": "当前项目的储能优先仿真场景。",
+        "keywords": [
+          "电网不接纳",
+          "再生能量",
+          "车载储能",
+          "X100",
+          "0W"
+        ],
+        "synonyms": [
+          "无法回馈电网",
+          "储能优先",
+          "能量路由"
+        ],
+        "user_phrases": [
+          "电网不要再生能量怎么办",
+          "再生能量怎么进超级电容"
+        ],
+        "expected_function_semantics": "再生能量路由;储能可用能力判断;吸收和存储再生制动能量",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "5100牵引变流器;X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "这是项目场景与设计需求，不是国标直接条款。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 13.643,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "domain": "能量回收",
+        "name": "再生充电SOC上限需求",
+        "text": "当储能SOC达到项目设定的再生充电上限时，应限制或停止继续吸收再生能量。",
+        "requirement_type": "项目约束",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "SOC_max_regen = 0.98。",
+        "applicable_conditions": "当前X100等效模型。",
+        "keywords": [
+          "SOC",
+          "0.98",
+          "充电上限",
+          "再生制动",
+          "储能可用性"
+        ],
+        "synonyms": [
+          "SOC上限",
+          "满电",
+          "停止充电"
+        ],
+        "user_phrases": [
+          "SOC到98%怎么办",
+          "超级电容满了还回收吗"
+        ],
+        "expected_function_semantics": "SOC监测;储能可用能力判断;再生功率限幅",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能;制动协调",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "0.98是项目设计值，不是国标规定值。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 11.643,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收",
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "domain": "能量回收",
+        "name": "电容式储能电源储存功能需求",
+        "text": "电容式储能电源应具有能量储存功能，并满足规定的储存能量和储存电压范围。",
+        "requirement_type": "功能/性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 42005.1-2022",
+        "standard_clause": "5.2.1",
+        "criteria": "储存能量为标称能量的100%～120%；储存电压范围宜采用500～900 V。",
+        "applicable_conditions": "适用于采用双电层电容器或混合型电容器的储能式电车动力储能电源；本项目作为X100子系统参考。",
+        "keywords": [
+          "超级电容",
+          "储能",
+          "储存能量",
+          "500V",
+          "900V",
+          "能量回收"
+        ],
+        "synonyms": [
+          "电容储能",
+          "车载储能",
+          "储能电源"
+        ],
+        "user_phrases": [
+          "超级电容能存多少",
+          "储能电压范围",
+          "只看储能系统"
+        ],
+        "expected_function_semantics": "吸收再生能量;储存能量;SOC/电压状态更新",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型Vmin=500 V、Vmax=900 V与该条款的宜用范围一致；未进行标准规定的完整产品试验。",
+        "evidence_url": "https://www.bzxz.net/bzxz/208403.html",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 10.5,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "domain": "制动",
+        "name": "电制动与空气制动双制动方式需求",
+        "text": "列车应具备电制动和空气制动两种制动方式；牵引供电中断或电制动故障时，空气制动仍应使列车安全停车。",
+        "requirement_type": "功能/安全",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.1",
+        "criteria": "双制动方式；空气制动具备相对独立的安全停车能力。",
+        "applicable_conditions": "牵引供电中断或电制动故障等意外工况。",
+        "keywords": [
+          "电制动",
+          "空气制动",
+          "故障",
+          "安全停车",
+          "冗余"
+        ],
+        "synonyms": [
+          "动力制动",
+          "摩擦制动",
+          "机械制动",
+          "降级制动"
+        ],
+        "user_phrases": [
+          "电制动坏了怎么办",
+          "没有再生制动还能不能停车"
+        ],
+        "expected_function_semantics": "电制动输出;机械/空气制动输出;故障降级切换",
+        "known_function_id": "",
+        "primary_product": "牵引电机;制动协调;机械制动",
+        "model_coverage": "PARTIAL",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型存在电制动与机械制动通路，但未完整执行供电中断/电制动故障场景。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 7.071,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:18.411065+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:我想看制动系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-001",
+      "REQ-BRK-012",
+      "REQ-BRK-015",
+      "REQ-BRK-007",
+      "REQ-BRK-013",
+      "REQ-BRK-005",
+      "PRJ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 26.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 25.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 25.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 23.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 23.083,
+        "reason": "domain、user_phrases、primary_product",
+        "matched_keywords": [
+          "制动",
+          "制动系统漏不漏气",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-015",
+        "semantic_score": 22.667,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "所有电制动停止工作时，空气制动系统及空气驱动部件应维持规定的安全运行和制动能力。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-013",
+        "semantic_score": 20.583,
+        "reason": "domain、primary_product",
+        "matched_keywords": [
+          "制动",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-005",
+        "semantic_score": 19.167,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "制动系统应具有常用制动、紧急制动功能，并能根据载荷变化自动调整制动力大小。"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-BRK-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.158652+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:我想看再生制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-BRK-004",
+      "REQ-BRK-009",
+      "REQ-BRK-006",
+      "REQ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 56.083,
+        "reason": "name、domain、text、keywords、user_phrases、expected_function_semantics、known function name",
+        "matched_keywords": [
+          "再生制动优先需求",
+          "制动",
+          "电制动时宜优先采用再生制动。",
+          "再生制动",
+          "只看再生制动",
+          "再生制动能力评估;电机制动输出;能量路由"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 35.167,
+        "reason": "domain、user_phrases、known function name",
+        "matched_keywords": [
+          "制动",
+          "没有再生制动还能不能停车"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 32.833,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 29.5,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 28.0,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.185865+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:我想看能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-ENE-005",
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "REQ-BRK-007",
+      "PRJ-ENE-004",
+      "REQ-ENE-003",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003",
+      "REQ-ENE-002",
+      "REQ-ENE-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-ENE-005",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 14.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 13.167,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 12.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 7.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-003",
+        "semantic_score": 6.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-004",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.197049+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:我只想看X100": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-BRK-007",
+      "REQ-ENE-002"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 19.25,
+        "reason": "keywords、primary_product、linked product",
+        "matched_keywords": [
+          "X100",
+          "5100牵引变流器;X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 17.583,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能;制动协调"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "制动协调;牵引变流器;牵引电机;X100储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 13.75,
+        "reason": "user_phrases、primary_product",
+        "matched_keywords": [
+          "X100状态怎么上传",
+          "X100车载再生储能;监测/控制系统"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.211130+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:我想看牵引系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-TRAC-004",
+      "REQ-TRAC-001",
+      "REQ-TRAC-002",
+      "REQ-TRAC-003",
+      "REQ-BRK-012",
+      "PRJ-PWR-001",
+      "PRJ-ENE-001",
+      "REQ-BRK-004",
+      "REQ-BRK-014"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-TRAC-004",
+        "semantic_score": 20.667,
+        "reason": "domain、user_phrases",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统是什么架构"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-002",
+        "semantic_score": 14.333,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-003",
+        "semantic_score": 13.5,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统应充分利用轮轨黏着条件，按车辆载荷自动调整牵引力或电制动力，并具有防空转、防滑行和防冲动控制。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 6.833,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-PWR-001",
+        "semantic_score": 6.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-014",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.223086+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:我想看制动时为什么需要机械制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-011",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-008"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 15.714,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-011",
+        "semantic_score": 13.857,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 13.143,
+        "reason": "domain、synonyms",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 12.429,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-008",
+        "semantic_score": 10.714,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.235688+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:制动产生的能量是怎么进入超级电容的": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 12.333,
+        "reason": "keywords",
+        "matched_keywords": [
+          "再生能量"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 11.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容",
+          "储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 6.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:04:39.253984+00:00"
+  },
+  "2026-09-22T10:02:01.485463+00:00:local:今天天气怎么样": {
+    "provider": "LOCAL",
+    "requirement_ids": [],
+    "matches": [],
+    "created_at": "2026-09-22T10:04:39.267612+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:我想看制动系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-001",
+      "REQ-BRK-012",
+      "REQ-BRK-015",
+      "REQ-BRK-007",
+      "REQ-BRK-013",
+      "REQ-BRK-005",
+      "PRJ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 26.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 25.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 25.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 23.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 23.083,
+        "reason": "domain、user_phrases、primary_product",
+        "matched_keywords": [
+          "制动",
+          "制动系统漏不漏气",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-015",
+        "semantic_score": 22.667,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "所有电制动停止工作时，空气制动系统及空气驱动部件应维持规定的安全运行和制动能力。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-013",
+        "semantic_score": 20.583,
+        "reason": "domain、primary_product",
+        "matched_keywords": [
+          "制动",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-005",
+        "semantic_score": 19.167,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "制动系统应具有常用制动、紧急制动功能，并能根据载荷变化自动调整制动力大小。"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-BRK-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:44.952225+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:我想看再生制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-BRK-004",
+      "REQ-BRK-009",
+      "REQ-BRK-006",
+      "REQ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 56.083,
+        "reason": "name、domain、text、keywords、user_phrases、expected_function_semantics、known function name",
+        "matched_keywords": [
+          "再生制动优先需求",
+          "制动",
+          "电制动时宜优先采用再生制动。",
+          "再生制动",
+          "只看再生制动",
+          "再生制动能力评估;电机制动输出;能量路由"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 35.167,
+        "reason": "domain、user_phrases、known function name",
+        "matched_keywords": [
+          "制动",
+          "没有再生制动还能不能停车"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 32.833,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 29.5,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 28.0,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:44.988327+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:我想看能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-ENE-005",
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "REQ-BRK-007",
+      "PRJ-ENE-004",
+      "REQ-ENE-003",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003",
+      "REQ-ENE-002",
+      "REQ-ENE-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-ENE-005",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 14.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 13.167,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 12.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 7.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-003",
+        "semantic_score": 6.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-004",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:45.026054+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:我只想看X100": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-BRK-007",
+      "REQ-ENE-002"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 19.25,
+        "reason": "keywords、primary_product、linked product",
+        "matched_keywords": [
+          "X100",
+          "5100牵引变流器;X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 17.583,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能;制动协调"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "制动协调;牵引变流器;牵引电机;X100储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 13.75,
+        "reason": "user_phrases、primary_product",
+        "matched_keywords": [
+          "X100状态怎么上传",
+          "X100车载再生储能;监测/控制系统"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:45.064160+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:我想看牵引系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-TRAC-004",
+      "REQ-TRAC-001",
+      "REQ-TRAC-002",
+      "REQ-TRAC-003",
+      "REQ-BRK-012",
+      "PRJ-PWR-001",
+      "PRJ-ENE-001",
+      "REQ-BRK-004",
+      "REQ-BRK-014"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-TRAC-004",
+        "semantic_score": 20.667,
+        "reason": "domain、user_phrases",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统是什么架构"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-002",
+        "semantic_score": 14.333,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-003",
+        "semantic_score": 13.5,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统应充分利用轮轨黏着条件，按车辆载荷自动调整牵引力或电制动力，并具有防空转、防滑行和防冲动控制。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 6.833,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-PWR-001",
+        "semantic_score": 6.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-014",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      }
+    ],
+    "created_at": "2026-09-22T10:05:45.083754+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:我想看制动时为什么需要机械制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-011",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-008"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 15.714,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-011",
+        "semantic_score": 13.857,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 13.143,
+        "reason": "domain、synonyms",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 12.429,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-008",
+        "semantic_score": 10.714,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:45.112719+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:制动产生的能量是怎么进入超级电容的": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 12.333,
+        "reason": "keywords",
+        "matched_keywords": [
+          "再生能量"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 11.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容",
+          "储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 6.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:45.143130+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:local:今天天气怎么样": {
+    "provider": "LOCAL",
+    "requirement_ids": [],
+    "matches": [],
+    "created_at": "2026-09-22T10:05:45.171935+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:auto:我想看再生制动能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "PRJ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-ENE-001",
+      "REQ-BRK-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "domain": "制动",
+        "name": "再生制动优先需求",
+        "text": "电制动时宜优先采用再生制动。",
+        "requirement_type": "功能/能量",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "电制动时优先采用再生制动。",
+        "applicable_conditions": "电制动可用、储能/电网具备可接纳条件时。",
+        "keywords": [
+          "再生制动",
+          "电制动",
+          "优先",
+          "能量回收"
+        ],
+        "synonyms": [
+          "回馈制动",
+          "再生优先",
+          "电机制动"
+        ],
+        "user_phrases": [
+          "只看再生制动",
+          "为什么优先回收能量",
+          "制动能量去哪"
+        ],
+        "expected_function_semantics": "再生制动能力评估;电机制动输出;能量路由",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;X100储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前基准模型已形成再生制动→车载储能路径；V&V证据仍应区分项目工况与标准型式试验。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 27.929,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "再生制动",
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "domain": "能量回收",
+        "name": "无电网再生接纳时车载储能吸收需求",
+        "text": "在当前仿真设定的电网不接纳再生功率工况下，可利用的再生制动能量应优先进入车载储能系统，并受储能可用能力约束。",
+        "requirement_type": "项目功能",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "当前场景 grid_regen_acceptance = 0 W；能量优先路由至X100，在功率/SOC/电流限制内吸收。",
+        "applicable_conditions": "当前项目的储能优先仿真场景。",
+        "keywords": [
+          "电网不接纳",
+          "再生能量",
+          "车载储能",
+          "X100",
+          "0W"
+        ],
+        "synonyms": [
+          "无法回馈电网",
+          "储能优先",
+          "能量路由"
+        ],
+        "user_phrases": [
+          "电网不要再生能量怎么办",
+          "再生能量怎么进超级电容"
+        ],
+        "expected_function_semantics": "再生能量路由;储能可用能力判断;吸收和存储再生制动能量",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "5100牵引变流器;X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "这是项目场景与设计需求，不是国标直接条款。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 13.643,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "domain": "能量回收",
+        "name": "再生充电SOC上限需求",
+        "text": "当储能SOC达到项目设定的再生充电上限时，应限制或停止继续吸收再生能量。",
+        "requirement_type": "项目约束",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "SOC_max_regen = 0.98。",
+        "applicable_conditions": "当前X100等效模型。",
+        "keywords": [
+          "SOC",
+          "0.98",
+          "充电上限",
+          "再生制动",
+          "储能可用性"
+        ],
+        "synonyms": [
+          "SOC上限",
+          "满电",
+          "停止充电"
+        ],
+        "user_phrases": [
+          "SOC到98%怎么办",
+          "超级电容满了还回收吗"
+        ],
+        "expected_function_semantics": "SOC监测;储能可用能力判断;再生功率限幅",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能;制动协调",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "0.98是项目设计值，不是国标规定值。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 11.643,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收",
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "domain": "能量回收",
+        "name": "电容式储能电源储存功能需求",
+        "text": "电容式储能电源应具有能量储存功能，并满足规定的储存能量和储存电压范围。",
+        "requirement_type": "功能/性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 42005.1-2022",
+        "standard_clause": "5.2.1",
+        "criteria": "储存能量为标称能量的100%～120%；储存电压范围宜采用500～900 V。",
+        "applicable_conditions": "适用于采用双电层电容器或混合型电容器的储能式电车动力储能电源；本项目作为X100子系统参考。",
+        "keywords": [
+          "超级电容",
+          "储能",
+          "储存能量",
+          "500V",
+          "900V",
+          "能量回收"
+        ],
+        "synonyms": [
+          "电容储能",
+          "车载储能",
+          "储能电源"
+        ],
+        "user_phrases": [
+          "超级电容能存多少",
+          "储能电压范围",
+          "只看储能系统"
+        ],
+        "expected_function_semantics": "吸收再生能量;储存能量;SOC/电压状态更新",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型Vmin=500 V、Vmax=900 V与该条款的宜用范围一致；未进行标准规定的完整产品试验。",
+        "evidence_url": "https://www.bzxz.net/bzxz/208403.html",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 10.5,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "domain": "制动",
+        "name": "电制动与空气制动双制动方式需求",
+        "text": "列车应具备电制动和空气制动两种制动方式；牵引供电中断或电制动故障时，空气制动仍应使列车安全停车。",
+        "requirement_type": "功能/安全",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.1",
+        "criteria": "双制动方式；空气制动具备相对独立的安全停车能力。",
+        "applicable_conditions": "牵引供电中断或电制动故障等意外工况。",
+        "keywords": [
+          "电制动",
+          "空气制动",
+          "故障",
+          "安全停车",
+          "冗余"
+        ],
+        "synonyms": [
+          "动力制动",
+          "摩擦制动",
+          "机械制动",
+          "降级制动"
+        ],
+        "user_phrases": [
+          "电制动坏了怎么办",
+          "没有再生制动还能不能停车"
+        ],
+        "expected_function_semantics": "电制动输出;机械/空气制动输出;故障降级切换",
+        "known_function_id": "",
+        "primary_product": "牵引电机;制动协调;机械制动",
+        "model_coverage": "PARTIAL",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型存在电制动与机械制动通路，但未完整执行供电中断/电制动故障场景。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 7.071,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:05:45.325583+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:auto:我只想看X100": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-BRK-007",
+      "REQ-ENE-002"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "domain": "能量回收",
+        "name": "无电网再生接纳时车载储能吸收需求",
+        "text": "在当前仿真设定的电网不接纳再生功率工况下，可利用的再生制动能量应优先进入车载储能系统，并受储能可用能力约束。",
+        "requirement_type": "项目功能",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "当前场景 grid_regen_acceptance = 0 W；能量优先路由至X100，在功率/SOC/电流限制内吸收。",
+        "applicable_conditions": "当前项目的储能优先仿真场景。",
+        "keywords": [
+          "电网不接纳",
+          "再生能量",
+          "车载储能",
+          "X100",
+          "0W"
+        ],
+        "synonyms": [
+          "无法回馈电网",
+          "储能优先",
+          "能量路由"
+        ],
+        "user_phrases": [
+          "电网不要再生能量怎么办",
+          "再生能量怎么进超级电容"
+        ],
+        "expected_function_semantics": "再生能量路由;储能可用能力判断;吸收和存储再生制动能量",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "5100牵引变流器;X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "这是项目场景与设计需求，不是国标直接条款。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 19.25,
+        "reason": "keywords、primary_product、linked product",
+        "matched_keywords": [
+          "X100",
+          "5100牵引变流器;X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "domain": "能量回收",
+        "name": "电容式储能电源储存功能需求",
+        "text": "电容式储能电源应具有能量储存功能，并满足规定的储存能量和储存电压范围。",
+        "requirement_type": "功能/性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 42005.1-2022",
+        "standard_clause": "5.2.1",
+        "criteria": "储存能量为标称能量的100%～120%；储存电压范围宜采用500～900 V。",
+        "applicable_conditions": "适用于采用双电层电容器或混合型电容器的储能式电车动力储能电源；本项目作为X100子系统参考。",
+        "keywords": [
+          "超级电容",
+          "储能",
+          "储存能量",
+          "500V",
+          "900V",
+          "能量回收"
+        ],
+        "synonyms": [
+          "电容储能",
+          "车载储能",
+          "储能电源"
+        ],
+        "user_phrases": [
+          "超级电容能存多少",
+          "储能电压范围",
+          "只看储能系统"
+        ],
+        "expected_function_semantics": "吸收再生能量;储存能量;SOC/电压状态更新",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型Vmin=500 V、Vmax=900 V与该条款的宜用范围一致；未进行标准规定的完整产品试验。",
+        "evidence_url": "https://www.bzxz.net/bzxz/208403.html",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 17.583,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "domain": "能量回收",
+        "name": "再生充电SOC上限需求",
+        "text": "当储能SOC达到项目设定的再生充电上限时，应限制或停止继续吸收再生能量。",
+        "requirement_type": "项目约束",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "SOC_max_regen = 0.98。",
+        "applicable_conditions": "当前X100等效模型。",
+        "keywords": [
+          "SOC",
+          "0.98",
+          "充电上限",
+          "再生制动",
+          "储能可用性"
+        ],
+        "synonyms": [
+          "SOC上限",
+          "满电",
+          "停止充电"
+        ],
+        "user_phrases": [
+          "SOC到98%怎么办",
+          "超级电容满了还回收吗"
+        ],
+        "expected_function_semantics": "SOC监测;储能可用能力判断;再生功率限幅",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能;制动协调",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "0.98是项目设计值，不是国标规定值。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能;制动协调"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "domain": "制动",
+        "name": "再生制动优先需求",
+        "text": "电制动时宜优先采用再生制动。",
+        "requirement_type": "功能/能量",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "电制动时优先采用再生制动。",
+        "applicable_conditions": "电制动可用、储能/电网具备可接纳条件时。",
+        "keywords": [
+          "再生制动",
+          "电制动",
+          "优先",
+          "能量回收"
+        ],
+        "synonyms": [
+          "回馈制动",
+          "再生优先",
+          "电机制动"
+        ],
+        "user_phrases": [
+          "只看再生制动",
+          "为什么优先回收能量",
+          "制动能量去哪"
+        ],
+        "expected_function_semantics": "再生制动能力评估;电机制动输出;能量路由",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;X100储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前基准模型已形成再生制动→车载储能路径；V&V证据仍应区分项目工况与标准型式试验。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "制动协调;牵引变流器;牵引电机;X100储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "domain": "能量回收",
+        "name": "储能故障检测、记录与输出需求",
+        "text": "储能电源应具有故障检测功能，故障应能实时传送给车辆，并应具有故障记录储存和读取功能。",
+        "requirement_type": "功能/诊断",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 42005.1-2022",
+        "standard_clause": "5.2.2",
+        "criteria": "故障检测；实时上传车辆；故障记录可储存并由上位机读取。",
+        "applicable_conditions": "X100储能子系统。",
+        "keywords": [
+          "储能故障",
+          "故障检测",
+          "故障记录",
+          "状态输出",
+          "上位机"
+        ],
+        "synonyms": [
+          "储能诊断",
+          "故障日志",
+          "故障上传"
+        ],
+        "user_phrases": [
+          "储能坏了怎么发现",
+          "故障能不能记录",
+          "X100状态怎么上传"
+        ],
+        "expected_function_semantics": "故障检测;故障状态输出;事件记录",
+        "known_function_id": "",
+        "primary_product": "X100车载再生储能;监测/控制系统",
+        "model_coverage": "PARTIAL",
+        "verification_status": "NOT_VERIFIED",
+        "notes": "当前模型有状态量和可用性语义，但未完成标准所述故障记录/上位机读取闭环。",
+        "evidence_url": "https://www.bzxz.net/bzxz/208403.html",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 13.75,
+        "reason": "user_phrases、primary_product",
+        "matched_keywords": [
+          "X100状态怎么上传",
+          "X100车载再生储能;监测/控制系统"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:06:00.985388+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:auto:我想看制动系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-001",
+      "REQ-BRK-012",
+      "REQ-BRK-015",
+      "REQ-BRK-007",
+      "REQ-BRK-013",
+      "REQ-BRK-005",
+      "PRJ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "domain": "制动",
+        "name": "电制动力不足补偿需求",
+        "text": "电制动力不足时，空气制动应按总制动力要求补充不足的制动力。",
+        "requirement_type": "功能/控制",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "F_total需求由电制动与空气/机械制动共同满足；电制动不足量由空气/机械制动补足。",
+        "applicable_conditions": "电制动能力受速度、功率、储能等限制时。",
+        "keywords": [
+          "制动力补偿",
+          "电制动力不足",
+          "空气制动",
+          "机械制动",
+          "总制动力"
+        ],
+        "synonyms": [
+          "混合制动补偿",
+          "摩擦制动补足",
+          "制动分配"
+        ],
+        "user_phrases": [
+          "机械制动什么时候介入",
+          "再生不够怎么办"
+        ],
+        "expected_function_semantics": "总制动力需求;电制动能力评估;剩余制动力计算;机械制动输出",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;机械制动",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前仿真具备电制动与机械制动协调和总制动力跟踪结果。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 26.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "domain": "制动",
+        "name": "电制动与空气制动双制动方式需求",
+        "text": "列车应具备电制动和空气制动两种制动方式；牵引供电中断或电制动故障时，空气制动仍应使列车安全停车。",
+        "requirement_type": "功能/安全",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.1",
+        "criteria": "双制动方式；空气制动具备相对独立的安全停车能力。",
+        "applicable_conditions": "牵引供电中断或电制动故障等意外工况。",
+        "keywords": [
+          "电制动",
+          "空气制动",
+          "故障",
+          "安全停车",
+          "冗余"
+        ],
+        "synonyms": [
+          "动力制动",
+          "摩擦制动",
+          "机械制动",
+          "降级制动"
+        ],
+        "user_phrases": [
+          "电制动坏了怎么办",
+          "没有再生制动还能不能停车"
+        ],
+        "expected_function_semantics": "电制动输出;机械/空气制动输出;故障降级切换",
+        "known_function_id": "",
+        "primary_product": "牵引电机;制动协调;机械制动",
+        "model_coverage": "PARTIAL",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型存在电制动与机械制动通路，但未完整执行供电中断/电制动故障场景。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 25.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "domain": "制动",
+        "name": "常用制动电制动优先需求",
+        "text": "常用制动应优先利用电制动，并具有冲动限制。",
+        "requirement_type": "功能/控制",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "常用制动优先调用电制动；同时限制制动冲动。",
+        "applicable_conditions": "常用制动。",
+        "keywords": [
+          "电制动优先",
+          "常用制动",
+          "冲动限制",
+          "制动力分配"
+        ],
+        "synonyms": [
+          "动力制动优先",
+          "优先电制动",
+          "混合制动"
+        ],
+        "user_phrases": [
+          "制动时先用什么",
+          "为什么机械制动不先介入"
+        ],
+        "expected_function_semantics": "电制动能力评估;制动力分配;机械制动补偿",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;机械制动",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前混合制动逻辑可体现优先电制动，但标准条件下的冲动限制尚未独立验收。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 25.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "domain": "制动",
+        "name": "常用制动平均减速度需求",
+        "text": "列车从最高运行速度实施常用制动至停车时，平均减速度不应低于1.0 m/s²。",
+        "requirement_type": "性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "6.12 a)",
+        "criteria": "平均常用制动减速度 ≥ 1.0 m/s²。",
+        "applicable_conditions": "超员；平直干燥轨道；车轮半磨耗；从最高运行速度制动至停车。",
+        "keywords": [
+          "常用制动",
+          "平均减速度",
+          "制动力",
+          "停车"
+        ],
+        "synonyms": [
+          "服务制动",
+          "正常制动",
+          "减速度"
+        ],
+        "user_phrases": [
+          "只看服务制动",
+          "常用制动够不够",
+          "制动减速度是多少"
+        ],
+        "expected_function_semantics": "制动需求计算;总制动力生成;制动力分配;车辆纵向动力学",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;机械制动;车辆动力学",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前项目设计目标采用1.2 m/s²，但标准基线为≥1.0 m/s²；当前仿真工况不完全等同标准规定工况。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 23.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "domain": "制动",
+        "name": "空气系统气密性需求",
+        "text": "空气系统应满足规定的气密性要求。",
+        "requirement_type": "性能/安全",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.9",
+        "criteria": "关闭气路5 min后总风压力下降≤20 kPa；制动缸及制动储风缸3 min压力下降≤10 kPa。",
+        "applicable_conditions": "按GB/T 14894规定的气密性试验方法。",
+        "keywords": [
+          "气密性",
+          "总风",
+          "制动缸",
+          "储风缸",
+          "压力下降"
+        ],
+        "synonyms": [
+          "漏气",
+          "风压保持",
+          "压力衰减"
+        ],
+        "user_phrases": [
+          "制动系统漏不漏气",
+          "风压能保持多久"
+        ],
+        "expected_function_semantics": "气压状态;泄漏模型;压力监测",
+        "known_function_id": "",
+        "primary_product": "空气制动/机械制动系统",
+        "model_coverage": "UNCOVERED",
+        "verification_status": "NOT_VERIFIED",
+        "notes": "当前最终模型没有空气系统泄漏/气密性物理模型。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 23.083,
+        "reason": "domain、user_phrases、primary_product",
+        "matched_keywords": [
+          "制动",
+          "制动系统漏不漏气",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-015",
+        "domain": "制动",
+        "name": "电制动完全失效降级需求",
+        "text": "所有电制动停止工作时，空气制动系统及空气驱动部件应维持规定的安全运行和制动能力。",
+        "requirement_type": "安全/故障",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.14",
+        "criteria": "超员工况下可在基础制动热容量允许速度下运行一个往返；制动系统保持设计的常用制动减速度及紧急制动减速度。",
+        "applicable_conditions": "所有电制动停止工作；超员工况。",
+        "keywords": [
+          "电制动失效",
+          "降级",
+          "空气制动",
+          "常用制动",
+          "紧急制动",
+          "故障"
+        ],
+        "synonyms": [
+          "电制动全失效",
+          "失效安全",
+          "故障降级"
+        ],
+        "user_phrases": [
+          "所有电制动都坏了怎么办",
+          "还能不能正常停车"
+        ],
+        "expected_function_semantics": "故障检测;电制动切除;空气制动接管;降级制动",
+        "known_function_id": "",
+        "primary_product": "制动协调;空气/机械制动",
+        "model_coverage": "PARTIAL",
+        "verification_status": "NOT_VERIFIED",
+        "notes": "当前基准工况未执行全部电制动失效故障场景。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 22.667,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "所有电制动停止工作时，空气制动系统及空气驱动部件应维持规定的安全运行和制动能力。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "domain": "制动",
+        "name": "再生制动优先需求",
+        "text": "电制动时宜优先采用再生制动。",
+        "requirement_type": "功能/能量",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "电制动时优先采用再生制动。",
+        "applicable_conditions": "电制动可用、储能/电网具备可接纳条件时。",
+        "keywords": [
+          "再生制动",
+          "电制动",
+          "优先",
+          "能量回收"
+        ],
+        "synonyms": [
+          "回馈制动",
+          "再生优先",
+          "电机制动"
+        ],
+        "user_phrases": [
+          "只看再生制动",
+          "为什么优先回收能量",
+          "制动能量去哪"
+        ],
+        "expected_function_semantics": "再生制动能力评估;电机制动输出;能量路由",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;X100储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前基准模型已形成再生制动→车载储能路径；V&V证据仍应区分项目工况与标准型式试验。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-013",
+        "domain": "制动",
+        "name": "制动缸压力控制精度需求",
+        "text": "基础制动装置的制动缸压力实际值与设计值应满足允许误差要求。",
+        "requirement_type": "性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.10",
+        "criteria": "制动缸压力实际值与设计值允许误差 ±20 kPa。",
+        "applicable_conditions": "基础制动装置压力控制。",
+        "keywords": [
+          "制动缸",
+          "压力",
+          "控制精度",
+          "20kPa",
+          "反馈"
+        ],
+        "synonyms": [
+          "制动压力",
+          "风压误差",
+          "压力跟踪"
+        ],
+        "user_phrases": [
+          "制动缸压力准不准",
+          "压力误差多少"
+        ],
+        "expected_function_semantics": "制动压力目标;气压动态;压力反馈",
+        "known_function_id": "",
+        "primary_product": "空气制动/机械制动系统",
+        "model_coverage": "PARTIAL",
+        "verification_status": "NOT_VERIFIED",
+        "notes": "模型包含压力相关动态参数，但尚未形成按±20 kPa判据的正式V&V指标。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 20.583,
+        "reason": "domain、primary_product",
+        "matched_keywords": [
+          "制动",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-005",
+        "domain": "制动",
+        "name": "载荷自适应制动力需求",
+        "text": "制动系统应具有常用制动、紧急制动功能，并能根据载荷变化自动调整制动力大小。",
+        "requirement_type": "功能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.2",
+        "criteria": "制动力随车辆载荷变化自动调整。",
+        "applicable_conditions": "车辆载荷变化。",
+        "keywords": [
+          "载荷",
+          "制动力",
+          "自适应",
+          "空重车",
+          "常用制动",
+          "紧急制动"
+        ],
+        "synonyms": [
+          "负载补偿",
+          "载荷补偿",
+          "空重车调整"
+        ],
+        "user_phrases": [
+          "车辆更重时制动力怎么变",
+          "载客量变化怎么办"
+        ],
+        "expected_function_semantics": "质量/载荷输入;制动需求计算;制动力分配",
+        "known_function_id": "",
+        "primary_product": "制动协调;车辆动力学",
+        "model_coverage": "UNCOVERED",
+        "verification_status": "NOT_VERIFIED",
+        "notes": "当前最终工况使用固定80 t等效质量，未建立AW0/AW1/AW2/AW3载荷切换。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 19.167,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "制动系统应具有常用制动、紧急制动功能，并能根据载荷变化自动调整制动力大小。"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-BRK-001",
+        "domain": "制动",
+        "name": "项目服务制动目标需求",
+        "text": "本项目服务制动目标减速度设为1.2 m/s²，用于高于GB/T 7928-2025常用制动基线的设计验证与需求变更示例。",
+        "requirement_type": "项目性能",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "项目目标 a_service = 1.2 m/s²；标准基线为常用制动平均减速度≥1.0 m/s²。",
+        "applicable_conditions": "当前80 t等效动力单元；项目基准工况。",
+        "keywords": [
+          "1.2m/s²",
+          "服务制动",
+          "项目目标",
+          "需求变更"
+        ],
+        "synonyms": [
+          "常用制动目标",
+          "提高减速度"
+        ],
+        "user_phrases": [
+          "把制动目标从1.0提高到1.2",
+          "服务制动要求提高"
+        ],
+        "expected_function_semantics": "制动需求计算;制动力分配;车辆纵向动力学",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引电机;机械制动;车辆动力学",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "该值是项目设计目标，不是GB/T 7928-2025对常用制动的最低要求。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:06:51.553448+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:auto:我想看再生制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-BRK-004",
+      "REQ-BRK-009",
+      "REQ-BRK-006",
+      "REQ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "domain": "制动",
+        "name": "再生制动优先需求",
+        "text": "电制动时宜优先采用再生制动。",
+        "requirement_type": "功能/能量",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "电制动时优先采用再生制动。",
+        "applicable_conditions": "电制动可用、储能/电网具备可接纳条件时。",
+        "keywords": [
+          "再生制动",
+          "电制动",
+          "优先",
+          "能量回收"
+        ],
+        "synonyms": [
+          "回馈制动",
+          "再生优先",
+          "电机制动"
+        ],
+        "user_phrases": [
+          "只看再生制动",
+          "为什么优先回收能量",
+          "制动能量去哪"
+        ],
+        "expected_function_semantics": "再生制动能力评估;电机制动输出;能量路由",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;X100储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前基准模型已形成再生制动→车载储能路径；V&V证据仍应区分项目工况与标准型式试验。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 56.083,
+        "reason": "name、domain、text、keywords、user_phrases、expected_function_semantics、known function name",
+        "matched_keywords": [
+          "再生制动优先需求",
+          "制动",
+          "电制动时宜优先采用再生制动。",
+          "再生制动",
+          "只看再生制动",
+          "再生制动能力评估;电机制动输出;能量路由"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "domain": "制动",
+        "name": "电制动与空气制动双制动方式需求",
+        "text": "列车应具备电制动和空气制动两种制动方式；牵引供电中断或电制动故障时，空气制动仍应使列车安全停车。",
+        "requirement_type": "功能/安全",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.1",
+        "criteria": "双制动方式；空气制动具备相对独立的安全停车能力。",
+        "applicable_conditions": "牵引供电中断或电制动故障等意外工况。",
+        "keywords": [
+          "电制动",
+          "空气制动",
+          "故障",
+          "安全停车",
+          "冗余"
+        ],
+        "synonyms": [
+          "动力制动",
+          "摩擦制动",
+          "机械制动",
+          "降级制动"
+        ],
+        "user_phrases": [
+          "电制动坏了怎么办",
+          "没有再生制动还能不能停车"
+        ],
+        "expected_function_semantics": "电制动输出;机械/空气制动输出;故障降级切换",
+        "known_function_id": "",
+        "primary_product": "牵引电机;制动协调;机械制动",
+        "model_coverage": "PARTIAL",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型存在电制动与机械制动通路，但未完整执行供电中断/电制动故障场景。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 35.167,
+        "reason": "domain、user_phrases、known function name",
+        "matched_keywords": [
+          "制动",
+          "没有再生制动还能不能停车"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-009",
+        "domain": "制动",
+        "name": "电制动力不足补偿需求",
+        "text": "电制动力不足时，空气制动应按总制动力要求补充不足的制动力。",
+        "requirement_type": "功能/控制",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "F_total需求由电制动与空气/机械制动共同满足；电制动不足量由空气/机械制动补足。",
+        "applicable_conditions": "电制动能力受速度、功率、储能等限制时。",
+        "keywords": [
+          "制动力补偿",
+          "电制动力不足",
+          "空气制动",
+          "机械制动",
+          "总制动力"
+        ],
+        "synonyms": [
+          "混合制动补偿",
+          "摩擦制动补足",
+          "制动分配"
+        ],
+        "user_phrases": [
+          "机械制动什么时候介入",
+          "再生不够怎么办"
+        ],
+        "expected_function_semantics": "总制动力需求;电制动能力评估;剩余制动力计算;机械制动输出",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;机械制动",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前仿真具备电制动与机械制动协调和总制动力跟踪结果。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 32.833,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "domain": "制动",
+        "name": "常用制动电制动优先需求",
+        "text": "常用制动应优先利用电制动，并具有冲动限制。",
+        "requirement_type": "功能/控制",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "常用制动优先调用电制动；同时限制制动冲动。",
+        "applicable_conditions": "常用制动。",
+        "keywords": [
+          "电制动优先",
+          "常用制动",
+          "冲动限制",
+          "制动力分配"
+        ],
+        "synonyms": [
+          "动力制动优先",
+          "优先电制动",
+          "混合制动"
+        ],
+        "user_phrases": [
+          "制动时先用什么",
+          "为什么机械制动不先介入"
+        ],
+        "expected_function_semantics": "电制动能力评估;制动力分配;机械制动补偿",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;机械制动",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前混合制动逻辑可体现优先电制动，但标准条件下的冲动限制尚未独立验收。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 29.5,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "domain": "制动",
+        "name": "常用制动平均减速度需求",
+        "text": "列车从最高运行速度实施常用制动至停车时，平均减速度不应低于1.0 m/s²。",
+        "requirement_type": "性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "6.12 a)",
+        "criteria": "平均常用制动减速度 ≥ 1.0 m/s²。",
+        "applicable_conditions": "超员；平直干燥轨道；车轮半磨耗；从最高运行速度制动至停车。",
+        "keywords": [
+          "常用制动",
+          "平均减速度",
+          "制动力",
+          "停车"
+        ],
+        "synonyms": [
+          "服务制动",
+          "正常制动",
+          "减速度"
+        ],
+        "user_phrases": [
+          "只看服务制动",
+          "常用制动够不够",
+          "制动减速度是多少"
+        ],
+        "expected_function_semantics": "制动需求计算;总制动力生成;制动力分配;车辆纵向动力学",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;机械制动;车辆动力学",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前项目设计目标采用1.2 m/s²，但标准基线为≥1.0 m/s²；当前仿真工况不完全等同标准规定工况。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 28.0,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:35.132220+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:我想看制动系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-001",
+      "REQ-BRK-012",
+      "REQ-BRK-015",
+      "REQ-BRK-007",
+      "REQ-BRK-013",
+      "REQ-BRK-005",
+      "PRJ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 26.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 25.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 25.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 23.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 23.083,
+        "reason": "domain、user_phrases、primary_product",
+        "matched_keywords": [
+          "制动",
+          "制动系统漏不漏气",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-015",
+        "semantic_score": 22.667,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "所有电制动停止工作时，空气制动系统及空气驱动部件应维持规定的安全运行和制动能力。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-013",
+        "semantic_score": 20.583,
+        "reason": "domain、primary_product",
+        "matched_keywords": [
+          "制动",
+          "空气制动/机械制动系统"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-005",
+        "semantic_score": 19.167,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "制动",
+          "制动系统应具有常用制动、紧急制动功能，并能根据载荷变化自动调整制动力大小。"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-BRK-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.695486+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:我想看再生制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-BRK-004",
+      "REQ-BRK-009",
+      "REQ-BRK-006",
+      "REQ-BRK-001"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 56.083,
+        "reason": "name、domain、text、keywords、user_phrases、expected_function_semantics、known function name",
+        "matched_keywords": [
+          "再生制动优先需求",
+          "制动",
+          "电制动时宜优先采用再生制动。",
+          "再生制动",
+          "只看再生制动",
+          "再生制动能力评估;电机制动输出;能量路由"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 35.167,
+        "reason": "domain、user_phrases、known function name",
+        "matched_keywords": [
+          "制动",
+          "没有再生制动还能不能停车"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 32.833,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 29.5,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-001",
+        "semantic_score": 28.0,
+        "reason": "domain、known function name",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.738540+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:我想看能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-ENE-005",
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "REQ-BRK-007",
+      "PRJ-ENE-004",
+      "REQ-ENE-003",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003",
+      "REQ-ENE-002",
+      "REQ-ENE-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-ENE-005",
+        "semantic_score": 21.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 14.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 13.167,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 12.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 7.333,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-003",
+        "semantic_score": 6.167,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-004",
+        "semantic_score": 4.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.763609+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:我只想看X100": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-BRK-007",
+      "REQ-ENE-002"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 19.25,
+        "reason": "keywords、primary_product、linked product",
+        "matched_keywords": [
+          "X100",
+          "5100牵引变流器;X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 17.583,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "X100车载再生储能;制动协调"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 14.25,
+        "reason": "primary_product、linked product",
+        "matched_keywords": [
+          "制动协调;牵引变流器;牵引电机;X100储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-002",
+        "semantic_score": 13.75,
+        "reason": "user_phrases、primary_product",
+        "matched_keywords": [
+          "X100状态怎么上传",
+          "X100车载再生储能;监测/控制系统"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.789011+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:我想看牵引系统": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-TRAC-004",
+      "REQ-TRAC-001",
+      "REQ-TRAC-002",
+      "REQ-TRAC-003",
+      "REQ-BRK-012",
+      "PRJ-PWR-001",
+      "PRJ-ENE-001",
+      "REQ-BRK-004",
+      "REQ-BRK-014"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-TRAC-004",
+        "semantic_score": 20.667,
+        "reason": "domain、user_phrases",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统是什么架构"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-001",
+        "semantic_score": 18.0,
+        "reason": "domain",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-002",
+        "semantic_score": 14.333,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "牵引"
+        ]
+      },
+      {
+        "requirement_id": "REQ-TRAC-003",
+        "semantic_score": 13.5,
+        "reason": "domain、text",
+        "matched_keywords": [
+          "牵引",
+          "牵引系统应充分利用轮轨黏着条件，按车辆载荷自动调整牵引力或电制动力，并具有防空转、防滑行和防冲动控制。"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-012",
+        "semantic_score": 6.833,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-PWR-001",
+        "semantic_score": 6.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      },
+      {
+        "requirement_id": "REQ-BRK-014",
+        "semantic_score": 2.5,
+        "reason": "工程术语覆盖",
+        "matched_keywords": []
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.826048+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:我想看制动时为什么需要机械制动": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-009",
+      "REQ-BRK-011",
+      "REQ-BRK-004",
+      "REQ-BRK-006",
+      "REQ-BRK-008"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-009",
+        "semantic_score": 15.714,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-011",
+        "semantic_score": 13.857,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 13.143,
+        "reason": "domain、synonyms",
+        "matched_keywords": [
+          "制动",
+          "机械制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-006",
+        "semantic_score": 12.429,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-008",
+        "semantic_score": 10.714,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.846865+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:制动产生的能量是怎么进入超级电容的": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "PRJ-ENE-001",
+      "REQ-ENE-001",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003"
+    ],
+    "matches": [
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "semantic_score": 12.333,
+        "reason": "keywords",
+        "matched_keywords": [
+          "再生能量"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 11.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容",
+          "储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 6.167,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:56.884119+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:今天天气怎么样": {
+    "provider": "LOCAL",
+    "requirement_ids": [],
+    "matches": [],
+    "created_at": "2026-09-22T10:08:56.906878+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:auto:我想看再生制动能量回收": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "PRJ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-ENE-001",
+      "REQ-BRK-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "domain": "制动",
+        "name": "再生制动优先需求",
+        "text": "电制动时宜优先采用再生制动。",
+        "requirement_type": "功能/能量",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.3",
+        "criteria": "电制动时优先采用再生制动。",
+        "applicable_conditions": "电制动可用、储能/电网具备可接纳条件时。",
+        "keywords": [
+          "再生制动",
+          "电制动",
+          "优先",
+          "能量回收"
+        ],
+        "synonyms": [
+          "回馈制动",
+          "再生优先",
+          "电机制动"
+        ],
+        "user_phrases": [
+          "只看再生制动",
+          "为什么优先回收能量",
+          "制动能量去哪"
+        ],
+        "expected_function_semantics": "再生制动能力评估;电机制动输出;能量路由",
+        "known_function_id": "",
+        "primary_product": "制动协调;牵引变流器;牵引电机;X100储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "当前基准模型已形成再生制动→车载储能路径；V&V证据仍应区分项目工况与标准型式试验。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 27.929,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "再生制动",
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-001",
+        "domain": "能量回收",
+        "name": "无电网再生接纳时车载储能吸收需求",
+        "text": "在当前仿真设定的电网不接纳再生功率工况下，可利用的再生制动能量应优先进入车载储能系统，并受储能可用能力约束。",
+        "requirement_type": "项目功能",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "当前场景 grid_regen_acceptance = 0 W；能量优先路由至X100，在功率/SOC/电流限制内吸收。",
+        "applicable_conditions": "当前项目的储能优先仿真场景。",
+        "keywords": [
+          "电网不接纳",
+          "再生能量",
+          "车载储能",
+          "X100",
+          "0W"
+        ],
+        "synonyms": [
+          "无法回馈电网",
+          "储能优先",
+          "能量路由"
+        ],
+        "user_phrases": [
+          "电网不要再生能量怎么办",
+          "再生能量怎么进超级电容"
+        ],
+        "expected_function_semantics": "再生能量路由;储能可用能力判断;吸收和存储再生制动能量",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "5100牵引变流器;X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "VERIFIED",
+        "notes": "这是项目场景与设计需求，不是国标直接条款。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 13.643,
+        "reason": "domain",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "domain": "能量回收",
+        "name": "再生充电SOC上限需求",
+        "text": "当储能SOC达到项目设定的再生充电上限时，应限制或停止继续吸收再生能量。",
+        "requirement_type": "项目约束",
+        "source_type": "PROJECT_REQUIREMENT",
+        "standard_no": "",
+        "standard_clause": "",
+        "criteria": "SOC_max_regen = 0.98。",
+        "applicable_conditions": "当前X100等效模型。",
+        "keywords": [
+          "SOC",
+          "0.98",
+          "充电上限",
+          "再生制动",
+          "储能可用性"
+        ],
+        "synonyms": [
+          "SOC上限",
+          "满电",
+          "停止充电"
+        ],
+        "user_phrases": [
+          "SOC到98%怎么办",
+          "超级电容满了还回收吗"
+        ],
+        "expected_function_semantics": "SOC监测;储能可用能力判断;再生功率限幅",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能;制动协调",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "0.98是项目设计值，不是国标规定值。",
+        "evidence_url": "",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 11.643,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收",
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "domain": "能量回收",
+        "name": "电容式储能电源储存功能需求",
+        "text": "电容式储能电源应具有能量储存功能，并满足规定的储存能量和储存电压范围。",
+        "requirement_type": "功能/性能",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 42005.1-2022",
+        "standard_clause": "5.2.1",
+        "criteria": "储存能量为标称能量的100%～120%；储存电压范围宜采用500～900 V。",
+        "applicable_conditions": "适用于采用双电层电容器或混合型电容器的储能式电车动力储能电源；本项目作为X100子系统参考。",
+        "keywords": [
+          "超级电容",
+          "储能",
+          "储存能量",
+          "500V",
+          "900V",
+          "能量回收"
+        ],
+        "synonyms": [
+          "电容储能",
+          "车载储能",
+          "储能电源"
+        ],
+        "user_phrases": [
+          "超级电容能存多少",
+          "储能电压范围",
+          "只看储能系统"
+        ],
+        "expected_function_semantics": "吸收再生能量;储存能量;SOC/电压状态更新",
+        "known_function_id": "FN_F_X100_01",
+        "primary_product": "X100车载再生储能",
+        "model_coverage": "COVERED",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型Vmin=500 V、Vmax=900 V与该条款的宜用范围一致；未进行标准规定的完整产品试验。",
+        "evidence_url": "https://www.bzxz.net/bzxz/208403.html",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 10.5,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "能量回收"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "domain": "制动",
+        "name": "电制动与空气制动双制动方式需求",
+        "text": "列车应具备电制动和空气制动两种制动方式；牵引供电中断或电制动故障时，空气制动仍应使列车安全停车。",
+        "requirement_type": "功能/安全",
+        "source_type": "STANDARD_DIRECT",
+        "standard_no": "GB/T 7928-2025",
+        "standard_clause": "10.1",
+        "criteria": "双制动方式；空气制动具备相对独立的安全停车能力。",
+        "applicable_conditions": "牵引供电中断或电制动故障等意外工况。",
+        "keywords": [
+          "电制动",
+          "空气制动",
+          "故障",
+          "安全停车",
+          "冗余"
+        ],
+        "synonyms": [
+          "动力制动",
+          "摩擦制动",
+          "机械制动",
+          "降级制动"
+        ],
+        "user_phrases": [
+          "电制动坏了怎么办",
+          "没有再生制动还能不能停车"
+        ],
+        "expected_function_semantics": "电制动输出;机械/空气制动输出;故障降级切换",
+        "known_function_id": "",
+        "primary_product": "牵引电机;制动协调;机械制动",
+        "model_coverage": "PARTIAL",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "notes": "当前模型存在电制动与机械制动通路，但未完整执行供电中断/电制动故障场景。",
+        "evidence_url": "https://www.gb-gbt.com/PDF/Chinese.aspx/GBT7928-2025",
+        "traceability": {
+          "sysml_refs": [],
+          "interface_refs": [],
+          "fmi_refs": [],
+          "fmu_refs": [],
+          "ssp_refs": [],
+          "simulation_refs": [],
+          "vv_refs": []
+        },
+        "semantic_score": 7.071,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-22T10:08:57.107139+00:00"
+  },
+  "2026-09-22T10:05:42.285001+00:00:LOCAL:local:再生制动时超级电容储能相关设计": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-BRK-004",
+      "PRJ-ENE-002"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 16.111,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 10.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容",
+          "储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 6.667,
+        "reason": "keywords",
+        "matched_keywords": [
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 6.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      }
+    ],
+    "created_at": "2026-09-23T11:37:26.458720+00:00"
+  },
+  "2026-09-23T02:54:23.098001+00:00:LOCAL:local:再生制动时超级电容储能相关设计": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-BRK-007",
+      "REQ-ENE-001",
+      "PRJ-ENE-004",
+      "REQ-BRK-004",
+      "PRJ-ENE-002"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 16.111,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 10.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容",
+          "储能"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 6.667,
+        "reason": "keywords",
+        "matched_keywords": [
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-004",
+        "semantic_score": 6.5,
+        "reason": "domain",
+        "matched_keywords": [
+          "制动"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      }
+    ],
+    "created_at": "2026-09-23T11:45:39.694967+00:00"
+  },
+  "2026-09-23T02:54:23.098001+00:00:LOCAL:local:分析再生制动时超级电容储能相关的需求、功能和接口": {
+    "provider": "LOCAL",
+    "requirement_ids": [
+      "REQ-ENE-001",
+      "REQ-BRK-007",
+      "PRJ-ENE-002",
+      "PRJ-ENE-003",
+      "PRJ-ENE-004"
+    ],
+    "matches": [
+      {
+        "requirement_id": "REQ-ENE-001",
+        "semantic_score": 10.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容",
+          "储能"
+        ]
+      },
+      {
+        "requirement_id": "REQ-BRK-007",
+        "semantic_score": 9.5,
+        "reason": "domain、keywords",
+        "matched_keywords": [
+          "制动",
+          "再生制动"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-002",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-003",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "超级电容"
+        ]
+      },
+      {
+        "requirement_id": "PRJ-ENE-004",
+        "semantic_score": 5.0,
+        "reason": "keywords",
+        "matched_keywords": [
+          "再生制动"
+        ]
+      }
+    ],
+    "created_at": "2026-09-23T11:51:15.930762+00:00"
+  }
+}

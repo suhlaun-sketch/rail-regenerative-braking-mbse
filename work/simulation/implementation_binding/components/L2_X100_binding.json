@@ -1,0 +1,101 @@
+{
+  "ssd_component_id": "L2_X100",
+  "ssd_component_name": "L2_X100",
+  "l2_code": "X100",
+  "l2_engineering_name": "车载再生储能",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_1164249ec859b807",
+      "ssd_connector_name": "p_X112_rp_1164249ec859b807",
+      "simulink_port_name": "p_X112_rp_1164249ec859b807",
+      "future_fmu_variable": "p_X112_rp_1164249ec859b807",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_5ff890136d5d49bf",
+      "ssd_connector_name": "p_X112_rp_5ff890136d5d49bf",
+      "simulink_port_name": "p_X112_rp_5ff890136d5d49bf",
+      "future_fmu_variable": "p_X112_rp_5ff890136d5d49bf",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_81f1c1da5d6d3173",
+      "ssd_connector_name": "p_X112_rp_81f1c1da5d6d3173",
+      "simulink_port_name": "p_X112_rp_81f1c1da5d6d3173",
+      "future_fmu_variable": "p_X112_rp_81f1c1da5d6d3173",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_843fa8c83311440e",
+      "ssd_connector_name": "p_X112_rp_843fa8c83311440e",
+      "simulink_port_name": "p_X112_rp_843fa8c83311440e",
+      "future_fmu_variable": "p_X112_rp_843fa8c83311440e",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_b84f02a624b9982f",
+      "ssd_connector_name": "p_X112_rp_b84f02a624b9982f",
+      "simulink_port_name": "p_X112_rp_b84f02a624b9982f",
+      "future_fmu_variable": "p_X112_rp_b84f02a624b9982f",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_X100::p_X111_rp_9828766df3df1904",
+      "ssd_connector_name": "p_X111_rp_9828766df3df1904",
+      "simulink_port_name": "p_X111_rp_9828766df3df1904",
+      "future_fmu_variable": "p_X111_rp_9828766df3df1904",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_388d943a537916a7",
+      "ssd_connector_name": "p_X112_rp_388d943a537916a7",
+      "simulink_port_name": "p_X112_rp_388d943a537916a7",
+      "future_fmu_variable": "p_X112_rp_388d943a537916a7",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_3b946767139d884a",
+      "ssd_connector_name": "p_X112_rp_3b946767139d884a",
+      "simulink_port_name": "p_X112_rp_3b946767139d884a",
+      "future_fmu_variable": "p_X112_rp_3b946767139d884a",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_73067cce4e6a7eeb",
+      "ssd_connector_name": "p_X112_rp_73067cce4e6a7eeb",
+      "simulink_port_name": "p_X112_rp_73067cce4e6a7eeb",
+      "future_fmu_variable": "p_X112_rp_73067cce4e6a7eeb",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_a59821acb0d73604",
+      "ssd_connector_name": "p_X112_rp_a59821acb0d73604",
+      "simulink_port_name": "p_X112_rp_a59821acb0d73604",
+      "future_fmu_variable": "p_X112_rp_a59821acb0d73604",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X112_rp_e5eadfefaf46ac0a",
+      "ssd_connector_name": "p_X112_rp_e5eadfefaf46ac0a",
+      "simulink_port_name": "p_X112_rp_e5eadfefaf46ac0a",
+      "future_fmu_variable": "p_X112_rp_e5eadfefaf46ac0a",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_X100::p_X121_rp_b6cf5a49ced52abf",
+      "ssd_connector_name": "p_X121_rp_b6cf5a49ced52abf",
+      "simulink_port_name": "p_X121_rp_b6cf5a49ced52abf",
+      "future_fmu_variable": "p_X121_rp_b6cf5a49ced52abf",
+      "binding_status": "READY"
+    }
+  ],
+  "total_connectors": 12,
+  "connected_l2_peers": [
+    "L2_8100"
+  ],
+  "future_simulink": "L2_X100.slx",
+  "future_fmu": "L2_X100.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

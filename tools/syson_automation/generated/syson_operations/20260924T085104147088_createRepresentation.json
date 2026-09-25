@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T08:50:58.125668+00:00",
+  "variables": {
+    "input": {
+      "id": "921f432d-ee7b-4ca3-bbc1-e590e7d2b1dd",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "objectId": "2f96abab-1d04-4bae-93d6-2fe23464f7c0",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "representationName": "AUTO_FULL_PROBE_REQ_TABLE_REQ"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "42fb646e-8cee-48fe-b223-7df7e1fc0d3a",
+        "label": "AUTO_FULL_PROBE_REQ_TABLE_REQ",
+        "kind": "siriusComponents://representation?type=Table"
+      }
+    }
+  },
+  "error": null
+}

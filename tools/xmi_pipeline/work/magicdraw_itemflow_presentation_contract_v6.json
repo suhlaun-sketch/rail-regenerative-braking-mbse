@@ -1,0 +1,57 @@
+{
+  "contract_id": "RAIL-MBSE-MAGICDRAW-ITEMFLOW-PRESENTATION-V6",
+  "target_tool": "MagicDraw 2022x",
+  "semantic_probe_connection": {
+    "connection_id": "CG-002543DBE0F9A7FBC2A3FDD3",
+    "connector_xmi_id": "XMI-CONN-CG-002543DBE0F9A7FBC2A3FDD3",
+    "information_flow_xmi_id": "XMI-INFORMATIONFLOW-15B085CFB9BA80E2C5",
+    "item_flow_application_xmi_id": "XMI-APP-ITEMFLOW-15B085CFB9BA80E2C5",
+    "source_port_xmi_id": "XMI-PORT-17D10E3CF7A87862",
+    "target_port_xmi_id": "XMI-PORT-E47D00EE3FA2782A",
+    "conveyed_signal_xmi_id": "XMI-ITEM-ITM-MEA-005",
+    "label": "高压线路电压"
+  },
+  "installed_golden_sample": {
+    "path": "C:\\Program Files\\MagicDraw\\samples\\MagicGrid\\Sample by Cells\\1 Problem Domain\\1 Black Box\\4_VehicleCCU_B3_final.mdzip",
+    "diagram_resource": "BINARY-6fb379b5-7d34-4e7a-a8b8-75f5da330cbb",
+    "resource_format": "XML mdOwnedViews stored as a MagicDraw native project resource",
+    "observed_connector_symbol": {
+      "elementClass": "Connector",
+      "elementID": "references uml:Connector",
+      "line": "solid Connector symbol",
+      "conveyed_compartments": [
+        "CONVEYED_INFORMATION_A",
+        "CONVEYED_INFORMATION_B"
+      ],
+      "direction_binding": "The conveyed side A/B is selected from Connector graphical end ordering.",
+      "label_symbol": "Connector-owned TextBox referenced by linkConveyedAID or linkConveyedBID",
+      "information_flow_symbol": "ABSENT"
+    },
+    "observed_visibility_properties": {
+      "SHOW_CONVEYED_A": true,
+      "SHOW_CONVEYED_B": true,
+      "SHOW_NAME_OF_INFORMATION_FLOW": false,
+      "SHOW_ID_OF_INFORMATION_FLOW": false
+    }
+  },
+  "desired_projection": {
+    "diagram_type": "SysML Internal Block Diagram",
+    "connector_symbol": "REQUIRED_SOLID",
+    "independent_information_flow_symbol": "FORBIDDEN",
+    "conveyed_item_compartment": "CONVEYED_INFORMATION_B when source is graphical first end and target is graphical second end",
+    "itemflow_marker": "BLACK_SOURCE_TO_TARGET",
+    "label": "conveyed uml:Signal.name",
+    "show_conveyed": true,
+    "show_information_flow_name": false,
+    "show_information_flow_id": false,
+    "show_technical_item_code_as_primary_label": false
+  },
+  "serialization_decision": {
+    "standard_xmi_model_layer": "GENERATED",
+    "vendor_diagram_resource_embedded_in_xmi": false,
+    "reason": "MagicDraw 2022x native diagram symbols are stored as separate project resources and are combined only by native .mdxml/.xml serialization or mdzip packaging. The requested standard .xmi Probe therefore carries the complete Connector/InformationFlow/ItemFlow model semantics without inventing an incomplete streamContentID resource.",
+    "status": "PRESENTATION_STILL_NEEDS_ADJUSTMENT",
+    "next_safe_step": "Import the Probe, create/show the Connector in an IBD, and apply this conveyed-information display contract; save a minimal native .mdxml golden sample for deterministic presentation serialization."
+  },
+  "full_xmi_published": false
+}

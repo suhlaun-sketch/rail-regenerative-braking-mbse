@@ -1,0 +1,35 @@
+{
+  "sha": "ad6cae115d05a0fb45dada962fed5b0d9eed61ac",
+  "node_id": "C_kwDOOmrPxtoAKGFkNmNhZTExNWQwNWEwZmI0NWRhZGE5NjJmZWQ1YjBkOWVlZDYxYWM",
+  "url": "https://api.github.com/repos/mvd-oulu/Standard-System-Interface/git/commits/ad6cae115d05a0fb45dada962fed5b0d9eed61ac",
+  "html_url": "https://github.com/mvd-oulu/Standard-System-Interface/commit/ad6cae115d05a0fb45dada962fed5b0d9eed61ac",
+  "author": {
+    "name": "Isa Banagar",
+    "email": "120365730+ibanagar@users.noreply.github.com",
+    "date": "2025-05-12T12:20:30Z"
+  },
+  "committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2025-05-12T12:20:30Z"
+  },
+  "tree": {
+    "sha": "5807761f0af2e52c71aea10eb934bdf525cf4efe",
+    "url": "https://api.github.com/repos/mvd-oulu/Standard-System-Interface/git/trees/5807761f0af2e52c71aea10eb934bdf525cf4efe"
+  },
+  "message": "Update environment.yml",
+  "parents": [
+    {
+      "sha": "374f38bfbb617a57bb9f827d6a2e0a4e9fdf258c",
+      "url": "https://api.github.com/repos/mvd-oulu/Standard-System-Interface/git/commits/374f38bfbb617a57bb9f827d6a2e0a4e9fdf258c",
+      "html_url": "https://github.com/mvd-oulu/Standard-System-Interface/commit/374f38bfbb617a57bb9f827d6a2e0a4e9fdf258c"
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoIeeOCRC1aQ7uu5UhlAAATsYQAEWe3oH0O0KFLUztpnREuGV8\nY9AVJLAbYCpQpSjaoYGNG9TVOqOby5DlgrGrOtiWyFvNioLkIFwchRyKwCyGFJp3\n7NAd72E6RNbIt9GCMLxZh/4qcs3JFI7ClwXxS4O2nt32v9+dzlbmcHSBknS7tvL+\nYVJr+3ZcNUWVoCiPBIggs4x6nWN6hUtGkc016l7+OqqcGuB5FAHNz2W1vKiCYyS4\n0IF3PrKtVEWTptl7oOp/fbVPIaivCqIPFjvBlmGVN28l21e3F2Veig3448RnQ+hh\nDlbytK8tdv08xG1AJ/+3DXI+YYVuFgV0C8eZB0Y/VsxTbYQpCNs1b300CavB88qh\nVHcnR/jv18Zczz0RuswPdDRNrE5XanEMRF51NHGQOqbjlvG+x/zwg9hwTU5BvaBi\nJkWpJjMoOIY+9d9UOrHLtMVNwMWT21NaJczq8y5xyZeFoH0twkAwQyvCb5JXecpz\nl2FrgGMJT/H9Es0AwLPQjMp1AuAv82fJUgNcF8h2IOsz6/HsAY8XXnmRkA869/CS\nSqpsr69BG/sLWv5OjX374Jnlkma0FjyL92d3qabgtscNY5nk9l373SIcC+3d1nBU\nP+PGgV+TkP1tWn2w5TCshSMOLHTYkKGRQmltrAGxUDLBzRrZXNbeInu2RFetMoWP\ntBNwJvVdveeG4WeTTWif\n=izKp\n-----END PGP SIGNATURE-----\n",
+    "payload": "tree 5807761f0af2e52c71aea10eb934bdf525cf4efe\nparent 374f38bfbb617a57bb9f827d6a2e0a4e9fdf258c\nauthor Isa Banagar <120365730+ibanagar@users.noreply.github.com> 1747052430 +0300\ncommitter GitHub <noreply@github.com> 1747052430 +0300\n\nUpdate environment.yml",
+    "verified_at": "2025-05-12T12:25:32Z"
+  }
+}

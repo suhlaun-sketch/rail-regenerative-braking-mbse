@@ -1,0 +1,5080 @@
+{
+  "meta": {
+    "kg_sha256": "8968c94456c651179586d014e54d8312fa44798107e644ab4af7b6b471f7810b",
+    "Product": 147,
+    "Item": 144,
+    "Profile": 1,
+    "CONTAINS": 139,
+    "EXPOSES": 517,
+    "Active_EXPOSES": 511,
+    "Inactive_EXPOSES": 6,
+    "Port_nodes": 0,
+    "interface_compatible_raw_candidates": 1124,
+    "hard_rule_candidates": 147
+  },
+  "candidates": [
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理::BOUNDARY-RAIL",
+      "connection_mode": "BOUNDARY",
+      "source_product": "3111",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-RAIL",
+      "target_net": null,
+      "item_code": "ITM-PHY-006",
+      "interface_type_id": "IF-PHY-006",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "wheel/rail longitudinal boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::3131::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "3131",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::3131::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::3132::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "3132",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::3132::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::3133::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "3133",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::3133::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::4111::接触面高压交流电能端口::ITM-PHY-001::双向物理::BOUNDARY-CATENARY-25KV",
+      "connection_mode": "BOUNDARY",
+      "source_product": "4111",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4111::接触面高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-CATENARY-25KV",
+      "target_net": null,
+      "item_code": "ITM-PHY-001",
+      "interface_type_id": "IF-PHY-001",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "external 25 kV AC catenary boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::4411::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "4411",
+      "source_role": "SAFETY_LOGIC",
+      "source_port_id": "PORT::4411::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::4412::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "4412",
+      "source_role": "SAFETY_LOGIC",
+      "source_port_id": "PORT::4412::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::5142::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "5142",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::5142::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::7254::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "7254",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::7254::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::X121::热能_热流端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "X121",
+      "source_role": "ENERGY_STORAGE",
+      "source_port_id": "PORT::X121::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::BOUNDARY::PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理::BOUNDARY-THERMAL-AMBIENT",
+      "connection_mode": "BOUNDARY",
+      "source_product": "X124",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": "BOUNDARY-THERMAL-AMBIENT",
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "thermal rejection to ambient boundary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理::PORT::3111::轮轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "3112",
+      "source_role": "SERIES_MECHANICAL",
+      "source_port_id": "PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3111",
+      "target_role": "ENERGY_SINK",
+      "target_port_id": "PORT::3111::轮轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3100",
+        "3100"
+      ],
+      "variant_group": null,
+      "reason": "axle wheelset side to wheel",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理::PORT::3112::传动段旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "3121",
+      "source_role": "MECHANICAL_TRANSFORMER",
+      "source_port_id": "PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3112",
+      "target_role": "SERIES_MECHANICAL",
+      "target_port_id": "PORT::3112::传动段旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3100",
+        "3100"
+      ],
+      "variant_group": null,
+      "reason": "gearbox low-speed side to axle transmission side",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::3511::第二连接面旋转机械能端口::ITM-PHY-005::双向物理::PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "3511",
+      "source_role": "SERIES_MECHANICAL",
+      "source_port_id": "PORT::3511::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3121",
+      "target_role": "MECHANICAL_TRANSFORMER",
+      "target_port_id": "PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3500",
+        "3100"
+      ],
+      "variant_group": "VG-COUPLING-01",
+      "reason": "coupling variant to gearbox high-speed side",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::3512::第二连接面旋转机械能端口::ITM-PHY-005::双向物理::PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "3512",
+      "source_role": "SERIES_MECHANICAL",
+      "source_port_id": "PORT::3512::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3121",
+      "target_role": "MECHANICAL_TRANSFORMER",
+      "target_port_id": "PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3500",
+        "3100"
+      ],
+      "variant_group": "VG-COUPLING-01",
+      "reason": "coupling variant to gearbox high-speed side",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::3514::第二轴端旋转机械能端口::ITM-PHY-005::双向物理::PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "3514",
+      "source_role": "SERIES_MECHANICAL",
+      "source_port_id": "PORT::3514::第二轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3121",
+      "target_role": "MECHANICAL_TRANSFORMER",
+      "target_port_id": "PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3500",
+        "3100"
+      ],
+      "variant_group": "VG-COUPLING-01",
+      "reason": "coupling variant to gearbox high-speed side",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::4111::导流端高压交流电能端口::ITM-PHY-001::双向物理::PORT::4211::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "4111",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4111::导流端高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_product": "4211",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::4211::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-001",
+      "interface_type_id": "IF-PHY-001",
+      "level2_interaction": [
+        "4100",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "pantograph downstream to breaker input",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::4211::出线侧高压交流电能端口::ITM-PHY-001::双向物理::PORT::4212::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "4211",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4211::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_product": "4212",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::4212::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-001",
+      "interface_type_id": "IF-PHY-001",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "breaker output to isolator input",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理::PORT::4236::第一测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "4212",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_product": "4236",
+      "target_role": "SERIES_SENSOR",
+      "target_port_id": "PORT::4236::第一测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-001",
+      "interface_type_id": "IF-PHY-001",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "isolator output enters series CT",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::4236::第二测量端高压交流电能端口::ITM-PHY-001::双向物理::PORT::4511::高压交流电能端口::ITM-PHY-001::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "4236",
+      "source_role": "SERIES_SENSOR",
+      "source_port_id": "PORT::4236::第二测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_product": "4511",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::4511::高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-001",
+      "interface_type_id": "IF-PHY-001",
+      "level2_interaction": [
+        "4200",
+        "4500"
+      ],
+      "variant_group": null,
+      "reason": "series CT output to transformer primary",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::4511::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理::PORT::4513::第一交流电能端口::ITM-PHY-014::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "4511",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::4511::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "target_product": "4513",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::4513::第一交流电能端口::ITM-PHY-014::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-014",
+      "interface_type_id": "IF-PHY-014",
+      "level2_interaction": [
+        "4500",
+        "4500"
+      ],
+      "variant_group": null,
+      "reason": "transformer secondary to reactor",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::4513::第二交流电能端口::ITM-PHY-014::双向物理::PORT::5122::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "4513",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4513::第二交流电能端口::ITM-PHY-014::双向物理",
+      "target_product": "5122",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::5122::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-014",
+      "interface_type_id": "IF-PHY-014",
+      "level2_interaction": [
+        "4500",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "reactor to input component AC side",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::5121::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理::PORT::5131::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "5121",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::5121::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "target_product": "5131",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::5131::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-014",
+      "interface_type_id": "IF-PHY-014",
+      "level2_interaction": [
+        "5100",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "precharge branch to line-side converter; deployment remains unresolved",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::5132::三相交流电能端口::ITM-PHY-004::双向物理::PORT::5311::三相交流电能端口::ITM-PHY-004::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "5132",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::5132::三相交流电能端口::ITM-PHY-004::双向物理",
+      "target_product": "5311",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::5311::三相交流电能端口::ITM-PHY-004::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-004",
+      "interface_type_id": "IF-PHY-004",
+      "level2_interaction": [
+        "5100",
+        "5300"
+      ],
+      "variant_group": null,
+      "reason": "motor converter to traction motor three-phase winding",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理::PORT::3511::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "5311",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3511",
+      "target_role": "SERIES_MECHANICAL",
+      "target_port_id": "PORT::3511::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "5300",
+        "3500"
+      ],
+      "variant_group": "VG-COUPLING-01",
+      "reason": "motor to coupling variant",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理::PORT::3512::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "5311",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3512",
+      "target_role": "SERIES_MECHANICAL",
+      "target_port_id": "PORT::3512::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "5300",
+        "3500"
+      ],
+      "variant_group": "VG-COUPLING-01",
+      "reason": "motor to coupling variant",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理::PORT::3514::第一轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "5311",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3514",
+      "target_role": "SERIES_MECHANICAL",
+      "target_port_id": "PORT::3514::第一轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "5300",
+        "3500"
+      ],
+      "variant_group": "VG-COUPLING-01",
+      "reason": "motor to coupling variant",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理::PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "7252",
+      "source_role": "ACTUATOR",
+      "source_port_id": "PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_product": "7254",
+      "target_role": "ENERGY_SINK",
+      "target_port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-007",
+      "interface_type_id": "IF-PHY-007",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "caliper to pad",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理::PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "7254",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_product": "3131",
+      "target_role": "ENERGY_SINK",
+      "target_port_id": "PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-007",
+      "interface_type_id": "IF-PHY-007",
+      "level2_interaction": [
+        "7200",
+        "3100"
+      ],
+      "variant_group": "VG-BRAKE-DISC-01",
+      "reason": "pad to brake-disc variant",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理::PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "7254",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_product": "3132",
+      "target_role": "ENERGY_SINK",
+      "target_port_id": "PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-007",
+      "interface_type_id": "IF-PHY-007",
+      "level2_interaction": [
+        "7200",
+        "3100"
+      ],
+      "variant_group": "VG-BRAKE-DISC-01",
+      "reason": "pad to brake-disc variant",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理::PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "7254",
+      "source_role": "ENERGY_SINK",
+      "source_port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_product": "3133",
+      "target_role": "ENERGY_SINK",
+      "target_port_id": "PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-007",
+      "interface_type_id": "IF-PHY-007",
+      "level2_interaction": [
+        "7200",
+        "3100"
+      ],
+      "variant_group": "VG-BRAKE-DISC-01",
+      "reason": "pad to brake-disc variant",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理::PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "7255",
+      "source_role": "ACTUATOR",
+      "source_port_id": "PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_product": "7252",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-007",
+      "interface_type_id": "IF-PHY-007",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "brake cylinder mechanical output to caliper",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理::PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "X111",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": "X131",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "DC/DC storage side to main contactor bus side",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理::PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "X111",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": "X132",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "DC/DC storage side to precharge branch",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理::PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "X131",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": "X133",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "main contactor load side to protection input",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理::PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "X132",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": "X133",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "precharge output to protection input",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SERIES::PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理::PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "connection_mode": "SERIES",
+      "source_product": "X133",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": "X121",
+      "target_role": "ENERGY_STORAGE",
+      "target_port_id": "PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "protection output to supercapacitor",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::3811::撒砂执行指令输出::ITM-CMD-032::输出::PORT::3813::撒砂执行指令输入::ITM-CMD-032::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "3811",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::3811::撒砂执行指令输出::ITM-CMD-032::输出",
+      "target_product": "3813",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::3813::撒砂执行指令输入::ITM-CMD-032::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-032",
+      "interface_type_id": "IF-CMD-032",
+      "level2_interaction": [
+        "3800",
+        "3800"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::411C::受电弓状态输出::ITM-STA-015::输出::PORT::4238::受电弓状态输入::ITM-STA-015::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "411C",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::411C::受电弓状态输出::ITM-STA-015::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::受电弓状态输入::ITM-STA-015::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-015",
+      "interface_type_id": "IF-STA-015",
+      "level2_interaction": [
+        "4100",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4211::高压断路器状态输出::ITM-STA-013::输出::PORT::4238::高压断路器状态输入::ITM-STA-013::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4211",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4211::高压断路器状态输出::ITM-STA-013::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::高压断路器状态输入::ITM-STA-013::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-013",
+      "interface_type_id": "IF-STA-013",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4212::高压隔离开关状态输出::ITM-STA-014::输出::PORT::4238::高压隔离开关状态输入::ITM-STA-014::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4212",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::4212::高压隔离开关状态输出::ITM-STA-014::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::高压隔离开关状态输入::ITM-STA-014::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-014",
+      "interface_type_id": "IF-STA-014",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4235::高压线路电压输出::ITM-MEA-005::输出::PORT::4238::高压线路电压输入::ITM-MEA-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4235",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::4235::高压线路电压输出::ITM-MEA-005::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::高压线路电压输入::ITM-MEA-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-005",
+      "interface_type_id": "IF-MEA-005",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4236::高压线路电流输出::ITM-MEA-006::输出::PORT::4238::高压线路电流输入::ITM-MEA-006::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4236",
+      "source_role": "SERIES_SENSOR",
+      "source_port_id": "PORT::4236::高压线路电流输出::ITM-MEA-006::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::高压线路电流输入::ITM-MEA-006::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-006",
+      "interface_type_id": "IF-MEA-006",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::受电弓控制指令输出::ITM-CMD-018::输出::PORT::411C::受电弓控制指令输入::ITM-CMD-018::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::受电弓控制指令输出::ITM-CMD-018::输出",
+      "target_product": "411C",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::411C::受电弓控制指令输入::ITM-CMD-018::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-018",
+      "interface_type_id": "IF-CMD-018",
+      "level2_interaction": [
+        "4200",
+        "4100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::受电弓状态输出::ITM-STA-015::输出::PORT::4239::受电弓状态输入::ITM-STA-015::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::受电弓状态输出::ITM-STA-015::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::受电弓状态输入::ITM-STA-015::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-015",
+      "interface_type_id": "IF-STA-015",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压断路器指令输出::ITM-CMD-016::输出::PORT::4211::高压断路器指令输入::ITM-CMD-016::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压断路器指令输出::ITM-CMD-016::输出",
+      "target_product": "4211",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::4211::高压断路器指令输入::ITM-CMD-016::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-016",
+      "interface_type_id": "IF-CMD-016",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压断路器指令输出::ITM-CMD-016::输出::PORT::8151::高压断路器指令输入::ITM-CMD-016::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压断路器指令输出::ITM-CMD-016::输出",
+      "target_product": "8151",
+      "target_role": "SAFETY_LOGIC",
+      "target_port_id": "PORT::8151::高压断路器指令输入::ITM-CMD-016::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-016",
+      "interface_type_id": "IF-CMD-016",
+      "level2_interaction": [
+        "4200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压断路器状态输出::ITM-STA-013::输出::PORT::4239::高压断路器状态输入::ITM-STA-013::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压断路器状态输出::ITM-STA-013::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::高压断路器状态输入::ITM-STA-013::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-013",
+      "interface_type_id": "IF-STA-013",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压断路器状态输出::ITM-STA-013::输出::PORT::4518::高压断路器状态输入::ITM-STA-013::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压断路器状态输出::ITM-STA-013::输出",
+      "target_product": "4518",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4518::高压断路器状态输入::ITM-STA-013::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-013",
+      "interface_type_id": "IF-STA-013",
+      "level2_interaction": [
+        "4200",
+        "4500"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压系统故障状态输出::ITM-STA-016::输出::PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压系统故障状态输出::ITM-STA-016::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-016",
+      "interface_type_id": "IF-STA-016",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压系统故障状态输出::ITM-STA-016::输出::PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压系统故障状态输出::ITM-STA-016::输出",
+      "target_product": "4518",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-016",
+      "interface_type_id": "IF-STA-016",
+      "level2_interaction": [
+        "4200",
+        "4500"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压线路电压输出::ITM-MEA-005::输出::PORT::4239::高压线路电压输入::ITM-MEA-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压线路电压输出::ITM-MEA-005::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::高压线路电压输入::ITM-MEA-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-005",
+      "interface_type_id": "IF-MEA-005",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压线路电压输出::ITM-MEA-005::输出::PORT::4241::高压线路电压输入::ITM-MEA-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压线路电压输出::ITM-MEA-005::输出",
+      "target_product": "4241",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4241::高压线路电压输入::ITM-MEA-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-005",
+      "interface_type_id": "IF-MEA-005",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压线路电压输出::ITM-MEA-005::输出::PORT::8166::高压线路电压输入::ITM-MEA-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压线路电压输出::ITM-MEA-005::输出",
+      "target_product": "8166",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8166::高压线路电压输入::ITM-MEA-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-005",
+      "interface_type_id": "IF-MEA-005",
+      "level2_interaction": [
+        "4200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压线路电流输出::ITM-MEA-006::输出::PORT::4239::高压线路电流输入::ITM-MEA-006::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压线路电流输出::ITM-MEA-006::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::高压线路电流输入::ITM-MEA-006::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-006",
+      "interface_type_id": "IF-MEA-006",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压线路电流输出::ITM-MEA-006::输出::PORT::4241::高压线路电流输入::ITM-MEA-006::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压线路电流输出::ITM-MEA-006::输出",
+      "target_product": "4241",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4241::高压线路电流输入::ITM-MEA-006::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-006",
+      "interface_type_id": "IF-MEA-006",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压线路电流输出::ITM-MEA-006::输出::PORT::8166::高压线路电流输入::ITM-MEA-006::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压线路电流输出::ITM-MEA-006::输出",
+      "target_product": "8166",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8166::高压线路电流输入::ITM-MEA-006::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-006",
+      "interface_type_id": "IF-MEA-006",
+      "level2_interaction": [
+        "4200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压隔离开关指令输出::ITM-CMD-017::输出::PORT::4212::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "target_product": "4212",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::4212::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-017",
+      "interface_type_id": "IF-CMD-017",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4238::高压隔离开关状态输出::ITM-STA-014::输出::PORT::4239::高压隔离开关状态输入::ITM-STA-014::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4238",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::4238::高压隔离开关状态输出::ITM-STA-014::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::高压隔离开关状态输入::ITM-STA-014::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-014",
+      "interface_type_id": "IF-STA-014",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4239::受电弓控制指令输出::ITM-CMD-018::输出::PORT::4238::受电弓控制指令输入::ITM-CMD-018::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4239",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::4239::受电弓控制指令输出::ITM-CMD-018::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::受电弓控制指令输入::ITM-CMD-018::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-018",
+      "interface_type_id": "IF-CMD-018",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4239::高压隔离开关指令输出::ITM-CMD-017::输出::PORT::4238::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4239",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::4239::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "target_product": "4238",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::4238::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-017",
+      "interface_type_id": "IF-CMD-017",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::4517::主变压器温度输出::ITM-MEA-022::输出::PORT::4518::主变压器温度输入::ITM-MEA-022::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "4517",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::4517::主变压器温度输出::ITM-MEA-022::输出",
+      "target_product": "4518",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4518::主变压器温度输入::ITM-MEA-022::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-022",
+      "interface_type_id": "IF-MEA-022",
+      "level2_interaction": [
+        "4500",
+        "4500"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出::PORT::8122::接触网可接收功率输入::ITM-LIM-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5111",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::接触网可接收功率输入::ITM-LIM-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-LIM-005",
+      "interface_type_id": "IF-LIM-005",
+      "level2_interaction": [
+        "5100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出::PORT::8125::接触网可接收功率输入::ITM-LIM-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5111",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出",
+      "target_product": "8125",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8125::接触网可接收功率输入::ITM-LIM-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-LIM-005",
+      "interface_type_id": "IF-LIM-005",
+      "level2_interaction": [
+        "5100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5111::网侧变流控制指令输出::ITM-CMD-010::输出::PORT::5131::网侧变流控制指令输入::ITM-CMD-010::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5111",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::5111::网侧变流控制指令输出::ITM-CMD-010::输出",
+      "target_product": "5131",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::5131::网侧变流控制指令输入::ITM-CMD-010::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-010",
+      "interface_type_id": "IF-CMD-010",
+      "level2_interaction": [
+        "5100",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5112::电机侧变流控制指令输出::ITM-CMD-011::输出::PORT::5132::电机侧变流控制指令输入::ITM-CMD-011::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::5112::电机侧变流控制指令输出::ITM-CMD-011::输出",
+      "target_product": "5132",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::5132::电机侧变流控制指令输入::ITM-CMD-011::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-011",
+      "interface_type_id": "IF-CMD-011",
+      "level2_interaction": [
+        "5100",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5145::制动斩波器指令输出::ITM-CMD-015::输出::PORT::5133::制动斩波器指令输入::ITM-CMD-015::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5145",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::5145::制动斩波器指令输出::ITM-CMD-015::输出",
+      "target_product": "5133",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::5133::制动斩波器指令输入::ITM-CMD-015::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-015",
+      "interface_type_id": "IF-CMD-015",
+      "level2_interaction": [
+        "5100",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5311::牵引电机实际转矩输出::ITM-MEA-012::输出::PORT::5112::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5311",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::5311::牵引电机实际转矩输出::ITM-MEA-012::输出",
+      "target_product": "5112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::5112::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-012",
+      "interface_type_id": "IF-MEA-012",
+      "level2_interaction": [
+        "5300",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::5311::牵引电机转速输出::ITM-MEA-004::输出::PORT::5112::牵引电机转速输入::ITM-MEA-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "5311",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::5311::牵引电机转速输出::ITM-MEA-004::输出",
+      "target_product": "5112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::5112::牵引电机转速输入::ITM-MEA-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-004",
+      "interface_type_id": "IF-MEA-004",
+      "level2_interaction": [
+        "5300",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7142::总风管压力输出::ITM-MEA-014::输出::PORT::8128::总风管压力输入::ITM-MEA-014::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7142",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::7142::总风管压力输出::ITM-MEA-014::输出",
+      "target_product": "8128",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::8128::总风管压力输入::ITM-MEA-014::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-014",
+      "interface_type_id": "IF-MEA-014",
+      "level2_interaction": [
+        "7100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动控制接触器指令输出::ITM-CMD-031::输出::PORT::7213::制动控制接触器指令输入::ITM-CMD-031::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动控制接触器指令输出::ITM-CMD-031::输出",
+      "target_product": "7213",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7213::制动控制接触器指令输入::ITM-CMD-031::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-031",
+      "interface_type_id": "IF-CMD-031",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动施加状态输出::ITM-STA-004::输出::PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动施加状态输出::ITM-STA-004::输出",
+      "target_product": "7281",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-004",
+      "interface_type_id": "IF-STA-004",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动电磁阀指令输出::ITM-CMD-022::输出::PORT::7225::制动电磁阀指令输入::ITM-CMD-022::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动电磁阀指令输出::ITM-CMD-022::输出",
+      "target_product": "7225",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7225::制动电磁阀指令输入::ITM-CMD-022::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-022",
+      "interface_type_id": "IF-CMD-022",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动系统可用状态输出::ITM-STA-003::输出::PORT::8121::制动系统可用状态输入::ITM-STA-003::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动系统可用状态输出::ITM-STA-003::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::制动系统可用状态输入::ITM-STA-003::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-003",
+      "interface_type_id": "IF-STA-003",
+      "level2_interaction": [
+        "7200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动系统可用状态输出::ITM-STA-003::输出::PORT::8122::制动系统可用状态输入::ITM-STA-003::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动系统可用状态输出::ITM-STA-003::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::制动系统可用状态输入::ITM-STA-003::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-003",
+      "interface_type_id": "IF-STA-003",
+      "level2_interaction": [
+        "7200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动缓解指令输出::ITM-CMD-019::输出::PORT::7227::制动缓解指令输入::ITM-CMD-019::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动缓解指令输出::ITM-CMD-019::输出",
+      "target_product": "7227",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7227::制动缓解指令输入::ITM-CMD-019::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-019",
+      "interface_type_id": "IF-CMD-019",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动缓解状态输出::ITM-STA-005::输出::PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动缓解状态输出::ITM-STA-005::输出",
+      "target_product": "7281",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-005",
+      "interface_type_id": "IF-STA-005",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动隔离指令输出::ITM-CMD-020::输出::PORT::7228::制动隔离指令输入::ITM-CMD-020::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动隔离指令输出::ITM-CMD-020::输出",
+      "target_product": "7228",
+      "target_role": "PNEUMATIC_ELEMENT",
+      "target_port_id": "PORT::7228::制动隔离指令输入::ITM-CMD-020::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-020",
+      "interface_type_id": "IF-CMD-020",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动隔离指令输出::ITM-CMD-020::输出::PORT::7284::制动隔离指令输入::ITM-CMD-020::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动隔离指令输出::ITM-CMD-020::输出",
+      "target_product": "7284",
+      "target_role": "PNEUMATIC_ELEMENT",
+      "target_port_id": "PORT::7284::制动隔离指令输入::ITM-CMD-020::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-020",
+      "interface_type_id": "IF-CMD-020",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动隔离指令输出::ITM-CMD-020::输出::PORT::7285::制动隔离指令输入::ITM-CMD-020::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动隔离指令输出::ITM-CMD-020::输出",
+      "target_product": "7285",
+      "target_role": "PNEUMATIC_ELEMENT",
+      "target_port_id": "PORT::7285::制动隔离指令输入::ITM-CMD-020::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-020",
+      "interface_type_id": "IF-CMD-020",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::制动隔离状态输出::ITM-STA-006::输出::PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::制动隔离状态输出::ITM-STA-006::输出",
+      "target_product": "7281",
+      "target_role": "ACTUATOR",
+      "target_port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-006",
+      "interface_type_id": "IF-STA-006",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::动态制动力请求输出::ITM-CMD-006::输出::PORT::8125::动态制动力请求输入::ITM-CMD-006::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::动态制动力请求输出::ITM-CMD-006::输出",
+      "target_product": "8125",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8125::动态制动力请求输入::ITM-CMD-006::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-006",
+      "interface_type_id": "IF-CMD-006",
+      "level2_interaction": [
+        "7200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::电空转换阀指令输出::ITM-CMD-021::输出::PORT::7222::电空转换阀指令输入::ITM-CMD-021::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::电空转换阀指令输出::ITM-CMD-021::输出",
+      "target_product": "7222",
+      "target_role": "PNEUMATIC_ELEMENT",
+      "target_port_id": "PORT::7222::电空转换阀指令输入::ITM-CMD-021::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-021",
+      "interface_type_id": "IF-CMD-021",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7211::防滑干预指令输出::ITM-CMD-023::输出::PORT::722A::防滑干预指令输入::ITM-CMD-023::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7211",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::7211::防滑干预指令输出::ITM-CMD-023::输出",
+      "target_product": "722A",
+      "target_role": "PNEUMATIC_ELEMENT",
+      "target_port_id": "PORT::722A::防滑干预指令输入::ITM-CMD-023::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-023",
+      "interface_type_id": "IF-CMD-023",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::722B::制动缸压力输出::ITM-MEA-016::输出::PORT::8128::制动缸压力输入::ITM-MEA-016::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "722B",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::722B::制动缸压力输出::ITM-MEA-016::输出",
+      "target_product": "8128",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::8128::制动缸压力输入::ITM-MEA-016::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-016",
+      "interface_type_id": "IF-MEA-016",
+      "level2_interaction": [
+        "7200",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::7252::实际摩擦制动力输出::ITM-MEA-017::输出::PORT::7211::实际摩擦制动力输入::ITM-MEA-017::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "7252",
+      "source_role": "ACTUATOR",
+      "source_port_id": "PORT::7252::实际摩擦制动力输出::ITM-MEA-017::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::实际摩擦制动力输入::ITM-MEA-017::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-017",
+      "interface_type_id": "IF-MEA-017",
+      "level2_interaction": [
+        "7200",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8121::服务制动请求输出::ITM-CMD-003::输出::PORT::7211::服务制动请求输入::ITM-CMD-003::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8121",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8121::服务制动请求输出::ITM-CMD-003::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::服务制动请求输入::ITM-CMD-003::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-003",
+      "interface_type_id": "IF-CMD-003",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8121::牵引使能指令输出::ITM-CMD-009::输出::PORT::8125::牵引使能指令输入::ITM-CMD-009::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8121",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8121::牵引使能指令输出::ITM-CMD-009::输出",
+      "target_product": "8125",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8125::牵引使能指令输入::ITM-CMD-009::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-009",
+      "interface_type_id": "IF-CMD-009",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8121::牵引切除请求输出::ITM-CMD-008::输出::PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8121",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8121::牵引切除请求输出::ITM-CMD-008::输出",
+      "target_product": "8125",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-008",
+      "interface_type_id": "IF-CMD-008",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8121::牵引指令输出::ITM-CMD-002::输出::PORT::8125::牵引指令输入::ITM-CMD-002::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8121",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8121::牵引指令输出::ITM-CMD-002::输出",
+      "target_product": "8125",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8125::牵引指令输入::ITM-CMD-002::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-002",
+      "interface_type_id": "IF-CMD-002",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8121::紧急制动请求输出::ITM-CMD-004::输出::PORT::7211::紧急制动请求输入::ITM-CMD-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8121",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8121::紧急制动请求输出::ITM-CMD-004::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::紧急制动请求输入::ITM-CMD-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-004",
+      "interface_type_id": "IF-CMD-004",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8121::紧急制动请求输出::ITM-CMD-004::输出::PORT::7226::紧急制动请求输入::ITM-CMD-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8121",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8121::紧急制动请求输出::ITM-CMD-004::输出",
+      "target_product": "7226",
+      "target_role": "PNEUMATIC_ELEMENT",
+      "target_port_id": "PORT::7226::紧急制动请求输入::ITM-CMD-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-004",
+      "interface_type_id": "IF-CMD-004",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8122::储能主接触器指令输出::ITM-CMD-027::输出::PORT::X112::储能主接触器指令输入::ITM-CMD-027::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8122",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8122::储能主接触器指令输出::ITM-CMD-027::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::储能主接触器指令输入::ITM-CMD-027::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-027",
+      "interface_type_id": "IF-CMD-027",
+      "level2_interaction": [
+        "8100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8122::储能功率请求输出::ITM-CMD-025::输出::PORT::X112::储能功率请求输入::ITM-CMD-025::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8122",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8122::储能功率请求输出::ITM-CMD-025::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::储能功率请求输入::ITM-CMD-025::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-025",
+      "interface_type_id": "IF-CMD-025",
+      "level2_interaction": [
+        "8100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8122::储能故障复位指令输出::ITM-CMD-029::输出::PORT::X112::储能故障复位指令输入::ITM-CMD-029::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8122",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8122::储能故障复位指令输出::ITM-CMD-029::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::储能故障复位指令输入::ITM-CMD-029::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-029",
+      "interface_type_id": "IF-CMD-029",
+      "level2_interaction": [
+        "8100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8122::储能预充电指令输出::ITM-CMD-028::输出::PORT::X112::储能预充电指令输入::ITM-CMD-028::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8122",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8122::储能预充电指令输出::ITM-CMD-028::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::储能预充电指令输入::ITM-CMD-028::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-028",
+      "interface_type_id": "IF-CMD-028",
+      "level2_interaction": [
+        "8100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8122::双向DC_DC使能输出::ITM-CMD-026::输出::PORT::X112::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8122",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8122::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-026",
+      "interface_type_id": "IF-CMD-026",
+      "level2_interaction": [
+        "8100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8125::动态制动可用状态输出::ITM-STA-002::输出::PORT::7211::动态制动可用状态输入::ITM-STA-002::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8125",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8125::动态制动可用状态输出::ITM-STA-002::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::动态制动可用状态输入::ITM-STA-002::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-002",
+      "interface_type_id": "IF-STA-002",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8125::可用动态制动力输出::ITM-LIM-001::输出::PORT::7211::可用动态制动力输入::ITM-LIM-001::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8125",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8125::可用动态制动力输出::ITM-LIM-001::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::可用动态制动力输入::ITM-LIM-001::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-LIM-001",
+      "interface_type_id": "IF-LIM-001",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8125::实际动态制动力输出::ITM-MEA-013::输出::PORT::7211::实际动态制动力输入::ITM-MEA-013::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8125",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8125::实际动态制动力输出::ITM-MEA-013::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::实际动态制动力输入::ITM-MEA-013::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-013",
+      "interface_type_id": "IF-MEA-013",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8125::实际动态制动力输出::ITM-MEA-013::输出::PORT::8122::实际动态制动力输入::ITM-MEA-013::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8125",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8125::实际动态制动力输出::ITM-MEA-013::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::实际动态制动力输入::ITM-MEA-013::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-013",
+      "interface_type_id": "IF-MEA-013",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8125::牵引电机转矩请求输出::ITM-CMD-012::输出::PORT::5112::牵引电机转矩请求输入::ITM-CMD-012::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8125",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8125::牵引电机转矩请求输出::ITM-CMD-012::输出",
+      "target_product": "5112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::5112::牵引电机转矩请求输入::ITM-CMD-012::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-012",
+      "interface_type_id": "IF-CMD-012",
+      "level2_interaction": [
+        "8100",
+        "5100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出::PORT::7211::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8127",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-030",
+      "interface_type_id": "IF-CMD-030",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出::PORT::8152::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8127",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "target_product": "8152",
+      "target_role": "SAFETY_LOGIC",
+      "target_port_id": "PORT::8152::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-030",
+      "interface_type_id": "IF-CMD-030",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::ATP_外部安全系统状态输出::ITM-STA-027::输出::PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-027",
+      "interface_type_id": "IF-STA-027",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::制动安全回路状态输出::ITM-STA-025::输出::PORT::8121::制动安全回路状态输入::ITM-STA-025::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::制动安全回路状态输出::ITM-STA-025::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::制动安全回路状态输入::ITM-STA-025::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-025",
+      "interface_type_id": "IF-STA-025",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::制动缸压力输出::ITM-MEA-016::输出::PORT::7211::制动缸压力输入::ITM-MEA-016::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::制动缸压力输出::ITM-MEA-016::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::制动缸压力输入::ITM-MEA-016::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-016",
+      "interface_type_id": "IF-MEA-016",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::总风管压力输出::ITM-MEA-014::输出::PORT::7211::总风管压力输入::ITM-MEA-014::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::总风管压力输出::ITM-MEA-014::输出",
+      "target_product": "7211",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::7211::总风管压力输入::ITM-MEA-014::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-014",
+      "interface_type_id": "IF-MEA-014",
+      "level2_interaction": [
+        "8100",
+        "7200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出::PORT::8121::牵引安全回路状态输入::ITM-STA-026::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::牵引安全回路状态输入::ITM-STA-026::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-026",
+      "interface_type_id": "IF-STA-026",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出::PORT::8125::牵引安全回路状态输入::ITM-STA-026::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出",
+      "target_product": "8125",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8125::牵引安全回路状态输入::ITM-STA-026::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-026",
+      "interface_type_id": "IF-STA-026",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::高压安全回路状态输出::ITM-STA-024::输出::PORT::4239::高压安全回路状态输入::ITM-STA-024::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::高压安全回路状态输出::ITM-STA-024::输出",
+      "target_product": "4239",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::4239::高压安全回路状态输入::ITM-STA-024::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-024",
+      "interface_type_id": "IF-STA-024",
+      "level2_interaction": [
+        "8100",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8128::高压安全回路状态输出::ITM-STA-024::输出::PORT::8121::高压安全回路状态输入::ITM-STA-024::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8128",
+      "source_role": "IO_ROUTER",
+      "source_port_id": "PORT::8128::高压安全回路状态输出::ITM-STA-024::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::高压安全回路状态输入::ITM-STA-024::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-024",
+      "interface_type_id": "IF-STA-024",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::8166::能量回收率输出::ITM-ACC-015::输出::PORT::8122::能量回收率输入::ITM-ACC-015::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "8166",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::8166::能量回收率输出::ITM-ACC-015::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::能量回收率输入::ITM-ACC-015::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-ACC-015",
+      "interface_type_id": "IF-ACC-015",
+      "level2_interaction": [
+        "8100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::D112::列车方向指令输出::ITM-CMD-001::输出::PORT::8121::列车方向指令输入::ITM-CMD-001::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "D112",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::D112::列车方向指令输出::ITM-CMD-001::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::列车方向指令输入::ITM-CMD-001::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-001",
+      "interface_type_id": "IF-CMD-001",
+      "level2_interaction": [
+        "D100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::D113::牵引指令输出::ITM-CMD-002::输出::PORT::8121::牵引指令输入::ITM-CMD-002::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "D113",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::D113::牵引指令输出::ITM-CMD-002::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::牵引指令输入::ITM-CMD-002::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-002",
+      "interface_type_id": "IF-CMD-002",
+      "level2_interaction": [
+        "D100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::D114::服务制动请求输出::ITM-CMD-003::输出::PORT::8121::服务制动请求输入::ITM-CMD-003::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "D114",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::D114::服务制动请求输出::ITM-CMD-003::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::服务制动请求输入::ITM-CMD-003::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-003",
+      "interface_type_id": "IF-CMD-003",
+      "level2_interaction": [
+        "D100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::D121::紧急制动请求输出::ITM-CMD-004::输出::PORT::8121::紧急制动请求输入::ITM-CMD-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "D121",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::D121::紧急制动请求输出::ITM-CMD-004::输出",
+      "target_product": "8121",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8121::紧急制动请求输入::ITM-CMD-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-004",
+      "interface_type_id": "IF-CMD-004",
+      "level2_interaction": [
+        "D100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::D121::紧急制动请求输出::ITM-CMD-004::输出::PORT::8152::紧急制动请求输入::ITM-CMD-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "D121",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::D121::紧急制动请求输出::ITM-CMD-004::输出",
+      "target_product": "8152",
+      "target_role": "SAFETY_LOGIC",
+      "target_port_id": "PORT::8152::紧急制动请求输入::ITM-CMD-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-004",
+      "interface_type_id": "IF-CMD-004",
+      "level2_interaction": [
+        "D100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::E100::ATP_外部安全系统状态输出::ITM-STA-027::输出::PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "E100",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::E100::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "target_product": "8128",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-027",
+      "interface_type_id": "IF-STA-027",
+      "level2_interaction": [
+        "E100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::E100::安全停车_制动请求输出::ITM-CMD-030::输出::PORT::8127::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "E100",
+      "source_role": "EXTERNAL_BOUNDARY",
+      "source_port_id": "PORT::E100::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "target_product": "8127",
+      "target_role": "IO_ROUTER",
+      "target_port_id": "PORT::8127::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-030",
+      "interface_type_id": "IF-CMD-030",
+      "level2_interaction": [
+        "E100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X111::双向DC_DC实际功率输出::ITM-MEA-029::输出::PORT::X112::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X111",
+      "source_role": "ENERGY_CONVERTER",
+      "source_port_id": "PORT::X111::双向DC_DC实际功率输出::ITM-MEA-029::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-029",
+      "interface_type_id": "IF-MEA-029",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能主接触器指令输出::ITM-CMD-027::输出::PORT::X131::储能主接触器指令输入::ITM-CMD-027::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能主接触器指令输出::ITM-CMD-027::输出",
+      "target_product": "X131",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::X131::储能主接触器指令输入::ITM-CMD-027::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-027",
+      "interface_type_id": "IF-CMD-027",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能功率请求输出::ITM-CMD-025::输出::PORT::X111::储能功率请求输入::ITM-CMD-025::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能功率请求输出::ITM-CMD-025::输出",
+      "target_product": "X111",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::X111::储能功率请求输入::ITM-CMD-025::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-025",
+      "interface_type_id": "IF-CMD-025",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能可用充电功率输出::ITM-LIM-009::输出::PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能可用充电功率输出::ITM-LIM-009::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-LIM-009",
+      "interface_type_id": "IF-LIM-009",
+      "level2_interaction": [
+        "X100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能可用放电功率输出::ITM-LIM-010::输出::PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能可用放电功率输出::ITM-LIM-010::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-LIM-010",
+      "interface_type_id": "IF-LIM-010",
+      "level2_interaction": [
+        "X100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能吸收功率输出::ITM-ACC-004::输出::PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能吸收功率输出::ITM-ACC-004::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-ACC-004",
+      "interface_type_id": "IF-ACC-004",
+      "level2_interaction": [
+        "X100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能系统可用状态输出::ITM-STA-030::输出::PORT::8122::储能系统可用状态输入::ITM-STA-030::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能系统可用状态输出::ITM-STA-030::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::储能系统可用状态输入::ITM-STA-030::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-030",
+      "interface_type_id": "IF-STA-030",
+      "level2_interaction": [
+        "X100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能系统故障状态输出::ITM-STA-031::输出::PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能系统故障状态输出::ITM-STA-031::输出",
+      "target_product": "8122",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-031",
+      "interface_type_id": "IF-STA-031",
+      "level2_interaction": [
+        "X100",
+        "8100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::储能预充电指令输出::ITM-CMD-028::输出::PORT::X132::储能预充电指令输入::ITM-CMD-028::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::储能预充电指令输出::ITM-CMD-028::输出",
+      "target_product": "X132",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::X132::储能预充电指令输入::ITM-CMD-028::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-028",
+      "interface_type_id": "IF-CMD-028",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X112::双向DC_DC使能输出::ITM-CMD-026::输出::PORT::X111::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X112",
+      "source_role": "CONTROLLER",
+      "source_port_id": "PORT::X112::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "target_product": "X111",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::X111::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-CMD-026",
+      "interface_type_id": "IF-CMD-026",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X121::超级电容SOC输出::ITM-MEA-028::输出::PORT::X112::超级电容SOC输入::ITM-MEA-028::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X121",
+      "source_role": "ENERGY_STORAGE",
+      "source_port_id": "PORT::X121::超级电容SOC输出::ITM-MEA-028::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::超级电容SOC输入::ITM-MEA-028::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-MEA-028",
+      "interface_type_id": "IF-MEA-028",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X131::储能主接触器状态输出::ITM-STA-032::输出::PORT::X112::储能主接触器状态输入::ITM-STA-032::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X131",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::X131::储能主接触器状态输出::ITM-STA-032::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::储能主接触器状态输入::ITM-STA-032::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-032",
+      "interface_type_id": "IF-STA-032",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::SIGNAL::PORT::X132::储能预充电状态输出::ITM-STA-033::输出::PORT::X112::储能预充电状态输入::ITM-STA-033::输入",
+      "connection_mode": "SIGNAL",
+      "source_product": "X132",
+      "source_role": "SERIES_ELECTRICAL",
+      "source_port_id": "PORT::X132::储能预充电状态输出::ITM-STA-033::输出",
+      "target_product": "X112",
+      "target_role": "CONTROLLER",
+      "target_port_id": "PORT::X112::储能预充电状态输入::ITM-STA-033::输入",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-STA-033",
+      "interface_type_id": "IF-STA-033",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "hard-compatible directed signal route",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::3641::旋转机械能端口::ITM-PHY-005::双向物理::PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "TAP",
+      "source_product": "3641",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::3641::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3112",
+      "target_role": "SERIES_MECHANICAL",
+      "target_port_id": "PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3600",
+        "3100"
+      ],
+      "variant_group": null,
+      "reason": "sensor samples host path without interrupting it",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::3643::旋转机械能端口::ITM-PHY-005::双向物理::PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "TAP",
+      "source_product": "3643",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::3643::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "3121",
+      "target_role": "MECHANICAL_TRANSFORMER",
+      "target_port_id": "PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3600",
+        "3100"
+      ],
+      "variant_group": null,
+      "reason": "sensor samples host path without interrupting it",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::3644::旋转机械能端口::ITM-PHY-005::双向物理::PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "connection_mode": "TAP",
+      "source_product": "3644",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::3644::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_product": "5311",
+      "target_role": "ENERGY_CONVERTER",
+      "target_port_id": "PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-005",
+      "interface_type_id": "IF-PHY-005",
+      "level2_interaction": [
+        "3600",
+        "5300"
+      ],
+      "variant_group": null,
+      "reason": "sensor samples host path without interrupting it",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::4235::高压交流电能端口::ITM-PHY-001::双向物理::PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "connection_mode": "TAP",
+      "source_product": "4235",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::4235::高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_product": "4212",
+      "target_role": "SERIES_ELECTRICAL",
+      "target_port_id": "PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-001",
+      "interface_type_id": "IF-PHY-001",
+      "level2_interaction": [
+        "4200",
+        "4200"
+      ],
+      "variant_group": null,
+      "reason": "sensor samples host path without interrupting it",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理::NET-PNEU-MAIN-01",
+      "connection_mode": "TAP",
+      "source_product": "7142",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-PNEU-MAIN-01",
+      "item_code": "ITM-PHY-008",
+      "interface_type_id": "IF-PHY-008",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理::NET-PNEU-MAIN-01",
+      "connection_mode": "TAP",
+      "source_product": "7224",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-PNEU-MAIN-01",
+      "item_code": "ITM-PHY-008",
+      "interface_type_id": "IF-PHY-008",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理::NET-PNEU-BRAKE-SUPPLY-01",
+      "connection_mode": "TAP",
+      "source_product": "7224",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-PNEU-BRAKE-SUPPLY-01",
+      "item_code": "ITM-PHY-009",
+      "interface_type_id": "IF-PHY-009",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理::NET-PNEU-CYLINDER-01",
+      "connection_mode": "TAP",
+      "source_product": "722B",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-PNEU-CYLINDER-01",
+      "item_code": "ITM-PHY-010",
+      "interface_type_id": "IF-PHY-010",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理::NET-PNEU-CYLINDER-01",
+      "connection_mode": "TAP",
+      "source_product": "722C",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-PNEU-CYLINDER-01",
+      "item_code": "ITM-PHY-010",
+      "interface_type_id": "IF-PHY-010",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理::NET-DC-LINK-01",
+      "connection_mode": "TAP",
+      "source_product": "X113",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-DC-LINK-01",
+      "item_code": "ITM-PHY-003",
+      "interface_type_id": "IF-PHY-003",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理::NET-STORAGE-DC-BUS-01",
+      "connection_mode": "TAP",
+      "source_product": "X113",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-STORAGE-DC-BUS-01",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理::NET-STORAGE-DC-SC-01",
+      "connection_mode": "TAP",
+      "source_product": "X122",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-STORAGE-DC-SC-01",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理::NET-STORAGE-DC-SC-01",
+      "connection_mode": "TAP",
+      "source_product": "X123",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "target_product": null,
+      "target_role": null,
+      "target_port_id": null,
+      "target_boundary": null,
+      "target_net": "NET-STORAGE-DC-SC-01",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "level2_interaction": null,
+      "variant_group": null,
+      "reason": "sensor tap member of physical net",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    },
+    {
+      "candidate_id": "CAND::TAP::PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理::PORT::X121::热能_热流端口::ITM-PHY-013::双向物理",
+      "connection_mode": "TAP",
+      "source_product": "X124",
+      "source_role": "SENSOR_TAP",
+      "source_port_id": "PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理",
+      "target_product": "X121",
+      "target_role": "ENERGY_STORAGE",
+      "target_port_id": "PORT::X121::热能_热流端口::ITM-PHY-013::双向物理",
+      "target_boundary": null,
+      "target_net": null,
+      "item_code": "ITM-PHY-013",
+      "interface_type_id": "IF-PHY-013",
+      "level2_interaction": [
+        "X100",
+        "X100"
+      ],
+      "variant_group": null,
+      "reason": "sensor samples host path without interrupting it",
+      "hard_checks": {
+        "profile_active": true,
+        "different_product": true,
+        "canonical_item": true,
+        "interface_type": true,
+        "direction_or_physical": true,
+        "medium_unit": true,
+        "role_adjacency": true,
+        "system_interaction": true,
+        "local_semantics": true,
+        "variant_rule": true
+      }
+    }
+  ],
+  "unresolved_routes": [
+    {
+      "target_port_id": "PORT::8128::超级电容温度输入::ITM-MEA-027::输入",
+      "item_code": "ITM-MEA-027",
+      "routers": [
+        "8128",
+        "X112"
+      ],
+      "reason": "multiple I/O deployment routes; direct bypass and automatic router choice suppressed"
+    },
+    {
+      "target_port_id": "PORT::8128::超级电容电压输入::ITM-MEA-025::输入",
+      "item_code": "ITM-MEA-025",
+      "routers": [
+        "8128",
+        "X112"
+      ],
+      "reason": "multiple I/O deployment routes; direct bypass and automatic router choice suppressed"
+    },
+    {
+      "target_port_id": "PORT::8128::超级电容电流输入::ITM-MEA-026::输入",
+      "item_code": "ITM-MEA-026",
+      "routers": [
+        "8128",
+        "X112"
+      ],
+      "reason": "multiple I/O deployment routes; direct bypass and automatic router choice suppressed"
+    },
+    {
+      "target_port_id": "PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+      "item_code": "ITM-MEA-027",
+      "routers": [
+        "8128",
+        "X112"
+      ],
+      "reason": "multiple I/O deployment routes; direct bypass and automatic router choice suppressed"
+    },
+    {
+      "target_port_id": "PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+      "item_code": "ITM-MEA-025",
+      "routers": [
+        "8128",
+        "X112"
+      ],
+      "reason": "multiple I/O deployment routes; direct bypass and automatic router choice suppressed"
+    },
+    {
+      "target_port_id": "PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+      "item_code": "ITM-MEA-026",
+      "routers": [
+        "8128",
+        "X112"
+      ],
+      "reason": "multiple I/O deployment routes; direct bypass and automatic router choice suppressed"
+    }
+  ],
+  "issues": [
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::4238::高压断路器指令输入::ITM-CMD-016::输入",
+      "source_products": [
+        "4239",
+        "4518"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+      "source_products": [
+        "411C",
+        "4211",
+        "4239",
+        "4517"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+      "source_products": [
+        "5113",
+        "5131",
+        "5132",
+        "5145"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5111::高压线路电流输入::ITM-MEA-006::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+      "source_products": [
+        "5113",
+        "5131",
+        "5132",
+        "5145"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+      "source_products": [
+        "5132",
+        "5311"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+      "source_products": [
+        "5113",
+        "5132",
+        "5311"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::7211::低风压状态输入::ITM-STA-009::输入",
+      "source_products": [
+        "7142",
+        "722C"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::7211::制动安全回路状态输入::ITM-STA-025::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8121::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "source_products": [
+        "8127",
+        "E100"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8121::牵引可用状态输入::ITM-STA-001::输入",
+      "source_products": [
+        "5112",
+        "8125"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+      "source_products": [
+        "5111",
+        "5112",
+        "8125"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8122::列车方向指令输入::ITM-CMD-001::输入",
+      "source_products": [
+        "8121",
+        "D112"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+      "source_products": [
+        "5142",
+        "8166"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::动态制动可用状态输入::ITM-STA-002::输入",
+      "source_products": [
+        "5112",
+        "8125"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::可用动态制动力输入::ITM-LIM-001::输入",
+      "source_products": [
+        "5112",
+        "8125"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+      "source_products": [
+        "4241",
+        "5131",
+        "8166"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8122::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "source_products": [
+        "8127",
+        "E100"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+      "source_products": [
+        "5132",
+        "8166"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8122::服务制动请求输入::ITM-CMD-003::输入",
+      "source_products": [
+        "8121",
+        "D114"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+      "source_products": [
+        "5111",
+        "5112",
+        "5113",
+        "8125"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::牵引可用状态输入::ITM-STA-001::输入",
+      "source_products": [
+        "5112",
+        "8125"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8122::牵引指令输入::ITM-CMD-002::输入",
+      "source_products": [
+        "8121",
+        "D113"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8122::紧急制动请求输入::ITM-CMD-004::输入",
+      "source_products": [
+        "8121",
+        "D121"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8122::超级电容SOC输入::ITM-MEA-028::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8127::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8128::撒砂请求输入::ITM-CMD-024::输入",
+      "source_products": [
+        "8122",
+        "D13B"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8154::牵引使能指令输入::ITM-CMD-009::输入",
+      "source_products": [
+        "8121",
+        "8122"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "COMMAND_CARDINALITY",
+      "target_port_id": "PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+      "source_products": [
+        "7211",
+        "8121",
+        "8122"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+      "source_products": [
+        "5113",
+        "5131",
+        "5132",
+        "5145"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_products": [
+        "5113",
+        "5131",
+        "5132",
+        "5145",
+        "X113"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+      "source_products": [
+        "X113",
+        "X133"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+      "source_products": [
+        "X111",
+        "X113"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "type": "SIGNAL_SOURCE_AMBIGUITY",
+      "target_port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+      "source_products": [
+        "5113",
+        "5145",
+        "X113"
+      ],
+      "status": "UNRESOLVED"
+    }
+  ],
+  "forbidden_output_created": false
+}

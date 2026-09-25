@@ -1,0 +1,3288 @@
+{
+  "scope_id": "scope_44d548334a8b",
+  "query": "再生制动时超级电容储能相关设计",
+  "created_at": "2026-09-23T11:46:39.857461Z",
+  "query_provider": "LOCAL",
+  "requirements": [
+    {
+      "id": "REQ-BRK-007",
+      "name": "再生制动优先需求",
+      "requirement_level": "UNKNOWN",
+      "source_type": "STANDARD_DIRECT",
+      "score": 16.111,
+      "evidence": [
+        {
+          "source": "V2 semantic query",
+          "id": "REQ-BRK-007",
+          "text": "domain、keywords"
+        }
+      ],
+      "parent_requirement_ids": [],
+      "derived_requirement_ids": []
+    },
+    {
+      "id": "REQ-ENE-001",
+      "name": "电容式储能电源储存功能需求",
+      "requirement_level": "UNKNOWN",
+      "source_type": "STANDARD_DIRECT",
+      "score": 10.0,
+      "evidence": [
+        {
+          "source": "V2 semantic query",
+          "id": "REQ-ENE-001",
+          "text": "keywords"
+        }
+      ],
+      "parent_requirement_ids": [],
+      "derived_requirement_ids": []
+    },
+    {
+      "id": "PRJ-ENE-004",
+      "name": "再生充电SOC上限需求",
+      "requirement_level": "UNKNOWN",
+      "source_type": "PROJECT_REQUIREMENT",
+      "score": 6.667,
+      "evidence": [
+        {
+          "source": "V2 semantic query",
+          "id": "PRJ-ENE-004",
+          "text": "keywords"
+        }
+      ],
+      "parent_requirement_ids": [],
+      "derived_requirement_ids": []
+    },
+    {
+      "id": "REQ-BRK-004",
+      "name": "电制动与空气制动双制动方式需求",
+      "requirement_level": "UNKNOWN",
+      "source_type": "STANDARD_DIRECT",
+      "score": 6.5,
+      "evidence": [
+        {
+          "source": "V2 semantic query",
+          "id": "REQ-BRK-004",
+          "text": "domain"
+        }
+      ],
+      "parent_requirement_ids": [],
+      "derived_requirement_ids": []
+    },
+    {
+      "id": "PRJ-ENE-002",
+      "name": "储能最大充电功率约束",
+      "requirement_level": "UNKNOWN",
+      "source_type": "PROJECT_REQUIREMENT",
+      "score": 5.0,
+      "evidence": [
+        {
+          "source": "V2 semantic query",
+          "id": "PRJ-ENE-002",
+          "text": "keywords"
+        }
+      ],
+      "parent_requirement_ids": [],
+      "derived_requirement_ids": []
+    }
+  ],
+  "functions": [
+    {
+      "id": "FN_F_X100_01",
+      "name": "吸收、存储并按需释放再生制动能量",
+      "owner_product_id": "X100",
+      "owner_product_name": "车载再生储能",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X100_01",
+          "text": "正式需求库 known_function_id=FN_F_X100_01"
+        },
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X100_01",
+          "text": "正式需求库 known_function_id=FN_F_X100_01"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_7211_02",
+      "name": "协调再生制动与摩擦制动力",
+      "owner_product_id": "7211",
+      "owner_product_name": "电子制动控制单元(EBCU)",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_7211_02",
+          "text": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_7211_03",
+      "name": "执行电空制动控制",
+      "owner_product_id": "7211",
+      "owner_product_name": "电子制动控制单元(EBCU)",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_7211_03",
+          "text": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_5311_01",
+      "name": "实现三相交流电能与旋转机械能双向转换",
+      "owner_product_id": "5311",
+      "owner_product_name": "牵引电机",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_5311_01",
+          "text": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_7255_01",
+      "name": "将气动压力转换为制动机械力",
+      "owner_product_id": "7255",
+      "owner_product_name": "增压缸",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_7255_01",
+          "text": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_X121_01",
+      "name": "储存并按需释放再生制动电能",
+      "owner_product_id": "X121",
+      "owner_product_name": "超级电容模块",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X121_01",
+          "text": "再生制动协调、储能吸收释放和储能功率保护功能；不推断 5100 与 X100 直接接口。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_X112_02",
+      "name": "限制储能充放电功率并协调保护",
+      "owner_product_id": "X112",
+      "owner_product_name": "双向DC/DC控制模块",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X112_02",
+          "text": "再生制动协调、储能吸收释放和储能功率保护功能；不推断 5100 与 X100 直接接口。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_X112_01",
+      "name": "控制双向DC/DC功率变换",
+      "owner_product_id": "X112",
+      "owner_product_name": "双向DC/DC控制模块",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X112_01",
+          "text": "双向 DC/DC 控制、功率保护及储能功能，SC-006 为充电功率约束参数。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_3130_01",
+      "name": "耗散能量",
+      "owner_product_id": "3130",
+      "owner_product_name": "制动盘",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_3130_01",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3130_01_3130 allocate F_3130_01 to 3130。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_3131_01",
+      "name": "通过外轮盘耗散机械制动能量",
+      "owner_product_id": "3131",
+      "owner_product_name": "外轮盘",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_3131_01",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3131_01_3131 allocate F_3131_01 to 3131。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_3132_01",
+      "name": "通过内轮盘耗散能量",
+      "owner_product_id": "3132",
+      "owner_product_name": "内轮盘",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_3132_01",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3132_01_3132 allocate F_3132_01 to 3132。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_3133_01",
+      "name": "通过轴盘耗散能量",
+      "owner_product_id": "3133",
+      "owner_product_name": "轴盘",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_3133_01",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3133_01_3133 allocate F_3133_01 to 3133。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_X110_01",
+      "name": "实现再生储能双向能量变换、控制与保护",
+      "owner_product_id": "X110",
+      "owner_product_name": "双向储能变流及控制",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X110_01",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_X110_01_X110 allocate F_X110_01 to X110。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_X111_01",
+      "name": "实现中间直流母线与储能侧直流母线双向能量转换",
+      "owner_product_id": "X111",
+      "owner_product_name": "双向DC/DC变流模块",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X111_01",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_X111_01_X111 allocate F_X111_01 to X111。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    },
+    {
+      "id": "FN_F_X111_02",
+      "name": "执行双向DC/DC功率变换指令并反馈状态",
+      "owner_product_id": "X111",
+      "owner_product_name": "双向DC/DC变流模块",
+      "evidence": [
+        {
+          "source": "SysML allocation",
+          "id": "FN_F_X111_02",
+          "text": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_X111_02_X111 allocate F_X111_02 to X111。仅以真实OWNER allocation定位Function所属Product。"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "3100",
+      "name": "轮轴组成",
+      "level": 2,
+      "role": "OWNER",
+      "evidence": [
+        {
+          "source": "TaskSlice projection",
+          "id": "product::3100",
+          "text": "产品「制动盘」沿正式包含关系投影到该L2边界"
+        },
+        {
+          "source": "TaskSlice projection",
+          "id": "product::3100",
+          "text": "产品「外轮盘」沿正式包含关系投影到该L2边界"
+        },
+        {
+          "source": "TaskSlice projection",
+          "id": "product::3100",
+          "text": "产品「内轮盘」沿正式包含关系投影到该L2边界"
+        }
+      ]
+    },
+    {
+      "id": "5300",
+      "name": "牵引电机及其冷却",
+      "level": 2,
+      "role": "OWNER",
+      "evidence": [
+        {
+          "source": "TaskSlice projection",
+          "id": "product::5300",
+          "text": "产品「牵引电机」沿正式包含关系投影到该L2边界"
+        }
+      ]
+    },
+    {
+      "id": "7200",
+      "name": "制动",
+      "level": 2,
+      "role": "OWNER",
+      "evidence": [
+        {
+          "source": "TaskSlice projection",
+          "id": "product::7200",
+          "text": "产品「电子制动控制单元(EBCU)」沿正式包含关系投影到该L2边界"
+        },
+        {
+          "source": "TaskSlice projection",
+          "id": "product::7200",
+          "text": "产品「电子制动控制单元(EBCU)」沿正式包含关系投影到该L2边界"
+        },
+        {
+          "source": "TaskSlice projection",
+          "id": "product::7200",
+          "text": "产品「增压缸」沿正式包含关系投影到该L2边界"
+        }
+      ]
+    },
+    {
+      "id": "X100",
+      "name": "车载再生储能",
+      "level": 2,
+      "role": "OWNER",
+      "evidence": [
+        {
+          "source": "TaskSlice projection",
+          "id": "product::X100",
+          "text": "产品「车载再生储能」沿正式包含关系投影到该L2边界"
+        },
+        {
+          "source": "TaskSlice projection",
+          "id": "product::X100",
+          "text": "产品「双向储能变流及控制」沿正式包含关系投影到该L2边界"
+        },
+        {
+          "source": "TaskSlice projection",
+          "id": "product::X100",
+          "text": "产品「双向DC/DC变流模块」沿正式包含关系投影到该L2边界"
+        }
+      ]
+    },
+    {
+      "id": "3500",
+      "name": "牵引传动耦合组件及其附件",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::5300::3500::physical",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "3600",
+      "name": "转向架相关检测",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::3600::5300::physical",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "4100",
+      "name": "高压受流",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::4200::4100::control",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "4200",
+      "name": "网侧高压分配及控制",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::4200::5100::physical",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "4500",
+      "name": "主变压器及其冷却",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::4500::5100::physical",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "5100",
+      "name": "牵引变流器主体及其控制",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::4200::5100::physical",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "7100",
+      "name": "供风",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::7100::8100::physical",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "8100",
+      "name": "列车主干网及安全回路",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::8100::7200::control",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "D100",
+      "name": "操纵设施",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::D100::8100::control",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    },
+    {
+      "id": "E100",
+      "name": "ATP车载",
+      "level": 2,
+      "role": "INTERACTION_NEIGHBOR",
+      "evidence": [
+        {
+          "source": "L2 interaction catalog",
+          "id": "aggregate::L2::E100::8100::state",
+          "text": "由真实聚合接口连接到当前 Scope 产品"
+        }
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "aggregate::L2::4200::5100::physical",
+      "name": "高压线路电压",
+      "interface_refs": [
+        "IF_IF_MEA_005",
+        "IF_IF_MEA_006"
+      ],
+      "flow_refs": [
+        "flow::CG_002543DBE0F9A7FBC2A3FDD3",
+        "flow::CG_20C0A22ECCF07864FDBA3F5A"
+      ],
+      "connector_refs": [
+        "CG_002543DBE0F9A7FBC2A3FDD3",
+        "CG_20C0A22ECCF07864FDBA3F5A"
+      ]
+    },
+    {
+      "id": "aggregate::L2::8100::7200::control",
+      "name": "紧急制动请求",
+      "interface_refs": [
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004",
+        "IF_IF_CMD_030"
+      ],
+      "flow_refs": [
+        "flow::CG_071B7693DAFA8B87ADA0A61E",
+        "flow::CG_4163C3EB1F2D16B7AFCB21C9",
+        "flow::CG_979C19823B520B68E370ECB6",
+        "flow::CG_ED49C68C1459BB1005D412BB"
+      ],
+      "connector_refs": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9",
+        "CG_979C19823B520B68E370ECB6",
+        "CG_ED49C68C1459BB1005D412BB"
+      ]
+    },
+    {
+      "id": "aggregate::L2::3600::5300::physical",
+      "name": "旋转机械能",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "flow_refs": [
+        "flow::CG_07AF42BFA3927EF22F7BDDE7"
+      ],
+      "connector_refs": [
+        "CG_07AF42BFA3927EF22F7BDDE7"
+      ]
+    },
+    {
+      "id": "aggregate::L2::5100::8100::physical",
+      "name": "接触网可接收功率",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "flow_refs": [
+        "flow::CG_08375F15DCE75E45D4C45CE8",
+        "flow::CG_40ADD911FF2840BEEAA67F8D",
+        "flow::CG_4E4C49F08CEE642A5C3C67EB",
+        "flow::CG_732BB9F5922B7AC9420BB2D0",
+        "flow::CG_A35E2178763C6233BE73AA36",
+        "flow::CG_A424455519797490E4F865AA",
+        "flow::CG_B399D92EE15558C08A95FA03",
+        "flow::CG_BDD8747118488C9BE895D95F",
+        "flow::CG_C8FE042475056BF85CFA2B40"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ]
+    },
+    {
+      "id": "aggregate::L2::X100::8100::physical",
+      "name": "储能吸收功率",
+      "interface_refs": [
+        "IF_IF_ACC_004",
+        "IF_IF_LIM_009",
+        "IF_IF_LIM_010",
+        "IF_IF_MEA_029"
+      ],
+      "flow_refs": [
+        "flow::CG_093EFCE58F3AB220CFEC48AC",
+        "flow::CG_A6D783BBFCF6C6DA11FFCF2D",
+        "flow::CG_CB302083C9F33A1345D9C406",
+        "flow::CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC",
+        "CG_A6D783BBFCF6C6DA11FFCF2D",
+        "CG_CB302083C9F33A1345D9C406",
+        "CG_DAF7D43DDD825831F29A70F8"
+      ]
+    },
+    {
+      "id": "aggregate::L2::E100::8100::state",
+      "name": "ATP/外部安全系统状态",
+      "interface_refs": [
+        "IF_IF_STA_027"
+      ],
+      "flow_refs": [
+        "flow::CG_0D68248E62957CCB92C5A2A5",
+        "flow::CG_89318B491DF9CED18997C36D"
+      ],
+      "connector_refs": [
+        "CG_0D68248E62957CCB92C5A2A5",
+        "CG_89318B491DF9CED18997C36D"
+      ]
+    },
+    {
+      "id": "aggregate::L2::7200::8100::state",
+      "name": "制动系统可用状态",
+      "interface_refs": [
+        "IF_IF_STA_003"
+      ],
+      "flow_refs": [
+        "flow::CG_1102EBD35D52A38B96D5D2E7",
+        "flow::CG_944069F2CBBFA2A01274A9DB"
+      ],
+      "connector_refs": [
+        "CG_1102EBD35D52A38B96D5D2E7",
+        "CG_944069F2CBBFA2A01274A9DB"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4500::5100::physical",
+      "name": "牵引变压器次级交流电能",
+      "interface_refs": [
+        "IF_IF_PHY_014"
+      ],
+      "flow_refs": [
+        "flow::CG_117A3F0E6C8FF8FF0013A46B",
+        "flow::CG_118F2C2B84D1D301C7BE63F8"
+      ],
+      "connector_refs": [
+        "CG_117A3F0E6C8FF8FF0013A46B",
+        "CG_118F2C2B84D1D301C7BE63F8"
+      ]
+    },
+    {
+      "id": "aggregate::L2::8100::7200::state",
+      "name": "动态制动可用状态",
+      "interface_refs": [
+        "IF_IF_STA_002",
+        "IF_IF_STA_025"
+      ],
+      "flow_refs": [
+        "flow::CG_1ACF37CC65D3FF235E8BD75C",
+        "flow::CG_CE151D40A2BF816F41762F4C"
+      ],
+      "connector_refs": [
+        "CG_1ACF37CC65D3FF235E8BD75C",
+        "CG_CE151D40A2BF816F41762F4C"
+      ]
+    },
+    {
+      "id": "aggregate::L2::8100::X100::control",
+      "name": "储能主接触器指令",
+      "interface_refs": [
+        "IF_IF_CMD_025",
+        "IF_IF_CMD_026",
+        "IF_IF_CMD_027",
+        "IF_IF_CMD_028",
+        "IF_IF_CMD_029"
+      ],
+      "flow_refs": [
+        "flow::CG_1AE13610E33C0DC7055CFCED",
+        "flow::CG_25DC22E45A984D1CB28D188B",
+        "flow::CG_7A2381DC8C36A40B747035A5",
+        "flow::CG_D8FCE908D4FD9343C6353985",
+        "flow::CG_D9CD1E8933F596F319A67625"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED",
+        "CG_25DC22E45A984D1CB28D188B",
+        "CG_7A2381DC8C36A40B747035A5",
+        "CG_D8FCE908D4FD9343C6353985",
+        "CG_D9CD1E8933F596F319A67625"
+      ]
+    },
+    {
+      "id": "aggregate::L2::8100::7200::physical",
+      "name": "制动缸压力",
+      "interface_refs": [
+        "IF_IF_LIM_001",
+        "IF_IF_MEA_013",
+        "IF_IF_MEA_014",
+        "IF_IF_MEA_016"
+      ],
+      "flow_refs": [
+        "flow::CG_1AEA8B915E14A5D0FFEE30D9",
+        "flow::CG_A0B82CF482DDFB4553F8CFCA",
+        "flow::CG_BEDE0932E86628B2EFCA8CCD",
+        "flow::CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "connector_refs": [
+        "CG_1AEA8B915E14A5D0FFEE30D9",
+        "CG_A0B82CF482DDFB4553F8CFCA",
+        "CG_BEDE0932E86628B2EFCA8CCD",
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4200::8100::physical",
+      "name": "高压线路电压",
+      "interface_refs": [
+        "IF_IF_MEA_005",
+        "IF_IF_MEA_006"
+      ],
+      "flow_refs": [
+        "flow::CG_1C5FC46A1E7682144A3BDDDF",
+        "flow::CG_FE573ED935CFF37491A053E8"
+      ],
+      "connector_refs": [
+        "CG_1C5FC46A1E7682144A3BDDDF",
+        "CG_FE573ED935CFF37491A053E8"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4500::4200::state",
+      "name": "高压系统故障状态",
+      "interface_refs": [
+        "IF_IF_STA_016"
+      ],
+      "flow_refs": [
+        "flow::CG_2274BA128E639FDE4D4F56EC"
+      ],
+      "connector_refs": [
+        "CG_2274BA128E639FDE4D4F56EC"
+      ]
+    },
+    {
+      "id": "aggregate::L2::D100::8100::control",
+      "name": "牵引指令",
+      "interface_refs": [
+        "IF_IF_CMD_001",
+        "IF_IF_CMD_002",
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004"
+      ],
+      "flow_refs": [
+        "flow::CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "flow::CG_41AD09EEB4EAB9DC956C08F8",
+        "flow::CG_663CDC611495882DCD3E5B8F",
+        "flow::CG_8EED0159D22D9EDC70A9EA67",
+        "flow::CG_A3B31951ADAE62C498E76260"
+      ],
+      "connector_refs": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "CG_41AD09EEB4EAB9DC956C08F8",
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67",
+        "CG_A3B31951ADAE62C498E76260"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4200::4100::control",
+      "name": "受电弓控制指令",
+      "interface_refs": [
+        "IF_IF_CMD_018"
+      ],
+      "flow_refs": [
+        "flow::CG_2EE117B4B0633E38D394B904"
+      ],
+      "connector_refs": [
+        "CG_2EE117B4B0633E38D394B904"
+      ]
+    },
+    {
+      "id": "aggregate::L2::5300::3500::physical",
+      "name": "旋转机械能",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "flow_refs": [
+        "flow::CG_338D68ABEF709ACD5E0DDCC6"
+      ],
+      "connector_refs": [
+        "CG_338D68ABEF709ACD5E0DDCC6"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4200::4500::state",
+      "name": "高压断路器状态",
+      "interface_refs": [
+        "IF_IF_STA_013",
+        "IF_IF_STA_016"
+      ],
+      "flow_refs": [
+        "flow::CG_37792F42F4274C7C51C63270",
+        "flow::CG_CE2820923CC0CB141833E11D"
+      ],
+      "connector_refs": [
+        "CG_37792F42F4274C7C51C63270",
+        "CG_CE2820923CC0CB141833E11D"
+      ]
+    },
+    {
+      "id": "aggregate::L2::5300::5100::physical",
+      "name": "电机侧相电压",
+      "interface_refs": [
+        "IF_IF_MEA_004",
+        "IF_IF_MEA_011",
+        "IF_IF_MEA_012"
+      ],
+      "flow_refs": [
+        "flow::CG_37ECA5B04E215AC3E6A4B472",
+        "flow::CG_46A1EE350324445D016EAF45",
+        "flow::CG_D4DF5719633CB5B375F35094"
+      ],
+      "connector_refs": [
+        "CG_37ECA5B04E215AC3E6A4B472",
+        "CG_46A1EE350324445D016EAF45",
+        "CG_D4DF5719633CB5B375F35094"
+      ]
+    },
+    {
+      "id": "aggregate::L2::5100::5300::physical",
+      "name": "三相交流电能",
+      "interface_refs": [
+        "IF_IF_PHY_004"
+      ],
+      "flow_refs": [
+        "flow::CG_3BD24EBE88F37EEFFE563597"
+      ],
+      "connector_refs": [
+        "CG_3BD24EBE88F37EEFFE563597"
+      ]
+    },
+    {
+      "id": "aggregate::L2::3500::3100::physical",
+      "name": "旋转机械能",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "flow_refs": [
+        "flow::CG_3CA6C3BF7D7B4F80CF0990D0"
+      ],
+      "connector_refs": [
+        "CG_3CA6C3BF7D7B4F80CF0990D0"
+      ]
+    },
+    {
+      "id": "aggregate::L2::3600::3100::physical",
+      "name": "旋转机械能",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "flow_refs": [
+        "flow::CG_4CB0735167799FD438F90DD2",
+        "flow::CG_FA31DFA220FEF0D6FAC8EB67"
+      ],
+      "connector_refs": [
+        "CG_4CB0735167799FD438F90DD2",
+        "CG_FA31DFA220FEF0D6FAC8EB67"
+      ]
+    },
+    {
+      "id": "aggregate::L2::5100::8100::state",
+      "name": "牵引变流器故障状态",
+      "interface_refs": [
+        "IF_IF_STA_019"
+      ],
+      "flow_refs": [
+        "flow::CG_55513667B46680F5B87A0939"
+      ],
+      "connector_refs": [
+        "CG_55513667B46680F5B87A0939"
+      ]
+    },
+    {
+      "id": "aggregate::L2::5300::8100::physical",
+      "name": "牵引电机实际转矩",
+      "interface_refs": [
+        "IF_IF_MEA_012"
+      ],
+      "flow_refs": [
+        "flow::CG_65E377DBF988541FA5778D1E"
+      ],
+      "connector_refs": [
+        "CG_65E377DBF988541FA5778D1E"
+      ]
+    },
+    {
+      "id": "aggregate::L2::8100::5100::control",
+      "name": "牵引电机转矩请求",
+      "interface_refs": [
+        "IF_IF_CMD_012"
+      ],
+      "flow_refs": [
+        "flow::CG_7365C853DD9391D9914E0C8A"
+      ],
+      "connector_refs": [
+        "CG_7365C853DD9391D9914E0C8A"
+      ]
+    },
+    {
+      "id": "aggregate::L2::7100::8100::physical",
+      "name": "总风管压力",
+      "interface_refs": [
+        "IF_IF_MEA_014"
+      ],
+      "flow_refs": [
+        "flow::CG_739E53DD845C8CD2646C8E39"
+      ],
+      "connector_refs": [
+        "CG_739E53DD845C8CD2646C8E39"
+      ]
+    },
+    {
+      "id": "aggregate::L2::E100::8100::control",
+      "name": "安全停车/制动请求",
+      "interface_refs": [
+        "IF_IF_CMD_030"
+      ],
+      "flow_refs": [
+        "flow::CG_86987C60BCB826208FEFEF31"
+      ],
+      "connector_refs": [
+        "CG_86987C60BCB826208FEFEF31"
+      ]
+    },
+    {
+      "id": "aggregate::L2::3600::8100::physical",
+      "name": "牵引电机转速",
+      "interface_refs": [
+        "IF_IF_MEA_004"
+      ],
+      "flow_refs": [
+        "flow::CG_89DF67BFD358C3EEF4DB05F2"
+      ],
+      "connector_refs": [
+        "CG_89DF67BFD358C3EEF4DB05F2"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4100::4200::state",
+      "name": "受电弓状态",
+      "interface_refs": [
+        "IF_IF_STA_015"
+      ],
+      "flow_refs": [
+        "flow::CG_8F81398231970DBDB0A7F854"
+      ],
+      "connector_refs": [
+        "CG_8F81398231970DBDB0A7F854"
+      ]
+    },
+    {
+      "id": "aggregate::L2::X100::8100::data",
+      "name": "超级电容SOC",
+      "interface_refs": [
+        "IF_IF_MEA_028"
+      ],
+      "flow_refs": [
+        "flow::CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "connector_refs": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4200::8100::control",
+      "name": "高压断路器指令",
+      "interface_refs": [
+        "IF_IF_CMD_016"
+      ],
+      "flow_refs": [
+        "flow::CG_9ACDE46A41EE650430438B91"
+      ],
+      "connector_refs": [
+        "CG_9ACDE46A41EE650430438B91"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4100::4200::physical",
+      "name": "高压交流电能",
+      "interface_refs": [
+        "IF_IF_PHY_001"
+      ],
+      "flow_refs": [
+        "flow::CG_9EB19436ED0A54ECCF52C717"
+      ],
+      "connector_refs": [
+        "CG_9EB19436ED0A54ECCF52C717"
+      ]
+    },
+    {
+      "id": "aggregate::L2::7200::8100::control",
+      "name": "动态制动力请求",
+      "interface_refs": [
+        "IF_IF_CMD_006"
+      ],
+      "flow_refs": [
+        "flow::CG_B251741505CB19FE47559F29"
+      ],
+      "connector_refs": [
+        "CG_B251741505CB19FE47559F29"
+      ]
+    },
+    {
+      "id": "aggregate::L2::4200::4500::physical",
+      "name": "高压交流电能",
+      "interface_refs": [
+        "IF_IF_PHY_001"
+      ],
+      "flow_refs": [
+        "flow::CG_B483D5C4E4EC5F805E3B0F19"
+      ],
+      "connector_refs": [
+        "CG_B483D5C4E4EC5F805E3B0F19"
+      ]
+    },
+    {
+      "id": "aggregate::L2::X100::8100::state",
+      "name": "储能系统可用状态",
+      "interface_refs": [
+        "IF_IF_STA_030",
+        "IF_IF_STA_031"
+      ],
+      "flow_refs": [
+        "flow::CG_C03EBDD9B3CFF4E6611E41A1",
+        "flow::CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "connector_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1",
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ]
+    },
+    {
+      "id": "aggregate::L2::7200::3100::physical",
+      "name": "摩擦制动机械作用",
+      "interface_refs": [
+        "IF_IF_PHY_007"
+      ],
+      "flow_refs": [
+        "flow::CG_DA869E241F8A36DBAAC07E48"
+      ],
+      "connector_refs": [
+        "CG_DA869E241F8A36DBAAC07E48"
+      ]
+    },
+    {
+      "id": "aggregate::L2::7200::8100::physical",
+      "name": "制动缸压力",
+      "interface_refs": [
+        "IF_IF_MEA_016"
+      ],
+      "flow_refs": [
+        "flow::CG_E9224B53F74EDFCCFDA0FC70"
+      ],
+      "connector_refs": [
+        "CG_E9224B53F74EDFCCFDA0FC70"
+      ]
+    },
+    {
+      "id": "aggregate::L2::8100::4200::state",
+      "name": "高压安全回路状态",
+      "interface_refs": [
+        "IF_IF_STA_024"
+      ],
+      "flow_refs": [
+        "flow::CG_F55B5E17D8CBFAC80E0961C2"
+      ],
+      "connector_refs": [
+        "CG_F55B5E17D8CBFAC80E0961C2"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "source_product_id": "4200",
+      "target_product_id": "5100",
+      "flow_name": "高压线路电压",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_002543DBE0F9A7FBC2A3FDD3",
+      "interface_refs": [
+        "IF_IF_MEA_005",
+        "IF_IF_MEA_006"
+      ],
+      "connector_refs": [
+        "CG_002543DBE0F9A7FBC2A3FDD3",
+        "CG_20C0A22ECCF07864FDBA3F5A"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::5100::physical；SysML叶级连接 CG_002543DBE0F9A7FBC2A3FDD3, CG_20C0A22ECCF07864FDBA3F5A"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "5100",
+      "flow_name": "高压线路电流",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_20C0A22ECCF07864FDBA3F5A",
+      "interface_refs": [
+        "IF_IF_MEA_005",
+        "IF_IF_MEA_006"
+      ],
+      "connector_refs": [
+        "CG_002543DBE0F9A7FBC2A3FDD3",
+        "CG_20C0A22ECCF07864FDBA3F5A"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::5100::physical；SysML叶级连接 CG_002543DBE0F9A7FBC2A3FDD3, CG_20C0A22ECCF07864FDBA3F5A"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "紧急制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_071B7693DAFA8B87ADA0A61E",
+      "interface_refs": [
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004",
+        "IF_IF_CMD_030"
+      ],
+      "connector_refs": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9",
+        "CG_979C19823B520B68E370ECB6",
+        "CG_ED49C68C1459BB1005D412BB"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "紧急制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_4163C3EB1F2D16B7AFCB21C9",
+      "interface_refs": [
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004",
+        "IF_IF_CMD_030"
+      ],
+      "connector_refs": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9",
+        "CG_979C19823B520B68E370ECB6",
+        "CG_ED49C68C1459BB1005D412BB"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "服务制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_979C19823B520B68E370ECB6",
+      "interface_refs": [
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004",
+        "IF_IF_CMD_030"
+      ],
+      "connector_refs": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9",
+        "CG_979C19823B520B68E370ECB6",
+        "CG_ED49C68C1459BB1005D412BB"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "安全停车/制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_ED49C68C1459BB1005D412BB",
+      "interface_refs": [
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004",
+        "IF_IF_CMD_030"
+      ],
+      "connector_refs": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9",
+        "CG_979C19823B520B68E370ECB6",
+        "CG_ED49C68C1459BB1005D412BB"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB"
+    },
+    {
+      "source_product_id": "3600",
+      "target_product_id": "5300",
+      "flow_name": "旋转机械能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_07AF42BFA3927EF22F7BDDE7",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "connector_refs": [
+        "CG_07AF42BFA3927EF22F7BDDE7"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::3600::5300::physical；SysML叶级连接 CG_07AF42BFA3927EF22F7BDDE7"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "接触网可接收功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_08375F15DCE75E45D4C45CE8",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "实际再生功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_40ADD911FF2840BEEAA67F8D",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "中间直流母线电流",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_4E4C49F08CEE642A5C3C67EB",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "中间直流母线电压",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_732BB9F5922B7AC9420BB2D0",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "制动电阻耗散功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_A35E2178763C6233BE73AA36",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "中间直流母线电压",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_A424455519797490E4F865AA",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "回馈电网功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_B399D92EE15558C08A95FA03",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "接触网可接收功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_BDD8747118488C9BE895D95F",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "中间直流母线电压",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_C8FE042475056BF85CFA2B40",
+      "interface_refs": [
+        "IF_IF_ACC_002",
+        "IF_IF_ACC_003",
+        "IF_IF_ACC_005",
+        "IF_IF_LIM_005",
+        "IF_IF_MEA_008",
+        "IF_IF_MEA_009"
+      ],
+      "connector_refs": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_40ADD911FF2840BEEAA67F8D",
+        "CG_4E4C49F08CEE642A5C3C67EB",
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A35E2178763C6233BE73AA36",
+        "CG_A424455519797490E4F865AA",
+        "CG_B399D92EE15558C08A95FA03",
+        "CG_BDD8747118488C9BE895D95F",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "储能吸收功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_093EFCE58F3AB220CFEC48AC",
+      "interface_refs": [
+        "IF_IF_ACC_004",
+        "IF_IF_LIM_009",
+        "IF_IF_LIM_010",
+        "IF_IF_MEA_029"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC",
+        "CG_A6D783BBFCF6C6DA11FFCF2D",
+        "CG_CB302083C9F33A1345D9C406",
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "双向DC/DC实际功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_A6D783BBFCF6C6DA11FFCF2D",
+      "interface_refs": [
+        "IF_IF_ACC_004",
+        "IF_IF_LIM_009",
+        "IF_IF_LIM_010",
+        "IF_IF_MEA_029"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC",
+        "CG_A6D783BBFCF6C6DA11FFCF2D",
+        "CG_CB302083C9F33A1345D9C406",
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "储能可用充电功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_CB302083C9F33A1345D9C406",
+      "interface_refs": [
+        "IF_IF_ACC_004",
+        "IF_IF_LIM_009",
+        "IF_IF_LIM_010",
+        "IF_IF_MEA_029"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC",
+        "CG_A6D783BBFCF6C6DA11FFCF2D",
+        "CG_CB302083C9F33A1345D9C406",
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "储能可用放电功率",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_DAF7D43DDD825831F29A70F8",
+      "interface_refs": [
+        "IF_IF_ACC_004",
+        "IF_IF_LIM_009",
+        "IF_IF_LIM_010",
+        "IF_IF_MEA_029"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC",
+        "CG_A6D783BBFCF6C6DA11FFCF2D",
+        "CG_CB302083C9F33A1345D9C406",
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8"
+    },
+    {
+      "source_product_id": "E100",
+      "target_product_id": "8100",
+      "flow_name": "ATP/外部安全系统状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_0D68248E62957CCB92C5A2A5",
+      "interface_refs": [
+        "IF_IF_STA_027"
+      ],
+      "connector_refs": [
+        "CG_0D68248E62957CCB92C5A2A5",
+        "CG_89318B491DF9CED18997C36D"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::E100::8100::state；SysML叶级连接 CG_0D68248E62957CCB92C5A2A5, CG_89318B491DF9CED18997C36D"
+    },
+    {
+      "source_product_id": "E100",
+      "target_product_id": "8100",
+      "flow_name": "ATP/外部安全系统状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_89318B491DF9CED18997C36D",
+      "interface_refs": [
+        "IF_IF_STA_027"
+      ],
+      "connector_refs": [
+        "CG_0D68248E62957CCB92C5A2A5",
+        "CG_89318B491DF9CED18997C36D"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::E100::8100::state；SysML叶级连接 CG_0D68248E62957CCB92C5A2A5, CG_89318B491DF9CED18997C36D"
+    },
+    {
+      "source_product_id": "7200",
+      "target_product_id": "8100",
+      "flow_name": "制动系统可用状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_1102EBD35D52A38B96D5D2E7",
+      "interface_refs": [
+        "IF_IF_STA_003"
+      ],
+      "connector_refs": [
+        "CG_1102EBD35D52A38B96D5D2E7",
+        "CG_944069F2CBBFA2A01274A9DB"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::7200::8100::state；SysML叶级连接 CG_1102EBD35D52A38B96D5D2E7, CG_944069F2CBBFA2A01274A9DB"
+    },
+    {
+      "source_product_id": "7200",
+      "target_product_id": "8100",
+      "flow_name": "制动系统可用状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_944069F2CBBFA2A01274A9DB",
+      "interface_refs": [
+        "IF_IF_STA_003"
+      ],
+      "connector_refs": [
+        "CG_1102EBD35D52A38B96D5D2E7",
+        "CG_944069F2CBBFA2A01274A9DB"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::7200::8100::state；SysML叶级连接 CG_1102EBD35D52A38B96D5D2E7, CG_944069F2CBBFA2A01274A9DB"
+    },
+    {
+      "source_product_id": "4500",
+      "target_product_id": "5100",
+      "flow_name": "牵引变压器次级交流电能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_117A3F0E6C8FF8FF0013A46B",
+      "interface_refs": [
+        "IF_IF_PHY_014"
+      ],
+      "connector_refs": [
+        "CG_117A3F0E6C8FF8FF0013A46B",
+        "CG_118F2C2B84D1D301C7BE63F8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4500::5100::physical；SysML叶级连接 CG_117A3F0E6C8FF8FF0013A46B, CG_118F2C2B84D1D301C7BE63F8"
+    },
+    {
+      "source_product_id": "4500",
+      "target_product_id": "5100",
+      "flow_name": "牵引变压器次级交流电能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_118F2C2B84D1D301C7BE63F8",
+      "interface_refs": [
+        "IF_IF_PHY_014"
+      ],
+      "connector_refs": [
+        "CG_117A3F0E6C8FF8FF0013A46B",
+        "CG_118F2C2B84D1D301C7BE63F8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4500::5100::physical；SysML叶级连接 CG_117A3F0E6C8FF8FF0013A46B, CG_118F2C2B84D1D301C7BE63F8"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "动态制动可用状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_1ACF37CC65D3FF235E8BD75C",
+      "interface_refs": [
+        "IF_IF_STA_002",
+        "IF_IF_STA_025"
+      ],
+      "connector_refs": [
+        "CG_1ACF37CC65D3FF235E8BD75C",
+        "CG_CE151D40A2BF816F41762F4C"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::state；SysML叶级连接 CG_1ACF37CC65D3FF235E8BD75C, CG_CE151D40A2BF816F41762F4C"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "制动安全回路状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_CE151D40A2BF816F41762F4C",
+      "interface_refs": [
+        "IF_IF_STA_002",
+        "IF_IF_STA_025"
+      ],
+      "connector_refs": [
+        "CG_1ACF37CC65D3FF235E8BD75C",
+        "CG_CE151D40A2BF816F41762F4C"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::state；SysML叶级连接 CG_1ACF37CC65D3FF235E8BD75C, CG_CE151D40A2BF816F41762F4C"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "X100",
+      "flow_name": "储能主接触器指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_1AE13610E33C0DC7055CFCED",
+      "interface_refs": [
+        "IF_IF_CMD_025",
+        "IF_IF_CMD_026",
+        "IF_IF_CMD_027",
+        "IF_IF_CMD_028",
+        "IF_IF_CMD_029"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED",
+        "CG_25DC22E45A984D1CB28D188B",
+        "CG_7A2381DC8C36A40B747035A5",
+        "CG_D8FCE908D4FD9343C6353985",
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "X100",
+      "flow_name": "双向DC/DC使能",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_25DC22E45A984D1CB28D188B",
+      "interface_refs": [
+        "IF_IF_CMD_025",
+        "IF_IF_CMD_026",
+        "IF_IF_CMD_027",
+        "IF_IF_CMD_028",
+        "IF_IF_CMD_029"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED",
+        "CG_25DC22E45A984D1CB28D188B",
+        "CG_7A2381DC8C36A40B747035A5",
+        "CG_D8FCE908D4FD9343C6353985",
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "X100",
+      "flow_name": "储能功率请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_7A2381DC8C36A40B747035A5",
+      "interface_refs": [
+        "IF_IF_CMD_025",
+        "IF_IF_CMD_026",
+        "IF_IF_CMD_027",
+        "IF_IF_CMD_028",
+        "IF_IF_CMD_029"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED",
+        "CG_25DC22E45A984D1CB28D188B",
+        "CG_7A2381DC8C36A40B747035A5",
+        "CG_D8FCE908D4FD9343C6353985",
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "X100",
+      "flow_name": "储能故障复位指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_D8FCE908D4FD9343C6353985",
+      "interface_refs": [
+        "IF_IF_CMD_025",
+        "IF_IF_CMD_026",
+        "IF_IF_CMD_027",
+        "IF_IF_CMD_028",
+        "IF_IF_CMD_029"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED",
+        "CG_25DC22E45A984D1CB28D188B",
+        "CG_7A2381DC8C36A40B747035A5",
+        "CG_D8FCE908D4FD9343C6353985",
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "X100",
+      "flow_name": "储能预充电指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_D9CD1E8933F596F319A67625",
+      "interface_refs": [
+        "IF_IF_CMD_025",
+        "IF_IF_CMD_026",
+        "IF_IF_CMD_027",
+        "IF_IF_CMD_028",
+        "IF_IF_CMD_029"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED",
+        "CG_25DC22E45A984D1CB28D188B",
+        "CG_7A2381DC8C36A40B747035A5",
+        "CG_D8FCE908D4FD9343C6353985",
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "制动缸压力",
+      "flow_kind": "unknown",
+      "flow_ref": "flow::CG_1AEA8B915E14A5D0FFEE30D9",
+      "interface_refs": [
+        "IF_IF_LIM_001",
+        "IF_IF_MEA_013",
+        "IF_IF_MEA_014",
+        "IF_IF_MEA_016"
+      ],
+      "connector_refs": [
+        "CG_1AEA8B915E14A5D0FFEE30D9",
+        "CG_A0B82CF482DDFB4553F8CFCA",
+        "CG_BEDE0932E86628B2EFCA8CCD",
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "总风管压力",
+      "flow_kind": "unknown",
+      "flow_ref": "flow::CG_A0B82CF482DDFB4553F8CFCA",
+      "interface_refs": [
+        "IF_IF_LIM_001",
+        "IF_IF_MEA_013",
+        "IF_IF_MEA_014",
+        "IF_IF_MEA_016"
+      ],
+      "connector_refs": [
+        "CG_1AEA8B915E14A5D0FFEE30D9",
+        "CG_A0B82CF482DDFB4553F8CFCA",
+        "CG_BEDE0932E86628B2EFCA8CCD",
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "可用动态制动力",
+      "flow_kind": "force",
+      "flow_ref": "flow::CG_BEDE0932E86628B2EFCA8CCD",
+      "interface_refs": [
+        "IF_IF_LIM_001",
+        "IF_IF_MEA_013",
+        "IF_IF_MEA_014",
+        "IF_IF_MEA_016"
+      ],
+      "connector_refs": [
+        "CG_1AEA8B915E14A5D0FFEE30D9",
+        "CG_A0B82CF482DDFB4553F8CFCA",
+        "CG_BEDE0932E86628B2EFCA8CCD",
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "7200",
+      "flow_name": "实际动态制动力",
+      "flow_kind": "force",
+      "flow_ref": "flow::CG_E8DAA56D71F2BE4B5E1C9BBF",
+      "interface_refs": [
+        "IF_IF_LIM_001",
+        "IF_IF_MEA_013",
+        "IF_IF_MEA_014",
+        "IF_IF_MEA_016"
+      ],
+      "connector_refs": [
+        "CG_1AEA8B915E14A5D0FFEE30D9",
+        "CG_A0B82CF482DDFB4553F8CFCA",
+        "CG_BEDE0932E86628B2EFCA8CCD",
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "8100",
+      "flow_name": "高压线路电压",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_1C5FC46A1E7682144A3BDDDF",
+      "interface_refs": [
+        "IF_IF_MEA_005",
+        "IF_IF_MEA_006"
+      ],
+      "connector_refs": [
+        "CG_1C5FC46A1E7682144A3BDDDF",
+        "CG_FE573ED935CFF37491A053E8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::8100::physical；SysML叶级连接 CG_1C5FC46A1E7682144A3BDDDF, CG_FE573ED935CFF37491A053E8"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "8100",
+      "flow_name": "高压线路电流",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_FE573ED935CFF37491A053E8",
+      "interface_refs": [
+        "IF_IF_MEA_005",
+        "IF_IF_MEA_006"
+      ],
+      "connector_refs": [
+        "CG_1C5FC46A1E7682144A3BDDDF",
+        "CG_FE573ED935CFF37491A053E8"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::8100::physical；SysML叶级连接 CG_1C5FC46A1E7682144A3BDDDF, CG_FE573ED935CFF37491A053E8"
+    },
+    {
+      "source_product_id": "4500",
+      "target_product_id": "4200",
+      "flow_name": "高压系统故障状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_2274BA128E639FDE4D4F56EC",
+      "interface_refs": [
+        "IF_IF_STA_016"
+      ],
+      "connector_refs": [
+        "CG_2274BA128E639FDE4D4F56EC"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4500::4200::state；SysML叶级连接 CG_2274BA128E639FDE4D4F56EC"
+    },
+    {
+      "source_product_id": "D100",
+      "target_product_id": "8100",
+      "flow_name": "牵引指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_2E8F3CC8A8EBCDE6B7CF4D27",
+      "interface_refs": [
+        "IF_IF_CMD_001",
+        "IF_IF_CMD_002",
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004"
+      ],
+      "connector_refs": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "CG_41AD09EEB4EAB9DC956C08F8",
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67",
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260"
+    },
+    {
+      "source_product_id": "D100",
+      "target_product_id": "8100",
+      "flow_name": "服务制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_41AD09EEB4EAB9DC956C08F8",
+      "interface_refs": [
+        "IF_IF_CMD_001",
+        "IF_IF_CMD_002",
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004"
+      ],
+      "connector_refs": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "CG_41AD09EEB4EAB9DC956C08F8",
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67",
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260"
+    },
+    {
+      "source_product_id": "D100",
+      "target_product_id": "8100",
+      "flow_name": "紧急制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_663CDC611495882DCD3E5B8F",
+      "interface_refs": [
+        "IF_IF_CMD_001",
+        "IF_IF_CMD_002",
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004"
+      ],
+      "connector_refs": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "CG_41AD09EEB4EAB9DC956C08F8",
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67",
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260"
+    },
+    {
+      "source_product_id": "D100",
+      "target_product_id": "8100",
+      "flow_name": "紧急制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_8EED0159D22D9EDC70A9EA67",
+      "interface_refs": [
+        "IF_IF_CMD_001",
+        "IF_IF_CMD_002",
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004"
+      ],
+      "connector_refs": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "CG_41AD09EEB4EAB9DC956C08F8",
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67",
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260"
+    },
+    {
+      "source_product_id": "D100",
+      "target_product_id": "8100",
+      "flow_name": "列车方向指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_A3B31951ADAE62C498E76260",
+      "interface_refs": [
+        "IF_IF_CMD_001",
+        "IF_IF_CMD_002",
+        "IF_IF_CMD_003",
+        "IF_IF_CMD_004"
+      ],
+      "connector_refs": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+        "CG_41AD09EEB4EAB9DC956C08F8",
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67",
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "4100",
+      "flow_name": "受电弓控制指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_2EE117B4B0633E38D394B904",
+      "interface_refs": [
+        "IF_IF_CMD_018"
+      ],
+      "connector_refs": [
+        "CG_2EE117B4B0633E38D394B904"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::4100::control；SysML叶级连接 CG_2EE117B4B0633E38D394B904"
+    },
+    {
+      "source_product_id": "5300",
+      "target_product_id": "3500",
+      "flow_name": "旋转机械能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_338D68ABEF709ACD5E0DDCC6",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "connector_refs": [
+        "CG_338D68ABEF709ACD5E0DDCC6"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5300::3500::physical；SysML叶级连接 CG_338D68ABEF709ACD5E0DDCC6"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "4500",
+      "flow_name": "高压断路器状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_37792F42F4274C7C51C63270",
+      "interface_refs": [
+        "IF_IF_STA_013",
+        "IF_IF_STA_016"
+      ],
+      "connector_refs": [
+        "CG_37792F42F4274C7C51C63270",
+        "CG_CE2820923CC0CB141833E11D"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::4500::state；SysML叶级连接 CG_37792F42F4274C7C51C63270, CG_CE2820923CC0CB141833E11D"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "4500",
+      "flow_name": "高压系统故障状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_CE2820923CC0CB141833E11D",
+      "interface_refs": [
+        "IF_IF_STA_013",
+        "IF_IF_STA_016"
+      ],
+      "connector_refs": [
+        "CG_37792F42F4274C7C51C63270",
+        "CG_CE2820923CC0CB141833E11D"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::4500::state；SysML叶级连接 CG_37792F42F4274C7C51C63270, CG_CE2820923CC0CB141833E11D"
+    },
+    {
+      "source_product_id": "5300",
+      "target_product_id": "5100",
+      "flow_name": "电机侧相电压",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_37ECA5B04E215AC3E6A4B472",
+      "interface_refs": [
+        "IF_IF_MEA_004",
+        "IF_IF_MEA_011",
+        "IF_IF_MEA_012"
+      ],
+      "connector_refs": [
+        "CG_37ECA5B04E215AC3E6A4B472",
+        "CG_46A1EE350324445D016EAF45",
+        "CG_D4DF5719633CB5B375F35094"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5300::5100::physical；SysML叶级连接 CG_37ECA5B04E215AC3E6A4B472, CG_46A1EE350324445D016EAF45, CG_D4DF5719633CB5B375F35094"
+    },
+    {
+      "source_product_id": "5300",
+      "target_product_id": "5100",
+      "flow_name": "牵引电机转速",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_46A1EE350324445D016EAF45",
+      "interface_refs": [
+        "IF_IF_MEA_004",
+        "IF_IF_MEA_011",
+        "IF_IF_MEA_012"
+      ],
+      "connector_refs": [
+        "CG_37ECA5B04E215AC3E6A4B472",
+        "CG_46A1EE350324445D016EAF45",
+        "CG_D4DF5719633CB5B375F35094"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5300::5100::physical；SysML叶级连接 CG_37ECA5B04E215AC3E6A4B472, CG_46A1EE350324445D016EAF45, CG_D4DF5719633CB5B375F35094"
+    },
+    {
+      "source_product_id": "5300",
+      "target_product_id": "5100",
+      "flow_name": "牵引电机实际转矩",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_D4DF5719633CB5B375F35094",
+      "interface_refs": [
+        "IF_IF_MEA_004",
+        "IF_IF_MEA_011",
+        "IF_IF_MEA_012"
+      ],
+      "connector_refs": [
+        "CG_37ECA5B04E215AC3E6A4B472",
+        "CG_46A1EE350324445D016EAF45",
+        "CG_D4DF5719633CB5B375F35094"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5300::5100::physical；SysML叶级连接 CG_37ECA5B04E215AC3E6A4B472, CG_46A1EE350324445D016EAF45, CG_D4DF5719633CB5B375F35094"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "5300",
+      "flow_name": "三相交流电能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_3BD24EBE88F37EEFFE563597",
+      "interface_refs": [
+        "IF_IF_PHY_004"
+      ],
+      "connector_refs": [
+        "CG_3BD24EBE88F37EEFFE563597"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::5300::physical；SysML叶级连接 CG_3BD24EBE88F37EEFFE563597"
+    },
+    {
+      "source_product_id": "3500",
+      "target_product_id": "3100",
+      "flow_name": "旋转机械能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_3CA6C3BF7D7B4F80CF0990D0",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "connector_refs": [
+        "CG_3CA6C3BF7D7B4F80CF0990D0"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::3500::3100::physical；SysML叶级连接 CG_3CA6C3BF7D7B4F80CF0990D0"
+    },
+    {
+      "source_product_id": "3600",
+      "target_product_id": "3100",
+      "flow_name": "旋转机械能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_4CB0735167799FD438F90DD2",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "connector_refs": [
+        "CG_4CB0735167799FD438F90DD2",
+        "CG_FA31DFA220FEF0D6FAC8EB67"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::3600::3100::physical；SysML叶级连接 CG_4CB0735167799FD438F90DD2, CG_FA31DFA220FEF0D6FAC8EB67"
+    },
+    {
+      "source_product_id": "3600",
+      "target_product_id": "3100",
+      "flow_name": "旋转机械能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_FA31DFA220FEF0D6FAC8EB67",
+      "interface_refs": [
+        "IF_IF_PHY_005"
+      ],
+      "connector_refs": [
+        "CG_4CB0735167799FD438F90DD2",
+        "CG_FA31DFA220FEF0D6FAC8EB67"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::3600::3100::physical；SysML叶级连接 CG_4CB0735167799FD438F90DD2, CG_FA31DFA220FEF0D6FAC8EB67"
+    },
+    {
+      "source_product_id": "5100",
+      "target_product_id": "8100",
+      "flow_name": "牵引变流器故障状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_55513667B46680F5B87A0939",
+      "interface_refs": [
+        "IF_IF_STA_019"
+      ],
+      "connector_refs": [
+        "CG_55513667B46680F5B87A0939"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5100::8100::state；SysML叶级连接 CG_55513667B46680F5B87A0939"
+    },
+    {
+      "source_product_id": "5300",
+      "target_product_id": "8100",
+      "flow_name": "牵引电机实际转矩",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_65E377DBF988541FA5778D1E",
+      "interface_refs": [
+        "IF_IF_MEA_012"
+      ],
+      "connector_refs": [
+        "CG_65E377DBF988541FA5778D1E"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::5300::8100::physical；SysML叶级连接 CG_65E377DBF988541FA5778D1E"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "5100",
+      "flow_name": "牵引电机转矩请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_7365C853DD9391D9914E0C8A",
+      "interface_refs": [
+        "IF_IF_CMD_012"
+      ],
+      "connector_refs": [
+        "CG_7365C853DD9391D9914E0C8A"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::5100::control；SysML叶级连接 CG_7365C853DD9391D9914E0C8A"
+    },
+    {
+      "source_product_id": "7100",
+      "target_product_id": "8100",
+      "flow_name": "总风管压力",
+      "flow_kind": "unknown",
+      "flow_ref": "flow::CG_739E53DD845C8CD2646C8E39",
+      "interface_refs": [
+        "IF_IF_MEA_014"
+      ],
+      "connector_refs": [
+        "CG_739E53DD845C8CD2646C8E39"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::7100::8100::physical；SysML叶级连接 CG_739E53DD845C8CD2646C8E39"
+    },
+    {
+      "source_product_id": "E100",
+      "target_product_id": "8100",
+      "flow_name": "安全停车/制动请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_86987C60BCB826208FEFEF31",
+      "interface_refs": [
+        "IF_IF_CMD_030"
+      ],
+      "connector_refs": [
+        "CG_86987C60BCB826208FEFEF31"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::E100::8100::control；SysML叶级连接 CG_86987C60BCB826208FEFEF31"
+    },
+    {
+      "source_product_id": "3600",
+      "target_product_id": "8100",
+      "flow_name": "牵引电机转速",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_89DF67BFD358C3EEF4DB05F2",
+      "interface_refs": [
+        "IF_IF_MEA_004"
+      ],
+      "connector_refs": [
+        "CG_89DF67BFD358C3EEF4DB05F2"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::3600::8100::physical；SysML叶级连接 CG_89DF67BFD358C3EEF4DB05F2"
+    },
+    {
+      "source_product_id": "4100",
+      "target_product_id": "4200",
+      "flow_name": "受电弓状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_8F81398231970DBDB0A7F854",
+      "interface_refs": [
+        "IF_IF_STA_015"
+      ],
+      "connector_refs": [
+        "CG_8F81398231970DBDB0A7F854"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4100::4200::state；SysML叶级连接 CG_8F81398231970DBDB0A7F854"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "超级电容SOC",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_9465AAC3F0B0B115DC3EF9FD",
+      "interface_refs": [
+        "IF_IF_MEA_028"
+      ],
+      "connector_refs": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::data；SysML叶级连接 CG_9465AAC3F0B0B115DC3EF9FD"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "8100",
+      "flow_name": "高压断路器指令",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_9ACDE46A41EE650430438B91",
+      "interface_refs": [
+        "IF_IF_CMD_016"
+      ],
+      "connector_refs": [
+        "CG_9ACDE46A41EE650430438B91"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::8100::control；SysML叶级连接 CG_9ACDE46A41EE650430438B91"
+    },
+    {
+      "source_product_id": "4100",
+      "target_product_id": "4200",
+      "flow_name": "高压交流电能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_9EB19436ED0A54ECCF52C717",
+      "interface_refs": [
+        "IF_IF_PHY_001"
+      ],
+      "connector_refs": [
+        "CG_9EB19436ED0A54ECCF52C717"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4100::4200::physical；SysML叶级连接 CG_9EB19436ED0A54ECCF52C717"
+    },
+    {
+      "source_product_id": "7200",
+      "target_product_id": "8100",
+      "flow_name": "动态制动力请求",
+      "flow_kind": "signal",
+      "flow_ref": "flow::CG_B251741505CB19FE47559F29",
+      "interface_refs": [
+        "IF_IF_CMD_006"
+      ],
+      "connector_refs": [
+        "CG_B251741505CB19FE47559F29"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::7200::8100::control；SysML叶级连接 CG_B251741505CB19FE47559F29"
+    },
+    {
+      "source_product_id": "4200",
+      "target_product_id": "4500",
+      "flow_name": "高压交流电能",
+      "flow_kind": "energy",
+      "flow_ref": "flow::CG_B483D5C4E4EC5F805E3B0F19",
+      "interface_refs": [
+        "IF_IF_PHY_001"
+      ],
+      "connector_refs": [
+        "CG_B483D5C4E4EC5F805E3B0F19"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::4200::4500::physical；SysML叶级连接 CG_B483D5C4E4EC5F805E3B0F19"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "储能系统可用状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_C03EBDD9B3CFF4E6611E41A1",
+      "interface_refs": [
+        "IF_IF_STA_030",
+        "IF_IF_STA_031"
+      ],
+      "connector_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1",
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::state；SysML叶级连接 CG_C03EBDD9B3CFF4E6611E41A1, CG_C113ED5B462ACDD4ACE56E91"
+    },
+    {
+      "source_product_id": "X100",
+      "target_product_id": "8100",
+      "flow_name": "储能系统故障状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_C113ED5B462ACDD4ACE56E91",
+      "interface_refs": [
+        "IF_IF_STA_030",
+        "IF_IF_STA_031"
+      ],
+      "connector_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1",
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::X100::8100::state；SysML叶级连接 CG_C03EBDD9B3CFF4E6611E41A1, CG_C113ED5B462ACDD4ACE56E91"
+    },
+    {
+      "source_product_id": "7200",
+      "target_product_id": "3100",
+      "flow_name": "摩擦制动机械作用",
+      "flow_kind": "unknown",
+      "flow_ref": "flow::CG_DA869E241F8A36DBAAC07E48",
+      "interface_refs": [
+        "IF_IF_PHY_007"
+      ],
+      "connector_refs": [
+        "CG_DA869E241F8A36DBAAC07E48"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::7200::3100::physical；SysML叶级连接 CG_DA869E241F8A36DBAAC07E48"
+    },
+    {
+      "source_product_id": "7200",
+      "target_product_id": "8100",
+      "flow_name": "制动缸压力",
+      "flow_kind": "unknown",
+      "flow_ref": "flow::CG_E9224B53F74EDFCCFDA0FC70",
+      "interface_refs": [
+        "IF_IF_MEA_016"
+      ],
+      "connector_refs": [
+        "CG_E9224B53F74EDFCCFDA0FC70"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::7200::8100::physical；SysML叶级连接 CG_E9224B53F74EDFCCFDA0FC70"
+    },
+    {
+      "source_product_id": "8100",
+      "target_product_id": "4200",
+      "flow_name": "高压安全回路状态",
+      "flow_kind": "state",
+      "flow_ref": "flow::CG_F55B5E17D8CBFAC80E0961C2",
+      "interface_refs": [
+        "IF_IF_STA_024"
+      ],
+      "connector_refs": [
+        "CG_F55B5E17D8CBFAC80E0961C2"
+      ],
+      "evidence": "真实L2聚合接口 aggregate::L2::8100::4200::state；SysML叶级连接 CG_F55B5E17D8CBFAC80E0961C2"
+    }
+  ],
+  "view_plan": {
+    "requirement_view": {
+      "name": "scope_44d548334a8b Requirements",
+      "view_type": "REQUIREMENT",
+      "status": "PLANNED",
+      "requirement_ids": [
+        "REQ-BRK-007",
+        "REQ-ENE-001",
+        "PRJ-ENE-004",
+        "REQ-BRK-004",
+        "PRJ-ENE-002"
+      ],
+      "function_ids": [
+        "FN_F_X100_01",
+        "FN_F_7211_02",
+        "FN_F_7211_03",
+        "FN_F_5311_01",
+        "FN_F_7255_01",
+        "FN_F_X121_01",
+        "FN_F_X112_02",
+        "FN_F_X112_01",
+        "FN_F_3130_01",
+        "FN_F_3131_01",
+        "FN_F_3132_01",
+        "FN_F_3133_01",
+        "FN_F_X110_01",
+        "FN_F_X111_01",
+        "FN_F_X111_02"
+      ],
+      "product_ids": [],
+      "interface_refs": [],
+      "flow_refs": [],
+      "connector_refs": [],
+      "evidence": [
+        "V2 requirement-function map"
+      ]
+    },
+    "function_product_view": {
+      "name": "scope_44d548334a8b Function Allocation",
+      "view_type": "FUNCTION_PRODUCT",
+      "status": "PLANNED",
+      "requirement_ids": [],
+      "function_ids": [
+        "FN_F_X100_01",
+        "FN_F_7211_02",
+        "FN_F_7211_03",
+        "FN_F_5311_01",
+        "FN_F_7255_01",
+        "FN_F_X121_01",
+        "FN_F_X112_02",
+        "FN_F_X112_01",
+        "FN_F_3130_01",
+        "FN_F_3131_01",
+        "FN_F_3132_01",
+        "FN_F_3133_01",
+        "FN_F_X110_01",
+        "FN_F_X111_01",
+        "FN_F_X111_02"
+      ],
+      "product_ids": [
+        "3100",
+        "5300",
+        "7200",
+        "X100"
+      ],
+      "interface_refs": [],
+      "flow_refs": [],
+      "connector_refs": [],
+      "evidence": [
+        "冻结 SysML 中的真实 allocation 与包含关系"
+      ]
+    },
+    "ibd_views": [
+      {
+        "name": "scope_44d548334a8b IBD 3500→3100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "3500",
+          "3100"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_005"
+        ],
+        "flow_refs": [
+          "flow::CG_3CA6C3BF7D7B4F80CF0990D0"
+        ],
+        "connector_refs": [
+          "CG_3CA6C3BF7D7B4F80CF0990D0"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::3500::3100::physical；SysML叶级连接 CG_3CA6C3BF7D7B4F80CF0990D0"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 3600→3100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "3600",
+          "3100"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_005"
+        ],
+        "flow_refs": [
+          "flow::CG_4CB0735167799FD438F90DD2",
+          "flow::CG_FA31DFA220FEF0D6FAC8EB67"
+        ],
+        "connector_refs": [
+          "CG_4CB0735167799FD438F90DD2",
+          "CG_FA31DFA220FEF0D6FAC8EB67"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::3600::3100::physical；SysML叶级连接 CG_4CB0735167799FD438F90DD2, CG_FA31DFA220FEF0D6FAC8EB67",
+          "真实L2聚合接口 aggregate::L2::3600::3100::physical；SysML叶级连接 CG_4CB0735167799FD438F90DD2, CG_FA31DFA220FEF0D6FAC8EB67"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 3600→5300",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "3600",
+          "5300"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_005"
+        ],
+        "flow_refs": [
+          "flow::CG_07AF42BFA3927EF22F7BDDE7"
+        ],
+        "connector_refs": [
+          "CG_07AF42BFA3927EF22F7BDDE7"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::3600::5300::physical；SysML叶级连接 CG_07AF42BFA3927EF22F7BDDE7"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 3600→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "3600",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_MEA_004"
+        ],
+        "flow_refs": [
+          "flow::CG_89DF67BFD358C3EEF4DB05F2"
+        ],
+        "connector_refs": [
+          "CG_89DF67BFD358C3EEF4DB05F2"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::3600::8100::physical；SysML叶级连接 CG_89DF67BFD358C3EEF4DB05F2"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4100→4200",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4100",
+          "4200"
+        ],
+        "interface_refs": [
+          "IF_IF_STA_015",
+          "IF_IF_PHY_001"
+        ],
+        "flow_refs": [
+          "flow::CG_8F81398231970DBDB0A7F854",
+          "flow::CG_9EB19436ED0A54ECCF52C717"
+        ],
+        "connector_refs": [
+          "CG_8F81398231970DBDB0A7F854",
+          "CG_9EB19436ED0A54ECCF52C717"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4100::4200::state；SysML叶级连接 CG_8F81398231970DBDB0A7F854",
+          "真实L2聚合接口 aggregate::L2::4100::4200::physical；SysML叶级连接 CG_9EB19436ED0A54ECCF52C717"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4200→4100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4200",
+          "4100"
+        ],
+        "interface_refs": [
+          "IF_IF_CMD_018"
+        ],
+        "flow_refs": [
+          "flow::CG_2EE117B4B0633E38D394B904"
+        ],
+        "connector_refs": [
+          "CG_2EE117B4B0633E38D394B904"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4200::4100::control；SysML叶级连接 CG_2EE117B4B0633E38D394B904"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4200→4500",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4200",
+          "4500"
+        ],
+        "interface_refs": [
+          "IF_IF_STA_013",
+          "IF_IF_STA_016",
+          "IF_IF_PHY_001"
+        ],
+        "flow_refs": [
+          "flow::CG_37792F42F4274C7C51C63270",
+          "flow::CG_CE2820923CC0CB141833E11D",
+          "flow::CG_B483D5C4E4EC5F805E3B0F19"
+        ],
+        "connector_refs": [
+          "CG_37792F42F4274C7C51C63270",
+          "CG_CE2820923CC0CB141833E11D",
+          "CG_B483D5C4E4EC5F805E3B0F19"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4200::4500::state；SysML叶级连接 CG_37792F42F4274C7C51C63270, CG_CE2820923CC0CB141833E11D",
+          "真实L2聚合接口 aggregate::L2::4200::4500::state；SysML叶级连接 CG_37792F42F4274C7C51C63270, CG_CE2820923CC0CB141833E11D",
+          "真实L2聚合接口 aggregate::L2::4200::4500::physical；SysML叶级连接 CG_B483D5C4E4EC5F805E3B0F19"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4200→5100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4200",
+          "5100"
+        ],
+        "interface_refs": [
+          "IF_IF_MEA_005",
+          "IF_IF_MEA_006"
+        ],
+        "flow_refs": [
+          "flow::CG_002543DBE0F9A7FBC2A3FDD3",
+          "flow::CG_20C0A22ECCF07864FDBA3F5A"
+        ],
+        "connector_refs": [
+          "CG_002543DBE0F9A7FBC2A3FDD3",
+          "CG_20C0A22ECCF07864FDBA3F5A"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4200::5100::physical；SysML叶级连接 CG_002543DBE0F9A7FBC2A3FDD3, CG_20C0A22ECCF07864FDBA3F5A",
+          "真实L2聚合接口 aggregate::L2::4200::5100::physical；SysML叶级连接 CG_002543DBE0F9A7FBC2A3FDD3, CG_20C0A22ECCF07864FDBA3F5A"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4200→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4200",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_MEA_005",
+          "IF_IF_MEA_006",
+          "IF_IF_CMD_016"
+        ],
+        "flow_refs": [
+          "flow::CG_1C5FC46A1E7682144A3BDDDF",
+          "flow::CG_FE573ED935CFF37491A053E8",
+          "flow::CG_9ACDE46A41EE650430438B91"
+        ],
+        "connector_refs": [
+          "CG_1C5FC46A1E7682144A3BDDDF",
+          "CG_FE573ED935CFF37491A053E8",
+          "CG_9ACDE46A41EE650430438B91"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4200::8100::physical；SysML叶级连接 CG_1C5FC46A1E7682144A3BDDDF, CG_FE573ED935CFF37491A053E8",
+          "真实L2聚合接口 aggregate::L2::4200::8100::physical；SysML叶级连接 CG_1C5FC46A1E7682144A3BDDDF, CG_FE573ED935CFF37491A053E8",
+          "真实L2聚合接口 aggregate::L2::4200::8100::control；SysML叶级连接 CG_9ACDE46A41EE650430438B91"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4500→4200",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4500",
+          "4200"
+        ],
+        "interface_refs": [
+          "IF_IF_STA_016"
+        ],
+        "flow_refs": [
+          "flow::CG_2274BA128E639FDE4D4F56EC"
+        ],
+        "connector_refs": [
+          "CG_2274BA128E639FDE4D4F56EC"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4500::4200::state；SysML叶级连接 CG_2274BA128E639FDE4D4F56EC"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 4500→5100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "4500",
+          "5100"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_014"
+        ],
+        "flow_refs": [
+          "flow::CG_117A3F0E6C8FF8FF0013A46B",
+          "flow::CG_118F2C2B84D1D301C7BE63F8"
+        ],
+        "connector_refs": [
+          "CG_117A3F0E6C8FF8FF0013A46B",
+          "CG_118F2C2B84D1D301C7BE63F8"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::4500::5100::physical；SysML叶级连接 CG_117A3F0E6C8FF8FF0013A46B, CG_118F2C2B84D1D301C7BE63F8",
+          "真实L2聚合接口 aggregate::L2::4500::5100::physical；SysML叶级连接 CG_117A3F0E6C8FF8FF0013A46B, CG_118F2C2B84D1D301C7BE63F8"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 5100→5300",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "5100",
+          "5300"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_004"
+        ],
+        "flow_refs": [
+          "flow::CG_3BD24EBE88F37EEFFE563597"
+        ],
+        "connector_refs": [
+          "CG_3BD24EBE88F37EEFFE563597"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::5100::5300::physical；SysML叶级连接 CG_3BD24EBE88F37EEFFE563597"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 5100→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "5100",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_ACC_002",
+          "IF_IF_ACC_003",
+          "IF_IF_ACC_005",
+          "IF_IF_LIM_005",
+          "IF_IF_MEA_008",
+          "IF_IF_MEA_009",
+          "IF_IF_STA_019"
+        ],
+        "flow_refs": [
+          "flow::CG_08375F15DCE75E45D4C45CE8",
+          "flow::CG_40ADD911FF2840BEEAA67F8D",
+          "flow::CG_4E4C49F08CEE642A5C3C67EB",
+          "flow::CG_732BB9F5922B7AC9420BB2D0",
+          "flow::CG_A35E2178763C6233BE73AA36",
+          "flow::CG_A424455519797490E4F865AA",
+          "flow::CG_B399D92EE15558C08A95FA03",
+          "flow::CG_BDD8747118488C9BE895D95F",
+          "flow::CG_C8FE042475056BF85CFA2B40",
+          "flow::CG_55513667B46680F5B87A0939"
+        ],
+        "connector_refs": [
+          "CG_08375F15DCE75E45D4C45CE8",
+          "CG_40ADD911FF2840BEEAA67F8D",
+          "CG_4E4C49F08CEE642A5C3C67EB",
+          "CG_732BB9F5922B7AC9420BB2D0",
+          "CG_A35E2178763C6233BE73AA36",
+          "CG_A424455519797490E4F865AA",
+          "CG_B399D92EE15558C08A95FA03",
+          "CG_BDD8747118488C9BE895D95F",
+          "CG_C8FE042475056BF85CFA2B40",
+          "CG_55513667B46680F5B87A0939"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::physical；SysML叶级连接 CG_08375F15DCE75E45D4C45CE8, CG_40ADD911FF2840BEEAA67F8D, CG_4E4C49F08CEE642A5C3C67EB, CG_732BB9F5922B7AC9420BB2D0, CG_A35E2178763C6233BE73AA36, CG_A424455519797490E4F865AA, CG_B399D92EE15558C08A95FA03, CG_BDD8747118488C9BE895D95F, CG_C8FE042475056BF85CFA2B40",
+          "真实L2聚合接口 aggregate::L2::5100::8100::state；SysML叶级连接 CG_55513667B46680F5B87A0939"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 5300→3500",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "5300",
+          "3500"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_005"
+        ],
+        "flow_refs": [
+          "flow::CG_338D68ABEF709ACD5E0DDCC6"
+        ],
+        "connector_refs": [
+          "CG_338D68ABEF709ACD5E0DDCC6"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::5300::3500::physical；SysML叶级连接 CG_338D68ABEF709ACD5E0DDCC6"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 5300→5100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "5300",
+          "5100"
+        ],
+        "interface_refs": [
+          "IF_IF_MEA_004",
+          "IF_IF_MEA_011",
+          "IF_IF_MEA_012"
+        ],
+        "flow_refs": [
+          "flow::CG_37ECA5B04E215AC3E6A4B472",
+          "flow::CG_46A1EE350324445D016EAF45",
+          "flow::CG_D4DF5719633CB5B375F35094"
+        ],
+        "connector_refs": [
+          "CG_37ECA5B04E215AC3E6A4B472",
+          "CG_46A1EE350324445D016EAF45",
+          "CG_D4DF5719633CB5B375F35094"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::5300::5100::physical；SysML叶级连接 CG_37ECA5B04E215AC3E6A4B472, CG_46A1EE350324445D016EAF45, CG_D4DF5719633CB5B375F35094",
+          "真实L2聚合接口 aggregate::L2::5300::5100::physical；SysML叶级连接 CG_37ECA5B04E215AC3E6A4B472, CG_46A1EE350324445D016EAF45, CG_D4DF5719633CB5B375F35094",
+          "真实L2聚合接口 aggregate::L2::5300::5100::physical；SysML叶级连接 CG_37ECA5B04E215AC3E6A4B472, CG_46A1EE350324445D016EAF45, CG_D4DF5719633CB5B375F35094"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 5300→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "5300",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_MEA_012"
+        ],
+        "flow_refs": [
+          "flow::CG_65E377DBF988541FA5778D1E"
+        ],
+        "connector_refs": [
+          "CG_65E377DBF988541FA5778D1E"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::5300::8100::physical；SysML叶级连接 CG_65E377DBF988541FA5778D1E"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 7100→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "7100",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_MEA_014"
+        ],
+        "flow_refs": [
+          "flow::CG_739E53DD845C8CD2646C8E39"
+        ],
+        "connector_refs": [
+          "CG_739E53DD845C8CD2646C8E39"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::7100::8100::physical；SysML叶级连接 CG_739E53DD845C8CD2646C8E39"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 7200→3100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "7200",
+          "3100"
+        ],
+        "interface_refs": [
+          "IF_IF_PHY_007"
+        ],
+        "flow_refs": [
+          "flow::CG_DA869E241F8A36DBAAC07E48"
+        ],
+        "connector_refs": [
+          "CG_DA869E241F8A36DBAAC07E48"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::7200::3100::physical；SysML叶级连接 CG_DA869E241F8A36DBAAC07E48"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 7200→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "7200",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_STA_003",
+          "IF_IF_CMD_006",
+          "IF_IF_MEA_016"
+        ],
+        "flow_refs": [
+          "flow::CG_1102EBD35D52A38B96D5D2E7",
+          "flow::CG_944069F2CBBFA2A01274A9DB",
+          "flow::CG_B251741505CB19FE47559F29",
+          "flow::CG_E9224B53F74EDFCCFDA0FC70"
+        ],
+        "connector_refs": [
+          "CG_1102EBD35D52A38B96D5D2E7",
+          "CG_944069F2CBBFA2A01274A9DB",
+          "CG_B251741505CB19FE47559F29",
+          "CG_E9224B53F74EDFCCFDA0FC70"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::7200::8100::state；SysML叶级连接 CG_1102EBD35D52A38B96D5D2E7, CG_944069F2CBBFA2A01274A9DB",
+          "真实L2聚合接口 aggregate::L2::7200::8100::state；SysML叶级连接 CG_1102EBD35D52A38B96D5D2E7, CG_944069F2CBBFA2A01274A9DB",
+          "真实L2聚合接口 aggregate::L2::7200::8100::control；SysML叶级连接 CG_B251741505CB19FE47559F29",
+          "真实L2聚合接口 aggregate::L2::7200::8100::physical；SysML叶级连接 CG_E9224B53F74EDFCCFDA0FC70"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 8100→4200",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "8100",
+          "4200"
+        ],
+        "interface_refs": [
+          "IF_IF_STA_024"
+        ],
+        "flow_refs": [
+          "flow::CG_F55B5E17D8CBFAC80E0961C2"
+        ],
+        "connector_refs": [
+          "CG_F55B5E17D8CBFAC80E0961C2"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::8100::4200::state；SysML叶级连接 CG_F55B5E17D8CBFAC80E0961C2"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 8100→5100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "8100",
+          "5100"
+        ],
+        "interface_refs": [
+          "IF_IF_CMD_012"
+        ],
+        "flow_refs": [
+          "flow::CG_7365C853DD9391D9914E0C8A"
+        ],
+        "connector_refs": [
+          "CG_7365C853DD9391D9914E0C8A"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::8100::5100::control；SysML叶级连接 CG_7365C853DD9391D9914E0C8A"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 8100→7200",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "8100",
+          "7200"
+        ],
+        "interface_refs": [
+          "IF_IF_CMD_003",
+          "IF_IF_CMD_004",
+          "IF_IF_CMD_030",
+          "IF_IF_STA_002",
+          "IF_IF_STA_025",
+          "IF_IF_LIM_001",
+          "IF_IF_MEA_013",
+          "IF_IF_MEA_014",
+          "IF_IF_MEA_016"
+        ],
+        "flow_refs": [
+          "flow::CG_071B7693DAFA8B87ADA0A61E",
+          "flow::CG_4163C3EB1F2D16B7AFCB21C9",
+          "flow::CG_979C19823B520B68E370ECB6",
+          "flow::CG_ED49C68C1459BB1005D412BB",
+          "flow::CG_1ACF37CC65D3FF235E8BD75C",
+          "flow::CG_CE151D40A2BF816F41762F4C",
+          "flow::CG_1AEA8B915E14A5D0FFEE30D9",
+          "flow::CG_A0B82CF482DDFB4553F8CFCA",
+          "flow::CG_BEDE0932E86628B2EFCA8CCD",
+          "flow::CG_E8DAA56D71F2BE4B5E1C9BBF"
+        ],
+        "connector_refs": [
+          "CG_071B7693DAFA8B87ADA0A61E",
+          "CG_4163C3EB1F2D16B7AFCB21C9",
+          "CG_979C19823B520B68E370ECB6",
+          "CG_ED49C68C1459BB1005D412BB",
+          "CG_1ACF37CC65D3FF235E8BD75C",
+          "CG_CE151D40A2BF816F41762F4C",
+          "CG_1AEA8B915E14A5D0FFEE30D9",
+          "CG_A0B82CF482DDFB4553F8CFCA",
+          "CG_BEDE0932E86628B2EFCA8CCD",
+          "CG_E8DAA56D71F2BE4B5E1C9BBF"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB",
+          "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB",
+          "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB",
+          "真实L2聚合接口 aggregate::L2::8100::7200::control；SysML叶级连接 CG_071B7693DAFA8B87ADA0A61E, CG_4163C3EB1F2D16B7AFCB21C9, CG_979C19823B520B68E370ECB6, CG_ED49C68C1459BB1005D412BB",
+          "真实L2聚合接口 aggregate::L2::8100::7200::state；SysML叶级连接 CG_1ACF37CC65D3FF235E8BD75C, CG_CE151D40A2BF816F41762F4C",
+          "真实L2聚合接口 aggregate::L2::8100::7200::state；SysML叶级连接 CG_1ACF37CC65D3FF235E8BD75C, CG_CE151D40A2BF816F41762F4C",
+          "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF",
+          "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF",
+          "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF",
+          "真实L2聚合接口 aggregate::L2::8100::7200::physical；SysML叶级连接 CG_1AEA8B915E14A5D0FFEE30D9, CG_A0B82CF482DDFB4553F8CFCA, CG_BEDE0932E86628B2EFCA8CCD, CG_E8DAA56D71F2BE4B5E1C9BBF"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD 8100→X100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "8100",
+          "X100"
+        ],
+        "interface_refs": [
+          "IF_IF_CMD_025",
+          "IF_IF_CMD_026",
+          "IF_IF_CMD_027",
+          "IF_IF_CMD_028",
+          "IF_IF_CMD_029"
+        ],
+        "flow_refs": [
+          "flow::CG_1AE13610E33C0DC7055CFCED",
+          "flow::CG_25DC22E45A984D1CB28D188B",
+          "flow::CG_7A2381DC8C36A40B747035A5",
+          "flow::CG_D8FCE908D4FD9343C6353985",
+          "flow::CG_D9CD1E8933F596F319A67625"
+        ],
+        "connector_refs": [
+          "CG_1AE13610E33C0DC7055CFCED",
+          "CG_25DC22E45A984D1CB28D188B",
+          "CG_7A2381DC8C36A40B747035A5",
+          "CG_D8FCE908D4FD9343C6353985",
+          "CG_D9CD1E8933F596F319A67625"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625",
+          "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625",
+          "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625",
+          "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625",
+          "真实L2聚合接口 aggregate::L2::8100::X100::control；SysML叶级连接 CG_1AE13610E33C0DC7055CFCED, CG_25DC22E45A984D1CB28D188B, CG_7A2381DC8C36A40B747035A5, CG_D8FCE908D4FD9343C6353985, CG_D9CD1E8933F596F319A67625"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD D100→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "D100",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_CMD_001",
+          "IF_IF_CMD_002",
+          "IF_IF_CMD_003",
+          "IF_IF_CMD_004"
+        ],
+        "flow_refs": [
+          "flow::CG_2E8F3CC8A8EBCDE6B7CF4D27",
+          "flow::CG_41AD09EEB4EAB9DC956C08F8",
+          "flow::CG_663CDC611495882DCD3E5B8F",
+          "flow::CG_8EED0159D22D9EDC70A9EA67",
+          "flow::CG_A3B31951ADAE62C498E76260"
+        ],
+        "connector_refs": [
+          "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+          "CG_41AD09EEB4EAB9DC956C08F8",
+          "CG_663CDC611495882DCD3E5B8F",
+          "CG_8EED0159D22D9EDC70A9EA67",
+          "CG_A3B31951ADAE62C498E76260"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260",
+          "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260",
+          "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260",
+          "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260",
+          "真实L2聚合接口 aggregate::L2::D100::8100::control；SysML叶级连接 CG_2E8F3CC8A8EBCDE6B7CF4D27, CG_41AD09EEB4EAB9DC956C08F8, CG_663CDC611495882DCD3E5B8F, CG_8EED0159D22D9EDC70A9EA67, CG_A3B31951ADAE62C498E76260"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD E100→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "E100",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_STA_027",
+          "IF_IF_CMD_030"
+        ],
+        "flow_refs": [
+          "flow::CG_0D68248E62957CCB92C5A2A5",
+          "flow::CG_89318B491DF9CED18997C36D",
+          "flow::CG_86987C60BCB826208FEFEF31"
+        ],
+        "connector_refs": [
+          "CG_0D68248E62957CCB92C5A2A5",
+          "CG_89318B491DF9CED18997C36D",
+          "CG_86987C60BCB826208FEFEF31"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::E100::8100::state；SysML叶级连接 CG_0D68248E62957CCB92C5A2A5, CG_89318B491DF9CED18997C36D",
+          "真实L2聚合接口 aggregate::L2::E100::8100::state；SysML叶级连接 CG_0D68248E62957CCB92C5A2A5, CG_89318B491DF9CED18997C36D",
+          "真实L2聚合接口 aggregate::L2::E100::8100::control；SysML叶级连接 CG_86987C60BCB826208FEFEF31"
+        ]
+      },
+      {
+        "name": "scope_44d548334a8b IBD X100→8100",
+        "view_type": "IBD",
+        "status": "PLANNED",
+        "requirement_ids": [],
+        "function_ids": [],
+        "product_ids": [
+          "X100",
+          "8100"
+        ],
+        "interface_refs": [
+          "IF_IF_ACC_004",
+          "IF_IF_LIM_009",
+          "IF_IF_LIM_010",
+          "IF_IF_MEA_029",
+          "IF_IF_MEA_028",
+          "IF_IF_STA_030",
+          "IF_IF_STA_031"
+        ],
+        "flow_refs": [
+          "flow::CG_093EFCE58F3AB220CFEC48AC",
+          "flow::CG_A6D783BBFCF6C6DA11FFCF2D",
+          "flow::CG_CB302083C9F33A1345D9C406",
+          "flow::CG_DAF7D43DDD825831F29A70F8",
+          "flow::CG_9465AAC3F0B0B115DC3EF9FD",
+          "flow::CG_C03EBDD9B3CFF4E6611E41A1",
+          "flow::CG_C113ED5B462ACDD4ACE56E91"
+        ],
+        "connector_refs": [
+          "CG_093EFCE58F3AB220CFEC48AC",
+          "CG_A6D783BBFCF6C6DA11FFCF2D",
+          "CG_CB302083C9F33A1345D9C406",
+          "CG_DAF7D43DDD825831F29A70F8",
+          "CG_9465AAC3F0B0B115DC3EF9FD",
+          "CG_C03EBDD9B3CFF4E6611E41A1",
+          "CG_C113ED5B462ACDD4ACE56E91"
+        ],
+        "evidence": [
+          "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8",
+          "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8",
+          "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8",
+          "真实L2聚合接口 aggregate::L2::X100::8100::physical；SysML叶级连接 CG_093EFCE58F3AB220CFEC48AC, CG_A6D783BBFCF6C6DA11FFCF2D, CG_CB302083C9F33A1345D9C406, CG_DAF7D43DDD825831F29A70F8",
+          "真实L2聚合接口 aggregate::L2::X100::8100::data；SysML叶级连接 CG_9465AAC3F0B0B115DC3EF9FD",
+          "真实L2聚合接口 aggregate::L2::X100::8100::state；SysML叶级连接 CG_C03EBDD9B3CFF4E6611E41A1, CG_C113ED5B462ACDD4ACE56E91",
+          "真实L2聚合接口 aggregate::L2::X100::8100::state；SysML叶级连接 CG_C03EBDD9B3CFF4E6611E41A1, CG_C113ED5B462ACDD4ACE56E91"
+        ]
+      }
+    ]
+  },
+  "limits_applied": [
+    "Requirement ≤20",
+    "Function ≤25",
+    "IBD按真实产品对拆分；单图最多15条flow"
+  ],
+  "source_hashes": {
+    "requirement_catalog_v2.json": "123412457c62312ecffa7b923bb2567ec181fb637a6671c42b1755339ac3beb1",
+    "requirement_function_map_v2.json": "8b9273f6e13d34af1982ee57127e365bf249a67a287f1458477c2b2a034671a1",
+    "function_product_map.json": "ef5f1bea0e331b6dc1f285bc08bc552313c7cf6ef836096663b3adb51ab6142d",
+    "l2_interaction_catalog.json": "072893b6fc96374a5eafe5ddad22cff8c6f6eb74fe097970a2b7eb6e6efd9186",
+    "Rail_MBSE_Full_v1.sysml": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5"
+  },
+  "diagnostics": [
+    "没有创建或推断模型元素；所有产品/接口/flow来自现有 SysML 与 V2 interaction catalog。"
+  ],
+  "raw_stats": {
+    "matched_requirement_count": 5,
+    "scope_requirement_count": 5,
+    "scope_function_count": 15,
+    "owner_l2_product_count": 4,
+    "interaction_neighbor_count": 10,
+    "aggregate_interface_count": 37,
+    "real_flow_count": 73,
+    "ibd_view_count": 26,
+    "unmatched_semantic_function_count": 0
+  }
+}

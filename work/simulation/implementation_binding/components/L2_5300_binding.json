@@ -1,0 +1,55 @@
+{
+  "ssd_component_id": "L2_5300",
+  "ssd_component_name": "L2_5300",
+  "l2_code": "5300",
+  "l2_engineering_name": "牵引电机及其冷却",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_5300::p_5311_rp_57f3c317ac0c860d",
+      "ssd_connector_name": "p_5311_rp_57f3c317ac0c860d",
+      "simulink_port_name": "p_5311_rp_57f3c317ac0c860d",
+      "future_fmu_variable": "p_5311_rp_57f3c317ac0c860d",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    }
+  ],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_5300::p_5311_rp_10bb4c4f0063bc18",
+      "ssd_connector_name": "p_5311_rp_10bb4c4f0063bc18",
+      "simulink_port_name": "p_5311_rp_10bb4c4f0063bc18",
+      "future_fmu_variable": "p_5311_rp_10bb4c4f0063bc18",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_5300::p_5311_rp_537e9856bafa2a02",
+      "ssd_connector_name": "p_5311_rp_537e9856bafa2a02",
+      "simulink_port_name": "p_5311_rp_537e9856bafa2a02",
+      "future_fmu_variable": "p_5311_rp_537e9856bafa2a02",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_5300::p_5311_rp_79c695a1342df24f",
+      "ssd_connector_name": "p_5311_rp_79c695a1342df24f",
+      "simulink_port_name": "p_5311_rp_79c695a1342df24f",
+      "future_fmu_variable": "p_5311_rp_79c695a1342df24f",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_5300::p_5311_rp_97eb613c06ae1b2e",
+      "ssd_connector_name": "p_5311_rp_97eb613c06ae1b2e",
+      "simulink_port_name": "p_5311_rp_97eb613c06ae1b2e",
+      "future_fmu_variable": "p_5311_rp_97eb613c06ae1b2e",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 5,
+  "connected_l2_peers": [
+    "L2_3500",
+    "L2_3600",
+    "L2_5100",
+    "L2_8100"
+  ],
+  "future_simulink": "L2_5300.slx",
+  "future_fmu": "L2_5300.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

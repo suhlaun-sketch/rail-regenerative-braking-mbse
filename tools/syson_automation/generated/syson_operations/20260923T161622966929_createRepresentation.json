@@ -1,0 +1,16 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-23T16:16:07.959905+00:00",
+  "variables": {
+    "input": {
+      "id": "33b44f2b-9175-4c18-b161-1324c15d6219",
+      "editingContextId": "967a4588-11d1-435d-ba59-2412f2e63002",
+      "objectId": "4f835bd6-1684-4535-9ef1-8716f1cab65f",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "representationName": "AUTO_API_SMOKE_TEST"
+    }
+  },
+  "representation_id": null,
+  "response": null,
+  "error": "SysON GraphQL 请求失败：TimeoutError: timed out"
+}

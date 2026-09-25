@@ -1,0 +1,105 @@
+﻿parameter_id,parameter_name,default_value,override_value,final_runtime_value,override_chain,conflict
+VEH-001,vehicle_mass_kg,80000,80000,80000,Params_v2.json -> Params_v2.m -> L2_7200_behavior.m(mass=80000) -> L2_8100_behavior.m(mass=80000) -> runner_v2.py(MASS=80000),YES
+VEH-002,vehicle_type,,,NOT EXPLICITLY DEFINED,,NO
+VEH-003,wheel_radius_m,0.46,0.46,0.46,Params_v2.json -> Params_v2.m -> L2_3100_behavior.m(0.46) -> L2_7200_behavior.m(0.46) -> L2_8100_behavior.m(rw=0.46) -> runner(WHEEL_RADIUS=0.46),NO
+VEH-004,equivalent_rotational_inertia_kgm2,18000,18000,18000,Params_v2.json -> L2_3100_behavior.m(J=18000),NO
+VEH-005,rolling_resistance_torque_Nm,1500,1500,1500,Params_v2.json -> L2_3100_behavior.m(T_res=1500+0.8*omega^2),NO
+VEH-006,aero_torque_coefficient,0.8,0.8,0.8,Params_v2.json -> L2_3100_behavior.m(0.8*omega_w^2),NO
+DRV-001,gear_ratio,6.2,6.2,6.2,Params_v2.json -> L2_8100_behavior.m(gear=6.2) -> runner_v2.py(GEAR=6.2),NO
+DRV-002,driveline_efficiency,0.96,0.96,0.96,Params_v2.json -> L2_8100_behavior.m(eta=0.96) -> runner_v2.py(DRIVE_ETA=0.97),YES
+MOT-001,motor_pole_pairs,3,3,3,Params_v2.json -> L2_5300_behavior.m(wsync=2*pi*f/3),NO
+MOT-002,motor_torque_limit_Nm,6000,6000,6000,Params_v2.json -> L2_5300_behavior.m -> L2_5100_behavior.m(Treq limit 6000) -> L2_8100_behavior.m(6000),NO
+MOT-003,motor_torque_slip_gain,30,30,30,Params_v2.json -> L2_5300_behavior.m,NO
+MOT-004,motor_time_constant_s,0.2,0.2,0.2,Params_v2.json -> L2_5300_behavior.m(0.2),NO
+MOT-005,motor_efficiency_motoring,0.94,0.94,0.94,Params_v2.json -> L2_5300_behavior.m -> runner_v2.py(MOTOR_ETA_MOT=0.94),NO
+MOT-006,motor_efficiency_generating,0.92,0.92,0.92,Params_v2.json -> L2_5300_behavior.m(0.92) -> runner_v2.py(MOTOR_ETA_REG=0.93),YES
+MOT-007,motor_deenergized_time_constant_s,0.05,0.05,0.05,Params_v2.json,NO
+MOT-008,motor_minimum_operating_voltage_V,250,250,250,Params_v2.json,NO
+MOT-009,motor_traction_torque_limit_Nm,4500,4500,4500,L2_8100_behavior.m hardcoded,NO
+CNV-001,dc_voltage_nominal_V,1800,1800,1800,Params_v2.json -> L2_5100_behavior.m(Udc init=1800) -> targetU fallback 1800/1.2,NO
+CNV-002,dc_voltage_min_operating_V,1200,1200,1200,Params_v2.json -> L2_8100_behavior.m(in_dc_link_voltage>=1200),NO
+CNV-003,dc_voltage_max_V,2100,2100,2100,"Params_v2.json -> L2_5100_behavior.m(targetU=min(2200,...))",NO
+CNV-004,dc_link_capacitance_F,0.4,0.4,0.4,Params_v2.json,NO
+CNV-005,dc_link_bleed_power_W,5000,5000,5000,Params_v2.json,NO
+CNV-006,dc_link_voltage_time_constant,0.3,0.3,0.3,L2_5100_behavior.m hardcoded,NO
+CNV-007,converter_power_limit_W,1200000,1200000,1200000,Params_v2.json -> L2_5100_behavior.m(pmax=1200000),NO
+CNV-008,grid_regen_acceptance_W,0,0,0,Params_v2.json -> L2_5100_behavior.m(out_grid_acceptable_regenerative_power=0),NO
+CNV-009,rectifier_voltage_gain,1.2,1.2,1.2,"Params_v2.json -> L2_5100_behavior.m(1.2*max(U_sec,1800/1.2))",NO
+CNV-010,front_end_efficiency,0.98,0.98,0.98,Params_v2.json,NO
+CNV-011,inverter_efficiency_motoring,0.98,0.98,0.98,Params_v2.json,NO
+CNV-012,inverter_efficiency_generating,0.98,0.98,0.98,Params_v2.json,NO
+CNV-013,converter_traction_efficiency,0.96,0.96,0.96,L2_5100_behavior.m hardcoded,NO
+CNV-014,converter_regen_efficiency,0.95,0.95,0.95,L2_5100_behavior.m hardcoded,NO
+CNV-015,motor_voltage_frequency_ratio,8.0,8.0,8.0,L2_5100_behavior.m hardcoded,NO
+CNV-016,precharge_power_limit_W,900000,900000,900000,Params_v2.json,NO
+CNV-017,precharge_time_constant_s,0.6,0.6,0.6,Params_v2.json,NO
+TRF-001,transformer_ratio,0.06,0.06,0.06,Params_v2.json -> L2_4500_behavior.m(ratio=0.06),NO
+TRF-002,transformer_efficiency,0.97,0.97,0.97,Params_v2.json -> L2_4500_behavior.m(eta=0.97),NO
+TRF-003,transformer_primary_voltage_min_V,15000,15000,15000,Params_v2.json,NO
+LINE-001,line_voltage_V,25000,25000,25000,Params_v2.json -> L2_4100_behavior.m(25000-0.4*I),NO
+LINE-002,line_frequency_Hz,50,50,50,Params_v2.json -> L2_4100_behavior.m(f_ac=panto*50),NO
+LINE-003,line_voltage_drop_V_per_A,0.4,0.4,0.4,Params_v2.json -> L2_4100_behavior.m(0.4),NO
+LINE-004,pantograph_raise_delay_s,0.2,0.2,0.2,Params_v2.json,NO
+HV-001,hv_breaker_close_delay_s,0.3,0.3,0.3,Params_v2.json,NO
+HV-002,hv_breaker_open_delay_s,0.05,0.05,0.05,Params_v2.json,NO
+HV-003,hv_primary_voltage_min_V,15000,15000,15000,Params_v2.json,NO
+BRK-001,max_service_deceleration_mps2,1.2,1.2,1.2,Params_v2.json -> L2_7200_behavior.m(amax=1.2) -> L2_8100_behavior.m(brakeReq limit=1.2),NO
+BRK-002,max_dynamic_brake_force_N,77000,77000,77000,"Params_v2.json -> L2_8100_behavior.m(Favail=...min(77000,...))",NO
+BRK-003,cylinder_pressure_max_Pa,600000,600000,600000,Params_v2.json -> L2_7200_behavior.m(600000),NO
+BRK-004,cylinder_time_constant_s,0.4,0.4,0.4,Params_v2.json -> L2_7200_behavior.m(0.4),NO
+BRK-005,mechanical_force_build_time_s,0.25,0.25,0.25,Params_v2.json -> L2_7200_behavior.m(tauF=0.25 for build),NO
+BRK-006,mechanical_force_release_time_s,0.12,0.12,0.12,Params_v2.json -> L2_7200_behavior.m(tauF=0.12 for release),NO
+BRK-007,low_speed_takeover_time_s,0.015,0.015,0.015,Params_v2.json -> L2_7200_behavior.m(tauF=0.015 for low-speed),NO
+BRK-008,regen_cutoff_low_mps,0.5,0.5,0.5,Params_v2.json -> L2_8100_behavior.m,NO
+BRK-009,regen_cutoff_high_mps,1.5,1.5,1.5,Params_v2.json -> L2_8100_behavior.m,NO
+BRK-010,stop_hold_entry_speed_mps,0.1,0.1,0.1,Params_v2.json -> L2_8100_behavior.m(v<=0.1),NO
+BRK-011,hold_deceleration_mps2,0.3,0.3,0.3,Params_v2.json -> L2_8100_behavior.m -> L2_D100_behavior.m(phase4: 0.3),NO
+BRK-012,total_force_tolerance,0.05,0.05,0.05,Params_v2.json,NO
+BRK-013,regen_fade_smoothstep,smoothstep,smoothstep,smoothstep,L2_8100_behavior.m hardcoded,NO
+BRK-014,supercap_soc_max_for_regen,0.98,0.98,0.98,L2_8100_behavior.m hardcoded,NO
+PNE-001,reservoir_pressure_nominal_Pa,900000,900000,900000,Params_v2.json -> L2_7100_behavior.m(constant 900000),NO
+PNE-002,brake_availability_pressure_threshold_Pa,600000,600000,600000,L2_7200_behavior.m hardcoded,NO
+SC-001,supercap_capacitance_F,120,120,120,Params_v2.json -> L2_X100_behavior.m(120) -> runner(SC_C=120),NO
+SC-002,supercap_esr_Ohm,0.04,0.04,0.04,Params_v2.json -> runner_v2.py(SC_ESR=0.04),NO
+SC-003,supercap_voltage_min_V,500,500,500,Params_v2.json -> L2_X100_behavior.m(Emin=15000000) -> runner(SC_VMIN=500),NO
+SC-004,supercap_voltage_max_V,900,900,900,Params_v2.json -> L2_X100_behavior.m(Emax=48600000) -> runner(SC_VMAX=900),NO
+SC-005,supercap_initial_soc,0.35,0.35,0.35,Params_v2.json -> L2_X100_behavior.m(E=26760000 => SOC=0.35),NO
+SC-006,supercap_charge_power_limit_W,600000,600000,600000,Params_v2.json -> L2_X100_behavior.m(PchgLim=600000),NO
+SC-007,supercap_discharge_power_limit_W,400000,400000,400000,Params_v2.json -> L2_X100_behavior.m(PdisLim=400000),NO
+SC-008,supercap_current_limit_A,900,900,900,Params_v2.json -> runner_v2.py current bounds check <=909,NO
+SC-009,dcdc_efficiency_charge,0.96,0.96,0.96,Params_v2.json -> L2_X100_behavior.m(0.96),NO
+SC-010,dcdc_efficiency_discharge,0.95,0.95,0.95,Params_v2.json -> L2_X100_behavior.m(0.95),NO
+SC-011,supercap_Emin_J,15000000,15000000,15000000,0.5*C*Vmin^2 = 0.5*120*500^2 -> runner SC_EMIN=15000000,NO
+SC-012,supercap_Emax_J,48600000,48600000,48600000,0.5*C*Vmax^2 = 0.5*120*900^2 -> runner SC_EMAX=48600000,NO
+SC-013,supercap_E_init_J,26760000,26760000,26760000,Emin + SOC_init*(Emax-Emin) = 15000000 + 0.35*33600000,NO
+SIM-001,start_time_s,0,0,0,FMU DefaultExperiment -> runner setupExperiment(startTime=0.0),NO
+SIM-002,stop_time_s,50,50,50,FMU DefaultExperiment(50) -> runner STOP=50.0,NO
+SIM-003,internal_step_size_s,0.01,0.01,0.01,Simulink export -> FMU DefaultExperiment stepSize=0.01,NO
+SIM-004,communication_step_s,0.1,0.05,0.05,v1 Params(0.1) -> v2 Params(0.05) -> runner_v2.py(main dt=0.05),YES
+SIM-005,co_sim_algorithm,Explicit Jacobi,Explicit Jacobi,Explicit Jacobi,runner_v1.py = runner_v2.py = Explicit Jacobi,NO
+SIM-006,fmu_count,16,16,16,SSD defines 16 components,NO
+SIM-007,connection_records,87,87,87,Implementation binding -> SSP -> runner,NO
+SIM-008,sample_time_s,0.01,0.01,0.01,Params_v2.json(0.01) matches FMU stepSize(0.01),NO
+SCN-001,traction_phase_end_s,20,20,20,L2_D100_behavior.m,NO
+SCN-002,coast_phase_end_s,30,30,30,L2_D100_behavior.m,NO
+SCN-003,braking_phase_end_s,45,45,45,L2_D100_behavior.m,NO
+SCN-004,traction_ramp_time_s,3,3,3,L2_D100_behavior.m,NO
+SCN-005,service_brake_request_braking,1.0,1.0,1.0,L2_D100_behavior.m,NO
+SCN-006,service_brake_request_hold,0.3,0.3,0.3,L2_D100_behavior.m,NO
+MIS-001,track_grade,,,IMPLICIT_DEFAULT = 0,,NO
+MIS-002,curve_radius,,,NOT FOUND,,NO
+MIS-003,adhesion_coefficient,,,NOT FOUND,,NO
+MIS-004,air_density_kg_m3,,,NOT FOUND,,NO
+MIS-005,wind_speed,,,NOT FOUND,,NO
+MIS-006,ambient_temperature,,,NOT FOUND,,NO
+MIS-007,frontal_area_m2,,,NOT FOUND,,NO
+MIS-008,load_case,,,NOT EXPLICITLY DEFINED,,NO
+MIS-009,max_speed_mps,,,NOT EXPLICITLY DEFINED,,NO
+MIS-010,initial_speed_mps,0,0,0,L2_3100_behavior.m persistent init -> FMU start,NO
+MIS-011,grid_receptivity,,,NOT FOUND,,NO
+MIS-012,sensor_parameters,,,NOT FOUND,,NO
+MIS-013,control_communication_delay,,,NOT FOUND,,NO
+MIS-014,fault_protection_thresholds,MINIMAL,MINIMAL,MINIMAL,"L2_8100 checks: traction_converter_fault==0, external_safety_state>0",NO
+SCv1-001,scv1_vehicle_mass,295900,295900,NOT USED in v2,"SC_v1_parameters.m (legacy gold model, not used in v2 simulation)",NO
+SCv1-002,scv1_dc_source_voltage,1500,1500,NOT USED in v2,"SC_v1_parameters.m (legacy, different architecture: DC 1500V vs AC 25kV)",NO
+SCv1-003,scv1_supercap_C,200,200,NOT USED in v2,SC_v1_parameters.m (legacy),NO

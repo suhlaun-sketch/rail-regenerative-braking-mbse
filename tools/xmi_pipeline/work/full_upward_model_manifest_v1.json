@@ -1,0 +1,19 @@
+{
+  "manifest_id": "RAIL-MBSE-FULL-UPWARD-MODEL-V1",
+  "output": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_TractionBrake_Full_UpwardIBD_v1.xmi",
+  "sha256": "529a94941e5a823f0cdfdda91efaa7cc2e41e6002e3c6207feacf17514061a41",
+  "counts": {
+    "product_blocks": 147,
+    "raw_ports": 517,
+    "promoted_ports": 594,
+    "final_connections": 184,
+    "hierarchical_segments": 724,
+    "physical_nets": 9,
+    "physical_net_projection_connectors": 190,
+    "functions": 191,
+    "allocations": 191,
+    "function_interface": 471,
+    "voltage_anchors": 6
+  },
+  "byte_deterministic": true
+}

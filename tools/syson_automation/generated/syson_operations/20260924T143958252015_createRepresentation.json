@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T14:39:50.065333+00:00",
+  "variables": {
+    "input": {
+      "id": "979ce2fb-2b8c-4fc9-8e25-f5a33aa8c84c",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "objectId": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "representationName": "AUTO_V3_IBD_X130"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "94cea473-1328-4930-8e2a-9cc1c4d28686",
+        "label": "AUTO_V3_IBD_X130",
+        "kind": "siriusComponents://representation?type=Diagram"
+      }
+    }
+  },
+  "error": null
+}

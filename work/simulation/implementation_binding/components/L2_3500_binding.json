@@ -1,0 +1,32 @@
+{
+  "ssd_component_id": "L2_3500",
+  "ssd_component_name": "L2_3500",
+  "l2_code": "3500",
+  "l2_engineering_name": "牵引传动耦合组件及其附件",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_3500::p_3511_rp_aa7691c6f81e4771",
+      "ssd_connector_name": "p_3511_rp_aa7691c6f81e4771",
+      "simulink_port_name": "p_3511_rp_aa7691c6f81e4771",
+      "future_fmu_variable": "p_3511_rp_aa7691c6f81e4771",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_3500::p_3512_rp_c455741f6ca5a597",
+      "ssd_connector_name": "p_3512_rp_c455741f6ca5a597",
+      "simulink_port_name": "p_3512_rp_c455741f6ca5a597",
+      "future_fmu_variable": "p_3512_rp_c455741f6ca5a597",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 2,
+  "connected_l2_peers": [
+    "L2_3100",
+    "L2_5300"
+  ],
+  "future_simulink": "L2_3500.slx",
+  "future_fmu": "L2_3500.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

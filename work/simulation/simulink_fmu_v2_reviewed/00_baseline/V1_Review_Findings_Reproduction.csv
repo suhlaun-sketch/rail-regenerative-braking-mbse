@@ -1,0 +1,9 @@
+﻿finding,status,actual,expected
+A_HV_CHAIN_NOT_CLOSED,REPRODUCED,4200 Uac max=0.000 V; breaker max=0; 4500 Usec max=0.000 V; 5100 Udc min=1800.000 V,Energized 4100 -> closed 4200 breaker -> energized 4500 -> established 5100 DC link
+B_ZERO_SUPPLY_NONZERO_TRACTION,REPRODUCED,Peak motor mechanical traction power=672.163 kW while transformer secondary voltage is zero,Traction power must be zero when supply is unavailable and ESS is not discharging
+C_BRAKE_BLEND_OVERSHOOT,REPRODUCED,t=30.6 s; Fregen=26.531 kN; Fmechanical=80.000 kN; overshoot=33.164%,Transient peak <10%; target <5%
+C2_HOLD_TRANSITION_OVERSHOOT,NEW_FINDING_REPRODUCED,At 45.0 s demand changes to 24 kN while total remains 80.000 kN; overshoot=233.333%,Hold transition total braking force remains within transient tolerance
+D_LOW_SPEED_REGEN_LAG,REPRODUCED,First zero speed at 41.5 s; Fregen=75.976 kN; Pregen=19.077 kW,At standstill Fregen and Pregen approximately zero; mechanical hold may remain
+E_MIXED_POWER_BOUNDARIES,REPRODUCED,Ptraction=positive motor mechanical shaft power; Pregen=positive converter-side electrical power,Mechanical and DC-link boundaries reported separately
+F_USC_DERIVED_NOT_TERMINAL,REPRODUCED,Usc result is reconstructed only from SOC and E=0.5*C*U^2; ESR/current are not represented in the plotted voltage,Distinguish capacitor equivalent/internal voltage and terminal voltage
+EREGEN_INTEGRATION_INCONSISTENCY,REPRODUCED,Max v1 key-vs-diagnostic difference=25.957410 kJ; max key-vs-trapezoid difference=25.957410 kJ,One authoritative trapezoidal integration definition

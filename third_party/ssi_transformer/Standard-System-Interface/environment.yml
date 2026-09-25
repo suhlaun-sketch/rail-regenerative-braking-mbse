@@ -1,0 +1,17 @@
+name: sysml_fmi_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pyqt=5.15.10 # PyQt5 widgets
+  - matplotlib=3.8.3 # Matplotlib for plotting
+  - numpy=1.24.3 # Numpy for numerical operations
+  - pandas=2.1.4 # Pandas for data manipulation
+  - pyfmi=2.13.1 # PyFMI for FMI support
+  - lxml=5.2.1 # lxml for XML parsing
+  - xmltodict # XML parsing
+  - pytest # For testing
+  - pip # Ensures pip is available in the environment
+- name: Zenodo upload
+  uses: megasanjay/upload-to-zenodo@v2.0.1

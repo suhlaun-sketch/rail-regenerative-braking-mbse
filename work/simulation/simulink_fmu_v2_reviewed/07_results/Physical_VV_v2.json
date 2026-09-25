@@ -1,0 +1,92 @@
+{
+  "artifact": "Rail MBSE v2 actual All16 FMU physical V&V",
+  "generated_utc": "2026-09-13T08:53:50.549679+00:00",
+  "runtime": {
+    "master": "FMPy 0.3.26 explicit Jacobi",
+    "main_step_s": 0.05,
+    "main_runtime_s": 1.6930531000252813,
+    "fmus": 16,
+    "connection_records": 87,
+    "unique_causal_paths": 77
+  },
+  "metrics": {
+    "brake_overshoot_percent": 7.024608462767537,
+    "brake_steady_error_percent": 0.5758612381335478,
+    "stop_speed_time_s": 41.55,
+    "strong_brake_overshoot_percent": 4.563100042196311,
+    "traction_line_energy_J": 7041188.538016279,
+    "traction_motor_mechanical_energy_J": 6121220.184888505,
+    "peak_speed_mps": 11.561853915358189,
+    "E_motor_mechanical_regen_J": 4302677.338392656,
+    "E_converter_dc_regen_J": 3879293.8882948216,
+    "E_grid_returned_J": 0.0,
+    "E_brake_resistor_J": 0.0,
+    "E_ess_requested_to_dcdc_J": 3879293.8882948225,
+    "E_ess_absorbed_integral_J": 3724122.1327630263,
+    "delta_E_supercap_J": 3724122.132762968,
+    "loss_converter_J": 423383.4500978347,
+    "loss_dcdc_J": 155171.75553185446,
+    "allocation_residual_J": -9.313225746154785e-10,
+    "allocation_residual_percent": 2.400752821088401e-14,
+    "storage_integral_residual_percent": 1.5629901178961198e-12,
+    "overall_recovery_efficiency_percent": 86.55359999999865
+  },
+  "communication_step_sensitivity": [
+    {
+      "communication_step_s": 0.1,
+      "peak_brake_overshoot_percent": 16.051540690918884,
+      "steady_brake_error_percent": 1.157990046392788,
+      "stopping_time_s": 41.6,
+      "runtime_s": 1.0534930999856442
+    },
+    {
+      "communication_step_s": 0.05,
+      "peak_brake_overshoot_percent": 7.024608462767537,
+      "steady_brake_error_percent": 0.5758612381335478,
+      "stopping_time_s": 41.55,
+      "runtime_s": 1.6930531000252813
+    },
+    {
+      "communication_step_s": 0.02,
+      "peak_brake_overshoot_percent": 1.9297091214276407,
+      "steady_brake_error_percent": 0.09889131535857815,
+      "stopping_time_s": 41.52,
+      "runtime_s": 1.852214999962598
+    }
+  ],
+  "gates": {
+    "all_16_fmus_instantiate_and_step": true,
+    "all_87_connection_records_valid": true,
+    "pantograph_energized": true,
+    "hv_breaker_closed": true,
+    "hv_fault_absent": true,
+    "transformer_secondary_energized": true,
+    "dc_link_established": true,
+    "traction_has_upstream_energy": true,
+    "no_zero_supply_traction": true,
+    "regenerative_power_positive": true,
+    "brake_steady_error_under_5_percent": true,
+    "brake_transient_overshoot_under_10_percent": true,
+    "strong_brake_bounded": true,
+    "standstill_regen_force_zero": true,
+    "standstill_regen_power_zero": true,
+    "hold_brake_present": true,
+    "soc_bounds": true,
+    "supercap_voltage_bounds": true,
+    "supercap_current_bounds": true,
+    "supercap_energy_integral_consistent": true,
+    "regenerative_allocation_residual_under_5_percent": true,
+    "ess_soc_and_energy_increase": true,
+    "finite_and_bounded": true,
+    "low_speed_scenario_regen_fades": true,
+    "ess_full_scenario_no_storage_gain": true
+  },
+  "layered_status": {
+    "COSIM_EXECUTION_VV": "PASS",
+    "TRACTION_POWER_CHAIN_VV": "PASS",
+    "BRAKE_BLEND_VV": "PASS",
+    "REGENERATIVE_ENERGY_VV": "PASS",
+    "SUPERCAP_STORAGE_VV": "PASS",
+    "SYSTEM_PHYSICAL_VV": "PASS"
+  }
+}

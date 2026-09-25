@@ -1,0 +1,901 @@
+{
+  "contract_id": "RAIL-MBSE-SYSML17-MAPPING-CONTRACT-V1",
+  "normative_sources": {
+    "sysml_profile": {
+      "path": "SysML/SysML.xmi",
+      "xmi_id": "SysML",
+      "name": "SysML",
+      "URI": "https://www.omg.org/spec/SysML/20240101",
+      "namespace_declarations": {
+        "xmi": "https://www.omg.org/spec/XMI/20131001",
+        "xsi": "https://www.w3.org/2001/XMLSchema-instance",
+        "uml": "https://www.omg.org/spec/UML/20161101",
+        "mofext": "https://www.omg.org/spec/MOF/20131001",
+        "SysML": "https://www.omg.org/spec/SysML/20240101",
+        "StandardProfile": "https://www.omg.org/spec/UML/20161101/StandardProfile"
+      },
+      "imports": [
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#_0",
+        "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#_0",
+        "https://www.omg.org/spec/UML/20161101/StandardProfile.xmi#StandardProfile",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Element",
+        "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Boolean",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Connector",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Class",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ConnectorEnd",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#DirectedRelationship",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Classifier",
+        "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Integer",
+        "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#UnlimitedNatural",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#DataType",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#InstanceSpecification",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Generalization",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Comment",
+        "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#String",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Dependency",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Behavior",
+        "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Real",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Abstraction",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#NamedElement",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ActivityPartition",
+        "https://www.omg.org/spec/UML/20161101/StandardProfile.xmi#Refine",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Operation",
+        "https://www.omg.org/spec/UML/20161101/StandardProfile.xmi#Trace",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#AcceptEventAction",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#AddStructuralFeatureValueAction",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Port",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ChangeEvent",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#StructuralFeature",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Feature",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#InvocationAction",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#InformationFlow",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Trigger",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Reception",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Constraint",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ParameterSet",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#BehavioralFeature",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Interface",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ObjectNode",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#Parameter",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ActivityEdge",
+        "https://www.omg.org/spec/UML/20161101/UML.xmi#ValueSpecification"
+      ]
+    },
+    "uml_metamodel": {
+      "path": "SysML/UML.xmi",
+      "namespace_declarations": {
+        "uml": "http://www.omg.org/spec/UML/20131001",
+        "xmi": "http://www.omg.org/spec/XMI/20131001",
+        "mofext": "http://www.omg.org/spec/MOF/20131001"
+      },
+      "xmi_id": "_0",
+      "name": "UML",
+      "URI": "http://www.omg.org/spec/UML/20161101",
+      "description": "UML.xmi: XMI representation of the metamodel for UML 2.5.1.",
+      "port_has_isConjugated": true,
+      "metaclass_owned_attributes": {
+        "InformationFlow": [
+          {
+            "name": "conveyed",
+            "type": "Classifier",
+            "xmi_id": "InformationFlow-conveyed"
+          },
+          {
+            "name": "informationSource",
+            "type": "NamedElement",
+            "xmi_id": "InformationFlow-informationSource"
+          },
+          {
+            "name": "informationTarget",
+            "type": "NamedElement",
+            "xmi_id": "InformationFlow-informationTarget"
+          },
+          {
+            "name": "realization",
+            "type": "Relationship",
+            "xmi_id": "InformationFlow-realization"
+          },
+          {
+            "name": "realizingActivityEdge",
+            "type": "ActivityEdge",
+            "xmi_id": "InformationFlow-realizingActivityEdge"
+          },
+          {
+            "name": "realizingConnector",
+            "type": "Connector",
+            "xmi_id": "InformationFlow-realizingConnector"
+          },
+          {
+            "name": "realizingMessage",
+            "type": "Message",
+            "xmi_id": "InformationFlow-realizingMessage"
+          }
+        ],
+        "Connector": [
+          {
+            "name": "contract",
+            "type": "Behavior",
+            "xmi_id": "Connector-contract"
+          },
+          {
+            "name": "end",
+            "type": "ConnectorEnd",
+            "xmi_id": "Connector-end"
+          },
+          {
+            "name": "kind",
+            "type": "ConnectorKind",
+            "xmi_id": "Connector-kind"
+          },
+          {
+            "name": "redefinedConnector",
+            "type": "Connector",
+            "xmi_id": "Connector-redefinedConnector"
+          },
+          {
+            "name": "type",
+            "type": "Association",
+            "xmi_id": "Connector-type"
+          }
+        ],
+        "ConnectorEnd": [
+          {
+            "name": "definingEnd",
+            "type": "Property",
+            "xmi_id": "ConnectorEnd-definingEnd"
+          },
+          {
+            "name": "partWithPort",
+            "type": "Property",
+            "xmi_id": "ConnectorEnd-partWithPort"
+          },
+          {
+            "name": "role",
+            "type": "ConnectableElement",
+            "xmi_id": "ConnectorEnd-role"
+          }
+        ],
+        "Port": [
+          {
+            "name": "isBehavior",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Port-isBehavior"
+          },
+          {
+            "name": "isConjugated",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Port-isConjugated"
+          },
+          {
+            "name": "isService",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Port-isService"
+          },
+          {
+            "name": "protocol",
+            "type": "ProtocolStateMachine",
+            "xmi_id": "Port-protocol"
+          },
+          {
+            "name": "provided",
+            "type": "Interface",
+            "xmi_id": "Port-provided"
+          },
+          {
+            "name": "redefinedPort",
+            "type": "Port",
+            "xmi_id": "Port-redefinedPort"
+          },
+          {
+            "name": "required",
+            "type": "Interface",
+            "xmi_id": "Port-required"
+          }
+        ],
+        "Abstraction": [
+          {
+            "name": "mapping",
+            "type": "OpaqueExpression",
+            "xmi_id": "Abstraction-mapping"
+          }
+        ],
+        "Activity": [
+          {
+            "name": "edge",
+            "type": "ActivityEdge",
+            "xmi_id": "Activity-edge"
+          },
+          {
+            "name": "group",
+            "type": "ActivityGroup",
+            "xmi_id": "Activity-group"
+          },
+          {
+            "name": "isReadOnly",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Activity-isReadOnly"
+          },
+          {
+            "name": "isSingleExecution",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Activity-isSingleExecution"
+          },
+          {
+            "name": "node",
+            "type": "ActivityNode",
+            "xmi_id": "Activity-node"
+          },
+          {
+            "name": "partition",
+            "type": "ActivityPartition",
+            "xmi_id": "Activity-partition"
+          },
+          {
+            "name": "structuredNode",
+            "type": "StructuredActivityNode",
+            "xmi_id": "Activity-structuredNode"
+          },
+          {
+            "name": "variable",
+            "type": "Variable",
+            "xmi_id": "Activity-variable"
+          }
+        ],
+        "Parameter": [
+          {
+            "name": "default",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+            "xmi_id": "Parameter-default"
+          },
+          {
+            "name": "defaultValue",
+            "type": "ValueSpecification",
+            "xmi_id": "Parameter-defaultValue"
+          },
+          {
+            "name": "direction",
+            "type": "ParameterDirectionKind",
+            "xmi_id": "Parameter-direction"
+          },
+          {
+            "name": "effect",
+            "type": "ParameterEffectKind",
+            "xmi_id": "Parameter-effect"
+          },
+          {
+            "name": "isException",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Parameter-isException"
+          },
+          {
+            "name": "isStream",
+            "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+            "xmi_id": "Parameter-isStream"
+          },
+          {
+            "name": "operation",
+            "type": "Operation",
+            "xmi_id": "Parameter-operation"
+          },
+          {
+            "name": "parameterSet",
+            "type": "ParameterSet",
+            "xmi_id": "Parameter-parameterSet"
+          }
+        ]
+      }
+    },
+    "primitive_types": {
+      "path": "SysML/UMLpre.xmi",
+      "namespace_declarations": {
+        "xmi": "http://www.omg.org/spec/XMI/20131001",
+        "uml": "http://www.omg.org/spec/UML/20161101",
+        "mofext": "http://www.omg.org/spec/MOF/20131001"
+      },
+      "xmi_id": "_0",
+      "name": "PrimitiveTypes",
+      "URI": "http://www.omg.org/spec/PrimitiveTypes/20161101"
+    },
+    "standard_profile": {
+      "path": "SysML/umlstandard.xmi",
+      "namespace_declarations": {
+        "xmi": "http://www.omg.org/spec/XMI/20131001",
+        "uml": "http://www.omg.org/spec/UML/20161101",
+        "mofext": "http://www.omg.org/spec/MOF/20131001"
+      },
+      "xmi_id": "_0",
+      "name": "StandardProfile",
+      "URI": "http://www.omg.org/spec/UML/20161101/StandardProfile"
+    },
+    "xmi_schema": {
+      "path": "SysML/XMI.xsd",
+      "target_namespace": "http://www.omg.org/spec/XMI/20131001"
+    },
+    "sysml_di": [
+      "SysML/SysMLdi.xmi"
+    ],
+    "pdf_audit": {
+      "sysml_1_7_pdf_found": false,
+      "version_mismatches": [
+        {
+          "path": "SysML/formal-26-03-02.pdf",
+          "detected_version": "2.0"
+        }
+      ],
+      "decision": "Use local normative SysML.xmi; the available PDF is not a SysML 1.7 source."
+    },
+    "cameo_golden_sample": "NOT_FOUND"
+  },
+  "versions": {
+    "sysml": "1.7 (identified by OMG SysML profile URI date 20240101)",
+    "sysml_namespace_uri": "https://www.omg.org/spec/SysML/20240101",
+    "sysml_profile_uri": "https://www.omg.org/spec/SysML/20240101",
+    "uml": "2.5.1",
+    "uml_metamodel_uri": "http://www.omg.org/spec/UML/20161101",
+    "uml_namespace_uri_for_sysml_exchange": "https://www.omg.org/spec/UML/20161101",
+    "primitive_types_uri": "http://www.omg.org/spec/PrimitiveTypes/20161101",
+    "standard_profile_uri": "http://www.omg.org/spec/UML/20161101/StandardProfile",
+    "xmi_namespace_uri": "https://www.omg.org/spec/XMI/20131001",
+    "xmi_namespace_date": "20131001",
+    "xmi_root_version_attribute_in_normative_profile": null
+  },
+  "profile_application": {
+    "profile_xmi_id": "SysML",
+    "profile_uri": "https://www.omg.org/spec/SysML/20240101",
+    "local_href_from_work_output": "../SysML/SysML.xmi#SysML",
+    "representation": "uml:ProfileApplication/appliedProfile@href"
+  },
+  "stereotype_application_serialization": {
+    "placement": "top-level children of xmi:XMI after uml:Model",
+    "metaclass_and_model_reference_fields": "nested property elements with xmi:idref, matching stereotype applications embedded in local SysML.xmi",
+    "datatype_and_enumeration_fields": "XML attributes"
+  },
+  "stereotypes": {
+    "Block": {
+      "xmi_id": "SysML.Block",
+      "name": "Block",
+      "qualified_name": "SysML::Block",
+      "generalizations": [],
+      "extension_ids": [
+        "SysML.E_extension_Block_base_Class"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.Block.base_Class",
+          "name": "base_Class",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Class",
+          "read_only": true,
+          "declared_by": "SysML.Block"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.Block.isEncapsulated",
+          "name": "isEncapsulated",
+          "type": "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Boolean",
+          "read_only": false,
+          "declared_by": "SysML.Block"
+        }
+      ]
+    },
+    "InterfaceBlock": {
+      "xmi_id": "SysML.InterfaceBlock",
+      "name": "InterfaceBlock",
+      "qualified_name": "SysML::InterfaceBlock",
+      "generalizations": [
+        "SysML.Block"
+      ],
+      "extension_ids": [],
+      "base_fields": [
+        {
+          "id": "SysML.Block.base_Class",
+          "name": "base_Class",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Class",
+          "read_only": true,
+          "declared_by": "SysML.Block"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.Block.isEncapsulated",
+          "name": "isEncapsulated",
+          "type": "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Boolean",
+          "read_only": false,
+          "declared_by": "SysML.Block"
+        }
+      ]
+    },
+    "ProxyPort": {
+      "xmi_id": "SysML.ProxyPort",
+      "name": "ProxyPort",
+      "qualified_name": "SysML::ProxyPort",
+      "generalizations": [],
+      "extension_ids": [
+        "SysML.E_extension_ProxyPort_base_Port"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.ProxyPort.base_Port",
+          "name": "base_Port",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Port",
+          "read_only": true,
+          "declared_by": "SysML.ProxyPort"
+        }
+      ],
+      "semantic_fields": []
+    },
+    "FlowProperty": {
+      "xmi_id": "SysML.FlowProperty",
+      "name": "FlowProperty",
+      "qualified_name": "SysML::FlowProperty",
+      "generalizations": [],
+      "extension_ids": [
+        "SysML.E_extension_FlowProperty_base_Property"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.FlowProperty.base_Property",
+          "name": "base_Property",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+          "read_only": true,
+          "declared_by": "SysML.FlowProperty"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.FlowProperty.direction",
+          "name": "direction",
+          "type": "SysML_dataType.FlowDirectionKind",
+          "read_only": false,
+          "declared_by": "SysML.FlowProperty"
+        }
+      ]
+    },
+    "ItemFlow": {
+      "xmi_id": "SysML.ItemFlow",
+      "name": "ItemFlow",
+      "qualified_name": "SysML::ItemFlow",
+      "generalizations": [],
+      "extension_ids": [
+        "SysML.E_extension_ItemFlow_base_InformationFlow"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.ItemFlow.base_InformationFlow",
+          "name": "base_InformationFlow",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#InformationFlow",
+          "read_only": true,
+          "declared_by": "SysML.ItemFlow"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.ItemFlow.itemProperty",
+          "name": "itemProperty",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+          "read_only": false,
+          "declared_by": "SysML.ItemFlow"
+        }
+      ]
+    },
+    "Allocate": {
+      "xmi_id": "SysML.Allocate",
+      "name": "Allocate",
+      "qualified_name": "SysML::Allocate",
+      "generalizations": [
+        "SysML.DirectedRelationshipPropertyPath"
+      ],
+      "extension_ids": [
+        "SysML.E_extension_Allocate_base_Abstraction"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.DirectedRelationshipPropertyPath.base_DirectedRelationship",
+          "name": "base_DirectedRelationship",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#DirectedRelationship",
+          "read_only": true,
+          "declared_by": "SysML.DirectedRelationshipPropertyPath"
+        },
+        {
+          "id": "SysML.Allocate.base_Abstraction",
+          "name": "base_Abstraction",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Abstraction",
+          "read_only": true,
+          "declared_by": "SysML.Allocate"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.DirectedRelationshipPropertyPath.sourceContext",
+          "name": "sourceContext",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Classifier",
+          "read_only": false,
+          "declared_by": "SysML.DirectedRelationshipPropertyPath"
+        },
+        {
+          "id": "SysML.DirectedRelationshipPropertyPath.sourcePropertyPath",
+          "name": "sourcePropertyPath",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+          "read_only": false,
+          "declared_by": "SysML.DirectedRelationshipPropertyPath"
+        },
+        {
+          "id": "SysML.DirectedRelationshipPropertyPath.targetContext",
+          "name": "targetContext",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Classifier",
+          "read_only": false,
+          "declared_by": "SysML.DirectedRelationshipPropertyPath"
+        },
+        {
+          "id": "SysML.DirectedRelationshipPropertyPath.targetPropertyPath",
+          "name": "targetPropertyPath",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+          "read_only": false,
+          "declared_by": "SysML.DirectedRelationshipPropertyPath"
+        }
+      ]
+    },
+    "NestedConnectorEnd": {
+      "xmi_id": "SysML.NestedConnectorEnd",
+      "name": "NestedConnectorEnd",
+      "qualified_name": "SysML::NestedConnectorEnd",
+      "generalizations": [
+        "SysML.ElementPropertyPath"
+      ],
+      "extension_ids": [
+        "SysML.E_extension_NestedConnectorEnd_base_ConnectorEnd"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.ElementPropertyPath.base_Element",
+          "name": "base_Element",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Element",
+          "read_only": true,
+          "declared_by": "SysML.ElementPropertyPath"
+        },
+        {
+          "id": "SysML.NestedConnectorEnd.base_ConnectorEnd",
+          "name": "base_ConnectorEnd",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#ConnectorEnd",
+          "read_only": true,
+          "declared_by": "SysML.NestedConnectorEnd"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.ElementPropertyPath.propertyPath",
+          "name": "propertyPath",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+          "read_only": false,
+          "declared_by": "SysML.ElementPropertyPath"
+        }
+      ]
+    },
+    "tildeInterfaceBlock": {
+      "xmi_id": "SysML.tildeInterfaceBlock",
+      "name": "~InterfaceBlock",
+      "qualified_name": "SysML::~InterfaceBlock",
+      "generalizations": [
+        "SysML.InterfaceBlock"
+      ],
+      "extension_ids": [
+        "SysML.E_extension_tildeInterfaceBlock_base_Class"
+      ],
+      "base_fields": [
+        {
+          "id": "SysML.tildeInterfaceBlock.base_Class",
+          "name": "base_Class",
+          "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Class",
+          "read_only": true,
+          "declared_by": "SysML.tildeInterfaceBlock"
+        }
+      ],
+      "semantic_fields": [
+        {
+          "id": "SysML.Block.isEncapsulated",
+          "name": "isEncapsulated",
+          "type": "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Boolean",
+          "read_only": false,
+          "declared_by": "SysML.Block"
+        },
+        {
+          "id": "SysML.tildeInterfaceBlock.original",
+          "name": "original",
+          "type": "SysML.InterfaceBlock",
+          "read_only": false,
+          "declared_by": "SysML.tildeInterfaceBlock"
+        }
+      ]
+    }
+  },
+  "flow_direction_literals": [
+    "in",
+    "inout",
+    "out"
+  ],
+  "conjugation": {
+    "uml_port_has_isConjugated": true,
+    "normative_constraint": [
+      "Any port typed by an InterfaceBlock shall have its isConjugated property set to false."
+    ],
+    "decision": "All InterfaceBlock-typed ports use isConjugated=false. Signal input ports are typed by deterministic standard ~InterfaceBlock classifiers whose reversed in feature is derived from the canonical out FlowProperty through the standard original reference. Physical FlowProperty is inout."
+  },
+  "element_mapping": {
+    "Product": "uml:Class + SysML::Block",
+    "SystemContext": "uml:Class + SysML::Block (modeling context, not Product)",
+    "ProductHierarchy": "uml:Property with aggregation=composite",
+    "InterfaceDefinition": "uml:Class + SysML::InterfaceBlock",
+    "ConjugatedInterfaceDefinition": "uml:Class + SysML::~InterfaceBlock",
+    "PortInstance": "uml:Port + SysML::ProxyPort",
+    "InterfaceFlowSemantic": "uml:Property + SysML::FlowProperty",
+    "SignalItem": "uml:Signal",
+    "PhysicalItem": "uml:DataType",
+    "Function": "uml:Activity",
+    "Allocation": "uml:Abstraction + SysML::Allocate",
+    "FinalConnection": "uml:Connector",
+    "SignalFlow": "uml:InformationFlow + SysML::ItemFlow",
+    "PhysicalNet": "one standard n-ary uml:Connector; no custom stereotype and no pairwise clique",
+    "FunctionInterface": "Activity ownedParameter plus standard uml:Dependency from Parameter to Port",
+    "VoltageAnchor": "standard uml:Comment annotatedElement pointing to Port or network Connector",
+    "ExternalBoundary": "uml:Class + SysML::Block modeling artifact; context reference Property is non-composite"
+  },
+  "connector_ownership": {
+    "owner": "lowest common ancestor Product Block, or System Context",
+    "direct_end": "ConnectorEnd.role references Port and partWithPort references the direct part Property",
+    "nested_end": "SysML::NestedConnectorEnd with inherited propertyPath ordered from connector owner to the part whose type owns the Port",
+    "evidence": [
+      "The propertyPath list of the NestedConnectorEnd stereotype must identify a path of containing properties that identify the connected property in the context of the block that owns the connector. The ordering of properties is from a property of the block that owns the connector, through a property of each intermediate block that types the preceding property, until a property is reached that contains a connector end property within its type. The connector end property is not included in the propertyPath list, but instead is held by the role property of the UML ConnectorEnd metaclass.",
+      "The NestedConnectorEnd stereotype of UML ConnectorEnd extends a UML ConnectorEnd so that the connected property may be identified by a multi-level path of accessible properties from the block that owns the connector. The propertyPath inherited from ElementPropertyPath gives a series of properties that identifies the connected property in the context of the block that owns the connector. The ordering of properties is from a property of the block that owns the connector, through a property of each intermediate block that types the preceding property, ending in a property with a type that owns or inherits the property that is the role of the connector end (the property that the connector graphically attaches to at that end). The property that is the role of the connector end is not included in the propertyPath list."
+    ]
+  },
+  "item_flow": {
+    "scope": "SIGNAL connectors only",
+    "uml_information_flow_fields_from_UML_xmi": [
+      {
+        "name": "conveyed",
+        "type": "Classifier",
+        "xmi_id": "InformationFlow-conveyed"
+      },
+      {
+        "name": "informationSource",
+        "type": "NamedElement",
+        "xmi_id": "InformationFlow-informationSource"
+      },
+      {
+        "name": "informationTarget",
+        "type": "NamedElement",
+        "xmi_id": "InformationFlow-informationTarget"
+      },
+      {
+        "name": "realization",
+        "type": "Relationship",
+        "xmi_id": "InformationFlow-realization"
+      },
+      {
+        "name": "realizingActivityEdge",
+        "type": "ActivityEdge",
+        "xmi_id": "InformationFlow-realizingActivityEdge"
+      },
+      {
+        "name": "realizingConnector",
+        "type": "Connector",
+        "xmi_id": "InformationFlow-realizingConnector"
+      },
+      {
+        "name": "realizingMessage",
+        "type": "Message",
+        "xmi_id": "InformationFlow-realizingMessage"
+      }
+    ],
+    "selected_uml_fields": [
+      "informationSource",
+      "informationTarget",
+      "conveyed",
+      "realizingConnector"
+    ],
+    "sysml_item_flow_fields_from_SysML_xmi": [
+      {
+        "id": "SysML.ItemFlow.base_InformationFlow",
+        "name": "base_InformationFlow",
+        "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#InformationFlow",
+        "read_only": true,
+        "declared_by": "SysML.ItemFlow"
+      },
+      {
+        "id": "SysML.ItemFlow.itemProperty",
+        "name": "itemProperty",
+        "type": "https://www.omg.org/spec/UML/20161101/UML.xmi#Property",
+        "read_only": false,
+        "declared_by": "SysML.ItemFlow"
+      }
+    ],
+    "selected_sysml_fields": [
+      "base_InformationFlow",
+      "itemProperty"
+    ],
+    "directed_property_path_note": "Local SysML.xmi defines no ItemFlow generalization to DirectedRelationshipPropertyPath; source/target and realizingConnector are therefore carried by the base UML InformationFlow.",
+    "itemProperty": "canonical InterfaceBlock FlowProperty typed by the conveyed Item classifier"
+  },
+  "uml_metaclass_fields": {
+    "Connector": [
+      {
+        "name": "contract",
+        "type": "Behavior",
+        "xmi_id": "Connector-contract"
+      },
+      {
+        "name": "end",
+        "type": "ConnectorEnd",
+        "xmi_id": "Connector-end"
+      },
+      {
+        "name": "kind",
+        "type": "ConnectorKind",
+        "xmi_id": "Connector-kind"
+      },
+      {
+        "name": "redefinedConnector",
+        "type": "Connector",
+        "xmi_id": "Connector-redefinedConnector"
+      },
+      {
+        "name": "type",
+        "type": "Association",
+        "xmi_id": "Connector-type"
+      }
+    ],
+    "ConnectorEnd": [
+      {
+        "name": "definingEnd",
+        "type": "Property",
+        "xmi_id": "ConnectorEnd-definingEnd"
+      },
+      {
+        "name": "partWithPort",
+        "type": "Property",
+        "xmi_id": "ConnectorEnd-partWithPort"
+      },
+      {
+        "name": "role",
+        "type": "ConnectableElement",
+        "xmi_id": "ConnectorEnd-role"
+      }
+    ],
+    "Port": [
+      {
+        "name": "isBehavior",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Port-isBehavior"
+      },
+      {
+        "name": "isConjugated",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Port-isConjugated"
+      },
+      {
+        "name": "isService",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Port-isService"
+      },
+      {
+        "name": "protocol",
+        "type": "ProtocolStateMachine",
+        "xmi_id": "Port-protocol"
+      },
+      {
+        "name": "provided",
+        "type": "Interface",
+        "xmi_id": "Port-provided"
+      },
+      {
+        "name": "redefinedPort",
+        "type": "Port",
+        "xmi_id": "Port-redefinedPort"
+      },
+      {
+        "name": "required",
+        "type": "Interface",
+        "xmi_id": "Port-required"
+      }
+    ],
+    "Abstraction": [
+      {
+        "name": "mapping",
+        "type": "OpaqueExpression",
+        "xmi_id": "Abstraction-mapping"
+      }
+    ],
+    "Activity": [
+      {
+        "name": "edge",
+        "type": "ActivityEdge",
+        "xmi_id": "Activity-edge"
+      },
+      {
+        "name": "group",
+        "type": "ActivityGroup",
+        "xmi_id": "Activity-group"
+      },
+      {
+        "name": "isReadOnly",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Activity-isReadOnly"
+      },
+      {
+        "name": "isSingleExecution",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Activity-isSingleExecution"
+      },
+      {
+        "name": "node",
+        "type": "ActivityNode",
+        "xmi_id": "Activity-node"
+      },
+      {
+        "name": "partition",
+        "type": "ActivityPartition",
+        "xmi_id": "Activity-partition"
+      },
+      {
+        "name": "structuredNode",
+        "type": "StructuredActivityNode",
+        "xmi_id": "Activity-structuredNode"
+      },
+      {
+        "name": "variable",
+        "type": "Variable",
+        "xmi_id": "Activity-variable"
+      }
+    ],
+    "Parameter": [
+      {
+        "name": "default",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String",
+        "xmi_id": "Parameter-default"
+      },
+      {
+        "name": "defaultValue",
+        "type": "ValueSpecification",
+        "xmi_id": "Parameter-defaultValue"
+      },
+      {
+        "name": "direction",
+        "type": "ParameterDirectionKind",
+        "xmi_id": "Parameter-direction"
+      },
+      {
+        "name": "effect",
+        "type": "ParameterEffectKind",
+        "xmi_id": "Parameter-effect"
+      },
+      {
+        "name": "isException",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Parameter-isException"
+      },
+      {
+        "name": "isStream",
+        "type": "http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean",
+        "xmi_id": "Parameter-isStream"
+      },
+      {
+        "name": "operation",
+        "type": "Operation",
+        "xmi_id": "Parameter-operation"
+      },
+      {
+        "name": "parameterSet",
+        "type": "ParameterSet",
+        "xmi_id": "Parameter-parameterSet"
+      }
+    ]
+  },
+  "prohibitions": [
+    "No project-defined stereotype definitions or applications",
+    "No Dependency in place of Product composition",
+    "No pairwise expansion of PhysicalNet",
+    "No UUID, random number, or timestamp identifiers",
+    "No physical connector converted into a directed signal ItemFlow"
+  ]
+}

@@ -1,0 +1,1994 @@
+{
+  "ssd_component": "L2_8100",
+  "l2_code": "8100",
+  "l2_engineering_name": "列车主干网及安全回路",
+  "future_simulink_model": "L2_8100.slx",
+  "future_fmu_file": "L2_8100.fmu",
+  "source_structural_connectors": [
+    "L2_8100.p_8121_rp_0b58c63caeaf2f6d",
+    "L2_8100.p_8121_rp_1c14ea3cdc439198",
+    "L2_8100.p_8121_rp_1e34bb2697325127",
+    "L2_8100.p_8121_rp_2ee1cd48c6d41ac7",
+    "L2_8100.p_8121_rp_a49a67fafe112278",
+    "L2_8100.p_8121_rp_a9c7eff84933cd80",
+    "L2_8100.p_8121_rp_d82e5c8a7afb4b7b",
+    "L2_8100.p_8122_rp_1967a947dd39d4a5",
+    "L2_8100.p_8122_rp_35b0ef67b409e840",
+    "L2_8100.p_8122_rp_361eac651ec9fd05",
+    "L2_8100.p_8122_rp_4683a7cb63e55daf",
+    "L2_8100.p_8122_rp_47c78247980cc3a5",
+    "L2_8100.p_8122_rp_6437aa0577c9ccd7",
+    "L2_8100.p_8122_rp_77c439392dea95b4",
+    "L2_8100.p_8122_rp_81e596aab3f0fe4c",
+    "L2_8100.p_8122_rp_8c3ed075d33335e8",
+    "L2_8100.p_8122_rp_9d3500c169fe7103",
+    "L2_8100.p_8122_rp_a095b9b42ab5cc7d",
+    "L2_8100.p_8122_rp_a4aac084c46e1e57",
+    "L2_8100.p_8122_rp_abc36140248d0eef",
+    "L2_8100.p_8122_rp_b1fb8856841fb7cf",
+    "L2_8100.p_8122_rp_bd78e8d84d334672",
+    "L2_8100.p_8122_rp_dae173a1561f3f35",
+    "L2_8100.p_8122_rp_e1808e35289aaba6",
+    "L2_8100.p_8122_rp_eb1cf5594b5796be",
+    "L2_8100.p_8122_rp_f704c2e7bab06749",
+    "L2_8100.p_8125_rp_1809c94f1581c7f8",
+    "L2_8100.p_8125_rp_1faca3fc4ff0e741",
+    "L2_8100.p_8125_rp_36a59f5828d4c515",
+    "L2_8100.p_8125_rp_4e582bfad9ebbf1d",
+    "L2_8100.p_8125_rp_70a8e2c4b0887b4d",
+    "L2_8100.p_8125_rp_7262595caaf3b8d8",
+    "L2_8100.p_8125_rp_b60dd66dcfd10afa",
+    "L2_8100.p_8125_rp_d69905c106b65d8f",
+    "L2_8100.p_8125_rp_dae11d7502a6c37a",
+    "L2_8100.p_8127_rp_8f3091a86214dd4e",
+    "L2_8100.p_8127_rp_a916a9847aeadebb",
+    "L2_8100.p_8127_rp_be0fc7194a7f0161",
+    "L2_8100.p_8128_rp_0e19632016b69ff2",
+    "L2_8100.p_8128_rp_5accd69f9c3a8b0c",
+    "L2_8100.p_8128_rp_8d19f6989a5bebad",
+    "L2_8100.p_8128_rp_cb74be2d7d4a54c7",
+    "L2_8100.p_8128_rp_cc7a917501039195",
+    "L2_8100.p_8128_rp_ccc90acd04ba0ccc",
+    "L2_8100.p_8128_rp_ce6397cb7b81dd94",
+    "L2_8100.p_8151_rp_d7d7f4cb9554ff03",
+    "L2_8100.p_8152_rp_93024c6ed1623fbd",
+    "L2_8100.p_8152_rp_ae53feffb1e116e3",
+    "L2_8100.p_8166_rp_3b0068559b0ca1e4",
+    "L2_8100.p_8166_rp_54d624d57f57843b",
+    "L2_8100.p_8166_rp_573e029523ef9946",
+    "L2_8100.p_8166_rp_d9d89be1583c0e18"
+  ],
+  "inputs": [
+    {
+      "executable_variable_id": "EV::L2_8100::in_brake_availability",
+      "variable_name": "in_brake_availability",
+      "engineering_meaning": "制动控制/执行系统是否具备请求的制动能力。",
+      "quantity": "brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0026"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1102EBD35D52A38B96D5D2E7",
+        "CG_944069F2CBBFA2A01274A9DB"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_STA_003",
+        "ItemDefinitions::ITM-STA-003",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_1c14ea3cdc439198",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_b1fb8856841fb7cf"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_1c14ea3cdc439198",
+        "L2_8100.p_8122_rp_b1fb8856841fb7cf"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_brake_cylinder_pressure",
+      "variable_name": "in_brake_cylinder_pressure",
+      "engineering_meaning": "摩擦制动执行通道的制动缸/夹钳驱动压力。",
+      "quantity": "brake_cylinder_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0025"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_E9224B53F74EDFCCFDA0FC70"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_cc7a917501039195",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8128_rp_cc7a917501039195"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_brake_resistor_dissipated_power",
+      "variable_name": "in_brake_resistor_dissipated_power",
+      "engineering_meaning": "制动电阻实际耗散功率。",
+      "quantity": "brake_resistor_dissipated_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0014"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_A35E2178763C6233BE73AA36"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_dae173a1561f3f35",
+        "ItemDefinitions::ITM-ACC-005",
+        "IF_IF_ACC_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_dae173a1561f3f35"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_dc_link_current",
+      "variable_name": "in_dc_link_current",
+      "engineering_meaning": "中间直流环节电流或等效净电流。",
+      "quantity": "dc_link_current",
+      "unit": "A",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0017"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_4E4C49F08CEE642A5C3C67EB"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_3b0068559b0ca1e4",
+        "ItemDefinitions::ITM-MEA-009",
+        "IF_IF_MEA_009"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8166_rp_3b0068559b0ca1e4"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_dc_link_voltage",
+      "variable_name": "in_dc_link_voltage",
+      "engineering_meaning": "牵引变流器中间直流环节的电压。",
+      "quantity": "dc_link_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0016"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_732BB9F5922B7AC9420BB2D0",
+        "CG_A424455519797490E4F865AA",
+        "CG_C8FE042475056BF85CFA2B40"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_MEA_008",
+        "ItemDefinitions::ITM-MEA-008",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_361eac651ec9fd05",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_7262595caaf3b8d8",
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_54d624d57f57843b"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_361eac651ec9fd05",
+        "L2_8100.p_8125_rp_7262595caaf3b8d8",
+        "L2_8100.p_8166_rp_54d624d57f57843b"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_dcdc_actual_power",
+      "variable_name": "in_dcdc_actual_power",
+      "engineering_meaning": "双向DC/DC实际向储能侧或母线侧传递的功率。",
+      "quantity": "dcdc_actual_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0054"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_e1808e35289aaba6",
+        "ItemDefinitions::ITM-MEA-029",
+        "IF_IF_MEA_029"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_e1808e35289aaba6"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_dynamic_brake_force_request",
+      "variable_name": "in_dynamic_brake_force_request",
+      "engineering_meaning": "分配给牵引电制动通道的动态制动力请求。",
+      "quantity": "dynamic_brake_force_request",
+      "unit": "N",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0024"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_B251741505CB19FE47559F29"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_d69905c106b65d8f",
+        "ItemDefinitions::ITM-CMD-006",
+        "IF_IF_CMD_006"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_d69905c106b65d8f"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_emergency_brake_request",
+      "variable_name": "in_emergency_brake_request",
+      "engineering_meaning": "触发紧急制动的有效请求。",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0047"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_CMD_004",
+        "ItemDefinitions::ITM-CMD-004",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_1e34bb2697325127",
+        "p_N_8000.p_N_8100.p_N_8150.p_N_8152.rp_93024c6ed1623fbd"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_1e34bb2697325127",
+        "L2_8100.p_8152_rp_93024c6ed1623fbd"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_ess_absorbed_power",
+      "variable_name": "in_ess_absorbed_power",
+      "engineering_meaning": "超级电容储能支路实际吸收的再生功率。",
+      "quantity": "ess_absorbed_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0050"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a095b9b42ab5cc7d",
+        "ItemDefinitions::ITM-ACC-004",
+        "IF_IF_ACC_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_a095b9b42ab5cc7d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_ess_availability",
+      "variable_name": "in_ess_availability",
+      "engineering_meaning": "储能支路是否可以接受或释放功率。",
+      "quantity": "ess_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0055"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_1967a947dd39d4a5",
+        "ItemDefinitions::ITM-STA-030",
+        "IF_IF_STA_030"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_1967a947dd39d4a5"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_ess_available_charge_power",
+      "variable_name": "in_ess_available_charge_power",
+      "engineering_meaning": "由超级电容SOC、电压、温度、DC/DC能力和保护状态计算的最大允许吸收功率。",
+      "quantity": "ess_available_charge_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0051"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_CB302083C9F33A1345D9C406"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_8c3ed075d33335e8",
+        "ItemDefinitions::ITM-LIM-009",
+        "IF_IF_LIM_009"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_8c3ed075d33335e8"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_ess_available_discharge_power",
+      "variable_name": "in_ess_available_discharge_power",
+      "engineering_meaning": "储能支路当前最大允许释放功率。",
+      "quantity": "ess_available_discharge_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0052"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_35b0ef67b409e840",
+        "ItemDefinitions::ITM-LIM-010",
+        "IF_IF_LIM_010"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_35b0ef67b409e840"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_ess_fault",
+      "variable_name": "in_ess_fault",
+      "engineering_meaning": "储能支路故障集合。",
+      "quantity": "ess_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0056"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_9d3500c169fe7103",
+        "ItemDefinitions::ITM-STA-031",
+        "IF_IF_STA_031"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_9d3500c169fe7103"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_external_safety_system_state",
+      "variable_name": "in_external_safety_system_state",
+      "engineering_meaning": "ATP等外部安全系统提供的运行/制动相关状态。",
+      "quantity": "external_safety_system_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0049"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_0D68248E62957CCB92C5A2A5",
+        "CG_89318B491DF9CED18997C36D"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_STA_027",
+        "ItemDefinitions::ITM-STA-027",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_a916a9847aeadebb",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_ce6397cb7b81dd94"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8127_rp_a916a9847aeadebb",
+        "L2_8100.p_8128_rp_ce6397cb7b81dd94"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_grid_acceptable_regenerative_power",
+      "variable_name": "in_grid_acceptable_regenerative_power",
+      "engineering_meaning": "外部供电网络在当前状态下允许车辆回馈的最大再生功率。",
+      "quantity": "grid_acceptable_regenerative_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0015"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_08375F15DCE75E45D4C45CE8",
+        "CG_BDD8747118488C9BE895D95F"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_LIM_005",
+        "ItemDefinitions::ITM-LIM-005",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_abc36140248d0eef",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_1809c94f1581c7f8"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_abc36140248d0eef",
+        "L2_8100.p_8125_rp_1809c94f1581c7f8"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_grid_returned_power",
+      "variable_name": "in_grid_returned_power",
+      "engineering_meaning": "实际回馈至外部供电网络的电功率。",
+      "quantity": "grid_returned_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0013"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_B399D92EE15558C08A95FA03"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_eb1cf5594b5796be",
+        "ItemDefinitions::ITM-ACC-003",
+        "IF_IF_ACC_003"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_eb1cf5594b5796be"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_hv_breaker_command",
+      "variable_name": "in_hv_breaker_command",
+      "engineering_meaning": "高压断路器分/合控制请求。",
+      "quantity": "hv_breaker_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0008"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_9ACDE46A41EE650430438B91"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8150.p_N_8151.rp_d7d7f4cb9554ff03",
+        "ItemDefinitions::ITM-CMD-016",
+        "IF_IF_CMD_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8151_rp_d7d7f4cb9554ff03"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_line_current",
+      "variable_name": "in_line_current",
+      "engineering_meaning": "受流/高压测量通道得到的线路电流;符号用于区分取能与回馈。",
+      "quantity": "line_current",
+      "unit": "A",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0010"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_FE573ED935CFF37491A053E8"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_d9d89be1583c0e18",
+        "ItemDefinitions::ITM-MEA-006",
+        "IF_IF_MEA_006"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8166_rp_d9d89be1583c0e18"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_line_voltage",
+      "variable_name": "in_line_voltage",
+      "engineering_meaning": "受流/高压测量通道得到的线路电压。",
+      "quantity": "line_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0009"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1C5FC46A1E7682144A3BDDDF"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_573e029523ef9946",
+        "ItemDefinitions::ITM-MEA-005",
+        "IF_IF_MEA_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8166_rp_573e029523ef9946"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_main_reservoir_pressure",
+      "variable_name": "in_main_reservoir_pressure",
+      "engineering_meaning": "总风管压力传感器输出。",
+      "quantity": "main_reservoir_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0023"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_739E53DD845C8CD2646C8E39"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_ccc90acd04ba0ccc",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8128_rp_ccc90acd04ba0ccc"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_motor_speed",
+      "variable_name": "in_motor_speed",
+      "engineering_meaning": "牵引电机速度传感器或电机控制估算的电机机械角速度。",
+      "quantity": "motor_speed",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0001"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_89DF67BFD358C3EEF4DB05F2"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_4e582bfad9ebbf1d",
+        "ItemDefinitions::ITM-MEA-004",
+        "IF_IF_MEA_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_4e582bfad9ebbf1d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_motor_torque_actual",
+      "variable_name": "in_motor_torque_actual",
+      "engineering_meaning": "电机控制估算或测量的实际电磁转矩。",
+      "quantity": "motor_torque_actual",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0022"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_65E377DBF988541FA5778D1E"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_1faca3fc4ff0e741",
+        "ItemDefinitions::ITM-MEA-012",
+        "IF_IF_MEA_012"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_1faca3fc4ff0e741"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_regenerative_power_actual",
+      "variable_name": "in_regenerative_power_actual",
+      "engineering_meaning": "制动过程中牵引电机/变流器实际产生的再生电功率。",
+      "quantity": "regenerative_power_actual",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0012"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_40ADD911FF2840BEEAA67F8D"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_bd78e8d84d334672",
+        "ItemDefinitions::ITM-ACC-002",
+        "IF_IF_ACC_002"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_bd78e8d84d334672"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_safety_brake_request",
+      "variable_name": "in_safety_brake_request",
+      "engineering_meaning": "来自ATP/安全回路等外部安全功能的制动请求,进入EBCU后映射为服务或紧急制动。",
+      "quantity": "safety_brake_request",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0048"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_86987C60BCB826208FEFEF31"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_be0fc7194a7f0161",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8127_rp_be0fc7194a7f0161"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_service_brake_request",
+      "variable_name": "in_service_brake_request",
+      "engineering_meaning": "服务制动需求;可采用归一化请求或减速度请求,工程中必须在接口处固定一种语义。",
+      "quantity": "service_brake_request",
+      "unit": "1 或 m/s2",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0046"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_41AD09EEB4EAB9DC956C08F8"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_0b58c63caeaf2f6d",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_0b58c63caeaf2f6d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_super_cap_soc",
+      "variable_name": "in_super_cap_soc",
+      "engineering_meaning": "由超级电容电压/能量模型估算的归一化储能状态。",
+      "quantity": "super_cap_soc",
+      "unit": "1",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0053"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_6437aa0577c9ccd7",
+        "ItemDefinitions::ITM-MEA-028",
+        "IF_IF_MEA_028"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_6437aa0577c9ccd7"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_traction_command",
+      "variable_name": "in_traction_command",
+      "engineering_meaning": "司机/ATO等给出的归一化牵引需求。",
+      "quantity": "traction_command",
+      "unit": "1",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0045"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_a49a67fafe112278",
+        "ItemDefinitions::ITM-CMD-002",
+        "IF_IF_CMD_002"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_a49a67fafe112278"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_traction_converter_fault",
+      "variable_name": "in_traction_converter_fault",
+      "engineering_meaning": "牵引变流器保护/故障集合。",
+      "quantity": "traction_converter_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0018"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_55513667B46680F5B87A0939"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_81e596aab3f0fe4c",
+        "ItemDefinitions::ITM-STA-019",
+        "IF_IF_STA_019"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_81e596aab3f0fe4c"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::in_train_direction_command",
+      "variable_name": "in_train_direction_command",
+      "engineering_meaning": "司机或控制系统给出的列车运行方向选择。",
+      "quantity": "train_direction_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0044"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_2ee1cd48c6d41ac7",
+        "ItemDefinitions::ITM-CMD-001",
+        "IF_IF_CMD_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_2ee1cd48c6d41ac7"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_8100::out_achieved_dynamic_brake_force",
+      "variable_name": "out_achieved_dynamic_brake_force",
+      "engineering_meaning": "牵引电制动通道实际实现的列车等效动态制动力。",
+      "quantity": "achieved_dynamic_brake_force",
+      "unit": "N",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0034"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_36a59f5828d4c515",
+        "ItemDefinitions::ITM-MEA-013",
+        "IF_IF_MEA_013"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_36a59f5828d4c515"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_available_dynamic_brake_force",
+      "variable_name": "out_available_dynamic_brake_force",
+      "engineering_meaning": "当前速度、电压、黏着、温度和故障条件下动态制动可提供的最大列车等效制动力。",
+      "quantity": "available_dynamic_brake_force",
+      "unit": "N",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0033"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_BEDE0932E86628B2EFCA8CCD"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_b60dd66dcfd10afa",
+        "ItemDefinitions::ITM-LIM-001",
+        "IF_IF_LIM_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_b60dd66dcfd10afa"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_brake_cylinder_pressure",
+      "variable_name": "out_brake_cylinder_pressure",
+      "engineering_meaning": "摩擦制动执行通道的制动缸/夹钳驱动压力。",
+      "quantity": "brake_cylinder_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0036"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1AEA8B915E14A5D0FFEE30D9"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_0e19632016b69ff2",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8128_rp_0e19632016b69ff2"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_brake_safety_loop_state",
+      "variable_name": "out_brake_safety_loop_state",
+      "engineering_meaning": "制动安全回路状态。",
+      "quantity": "brake_safety_loop_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0038"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_CE151D40A2BF816F41762F4C"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8150.p_N_8152.rp_ae53feffb1e116e3",
+        "ItemDefinitions::ITM-STA-025",
+        "IF_IF_STA_025"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8152_rp_ae53feffb1e116e3"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_dcdc_enable_command",
+      "variable_name": "out_dcdc_enable_command",
+      "engineering_meaning": "允许双向DC/DC进入功率调节状态的控制请求。",
+      "quantity": "dcdc_enable_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0040"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_25DC22E45A984D1CB28D188B"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a4aac084c46e1e57",
+        "ItemDefinitions::ITM-CMD-026",
+        "IF_IF_CMD_026"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_a4aac084c46e1e57"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_dynamic_brake_availability",
+      "variable_name": "out_dynamic_brake_availability",
+      "engineering_meaning": "动态制动通道是否可用于当前制动力分配。",
+      "quantity": "dynamic_brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0037"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1ACF37CC65D3FF235E8BD75C"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_dae11d7502a6c37a",
+        "ItemDefinitions::ITM-STA-002",
+        "IF_IF_STA_002"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_dae11d7502a6c37a"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_emergency_brake_request",
+      "variable_name": "out_emergency_brake_request",
+      "engineering_meaning": "触发紧急制动的有效请求。",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0031"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_a9c7eff84933cd80",
+        "ItemDefinitions::ITM-CMD-004",
+        "IF_IF_CMD_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_a9c7eff84933cd80"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_ess_contactor_command",
+      "variable_name": "out_ess_contactor_command",
+      "engineering_meaning": "控制储能支路主接触器接通/断开的请求。",
+      "quantity": "ess_contactor_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0041"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_4683a7cb63e55daf",
+        "ItemDefinitions::ITM-CMD-027",
+        "IF_IF_CMD_027"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_4683a7cb63e55daf"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_ess_fault_reset_command",
+      "variable_name": "out_ess_fault_reset_command",
+      "engineering_meaning": "在满足复位条件后请求清除储能保护锁存状态。",
+      "quantity": "ess_fault_reset_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0043"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_D8FCE908D4FD9343C6353985"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_47c78247980cc3a5",
+        "ItemDefinitions::ITM-CMD-029",
+        "IF_IF_CMD_029"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_47c78247980cc3a5"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_ess_power_request",
+      "variable_name": "out_ess_power_request",
+      "engineering_meaning": "上层能量管理向双向DC/DC提出的储能支路功率请求;正负号方向必须项目内固定。",
+      "quantity": "ess_power_request",
+      "unit": "W",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0039"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_7A2381DC8C36A40B747035A5"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_77c439392dea95b4",
+        "ItemDefinitions::ITM-CMD-025",
+        "IF_IF_CMD_025"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_77c439392dea95b4"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_ess_precharge_command",
+      "variable_name": "out_ess_precharge_command",
+      "engineering_meaning": "控制储能支路预充电过程开始/停止的请求。",
+      "quantity": "ess_precharge_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0042"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_f704c2e7bab06749",
+        "ItemDefinitions::ITM-CMD-028",
+        "IF_IF_CMD_028"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8122_rp_f704c2e7bab06749"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_hv_safety_loop_state",
+      "variable_name": "out_hv_safety_loop_state",
+      "engineering_meaning": "高压相关安全回路闭合/断开/故障状态。",
+      "quantity": "hv_safety_loop_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0028"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_F55B5E17D8CBFAC80E0961C2"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_cb74be2d7d4a54c7",
+        "ItemDefinitions::ITM-STA-024",
+        "IF_IF_STA_024"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8128_rp_cb74be2d7d4a54c7"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_main_reservoir_pressure",
+      "variable_name": "out_main_reservoir_pressure",
+      "engineering_meaning": "总风管压力传感器输出。",
+      "quantity": "main_reservoir_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0035"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_A0B82CF482DDFB4553F8CFCA"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_8d19f6989a5bebad",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8128_rp_8d19f6989a5bebad"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_motor_torque_request",
+      "variable_name": "out_motor_torque_request",
+      "engineering_meaning": "牵引控制向电机控制通道给出的目标电磁转矩;再生制动时符号表示制动方向。",
+      "quantity": "motor_torque_request",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0029"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_7365C853DD9391D9914E0C8A"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_70a8e2c4b0887b4d",
+        "ItemDefinitions::ITM-CMD-012",
+        "IF_IF_CMD_012"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8125_rp_70a8e2c4b0887b4d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_safety_brake_request",
+      "variable_name": "out_safety_brake_request",
+      "engineering_meaning": "来自ATP/安全回路等外部安全功能的制动请求,进入EBCU后映射为服务或紧急制动。",
+      "quantity": "safety_brake_request",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0032"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_ED49C68C1459BB1005D412BB"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_8f3091a86214dd4e",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8127_rp_8f3091a86214dd4e"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_sanding_request",
+      "variable_name": "out_sanding_request",
+      "engineering_meaning": "人工或自动发出的撒砂/增粘请求。",
+      "quantity": "sanding_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0027"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_565AF053FC6E3FF333FD7433"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_5accd69f9c3a8b0c",
+        "ItemDefinitions::ITM-CMD-024",
+        "IF_IF_CMD_024"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8128_rp_5accd69f9c3a8b0c"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_8100::out_service_brake_request",
+      "variable_name": "out_service_brake_request",
+      "engineering_meaning": "服务制动需求;可采用归一化请求或减速度请求,工程中必须在接口处固定一种语义。",
+      "quantity": "service_brake_request",
+      "unit": "1 或 m/s2",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0030"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_979C19823B520B68E370ECB6"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_d82e5c8a7afb4b7b",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_8100",
+      "source_ssd_connectors": [
+        "L2_8100.p_8121_rp_d82e5c8a7afb4b7b"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 29,
+    "outputs": 17,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 46
+  },
+  "readiness": "READY"
+}

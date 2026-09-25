@@ -1,0 +1,13 @@
+{
+  "manifest_id": "RAIL-MBSE-FULL-UPWARD-PIPELINE-RUN-V1",
+  "first_run": {
+    "xmi_sha256": "529a94941e5a823f0cdfdda91efaa7cc2e41e6002e3c6207feacf17514061a41",
+    "mdxml_sha256": "75d644d9eeaff3e110c1b44024ee071111ee31304bff85cb22dbb12bb4a7703d"
+  },
+  "second_run": {
+    "xmi_sha256": "529a94941e5a823f0cdfdda91efaa7cc2e41e6002e3c6207feacf17514061a41",
+    "mdxml_sha256": "75d644d9eeaff3e110c1b44024ee071111ee31304bff85cb22dbb12bb4a7703d"
+  },
+  "byte_identical": true,
+  "MAGICDRAW_FULL_OPEN_TEST": "PENDING"
+}

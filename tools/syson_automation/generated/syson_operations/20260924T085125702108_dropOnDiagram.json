@@ -1,0 +1,46 @@
+{
+  "operation_name": "dropOnDiagram",
+  "timestamp": "2026-09-24T08:51:15.307877+00:00",
+  "variables": {
+    "input": {
+      "id": "ac5e5cba-c2bb-44c2-bb99-cc1e59fd711f",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "representationId": "4325359f-4da3-40f0-a1b4-380a8f0a0dc5",
+      "diagramTargetElementId": "4325359f-4da3-40f0-a1b4-380a8f0a0dc5",
+      "objectIds": [
+        "ff054ee4-66ea-49e4-8851-94358f825cb7",
+        "a7414e26-a30c-4c1e-9286-a7944ac5f9cb",
+        "1370aba6-3a80-4f12-8cb1-6e1415506bf1",
+        "7c83d17f-b333-4a33-a14b-7f2d1eb161b8",
+        "3d7abf52-97fe-469e-8606-12037a2d0594",
+        "2a0ce98c-b7f1-4b6f-ac0a-784dac07b1a2",
+        "c0de1fb1-94e8-41c6-a7dc-79423621217f",
+        "762af250-08cf-4348-84b0-006866dedd0d",
+        "1033315a-a629-41aa-bbf6-b7db593dc200",
+        "f5220445-c7ca-4a45-93d9-d5766acf4d82",
+        "ab6a7ba1-9c9f-4a21-8ced-bb3afd60ca99",
+        "0c35d9ed-73f3-4a11-bc32-b15d1fbb6800",
+        "c5d39918-63f9-4de5-b70f-24bd2bed5d3f",
+        "3553d3ab-0fc7-498a-ad9f-e26e8083f926",
+        "d2c86832-6cec-454e-9850-d229b2765bd7",
+        "850a3670-1f00-4894-839f-228776ee8890",
+        "e0b1deed-559e-4bd5-a4c2-9b4a6f3b5c44",
+        "9fed4bf2-4780-4b5d-a070-cd7f5300a506",
+        "d8797617-f78d-422a-b845-0d76e9cbcf76",
+        "47457131-dabc-44fa-8294-db29a5bad751"
+      ],
+      "startingPositionX": 80.0,
+      "startingPositionY": 80.0
+    }
+  },
+  "representation_id": "4325359f-4da3-40f0-a1b4-380a8f0a0dc5",
+  "response": {
+    "dropOnDiagram": {
+      "__typename": "DropOnDiagramSuccessPayload",
+      "diagram": {
+        "id": "4325359f-4da3-40f0-a1b4-380a8f0a0dc5"
+      }
+    }
+  },
+  "error": null
+}

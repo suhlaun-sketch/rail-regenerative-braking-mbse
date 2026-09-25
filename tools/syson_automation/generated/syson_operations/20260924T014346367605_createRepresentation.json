@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T01:43:45.138705+00:00",
+  "variables": {
+    "input": {
+      "id": "059e36e3-6400-409f-9763-6c02fb8c0e11",
+      "editingContextId": "12d630bc-f763-4c58-8385-152cbec448e9",
+      "objectId": "25663fb8-ec46-4b4a-8bbb-b6b926b436da",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "representationName": "AUTO_CONNECTION_EDGE_SMOKE_ROOT"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "5fbbcb11-3f61-4b44-9b7f-a91fee814222",
+        "label": "AUTO_CONNECTION_EDGE_SMOKE_ROOT",
+        "kind": "siriusComponents://representation?type=Diagram"
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "ssd_component_id": "L2_3600",
+  "ssd_component_name": "L2_3600",
+  "l2_code": "3600",
+  "l2_engineering_name": "转向架相关检测",
+  "inputs": [],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_3600::p_3641_rp_4ddc6037e5eea6fc",
+      "ssd_connector_name": "p_3641_rp_4ddc6037e5eea6fc",
+      "simulink_port_name": "p_3641_rp_4ddc6037e5eea6fc",
+      "future_fmu_variable": "p_3641_rp_4ddc6037e5eea6fc",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_3600::p_3643_rp_48ddc723a7d58137",
+      "ssd_connector_name": "p_3643_rp_48ddc723a7d58137",
+      "simulink_port_name": "p_3643_rp_48ddc723a7d58137",
+      "future_fmu_variable": "p_3643_rp_48ddc723a7d58137",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_3600::p_3644_rp_08c271db56ce8427",
+      "ssd_connector_name": "p_3644_rp_08c271db56ce8427",
+      "simulink_port_name": "p_3644_rp_08c271db56ce8427",
+      "future_fmu_variable": "p_3644_rp_08c271db56ce8427",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_3600::p_3644_rp_af1c1b2c65382775",
+      "ssd_connector_name": "p_3644_rp_af1c1b2c65382775",
+      "simulink_port_name": "p_3644_rp_af1c1b2c65382775",
+      "future_fmu_variable": "p_3644_rp_af1c1b2c65382775",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    }
+  ],
+  "total_connectors": 4,
+  "connected_l2_peers": [
+    "L2_3100",
+    "L2_5300",
+    "L2_8100"
+  ],
+  "future_simulink": "L2_3600.slx",
+  "future_fmu": "L2_3600.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

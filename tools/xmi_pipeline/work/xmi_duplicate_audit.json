@@ -1,0 +1,96 @@
+{
+  "audit_id": "RAIL-MBSE-XMI-DUPLICATE-AUDIT-V2",
+  "audited_file": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_SysML17_v1.xmi",
+  "scope_note": "Read-only audit of the previously generated full XMI; Block definition and typed Part Property are deliberately distinct and are not treated as duplicates.",
+  "baseline": {
+    "products": 147,
+    "product_hierarchy": 139,
+    "connections": 184,
+    "signal_connections": 147,
+    "allocations": 191,
+    "physical_nets": 9
+  },
+  "observed": {
+    "product_block_definitions": 147,
+    "product_block_stereotype_applications": 147,
+    "parent_child_part_properties": 139,
+    "uml_ports": 517,
+    "proxy_port_stereotypes": 517,
+    "all_uml_connectors": 193,
+    "final_connectors": 184,
+    "physical_net_connectors": 9,
+    "signal_information_flows": 147,
+    "signal_itemflows": 147,
+    "allocation_abstractions": 191,
+    "allocate_stereotypes": 191,
+    "diagram_elements_detected": 0
+  },
+  "categories": {
+    "duplicate_xmi_id": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_product_block_definition": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_block_stereotype_application": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_parent_child_part_property": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_composition": {
+      "excess": 0,
+      "details": []
+    },
+    "part_typed_by_non_block": {
+      "count": 0,
+      "details": []
+    },
+    "duplicate_connector_connection_id": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_frozen_connection_id": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_connector_semantic_tuple": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_information_flow": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_item_flow": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_allocation_abstraction": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_allocate_stereotype": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_diagram_block_symbol": {
+      "excess": 0,
+      "details": []
+    },
+    "duplicate_diagram_relationship_symbol": {
+      "excess": 0,
+      "details": []
+    }
+  },
+  "summary": {
+    "MODEL_DUPLICATE": 0,
+    "DIAGRAM_DUPLICATE": 0,
+    "RELATIONSHIP_DUPLICATE": 0,
+    "PART_TYPED_BY_NON_BLOCK": 0
+  }
+}

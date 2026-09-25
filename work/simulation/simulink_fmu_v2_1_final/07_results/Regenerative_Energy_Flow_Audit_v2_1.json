@@ -1,0 +1,16 @@
+{
+  "E_motor_mechanical_regen_J": 4302024.744804077,
+  "E_converter_dc_regen_J": 3878705.509915356,
+  "E_grid_returned_J": 0.0,
+  "E_brake_resistor_J": 0.0,
+  "E_ess_requested_to_dcdc_J": 3878705.5099153575,
+  "E_ess_absorbed_integral_J": 3723557.289518742,
+  "delta_E_supercap_J": 3723557.2895187032,
+  "loss_converter_J": 423319.2348887208,
+  "loss_dcdc_J": 155148.22039665421,
+  "allocation_residual_J": -1.3969838619232178e-09,
+  "allocation_residual_percent": 3.6016755032111313e-14,
+  "storage_integral_residual_percent": 1.0379828707171076e-12,
+  "overall_recovery_efficiency_percent": 86.55359999999911,
+  "ENERGY_RESIDUAL_PERCENT": 3.6016755032111313e-14
+}

@@ -1,0 +1,342 @@
+{
+  "config": {
+    "version": "1.0",
+    "connection_modes": [
+      "SERIES",
+      "NET",
+      "TAP",
+      "SIGNAL",
+      "BOUNDARY"
+    ],
+    "profile_id": "CRH_AC25KV_SC",
+    "explicit_roles": {
+      "3131": "ENERGY_SINK",
+      "3132": "ENERGY_SINK",
+      "3133": "ENERGY_SINK",
+      "3813": "ACTUATOR",
+      "3814": "ACTUATOR",
+      "4111": "SERIES_ELECTRICAL",
+      "4121": "SERIES_ELECTRICAL",
+      "4211": "SERIES_ELECTRICAL",
+      "4212": "SERIES_ELECTRICAL",
+      "4235": "SENSOR_TAP",
+      "4236": "SERIES_SENSOR",
+      "4511": "ENERGY_CONVERTER",
+      "4513": "SERIES_ELECTRICAL",
+      "5121": "SERIES_ELECTRICAL",
+      "5122": "SERIES_ELECTRICAL",
+      "5131": "ENERGY_CONVERTER",
+      "5132": "ENERGY_CONVERTER",
+      "5133": "CONTROLLER",
+      "5142": "ENERGY_SINK",
+      "5145": "SENSOR_TAP",
+      "5311": "ENERGY_CONVERTER",
+      "3111": "ENERGY_SINK",
+      "3112": "SERIES_MECHANICAL",
+      "3121": "MECHANICAL_TRANSFORMER",
+      "3511": "SERIES_MECHANICAL",
+      "3512": "SERIES_MECHANICAL",
+      "3514": "SERIES_MECHANICAL",
+      "3641": "SENSOR_TAP",
+      "3643": "SENSOR_TAP",
+      "3644": "SENSOR_TAP",
+      "7124": "ENERGY_SOURCE",
+      "7131": "PNEUMATIC_ELEMENT",
+      "7142": "SENSOR_TAP",
+      "7211": "CONTROLLER",
+      "7213": "ACTUATOR",
+      "7222": "PNEUMATIC_ELEMENT",
+      "7223": "PNEUMATIC_ELEMENT",
+      "7224": "SENSOR_TAP",
+      "7225": "ACTUATOR",
+      "7226": "PNEUMATIC_ELEMENT",
+      "7227": "ACTUATOR",
+      "7228": "PNEUMATIC_ELEMENT",
+      "7229": "PNEUMATIC_ELEMENT",
+      "722A": "PNEUMATIC_ELEMENT",
+      "722B": "SENSOR_TAP",
+      "722C": "SENSOR_TAP",
+      "7252": "ACTUATOR",
+      "7254": "ENERGY_SINK",
+      "7255": "ACTUATOR",
+      "7281": "ACTUATOR",
+      "7284": "PNEUMATIC_ELEMENT",
+      "7285": "PNEUMATIC_ELEMENT",
+      "8121": "CONTROLLER",
+      "8122": "CONTROLLER",
+      "8125": "CONTROLLER",
+      "8127": "IO_ROUTER",
+      "8128": "IO_ROUTER",
+      "8151": "SAFETY_LOGIC",
+      "8152": "SAFETY_LOGIC",
+      "8154": "SAFETY_LOGIC",
+      "8166": "CONTROLLER",
+      "4238": "IO_ROUTER",
+      "4239": "CONTROLLER",
+      "4241": "CONTROLLER",
+      "D112": "EXTERNAL_BOUNDARY",
+      "D113": "EXTERNAL_BOUNDARY",
+      "D114": "EXTERNAL_BOUNDARY",
+      "D121": "EXTERNAL_BOUNDARY",
+      "D13B": "EXTERNAL_BOUNDARY",
+      "E100": "EXTERNAL_BOUNDARY",
+      "X111": "ENERGY_CONVERTER",
+      "X112": "CONTROLLER",
+      "X113": "SENSOR_TAP",
+      "X121": "ENERGY_STORAGE",
+      "X122": "SENSOR_TAP",
+      "X123": "SENSOR_TAP",
+      "X124": "SENSOR_TAP",
+      "X131": "SERIES_ELECTRICAL",
+      "X132": "SERIES_ELECTRICAL",
+      "X133": "SERIES_ELECTRICAL"
+    },
+    "allowed_level2_pairs": [
+      "3100-3500",
+      "3100-3600",
+      "3100-5300",
+      "3100-7200",
+      "3500-5300",
+      "3600-5300",
+      "4100-4200",
+      "4200-4500",
+      "4200-8100",
+      "4500-5100",
+      "5100-5300",
+      "5100-8100",
+      "5100-X100",
+      "7100-7200",
+      "7100-8100",
+      "7200-8100",
+      "8100-D100",
+      "8100-E100",
+      "8100-X100"
+    ],
+    "io_routers": [
+      "4238",
+      "8128",
+      "X112"
+    ],
+    "allowed_top_domains": [
+      "34",
+      "35",
+      "45",
+      "48",
+      "51",
+      "53",
+      "57",
+      "58",
+      "5X",
+      "71",
+      "72",
+      "78",
+      "7D",
+      "7E",
+      "7X",
+      "81",
+      "84",
+      "85",
+      "87",
+      "88",
+      "8D",
+      "8E",
+      "8X",
+      "DX",
+      "EX",
+      "XX"
+    ],
+    "signal_role_adjacency": {
+      "EXTERNAL_BOUNDARY": [
+        "IO_ROUTER",
+        "CONTROLLER",
+        "SAFETY_LOGIC"
+      ],
+      "SENSOR_TAP": [
+        "IO_ROUTER",
+        "CONTROLLER",
+        "SAFETY_LOGIC"
+      ],
+      "SERIES_SENSOR": [
+        "IO_ROUTER",
+        "CONTROLLER",
+        "SAFETY_LOGIC"
+      ],
+      "CONTROLLER": [
+        "CONTROLLER",
+        "IO_ROUTER",
+        "ACTUATOR",
+        "SAFETY_LOGIC",
+        "ENERGY_CONVERTER",
+        "SERIES_ELECTRICAL",
+        "PNEUMATIC_ELEMENT"
+      ],
+      "IO_ROUTER": [
+        "CONTROLLER",
+        "SAFETY_LOGIC",
+        "ACTUATOR",
+        "ENERGY_CONVERTER",
+        "SERIES_ELECTRICAL"
+      ],
+      "SAFETY_LOGIC": [
+        "CONTROLLER",
+        "ACTUATOR",
+        "PNEUMATIC_ELEMENT",
+        "ENERGY_CONVERTER",
+        "SERIES_ELECTRICAL"
+      ],
+      "ACTUATOR": [
+        "CONTROLLER",
+        "IO_ROUTER",
+        "SAFETY_LOGIC"
+      ],
+      "ENERGY_CONVERTER": [
+        "CONTROLLER",
+        "IO_ROUTER",
+        "SAFETY_LOGIC"
+      ],
+      "ENERGY_STORAGE": [
+        "CONTROLLER",
+        "IO_ROUTER",
+        "SAFETY_LOGIC"
+      ],
+      "ENERGY_SINK": [
+        "CONTROLLER",
+        "IO_ROUTER"
+      ],
+      "SERIES_ELECTRICAL": [
+        "CONTROLLER",
+        "IO_ROUTER",
+        "SAFETY_LOGIC"
+      ],
+      "PNEUMATIC_ELEMENT": [
+        "CONTROLLER",
+        "IO_ROUTER",
+        "SAFETY_LOGIC"
+      ]
+    },
+    "preferred_command_pairs": [
+      [
+        "D112",
+        "8121"
+      ],
+      [
+        "D113",
+        "8121"
+      ],
+      [
+        "D114",
+        "8121"
+      ],
+      [
+        "D121",
+        "8152"
+      ],
+      [
+        "E100",
+        "8127"
+      ],
+      [
+        "8127",
+        "8152"
+      ],
+      [
+        "8121",
+        "8125"
+      ],
+      [
+        "8121",
+        "7211"
+      ],
+      [
+        "8122",
+        "7211"
+      ],
+      [
+        "8152",
+        "7211"
+      ],
+      [
+        "7211",
+        "7222"
+      ],
+      [
+        "7211",
+        "7225"
+      ],
+      [
+        "7211",
+        "7226"
+      ],
+      [
+        "X112",
+        "X111"
+      ],
+      [
+        "X112",
+        "X131"
+      ],
+      [
+        "X112",
+        "X132"
+      ]
+    ],
+    "boundary_ids": [
+      "BOUNDARY-CATENARY-25KV",
+      "BOUNDARY-RAIL",
+      "BOUNDARY-THERMAL-AMBIENT"
+    ]
+  },
+  "audit": {
+    "kg_frozen": {
+      "kg_sha256": "8968c94456c651179586d014e54d8312fa44798107e644ab4af7b6b471f7810b",
+      "Product": 147,
+      "Item": 144,
+      "Profile": 1,
+      "CONTAINS": 139,
+      "EXPOSES": 517,
+      "Active_EXPOSES": 511,
+      "Inactive_EXPOSES": 6,
+      "Port_nodes": 0
+    },
+    "connection_modes_complete": true,
+    "role_map_products": 147,
+    "active_ports_semantically_annotated": 511,
+    "variant_groups": [
+      {
+        "variant_group_id": "VG-BRAKE-DISC-01",
+        "products": [
+          "3131",
+          "3132",
+          "3133"
+        ],
+        "selection_cardinality": 1,
+        "status": "UNRESOLVED_VARIANT",
+        "reason": "外轮盘、内轮盘、轴盘均为solution-space合法方案，当前Profile无选型证据。"
+      },
+      {
+        "variant_group_id": "VG-COUPLING-01",
+        "products": [
+          "3511",
+          "3512",
+          "3514"
+        ],
+        "selection_cardinality": 1,
+        "status": "UNRESOLVED_VARIANT",
+        "reason": "两种联轴节与万向轴均合法，当前Profile无部署选型证据。"
+      }
+    ],
+    "hard_rules": [
+      "profile_active=true",
+      "different Product",
+      "canonical Item equal",
+      "InterfaceType equal",
+      "Signal output to input",
+      "Physical medium/unit equal",
+      "Product Role adjacency",
+      "top-level system interaction allow-list",
+      "Port local-side semantics",
+      "Variant/route constraints"
+    ],
+    "graphrag_can_override_hard_rules": false
+  }
+}

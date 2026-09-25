@@ -1,0 +1,2892 @@
+[
+  {
+    "requirement_id": "REQ-ENE-001",
+    "requirement_name": "电容式储能电源储存功能需求",
+    "function_id": "FN_F_X100_01",
+    "function_name": "吸收、存储并按需释放再生制动能量",
+    "owner_product_id": "X100",
+    "owner_product_name": "车载再生储能",
+    "mapping_type": "EXPLICIT",
+    "evidence": "正式需求库 known_function_id=FN_F_X100_01；真实allocation=alloc_ALLOC_F_X100_01_X100"
+  },
+  {
+    "requirement_id": "PRJ-ENE-001",
+    "requirement_name": "无电网再生接纳时车载储能吸收需求",
+    "function_id": "FN_F_X100_01",
+    "function_name": "吸收、存储并按需释放再生制动能量",
+    "owner_product_id": "X100",
+    "owner_product_name": "车载再生储能",
+    "mapping_type": "EXPLICIT",
+    "evidence": "正式需求库 known_function_id=FN_F_X100_01；真实allocation=alloc_ALLOC_F_X100_01_X100"
+  },
+  {
+    "requirement_id": "PRJ-ENE-004",
+    "requirement_name": "再生充电SOC上限需求",
+    "function_id": "FN_F_X100_01",
+    "function_name": "吸收、存储并按需释放再生制动能量",
+    "owner_product_id": "X100",
+    "owner_product_name": "车载再生储能",
+    "mapping_type": "EXPLICIT",
+    "evidence": "正式需求库 known_function_id=FN_F_X100_01；真实allocation=alloc_ALLOC_F_X100_01_X100"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_5132_01",
+    "function_name": "实现中间直流电能与电机侧三相交流电能双向转换",
+    "owner_product_id": "5132",
+    "owner_product_name": "电机侧变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "牵引电能变换、牵引电机机电转换及反馈；只选取对应变流器/电机控制功能。；真实allocation=alloc_ALLOC_F_5132_01_5132"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "牵引电能变换、牵引电机机电转换及反馈；只选取对应变流器/电机控制功能。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_5311_02",
+    "function_name": "提供牵引电机转速、转矩及电气状态反馈",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "牵引电能变换、牵引电机机电转换及反馈；只选取对应变流器/电机控制功能。；真实allocation=alloc_ALLOC_F_5311_02_5311"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_5112_01",
+    "function_name": "控制电机侧变流器控制模块运行",
+    "owner_product_id": "5112",
+    "owner_product_name": "电机侧变流器控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "牵引电能变换、牵引电机机电转换及反馈；只选取对应变流器/电机控制功能。；真实allocation=alloc_ALLOC_F_5112_01_5112"
+  },
+  {
+    "requirement_id": "REQ-TRAC-002",
+    "requirement_name": "起动与加速性能需求",
+    "function_id": "FN_F_5132_01",
+    "function_name": "实现中间直流电能与电机侧三相交流电能双向转换",
+    "owner_product_id": "5132",
+    "owner_product_name": "电机侧变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "速度/转矩控制与牵引电机状态反馈对应既有牵引控制功能。；真实allocation=alloc_ALLOC_F_5132_01_5132"
+  },
+  {
+    "requirement_id": "REQ-TRAC-002",
+    "requirement_name": "起动与加速性能需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "速度/转矩控制与牵引电机状态反馈对应既有牵引控制功能。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-TRAC-002",
+    "requirement_name": "起动与加速性能需求",
+    "function_id": "FN_F_5311_02",
+    "function_name": "提供牵引电机转速、转矩及电气状态反馈",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "速度/转矩控制与牵引电机状态反馈对应既有牵引控制功能。；真实allocation=alloc_ALLOC_F_5311_02_5311"
+  },
+  {
+    "requirement_id": "REQ-TRAC-002",
+    "requirement_name": "起动与加速性能需求",
+    "function_id": "FN_F_5112_01",
+    "function_name": "控制电机侧变流器控制模块运行",
+    "owner_product_id": "5112",
+    "owner_product_name": "电机侧变流器控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "速度/转矩控制与牵引电机状态反馈对应既有牵引控制功能。；真实allocation=alloc_ALLOC_F_5112_01_5112"
+  },
+  {
+    "requirement_id": "REQ-TRAC-003",
+    "requirement_name": "黏着利用与防空转/防滑行需求",
+    "function_id": "FN_F_7211_04",
+    "function_name": "协调防滑与紧急制动安全请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "防滑安全功能、阀压力传递及电机转速反馈对应黏着/空转相关功能；未声称存在独立黏着估算功能。；真实allocation=alloc_ALLOC_F_7211_04_7211"
+  },
+  {
+    "requirement_id": "REQ-TRAC-003",
+    "requirement_name": "黏着利用与防空转/防滑行需求",
+    "function_id": "FN_F_722A_01",
+    "function_name": "传递防滑阀组成气动压力",
+    "owner_product_id": "722A",
+    "owner_product_name": "防滑阀组成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "防滑安全功能、阀压力传递及电机转速反馈对应黏着/空转相关功能；未声称存在独立黏着估算功能。；真实allocation=alloc_ALLOC_F_722A_01_722A"
+  },
+  {
+    "requirement_id": "REQ-TRAC-003",
+    "requirement_name": "黏着利用与防空转/防滑行需求",
+    "function_id": "FN_F_5311_02",
+    "function_name": "提供牵引电机转速、转矩及电气状态反馈",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "防滑安全功能、阀压力传递及电机转速反馈对应黏着/空转相关功能；未声称存在独立黏着估算功能。；真实allocation=alloc_ALLOC_F_5311_02_5311"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_4511_01",
+    "function_name": "实现高压交流电能与牵引变压器次级交流电能转换",
+    "owner_product_id": "4511",
+    "owner_product_name": "主变压器主体",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "主变压器次级、牵引变流器直流链和电机侧交流变换构成牵引能量转换链。；真实allocation=alloc_ALLOC_F_4511_01_4511"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_5131_01",
+    "function_name": "实现主变次级交流电能与中间直流电能双向转换",
+    "owner_product_id": "5131",
+    "owner_product_name": "网侧变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "主变压器次级、牵引变流器直流链和电机侧交流变换构成牵引能量转换链。；真实allocation=alloc_ALLOC_F_5131_01_5131"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_5132_01",
+    "function_name": "实现中间直流电能与电机侧三相交流电能双向转换",
+    "owner_product_id": "5132",
+    "owner_product_name": "电机侧变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "主变压器次级、牵引变流器直流链和电机侧交流变换构成牵引能量转换链。；真实allocation=alloc_ALLOC_F_5132_01_5132"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "主变压器次级、牵引变流器直流链和电机侧交流变换构成牵引能量转换链。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_7211_01",
+    "function_name": "处理制动请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求、再生/摩擦协调、气压到机械力转换及牵引电机制动力相关功能。；真实allocation=alloc_ALLOC_F_7211_01_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求、再生/摩擦协调、气压到机械力转换及牵引电机制动力相关功能。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_7211_03",
+    "function_name": "执行电空制动控制",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求、再生/摩擦协调、气压到机械力转换及牵引电机制动力相关功能。；真实allocation=alloc_ALLOC_F_7211_03_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求、再生/摩擦协调、气压到机械力转换及牵引电机制动力相关功能。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求、再生/摩擦协调、气压到机械力转换及牵引电机制动力相关功能。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-BRK-002",
+    "requirement_name": "紧急制动平均减速度需求",
+    "function_id": "FN_F_7211_04",
+    "function_name": "协调防滑与紧急制动安全请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "紧急制动安全协调、气动隔离施加和制动力转换；缺少专门紧急停车性能证据。；真实allocation=alloc_ALLOC_F_7211_04_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-002",
+    "requirement_name": "紧急制动平均减速度需求",
+    "function_id": "FN_F_7226_01",
+    "function_name": "执行紧急制动气动隔离与施加",
+    "owner_product_id": "7226",
+    "owner_product_name": "紧急制动阀",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "紧急制动安全协调、气动隔离施加和制动力转换；缺少专门紧急停车性能证据。；真实allocation=alloc_ALLOC_F_7226_01_7226"
+  },
+  {
+    "requirement_id": "REQ-BRK-002",
+    "requirement_name": "紧急制动平均减速度需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "紧急制动安全协调、气动隔离施加和制动力转换；缺少专门紧急停车性能证据。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-002",
+    "requirement_name": "紧急制动平均减速度需求",
+    "function_id": "FN_F_D121_01",
+    "function_name": "提供紧急制动按钮边界交互",
+    "owner_product_id": "D121",
+    "owner_product_name": "紧急制动按钮",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "紧急制动安全协调、气动隔离施加和制动力转换；缺少专门紧急停车性能证据。；真实allocation=alloc_ALLOC_F_D121_01_D121"
+  },
+  {
+    "requirement_id": "REQ-BRK-003",
+    "requirement_name": "纵向冲击率需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动协调/执行和机械力形成与制动斜率控制相关；模型未提供 jerk 指标。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-003",
+    "requirement_name": "纵向冲击率需求",
+    "function_id": "FN_F_7211_03",
+    "function_name": "执行电空制动控制",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动协调/执行和机械力形成与制动斜率控制相关；模型未提供 jerk 指标。；真实allocation=alloc_ALLOC_F_7211_03_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-003",
+    "requirement_name": "纵向冲击率需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动协调/执行和机械力形成与制动斜率控制相关；模型未提供 jerk 指标。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_7211_03",
+    "function_name": "执行电空制动控制",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。；真实allocation=alloc_ALLOC_F_7211_03_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生与摩擦制动协调、制动执行、牵引电机再生制动和气动机械力形成。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-005",
+    "requirement_name": "载荷自适应制动力需求",
+    "function_id": "FN_F_7224_01",
+    "function_name": "检测空重车调整阀状态",
+    "owner_product_id": "7224",
+    "owner_product_name": "空重车调整阀",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "空重车调整阀状态检测及制动请求处理；没有 AW0/AW1/AW2/AW3 工况证据。；真实allocation=alloc_ALLOC_F_7224_01_7224"
+  },
+  {
+    "requirement_id": "REQ-BRK-005",
+    "requirement_name": "载荷自适应制动力需求",
+    "function_id": "FN_F_7211_01",
+    "function_name": "处理制动请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "空重车调整阀状态检测及制动请求处理；没有 AW0/AW1/AW2/AW3 工况证据。；真实allocation=alloc_ALLOC_F_7211_01_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-006",
+    "requirement_name": "常用制动电制动优先需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电制动力协调优先与机械制动力补足功能。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-006",
+    "requirement_name": "常用制动电制动优先需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电制动力协调优先与机械制动力补足功能。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-BRK-006",
+    "requirement_name": "常用制动电制动优先需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电制动力协调优先与机械制动力补足功能。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-007",
+    "requirement_name": "再生制动优先需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生制动协调、储能吸收释放和储能功率保护功能；不推断 5100 与 X100 直接接口。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-007",
+    "requirement_name": "再生制动优先需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生制动协调、储能吸收释放和储能功率保护功能；不推断 5100 与 X100 直接接口。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-BRK-007",
+    "requirement_name": "再生制动优先需求",
+    "function_id": "FN_F_X121_01",
+    "function_name": "储存并按需释放再生制动电能",
+    "owner_product_id": "X121",
+    "owner_product_name": "超级电容模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生制动协调、储能吸收释放和储能功率保护功能；不推断 5100 与 X100 直接接口。；真实allocation=alloc_ALLOC_F_X121_01_X121"
+  },
+  {
+    "requirement_id": "REQ-BRK-007",
+    "requirement_name": "再生制动优先需求",
+    "function_id": "FN_F_X112_02",
+    "function_name": "限制储能充放电功率并协调保护",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "再生制动协调、储能吸收释放和储能功率保护功能；不推断 5100 与 X100 直接接口。；真实allocation=alloc_ALLOC_F_X112_02_X112"
+  },
+  {
+    "requirement_id": "REQ-BRK-008",
+    "requirement_name": "电空制动平滑转换需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动切换协调、制动执行和机械力形成；未发现专门连续性/平顺性度量。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-008",
+    "requirement_name": "电空制动平滑转换需求",
+    "function_id": "FN_F_7211_03",
+    "function_name": "执行电空制动控制",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动切换协调、制动执行和机械力形成；未发现专门连续性/平顺性度量。；真实allocation=alloc_ALLOC_F_7211_03_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-008",
+    "requirement_name": "电空制动平滑转换需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动切换协调、制动执行和机械力形成；未发现专门连续性/平顺性度量。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-009",
+    "requirement_name": "电制动力不足补偿需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动力协调、再生电制动和机械制动力形成支持剩余制动力补足语义。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-009",
+    "requirement_name": "电制动力不足补偿需求",
+    "function_id": "FN_F_7211_03",
+    "function_name": "执行电空制动控制",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动力协调、再生电制动和机械制动力形成支持剩余制动力补足语义。；真实allocation=alloc_ALLOC_F_7211_03_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-009",
+    "requirement_name": "电制动力不足补偿需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动力协调、再生电制动和机械制动力形成支持剩余制动力补足语义。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "REQ-BRK-009",
+    "requirement_name": "电制动力不足补偿需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动力协调、再生电制动和机械制动力形成支持剩余制动力补足语义。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-010",
+    "requirement_name": "防滑功能需求",
+    "function_id": "FN_F_7211_04",
+    "function_name": "协调防滑与紧急制动安全请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "防滑安全逻辑、气动防滑阀压力传递和压力状态检测；未发现滑移率验证量。；真实allocation=alloc_ALLOC_F_7211_04_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-010",
+    "requirement_name": "防滑功能需求",
+    "function_id": "FN_F_722A_01",
+    "function_name": "传递防滑阀组成气动压力",
+    "owner_product_id": "722A",
+    "owner_product_name": "防滑阀组成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "防滑安全逻辑、气动防滑阀压力传递和压力状态检测；未发现滑移率验证量。；真实allocation=alloc_ALLOC_F_722A_01_722A"
+  },
+  {
+    "requirement_id": "REQ-BRK-010",
+    "requirement_name": "防滑功能需求",
+    "function_id": "FN_F_722B_01",
+    "function_name": "检测压力传感器状态",
+    "owner_product_id": "722B",
+    "owner_product_name": "压力传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "防滑安全逻辑、气动防滑阀压力传递和压力状态检测；未发现滑移率验证量。；真实allocation=alloc_ALLOC_F_722B_01_722B"
+  },
+  {
+    "requirement_id": "REQ-BRK-011",
+    "requirement_name": "停放制动防溜逸需求",
+    "function_id": "FN_F_7211_04",
+    "function_name": "协调防滑与紧急制动安全请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全协调与机械制动力形成，且有既有保持制动参数/门控。；真实allocation=alloc_ALLOC_F_7211_04_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-011",
+    "requirement_name": "停放制动防溜逸需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全协调与机械制动力形成，且有既有保持制动参数/门控。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-012",
+    "requirement_name": "空气系统气密性需求",
+    "function_id": "FN_F_7142_01",
+    "function_name": "检测总风管压力传感器状态",
+    "owner_product_id": "7142",
+    "owner_product_name": "总风管压力传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "供风压力传递及总风管压力检测；不存在明确泄漏模型，故为部分覆盖。；真实allocation=alloc_ALLOC_F_7142_01_7142"
+  },
+  {
+    "requirement_id": "REQ-BRK-012",
+    "requirement_name": "空气系统气密性需求",
+    "function_id": "FN_F_7131_01",
+    "function_name": "传递总风管气动压力",
+    "owner_product_id": "7131",
+    "owner_product_name": "总风管",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "供风压力传递及总风管压力检测；不存在明确泄漏模型，故为部分覆盖。；真实allocation=alloc_ALLOC_F_7131_01_7131"
+  },
+  {
+    "requirement_id": "REQ-BRK-012",
+    "requirement_name": "空气系统气密性需求",
+    "function_id": "FN_F_7100_01",
+    "function_name": "传递能量/介质、检测运行参数",
+    "owner_product_id": "7100",
+    "owner_product_name": "供风",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "供风压力传递及总风管压力检测；不存在明确泄漏模型，故为部分覆盖。；真实allocation=alloc_ALLOC_F_7100_01_7100"
+  },
+  {
+    "requirement_id": "REQ-BRK-013",
+    "requirement_name": "制动缸压力控制精度需求",
+    "function_id": "FN_F_722B_01",
+    "function_name": "检测压力传感器状态",
+    "owner_product_id": "722B",
+    "owner_product_name": "压力传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动压力状态检测与制动力形成，结合制动压力/总力容差参数。；真实allocation=alloc_ALLOC_F_722B_01_722B"
+  },
+  {
+    "requirement_id": "REQ-BRK-013",
+    "requirement_name": "制动缸压力控制精度需求",
+    "function_id": "FN_F_722C_01",
+    "function_name": "检测压力开关状态",
+    "owner_product_id": "722C",
+    "owner_product_name": "压力开关",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动压力状态检测与制动力形成，结合制动压力/总力容差参数。；真实allocation=alloc_ALLOC_F_722C_01_722C"
+  },
+  {
+    "requirement_id": "REQ-BRK-013",
+    "requirement_name": "制动缸压力控制精度需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动压力状态检测与制动力形成，结合制动压力/总力容差参数。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-014",
+    "requirement_name": "制动辅助诊断与记录需求",
+    "function_id": "FN_F_8152_01",
+    "function_name": "执行制动安全回路安全逻辑",
+    "owner_product_id": "8152",
+    "owner_product_name": "制动安全回路",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全回路状态、路由IO及压力诊断信号；模型没有独立事件日志功能。；真实allocation=alloc_ALLOC_F_8152_01_8152"
+  },
+  {
+    "requirement_id": "REQ-BRK-014",
+    "requirement_name": "制动辅助诊断与记录需求",
+    "function_id": "FN_F_8152_02",
+    "function_name": "报告制动安全回路运行状态",
+    "owner_product_id": "8152",
+    "owner_product_name": "制动安全回路",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全回路状态、路由IO及压力诊断信号；模型没有独立事件日志功能。；真实allocation=alloc_ALLOC_F_8152_02_8152"
+  },
+  {
+    "requirement_id": "REQ-BRK-014",
+    "requirement_name": "制动辅助诊断与记录需求",
+    "function_id": "FN_F_8128_01",
+    "function_name": "路由输入输出单元输入输出信号",
+    "owner_product_id": "8128",
+    "owner_product_name": "输入输出单元",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全回路状态、路由IO及压力诊断信号；模型没有独立事件日志功能。；真实allocation=alloc_ALLOC_F_8128_01_8128"
+  },
+  {
+    "requirement_id": "REQ-BRK-014",
+    "requirement_name": "制动辅助诊断与记录需求",
+    "function_id": "FN_F_722B_01",
+    "function_name": "检测压力传感器状态",
+    "owner_product_id": "722B",
+    "owner_product_name": "压力传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全回路状态、路由IO及压力诊断信号；模型没有独立事件日志功能。；真实allocation=alloc_ALLOC_F_722B_01_722B"
+  },
+  {
+    "requirement_id": "REQ-BRK-014",
+    "requirement_name": "制动辅助诊断与记录需求",
+    "function_id": "FN_F_722C_01",
+    "function_name": "检测压力开关状态",
+    "owner_product_id": "722C",
+    "owner_product_name": "压力开关",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全回路状态、路由IO及压力诊断信号；模型没有独立事件日志功能。；真实allocation=alloc_ALLOC_F_722C_01_722C"
+  },
+  {
+    "requirement_id": "REQ-BRK-015",
+    "requirement_name": "电制动完全失效降级需求",
+    "function_id": "FN_F_7211_04",
+    "function_name": "协调防滑与紧急制动安全请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全协调、紧急气动施加和安全回路；未见明确逆变器故障降级场景。；真实allocation=alloc_ALLOC_F_7211_04_7211"
+  },
+  {
+    "requirement_id": "REQ-BRK-015",
+    "requirement_name": "电制动完全失效降级需求",
+    "function_id": "FN_F_7226_01",
+    "function_name": "执行紧急制动气动隔离与施加",
+    "owner_product_id": "7226",
+    "owner_product_name": "紧急制动阀",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全协调、紧急气动施加和安全回路；未见明确逆变器故障降级场景。；真实allocation=alloc_ALLOC_F_7226_01_7226"
+  },
+  {
+    "requirement_id": "REQ-BRK-015",
+    "requirement_name": "电制动完全失效降级需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全协调、紧急气动施加和安全回路；未见明确逆变器故障降级场景。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "REQ-BRK-015",
+    "requirement_name": "电制动完全失效降级需求",
+    "function_id": "FN_F_8152_01",
+    "function_name": "执行制动安全回路安全逻辑",
+    "owner_product_id": "8152",
+    "owner_product_name": "制动安全回路",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动安全协调、紧急气动施加和安全回路；未见明确逆变器故障降级场景。；真实allocation=alloc_ALLOC_F_8152_01_8152"
+  },
+  {
+    "requirement_id": "REQ-ENE-002",
+    "requirement_name": "储能故障检测、记录与输出需求",
+    "function_id": "FN_F_X113_01",
+    "function_name": "检测双向DC/DC检测保护组件状态",
+    "owner_product_id": "X113",
+    "owner_product_name": "双向DC/DC检测保护组件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能故障检测与状态报告，并以真实 X100→8100 故障状态接口作边界证据；无事件日志功能。；真实allocation=alloc_ALLOC_F_X113_01_X113"
+  },
+  {
+    "requirement_id": "REQ-ENE-002",
+    "requirement_name": "储能故障检测、记录与输出需求",
+    "function_id": "FN_F_X112_03",
+    "function_name": "报告储能变换系统状态",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能故障检测与状态报告，并以真实 X100→8100 故障状态接口作边界证据；无事件日志功能。；真实allocation=alloc_ALLOC_F_X112_03_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-002",
+    "requirement_name": "储能故障检测、记录与输出需求",
+    "function_id": "FN_F_8122_03",
+    "function_name": "限制并保护车辆控制单元运行",
+    "owner_product_id": "8122",
+    "owner_product_name": "车辆控制单元",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能故障检测与状态报告，并以真实 X100→8100 故障状态接口作边界证据；无事件日志功能。；真实allocation=alloc_ALLOC_F_8122_03_8122"
+  },
+  {
+    "requirement_id": "REQ-ENE-003",
+    "requirement_name": "储能通信需求",
+    "function_id": "FN_F_X121_02",
+    "function_name": "提供超级电容荷电状态反馈",
+    "owner_product_id": "X121",
+    "owner_product_name": "超级电容模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "超级电容 SOC 测量、储能系统状态报告，并由真实 X100→8100 SOC/可用功率接口支撑。；真实allocation=alloc_ALLOC_F_X121_02_X121"
+  },
+  {
+    "requirement_id": "REQ-ENE-003",
+    "requirement_name": "储能通信需求",
+    "function_id": "FN_F_X112_03",
+    "function_name": "报告储能变换系统状态",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "超级电容 SOC 测量、储能系统状态报告，并由真实 X100→8100 SOC/可用功率接口支撑。；真实allocation=alloc_ALLOC_F_X112_03_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-003",
+    "requirement_name": "储能通信需求",
+    "function_id": "FN_F_8122_03",
+    "function_name": "限制并保护车辆控制单元运行",
+    "owner_product_id": "8122",
+    "owner_product_name": "车辆控制单元",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "超级电容 SOC 测量、储能系统状态报告，并由真实 X100→8100 SOC/可用功率接口支撑。；真实allocation=alloc_ALLOC_F_8122_03_8122"
+  },
+  {
+    "requirement_id": "REQ-ENE-003",
+    "requirement_name": "储能通信需求",
+    "function_id": "FN_F_8128_03",
+    "function_name": "报告输入输出单元运行状态",
+    "owner_product_id": "8128",
+    "owner_product_name": "输入输出单元",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "超级电容 SOC 测量、储能系统状态报告，并由真实 X100→8100 SOC/可用功率接口支撑。；真实allocation=alloc_ALLOC_F_8128_03_8128"
+  },
+  {
+    "requirement_id": "REQ-ENE-004",
+    "requirement_name": "储能电压均衡需求",
+    "function_id": "FN_F_X122_01",
+    "function_name": "检测超级电容电压传感器状态",
+    "owner_product_id": "X122",
+    "owner_product_name": "超级电容电压传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "超级电容电压传感器检测与双向 DC/DC 控制；有电压参数，但没有单体均衡功能。；真实allocation=alloc_ALLOC_F_X122_01_X122"
+  },
+  {
+    "requirement_id": "REQ-ENE-004",
+    "requirement_name": "储能电压均衡需求",
+    "function_id": "FN_F_X112_01",
+    "function_name": "控制双向DC/DC功率变换",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "超级电容电压传感器检测与双向 DC/DC 控制；有电压参数，但没有单体均衡功能。；真实allocation=alloc_ALLOC_F_X112_01_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-005",
+    "requirement_name": "储能能量效率需求",
+    "function_id": "FN_F_X121_01",
+    "function_name": "储存并按需释放再生制动电能",
+    "owner_product_id": "X121",
+    "owner_product_name": "超级电容模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能吸收/释放与双向功率变换，并由系统能量收支/效率 V&V 支撑。；真实allocation=alloc_ALLOC_F_X121_01_X121"
+  },
+  {
+    "requirement_id": "REQ-ENE-005",
+    "requirement_name": "储能能量效率需求",
+    "function_id": "FN_F_X112_01",
+    "function_name": "控制双向DC/DC功率变换",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能吸收/释放与双向功率变换，并由系统能量收支/效率 V&V 支撑。；真实allocation=alloc_ALLOC_F_X112_01_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-006",
+    "requirement_name": "储能温度一致性需求",
+    "function_id": "FN_F_X124_01",
+    "function_name": "检测超级电容温度传感器状态",
+    "owner_product_id": "X124",
+    "owner_product_name": "超级电容温度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "温度传感器状态检测存在；没有热模型，不能证明温度一致性。；真实allocation=alloc_ALLOC_F_X124_01_X124"
+  },
+  {
+    "requirement_id": "REQ-ENE-007",
+    "requirement_name": "储能过温保护需求",
+    "function_id": "FN_F_X124_01",
+    "function_name": "检测超级电容温度传感器状态",
+    "owner_product_id": "X124",
+    "owner_product_name": "超级电容温度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "温度检测和储能功率保护功能存在；缺少热模型/过温阈值验证。；真实allocation=alloc_ALLOC_F_X124_01_X124"
+  },
+  {
+    "requirement_id": "REQ-ENE-007",
+    "requirement_name": "储能过温保护需求",
+    "function_id": "FN_F_X112_02",
+    "function_name": "限制储能充放电功率并协调保护",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "温度检测和储能功率保护功能存在；缺少热模型/过温阈值验证。；真实allocation=alloc_ALLOC_F_X112_02_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-008",
+    "requirement_name": "储能过流保护需求",
+    "function_id": "FN_F_X123_01",
+    "function_name": "检测超级电容电流传感器状态",
+    "owner_product_id": "X123",
+    "owner_product_name": "超级电容电流传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电流检测及储能功率保护，SC-008 为真实电流限制参数。；真实allocation=alloc_ALLOC_F_X123_01_X123"
+  },
+  {
+    "requirement_id": "REQ-ENE-008",
+    "requirement_name": "储能过流保护需求",
+    "function_id": "FN_F_X112_02",
+    "function_name": "限制储能充放电功率并协调保护",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电流检测及储能功率保护，SC-008 为真实电流限制参数。；真实allocation=alloc_ALLOC_F_X112_02_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-009",
+    "requirement_name": "储能短路保护需求",
+    "function_id": "FN_F_X112_02",
+    "function_name": "限制储能充放电功率并协调保护",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能功率保护及检测功能存在；没有专门短路故障注入证据。；真实allocation=alloc_ALLOC_F_X112_02_X112"
+  },
+  {
+    "requirement_id": "REQ-ENE-009",
+    "requirement_name": "储能短路保护需求",
+    "function_id": "FN_F_X113_01",
+    "function_name": "检测双向DC/DC检测保护组件状态",
+    "owner_product_id": "X113",
+    "owner_product_name": "双向DC/DC检测保护组件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "储能功率保护及检测功能存在；没有专门短路故障注入证据。；真实allocation=alloc_ALLOC_F_X113_01_X113"
+  },
+  {
+    "requirement_id": "PRJ-BRK-001",
+    "requirement_name": "项目服务制动目标需求",
+    "function_id": "FN_F_7211_01",
+    "function_name": "处理制动请求",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求协调、再生/摩擦分配和机械力形成覆盖项目制动目标。；真实allocation=alloc_ALLOC_F_7211_01_7211"
+  },
+  {
+    "requirement_id": "PRJ-BRK-001",
+    "requirement_name": "项目服务制动目标需求",
+    "function_id": "FN_F_7211_02",
+    "function_name": "协调再生制动与摩擦制动力",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求协调、再生/摩擦分配和机械力形成覆盖项目制动目标。；真实allocation=alloc_ALLOC_F_7211_02_7211"
+  },
+  {
+    "requirement_id": "PRJ-BRK-001",
+    "requirement_name": "项目服务制动目标需求",
+    "function_id": "FN_F_7211_03",
+    "function_name": "执行电空制动控制",
+    "owner_product_id": "7211",
+    "owner_product_name": "电子制动控制单元(EBCU)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求协调、再生/摩擦分配和机械力形成覆盖项目制动目标。；真实allocation=alloc_ALLOC_F_7211_03_7211"
+  },
+  {
+    "requirement_id": "PRJ-BRK-001",
+    "requirement_name": "项目服务制动目标需求",
+    "function_id": "FN_F_7255_01",
+    "function_name": "将气动压力转换为制动机械力",
+    "owner_product_id": "7255",
+    "owner_product_name": "增压缸",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求协调、再生/摩擦分配和机械力形成覆盖项目制动目标。；真实allocation=alloc_ALLOC_F_7255_01_7255"
+  },
+  {
+    "requirement_id": "PRJ-BRK-001",
+    "requirement_name": "项目服务制动目标需求",
+    "function_id": "FN_F_5311_01",
+    "function_name": "实现三相交流电能与旋转机械能双向转换",
+    "owner_product_id": "5311",
+    "owner_product_name": "牵引电机",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "制动请求协调、再生/摩擦分配和机械力形成覆盖项目制动目标。；真实allocation=alloc_ALLOC_F_5311_01_5311"
+  },
+  {
+    "requirement_id": "PRJ-ENE-002",
+    "requirement_name": "储能最大充电功率约束",
+    "function_id": "FN_F_X112_02",
+    "function_name": "限制储能充放电功率并协调保护",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "双向 DC/DC 控制、功率保护及储能功能，SC-006 为充电功率约束参数。；真实allocation=alloc_ALLOC_F_X112_02_X112"
+  },
+  {
+    "requirement_id": "PRJ-ENE-002",
+    "requirement_name": "储能最大充电功率约束",
+    "function_id": "FN_F_X112_01",
+    "function_name": "控制双向DC/DC功率变换",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "双向 DC/DC 控制、功率保护及储能功能，SC-006 为充电功率约束参数。；真实allocation=alloc_ALLOC_F_X112_01_X112"
+  },
+  {
+    "requirement_id": "PRJ-ENE-002",
+    "requirement_name": "储能最大充电功率约束",
+    "function_id": "FN_F_X121_01",
+    "function_name": "储存并按需释放再生制动电能",
+    "owner_product_id": "X121",
+    "owner_product_name": "超级电容模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "双向 DC/DC 控制、功率保护及储能功能，SC-006 为充电功率约束参数。；真实allocation=alloc_ALLOC_F_X121_01_X121"
+  },
+  {
+    "requirement_id": "PRJ-ENE-003",
+    "requirement_name": "储能电流约束",
+    "function_id": "FN_F_X123_01",
+    "function_name": "检测超级电容电流传感器状态",
+    "owner_product_id": "X123",
+    "owner_product_name": "超级电容电流传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电流检测及储能功率保护，SC-008 为电流限制参数。；真实allocation=alloc_ALLOC_F_X123_01_X123"
+  },
+  {
+    "requirement_id": "PRJ-ENE-003",
+    "requirement_name": "储能电流约束",
+    "function_id": "FN_F_X112_02",
+    "function_name": "限制储能充放电功率并协调保护",
+    "owner_product_id": "X112",
+    "owner_product_name": "双向DC/DC控制模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "电流检测及储能功率保护，SC-008 为电流限制参数。；真实allocation=alloc_ALLOC_F_X112_02_X112"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4111_01",
+    "function_name": "传递碳滑板电能",
+    "owner_product_id": "4111",
+    "owner_product_name": "碳滑板",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "接触网受流、主变压器变换和变流器直流链功能构成有证据的供电转换链。；真实allocation=alloc_ALLOC_F_4111_01_4111"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4511_01",
+    "function_name": "实现高压交流电能与牵引变压器次级交流电能转换",
+    "owner_product_id": "4511",
+    "owner_product_name": "主变压器主体",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "接触网受流、主变压器变换和变流器直流链功能构成有证据的供电转换链。；真实allocation=alloc_ALLOC_F_4511_01_4511"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_5131_01",
+    "function_name": "实现主变次级交流电能与中间直流电能双向转换",
+    "owner_product_id": "5131",
+    "owner_product_name": "网侧变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "接触网受流、主变压器变换和变流器直流链功能构成有证据的供电转换链。；真实allocation=alloc_ALLOC_F_5131_01_5131"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_5132_01",
+    "function_name": "实现中间直流电能与电机侧三相交流电能双向转换",
+    "owner_product_id": "5132",
+    "owner_product_name": "电机侧变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "接触网受流、主变压器变换和变流器直流链功能构成有证据的供电转换链。；真实allocation=alloc_ALLOC_F_5132_01_5132"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3100_01",
+    "function_name": "转换能量/物理量、传递能量/介质",
+    "owner_product_id": "3100",
+    "owner_product_name": "轮轴组成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3100_01_3100 allocate F_3100_01 to 3100。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3100_01_3100"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3112_01",
+    "function_name": "传递车轴机械能",
+    "owner_product_id": "3112",
+    "owner_product_name": "车轴",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3112_01_3112 allocate F_3112_01 to 3112。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3112_01_3112"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3120_01",
+    "function_name": "转换能量/物理量",
+    "owner_product_id": "3120",
+    "owner_product_name": "齿轮箱及附件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3120_01_3120 allocate F_3120_01 to 3120。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3120_01_3120"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3121_01",
+    "function_name": "转换齿轮箱主体机械参数",
+    "owner_product_id": "3121",
+    "owner_product_name": "齿轮箱主体",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3121_01_3121 allocate F_3121_01 to 3121。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3121_01_3121"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3500_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "3500",
+    "owner_product_name": "牵引传动耦合组件及其附件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3500_01_3500 allocate F_3500_01 to 3500。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3500_01_3500"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3510_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "3510",
+    "owner_product_name": "传动耦合机构",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3510_01_3510 allocate F_3510_01 to 3510。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3510_01_3510"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3511_01",
+    "function_name": "传递联轴节(电机侧)机械能",
+    "owner_product_id": "3511",
+    "owner_product_name": "联轴节(电机侧)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3511_01_3511 allocate F_3511_01 to 3511。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3511_01_3511"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3512_01",
+    "function_name": "传递联轴节(齿轮箱侧)机械能",
+    "owner_product_id": "3512",
+    "owner_product_name": "联轴节(齿轮箱侧)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3512_01_3512 allocate F_3512_01 to 3512。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3512_01_3512"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3514_01",
+    "function_name": "传递万向轴机械能",
+    "owner_product_id": "3514",
+    "owner_product_name": "万向轴",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3514_01_3514 allocate F_3514_01 to 3514。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3514_01_3514"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3600_01",
+    "function_name": "检测运行参数",
+    "owner_product_id": "3600",
+    "owner_product_name": "转向架相关检测",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3600_01_3600 allocate F_3600_01 to 3600。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3600_01_3600"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3640_01",
+    "function_name": "检测运行参数",
+    "owner_product_id": "3640",
+    "owner_product_name": "速度检测组件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3640_01_3640 allocate F_3640_01 to 3640。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3640_01_3640"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3641_01",
+    "function_name": "检测轴端速度传感器状态",
+    "owner_product_id": "3641",
+    "owner_product_name": "轴端速度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3641_01_3641 allocate F_3641_01 to 3641。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3641_01_3641"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3643_01",
+    "function_name": "检测齿轮箱速度传感器状态",
+    "owner_product_id": "3643",
+    "owner_product_name": "齿轮箱速度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3643_01_3643 allocate F_3643_01 to 3643。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3643_01_3643"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_3644_01",
+    "function_name": "检测牵引电机速度传感器状态",
+    "owner_product_id": "3644",
+    "owner_product_name": "牵引电机速度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3644_01_3644 allocate F_3644_01 to 3644。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3644_01_3644"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_5300_01",
+    "function_name": "转换能量/物理量、检测运行参数",
+    "owner_product_id": "5300",
+    "owner_product_name": "牵引电机及其冷却",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_5300_01_5300 allocate F_5300_01 to 5300。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_5300_01_5300"
+  },
+  {
+    "requirement_id": "REQ-TRAC-001",
+    "requirement_name": "牵引力-速度特性需求",
+    "function_id": "FN_F_5310_01",
+    "function_name": "转换能量/物理量、检测运行参数",
+    "owner_product_id": "5310",
+    "owner_product_name": "牵引电机组成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_5310_01_5310 allocate F_5310_01 to 5310。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_5310_01_5310"
+  },
+  {
+    "requirement_id": "REQ-TRAC-003",
+    "requirement_name": "黏着利用与防空转/防滑行需求",
+    "function_id": "FN_F_3641_01",
+    "function_name": "检测轴端速度传感器状态",
+    "owner_product_id": "3641",
+    "owner_product_name": "轴端速度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3641_01_3641 allocate F_3641_01 to 3641。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3641_01_3641"
+  },
+  {
+    "requirement_id": "REQ-TRAC-003",
+    "requirement_name": "黏着利用与防空转/防滑行需求",
+    "function_id": "FN_F_3643_01",
+    "function_name": "检测齿轮箱速度传感器状态",
+    "owner_product_id": "3643",
+    "owner_product_name": "齿轮箱速度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3643_01_3643 allocate F_3643_01 to 3643。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3643_01_3643"
+  },
+  {
+    "requirement_id": "REQ-TRAC-003",
+    "requirement_name": "黏着利用与防空转/防滑行需求",
+    "function_id": "FN_F_3644_01",
+    "function_name": "检测牵引电机速度传感器状态",
+    "owner_product_id": "3644",
+    "owner_product_name": "牵引电机速度传感器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3644_01_3644 allocate F_3644_01 to 3644。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3644_01_3644"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3100_01",
+    "function_name": "转换能量/物理量、传递能量/介质",
+    "owner_product_id": "3100",
+    "owner_product_name": "轮轴组成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3100_01_3100 allocate F_3100_01 to 3100。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3100_01_3100"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3112_01",
+    "function_name": "传递车轴机械能",
+    "owner_product_id": "3112",
+    "owner_product_name": "车轴",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3112_01_3112 allocate F_3112_01 to 3112。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3112_01_3112"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3120_01",
+    "function_name": "转换能量/物理量",
+    "owner_product_id": "3120",
+    "owner_product_name": "齿轮箱及附件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3120_01_3120 allocate F_3120_01 to 3120。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3120_01_3120"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3121_01",
+    "function_name": "转换齿轮箱主体机械参数",
+    "owner_product_id": "3121",
+    "owner_product_name": "齿轮箱主体",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3121_01_3121 allocate F_3121_01 to 3121。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3121_01_3121"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3500_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "3500",
+    "owner_product_name": "牵引传动耦合组件及其附件",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3500_01_3500 allocate F_3500_01 to 3500。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3500_01_3500"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3510_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "3510",
+    "owner_product_name": "传动耦合机构",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3510_01_3510 allocate F_3510_01 to 3510。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3510_01_3510"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3511_01",
+    "function_name": "传递联轴节(电机侧)机械能",
+    "owner_product_id": "3511",
+    "owner_product_name": "联轴节(电机侧)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3511_01_3511 allocate F_3511_01 to 3511。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3511_01_3511"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3512_01",
+    "function_name": "传递联轴节(齿轮箱侧)机械能",
+    "owner_product_id": "3512",
+    "owner_product_name": "联轴节(齿轮箱侧)",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3512_01_3512 allocate F_3512_01 to 3512。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3512_01_3512"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_3514_01",
+    "function_name": "传递万向轴机械能",
+    "owner_product_id": "3514",
+    "owner_product_name": "万向轴",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3514_01_3514 allocate F_3514_01 to 3514。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3514_01_3514"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_4500_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "4500",
+    "owner_product_name": "主变压器及其冷却",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4500_01_4500 allocate F_4500_01 to 4500。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4500_01_4500"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_4510_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "4510",
+    "owner_product_name": "主变压器主体及其控制",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4510_01_4510 allocate F_4510_01 to 4510。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4510_01_4510"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_4513_01",
+    "function_name": "传递电抗器电能",
+    "owner_product_id": "4513",
+    "owner_product_name": "电抗器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4513_01_4513 allocate F_4513_01 to 4513。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4513_01_4513"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_5300_01",
+    "function_name": "转换能量/物理量、检测运行参数",
+    "owner_product_id": "5300",
+    "owner_product_name": "牵引电机及其冷却",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_5300_01_5300 allocate F_5300_01 to 5300。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_5300_01_5300"
+  },
+  {
+    "requirement_id": "REQ-TRAC-004",
+    "requirement_name": "交流电传动架构需求",
+    "function_id": "FN_F_5310_01",
+    "function_name": "转换能量/物理量、检测运行参数",
+    "owner_product_id": "5310",
+    "owner_product_name": "牵引电机组成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_5310_01_5310 allocate F_5310_01 to 5310。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_5310_01_5310"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_3111_01",
+    "function_name": "通过车轮耗散能量",
+    "owner_product_id": "3111",
+    "owner_product_name": "车轮",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3111_01_3111 allocate F_3111_01 to 3111。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3111_01_3111"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_3130_01",
+    "function_name": "耗散能量",
+    "owner_product_id": "3130",
+    "owner_product_name": "制动盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3130_01_3130 allocate F_3130_01 to 3130。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3130_01_3130"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_3131_01",
+    "function_name": "通过外轮盘耗散机械制动能量",
+    "owner_product_id": "3131",
+    "owner_product_name": "外轮盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3131_01_3131 allocate F_3131_01 to 3131。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3131_01_3131"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_3132_01",
+    "function_name": "通过内轮盘耗散能量",
+    "owner_product_id": "3132",
+    "owner_product_name": "内轮盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3132_01_3132 allocate F_3132_01 to 3132。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3132_01_3132"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_3133_01",
+    "function_name": "通过轴盘耗散能量",
+    "owner_product_id": "3133",
+    "owner_product_name": "轴盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3133_01_3133 allocate F_3133_01 to 3133。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3133_01_3133"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_7252_01",
+    "function_name": "传递制动夹钳作用力",
+    "owner_product_id": "7252",
+    "owner_product_name": "非停放制动夹钳装置",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_7252_01_7252 allocate F_7252_01 to 7252。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_7252_01_7252"
+  },
+  {
+    "requirement_id": "REQ-BRK-001",
+    "requirement_name": "常用制动平均减速度需求",
+    "function_id": "FN_F_7254_01",
+    "function_name": "通过闸片耗散机械制动能量",
+    "owner_product_id": "7254",
+    "owner_product_name": "闸片",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_7254_01_7254 allocate F_7254_01 to 7254。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_7254_01_7254"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_3130_01",
+    "function_name": "耗散能量",
+    "owner_product_id": "3130",
+    "owner_product_name": "制动盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3130_01_3130 allocate F_3130_01 to 3130。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3130_01_3130"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_3131_01",
+    "function_name": "通过外轮盘耗散机械制动能量",
+    "owner_product_id": "3131",
+    "owner_product_name": "外轮盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3131_01_3131 allocate F_3131_01 to 3131。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3131_01_3131"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_3132_01",
+    "function_name": "通过内轮盘耗散能量",
+    "owner_product_id": "3132",
+    "owner_product_name": "内轮盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3132_01_3132 allocate F_3132_01 to 3132。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3132_01_3132"
+  },
+  {
+    "requirement_id": "REQ-BRK-004",
+    "requirement_name": "电制动与空气制动双制动方式需求",
+    "function_id": "FN_F_3133_01",
+    "function_name": "通过轴盘耗散能量",
+    "owner_product_id": "3133",
+    "owner_product_name": "轴盘",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3133_01_3133 allocate F_3133_01 to 3133。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_3133_01_3133"
+  },
+  {
+    "requirement_id": "REQ-ENE-001",
+    "requirement_name": "电容式储能电源储存功能需求",
+    "function_id": "FN_F_X110_01",
+    "function_name": "实现再生储能双向能量变换、控制与保护",
+    "owner_product_id": "X110",
+    "owner_product_name": "双向储能变流及控制",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_X110_01_X110 allocate F_X110_01 to X110。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_X110_01_X110"
+  },
+  {
+    "requirement_id": "REQ-ENE-001",
+    "requirement_name": "电容式储能电源储存功能需求",
+    "function_id": "FN_F_X111_01",
+    "function_name": "实现中间直流母线与储能侧直流母线双向能量转换",
+    "owner_product_id": "X111",
+    "owner_product_name": "双向DC/DC变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_X111_01_X111 allocate F_X111_01 to X111。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_X111_01_X111"
+  },
+  {
+    "requirement_id": "REQ-ENE-001",
+    "requirement_name": "电容式储能电源储存功能需求",
+    "function_id": "FN_F_X111_02",
+    "function_name": "执行双向DC/DC功率变换指令并反馈状态",
+    "owner_product_id": "X111",
+    "owner_product_name": "双向DC/DC变流模块",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_X111_02_X111 allocate F_X111_02 to X111。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_X111_02_X111"
+  },
+  {
+    "requirement_id": "REQ-ENE-005",
+    "requirement_name": "储能能量效率需求",
+    "function_id": "FN_F_8166_01",
+    "function_name": "控制能量计运行",
+    "owner_product_id": "8166",
+    "owner_product_name": "能量计",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_8166_01_8166 allocate F_8166_01 to 8166。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_8166_01_8166"
+  },
+  {
+    "requirement_id": "REQ-ENE-005",
+    "requirement_name": "储能能量效率需求",
+    "function_id": "FN_F_8166_02",
+    "function_name": "协调能量计接口交互",
+    "owner_product_id": "8166",
+    "owner_product_name": "能量计",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_8166_02_8166 allocate F_8166_02 to 8166。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_8166_02_8166"
+  },
+  {
+    "requirement_id": "REQ-ENE-005",
+    "requirement_name": "储能能量效率需求",
+    "function_id": "FN_F_8166_03",
+    "function_name": "报告能量计运行状态",
+    "owner_product_id": "8166",
+    "owner_product_name": "能量计",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_8166_03_8166 allocate F_8166_03 to 8166。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_8166_03_8166"
+  },
+  {
+    "requirement_id": "REQ-ENE-005",
+    "requirement_name": "储能能量效率需求",
+    "function_id": "FN_F_8166_04",
+    "function_name": "统计能量计运行数据",
+    "owner_product_id": "8166",
+    "owner_product_name": "能量计",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_8166_04_8166 allocate F_8166_04 to 8166。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_8166_04_8166"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4100_01",
+    "function_name": "传递能量/介质、控制运行",
+    "owner_product_id": "4100",
+    "owner_product_name": "高压受流",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4100_01_4100 allocate F_4100_01 to 4100。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4100_01_4100"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4110_01",
+    "function_name": "传递能量/介质、控制运行",
+    "owner_product_id": "4110",
+    "owner_product_name": "受电弓总成",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4110_01_4110 allocate F_4110_01 to 4110。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4110_01_4110"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4200_01",
+    "function_name": "传递能量/介质、控制运行",
+    "owner_product_id": "4200",
+    "owner_product_name": "网侧高压分配及控制",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4200_01_4200 allocate F_4200_01 to 4200。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4200_01_4200"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4210_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "4210",
+    "owner_product_name": "高压开关",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4210_01_4210 allocate F_4210_01 to 4210。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4210_01_4210"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4211_01",
+    "function_name": "传递真空断路器电能",
+    "owner_product_id": "4211",
+    "owner_product_name": "真空断路器",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4211_01_4211 allocate F_4211_01 to 4211。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4211_01_4211"
+  },
+  {
+    "requirement_id": "PRJ-PWR-001",
+    "requirement_name": "项目牵引供电制式需求",
+    "function_id": "FN_F_4212_01",
+    "function_name": "传递非真空隔离开关电能",
+    "owner_product_id": "4212",
+    "owner_product_name": "非真空隔离开关",
+    "mapping_type": "MODEL_DERIVED",
+    "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_4212_01_4212 allocate F_4212_01 to 4212。仅以真实OWNER allocation定位Function所属Product。；真实allocation=alloc_ALLOC_F_4212_01_4212"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3100_01",
+    "function_name": "转换能量/物理量、传递能量/介质",
+    "owner_product_id": "3100",
+    "owner_product_name": "轮轴组成",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3100_01_3100"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3110_01",
+    "function_name": "传递能量/介质、耗散能量",
+    "owner_product_id": "3110",
+    "owner_product_name": "车轮车轴",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3110_01_3110"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3112_01",
+    "function_name": "传递车轴机械能",
+    "owner_product_id": "3112",
+    "owner_product_name": "车轴",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3112_01_3112"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3120_01",
+    "function_name": "转换能量/物理量",
+    "owner_product_id": "3120",
+    "owner_product_name": "齿轮箱及附件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3120_01_3120"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3121_01",
+    "function_name": "转换齿轮箱主体机械参数",
+    "owner_product_id": "3121",
+    "owner_product_name": "齿轮箱主体",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3121_01_3121"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3500_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "3500",
+    "owner_product_name": "牵引传动耦合组件及其附件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3500_01_3500"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3510_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "3510",
+    "owner_product_name": "传动耦合机构",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3510_01_3510"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3511_01",
+    "function_name": "传递联轴节(电机侧)机械能",
+    "owner_product_id": "3511",
+    "owner_product_name": "联轴节(电机侧)",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3511_01_3511"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3512_01",
+    "function_name": "传递联轴节(齿轮箱侧)机械能",
+    "owner_product_id": "3512",
+    "owner_product_name": "联轴节(齿轮箱侧)",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3512_01_3512"
+  },
+  {
+    "requirement_id": "DRV-TRAC-001",
+    "requirement_name": "牵引传动机械能传递",
+    "function_id": "FN_F_3514_01",
+    "function_name": "传递万向轴机械能",
+    "owner_product_id": "3514",
+    "owner_product_name": "万向轴",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引特性与能量转换需求没有明确表达电机至轮对的机械传动链；Function 3100/3500 及其真实分配到的轮轴、齿轮箱和联轴器提供了成组实现证据。；真实allocation=alloc_ALLOC_F_3514_01_3514"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_3800_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "3800",
+    "owner_product_name": "辅助增粘及轮缘润滑",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_3800_01_3800"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_3810_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "3810",
+    "owner_product_name": "撒砂装置",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_3810_01_3810"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_3811_01",
+    "function_name": "控制撒砂控制单元运行",
+    "owner_product_id": "3811",
+    "owner_product_name": "撒砂控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_3811_01_3811"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_3811_02",
+    "function_name": "报告撒砂控制单元运行状态",
+    "owner_product_id": "3811",
+    "owner_product_name": "撒砂控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_3811_02_3811"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_3813_01",
+    "function_name": "执行撒砂阀板组件动作",
+    "owner_product_id": "3813",
+    "owner_product_name": "撒砂阀板组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_3813_01_3813"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_3814_01",
+    "function_name": "执行撒砂喷嘴组件动作",
+    "owner_product_id": "3814",
+    "owner_product_name": "撒砂喷嘴组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_3814_01_3814"
+  },
+  {
+    "requirement_id": "DRV-TRAC-002",
+    "requirement_name": "黏着增强撒砂控制",
+    "function_id": "FN_F_D13B_01",
+    "function_name": "提供撒砂按钮边界交互",
+    "owner_product_id": "D13B",
+    "owner_product_name": "撒砂按钮",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有防滑需求涉及黏着，但未覆盖撒砂控制单元、执行阀板/喷嘴及司机撒砂按钮这组真实 Functions；该派生项以这些已分配功能为边界，不声称模型存在自动滑移率触发逻辑。；真实allocation=alloc_ALLOC_F_D13B_01_D13B"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4100_01",
+    "function_name": "传递能量/介质、控制运行",
+    "owner_product_id": "4100",
+    "owner_product_name": "高压受流",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4100_01_4100"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4110_01",
+    "function_name": "传递能量/介质、控制运行",
+    "owner_product_id": "4110",
+    "owner_product_name": "受电弓总成",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4110_01_4110"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_411C_01",
+    "function_name": "控制受电弓电子控制单元运行",
+    "owner_product_id": "411C",
+    "owner_product_name": "受电弓电子控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_411C_01_411C"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_411C_02",
+    "function_name": "报告受电弓电子控制单元运行状态",
+    "owner_product_id": "411C",
+    "owner_product_name": "受电弓电子控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_411C_02_411C"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4200_01",
+    "function_name": "传递能量/介质、控制运行",
+    "owner_product_id": "4200",
+    "owner_product_name": "网侧高压分配及控制",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4200_01_4200"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4210_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "4210",
+    "owner_product_name": "高压开关",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4210_01_4210"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4211_01",
+    "function_name": "传递真空断路器电能",
+    "owner_product_id": "4211",
+    "owner_product_name": "真空断路器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4211_01_4211"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4212_01",
+    "function_name": "传递非真空隔离开关电能",
+    "owner_product_id": "4212",
+    "owner_product_name": "非真空隔离开关",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4212_01_4212"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4230_01",
+    "function_name": "控制运行、检测运行参数",
+    "owner_product_id": "4230",
+    "owner_product_name": "高压保护及检测部件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4230_01_4230"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4235_01",
+    "function_name": "检测高压电压互感器状态",
+    "owner_product_id": "4235",
+    "owner_product_name": "高压电压互感器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4235_01_4235"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4236_01",
+    "function_name": "检测并贯通高压电流互感器物理量",
+    "owner_product_id": "4236",
+    "owner_product_name": "高压电流互感器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4236_01_4236"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4238_01",
+    "function_name": "路由高压控制输入输出单元输入输出信号",
+    "owner_product_id": "4238",
+    "owner_product_name": "高压控制输入输出单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4238_01_4238"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4238_02",
+    "function_name": "协调高压控制输入输出单元接口交互",
+    "owner_product_id": "4238",
+    "owner_product_name": "高压控制输入输出单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4238_02_4238"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4238_03",
+    "function_name": "报告高压控制输入输出单元运行状态",
+    "owner_product_id": "4238",
+    "owner_product_name": "高压控制输入输出单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4238_03_4238"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4239_01",
+    "function_name": "控制高压控制单元运行",
+    "owner_product_id": "4239",
+    "owner_product_name": "高压控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4239_01_4239"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4239_02",
+    "function_name": "协调高压控制单元接口交互",
+    "owner_product_id": "4239",
+    "owner_product_name": "高压控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4239_02_4239"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4239_03",
+    "function_name": "报告高压控制单元运行状态",
+    "owner_product_id": "4239",
+    "owner_product_name": "高压控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4239_03_4239"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4240_01",
+    "function_name": "控制运行、反馈运行状态",
+    "owner_product_id": "4240",
+    "owner_product_name": "能量测量",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4240_01_4240"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4241_01",
+    "function_name": "控制处理单元运行",
+    "owner_product_id": "4241",
+    "owner_product_name": "处理单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4241_01_4241"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4241_02",
+    "function_name": "报告处理单元运行状态",
+    "owner_product_id": "4241",
+    "owner_product_name": "处理单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4241_02_4241"
+  },
+  {
+    "requirement_id": "DRV-PWR-001",
+    "requirement_name": "高压受流与分配控制",
+    "function_id": "FN_F_4241_03",
+    "function_name": "统计处理单元运行数据",
+    "owner_product_id": "4241",
+    "owner_product_name": "处理单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "项目供电制式需求规定仿真名义供电条件，但未提出受电弓电子单元、高压开关、测量和I/O状态控制行为；这些功能由现有4100/4200产品及真实allocation支撑。；真实allocation=alloc_ALLOC_F_4241_03_4241"
+  },
+  {
+    "requirement_id": "DRV-PWR-002",
+    "requirement_name": "牵引回流与接地通路",
+    "function_id": "FN_F_4400_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "4400",
+    "owner_product_name": "回流及接地",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "25 kV供电项目需求没有展开回流和接地组成的工程行为；4400及其真实分配部件构成同一回流/接地目标链。；真实allocation=alloc_ALLOC_F_4400_01_4400"
+  },
+  {
+    "requirement_id": "DRV-PWR-002",
+    "requirement_name": "牵引回流与接地通路",
+    "function_id": "FN_F_4410_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "4410",
+    "owner_product_name": "主回路回流设备",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "25 kV供电项目需求没有展开回流和接地组成的工程行为；4400及其真实分配部件构成同一回流/接地目标链。；真实allocation=alloc_ALLOC_F_4410_01_4410"
+  },
+  {
+    "requirement_id": "DRV-PWR-002",
+    "requirement_name": "牵引回流与接地通路",
+    "function_id": "FN_F_4411_01",
+    "function_name": "传递接地变压器物理能量",
+    "owner_product_id": "4411",
+    "owner_product_name": "接地变压器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "25 kV供电项目需求没有展开回流和接地组成的工程行为；4400及其真实分配部件构成同一回流/接地目标链。；真实allocation=alloc_ALLOC_F_4411_01_4411"
+  },
+  {
+    "requirement_id": "DRV-PWR-002",
+    "requirement_name": "牵引回流与接地通路",
+    "function_id": "FN_F_4412_01",
+    "function_name": "传递主回路接地电阻物理能量",
+    "owner_product_id": "4412",
+    "owner_product_name": "主回路接地电阻",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "25 kV供电项目需求没有展开回流和接地组成的工程行为；4400及其真实分配部件构成同一回流/接地目标链。；真实allocation=alloc_ALLOC_F_4412_01_4412"
+  },
+  {
+    "requirement_id": "DRV-PWR-002",
+    "requirement_name": "牵引回流与接地通路",
+    "function_id": "FN_F_4413_01",
+    "function_name": "传递回流碳刷电能",
+    "owner_product_id": "4413",
+    "owner_product_name": "回流碳刷",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "25 kV供电项目需求没有展开回流和接地组成的工程行为；4400及其真实分配部件构成同一回流/接地目标链。；真实allocation=alloc_ALLOC_F_4413_01_4413"
+  },
+  {
+    "requirement_id": "DRV-PWR-003",
+    "requirement_name": "主变压器控制与状态监测",
+    "function_id": "FN_F_4500_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "4500",
+    "owner_product_name": "主变压器及其冷却",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有供电制式和电能转换需求没有覆盖主变压器支路传递、检测保护元件及控制装置状态报告；对应功能集中分配到4500产品边界。；真实allocation=alloc_ALLOC_F_4500_01_4500"
+  },
+  {
+    "requirement_id": "DRV-PWR-003",
+    "requirement_name": "主变压器控制与状态监测",
+    "function_id": "FN_F_4510_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "4510",
+    "owner_product_name": "主变压器主体及其控制",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有供电制式和电能转换需求没有覆盖主变压器支路传递、检测保护元件及控制装置状态报告；对应功能集中分配到4500产品边界。；真实allocation=alloc_ALLOC_F_4510_01_4510"
+  },
+  {
+    "requirement_id": "DRV-PWR-003",
+    "requirement_name": "主变压器控制与状态监测",
+    "function_id": "FN_F_4513_01",
+    "function_name": "传递电抗器电能",
+    "owner_product_id": "4513",
+    "owner_product_name": "电抗器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有供电制式和电能转换需求没有覆盖主变压器支路传递、检测保护元件及控制装置状态报告；对应功能集中分配到4500产品边界。；真实allocation=alloc_ALLOC_F_4513_01_4513"
+  },
+  {
+    "requirement_id": "DRV-PWR-003",
+    "requirement_name": "主变压器控制与状态监测",
+    "function_id": "FN_F_4517_01",
+    "function_name": "检测主变压器检测及保护元件状态",
+    "owner_product_id": "4517",
+    "owner_product_name": "主变压器检测及保护元件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有供电制式和电能转换需求没有覆盖主变压器支路传递、检测保护元件及控制装置状态报告；对应功能集中分配到4500产品边界。；真实allocation=alloc_ALLOC_F_4517_01_4517"
+  },
+  {
+    "requirement_id": "DRV-PWR-003",
+    "requirement_name": "主变压器控制与状态监测",
+    "function_id": "FN_F_4518_01",
+    "function_name": "控制主变压器控制装置运行",
+    "owner_product_id": "4518",
+    "owner_product_name": "主变压器控制装置",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有供电制式和电能转换需求没有覆盖主变压器支路传递、检测保护元件及控制装置状态报告；对应功能集中分配到4500产品边界。；真实allocation=alloc_ALLOC_F_4518_01_4518"
+  },
+  {
+    "requirement_id": "DRV-PWR-003",
+    "requirement_name": "主变压器控制与状态监测",
+    "function_id": "FN_F_4518_02",
+    "function_name": "报告主变压器控制装置运行状态",
+    "owner_product_id": "4518",
+    "owner_product_name": "主变压器控制装置",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有供电制式和电能转换需求没有覆盖主变压器支路传递、检测保护元件及控制装置状态报告；对应功能集中分配到4500产品边界。；真实allocation=alloc_ALLOC_F_4518_02_4518"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5100_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "5100",
+    "owner_product_name": "牵引变流器主体及其控制",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5100_01_5100"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5110_01",
+    "function_name": "控制运行、检测运行参数",
+    "owner_product_id": "5110",
+    "owner_product_name": "牵引变流器控制",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5110_01_5110"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5111_01",
+    "function_name": "控制网侧变流器控制模块运行",
+    "owner_product_id": "5111",
+    "owner_product_name": "网侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5111_01_5111"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5111_02",
+    "function_name": "协调网侧变流器控制模块接口交互",
+    "owner_product_id": "5111",
+    "owner_product_name": "网侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5111_02_5111"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5111_03",
+    "function_name": "限制并保护网侧变流器控制模块运行",
+    "owner_product_id": "5111",
+    "owner_product_name": "网侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5111_03_5111"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5111_04",
+    "function_name": "报告网侧变流器控制模块运行状态",
+    "owner_product_id": "5111",
+    "owner_product_name": "网侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5111_04_5111"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5112_02",
+    "function_name": "协调电机侧变流器控制模块接口交互",
+    "owner_product_id": "5112",
+    "owner_product_name": "电机侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5112_02_5112"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5112_03",
+    "function_name": "限制并保护电机侧变流器控制模块运行",
+    "owner_product_id": "5112",
+    "owner_product_name": "电机侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5112_03_5112"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5112_04",
+    "function_name": "报告电机侧变流器控制模块运行状态",
+    "owner_product_id": "5112",
+    "owner_product_name": "电机侧变流器控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5112_04_5112"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5113_01",
+    "function_name": "检测变流器检测保护组件状态",
+    "owner_product_id": "5113",
+    "owner_product_name": "变流器检测保护组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5113_01_5113"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5130_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "5130",
+    "owner_product_name": "变流模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5130_01_5130"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5131_02",
+    "function_name": "执行网侧变流控制并反馈运行状态",
+    "owner_product_id": "5131",
+    "owner_product_name": "网侧变流模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5131_02_5131"
+  },
+  {
+    "requirement_id": "DRV-TRAC-003",
+    "requirement_name": "牵引变流器控制与保护状态",
+    "function_id": "FN_F_5132_02",
+    "function_name": "响应电机侧变流控制并反馈运行状态",
+    "owner_product_id": "5132",
+    "owner_product_name": "电机侧变流模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "原牵引性能和能量转换需求没有细化变流控制模块的接口协调、保护和状态报告；缺口由5100下的控制、保护、状态和测量Function组成一组补足。；真实allocation=alloc_ALLOC_F_5132_02_5132"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5120_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "5120",
+    "owner_product_name": "输入及预充电单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5120_01_5120"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5121_01",
+    "function_name": "传递预充电组件电能",
+    "owner_product_id": "5121",
+    "owner_product_name": "预充电组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5121_01_5121"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5122_01",
+    "function_name": "传递输入组件电能",
+    "owner_product_id": "5122",
+    "owner_product_name": "输入组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5122_01_5122"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5133_01",
+    "function_name": "控制放电电阻控制模块运行",
+    "owner_product_id": "5133",
+    "owner_product_name": "放电电阻控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5133_01_5133"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5133_02",
+    "function_name": "限制并保护放电电阻控制模块运行",
+    "owner_product_id": "5133",
+    "owner_product_name": "放电电阻控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5133_02_5133"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5133_03",
+    "function_name": "报告放电电阻控制模块运行状态",
+    "owner_product_id": "5133",
+    "owner_product_name": "放电电阻控制模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5133_03_5133"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5140_01",
+    "function_name": "耗散能量、检测运行参数",
+    "owner_product_id": "5140",
+    "owner_product_name": "中间直流环节组件及其",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5140_01_5140"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5142_01",
+    "function_name": "通过放电电阻器耗散能量",
+    "owner_product_id": "5142",
+    "owner_product_name": "放电电阻器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5142_01_5142"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5142_02",
+    "function_name": "统计放电电阻器运行数据",
+    "owner_product_id": "5142",
+    "owner_product_name": "放电电阻器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5142_02_5142"
+  },
+  {
+    "requirement_id": "DRV-TRAC-004",
+    "requirement_name": "中间直流环节预充与放电保护",
+    "function_id": "FN_F_5145_01",
+    "function_name": "检测中间直流环节检测保护组件状态",
+    "owner_product_id": "5145",
+    "owner_product_name": "中间直流环节检测保护组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "供电和能量转换需求未覆盖中间直流环节的输入/预充/放电电阻支路行为；这些Function均真实分配到牵引变流器5100下级产品。；真实allocation=alloc_ALLOC_F_5145_01_5145"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7100_01",
+    "function_name": "传递能量/介质、检测运行参数",
+    "owner_product_id": "7100",
+    "owner_product_name": "供风",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7100_01_7100"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7120_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "7120",
+    "owner_product_name": "风缸",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7120_01_7120"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7124_01",
+    "function_name": "提供制动风缸外部能量",
+    "owner_product_id": "7124",
+    "owner_product_name": "制动风缸",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7124_01_7124"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7130_01",
+    "function_name": "传递能量/介质",
+    "owner_product_id": "7130",
+    "owner_product_name": "列车级压缩空气分配组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7130_01_7130"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7131_01",
+    "function_name": "传递总风管气动压力",
+    "owner_product_id": "7131",
+    "owner_product_name": "总风管",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7131_01_7131"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7140_01",
+    "function_name": "检测运行参数",
+    "owner_product_id": "7140",
+    "owner_product_name": "供风压力开关及传感器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7140_01_7140"
+  },
+  {
+    "requirement_id": "DRV-BRK-001",
+    "requirement_name": "制动供风与总风管压力可用性",
+    "function_id": "FN_F_7142_01",
+    "function_name": "检测总风管压力传感器状态",
+    "owner_product_id": "7142",
+    "owner_product_name": "总风管压力传感器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有制动需求未完整覆盖供风、风缸供气及总风管压力检测链；7100真实Function及其供风部件allocation形成同一气动制动可用性目标。；真实allocation=alloc_ALLOC_F_7142_01_7142"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7200_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "7200",
+    "owner_product_name": "制动",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7200_01_7200"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7210_01",
+    "function_name": "转换能量/物理量、控制运行",
+    "owner_product_id": "7210",
+    "owner_product_name": "制动控制组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7210_01_7210"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7213_01",
+    "function_name": "执行制动控制接触器及其他动作",
+    "owner_product_id": "7213",
+    "owner_product_name": "制动控制接触器及其他",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7213_01_7213"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7220_01",
+    "function_name": "转换能量/物理量、执行安全控制",
+    "owner_product_id": "7220",
+    "owner_product_name": "直接制动控制",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7220_01_7220"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7222_01",
+    "function_name": "传递电空转换阀气动压力",
+    "owner_product_id": "7222",
+    "owner_product_name": "电空转换阀",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7222_01_7222"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7223_01",
+    "function_name": "传递中继阀气动压力",
+    "owner_product_id": "7223",
+    "owner_product_name": "中继阀",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7223_01_7223"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7225_01",
+    "function_name": "执行控制电磁阀动作",
+    "owner_product_id": "7225",
+    "owner_product_name": "控制电磁阀",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7225_01_7225"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7227_01",
+    "function_name": "执行缓解阀动作",
+    "owner_product_id": "7227",
+    "owner_product_name": "缓解阀",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7227_01_7227"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7228_01",
+    "function_name": "传递车厢直接制动截断塞门气动压力",
+    "owner_product_id": "7228",
+    "owner_product_name": "车厢直接制动截断塞门",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7228_01_7228"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7229_01",
+    "function_name": "传递调压阀气动压力",
+    "owner_product_id": "7229",
+    "owner_product_name": "调压阀",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7229_01_7229"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7250_01",
+    "function_name": "转换能量/物理量、传递能量/介质",
+    "owner_product_id": "7250",
+    "owner_product_name": "制动夹钳及其配套组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7250_01_7250"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7252_01",
+    "function_name": "传递制动夹钳作用力",
+    "owner_product_id": "7252",
+    "owner_product_name": "非停放制动夹钳装置",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7252_01_7252"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7254_01",
+    "function_name": "通过闸片耗散机械制动能量",
+    "owner_product_id": "7254",
+    "owner_product_name": "闸片",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7254_01_7254"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7280_01",
+    "function_name": "转换能量/物理量、传递能量/介质",
+    "owner_product_id": "7280",
+    "owner_product_name": "其它制动元件及附件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7280_01_7280"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7281_01",
+    "function_name": "执行制动指示器动作",
+    "owner_product_id": "7281",
+    "owner_product_name": "制动指示器",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7281_01_7281"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7284_01",
+    "function_name": "传递转向架制动截断塞门气动压力",
+    "owner_product_id": "7284",
+    "owner_product_name": "转向架制动截断塞门",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7284_01_7284"
+  },
+  {
+    "requirement_id": "DRV-BRK-002",
+    "requirement_name": "气动压力分配与机械制动执行",
+    "function_id": "FN_F_7285_01",
+    "function_name": "传递单轴制动截断塞门气动压力",
+    "owner_product_id": "7285",
+    "owner_product_name": "单轴制动截断塞门",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "既有制动需求表达制动性能和协调目标，但没有说明阀件、气压分配、制动夹钳、闸片及状态指示构成的执行链；所列功能真实属于7200制动产品树。；真实allocation=alloc_ALLOC_F_7285_01_7285"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D100_01",
+    "function_name": "控制运行",
+    "owner_product_id": "D100",
+    "owner_product_name": "操纵设施",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D100_01_D100"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D110_01",
+    "function_name": "控制运行",
+    "owner_product_id": "D110",
+    "owner_product_name": "基本操纵组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D110_01_D110"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D112_01",
+    "function_name": "提供方向操作元件边界交互",
+    "owner_product_id": "D112",
+    "owner_product_name": "方向操作元件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D112_01_D112"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D113_01",
+    "function_name": "提供牵引操作元件边界交互",
+    "owner_product_id": "D113",
+    "owner_product_name": "牵引操作元件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D113_01_D113"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D114_01",
+    "function_name": "提供制动操作元件边界交互",
+    "owner_product_id": "D114",
+    "owner_product_name": "制动操作元件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D114_01_D114"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D120_01",
+    "function_name": "控制运行",
+    "owner_product_id": "D120",
+    "owner_product_name": "紧急响应元件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D120_01_D120"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_D130_01",
+    "function_name": "控制运行",
+    "owner_product_id": "D130",
+    "owner_product_name": "开关按钮功能组件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_D130_01_D130"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_E100_01",
+    "function_name": "提供ATP车载边界交互",
+    "owner_product_id": "E100",
+    "owner_product_name": "ATP车载",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_E100_01_E100"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_8127_01",
+    "function_name": "路由ATP接口单元输入输出信号",
+    "owner_product_id": "8127",
+    "owner_product_name": "ATP接口单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_8127_01_8127"
+  },
+  {
+    "requirement_id": "DRV-CTL-001",
+    "requirement_name": "司机操纵与ATP控制边界输入",
+    "function_id": "FN_F_8127_02",
+    "function_name": "报告ATP接口单元运行状态",
+    "owner_product_id": "8127",
+    "owner_product_name": "ATP接口单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "现有牵引、制动性能需求未定义其边界操纵输入；D100操作元件、E100 ATP边界及8100 ATP接口单元提供了可验证的真实接口功能。；真实allocation=alloc_ALLOC_F_8127_02_8127"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8100_01",
+    "function_name": "控制运行、实施保护与限制",
+    "owner_product_id": "8100",
+    "owner_product_name": "列车主干网及安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8100_01_8100"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8120_01",
+    "function_name": "控制运行、实施保护与限制",
+    "owner_product_id": "8120",
+    "owner_product_name": "控制单元及输入输出模块",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8120_01_8120"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8121_01",
+    "function_name": "控制主控制单元运行",
+    "owner_product_id": "8121",
+    "owner_product_name": "主控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8121_01_8121"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8121_02",
+    "function_name": "协调主控制单元接口交互",
+    "owner_product_id": "8121",
+    "owner_product_name": "主控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8121_02_8121"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8121_03",
+    "function_name": "报告主控制单元运行状态",
+    "owner_product_id": "8121",
+    "owner_product_name": "主控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8121_03_8121"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8122_01",
+    "function_name": "控制车辆控制单元运行",
+    "owner_product_id": "8122",
+    "owner_product_name": "车辆控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8122_01_8122"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8122_02",
+    "function_name": "协调车辆控制单元接口交互",
+    "owner_product_id": "8122",
+    "owner_product_name": "车辆控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8122_02_8122"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8122_04",
+    "function_name": "报告车辆控制单元运行状态",
+    "owner_product_id": "8122",
+    "owner_product_name": "车辆控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8122_04_8122"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8122_05",
+    "function_name": "统计车辆控制单元运行数据",
+    "owner_product_id": "8122",
+    "owner_product_name": "车辆控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8122_05_8122"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8125_01",
+    "function_name": "控制列车级牵引控制单元运行",
+    "owner_product_id": "8125",
+    "owner_product_name": "列车级牵引控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8125_01_8125"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8125_02",
+    "function_name": "协调列车级牵引控制单元接口交互",
+    "owner_product_id": "8125",
+    "owner_product_name": "列车级牵引控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8125_02_8125"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8125_03",
+    "function_name": "限制并保护列车级牵引控制单元运行",
+    "owner_product_id": "8125",
+    "owner_product_name": "列车级牵引控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8125_03_8125"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8125_04",
+    "function_name": "报告列车级牵引控制单元运行状态",
+    "owner_product_id": "8125",
+    "owner_product_name": "列车级牵引控制单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8125_04_8125"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8128_01",
+    "function_name": "路由输入输出单元输入输出信号",
+    "owner_product_id": "8128",
+    "owner_product_name": "输入输出单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8128_01_8128"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8128_02",
+    "function_name": "协调输入输出单元接口交互",
+    "owner_product_id": "8128",
+    "owner_product_name": "输入输出单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8128_02_8128"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8128_03",
+    "function_name": "报告输入输出单元运行状态",
+    "owner_product_id": "8128",
+    "owner_product_name": "输入输出单元",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8128_03_8128"
+  },
+  {
+    "requirement_id": "DRV-CTL-002",
+    "requirement_name": "车载控制单元协调与状态报告",
+    "function_id": "FN_F_8160_01",
+    "function_name": "控制运行、反馈运行状态",
+    "owner_product_id": "8160",
+    "owner_product_name": "其它附件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "当前需求只覆盖个别制动安全或储能通信现象，未表达车载主控、车辆控制、牵引控制及I/O控制接口协调与状态报告这一组系统级能力；各Function均属于8100真实Product树。；真实allocation=alloc_ALLOC_F_8160_01_8160"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8150_01",
+    "function_name": "执行安全控制、反馈运行状态",
+    "owner_product_id": "8150",
+    "owner_product_name": "整车级安全回路及其附件",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8150_01_8150"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8151_01",
+    "function_name": "执行高压安全回路安全逻辑",
+    "owner_product_id": "8151",
+    "owner_product_name": "高压安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8151_01_8151"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8151_02",
+    "function_name": "报告高压安全回路运行状态",
+    "owner_product_id": "8151",
+    "owner_product_name": "高压安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8151_02_8151"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8152_01",
+    "function_name": "执行制动安全回路安全逻辑",
+    "owner_product_id": "8152",
+    "owner_product_name": "制动安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8152_01_8152"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8152_02",
+    "function_name": "报告制动安全回路运行状态",
+    "owner_product_id": "8152",
+    "owner_product_name": "制动安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8152_02_8152"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8154_01",
+    "function_name": "执行牵引安全回路安全逻辑",
+    "owner_product_id": "8154",
+    "owner_product_name": "牵引安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8154_01_8154"
+  },
+  {
+    "requirement_id": "DRV-CTL-003",
+    "requirement_name": "牵引与高压安全回路逻辑及状态",
+    "function_id": "FN_F_8154_02",
+    "function_name": "报告牵引安全回路运行状态",
+    "owner_product_id": "8154",
+    "owner_product_name": "牵引安全回路",
+    "mapping_type": "DERIVED_REQUIREMENT",
+    "evidence": "已有故障诊断需求涉及部分制动安全回路，但高压与牵引安全逻辑及状态反馈仍没有统一需求来源；8150、8151、8152、8154真实Functions支持该分组。；真实allocation=alloc_ALLOC_F_8154_02_8154"
+  }
+]

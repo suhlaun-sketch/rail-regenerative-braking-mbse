@@ -1,0 +1,250 @@
+{
+  "p_X130": [
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "label": "General View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "8dcd14b0-6259-3193-ad2c-743f394c68e4",
+      "source_element_id": "db495705-e917-319b-af55-a32ad63f4089",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_X130",
+      "applicable_root_id": "053855ce-5314-4393-a906-c542e657f3c2"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "label": "Action Flow View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "0d6e5145-02ea-336b-b4d4-9be6b0e63786",
+      "source_element_id": "ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_X130",
+      "applicable_root_id": "053855ce-5314-4393-a906-c542e657f3c2"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "label": "Interconnection View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "74c5d045-51d7-359f-9634-611d0f1bef3d",
+      "source_element_id": "e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_X130",
+      "applicable_root_id": "053855ce-5314-4393-a906-c542e657f3c2"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "label": "Requirements Table View",
+      "name": "view1",
+      "kind": "tableDescription",
+      "source_kind": "view",
+      "source_id": "f445c867-006e-3b07-9385-40143a87f533",
+      "source_element_id": "05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_X130",
+      "applicable_root_id": "053855ce-5314-4393-a906-c542e657f3c2"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "label": "State Transition View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e",
+      "source_element_id": "be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_X130",
+      "applicable_root_id": "053855ce-5314-4393-a906-c542e657f3c2"
+    }
+  ],
+  "P_X130": [
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "label": "General View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "8dcd14b0-6259-3193-ad2c-743f394c68e4",
+      "source_element_id": "db495705-e917-319b-af55-a32ad63f4089",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_X130",
+      "applicable_root_id": "60b20a4d-fca1-42f1-8c0b-ee0350d63166"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "label": "Action Flow View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "0d6e5145-02ea-336b-b4d4-9be6b0e63786",
+      "source_element_id": "ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_X130",
+      "applicable_root_id": "60b20a4d-fca1-42f1-8c0b-ee0350d63166"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "label": "Interconnection View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "74c5d045-51d7-359f-9634-611d0f1bef3d",
+      "source_element_id": "e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_X130",
+      "applicable_root_id": "60b20a4d-fca1-42f1-8c0b-ee0350d63166"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "label": "Requirements Table View",
+      "name": "view2",
+      "kind": "tableDescription",
+      "source_kind": "view",
+      "source_id": "f445c867-006e-3b07-9385-40143a87f533",
+      "source_element_id": "05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_X130",
+      "applicable_root_id": "60b20a4d-fca1-42f1-8c0b-ee0350d63166"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "label": "State Transition View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e",
+      "source_element_id": "be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_X130",
+      "applicable_root_id": "60b20a4d-fca1-42f1-8c0b-ee0350d63166"
+    }
+  ],
+  "p_N_3110": [
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "label": "General View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "8dcd14b0-6259-3193-ad2c-743f394c68e4",
+      "source_element_id": "db495705-e917-319b-af55-a32ad63f4089",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_N_3110",
+      "applicable_root_id": "a4e706c0-df5b-4e26-9f68-b8104810379f"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "label": "Action Flow View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "0d6e5145-02ea-336b-b4d4-9be6b0e63786",
+      "source_element_id": "ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_N_3110",
+      "applicable_root_id": "a4e706c0-df5b-4e26-9f68-b8104810379f"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "label": "Interconnection View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "74c5d045-51d7-359f-9634-611d0f1bef3d",
+      "source_element_id": "e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_N_3110",
+      "applicable_root_id": "a4e706c0-df5b-4e26-9f68-b8104810379f"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "label": "Requirements Table View",
+      "name": "view1",
+      "kind": "tableDescription",
+      "source_kind": "view",
+      "source_id": "f445c867-006e-3b07-9385-40143a87f533",
+      "source_element_id": "05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_N_3110",
+      "applicable_root_id": "a4e706c0-df5b-4e26-9f68-b8104810379f"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "label": "State Transition View",
+      "name": "view1",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e",
+      "source_element_id": "be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "applicable_root_type": "PartUsage",
+      "applicable_root_label": "p_N_3110",
+      "applicable_root_id": "a4e706c0-df5b-4e26-9f68-b8104810379f"
+    }
+  ],
+  "P_N_3110": [
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "label": "General View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "8dcd14b0-6259-3193-ad2c-743f394c68e4",
+      "source_element_id": "db495705-e917-319b-af55-a32ad63f4089",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_N_3110",
+      "applicable_root_id": "84ab133b-2b20-4299-874d-fed8881583a8"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "label": "Action Flow View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "0d6e5145-02ea-336b-b4d4-9be6b0e63786",
+      "source_element_id": "ea3511e5-5ba5-3d2c-8e80-9182db336675",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_N_3110",
+      "applicable_root_id": "84ab133b-2b20-4299-874d-fed8881583a8"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "label": "Interconnection View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "74c5d045-51d7-359f-9634-611d0f1bef3d",
+      "source_element_id": "e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_N_3110",
+      "applicable_root_id": "84ab133b-2b20-4299-874d-fed8881583a8"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "label": "Requirements Table View",
+      "name": "view2",
+      "kind": "tableDescription",
+      "source_kind": "view",
+      "source_id": "f445c867-006e-3b07-9385-40143a87f533",
+      "source_element_id": "05ffd328-a162-3d7e-b09b-7757ef23ef01",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_N_3110",
+      "applicable_root_id": "84ab133b-2b20-4299-874d-fed8881583a8"
+    },
+    {
+      "description_id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "label": "State Transition View",
+      "name": "view2",
+      "kind": "diagramDescription",
+      "source_kind": "view",
+      "source_id": "067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e",
+      "source_element_id": "be71dab0-25e1-3180-90d0-24b31f68df8f",
+      "applicable_root_type": "PartDefinition",
+      "applicable_root_label": "P_N_3110",
+      "applicable_root_id": "84ab133b-2b20-4299-874d-fed8881583a8"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "magicdraw_installation": "DISCOVERED",
+  "install_path": "C:\\Program Files\\MagicDraw",
+  "sysml_plugin": {
+    "status": "DISCOVERED",
+    "plugin_xml": "C:\\Program Files\\MagicDraw\\plugins\\com.nomagic.magicdraw.sysml\\plugin.xml",
+    "id": "com.nomagic.magicdraw.plugins.impl.sysml",
+    "name": "SysML",
+    "version": "2022x",
+    "internal_version": "202200000",
+    "provider": "No Magic"
+  },
+  "magicdraw_builtin_profile": "DISCOVERED",
+  "builtin_sysml_profile": {
+    "path": "C:\\Program Files\\MagicDraw\\profiles\\SysML Profile.mdzip",
+    "sha256": "7212d1f74857f1b35c688cb73f4c6663b80d7d4413a2d301e981a40f53dca54b",
+    "project_ids": [
+      "PROJECT-44892a3bf693c0a47eb2f3bf10930f"
+    ],
+    "shared_model_member": "com.nomagic.magicdraw.uml_model.shared_model",
+    "profile_xmi_id": "_11_5EAPbeta_be00301_1147434586638_637562_1900",
+    "profile_name": "SysML",
+    "profile_uri": "http://www.omg.org/spec/SysML/20181001/SysML",
+    "stereotype_namespace": "http://www.omg.org/spec/SysML/20181001/SysML",
+    "profile_documentation": "OMG SysML 1.7 profile for MagicDraw."
+  },
+  "uml_standard_profile": {
+    "path": "C:\\Program Files\\MagicDraw\\profiles\\UML_Standard_Profile.mdzip",
+    "sha256": "1df8a78b2082dd020038b5d72bba35bb085889ff6da1e705d00964535e249257"
+  },
+  "magicdraw_sysml_template": {
+    "path": "C:\\Program Files\\MagicDraw\\templates\\SysML\\SysML.mdzip",
+    "sha256": "9764ea9dc43b8307ec26ce3d9ff4c74fa8f859832fb2b6c6b00d93ed1d7e6181",
+    "model_member": "com.nomagic.magicdraw.uml_model.model",
+    "xmi_xml_namespace": "http://www.omg.org/spec/XMI/20131001",
+    "uml_xml_namespace": "http://www.omg.org/spec/UML/20131001",
+    "standard_profile_namespace": "http://www.omg.org/spec/UML/20131001/StandardProfile",
+    "applied_profile_href": "http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML"
+  },
+  "alias_configuration": {
+    "sysml_alias_path": "C:\\Program Files\\MagicDraw\\data\\sysml.alias.properties",
+    "uml_alias_path": "C:\\Program Files\\MagicDraw\\data\\alias.properties",
+    "sysml_evidence": [
+      {
+        "line": 8,
+        "text": "mdprofile_to_standard_profile_uri.http\\://www.magicdraw.com/schemas/sysml.xmi=http://www.omg.org/spec/SysML/20181001/SysML"
+      },
+      {
+        "line": 20,
+        "text": "profile.http\\://www.omg.org/spec/SysML/20181001/SysML.xmi=MD_customization_for_SysML.mdzip"
+      },
+      {
+        "line": 719,
+        "text": "id_to_href._11_5EAPbeta_be00301_1147424179914_458922_958=http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML.Block"
+      },
+      {
+        "line": 723,
+        "text": "id_to_href._11_5EAPbeta_be00301_1147431307463_773225_1455=http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML.NestedConnectorEnd"
+      },
+      {
+        "line": 738,
+        "text": "id_to_href._17_0_3_17530432_1320213131032_5397_2410=http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML.ProxyPort"
+      },
+      {
+        "line": 745,
+        "text": "id_to_href._11_5EAPbeta_be00301_1147866646230_488749_1541=http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML.Allocate"
+      },
+      {
+        "line": 750,
+        "text": "id_to_href._11_0_be00301_1147691436170_978680_223=http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML.ItemFlow"
+      }
+    ],
+    "uml_evidence": [
+      {
+        "line": 68,
+        "text": "uml_export.uml_namespace=http://www.omg.org/spec/UML/20131001"
+      },
+      {
+        "line": 69,
+        "text": "uml_export.uml_metatypes=http://www.omg.org/spec/UML/20131001/UML.xmi"
+      },
+      {
+        "line": 120,
+        "text": "xmi_to_mof24_xmi.regexp.http\\://www\\\\.omg\\\\.org/spec/XMI/([0-9](\\\\.)?)+=http\\://www.omg.org/spec/XMI/20131001"
+      },
+      {
+        "line": 121,
+        "text": "uml_to_mof24_uml.regexp.http\\://www\\\\.omg\\\\.org/spec/UML/([0-9](\\\\.)?)+=http\\://www.omg.org/spec/UML/20131001"
+      }
+    ]
+  },
+  "installed_serialization_samples": {
+    "Block": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\Data Markings\\secret aircraft model.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:Block xmi:id='_2022x_2e60112_1637852532146_954554_5217_application' base_Class='_2022x_2e60112_1637852532146_954554_5217'/>"
+    },
+    "InterfaceBlock": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\MagicGrid\\Sample by Cells\\1 Problem Domain\\2 White Box\\2_VehicleCCU_W3.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:InterfaceBlock xmi:id='_18_5_2_8850270_1512573167794_869372_15760' base_Class='_18_5_2_8850270_1512573167794_204344_15759'/>"
+    },
+    "ProxyPort": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\DDS\\5_3_1\\HomeController.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:ProxyPort xmi:id='_19_0_2_18b2041b_1567076767699_818054_44019' base_Port='_19_0_2_18b2041b_1567076767699_740400_44018'/>"
+    },
+    "FlowProperty": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\MagicGrid\\Sample by Cells\\1 Problem Domain\\2 White Box\\2_VehicleCCU_W3.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:FlowProperty xmi:id='_18_5_2_8850270_1512640055154_852267_15344' base_Property='_18_5_2_8850270_1512640055154_434120_15343' direction='in'/>"
+    },
+    "NestedConnectorEnd": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\DDS\\5_3_1\\Thermostat.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:NestedConnectorEnd xmi:id='_19_0_2_18b2041b_1567166024045_507216_44992' base_ConnectorEnd='_19_0_2_18b2041b_1567166023992_322705_44974' propertyPath='_19_0_2_18b2041b_1567165963941_695034_44854'/>"
+    },
+    "ItemFlow": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\MagicGrid\\Sample by Cells\\1 Problem Domain\\1 Black Box\\4_VehicleCCU_B3_final.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:ItemFlow xmi:id='_18_5_2_8850270_1512479180899_299318_15569' base_InformationFlow='_18_5_2_8850270_1512479180899_10281_15568'/>"
+    },
+    "Allocate": {
+      "file": "C:\\Program Files\\MagicDraw\\samples\\MagicGrid\\Sample by Cells\\1 Problem Domain\\1 Black Box\\3_VehicleCCU_B2.mdzip",
+      "member": "com.nomagic.magicdraw.uml_model.model",
+      "serialization": "<sysml:Allocate xmi:id='_18_5_2_8850270_1512478225650_650572_15517' base_Abstraction='_18_5_2_8850270_1512478225650_642130_15516'/>"
+    }
+  },
+  "read_only_inventory": true
+}

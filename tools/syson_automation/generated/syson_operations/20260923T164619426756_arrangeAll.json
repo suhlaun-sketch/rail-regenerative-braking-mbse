@@ -1,0 +1,18 @@
+{
+  "operation_name": "arrangeAll",
+  "timestamp": "2026-09-23T16:46:19.322375+00:00",
+  "variables": {
+    "input": {
+      "id": "f514b7d7-27f6-4a6c-a23d-bc7c79f61822",
+      "editingContextId": "967a4588-11d1-435d-ba59-2412f2e63002",
+      "representationId": "7792b02d-60e4-436c-87a7-b2dee94db2fa"
+    }
+  },
+  "representation_id": "7792b02d-60e4-436c-87a7-b2dee94db2fa",
+  "response": {
+    "arrangeAll": {
+      "__typename": "SuccessPayload"
+    }
+  },
+  "error": null
+}

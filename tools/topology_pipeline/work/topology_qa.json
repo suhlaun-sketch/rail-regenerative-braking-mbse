@@ -1,0 +1,139 @@
+{
+  "summary": {
+    "kg_sha256": "8968c94456c651179586d014e54d8312fa44798107e644ab4af7b6b471f7810b",
+    "Product": 147,
+    "Item": 144,
+    "Profile": 1,
+    "CONTAINS": 139,
+    "EXPOSES": 517,
+    "Active_EXPOSES": 511,
+    "Inactive_EXPOSES": 6,
+    "Port_nodes": 0,
+    "interface_compatible_raw_candidates": 1124,
+    "hard_rule_candidates": 147,
+    "candidate_modes": {
+      "BOUNDARY": 11,
+      "SERIES": 26,
+      "SIGNAL": 96,
+      "TAP": 14
+    },
+    "net_count": 9,
+    "net_member_count": 83,
+    "variant_conflicts": 2,
+    "unresolved_routes": 6,
+    "coverage_counts": {
+      "EXTERNAL_BOUNDARY": 11,
+      "CONNECTED": 205,
+      "TAP_CONNECTED": 17,
+      "OPTIONAL_OPEN": 122,
+      "NET_MEMBER": 74,
+      "UNRESOLVED": 82
+    },
+    "hard_rule_violations": 0
+  },
+  "checks": {
+    "kg_v1_frozen": true,
+    "coverage_exactly_once": true,
+    "candidate_endpoints_active": true,
+    "hard_rule_violations_zero": true,
+    "net_member_violations_zero": true,
+    "unique_net_membership": true,
+    "dc_link_not_clique": true,
+    "dc_storage_domains_separated": true,
+    "no_motor_mechanical_shortcuts": true,
+    "sensor_taps_not_series": true,
+    "no_final_CONNECTS_TO": true
+  },
+  "global_closure_qa": [
+    {
+      "name": "AC主供电路径",
+      "status": "PASS",
+      "missing": "none"
+    },
+    {
+      "name": "主变二次交流路径",
+      "status": "WARNING",
+      "missing": "5121/5122输入链的具体部署/支路选择尚无证据；已阻止高压交流跨主变直连5131。"
+    },
+    {
+      "name": "DC Link网络",
+      "status": "PASS",
+      "missing": "5145无ITM-PHY-003物理口，按实际Port结构作为检测保护信号设备，不伪造Net成员。"
+    },
+    {
+      "name": "电机三相交流路径",
+      "status": "PASS",
+      "missing": "none"
+    },
+    {
+      "name": "机械牵引路径",
+      "status": "WARNING",
+      "missing": "联轴节variant未选择；Motor→候选Coupling→Gearbox高速侧→低速侧→Axle→Wheel候选链均已生成。"
+    },
+    {
+      "name": "再生回馈路径",
+      "status": "WARNING",
+      "missing": "依赖未决Coupling variant；物理候选保持双向，未生成跨级捷径。"
+    },
+    {
+      "name": "超级电容储能路径",
+      "status": "PASS",
+      "missing": "none"
+    },
+    {
+      "name": "制动电阻耗散路径",
+      "status": "PASS",
+      "missing": "none"
+    },
+    {
+      "name": "服务制动控制路径",
+      "status": "WARNING",
+      "missing": "部分Command存在多源或I/O部署歧义，保留UNRESOLVED而未直接驱动气动设备。"
+    },
+    {
+      "name": "ATP/紧急制动路径",
+      "status": "WARNING",
+      "missing": "E100/8127/安全逻辑的I/O部署与命令仲裁存在UNRESOLVED_ROUTE。"
+    },
+    {
+      "name": "气动制动执行路径",
+      "status": "WARNING",
+      "missing": "候选气动Net已形成，但单端口卡钳的内部力传递粒度不足，不伪造额外Port。"
+    },
+    {
+      "name": "主回路回流路径",
+      "status": "WARNING",
+      "missing": "NET-MAIN-RETURN-01已建立，至轮轨/变电所回流边界的明确端口证据不足。"
+    }
+  ],
+  "voltage_continuity": {
+    "status": "PASS",
+    "observations": {
+      "U_grid": {
+        "location": "BOUNDARY-CATENARY-25KV / 4111接触面",
+        "ok": true
+      },
+      "U_transformer_primary": {
+        "location": "4511 ITM-PHY-001 boundary",
+        "ok": true
+      },
+      "U_transformer_secondary": {
+        "location": "4511 ITM-PHY-014 boundary",
+        "ok": true
+      },
+      "U_dc": {
+        "location": "NET-DC-LINK-01",
+        "ok": true
+      },
+      "U_motor": {
+        "location": "5132↔5311 ITM-PHY-004 boundary",
+        "ok": true
+      },
+      "U_sc": {
+        "location": "NET-STORAGE-DC-SC-01 / X121",
+        "ok": true
+      }
+    }
+  },
+  "overall": "PASS"
+}

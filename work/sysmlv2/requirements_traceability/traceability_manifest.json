@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "frozen_sysml_sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+  "expected_frozen_sysml_sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+  "requirement_count": 34,
+  "function_count": 191,
+  "product_count": 147,
+  "requirement_function_relations": 102,
+  "mapping_source_counts": {
+    "EXPLICIT": 3,
+    "MODEL_DERIVED": 99
+  },
+  "resolution_counts": {
+    "FULLY_RESOLVED": 20,
+    "PARTIALLY_RESOLVED": 14
+  },
+  "semantic_assisted_candidate_count": 0,
+  "owner_allocation_relations": 191,
+  "l2_aggregate_interface_groups": 38,
+  "flow_level_interaction_records": 74,
+  "function_specific_interactions_confirmed": 0,
+  "unresolved_requirement_ids": [],
+  "files": [
+    "01_RequirementDefinitions.sysml",
+    "02_RequirementUsages.sysml",
+    "03_RequirementFunctionTrace.sysml",
+    "04_FunctionProductAllocationTrace.sysml",
+    "05_FunctionInteractionTrace.sysml",
+    "06_RequirementTraceability_AllInOne.sysml"
+  ],
+  "import_order": [
+    "full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml",
+    "01_RequirementDefinitions.sysml",
+    "02_RequirementUsages.sysml",
+    "03_RequirementFunctionTrace.sysml",
+    "04_FunctionProductAllocationTrace.sysml",
+    "05_FunctionInteractionTrace.sysml"
+  ],
+  "all_in_one_import_after": "full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml",
+  "validation": {
+    "structural_consistency": "PASS",
+    "official_sysml_pilot_0_59_0": "NOT_RUN_LOCAL_JAR_UNAVAILABLE"
+  }
+}

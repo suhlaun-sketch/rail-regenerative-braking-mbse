@@ -1,0 +1,44 @@
+name: rail-syson-2026-9-test
+
+services:
+  database:
+    image: postgres:15
+    container_name: rail-syson-2026-9-test-db
+    environment:
+      POSTGRES_DB: syson_test
+      POSTGRES_USER: syson_test
+      POSTGRES_PASSWORD: ${SYSON_DB_PASSWORD:?Set SYSON_DB_PASSWORD}
+    volumes:
+      - test_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U syson_test -d syson_test"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - test_network
+
+  app:
+    image: eclipsesyson/syson:v2026.9.0
+    container_name: rail-syson-2026-9-test-app
+    ports:
+      - "127.0.0.1:8090:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/syson_test
+      SPRING_DATASOURCE_USERNAME: syson_test
+      SPRING_DATASOURCE_PASSWORD: ${SYSON_DB_PASSWORD:?Set SYSON_DB_PASSWORD}
+      SIRIUS_COMPONENTS_CORS_ALLOWEDORIGINPATTERNS: "*"
+      SERVER_PORT: "8080"
+    depends_on:
+      database:
+        condition: service_healthy
+    networks:
+      - test_network
+
+volumes:
+  test_pgdata:
+    name: rail_syson_2026_9_test_pgdata
+
+networks:
+  test_network:
+    name: rail_syson_2026_9_test_network

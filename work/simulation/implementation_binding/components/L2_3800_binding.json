@@ -1,0 +1,23 @@
+{
+  "ssd_component_id": "L2_3800",
+  "ssd_component_name": "L2_3800",
+  "l2_code": "3800",
+  "l2_engineering_name": "辅助增粘及轮缘润滑",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_3800::p_3811_rp_81d4e1a7092e0653",
+      "ssd_connector_name": "p_3811_rp_81d4e1a7092e0653",
+      "simulink_port_name": "p_3811_rp_81d4e1a7092e0653",
+      "future_fmu_variable": "p_3811_rp_81d4e1a7092e0653",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [],
+  "total_connectors": 1,
+  "connected_l2_peers": [
+    "L2_8100"
+  ],
+  "future_simulink": "L2_3800.slx",
+  "future_fmu": "L2_3800.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

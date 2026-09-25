@@ -1,0 +1,1280 @@
+{
+  "view": "AUTO_IBD_X130",
+  "smoke_view": "AUTO_V3_IBD_X130",
+  "root_product": "X130",
+  "smoke_representation_id": "94cea473-1328-4930-8e2a-9cc1c4d28686",
+  "smoke_url": "http://localhost:8080/projects/e44ac856-b4b0-4fb8-a94a-0ce1a6d722b8/edit/94cea473-1328-4930-8e2a-9cc1c4d28686",
+  "live_queryback": {
+    "top_level_nodes": 1,
+    "graphical_nodes": 123,
+    "graphical_edges": 1,
+    "matches_persisted": true
+  },
+  "direct_children": [
+    "X131",
+    "X132",
+    "X133"
+  ],
+  "model_semantic_ownership": "PartDefinition-owned ports inherited by PartUsage",
+  "summary": {
+    "semantic_ports": 18,
+    "inherited_ports": 18,
+    "root_boundary_ports_expected": 5,
+    "root_boundary_ports_rendered": 5,
+    "root_boundary_ports_standalone": 0,
+    "child_endpoint_ports_expected": 7,
+    "child_endpoint_ports_rendered": 7,
+    "connected_child_parts": 3,
+    "connected_child_parts_with_visible_endpoint_ports": 3,
+    "old_standalone_ports": 18,
+    "smoke_standalone_ports": 0,
+    "smoke_orphan_ports": 0,
+    "old_port_to_port_edges": 1,
+    "smoke_port_to_port_edges": 1,
+    "expected_current_level_edges": 6,
+    "visible_current_level_edges": 1,
+    "missing_current_level_relation_ids": [
+      "11155b2f-fe65-498e-9541-fe606dff1e80",
+      "4e0e6326-af5d-4fa2-86f3-0da2f355e224",
+      "758fa5d5-0f1a-42df-ab7b-6ba7b076bfb2",
+      "e39bb6c1-1fe4-4bf0-b6bb-fa11142fdb5f",
+      "efab168c-4bdc-4e24-9113-81d66d068878"
+    ],
+    "view_kind": "General View",
+    "semantic_view_type": "InterconnectionView",
+    "part_count": 3,
+    "port_count": 12,
+    "edge_count": 1,
+    "hierarchy_ok": true,
+    "grandchild_or_external_part_leakage": 0,
+    "live_queryback_ok": true,
+    "block_internal_id_label_failures": 4,
+    "port_internal_id_label_failures": 12,
+    "connection_internal_id_label_failures": 0
+  },
+  "ports": [
+    {
+      "port_name": "bp_X130_0107c4d21e8f",
+      "port_object_id": "2e7f2a6a-f579-41a4-badf-f1869d42fdde",
+      "port_definition_or_type": "4e794d10-b7e6-463c-8a1c-829ca88e9e68",
+      "direction": "in",
+      "semantic_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "semantic_owner_name": "P_X130",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X130",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能预充电指令",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_X130",
+      "expected_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "8a724d28-3633-3931-b2ad-cd1406ab2682",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_X130_0107c4d21e8f : ~PT_PT_CMD_028",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "1b5c4346-4ccf-39d1-9cf7-a3017237ea56",
+          "border_node": true,
+          "displayed_label": "bp_X130_0107c4d21e8f : ~PT_PT_CMD_028",
+          "graphical_parent_id": "ce786099-5637-31ca-a7a0-7fc5f9715a40",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_X130",
+          "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "407c8f6b-035a-4d19-b26c-901324ef7c8e",
+        "758fa5d5-0f1a-42df-ab7b-6ba7b076bfb2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_X130_3735b6064778",
+      "port_object_id": "c9162fb7-0ff8-4f11-b681-2b6447b69ebb",
+      "port_definition_or_type": "PT_PT_STA_034",
+      "direction": "out",
+      "semantic_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "semantic_owner_name": "P_X130",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X130",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能保护跳闸状态",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_X130",
+      "expected_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "2589723d-680e-3111-8cc3-fef40a56825f",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_X130_3735b6064778 : PT_PT_STA_034",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "f7996d7b-ccde-3aaf-b169-8163a7244cee",
+          "border_node": true,
+          "displayed_label": "bp_X130_3735b6064778 : PT_PT_STA_034",
+          "graphical_parent_id": "ce786099-5637-31ca-a7a0-7fc5f9715a40",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_X130",
+          "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "4a342b09-207b-4585-b856-7724d66aee81",
+        "e39bb6c1-1fe4-4bf0-b6bb-fa11142fdb5f"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_X130_82a4cd60f068",
+      "port_object_id": "b6a0b36e-2a23-48fd-b56c-8df2286ad6ce",
+      "port_definition_or_type": "b314c1d1-0b45-485d-be2c-7c40db3b486e",
+      "direction": "in",
+      "semantic_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "semantic_owner_name": "P_X130",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X130",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能主接触器指令",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_X130",
+      "expected_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "f8fe2f05-496c-34d5-aaf7-6758f4dacd72",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_X130_82a4cd60f068 : ~PT_PT_CMD_027",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "15627845-009a-38ea-ae3c-e7a5ca03ec52",
+          "border_node": true,
+          "displayed_label": "bp_X130_82a4cd60f068 : ~PT_PT_CMD_027",
+          "graphical_parent_id": "ce786099-5637-31ca-a7a0-7fc5f9715a40",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_X130",
+          "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "11155b2f-fe65-498e-9541-fe606dff1e80",
+        "429fbc06-d8e6-4a14-b7e9-926d2336de5c"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_X130_8eb934167d47",
+      "port_object_id": "2071cf92-eb3f-4313-b14e-0aaadb2d7867",
+      "port_definition_or_type": "PT_PT_STA_032",
+      "direction": "out",
+      "semantic_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "semantic_owner_name": "P_X130",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X130",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能主接触器状态",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_X130",
+      "expected_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "ec16aa35-3f72-3c90-97e4-bf45347bf92d",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_X130_8eb934167d47 : PT_PT_STA_032",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "b0c91a35-8682-3798-b294-c4dc9a76f38f",
+          "border_node": true,
+          "displayed_label": "bp_X130_8eb934167d47 : PT_PT_STA_032",
+          "graphical_parent_id": "ce786099-5637-31ca-a7a0-7fc5f9715a40",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_X130",
+          "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "0d3db70e-61bb-4017-8afc-e046bafeef13",
+        "4e0e6326-af5d-4fa2-86f3-0da2f355e224"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_X130_f038b58ff886",
+      "port_object_id": "5ed339d3-c816-4bea-a2b9-45fadeb9f636",
+      "port_definition_or_type": "PT_PT_STA_033",
+      "direction": "out",
+      "semantic_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "semantic_owner_name": "P_X130",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X130",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能预充电状态",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_X130",
+      "expected_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "c573e8e5-90b1-3f76-8bfb-8973188c84ba",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_X130_f038b58ff886 : PT_PT_STA_033",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "cd093d44-4cf2-3691-b0e9-cbe9e8cdec4d",
+          "border_node": true,
+          "displayed_label": "bp_X130_f038b58ff886 : PT_PT_STA_033",
+          "graphical_parent_id": "ce786099-5637-31ca-a7a0-7fc5f9715a40",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_X130",
+          "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "1ce2f206-827f-4c6b-a5c0-37dd18725102",
+        "efab168c-4bdc-4e24-9113-81d66d068878"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_06282bbd1af76861",
+      "port_object_id": "3b4f0d1c-7318-44de-8501-55033755bbf4",
+      "port_definition_or_type": "PT_PT_PHY_016",
+      "direction": "双向物理",
+      "semantic_owner_id": "2a088e8e-7415-4bb2-a0d5-3fcb2f1d6dcd",
+      "semantic_owner_name": "P_X133",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X133",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "保护输入段储能侧直流电能端口",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_X133",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "29953d36-6e42-3013-ae5a-72999edf66af",
+          "border_node": true,
+          "displayed_label": "^rp_06282bbd1af76861 : PT_PT_PHY_016",
+          "graphical_parent_id": "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X133",
+          "current_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1"
+        },
+        {
+          "graphical_node_id": "28544f13-cfad-3a8b-9b62-0bd11370a898",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_06282bbd1af76861 : PT_PT_PHY_016",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_0ac161b92c0e41a0",
+      "port_object_id": "e45cc713-4777-4498-9b4c-cb1b74147f60",
+      "port_definition_or_type": "PT_PT_STA_031",
+      "direction": "输出",
+      "semantic_owner_id": "2a088e8e-7415-4bb2-a0d5-3fcb2f1d6dcd",
+      "semantic_owner_name": "P_X133",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X133",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能系统故障状态输出",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_X133",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "1becd70a-1422-3eb2-8664-2a3427b6f4de",
+          "border_node": true,
+          "displayed_label": "^rp_0ac161b92c0e41a0 : PT_PT_STA_031",
+          "graphical_parent_id": "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X133",
+          "current_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1"
+        },
+        {
+          "graphical_node_id": "89de1973-bd6e-384c-84bc-800a1266ee9b",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_0ac161b92c0e41a0 : PT_PT_STA_031",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_0fa709507856ec0b",
+      "port_object_id": "a5fb2c81-8cc4-424c-9000-d8709f4d17b4",
+      "port_definition_or_type": "PT_PT_PHY_016",
+      "direction": "双向物理",
+      "semantic_owner_id": "290d7964-1307-432f-b391-326d8976167e",
+      "semantic_owner_name": "P_X132",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X132",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "预充输入段储能侧直流电能端口",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_X132",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "e822a412-6aca-3a5d-abc1-ece870edf17f",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "d2c70f68-30fe-38f7-a0b9-9a02f73292de",
+          "border_node": true,
+          "displayed_label": "^rp_0fa709507856ec0b : PT_PT_PHY_016",
+          "graphical_parent_id": "e822a412-6aca-3a5d-abc1-ece870edf17f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        },
+        {
+          "graphical_node_id": "1df7060f-48a5-3ff5-84eb-276ca3d0482d",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_0fa709507856ec0b : PT_PT_PHY_016",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_1d9e411fc4e0ebf9",
+      "port_object_id": "862542a3-efe5-4f07-9f1f-04f9c951aac4",
+      "port_definition_or_type": "PT_PT_PHY_016",
+      "direction": "双向物理",
+      "semantic_owner_id": "290d7964-1307-432f-b391-326d8976167e",
+      "semantic_owner_name": "P_X132",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X132",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "预充输出段储能侧直流电能端口",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X132",
+      "expected_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af",
+      "current_graphical_owner": [
+        "p_X132",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "e822a412-6aca-3a5d-abc1-ece870edf17f",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "75aa97fd-a8a7-3841-81f4-be93ed57d82e",
+          "border_node": true,
+          "displayed_label": "^rp_1d9e411fc4e0ebf9 : PT_PT_PHY_016",
+          "graphical_parent_id": "e822a412-6aca-3a5d-abc1-ece870edf17f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        },
+        {
+          "graphical_node_id": "7562a9bf-00c6-3147-ba54-c13e9987f35f",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_1d9e411fc4e0ebf9 : PT_PT_PHY_016",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "c2b67afe-5142-309c-bc84-528078578bff",
+          "border_node": true,
+          "displayed_label": "^rp_1d9e411fc4e0ebf9 : PT_PT_PHY_016",
+          "graphical_parent_id": "3217281b-0d51-3aec-b445-9acb3c232242",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": true,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "9eac1f8d-786e-4e6d-bca6-e86bd1406048"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_49a2b1a2497ebf63",
+      "port_object_id": "f50303c3-f961-4e0f-9e21-f20fc5b19371",
+      "port_definition_or_type": "PT_PT_PHY_016",
+      "direction": "双向物理",
+      "semantic_owner_id": "2a088e8e-7415-4bb2-a0d5-3fcb2f1d6dcd",
+      "semantic_owner_name": "P_X133",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X133",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "保护输出段储能侧直流电能端口",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_X133",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "a98f04b4-98f6-3198-bd52-7ef4f3c80934",
+          "border_node": true,
+          "displayed_label": "^rp_49a2b1a2497ebf63 : PT_PT_PHY_016",
+          "graphical_parent_id": "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X133",
+          "current_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1"
+        },
+        {
+          "graphical_node_id": "391bb866-527b-3680-a9cb-0d05bbafddbd",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_49a2b1a2497ebf63 : PT_PT_PHY_016",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_4d68d3f9ee4e0009",
+      "port_object_id": "cc326561-db3f-4c22-b9c3-c3f7cf42818e",
+      "port_definition_or_type": "4e794d10-b7e6-463c-8a1c-829ca88e9e68",
+      "direction": "输入",
+      "semantic_owner_id": "290d7964-1307-432f-b391-326d8976167e",
+      "semantic_owner_name": "P_X132",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X132",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能预充电指令输入",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X132",
+      "expected_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af",
+      "current_graphical_owner": [
+        "p_X132",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "e822a412-6aca-3a5d-abc1-ece870edf17f",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "74512e31-541a-3222-87f2-4ba17407364a",
+          "border_node": true,
+          "displayed_label": "^rp_4d68d3f9ee4e0009 : ~PT_PT_CMD_028",
+          "graphical_parent_id": "e822a412-6aca-3a5d-abc1-ece870edf17f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        },
+        {
+          "graphical_node_id": "874b87fd-2ae7-32c1-b813-e6d836d3798d",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_4d68d3f9ee4e0009 : ~PT_PT_CMD_028",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "bfaab74e-913f-38b1-bd18-c8508ae364b0",
+          "border_node": true,
+          "displayed_label": "^rp_4d68d3f9ee4e0009 : ~PT_PT_CMD_028",
+          "graphical_parent_id": "3217281b-0d51-3aec-b445-9acb3c232242",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "07b8cca7-e817-481c-b0e1-c37a7c4d4a6b",
+        "758fa5d5-0f1a-42df-ab7b-6ba7b076bfb2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_53191daa39f85d49",
+      "port_object_id": "9026c663-13e2-40a6-87ae-ade8fca600ed",
+      "port_definition_or_type": "PT_PT_STA_033",
+      "direction": "输出",
+      "semantic_owner_id": "290d7964-1307-432f-b391-326d8976167e",
+      "semantic_owner_name": "P_X132",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X132",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能预充电状态输出",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X132",
+      "expected_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af",
+      "current_graphical_owner": [
+        "p_X132",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "e822a412-6aca-3a5d-abc1-ece870edf17f",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "2365dfdf-598c-320a-8f6f-3ff6ef151bdf",
+          "border_node": true,
+          "displayed_label": "^rp_53191daa39f85d49 : PT_PT_STA_033",
+          "graphical_parent_id": "e822a412-6aca-3a5d-abc1-ece870edf17f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        },
+        {
+          "graphical_node_id": "69734999-a8e3-3a16-896c-62ed9da651ee",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_53191daa39f85d49 : PT_PT_STA_033",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "cc52b939-4d29-341e-9011-703c61dd5020",
+          "border_node": true,
+          "displayed_label": "^rp_53191daa39f85d49 : PT_PT_STA_033",
+          "graphical_parent_id": "3217281b-0d51-3aec-b445-9acb3c232242",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X132",
+          "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "6c5741bc-20f1-4afe-914b-91203911c765",
+        "efab168c-4bdc-4e24-9113-81d66d068878"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_6bdc28fa4761142d",
+      "port_object_id": "59faadb2-4e33-43df-b07e-bdd461a200e4",
+      "port_definition_or_type": "PT_PT_PHY_016",
+      "direction": "双向物理",
+      "semantic_owner_id": "bc08935b-151a-4f89-b954-8decbc6a5eee",
+      "semantic_owner_name": "P_X131",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X131",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "负载段储能侧直流电能端口",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X131",
+      "expected_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017",
+      "current_graphical_owner": [
+        "p_X131",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "b9950a51-db2f-31f8-8112-faea0e58b31d",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "e30eb064-32c9-3d74-b81e-f26d0687af1b",
+          "border_node": true,
+          "displayed_label": "^rp_6bdc28fa4761142d : PT_PT_PHY_016",
+          "graphical_parent_id": "b9950a51-db2f-31f8-8112-faea0e58b31d",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        },
+        {
+          "graphical_node_id": "2ef6da55-7a94-3fca-863c-877a2ec8d51e",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_6bdc28fa4761142d : PT_PT_PHY_016",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "cc5b924b-3a22-3808-b94f-6c8d043303e4",
+          "border_node": true,
+          "displayed_label": "^rp_6bdc28fa4761142d : PT_PT_PHY_016",
+          "graphical_parent_id": "1e295446-c96e-3bbe-8fb3-090612496416",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": true,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "9eac1f8d-786e-4e6d-bca6-e86bd1406048"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_b06975e1baff62be",
+      "port_object_id": "8a77a741-69d3-4e24-9493-4ba69866d241",
+      "port_definition_or_type": "b314c1d1-0b45-485d-be2c-7c40db3b486e",
+      "direction": "输入",
+      "semantic_owner_id": "bc08935b-151a-4f89-b954-8decbc6a5eee",
+      "semantic_owner_name": "P_X131",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X131",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能主接触器指令输入",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X131",
+      "expected_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017",
+      "current_graphical_owner": [
+        "p_X131",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "b9950a51-db2f-31f8-8112-faea0e58b31d",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "eb889a06-cfd1-3cf5-898c-918bf9bb3512",
+          "border_node": true,
+          "displayed_label": "^rp_b06975e1baff62be : ~PT_PT_CMD_027",
+          "graphical_parent_id": "b9950a51-db2f-31f8-8112-faea0e58b31d",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        },
+        {
+          "graphical_node_id": "91106408-2a1c-30f6-b809-16ea365881b2",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_b06975e1baff62be : ~PT_PT_CMD_027",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "9e7db9aa-f681-3bcc-9536-5aea9b0894dd",
+          "border_node": true,
+          "displayed_label": "^rp_b06975e1baff62be : ~PT_PT_CMD_027",
+          "graphical_parent_id": "1e295446-c96e-3bbe-8fb3-090612496416",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "11155b2f-fe65-498e-9541-fe606dff1e80",
+        "91cee8e4-af45-432e-bc46-329d717b3af6"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_c029b3b1472e957d",
+      "port_object_id": "f0948954-dacd-4c10-b35e-21266f5eb3d9",
+      "port_definition_or_type": "PT_PT_STA_032",
+      "direction": "输出",
+      "semantic_owner_id": "bc08935b-151a-4f89-b954-8decbc6a5eee",
+      "semantic_owner_name": "P_X131",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X131",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能主接触器状态输出",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X131",
+      "expected_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017",
+      "current_graphical_owner": [
+        "p_X131",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "b9950a51-db2f-31f8-8112-faea0e58b31d",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "3281ebe0-5ceb-3433-8022-80c426187e05",
+          "border_node": true,
+          "displayed_label": "^rp_c029b3b1472e957d : PT_PT_STA_032",
+          "graphical_parent_id": "b9950a51-db2f-31f8-8112-faea0e58b31d",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        },
+        {
+          "graphical_node_id": "fcc93a34-2684-3104-92bd-d7246b9fc9ed",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_c029b3b1472e957d : PT_PT_STA_032",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "ac082e43-17b5-30fb-9dd0-0cfc70677c9b",
+          "border_node": true,
+          "displayed_label": "^rp_c029b3b1472e957d : PT_PT_STA_032",
+          "graphical_parent_id": "1e295446-c96e-3bbe-8fb3-090612496416",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "4e0e6326-af5d-4fa2-86f3-0da2f355e224",
+        "64852662-f91a-48d4-8865-ad55b610148d"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_da93423081013940",
+      "port_object_id": "21f17a4d-e1ea-4277-9a0b-0f6b7f8e1c29",
+      "port_definition_or_type": "PT_PT_PHY_015",
+      "direction": "双向物理",
+      "semantic_owner_id": "2a088e8e-7415-4bb2-a0d5-3fcb2f1d6dcd",
+      "semantic_owner_name": "P_X133",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X133",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "低压控制电能端口",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_X133",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "4d826d67-762c-3937-974c-903a534ad464",
+          "border_node": true,
+          "displayed_label": "^rp_da93423081013940 : PT_PT_PHY_015",
+          "graphical_parent_id": "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X133",
+          "current_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1"
+        },
+        {
+          "graphical_node_id": "e9093dd7-8cac-3ea5-9053-dbbc4a3fbe48",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_da93423081013940 : PT_PT_PHY_015",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_ef3e7082da0c5648",
+      "port_object_id": "472f47ea-5be2-4777-97ef-60f7359752be",
+      "port_definition_or_type": "PT_PT_PHY_016",
+      "direction": "双向物理",
+      "semantic_owner_id": "bc08935b-151a-4f89-b954-8decbc6a5eee",
+      "semantic_owner_name": "P_X131",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X131",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "母线段储能侧直流电能端口",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_X131",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "b9950a51-db2f-31f8-8112-faea0e58b31d",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "85e9f1a2-059d-3708-854e-a2f7744da529",
+          "border_node": true,
+          "displayed_label": "^rp_ef3e7082da0c5648 : PT_PT_PHY_016",
+          "graphical_parent_id": "b9950a51-db2f-31f8-8112-faea0e58b31d",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X131",
+          "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+        },
+        {
+          "graphical_node_id": "1967add6-66e3-32cd-90db-63fad2a1e138",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_ef3e7082da0c5648 : PT_PT_PHY_016",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_ffcdb33099ab8a28",
+      "port_object_id": "4cef9c1e-aeb5-4d85-9217-5df488d3ae1c",
+      "port_definition_or_type": "PT_PT_STA_034",
+      "direction": "输出",
+      "semantic_owner_id": "2a088e8e-7415-4bb2-a0d5-3fcb2f1d6dcd",
+      "semantic_owner_name": "P_X133",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "X133",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "储能保护跳闸状态输出",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_X133",
+      "expected_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1",
+      "current_graphical_owner": [
+        "p_X133",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "319da18d-e479-37a0-8ac8-42441e675897",
+          "border_node": true,
+          "displayed_label": "^rp_ffcdb33099ab8a28 : PT_PT_STA_034",
+          "graphical_parent_id": "ab6763d6-8101-3d75-a32d-991576f6fbcc",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X133",
+          "current_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1"
+        },
+        {
+          "graphical_node_id": "39b90919-d72e-3e43-8546-566d2391fb61",
+          "border_node": false,
+          "displayed_label": "«port»\nrp_ffcdb33099ab8a28 : PT_PT_STA_034",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "158bf351-2a35-3acf-8369-b9f1bf7e9714",
+          "border_node": true,
+          "displayed_label": "^rp_ffcdb33099ab8a28 : PT_PT_STA_034",
+          "graphical_parent_id": "4981fee3-27e3-3565-a2a3-c67b5630ec2a",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_X133",
+          "current_graphical_owner_id": "e1783208-a7d7-4413-9ef8-a41608a30ad1"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "5186b88c-b8e0-44a0-8cfa-164bbf44d48a",
+        "e39bb6c1-1fe4-4bf0-b6bb-fa11142fdb5f"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "old_edges": [
+    {
+      "edge_id": "ed854ad5-0a93-3194-afed-52bf293ef286",
+      "semantic_relation_id": "9eac1f8d-786e-4e6d-bca6-e86bd1406048",
+      "semantic_relation_name": "net_NET_STORAGE_DC_AFTER_CONTACTOR_01",
+      "source": {
+        "side": "source",
+        "graphical_node_id": "e30eb064-32c9-3d74-b81e-f26d0687af1b",
+        "semantic_object_id": "59faadb2-4e33-43df-b07e-bdd461a200e4",
+        "semantic_name": "rp_6bdc28fa4761142d",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "b9950a51-db2f-31f8-8112-faea0e58b31d",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_X131",
+        "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+      },
+      "target": {
+        "side": "target",
+        "graphical_node_id": "75aa97fd-a8a7-3841-81f4-be93ed57d82e",
+        "semantic_object_id": "862542a3-efe5-4f07-9f1f-04f9c951aac4",
+        "semantic_name": "rp_1d9e411fc4e0ebf9",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "e822a412-6aca-3a5d-abc1-ece870edf17f",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_X132",
+        "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+      },
+      "source_port_id": "59faadb2-4e33-43df-b07e-bdd461a200e4",
+      "target_port_id": "862542a3-efe5-4f07-9f1f-04f9c951aac4",
+      "displayed_label": "net_NET_STORAGE_DC_AFTER_CONTACTOR_01",
+      "label_visibility": "visible",
+      "visible": true,
+      "port_to_port": true
+    }
+  ],
+  "smoke_edges": [
+    {
+      "edge_id": "07eceda0-39bc-30d2-a25b-d60d1da8bc74",
+      "semantic_relation_id": "9eac1f8d-786e-4e6d-bca6-e86bd1406048",
+      "semantic_relation_name": "net_NET_STORAGE_DC_AFTER_CONTACTOR_01",
+      "source": {
+        "side": "source",
+        "graphical_node_id": "cc5b924b-3a22-3808-b94f-6c8d043303e4",
+        "semantic_object_id": "59faadb2-4e33-43df-b07e-bdd461a200e4",
+        "semantic_name": "rp_6bdc28fa4761142d",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "1e295446-c96e-3bbe-8fb3-090612496416",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_X131",
+        "current_graphical_owner_id": "1c1146f8-6cd5-461c-b328-551a19c02017"
+      },
+      "target": {
+        "side": "target",
+        "graphical_node_id": "c2b67afe-5142-309c-bc84-528078578bff",
+        "semantic_object_id": "862542a3-efe5-4f07-9f1f-04f9c951aac4",
+        "semantic_name": "rp_1d9e411fc4e0ebf9",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "3217281b-0d51-3aec-b445-9acb3c232242",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_X132",
+        "current_graphical_owner_id": "5f2a9714-3fbf-44a7-b415-8f588afc65af"
+      },
+      "source_port_id": "59faadb2-4e33-43df-b07e-bdd461a200e4",
+      "target_port_id": "862542a3-efe5-4f07-9f1f-04f9c951aac4",
+      "displayed_label": "net_NET_STORAGE_DC_AFTER_CONTACTOR_01",
+      "label_visibility": "hidden",
+      "visible": true,
+      "port_to_port": true
+    }
+  ],
+  "visible_parts": [
+    {
+      "product_code": "X130",
+      "graphical_node_id": "ce786099-5637-31ca-a7a0-7fc5f9715a40",
+      "semantic_type": "PartDefinition",
+      "displayed_label": "«part def»\nP_X130",
+      "human_name_in_model": "储能接入与保护",
+      "graphical_parent_id": null,
+      "graphical_parent_type": "Diagram",
+      "current_graphical_owner": "DIAGRAM_BACKGROUND",
+      "current_graphical_owner_id": null
+    },
+    {
+      "product_code": "X131",
+      "graphical_node_id": "1e295446-c96e-3bbe-8fb3-090612496416",
+      "semantic_type": "PartUsage",
+      "displayed_label": "«part»\np_X131 : P_X131",
+      "human_name_in_model": "储能主接触器",
+      "graphical_parent_id": "e42d27fd-b50e-3852-9bf5-b2b062975f21",
+      "graphical_parent_type": "PartDefinition",
+      "current_graphical_owner": "P_X130",
+      "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+    },
+    {
+      "product_code": "X132",
+      "graphical_node_id": "3217281b-0d51-3aec-b445-9acb3c232242",
+      "semantic_type": "PartUsage",
+      "displayed_label": "«part»\np_X132 : P_X132",
+      "human_name_in_model": "储能预充电组件",
+      "graphical_parent_id": "e42d27fd-b50e-3852-9bf5-b2b062975f21",
+      "graphical_parent_type": "PartDefinition",
+      "current_graphical_owner": "P_X130",
+      "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+    },
+    {
+      "product_code": "X133",
+      "graphical_node_id": "4981fee3-27e3-3565-a2a3-c67b5630ec2a",
+      "semantic_type": "PartUsage",
+      "displayed_label": "«part»\np_X133 : P_X133",
+      "human_name_in_model": "储能支路保护组件",
+      "graphical_parent_id": "e42d27fd-b50e-3852-9bf5-b2b062975f21",
+      "graphical_parent_type": "PartDefinition",
+      "current_graphical_owner": "P_X130",
+      "current_graphical_owner_id": "b6888ba7-00ef-416f-88c5-920004d11b60"
+    }
+  ],
+  "block_display_labels": [
+    "«part def»\nP_X130",
+    "«part»\np_X131 : P_X131",
+    "«part»\np_X132 : P_X132",
+    "«part»\np_X133 : P_X133"
+  ],
+  "port_display_labels": [
+    "bp_X130_0107c4d21e8f : ~PT_PT_CMD_028",
+    "bp_X130_3735b6064778 : PT_PT_STA_034",
+    "bp_X130_82a4cd60f068 : ~PT_PT_CMD_027",
+    "bp_X130_8eb934167d47 : PT_PT_STA_032",
+    "bp_X130_f038b58ff886 : PT_PT_STA_033",
+    "^rp_1d9e411fc4e0ebf9 : PT_PT_PHY_016",
+    "^rp_4d68d3f9ee4e0009 : ~PT_PT_CMD_028",
+    "^rp_53191daa39f85d49 : PT_PT_STA_033",
+    "^rp_6bdc28fa4761142d : PT_PT_PHY_016",
+    "^rp_b06975e1baff62be : ~PT_PT_CMD_027",
+    "^rp_c029b3b1472e957d : PT_PT_STA_032",
+    "^rp_ffcdb33099ab8a28 : PT_PT_STA_034"
+  ],
+  "connection_display_labels": [],
+  "ownership_status": "PASS",
+  "status": "FAIL"
+}

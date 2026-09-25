@@ -1,0 +1,413 @@
+{
+  "inventory_id": "RAIL-MBSE-GOLD-MDXML-INVENTORY-V1",
+  "gold_path": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\gold.mdxml",
+  "gold_sha256": "3e022d5a9d3bd6192956b76f622f6be197dedc4939f822e8af33ec582fd36712",
+  "format": "MagicDraw native plain-text MDXML with inline xmi:Extension filePart resources",
+  "namespaces": {
+    "uml": "http://www.omg.org/spec/UML/20131001",
+    "xmi": "http://www.omg.org/spec/XMI/20131001",
+    "Validation_Profile": "http://www.magicdraw.com/schemas/Validation_Profile.xmi",
+    "MD_Customization_for_SysML__additional_stereotypes": "http://www.magicdraw.com/spec/Customization/180/SysML",
+    "MagicDraw_Profile": "http://www.omg.org/spec/UML/20131001/MagicDrawProfile",
+    "StandardProfile": "http://www.omg.org/spec/UML/20131001/StandardProfile",
+    "sysml": "http://www.omg.org/spec/SysML/20181001/SysML",
+    "MD_Customization_for_Requirements__additional_stereotypes": "http://www.magicdraw.com/spec/Customization/180/Requirements",
+    "DSL_Customization": "http://www.magicdraw.com/schemas/DSL_Customization.xmi",
+    "binary": "http://www.nomagic.com/ns/cameo/client/binary/1.0",
+    "diagram": "http://www.nomagic.com/ns/magicdraw/core/diagram/1.0",
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "project": "http://www.nomagic.com/ns/cameo/client/project/1.0",
+    "snapshot": "http://www.nomagic.com/ns/cameo/client/snapshot/1.0",
+    "md.ce.rt.options": "http://www.nomagic.com/magicdraw/ce/rt/options/1",
+    "project.options": "http://www.nomagic.com/ns/magicdraw/core/project/options/1.0"
+  },
+  "project": {
+    "exporter": "MagicDraw UML",
+    "exporter_version": "2022x v7",
+    "plugin_versions": [
+      {
+        "pluginName": "SysML",
+        "pluginVersion": "2022x"
+      },
+      {
+        "pluginName": "Cameo Requirements Modeler",
+        "pluginVersion": "2022x"
+      }
+    ],
+    "project_ids": [
+      "PROJECT-877558e9224f114d50dea1f39a1c119",
+      "PROJECT-9b4d2b1641e6203934d95e7bde5fe08",
+      "PROJECT-9d229b7f23ee72e551be257697554fa5",
+      "PROJECT-44892a3bf693c0a47eb2f3bf10930f"
+    ],
+    "current_project_candidates": [
+      "PROJECT-9d229b7f23ee72e551be257697554fa5"
+    ],
+    "file_parts": [
+      {
+        "name": "proxy.local__PROJECT$h877558e9224f114d50dea1f39a1c119_resource_com$dnomagic$dci$dmetamodel$dproject$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "proxy.local__PROJECT$h9b4d2b1641e6203934d95e7bde5fe08_resource_com$dnomagic$dci$dmetamodel$dproject$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "com.nomagic.ci.persistence.local.proxy.privatedependencylist",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "proxy.local__PROJECT$h9b4d2b1641e6203934d95e7bde5fe08_resource_com$dnomagic$dmagicdraw$duml_umodel$dshared_umodel$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "proxy.local__PROJECT$h44892a3bf693c0a47eb2f3bf10930f_resource_com$dnomagic$dmagicdraw$duml_umodel$dshared_umodel$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "com.nomagic.ci.proxy.snapshot.descriptor.descriptors",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "proxy.local__PROJECT$h9d229b7f23ee72e551be257697554fa5_resource_com$dnomagic$dmagicdraw$duml_umodel$dmodel$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "com.nomagic.ci.metamodel.project",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "com.nomagic.magicdraw.ce.commoncodeengineering",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "proxy.local__PROJECT$h877558e9224f114d50dea1f39a1c119_resource_com$dnomagic$dmagicdraw$duml_umodel$dshared_umodel$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "Binaries.properties",
+        "type": "BINARY",
+        "has_inline_children": false
+      },
+      {
+        "name": "personal-Binaries.properties",
+        "type": "BINARY",
+        "has_inline_children": false
+      },
+      {
+        "name": "BINARY-dfb5dbde-6b4e-45ed-b4ce-5625a0843c81",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "com.nomagic.magicdraw.core.project.options.commonprojectoptions",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "proxy.local__PROJECT$h44892a3bf693c0a47eb2f3bf10930f_resource_com$dnomagic$dci$dmetamodel$dproject$dsnapshot",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "personal-com.nomagic.magicdraw.core.project.options.personalprojectoptions",
+        "type": "XML",
+        "has_inline_children": true
+      },
+      {
+        "name": "PROJECT-9d229b7f23ee72e551be257697554fa5",
+        "type": "BINARY",
+        "has_inline_children": false
+      },
+      {
+        "name": "Records.properties",
+        "type": "BINARY",
+        "has_inline_children": false
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "diagram_id": "_2022x_2ee012b_1788955150699_609411_2816",
+      "name": "Rail_MBSE_TractionBrake_ItemFlow_Display_Probe_v6",
+      "type": "SysML Internal Block Diagram",
+      "uml_type": "Composite Structure Diagram",
+      "owner": "_2022x_2ee012b_1788955150700_713318_2817",
+      "context": "_2022x_2ee012b_1788955150700_713318_2817",
+      "representation_id": "_2022x_2ee012b_1788955150718_912439_2833",
+      "presentation_resource": "BINARY-dfb5dbde-6b4e-45ed-b4ce-5625a0843c81",
+      "content_hash": "b4951eb71926d01956d87b755e374b6f734786a2",
+      "used_objects": [
+        "XMI-PORT-17D10E3CF7A87862",
+        "_2022x_2ee012b_1788955155744_749480_2923",
+        "_2022x_2ee012b_1788955755732_217889_3122",
+        "_2022x_2ee012b_1788955755733_522700_3123",
+        "_2022x_2ee012b_1788955755733_520899_3124",
+        "_2022x_2ee012b_1788955154049_352958_2845",
+        "XMI-PORT-E47D00EE3FA2782A"
+      ],
+      "used_elements": [
+        "XMI-PORT-17D10E3CF7A87862",
+        "_2022x_2ee012b_1788955154049_352958_2845",
+        "_2022x_2ee012b_1788955155744_749480_2923",
+        "_2022x_2ee012b_1788955755733_522700_3123",
+        "_2022x_2ee012b_1788955755733_520899_3124",
+        "XMI-PORT-E47D00EE3FA2782A",
+        "_2022x_2ee012b_1788955755732_217889_3122"
+      ]
+    }
+  ],
+  "presentation": {
+    "resource": "BINARY-dfb5dbde-6b4e-45ed-b4ce-5625a0843c81",
+    "resource_filepart_type": "XML",
+    "content_hash_evidence": {
+      "declared": "b4951eb71926d01956d87b755e374b6f734786a2",
+      "candidates": {
+        "mdOwnedViews_only": "716357dfd54262830d2fa691a572857827bcd0ec",
+        "mdOwnedViews_with_newline": "e983334a5a252c8c9bf92f17e7575405f343bdee",
+        "header_newline_resource": "b4951eb71926d01956d87b755e374b6f734786a2",
+        "header_newline_resource_newline": "7789cfb370b148e1f3ac349b99ed99fd7ffc53e0",
+        "header_blankline_resource": "53f81c0869f38778271b28e8908f5e3b5d67ef70",
+        "header_blankline_resource_newline": "009894311ba57db6865aac87db8856ef96326cc6",
+        "header_blankline_dedented_resource": "53f81c0869f38778271b28e8908f5e3b5d67ef70"
+      },
+      "matching_candidate": "header_newline_resource"
+    },
+    "element_class_counts": {
+      "BooleanProperty": 135,
+      "ChoiceProperty": 36,
+      "ColorProperty": 11,
+      "Connector": 1,
+      "ConnectorEnd": 2,
+      "DiagramFrame": 1,
+      "ElementProperty": 1,
+      "ExtendableManager": 9,
+      "FontProperty": 4,
+      "NumberProperty": 2,
+      "Part": 2,
+      "Port": 2,
+      "PropertyManagerByDiagram": 1,
+      "PropertyManagerByStereotype": 2,
+      "SimpleStyle": 1,
+      "TextBox": 3,
+      "TextBoxWithIcon": 2
+    },
+    "shape_elements": [
+      {
+        "presentation_id": "_2022x_2ee012b_1788955150718_733971_2834",
+        "element_class": "DiagramFrame",
+        "model_element": "_2022x_2ee012b_1788955150699_609411_2816",
+        "geometry": "5, 5, 1010, 799"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955154056_891345_2846",
+        "element_class": "Part",
+        "model_element": "_2022x_2ee012b_1788955154049_352958_2845",
+        "geometry": "112, 105, 114, 39"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160650_133768_2959",
+        "element_class": "Port",
+        "model_element": "XMI-PORT-17D10E3CF7A87862",
+        "geometry": "211, 115, 15, 15"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160654_159067_2969",
+        "element_class": "TextBox",
+        "model_element": null,
+        "geometry": "229, 107, 223, 12"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955155749_119710_2924",
+        "element_class": "Part",
+        "model_element": "_2022x_2ee012b_1788955155744_749480_2923",
+        "geometry": "602, 371, 136, 39"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160648_197277_2949",
+        "element_class": "Port",
+        "model_element": "XMI-PORT-E47D00EE3FA2782A",
+        "geometry": "602, 381, 15, 15"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160656_922293_2974",
+        "element_class": "TextBox",
+        "model_element": null,
+        "geometry": "376, 373, 223, 12"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130",
+        "element_class": "TextBox",
+        "model_element": null,
+        "geometry": "416, 263, 67, 12"
+      }
+    ],
+    "path_elements": [
+      {
+        "presentation_id": "_2022x_2ee012b_1788955754676_66313_3121",
+        "element_class": "Connector",
+        "model_element": "_2022x_2ee012b_1788955755732_217889_3122",
+        "geometry": "602, 389; 413, 389; 413, 123; 226, 123; "
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955755735_780933_3125",
+        "element_class": "ConnectorEnd",
+        "model_element": "_2022x_2ee012b_1788955755733_520899_3124",
+        "geometry": "592, 384, 10, 10"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955755736_175174_3128",
+        "element_class": "ConnectorEnd",
+        "model_element": "_2022x_2ee012b_1788955755733_522700_3123",
+        "geometry": "226, 118, 10, 10"
+      }
+    ],
+    "connector": {
+      "presentation_id": "_2022x_2ee012b_1788955754676_66313_3121",
+      "model_connector_id": "_2022x_2ee012b_1788955755732_217889_3122",
+      "geometry": "602, 389; 413, 389; 413, 123; 226, 123; ",
+      "link_first_end_presentation": "_2022x_2ee012b_1788955160648_197277_2949",
+      "link_first_end_model": "XMI-PORT-E47D00EE3FA2782A",
+      "link_second_end_presentation": "_2022x_2ee012b_1788955160650_133768_2959",
+      "link_second_end_model": "XMI-PORT-17D10E3CF7A87862",
+      "conveyed_compartment": {
+        "{http://www.omg.org/spec/XMI/20131001}value": "XMI-ITEM-ITM-MEA-005",
+        "compartmentID": "CONVEYED_INFORMATION_A",
+        "isContentLocked": "true"
+      },
+      "conveyed_link": {
+        "field": "linkConveyedAID",
+        "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130"
+      },
+      "label": {
+        "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130",
+        "text": "高压线路电压",
+        "geometry": "416, 263, 67, 12"
+      },
+      "style_id": "_2022x_2ee012b_1788955543125_940167_3011",
+      "style_chain": [
+        {
+          "property_manager_id": "_2022x_2ee012b_1788955543125_940167_3011",
+          "parent": "_2022x_2ee012b_1788955543125_650331_3078",
+          "properties": {
+            "STEREOTYPE_COLOR": "-16777216",
+            "STEREOTYPE_FONT": null,
+            "WRAP_WORDS": null,
+            "SHOW_NAME": "true",
+            "STEREOTYPES_DISPLAY_MODE": null,
+            "DSL_STEREOTYPE_DISPLAY_MODE": null,
+            "SHOW_TAGGED_VALUES": "true",
+            "SHOW_ELEMENT_PROPERTIES": null,
+            "SHOW_ICONS_IN_COMPARTMENTS": "true",
+            "SHOW_ELEMENT_TYPE_IN_COMPARTMENTS": null,
+            "SHOW_DERIVED_SIGN": null,
+            "SHOW_CONVEYED_A": "true",
+            "SHOW_CONVEYED_B": "true",
+            "SHOW_CONSTRAINTS": "true",
+            "SHOW_TYPE": "true",
+            "SHOW_INHERITED_SIGN": "true",
+            "SHOW_CONNECTOR_END_A": "true",
+            "SHOW_CONNECTOR_END_B": "true",
+            "SHOW_ID_FOR_CONVEYED_ITEM": null,
+            "SHOW_ID_OF_INFORMATION_FLOW": null,
+            "SHOW_NAME_OF_INFORMATION_FLOW": null
+          }
+        },
+        {
+          "property_manager_id": "_2022x_2ee012b_1788955543125_650331_3078",
+          "parent": "_2022x_2ee012b_1788955543125_968083_3102",
+          "properties": {
+            "USE_FILL_COLOR": null,
+            "LINK_LINE_STYLE": null,
+            "IS_ROUNDED": null,
+            "CONSTRAINT_TEXT_MODE": null,
+            "SUSPEND_SHAPE_AUTO_RESIZE": null,
+            "SUSPEND_LABEL_AUTO_DISPLAY": null,
+            "LABEL_ORIENTATION": null
+          }
+        },
+        {
+          "property_manager_id": "_2022x_2ee012b_1788955543125_968083_3102",
+          "parent": null,
+          "properties": {
+            "FILL_COLOR": "-52",
+            "USE_FILL_COLOR": "true",
+            "PEN_COLOR": "-12434878",
+            "TEXT_COLOR": "-16777216",
+            "LINE_WIDTH": "1.0",
+            "FONT": null,
+            "SHOW_NUMBER_TAG_NAME": "true",
+            "ELEMENT_NUMBER_DISPLAY_MODE": null
+          }
+        }
+      ]
+    },
+    "information_flow_presentation_count": 0,
+    "item_flow_presentation_count": 0
+  },
+  "target_model_chain": {
+    "source_product": {
+      "id": "XMI-PRODUCT-4235",
+      "name": "高压电压互感器"
+    },
+    "source_part": {
+      "id": "_2022x_2ee012b_1788955154049_352958_2845",
+      "type": "XMI-PRODUCT-4235",
+      "presentation": "_2022x_2ee012b_1788955154056_891345_2846"
+    },
+    "source_port": {
+      "id": "XMI-PORT-17D10E3CF7A87862",
+      "name": "高压线路电压输出",
+      "presentation": "_2022x_2ee012b_1788955160650_133768_2959"
+    },
+    "target_product": {
+      "id": "XMI-PRODUCT-5111",
+      "name": "网侧变流器控制模块"
+    },
+    "target_part": {
+      "id": "_2022x_2ee012b_1788955155744_749480_2923",
+      "type": "XMI-PRODUCT-5111",
+      "presentation": "_2022x_2ee012b_1788955155749_119710_2924"
+    },
+    "target_port": {
+      "id": "XMI-PORT-E47D00EE3FA2782A",
+      "name": "高压线路电压输入",
+      "presentation": "_2022x_2ee012b_1788955160648_197277_2949"
+    },
+    "connector": {
+      "id": "_2022x_2ee012b_1788955755732_217889_3122",
+      "owner": "_2022x_2ee012b_1788955150700_713318_2817",
+      "presentation": "_2022x_2ee012b_1788955754676_66313_3121"
+    },
+    "information_flow": {
+      "id": "_2022x_2ee012b_1788955789111_160689_3129",
+      "name": "flow for 高压线路电压",
+      "source": "XMI-PORT-17D10E3CF7A87862",
+      "target": "XMI-PORT-E47D00EE3FA2782A",
+      "conveyed": "XMI-ITEM-ITM-MEA-005",
+      "realizing_connector": "_2022x_2ee012b_1788955755732_217889_3122",
+      "presentation_count": 0
+    },
+    "item_flow": {
+      "application_id": "_2022x_2ee012b_1788955789111_160689_3129_application",
+      "base_information_flow": "_2022x_2ee012b_1788955789111_160689_3129",
+      "item_property": null,
+      "presentation_count": 0
+    },
+    "signal": {
+      "id": "XMI-ITEM-ITM-MEA-005",
+      "name": "高压线路电压"
+    }
+  },
+  "read_only": true
+}

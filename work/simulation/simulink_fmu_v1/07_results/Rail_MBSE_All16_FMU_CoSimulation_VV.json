@@ -1,0 +1,499 @@
+{
+  "artifact": "Rail MBSE All16 FMU Co-Simulation V&V",
+  "generated_utc": "2026-09-13T02:22:14.905377+00:00",
+  "runtime": {
+    "master": "rail_fmu_cosim_runner.py / FMPy 0.3.26",
+    "algorithm": "explicit Jacobi co-simulation",
+    "fmi_version": "2.0",
+    "communication_step_s": 0.1,
+    "stop_time_s": 50.0,
+    "wall_clock_s": 1.5462469999911264,
+    "runtime_directory": "work/simulation/simulink_fmu_v1/logs/fmu_runtime/run_20260913_102213"
+  },
+  "scenario": {
+    "0_to_20_s": "traction acceleration",
+    "20_to_30_s": "coast/cruise",
+    "30_to_45_s": "service braking with regenerative priority",
+    "45_to_50_s": "low brake hold / stop approach"
+  },
+  "connections": {
+    "expected_records": 87,
+    "validated_records": 87,
+    "unique_causal_paths": 77,
+    "trace_equivalent_duplicates": 10,
+    "record_results": [
+      {
+        "executable_connection_id": "EC::CG_002543DBE0F9A7FBC2A3FDD3::line_voltage",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_071B7693DAFA8B87ADA0A61E::emergency_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_07AF42BFA3927EF22F7BDDE7::omega_motor",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_08375F15DCE75E45D4C45CE8::grid_acceptable_regenerative_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_093EFCE58F3AB220CFEC48AC::ess_absorbed_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_0D68248E62957CCB92C5A2A5::external_safety_system_state",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_1102EBD35D52A38B96D5D2E7::brake_availability",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::U_sec_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::f_sec",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::I_sec_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::U_sec_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::f_sec",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::I_sec_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_1ACF37CC65D3FF235E8BD75C::dynamic_brake_availability",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_1AE13610E33C0DC7055CFCED::ess_contactor_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_1AEA8B915E14A5D0FFEE30D9::brake_cylinder_pressure",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_1C5FC46A1E7682144A3BDDDF::line_voltage",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_20C0A22ECCF07864FDBA3F5A::line_current",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_2274BA128E639FDE4D4F56EC::hv_system_fault",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_25DC22E45A984D1CB28D188B::dcdc_enable_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_2E8F3CC8A8EBCDE6B7CF4D27::traction_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_2EE117B4B0633E38D394B904::pantograph_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_338D68ABEF709ACD5E0DDCC6::T_shaft",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_338D68ABEF709ACD5E0DDCC6::omega_shaft",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_37792F42F4274C7C51C63270::hv_breaker_state",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_37ECA5B04E215AC3E6A4B472::motor_phase_voltage",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::U_motor_ll_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::f_motor_e",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::I_motor_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_3CA6C3BF7D7B4F80CF0990D0::T_shaft",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_3CA6C3BF7D7B4F80CF0990D0::omega_shaft",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_40ADD911FF2840BEEAA67F8D::regenerative_power_actual",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_4163C3EB1F2D16B7AFCB21C9::emergency_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_41AD09EEB4EAB9DC956C08F8::service_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_46A1EE350324445D016EAF45::motor_speed",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_4CB0735167799FD438F90DD2::omega_gearbox",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_4E4C49F08CEE642A5C3C67EB::dc_link_current",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_55513667B46680F5B87A0939::traction_converter_fault",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_565AF053FC6E3FF333FD7433::sanding_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_65E377DBF988541FA5778D1E::motor_torque_actual",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_663CDC611495882DCD3E5B8F::emergency_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_732BB9F5922B7AC9420BB2D0::dc_link_voltage",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_7365C853DD9391D9914E0C8A::motor_torque_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_739E53DD845C8CD2646C8E39::main_reservoir_pressure",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_7A2381DC8C36A40B747035A5::ess_power_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_86987C60BCB826208FEFEF31::safety_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_89318B491DF9CED18997C36D::external_safety_system_state",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_89DF67BFD358C3EEF4DB05F2::motor_speed",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_8EED0159D22D9EDC70A9EA67::emergency_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_8F81398231970DBDB0A7F854::pantograph_state",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_944069F2CBBFA2A01274A9DB::brake_availability",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_9465AAC3F0B0B115DC3EF9FD::super_cap_soc",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_979C19823B520B68E370ECB6::service_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_9ACDE46A41EE650430438B91::hv_breaker_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::U_ac_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::f_ac",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::I_ac_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_A0B82CF482DDFB4553F8CFCA::main_reservoir_pressure",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_A35E2178763C6233BE73AA36::brake_resistor_dissipated_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_A3B31951ADAE62C498E76260::train_direction_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_A424455519797490E4F865AA::dc_link_voltage",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_A6D783BBFCF6C6DA11FFCF2D::dcdc_actual_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_B251741505CB19FE47559F29::dynamic_brake_force_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_B399D92EE15558C08A95FA03::grid_returned_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::U_ac_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::f_ac",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::I_ac_rms",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_BDD8747118488C9BE895D95F::grid_acceptable_regenerative_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_BEDE0932E86628B2EFCA8CCD::available_dynamic_brake_force",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_C03EBDD9B3CFF4E6611E41A1::ess_availability",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_C113ED5B462ACDD4ACE56E91::ess_fault",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_C8FE042475056BF85CFA2B40::dc_link_voltage",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_CB302083C9F33A1345D9C406::ess_available_charge_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_CE151D40A2BF816F41762F4C::brake_safety_loop_state",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_CE2820923CC0CB141833E11D::hv_system_fault",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_D4DF5719633CB5B375F35094::motor_torque_actual",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_D8FCE908D4FD9343C6353985::ess_fault_reset_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_D9CD1E8933F596F319A67625::ess_precharge_command",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_DA869E241F8A36DBAAC07E48::T_brake",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_DA869E241F8A36DBAAC07E48::omega_wheel",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_DAF7D43DDD825831F29A70F8::ess_available_discharge_power",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_E8DAA56D71F2BE4B5E1C9BBF::achieved_dynamic_brake_force",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_E9224B53F74EDFCCFDA0FC70::brake_cylinder_pressure",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_ED49C68C1459BB1005D412BB::safety_brake_request",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_F55B5E17D8CBFAC80E0961C2::hv_safety_loop_state",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_FA31DFA220FEF0D6FAC8EB67::omega_axle",
+        "status": "PASS",
+        "issues": []
+      },
+      {
+        "executable_connection_id": "EC::CG_FE573ED935CFF37491A053E8::line_current",
+        "status": "PASS",
+        "issues": []
+      }
+    ]
+  },
+  "metrics": {
+    "v_train_at_20_s_mps": 11.333716075759783,
+    "v_train_at_30_s_mps": 11.164390721787758,
+    "v_train_at_45_s_mps": 0.0,
+    "peak_speed_mps": 11.62622149661954,
+    "peak_traction_power_W": 679676.7354423583,
+    "peak_regenerative_power_W": 540779.3798501478,
+    "peak_mechanical_brake_force_N": 80000.0,
+    "soc_at_30_s": 0.35,
+    "soc_at_45_s": 0.46489011534971875,
+    "soc_final": 0.46489011534971875,
+    "supercapacitor_voltage_final_V": 714.3797761666007,
+    "stored_energy_change_braking_kJ": 3860.30787575055,
+    "recovered_energy_final_kJ": 3860.3078757505596
+  },
+  "derived_channels": {
+    "v_train": "L2_3100.out_omega_wheel * 0.46 m",
+    "Ptraction": "max(L2_5300.out_motor_torque_actual * L2_5300.out_motor_speed, 0)",
+    "Fmechanical": "L2_7200.out_T_brake / 0.46 m",
+    "Usc": "sqrt(2 * (Emin + SOC*(Emax-Emin)) / C)",
+    "Esc_kJ": "(Emin + SOC*(Emax-Emin))/1000",
+    "Eregen_kJ": "integral(max(L2_X100.out_ess_absorbed_power,0) dt)/1000"
+  },
+  "gates": {
+    "all_connection_records_runtime_valid": true,
+    "all_16_fmus_stepped": true,
+    "finite_key_outputs": true,
+    "train_accelerates": true,
+    "braking_reduces_speed": true,
+    "regenerative_power_positive_during_braking": true,
+    "supercapacitor_charges": true,
+    "supercapacitor_bounded": true,
+    "mechanical_brake_contributes": true,
+    "power_plausibility": true,
+    "recovered_energy_positive": true
+  },
+  "status": "PASS"
+}

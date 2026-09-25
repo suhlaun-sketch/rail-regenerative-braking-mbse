@@ -1,0 +1,13 @@
+{
+  "ssd_component_id": "L2_4400",
+  "ssd_component_name": "L2_4400",
+  "l2_code": "4400",
+  "l2_engineering_name": "回流及接地",
+  "inputs": [],
+  "outputs": [],
+  "total_connectors": 0,
+  "connected_l2_peers": [],
+  "future_simulink": "L2_4400.slx",
+  "future_fmu": "L2_4400.fmu",
+  "readiness": "READY"
+}

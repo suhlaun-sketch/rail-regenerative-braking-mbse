@@ -1,0 +1,3292 @@
+{
+  "status": "PASS",
+  "coverage_counts": {
+    "FUNCTION_MAPPED": 478,
+    "NET_ONLY": 20,
+    "OPTIONAL_OPEN": 13,
+    "BOUNDARY_ONLY": 0,
+    "UNEXPLAINED_UNMAPPED": 0
+  },
+  "coverage_records": [
+    {
+      "interface_instance_id": "IFINST::PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3111::轮轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3112::传动段旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3131::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3132::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3133::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3511::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3511::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3512::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3512::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3514::第一轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3514::第二轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3641::旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3641::轴端角速度输出::ITM-MEA-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3643::旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3643::齿轮箱转速输出::ITM-MEA-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3644::旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3644::牵引电机转速输出::ITM-MEA-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3811::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3811::撒砂执行指令输出::ITM-CMD-032::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3811::撒砂状态输出::ITM-STA-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3811::撒砂请求输入::ITM-CMD-024::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3813::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3813::撒砂执行指令输入::ITM-CMD-032::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3813::撒砂状态输出::ITM-STA-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3813::砂流端口::ITM-PHY-012::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::3814::砂流端口::ITM-PHY-012::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4111::导流端高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4111::接触面高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::411C::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::411C::受电弓控制指令输入::ITM-CMD-018::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::411C::受电弓状态输出::ITM-STA-015::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::411C::高压系统故障状态输出::ITM-STA-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4211::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4211::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4211::高压断路器指令输入::ITM-CMD-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4211::高压断路器状态输出::ITM-STA-013::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4211::高压系统故障状态输出::ITM-STA-016::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4212::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4212::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4212::高压隔离开关状态输出::ITM-STA-014::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4235::高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4235::高压线路电压输出::ITM-MEA-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4236::第一测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4236::第二测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4236::高压线路电流输出::ITM-MEA-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::受电弓控制指令输入::ITM-CMD-018::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::受电弓控制指令输出::ITM-CMD-018::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::受电弓状态输入::ITM-STA-015::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::受电弓状态输出::ITM-STA-015::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器指令输入::ITM-CMD-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器指令输出::ITM-CMD-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器状态输入::ITM-STA-013::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器状态输出::ITM-STA-013::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压系统故障状态输出::ITM-STA-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电压输入::ITM-MEA-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电压输出::ITM-MEA-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电流输入::ITM-MEA-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电流输出::ITM-MEA-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关状态输入::ITM-STA-014::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关状态输出::ITM-STA-014::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::受电弓控制指令输出::ITM-CMD-018::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::受电弓状态输入::ITM-STA-015::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::线路频率输入::ITM-MEA-007::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压安全回路状态输入::ITM-STA-024::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压断路器指令输出::ITM-CMD-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压断路器状态输入::ITM-STA-013::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压系统故障状态汇总输出::ITM-STA-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压线路电压输入::ITM-MEA-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压线路电流输入::ITM-MEA-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4239::高压隔离开关状态输入::ITM-STA-014::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::回馈电网功率输出::ITM-ACC-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::回馈电网累计能量输出::ITM-ACC-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::牵引实际功率输出::ITM-ACC-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::牵引累计能量输出::ITM-ACC-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::能量计量有效状态输出::ITM-STA-035::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::高压线路电压输入::ITM-MEA-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4241::高压线路电流输入::ITM-MEA-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4411::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4411::回流侧电流端口::ITM-PHY-011::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4411::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4412::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4412::回流侧电流端口::ITM-PHY-011::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4412::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4413::固定端回流电流端口::ITM-PHY-011::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4413::旋转端回流电流端口::ITM-PHY-011::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4511::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4511::高压交流电能端口::ITM-PHY-001::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4513::第一交流电能端口::ITM-PHY-014::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4513::第二交流电能端口::ITM-PHY-014::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4517::主变压器温度输出::ITM-MEA-022::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4517::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4517::高压系统故障状态输出::ITM-STA-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4518::主变压器温度输入::ITM-MEA-022::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4518::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4518::高压断路器指令输出::ITM-CMD-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4518::高压断路器状态输入::ITM-STA-013::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::再生功率上限输出::ITM-LIM-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::线路频率输入::ITM-MEA-007::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::网侧变流器状态输出::ITM-STA-017::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::网侧变流控制指令输出::ITM-CMD-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5111::高压线路电流输入::ITM-MEA-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::再生功率上限输出::ITM-LIM-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::动态制动可用状态输出::ITM-STA-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::可用动态制动力输出::ITM-LIM-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::牵引可用状态输出::ITM-STA-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::牵引电机转矩请求输入::ITM-CMD-012::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::牵引电机转速输入::ITM-MEA-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::电机侧变流器状态输出::ITM-STA-018::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::电机侧变流控制指令输出::ITM-CMD-011::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::中间直流母线电流输出::ITM-MEA-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::中间直流环节保护状态输出::ITM-STA-020::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::牵引变流器温度输出::ITM-MEA-023::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::电机侧相电流输出::ITM-MEA-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5121::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5121::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5121::预充电指令输入::ITM-CMD-013::输入",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5121::预充电状态输出::ITM-STA-021::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5122::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5122::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5122::牵引输入接通指令输入::ITM-CMD-014::输入",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5122::牵引输入接通状态输出::ITM-STA-022::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::中间直流母线电压输出::ITM-MEA-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::中间直流母线电流输出::ITM-MEA-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::回馈电网功率输出::ITM-ACC-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::网侧变流控制指令输入::ITM-CMD-010::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::高压线路电压输出::ITM-MEA-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5131::高压线路电流输出::ITM-MEA-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::三相交流电能端口::ITM-PHY-004::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::中间直流母线电压输出::ITM-MEA-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::中间直流母线电流输出::ITM-MEA-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::实际再生功率输出::ITM-ACC-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::电机侧变流控制指令输入::ITM-CMD-011::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::电机侧相电压输出::ITM-MEA-011::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5132::电机侧相电流输出::ITM-MEA-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5133::制动斩波器指令输入::ITM-CMD-015::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5133::制动斩波器状态输出::ITM-STA-023::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5133::制动电阻可耗散功率输出::ITM-LIM-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5142::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5142::制动电阻温度输出::ITM-MEA-024::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5142::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5142::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5142::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5145::中间直流母线电流输出::ITM-MEA-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5145::中间直流环节保护状态输出::ITM-STA-020::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5145::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5145::制动斩波器指令输出::ITM-CMD-015::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5145::直流母线电压上限输出::ITM-LIM-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5311::三相交流电能端口::ITM-PHY-004::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5311::牵引电机实际转矩输出::ITM-MEA-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5311::牵引电机转速输出::ITM-MEA-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5311::电机侧相电压输出::ITM-MEA-011::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::5311::电机侧相电流输出::ITM-MEA-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7124::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7124::制动风缸压力输出::ITM-MEA-015::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7131::总风管末端压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7131::总风管首端压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7142::低风压状态输出::ITM-STA-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7142::总风管压力输出::ITM-MEA-014::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::低风压状态输入::ITM-STA-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::列车质量输入::ITM-MEA-018::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::列车速度输入::ITM-MEA-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动安全回路状态输入::ITM-STA-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动拖滞状态输出::ITM-STA-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动控制接触器指令输出::ITM-CMD-031::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动控制故障状态输出::ITM-STA-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动施加状态输出::ITM-STA-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动电磁阀指令输出::ITM-CMD-022::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动系统可用状态输出::ITM-STA-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动缓解指令输出::ITM-CMD-019::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动缓解状态输出::ITM-STA-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动缸压力输入::ITM-MEA-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动隔离指令输出::ITM-CMD-020::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::制动隔离状态输出::ITM-STA-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::动态制动力请求输出::ITM-CMD-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::动态制动可用状态输入::ITM-STA-002::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::可用动态制动力输入::ITM-LIM-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::可用摩擦制动力输出::ITM-LIM-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::可用黏着系数估计输入::ITM-MEA-021::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::可用黏着限制输入::ITM-LIM-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::实际动态制动力输入::ITM-MEA-013::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::实际摩擦制动力输入::ITM-MEA-017::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::总风管压力输入::ITM-MEA-014::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::摩擦制动力请求输出::ITM-CMD-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::最大允许减速度输入::ITM-LIM-014::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::最大允许制动力输入::ITM-LIM-013::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::服务制动请求输入::ITM-CMD-003::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::牵引切除请求输出::ITM-CMD-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::电空转换阀指令输出::ITM-CMD-021::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::紧急制动请求输入::ITM-CMD-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::车辆载荷系数输入::ITM-MEA-019::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::轮轨滑移率输入::ITM-MEA-020::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::防滑干预指令输出::ITM-CMD-023::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::防滑故障状态输出::ITM-STA-011::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7211::防滑激活状态输出::ITM-STA-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7213::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7213::制动控制接触器指令输入::ITM-CMD-031::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7213::制动控制接触器状态输出::ITM-STA-036::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7222::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7222::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7222::电空转换阀指令输入::ITM-CMD-021::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7223::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7223::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7223::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7224::车辆载荷系数输入::ITM-MEA-019::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7225::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7225::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7225::制动电磁阀指令输入::ITM-CMD-022::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7226::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7226::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7226::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7226::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7226::紧急制动请求输入::ITM-CMD-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7227::制动缓解指令输入::ITM-CMD-019::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7227::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7228::制动隔离指令输入::ITM-CMD-020::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7228::制动隔离状态输出::ITM-STA-006::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7228::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7228::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7229::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7229::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722A::上游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722A::下游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722A::防滑干预指令输入::ITM-CMD-023::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722A::防滑故障状态输出::ITM-STA-011::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722A::防滑激活状态输出::ITM-STA-010::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722B::制动缸压力输出::ITM-MEA-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722C::低风压状态输出::ITM-STA-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7252::制动施加状态输出::ITM-STA-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7252::制动缓解状态输出::ITM-STA-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7252::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7252::实际摩擦制动力输出::ITM-MEA-017::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7254::摩擦制动耗散功率输出::ITM-ACC-006::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7254::摩擦制动耗散累计能量输出::ITM-ACC-013::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7254::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7255::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7281::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7284::制动隔离指令输入::ITM-CMD-020::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7284::制动隔离状态输出::ITM-STA-006::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7284::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7284::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7285::制动隔离指令输入::ITM-CMD-020::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7285::制动隔离状态输出::ITM-STA-006::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7285::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::7285::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::列车方向指令输入::ITM-CMD-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::列车方向指令输出::ITM-CMD-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::列车速度输入::ITM-MEA-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::制动安全回路状态输入::ITM-STA-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::制动系统可用状态输入::ITM-STA-003::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::服务制动请求输入::ITM-CMD-003::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::服务制动请求输出::ITM-CMD-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::牵引使能指令输出::ITM-CMD-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::牵引切除请求输出::ITM-CMD-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::牵引可用状态输入::ITM-STA-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::牵引安全回路状态输入::ITM-STA-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::牵引指令输入::ITM-CMD-002::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::牵引指令输出::ITM-CMD-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::紧急制动请求输入::ITM-CMD-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::紧急制动请求输出::ITM-CMD-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8121::高压安全回路状态输入::ITM-STA-024::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能主接触器指令输出::ITM-CMD-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能功率请求输出::ITM-CMD-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能故障复位指令输出::ITM-CMD-029::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能系统可用状态输入::ITM-STA-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::储能预充电指令输出::ITM-CMD-028::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::列车方向指令输入::ITM-CMD-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::列车速度输入::ITM-MEA-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::制动系统可用状态输入::ITM-STA-003::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::动态制动可用状态输入::ITM-STA-002::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::可用动态制动力输入::ITM-LIM-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::实际动态制动力输入::ITM-MEA-013::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::接触网可接收功率输入::ITM-LIM-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::撒砂请求输出::ITM-CMD-024::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::服务制动请求输入::ITM-CMD-003::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::牵引使能指令输出::ITM-CMD-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::牵引切除请求输出::ITM-CMD-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::牵引可用状态输入::ITM-STA-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::牵引指令输入::ITM-CMD-002::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::紧急制动请求输入::ITM-CMD-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::能量回收率输入::ITM-ACC-015::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8122::超级电容SOC输入::ITM-MEA-028::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::再生功率上限输出::ITM-LIM-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::列车速度输入::ITM-MEA-001::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::动态制动力请求输入::ITM-CMD-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::动态制动可用状态输出::ITM-STA-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::可用动态制动力输出::ITM-LIM-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::实际动态制动力输出::ITM-MEA-013::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::接触网可接收功率输入::ITM-LIM-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引使能指令输入::ITM-CMD-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引可用状态输出::ITM-STA-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引安全回路状态输入::ITM-STA-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引指令输入::ITM-CMD-002::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引电机转矩请求输出::ITM-CMD-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::牵引电机转速输入::ITM-MEA-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::电机侧变流器状态输出::ITM-STA-018::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8125::网侧变流器状态输出::ITM-STA-017::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8127::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8127::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8127::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8127::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::制动安全回路状态输入::ITM-STA-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::制动安全回路状态输出::ITM-STA-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::制动缸压力输入::ITM-MEA-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::制动缸压力输出::ITM-MEA-016::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::总风管压力输入::ITM-MEA-014::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::总风管压力输出::ITM-MEA-014::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::撒砂请求输入::ITM-CMD-024::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::撒砂请求输出::ITM-CMD-024::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::牵引安全回路状态输入::ITM-STA-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::超级电容温度输入::ITM-MEA-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::超级电容温度输出::ITM-MEA-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电压输入::ITM-MEA-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电压输出::ITM-MEA-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电流输入::ITM-MEA-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电流输出::ITM-MEA-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::高压安全回路状态输入::ITM-STA-024::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8128::高压安全回路状态输出::ITM-STA-024::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8151::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8151::高压安全回路状态输出::ITM-STA-024::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8151::高压断路器指令输入::ITM-CMD-016::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8152::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8152::制动安全回路状态输出::ITM-STA-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8152::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8152::紧急制动请求输入::ITM-CMD-004::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8154::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8154::牵引使能指令输入::ITM-CMD-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8154::牵引安全回路状态输出::ITM-STA-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::储能吸收功率输出::ITM-ACC-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::储能吸收累计能量输出::ITM-ACC-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::储能释放累计能量输出::ITM-ACC-011::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::再生发电累计能量输出::ITM-ACC-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::可用制动能量输出::ITM-ACC-014::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::回馈电网功率输出::ITM-ACC-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::回馈电网累计能量输出::ITM-ACC-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::实际再生功率输出::ITM-ACC-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::牵引实际功率输出::ITM-ACC-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::牵引累计能量输出::ITM-ACC-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::能量回收率输出::ITM-ACC-015::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::能量计量有效状态输出::ITM-STA-035::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::高压线路电压输入::ITM-MEA-005::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::8166::高压线路电流输入::ITM-MEA-006::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::D112::列车方向指令输出::ITM-CMD-001::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::D113::牵引指令输出::ITM-CMD-002::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::D114::服务制动请求输出::ITM-CMD-003::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::D121::紧急制动请求输出::ITM-CMD-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::D13B::撒砂请求输出::ITM-CMD-024::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::E100::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::E100::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::储能功率请求输入::ITM-CMD-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC实际功率输出::ITM-MEA-029::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC状态输出::ITM-STA-028::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "NET_ONLY",
+      "basis": "PHYSICAL_NET_MEMBERSHIP"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能主接触器指令输入::ITM-CMD-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能主接触器指令输出::ITM-CMD-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能主接触器状态输入::ITM-STA-032::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能功率请求输入::ITM-CMD-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能功率请求输出::ITM-CMD-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能可用充电功率输出::ITM-LIM-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能可用放电功率输出::ITM-LIM-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能吸收功率输出::ITM-ACC-004::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能故障复位指令输入::ITM-CMD-029::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能系统可用状态输出::ITM-STA-030::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能系统故障状态输出::ITM-STA-031::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能预充电指令输入::ITM-CMD-028::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能预充电指令输出::ITM-CMD-028::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::储能预充电状态输入::ITM-STA-033::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC状态输出::ITM-STA-028::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::超级电容SOC输入::ITM-MEA-028::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::超级电容充电允许状态输出::ITM-LIM-011::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::超级电容放电允许状态输出::ITM-LIM-012::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::储能保护跳闸状态输出::ITM-STA-034::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::储能可用充电功率输出::ITM-LIM-009::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::储能可用放电功率输出::ITM-LIM-010::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::储能系统故障状态输出::ITM-STA-031::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::超级电容温度输出::ITM-MEA-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::超级电容电压输出::ITM-MEA-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X113::超级电容电流输出::ITM-MEA-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X121::热能_热流端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X121::超级电容SOC输出::ITM-MEA-028::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X122::超级电容电压输出::ITM-MEA-025::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X123::超级电容电流输出::ITM-MEA-026::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X124::超级电容温度输出::ITM-MEA-027::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X131::储能主接触器指令输入::ITM-CMD-027::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X131::储能主接触器状态输出::ITM-STA-032::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X132::储能预充电指令输入::ITM-CMD-028::输入",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X132::储能预充电状态输出::ITM-STA-033::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "DIRECT_FUNCTION_INTERFACE"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X133::储能保护跳闸状态输出::ITM-STA-034::输出",
+      "disposition": "FUNCTION_MAPPED",
+      "basis": "CONNECTGRAPH_TO_FUNCTION_MAPPED_PEER"
+    },
+    {
+      "interface_instance_id": "IFINST::PORT::X133::储能系统故障状态输出::ITM-STA-031::输出",
+      "disposition": "OPTIONAL_OPEN",
+      "basis": "FINAL_PORT_COVERAGE"
+    }
+  ],
+  "aggregated_function_renames": 53,
+  "renamed_functions": [
+    {
+      "function_id": "F-3000-01",
+      "before": {
+        "name_cn": "聚合实现转向架及其辅助系统功能",
+        "name_en": "Integrate system functions of Product 3000",
+        "description": "聚合实现转向架及其辅助系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量、控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3100-01",
+      "before": {
+        "name_cn": "聚合实现轮轴组成系统功能",
+        "name_en": "Integrate system functions of Product 3100",
+        "description": "聚合实现轮轴组成系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、传递能量/介质",
+        "name_en": "Convert energy/quantities; Transport energy/media",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3110-01",
+      "before": {
+        "name_cn": "聚合实现车轮车轴系统功能",
+        "name_en": "Integrate system functions of Product 3110",
+        "description": "聚合实现车轮车轴系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质、耗散能量",
+        "name_en": "Transport energy/media; Dissipate energy",
+        "description": "传递能量/介质、耗散能量，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3120-01",
+      "before": {
+        "name_cn": "聚合实现齿轮箱及附件系统功能",
+        "name_en": "Integrate system functions of Product 3120",
+        "description": "聚合实现齿轮箱及附件系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量",
+        "name_en": "Convert energy/quantities",
+        "description": "转换能量/物理量，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3130-01",
+      "before": {
+        "name_cn": "聚合实现制动盘系统功能",
+        "name_en": "Integrate system functions of Product 3130",
+        "description": "聚合实现制动盘系统功能。"
+      },
+      "after": {
+        "name_cn": "耗散能量",
+        "name_en": "Dissipate energy",
+        "description": "耗散能量，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3500-01",
+      "before": {
+        "name_cn": "聚合实现牵引传动耦合组件及其附件系统功能",
+        "name_en": "Integrate system functions of Product 3500",
+        "description": "聚合实现牵引传动耦合组件及其附件系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3510-01",
+      "before": {
+        "name_cn": "聚合实现传动耦合机构系统功能",
+        "name_en": "Integrate system functions of Product 3510",
+        "description": "聚合实现传动耦合机构系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3600-01",
+      "before": {
+        "name_cn": "聚合实现转向架相关检测系统功能",
+        "name_en": "Integrate system functions of Product 3600",
+        "description": "聚合实现转向架相关检测系统功能。"
+      },
+      "after": {
+        "name_cn": "检测运行参数",
+        "name_en": "Measure parameters",
+        "description": "检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3640-01",
+      "before": {
+        "name_cn": "聚合实现速度检测组件系统功能",
+        "name_en": "Integrate system functions of Product 3640",
+        "description": "聚合实现速度检测组件系统功能。"
+      },
+      "after": {
+        "name_cn": "检测运行参数",
+        "name_en": "Measure parameters",
+        "description": "检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3800-01",
+      "before": {
+        "name_cn": "聚合实现辅助增粘及轮缘润滑系统功能",
+        "name_en": "Integrate system functions of Product 3800",
+        "description": "聚合实现辅助增粘及轮缘润滑系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、控制运行、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-3810-01",
+      "before": {
+        "name_cn": "聚合实现撒砂装置系统功能",
+        "name_en": "Integrate system functions of Product 3810",
+        "description": "聚合实现撒砂装置系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、控制运行、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4000-01",
+      "before": {
+        "name_cn": "聚合实现主供电系统功能",
+        "name_en": "Integrate system functions of Product 4000",
+        "description": "聚合实现主供电系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、控制运行、协调功能，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4100-01",
+      "before": {
+        "name_cn": "聚合实现高压受流系统功能",
+        "name_en": "Integrate system functions of Product 4100",
+        "description": "聚合实现高压受流系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质、控制运行",
+        "name_en": "Transport energy/media; Control operation",
+        "description": "传递能量/介质、控制运行、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4110-01",
+      "before": {
+        "name_cn": "聚合实现受电弓总成系统功能",
+        "name_en": "Integrate system functions of Product 4110",
+        "description": "聚合实现受电弓总成系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质、控制运行",
+        "name_en": "Transport energy/media; Control operation",
+        "description": "传递能量/介质、控制运行、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4200-01",
+      "before": {
+        "name_cn": "聚合实现网侧高压分配及控制系统功能",
+        "name_en": "Integrate system functions of Product 4200",
+        "description": "聚合实现网侧高压分配及控制系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质、控制运行",
+        "name_en": "Transport energy/media; Control operation",
+        "description": "传递能量/介质、控制运行、协调功能、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4210-01",
+      "before": {
+        "name_cn": "聚合实现高压开关系统功能",
+        "name_en": "Integrate system functions of Product 4210",
+        "description": "聚合实现高压开关系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4230-01",
+      "before": {
+        "name_cn": "聚合实现高压保护及检测部件系统功能",
+        "name_en": "Integrate system functions of Product 4230",
+        "description": "聚合实现高压保护及检测部件系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、检测运行参数",
+        "name_en": "Control operation; Measure parameters",
+        "description": "控制运行、协调功能、检测运行参数、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4240-01",
+      "before": {
+        "name_cn": "聚合实现能量测量系统功能",
+        "name_en": "Integrate system functions of Product 4240",
+        "description": "聚合实现能量测量系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、反馈运行状态",
+        "name_en": "Control operation; Report status",
+        "description": "控制运行、反馈运行状态、统计运行数据，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4400-01",
+      "before": {
+        "name_cn": "聚合实现回流及接地系统功能",
+        "name_en": "Integrate system functions of Product 4400",
+        "description": "聚合实现回流及接地系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4410-01",
+      "before": {
+        "name_cn": "聚合实现主回路回流设备系统功能",
+        "name_en": "Integrate system functions of Product 4410",
+        "description": "聚合实现主回路回流设备系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4500-01",
+      "before": {
+        "name_cn": "聚合实现主变压器及其冷却系统功能",
+        "name_en": "Integrate system functions of Product 4500",
+        "description": "聚合实现主变压器及其冷却系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、控制运行、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-4510-01",
+      "before": {
+        "name_cn": "聚合实现主变压器主体及其控制系统功能",
+        "name_en": "Integrate system functions of Product 4510",
+        "description": "聚合实现主变压器主体及其控制系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、控制运行、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5000-01",
+      "before": {
+        "name_cn": "聚合实现牵引系统功能",
+        "name_en": "Integrate system functions of Product 5000",
+        "description": "聚合实现牵引系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量、控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5100-01",
+      "before": {
+        "name_cn": "聚合实现牵引变流器主体及其控制系统功能",
+        "name_en": "Integrate system functions of Product 5100",
+        "description": "聚合实现牵引变流器主体及其控制系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量、控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5110-01",
+      "before": {
+        "name_cn": "聚合实现牵引变流器控制系统功能",
+        "name_en": "Integrate system functions of Product 5110",
+        "description": "聚合实现牵引变流器控制系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、检测运行参数",
+        "name_en": "Control operation; Measure parameters",
+        "description": "控制运行、协调功能、检测运行参数、实施保护与限制，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5120-01",
+      "before": {
+        "name_cn": "聚合实现输入及预充电单元系统功能",
+        "name_en": "Integrate system functions of Product 5120",
+        "description": "聚合实现输入及预充电单元系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5130-01",
+      "before": {
+        "name_cn": "聚合实现变流模块系统功能",
+        "name_en": "Integrate system functions of Product 5130",
+        "description": "聚合实现变流模块系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、控制运行、实施保护与限制、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5140-01",
+      "before": {
+        "name_cn": "聚合实现中间直流环节组件及其系统功能",
+        "name_en": "Integrate system functions of Product 5140",
+        "description": "聚合实现中间直流环节组件及其系统功能。"
+      },
+      "after": {
+        "name_cn": "耗散能量、检测运行参数",
+        "name_en": "Dissipate energy; Measure parameters",
+        "description": "耗散能量、检测运行参数、统计运行数据，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5300-01",
+      "before": {
+        "name_cn": "聚合实现牵引电机及其冷却系统功能",
+        "name_en": "Integrate system functions of Product 5300",
+        "description": "聚合实现牵引电机及其冷却系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、检测运行参数",
+        "name_en": "Convert energy/quantities; Measure parameters",
+        "description": "转换能量/物理量、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-5310-01",
+      "before": {
+        "name_cn": "聚合实现牵引电机组成系统功能",
+        "name_en": "Integrate system functions of Product 5310",
+        "description": "聚合实现牵引电机组成系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、检测运行参数",
+        "name_en": "Convert energy/quantities; Measure parameters",
+        "description": "转换能量/物理量、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7000-01",
+      "before": {
+        "name_cn": "聚合实现供风制动系统功能",
+        "name_en": "Integrate system functions of Product 7000",
+        "description": "聚合实现供风制动系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量、控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7100-01",
+      "before": {
+        "name_cn": "聚合实现供风系统功能",
+        "name_en": "Integrate system functions of Product 7100",
+        "description": "聚合实现供风系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质、检测运行参数",
+        "name_en": "Transport energy/media; Measure parameters",
+        "description": "传递能量/介质、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7120-01",
+      "before": {
+        "name_cn": "聚合实现风缸系统功能",
+        "name_en": "Integrate system functions of Product 7120",
+        "description": "聚合实现风缸系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7130-01",
+      "before": {
+        "name_cn": "聚合实现列车级压缩空气分配组件系统功能",
+        "name_en": "Integrate system functions of Product 7130",
+        "description": "聚合实现列车级压缩空气分配组件系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7140-01",
+      "before": {
+        "name_cn": "聚合实现供风压力开关及传感器系统功能",
+        "name_en": "Integrate system functions of Product 7140",
+        "description": "聚合实现供风压力开关及传感器系统功能。"
+      },
+      "after": {
+        "name_cn": "检测运行参数",
+        "name_en": "Measure parameters",
+        "description": "检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7200-01",
+      "before": {
+        "name_cn": "聚合实现制动系统功能",
+        "name_en": "Integrate system functions of Product 7200",
+        "description": "聚合实现制动系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量、控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7210-01",
+      "before": {
+        "name_cn": "聚合实现制动控制组件系统功能",
+        "name_en": "Integrate system functions of Product 7210",
+        "description": "聚合实现制动控制组件系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、控制运行",
+        "name_en": "Convert energy/quantities; Control operation",
+        "description": "转换能量/物理量、控制运行、协调功能、执行安全控制，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7220-01",
+      "before": {
+        "name_cn": "聚合实现直接制动控制系统功能",
+        "name_en": "Integrate system functions of Product 7220",
+        "description": "聚合实现直接制动控制系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、执行安全控制",
+        "name_en": "Convert energy/quantities; Execute safety control",
+        "description": "转换能量/物理量、传递能量/介质、检测运行参数、执行安全控制，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7250-01",
+      "before": {
+        "name_cn": "聚合实现制动夹钳及其配套组件系统功能",
+        "name_en": "Integrate system functions of Product 7250",
+        "description": "聚合实现制动夹钳及其配套组件系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、传递能量/介质",
+        "name_en": "Convert energy/quantities; Transport energy/media",
+        "description": "转换能量/物理量、传递能量/介质、耗散能量，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-7280-01",
+      "before": {
+        "name_cn": "聚合实现其它制动元件及附件系统功能",
+        "name_en": "Integrate system functions of Product 7280",
+        "description": "聚合实现其它制动元件及附件系统功能。"
+      },
+      "after": {
+        "name_cn": "转换能量/物理量、传递能量/介质",
+        "name_en": "Convert energy/quantities; Transport energy/media",
+        "description": "转换能量/物理量、传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-8000-01",
+      "before": {
+        "name_cn": "聚合实现网络及辅助监控系统功能",
+        "name_en": "Integrate system functions of Product 8000",
+        "description": "聚合实现网络及辅助监控系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、实施保护与限制",
+        "name_en": "Control operation; Protect/limit operation",
+        "description": "控制运行、协调功能、实施保护与限制、执行安全控制，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-8100-01",
+      "before": {
+        "name_cn": "聚合实现列车主干网及安全回路系统功能",
+        "name_en": "Integrate system functions of Product 8100",
+        "description": "聚合实现列车主干网及安全回路系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、实施保护与限制",
+        "name_en": "Control operation; Protect/limit operation",
+        "description": "控制运行、协调功能、实施保护与限制、执行安全控制，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-8120-01",
+      "before": {
+        "name_cn": "聚合实现控制单元及输入输出模块系统功能",
+        "name_en": "Integrate system functions of Product 8120",
+        "description": "聚合实现控制单元及输入输出模块系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、实施保护与限制",
+        "name_en": "Control operation; Protect/limit operation",
+        "description": "控制运行、协调功能、实施保护与限制、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-8150-01",
+      "before": {
+        "name_cn": "聚合实现整车级安全回路及其附件系统功能",
+        "name_en": "Integrate system functions of Product 8150",
+        "description": "聚合实现整车级安全回路及其附件系统功能。"
+      },
+      "after": {
+        "name_cn": "执行安全控制、反馈运行状态",
+        "name_en": "Execute safety control; Report status",
+        "description": "执行安全控制、反馈运行状态，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-8160-01",
+      "before": {
+        "name_cn": "聚合实现其它附件系统功能",
+        "name_en": "Integrate system functions of Product 8160",
+        "description": "聚合实现其它附件系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行、反馈运行状态",
+        "name_en": "Control operation; Report status",
+        "description": "控制运行、协调功能、反馈运行状态、统计运行数据，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-D000-01",
+      "before": {
+        "name_cn": "聚合实现驾驶设施系统功能",
+        "name_en": "Integrate system functions of Product D000",
+        "description": "聚合实现驾驶设施系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行",
+        "name_en": "Control operation",
+        "description": "控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-D100-01",
+      "before": {
+        "name_cn": "聚合实现操纵设施系统功能",
+        "name_en": "Integrate system functions of Product D100",
+        "description": "聚合实现操纵设施系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行",
+        "name_en": "Control operation",
+        "description": "控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-D110-01",
+      "before": {
+        "name_cn": "聚合实现基本操纵组件系统功能",
+        "name_en": "Integrate system functions of Product D110",
+        "description": "聚合实现基本操纵组件系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行",
+        "name_en": "Control operation",
+        "description": "控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-D120-01",
+      "before": {
+        "name_cn": "聚合实现紧急响应元件系统功能",
+        "name_en": "Integrate system functions of Product D120",
+        "description": "聚合实现紧急响应元件系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行",
+        "name_en": "Control operation",
+        "description": "控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-D130-01",
+      "before": {
+        "name_cn": "聚合实现开关按钮功能组件系统功能",
+        "name_en": "Integrate system functions of Product D130",
+        "description": "聚合实现开关按钮功能组件系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行",
+        "name_en": "Control operation",
+        "description": "控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-E000-01",
+      "before": {
+        "name_cn": "聚合实现电务车载系统功能",
+        "name_en": "Integrate system functions of Product E000",
+        "description": "聚合实现电务车载系统功能。"
+      },
+      "after": {
+        "name_cn": "控制运行",
+        "name_en": "Control operation",
+        "description": "控制运行，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-X120-01",
+      "before": {
+        "name_cn": "聚合实现超级电容储能组件系统功能",
+        "name_en": "Integrate system functions of Product X120",
+        "description": "聚合实现超级电容储能组件系统功能。"
+      },
+      "after": {
+        "name_cn": "储存与释放能量、检测运行参数",
+        "name_en": "Store and release energy; Measure parameters",
+        "description": "储存与释放能量、检测运行参数，由已分配的下级功能汇总形成。"
+      }
+    },
+    {
+      "function_id": "F-X130-01",
+      "before": {
+        "name_cn": "聚合实现储能接入与保护系统功能",
+        "name_en": "Integrate system functions of Product X130",
+        "description": "聚合实现储能接入与保护系统功能。"
+      },
+      "after": {
+        "name_cn": "传递能量/介质",
+        "name_en": "Transport energy/media",
+        "description": "传递能量/介质，由已分配的下级功能汇总形成。"
+      }
+    }
+  ],
+  "counts": {
+    "products": 147,
+    "items": 144,
+    "interfaces": 517,
+    "active_interfaces": 511,
+    "connections": 184,
+    "physical_nets": 9,
+    "net_members": 82,
+    "leaf_functions": 135,
+    "aggregated_functions": 56,
+    "functions": 191,
+    "allocations": 191,
+    "function_interface_mappings": 471
+  },
+  "qa": {
+    "PREFLIGHT-01": true,
+    "PREFLIGHT-02": true,
+    "PREFLIGHT-03": true,
+    "PREFLIGHT-04": true,
+    "PREFLIGHT-05": true,
+    "PREFLIGHT-06": true,
+    "PREFLIGHT-07": true,
+    "PREFLIGHT-08": true,
+    "PREFLIGHT-09": true,
+    "PREFLIGHT-10": true,
+    "PREFLIGHT-11": true,
+    "PREFLIGHT-12": true
+  },
+  "schema_validation": "PASS",
+  "schema_errors": [],
+  "json_sha256": "8a103b3c2f59a2067a3996efd72f89e840c7f600e6ff8fb0d914ba6be958ff23",
+  "json_byte_identical_two_runs": true,
+  "workbook_readback": "PASS"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checks": {
+    "product_count": true,
+    "level_counts": true,
+    "item_count": true,
+    "raw_port_count": true,
+    "active_ports": true,
+    "inactive_ports": true,
+    "function_count": true,
+    "allocation_count": true,
+    "connection_count": true,
+    "physical_net_count": true,
+    "raw_ports_leaf_only": true,
+    "connection_source_ports_resolve": true,
+    "connection_items_resolve": true,
+    "connection_ids_unique": true,
+    "generated_endpoints_complete": true,
+    "signal_directions_valid": true,
+    "physical_directions_valid": true,
+    "upper_functions_trace_to_leaf": true,
+    "anchor_4235_5111": true,
+    "anchor_7211_8125": true,
+    "forbidden_7211_5112": true,
+    "leaf_3131_3132_3133": true,
+    "x100_complete": true
+  }
+}

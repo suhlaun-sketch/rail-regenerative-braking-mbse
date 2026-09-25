@@ -1,0 +1,193 @@
+{
+  "ssd_component": "L2_D100",
+  "l2_code": "D100",
+  "l2_engineering_name": "操纵设施",
+  "future_simulink_model": "L2_D100.slx",
+  "future_fmu_file": "L2_D100.fmu",
+  "source_structural_connectors": [
+    "L2_D100.p_D112_rp_8962dea15ad904c6",
+    "L2_D100.p_D113_rp_9ca0d9d396f8ffd0",
+    "L2_D100.p_D114_rp_d3d5739989ecf2dd",
+    "L2_D100.p_D121_rp_d32b32814a84a88a"
+  ],
+  "inputs": [],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_D100::out_emergency_brake_request",
+      "variable_name": "out_emergency_brake_request",
+      "engineering_meaning": "触发紧急制动的有效请求。",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0047"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_663CDC611495882DCD3E5B8F",
+        "CG_8EED0159D22D9EDC70A9EA67"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_D000.p_D100.p_D120.p_D121.rp_d32b32814a84a88a",
+        "ItemDefinitions::ITM-CMD-004",
+        "IF_IF_CMD_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_D100",
+      "source_ssd_connectors": [
+        "L2_D100.p_D121_rp_d32b32814a84a88a"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_D100::out_service_brake_request",
+      "variable_name": "out_service_brake_request",
+      "engineering_meaning": "服务制动需求;可采用归一化请求或减速度请求,工程中必须在接口处固定一种语义。",
+      "quantity": "service_brake_request",
+      "unit": "1 或 m/s2",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0046"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_41AD09EEB4EAB9DC956C08F8"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_D000.p_D100.p_D110.p_D114.rp_d3d5739989ecf2dd",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_D100",
+      "source_ssd_connectors": [
+        "L2_D100.p_D114_rp_d3d5739989ecf2dd"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_D100::out_traction_command",
+      "variable_name": "out_traction_command",
+      "engineering_meaning": "司机/ATO等给出的归一化牵引需求。",
+      "quantity": "traction_command",
+      "unit": "1",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0045"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_2E8F3CC8A8EBCDE6B7CF4D27"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_D000.p_D100.p_D110.p_D113.rp_9ca0d9d396f8ffd0",
+        "ItemDefinitions::ITM-CMD-002",
+        "IF_IF_CMD_002"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_D100",
+      "source_ssd_connectors": [
+        "L2_D100.p_D113_rp_9ca0d9d396f8ffd0"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_D100::out_train_direction_command",
+      "variable_name": "out_train_direction_command",
+      "engineering_meaning": "司机或控制系统给出的列车运行方向选择。",
+      "quantity": "train_direction_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0044"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_A3B31951ADAE62C498E76260"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_D000.p_D100.p_D110.p_D112.rp_8962dea15ad904c6",
+        "ItemDefinitions::ITM-CMD-001",
+        "IF_IF_CMD_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_D100",
+      "source_ssd_connectors": [
+        "L2_D100.p_D112_rp_8962dea15ad904c6"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 0,
+    "outputs": 4,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 4
+  },
+  "readiness": "READY"
+}

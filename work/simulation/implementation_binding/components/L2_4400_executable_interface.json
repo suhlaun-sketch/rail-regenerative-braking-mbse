@@ -1,0 +1,20 @@
+{
+  "ssd_component": "L2_4400",
+  "l2_code": "4400",
+  "l2_engineering_name": "回流及接地",
+  "future_simulink_model": "L2_4400.slx",
+  "future_fmu_file": "L2_4400.fmu",
+  "source_structural_connectors": [],
+  "inputs": [],
+  "outputs": [],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 0,
+    "outputs": 0,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 0
+  },
+  "readiness": "READY"
+}

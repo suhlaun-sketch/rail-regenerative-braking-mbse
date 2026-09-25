@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "counts": {
+    "product_blocks": 8,
+    "context_blocks": 1,
+    "composite_parts": 8,
+    "proxy_ports": 2,
+    "canonical_interface_blocks": 1,
+    "conjugated_interface_blocks": 1,
+    "flow_properties": 1,
+    "nested_connector_ends": 2,
+    "connectors": 1,
+    "information_flows": 1,
+    "item_flows": 1,
+    "activities": 1,
+    "allocates": 1
+  },
+  "qa": [
+    {
+      "id": "MDMAP-01",
+      "status": "PASS",
+      "detail": "xmlns:uml=http://www.omg.org/spec/UML/20131001"
+    },
+    {
+      "id": "MDMAP-02",
+      "status": "PASS",
+      "detail": "xmlns:uml=http://www.omg.org/spec/UML/20131001"
+    },
+    {
+      "id": "MDMAP-03",
+      "status": "PASS",
+      "detail": "xmlns:xmi=http://www.omg.org/spec/XMI/20131001"
+    },
+    {
+      "id": "MDMAP-04",
+      "status": "PASS",
+      "detail": "appliedProfile=http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML"
+    },
+    {
+      "id": "MDMAP-05",
+      "status": "PASS",
+      "detail": "Probe Product Blocks=8/8"
+    },
+    {
+      "id": "MDMAP-06",
+      "status": "PASS",
+      "detail": "5111 Block Definition exists"
+    },
+    {
+      "id": "MDMAP-07",
+      "status": "PASS",
+      "detail": "part_5111 owner=5110"
+    },
+    {
+      "id": "MDMAP-08",
+      "status": "PASS",
+      "detail": "4235 owned part typed 5111=0"
+    },
+    {
+      "id": "MDMAP-09",
+      "status": "PASS",
+      "detail": "4235 package=MainPowerSupply"
+    },
+    {
+      "id": "MDMAP-10",
+      "status": "PASS",
+      "detail": "5111 package=Traction"
+    },
+    {
+      "id": "MDMAP-11",
+      "status": "PASS",
+      "detail": "real hierarchy compositions=8, hierarchy dependencies=0"
+    },
+    {
+      "id": "MDMAP-12",
+      "status": "PASS",
+      "detail": "Connector owner=XMI-SYSTEM-CONTEXT-RAIL-MBSE-TRACTIONBRAKE-MD2022X-PROBE"
+    },
+    {
+      "id": "MDMAP-13",
+      "status": "PASS",
+      "detail": "4235 path=XMI-PART-451CF3A2B27ED782EB XMI-PART-4EC81D0884E0F3CAB9 XMI-PART-9924E52DD81DEE88A4 XMI-PART-7664EA539DCF72A6D7"
+    },
+    {
+      "id": "MDMAP-14",
+      "status": "PASS",
+      "detail": "5111 path=XMI-PART-28CDDA4E5DC54187C9 XMI-PART-7574D9F046324156C6 XMI-PART-129ADCB7B7CB8308B7 XMI-PART-8890D06D493601D984"
+    },
+    {
+      "id": "MDMAP-15",
+      "status": "PASS",
+      "detail": "both ConnectorEnd roles are real ProxyPorts"
+    },
+    {
+      "id": "MDMAP-16",
+      "status": "PASS",
+      "detail": "4235 effective direction=out"
+    },
+    {
+      "id": "MDMAP-17",
+      "status": "PASS",
+      "detail": "5111 effective direction=in via ~InterfaceBlock"
+    },
+    {
+      "id": "MDMAP-18",
+      "status": "PASS",
+      "detail": "Connector has realizing InformationFlow"
+    },
+    {
+      "id": "MDMAP-19",
+      "status": "PASS",
+      "detail": "InformationFlow has standard ItemFlow application"
+    },
+    {
+      "id": "MDMAP-20",
+      "status": "PASS",
+      "detail": "informationSource=4235 output"
+    },
+    {
+      "id": "MDMAP-21",
+      "status": "PASS",
+      "detail": "informationTarget=5111 input"
+    },
+    {
+      "id": "MDMAP-22",
+      "status": "PASS",
+      "detail": "conveyed Item and itemProperty are canonical"
+    },
+    {
+      "id": "MDMAP-23",
+      "status": "PASS",
+      "detail": "realizingConnector is Probe Connector"
+    },
+    {
+      "id": "MDMAP-24",
+      "status": "PASS",
+      "detail": "F-4235-01 is uml:Activity"
+    },
+    {
+      "id": "MDMAP-25",
+      "status": "PASS",
+      "detail": "Activity-to-4235 standard Allocate"
+    },
+    {
+      "id": "MDMAP-26",
+      "status": "PASS",
+      "detail": "duplicate xmi:id=0"
+    },
+    {
+      "id": "MDMAP-27",
+      "status": "PASS",
+      "detail": "unresolved local references=0"
+    },
+    {
+      "id": "MDMAP-28",
+      "status": "PASS",
+      "detail": "custom stereotype names=[]"
+    },
+    {
+      "id": "MDMAP-29",
+      "status": "PASS",
+      "detail": "no xmi:Documentation exporter"
+    },
+    {
+      "id": "MDMAP-30",
+      "status": "PASS",
+      "detail": "byte deterministic=True; sha256=cc78c6daba5d6f978def293bcc1a7e5f12899717cc7a56affdb59ad31d12ff80"
+    },
+    {
+      "id": "SEM-QA-5111-01",
+      "status": "PASS",
+      "detail": "Block Definition 5111 exists"
+    },
+    {
+      "id": "SEM-QA-5111-02",
+      "status": "PASS",
+      "detail": "5111 has SysML::Block application"
+    },
+    {
+      "id": "SEM-QA-5111-03",
+      "status": "PASS",
+      "detail": "part_5111 owner=5110"
+    },
+    {
+      "id": "SEM-QA-5111-04",
+      "status": "PASS",
+      "detail": "part_5111.type=5111"
+    },
+    {
+      "id": "SEM-QA-5111-05",
+      "status": "PASS",
+      "detail": "part_5111 aggregation=composite"
+    },
+    {
+      "id": "SEM-QA-5111-06",
+      "status": "PASS",
+      "detail": "4235 has no ownedAttribute type=5111"
+    },
+    {
+      "id": "PORT-QA-01",
+      "status": "PASS",
+      "detail": "4235 Port stereotype=ProxyPort"
+    },
+    {
+      "id": "PORT-QA-02",
+      "status": "PASS",
+      "detail": "5111 Port stereotype=ProxyPort"
+    },
+    {
+      "id": "PORT-QA-03",
+      "status": "PASS",
+      "detail": "4235 effective direction=out"
+    },
+    {
+      "id": "PORT-QA-04",
+      "status": "PASS",
+      "detail": "5111 effective direction=in"
+    },
+    {
+      "id": "PORT-QA-05",
+      "status": "PASS",
+      "detail": "both endpoints use ITM-MEA-005"
+    },
+    {
+      "id": "SEM-NEG-01",
+      "status": "PASS",
+      "detail": "4235 does not own part_5111"
+    },
+    {
+      "id": "SEM-NEG-02",
+      "status": "PASS",
+      "detail": "5111 parent Product is not 4235"
+    },
+    {
+      "id": "SEM-NEG-03",
+      "status": "PASS",
+      "detail": "4235 and 5111 are on different L1 branches"
+    },
+    {
+      "id": "SEM-NEG-04",
+      "status": "PASS",
+      "detail": "Product hierarchy is not represented by Dependency"
+    },
+    {
+      "id": "SEM-NEG-05",
+      "status": "PASS",
+      "detail": "ItemFlow is not reversed"
+    }
+  ],
+  "mdmap_summary": {
+    "pass": 30,
+    "fail": 0
+  },
+  "all_summary": {
+    "pass": 46,
+    "fail": 0
+  },
+  "connection": {
+    "connection_id": "CG-002543DBE0F9A7FBC2A3FDD3",
+    "source_port_id": "PORT::4235::高压线路电压输出::ITM-MEA-005::输出",
+    "target_port_id": "PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+    "item_code": "ITM-MEA-005",
+    "interface_type_id": "IF-MEA-005"
+  },
+  "cameo_import_test": "PENDING"
+}

@@ -1,0 +1,1764 @@
+{
+  "source_sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+  "target_sha256": "5cb5859578794f7eb1373c6e7c5b8dedc3393444d4bf2202c04337c88fa4fe1b",
+  "port_usages": [
+    {
+      "port_id": "bp_X100_093efce58f3a",
+      "port_name": "bp_X100_093efce58f3a",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_ACC_004",
+      "interface_type": "PT_PT_ACC_004",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "interface_refs": [
+        "IF_IF_ACC_004"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_a59821acb0d73604 -> L2_8100.L2_8100.p_8122_rp_a095b9b42ab5cc7d"
+      ],
+      "binding_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_093efce58f3a",
+      "port_name": "bp_8100_093efce58f3a",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_ACC_004",
+      "interface_type": "PT_PT_ACC_004",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "connector_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "interface_refs": [
+        "IF_IF_ACC_004"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_a59821acb0d73604 -> L2_8100.L2_8100.p_8122_rp_a095b9b42ab5cc7d"
+      ],
+      "binding_refs": [
+        "CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_1ae13610e33c",
+      "port_name": "bp_X100_1ae13610e33c",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_027",
+      "interface_type": "PT_PT_CMD_027",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_027"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_4683a7cb63e55daf -> L2_X100.L2_X100.p_X112_rp_81f1c1da5d6d3173"
+      ],
+      "binding_refs": [
+        "CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_1ae13610e33c",
+      "port_name": "bp_8100_1ae13610e33c",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_027",
+      "interface_type": "PT_PT_CMD_027",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "connector_refs": [
+        "CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_027"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_4683a7cb63e55daf -> L2_X100.L2_X100.p_X112_rp_81f1c1da5d6d3173"
+      ],
+      "binding_refs": [
+        "CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_25dc22e45a98",
+      "port_name": "bp_X100_25dc22e45a98",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_026",
+      "interface_type": "PT_PT_CMD_026",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_25DC22E45A984D1CB28D188B"
+      ],
+      "connector_refs": [
+        "CG_25DC22E45A984D1CB28D188B"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_026"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_a4aac084c46e1e57 -> L2_X100.L2_X100.p_X112_rp_1164249ec859b807"
+      ],
+      "binding_refs": [
+        "CG_25DC22E45A984D1CB28D188B"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_25dc22e45a98",
+      "port_name": "bp_8100_25dc22e45a98",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_026",
+      "interface_type": "PT_PT_CMD_026",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_25DC22E45A984D1CB28D188B"
+      ],
+      "connector_refs": [
+        "CG_25DC22E45A984D1CB28D188B"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_026"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_a4aac084c46e1e57 -> L2_X100.L2_X100.p_X112_rp_1164249ec859b807"
+      ],
+      "binding_refs": [
+        "CG_25DC22E45A984D1CB28D188B"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_7a2381dc8c36",
+      "port_name": "bp_X100_7a2381dc8c36",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_025",
+      "interface_type": "PT_PT_CMD_025",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_7A2381DC8C36A40B747035A5"
+      ],
+      "connector_refs": [
+        "CG_7A2381DC8C36A40B747035A5"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_025"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_77c439392dea95b4 -> L2_X100.L2_X100.p_X112_rp_843fa8c83311440e"
+      ],
+      "binding_refs": [
+        "CG_7A2381DC8C36A40B747035A5"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_7a2381dc8c36",
+      "port_name": "bp_8100_7a2381dc8c36",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_025",
+      "interface_type": "PT_PT_CMD_025",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_7A2381DC8C36A40B747035A5"
+      ],
+      "connector_refs": [
+        "CG_7A2381DC8C36A40B747035A5"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_025"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_77c439392dea95b4 -> L2_X100.L2_X100.p_X112_rp_843fa8c83311440e"
+      ],
+      "binding_refs": [
+        "CG_7A2381DC8C36A40B747035A5"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_9465aac3f0b0",
+      "port_name": "bp_X100_9465aac3f0b0",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_MEA_028",
+      "interface_type": "PT_PT_MEA_028",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "connector_refs": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_028"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X121_rp_b6cf5a49ced52abf -> L2_8100.L2_8100.p_8122_rp_6437aa0577c9ccd7"
+      ],
+      "binding_refs": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_9465aac3f0b0",
+      "port_name": "bp_8100_9465aac3f0b0",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_MEA_028",
+      "interface_type": "PT_PT_MEA_028",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "connector_refs": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_028"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X121_rp_b6cf5a49ced52abf -> L2_8100.L2_8100.p_8122_rp_6437aa0577c9ccd7"
+      ],
+      "binding_refs": [
+        "CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_a6d783bbfcf6",
+      "port_name": "bp_X100_a6d783bbfcf6",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_MEA_029",
+      "interface_type": "PT_PT_MEA_029",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "connector_refs": [
+        "CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_029"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X111_rp_9828766df3df1904 -> L2_8100.L2_8100.p_8122_rp_e1808e35289aaba6"
+      ],
+      "binding_refs": [
+        "CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_a6d783bbfcf6",
+      "port_name": "bp_8100_a6d783bbfcf6",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_MEA_029",
+      "interface_type": "PT_PT_MEA_029",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "connector_refs": [
+        "CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_029"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X111_rp_9828766df3df1904 -> L2_8100.L2_8100.p_8122_rp_e1808e35289aaba6"
+      ],
+      "binding_refs": [
+        "CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_c03ebdd9b3cf",
+      "port_name": "bp_X100_c03ebdd9b3cf",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_STA_030",
+      "interface_type": "PT_PT_STA_030",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "connector_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_030"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_3b946767139d884a -> L2_8100.L2_8100.p_8122_rp_1967a947dd39d4a5"
+      ],
+      "binding_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_c03ebdd9b3cf",
+      "port_name": "bp_8100_c03ebdd9b3cf",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_STA_030",
+      "interface_type": "PT_PT_STA_030",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "connector_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_030"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_3b946767139d884a -> L2_8100.L2_8100.p_8122_rp_1967a947dd39d4a5"
+      ],
+      "binding_refs": [
+        "CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_c113ed5b462a",
+      "port_name": "bp_X100_c113ed5b462a",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_STA_031",
+      "interface_type": "PT_PT_STA_031",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "connector_refs": [
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_031"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_e5eadfefaf46ac0a -> L2_8100.L2_8100.p_8122_rp_9d3500c169fe7103"
+      ],
+      "binding_refs": [
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_c113ed5b462a",
+      "port_name": "bp_8100_c113ed5b462a",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_STA_031",
+      "interface_type": "PT_PT_STA_031",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "connector_refs": [
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_031"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_e5eadfefaf46ac0a -> L2_8100.L2_8100.p_8122_rp_9d3500c169fe7103"
+      ],
+      "binding_refs": [
+        "CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_cb302083c9f3",
+      "port_name": "bp_X100_cb302083c9f3",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_LIM_009",
+      "interface_type": "PT_PT_LIM_009",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_CB302083C9F33A1345D9C406"
+      ],
+      "connector_refs": [
+        "CG_CB302083C9F33A1345D9C406"
+      ],
+      "interface_refs": [
+        "IF_IF_LIM_009"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_388d943a537916a7 -> L2_8100.L2_8100.p_8122_rp_8c3ed075d33335e8"
+      ],
+      "binding_refs": [
+        "CG_CB302083C9F33A1345D9C406"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_cb302083c9f3",
+      "port_name": "bp_8100_cb302083c9f3",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_LIM_009",
+      "interface_type": "PT_PT_LIM_009",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_CB302083C9F33A1345D9C406"
+      ],
+      "connector_refs": [
+        "CG_CB302083C9F33A1345D9C406"
+      ],
+      "interface_refs": [
+        "IF_IF_LIM_009"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_388d943a537916a7 -> L2_8100.L2_8100.p_8122_rp_8c3ed075d33335e8"
+      ],
+      "binding_refs": [
+        "CG_CB302083C9F33A1345D9C406"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_d8fce908d4fd",
+      "port_name": "bp_X100_d8fce908d4fd",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_029",
+      "interface_type": "PT_PT_CMD_029",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_D8FCE908D4FD9343C6353985"
+      ],
+      "connector_refs": [
+        "CG_D8FCE908D4FD9343C6353985"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_029"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_47c78247980cc3a5 -> L2_X100.L2_X100.p_X112_rp_b84f02a624b9982f"
+      ],
+      "binding_refs": [
+        "CG_D8FCE908D4FD9343C6353985"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_d8fce908d4fd",
+      "port_name": "bp_8100_d8fce908d4fd",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_029",
+      "interface_type": "PT_PT_CMD_029",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_D8FCE908D4FD9343C6353985"
+      ],
+      "connector_refs": [
+        "CG_D8FCE908D4FD9343C6353985"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_029"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_47c78247980cc3a5 -> L2_X100.L2_X100.p_X112_rp_b84f02a624b9982f"
+      ],
+      "binding_refs": [
+        "CG_D8FCE908D4FD9343C6353985"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_d9cd1e8933f5",
+      "port_name": "bp_X100_d9cd1e8933f5",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_028",
+      "interface_type": "PT_PT_CMD_028",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_D9CD1E8933F596F319A67625"
+      ],
+      "connector_refs": [
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_028"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_f704c2e7bab06749 -> L2_X100.L2_X100.p_X112_rp_5ff890136d5d49bf"
+      ],
+      "binding_refs": [
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_d9cd1e8933f5",
+      "port_name": "bp_8100_d9cd1e8933f5",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_028",
+      "interface_type": "PT_PT_CMD_028",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_D9CD1E8933F596F319A67625"
+      ],
+      "connector_refs": [
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_028"
+      ],
+      "ssd_refs": [
+        "L2_8100.L2_8100.p_8122_rp_f704c2e7bab06749 -> L2_X100.L2_X100.p_X112_rp_5ff890136d5d49bf"
+      ],
+      "binding_refs": [
+        "CG_D9CD1E8933F596F319A67625"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X100_daf7d43ddd82",
+      "port_name": "bp_X100_daf7d43ddd82",
+      "owner_product": "X100",
+      "owner_part_usage": "p_X000.p_X100",
+      "direction": "out",
+      "interface_group": "IF_IF_LIM_010",
+      "interface_type": "PT_PT_LIM_010",
+      "external_neighbor": "8100",
+      "flow_refs": [
+        "flow::CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "connector_refs": [
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "interface_refs": [
+        "IF_IF_LIM_010"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_73067cce4e6a7eeb -> L2_8100.L2_8100.p_8122_rp_35b0ef67b409e840"
+      ],
+      "binding_refs": [
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_8100_daf7d43ddd82",
+      "port_name": "bp_8100_daf7d43ddd82",
+      "owner_product": "8100",
+      "owner_part_usage": "p_N_8000.p_N_8100",
+      "direction": "in",
+      "interface_group": "IF_IF_LIM_010",
+      "interface_type": "PT_PT_LIM_010",
+      "external_neighbor": "X100",
+      "flow_refs": [
+        "flow::CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "connector_refs": [
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "interface_refs": [
+        "IF_IF_LIM_010"
+      ],
+      "ssd_refs": [
+        "L2_X100.L2_X100.p_X112_rp_73067cce4e6a7eeb -> L2_8100.L2_8100.p_8122_rp_35b0ef67b409e840"
+      ],
+      "binding_refs": [
+        "CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X130_166b9301cd54",
+      "port_name": "bp_X130_166b9301cd54",
+      "owner_product": "X130",
+      "owner_part_usage": "p_X000.p_X100.p_X130",
+      "direction": "out",
+      "interface_group": "IF_IF_STA_034",
+      "interface_type": "PT_PT_STA_034",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_166B9301CD54035D82DA7711"
+      ],
+      "connector_refs": [
+        "CG_166B9301CD54035D82DA7711"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_034"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_166b9301cd54",
+      "port_name": "bp_X110_166b9301cd54",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_STA_034",
+      "interface_type": "PT_PT_STA_034",
+      "external_neighbor": "X130",
+      "flow_refs": [
+        "flow::CG_166B9301CD54035D82DA7711"
+      ],
+      "connector_refs": [
+        "CG_166B9301CD54035D82DA7711"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_034"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X120_169e84593a2d",
+      "port_name": "bp_X120_169e84593a2d",
+      "owner_product": "X120",
+      "owner_part_usage": "p_X000.p_X100.p_X120",
+      "direction": "out",
+      "interface_group": "IF_IF_MEA_028",
+      "interface_type": "PT_PT_MEA_028",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "connector_refs": [
+        "CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_028"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_169e84593a2d",
+      "port_name": "bp_X110_169e84593a2d",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_MEA_028",
+      "interface_type": "PT_PT_MEA_028",
+      "external_neighbor": "X120",
+      "flow_refs": [
+        "flow::CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "connector_refs": [
+        "CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_028"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X120_1ba0acbf380d",
+      "port_name": "bp_X120_1ba0acbf380d",
+      "owner_product": "X120",
+      "owner_part_usage": "p_X000.p_X100.p_X120",
+      "direction": "out",
+      "interface_group": "IF_IF_MEA_027",
+      "interface_type": "PT_PT_MEA_027",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "connector_refs": [
+        "CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_027"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_1ba0acbf380d",
+      "port_name": "bp_X110_1ba0acbf380d",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_MEA_027",
+      "interface_type": "PT_PT_MEA_027",
+      "external_neighbor": "X120",
+      "flow_refs": [
+        "flow::CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "connector_refs": [
+        "CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_027"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X130_734e10c63b7a",
+      "port_name": "bp_X130_734e10c63b7a",
+      "owner_product": "X130",
+      "owner_part_usage": "p_X000.p_X100.p_X130",
+      "direction": "out",
+      "interface_group": "IF_IF_STA_033",
+      "interface_type": "PT_PT_STA_033",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_734E10C63B7A36C2BB06360D"
+      ],
+      "connector_refs": [
+        "CG_734E10C63B7A36C2BB06360D"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_033"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_734e10c63b7a",
+      "port_name": "bp_X110_734e10c63b7a",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_STA_033",
+      "interface_type": "PT_PT_STA_033",
+      "external_neighbor": "X130",
+      "flow_refs": [
+        "flow::CG_734E10C63B7A36C2BB06360D"
+      ],
+      "connector_refs": [
+        "CG_734E10C63B7A36C2BB06360D"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_033"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_79eb6beb9b0a",
+      "port_name": "bp_X110_79eb6beb9b0a",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_027",
+      "interface_type": "PT_PT_CMD_027",
+      "external_neighbor": "X130",
+      "flow_refs": [
+        "flow::CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "connector_refs": [
+        "CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_027"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X130_79eb6beb9b0a",
+      "port_name": "bp_X130_79eb6beb9b0a",
+      "owner_product": "X130",
+      "owner_part_usage": "p_X000.p_X100.p_X130",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_027",
+      "interface_type": "PT_PT_CMD_027",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "connector_refs": [
+        "CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_027"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X120_86c48ea2de05",
+      "port_name": "bp_X120_86c48ea2de05",
+      "owner_product": "X120",
+      "owner_part_usage": "p_X000.p_X100.p_X120",
+      "direction": "out",
+      "interface_group": "IF_IF_MEA_026",
+      "interface_type": "PT_PT_MEA_026",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_86C48EA2DE057325EEB9853C"
+      ],
+      "connector_refs": [
+        "CG_86C48EA2DE057325EEB9853C"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_026"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_86c48ea2de05",
+      "port_name": "bp_X110_86c48ea2de05",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_MEA_026",
+      "interface_type": "PT_PT_MEA_026",
+      "external_neighbor": "X120",
+      "flow_refs": [
+        "flow::CG_86C48EA2DE057325EEB9853C"
+      ],
+      "connector_refs": [
+        "CG_86C48EA2DE057325EEB9853C"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_026"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X120_9a05af4b79f0",
+      "port_name": "bp_X120_9a05af4b79f0",
+      "owner_product": "X120",
+      "owner_part_usage": "p_X000.p_X100.p_X120",
+      "direction": "out",
+      "interface_group": "IF_IF_MEA_025",
+      "interface_type": "PT_PT_MEA_025",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "connector_refs": [
+        "CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_025"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_9a05af4b79f0",
+      "port_name": "bp_X110_9a05af4b79f0",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_MEA_025",
+      "interface_type": "PT_PT_MEA_025",
+      "external_neighbor": "X120",
+      "flow_refs": [
+        "flow::CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "connector_refs": [
+        "CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "interface_refs": [
+        "IF_IF_MEA_025"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_c003c81fb790",
+      "port_name": "bp_X110_c003c81fb790",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "out",
+      "interface_group": "IF_IF_CMD_028",
+      "interface_type": "PT_PT_CMD_028",
+      "external_neighbor": "X130",
+      "flow_refs": [
+        "flow::CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "connector_refs": [
+        "CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_028"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X130_c003c81fb790",
+      "port_name": "bp_X130_c003c81fb790",
+      "owner_product": "X130",
+      "owner_part_usage": "p_X000.p_X100.p_X130",
+      "direction": "in",
+      "interface_group": "IF_IF_CMD_028",
+      "interface_type": "PT_PT_CMD_028",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "connector_refs": [
+        "CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "interface_refs": [
+        "IF_IF_CMD_028"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X130_c5e43804f4ca",
+      "port_name": "bp_X130_c5e43804f4ca",
+      "owner_product": "X130",
+      "owner_part_usage": "p_X000.p_X100.p_X130",
+      "direction": "out",
+      "interface_group": "IF_IF_STA_032",
+      "interface_type": "PT_PT_STA_032",
+      "external_neighbor": "X110",
+      "flow_refs": [
+        "flow::CG_C5E43804F4CA212D668FD997"
+      ],
+      "connector_refs": [
+        "CG_C5E43804F4CA212D668FD997"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_032"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    },
+    {
+      "port_id": "bp_X110_c5e43804f4ca",
+      "port_name": "bp_X110_c5e43804f4ca",
+      "owner_product": "X110",
+      "owner_part_usage": "p_X000.p_X100.p_X110",
+      "direction": "in",
+      "interface_group": "IF_IF_STA_032",
+      "interface_type": "PT_PT_STA_032",
+      "external_neighbor": "X130",
+      "flow_refs": [
+        "flow::CG_C5E43804F4CA212D668FD997"
+      ],
+      "connector_refs": [
+        "CG_C5E43804F4CA212D668FD997"
+      ],
+      "interface_refs": [
+        "IF_IF_STA_032"
+      ],
+      "ssd_refs": [],
+      "binding_refs": [],
+      "derived_from": "EXPLICIT_CONNECTOR",
+      "confidence": 1.0
+    }
+  ],
+  "connection_usages": [
+    {
+      "connection_id": "pc_093efce58f3a_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_a59821acb0d73604",
+      "target_path": "p_X000.p_X100.bp_X100_093efce58f3a",
+      "derived_from_connector_id": "CG_093EFCE58F3AB220CFEC48AC",
+      "derived_from_flow_refs": [
+        "flow::CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "replaces_or_refines": "CG_093EFCE58F3AB220CFEC48AC",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_093efce58f3a_outer",
+      "source_path": "p_X000.p_X100.bp_X100_093efce58f3a",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_093efce58f3a",
+      "derived_from_connector_id": "CG_093EFCE58F3AB220CFEC48AC",
+      "derived_from_flow_refs": [
+        "flow::CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "replaces_or_refines": "CG_093EFCE58F3AB220CFEC48AC",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_093efce58f3a_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_093efce58f3a",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a095b9b42ab5cc7d",
+      "derived_from_connector_id": "CG_093EFCE58F3AB220CFEC48AC",
+      "derived_from_flow_refs": [
+        "flow::CG_093EFCE58F3AB220CFEC48AC"
+      ],
+      "replaces_or_refines": "CG_093EFCE58F3AB220CFEC48AC",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_1ae13610e33c_inner",
+      "source_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_4683a7cb63e55daf",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_1ae13610e33c",
+      "derived_from_connector_id": "CG_1AE13610E33C0DC7055CFCED",
+      "derived_from_flow_refs": [
+        "flow::CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "replaces_or_refines": "CG_1AE13610E33C0DC7055CFCED",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_1ae13610e33c_outer",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_1ae13610e33c",
+      "target_path": "p_X000.p_X100.bp_X100_1ae13610e33c",
+      "derived_from_connector_id": "CG_1AE13610E33C0DC7055CFCED",
+      "derived_from_flow_refs": [
+        "flow::CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "replaces_or_refines": "CG_1AE13610E33C0DC7055CFCED",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_1ae13610e33c_receive",
+      "source_path": "p_X000.p_X100.bp_X100_1ae13610e33c",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_81f1c1da5d6d3173",
+      "derived_from_connector_id": "CG_1AE13610E33C0DC7055CFCED",
+      "derived_from_flow_refs": [
+        "flow::CG_1AE13610E33C0DC7055CFCED"
+      ],
+      "replaces_or_refines": "CG_1AE13610E33C0DC7055CFCED",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_25dc22e45a98_inner",
+      "source_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a4aac084c46e1e57",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_25dc22e45a98",
+      "derived_from_connector_id": "CG_25DC22E45A984D1CB28D188B",
+      "derived_from_flow_refs": [
+        "flow::CG_25DC22E45A984D1CB28D188B"
+      ],
+      "replaces_or_refines": "CG_25DC22E45A984D1CB28D188B",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_25dc22e45a98_outer",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_25dc22e45a98",
+      "target_path": "p_X000.p_X100.bp_X100_25dc22e45a98",
+      "derived_from_connector_id": "CG_25DC22E45A984D1CB28D188B",
+      "derived_from_flow_refs": [
+        "flow::CG_25DC22E45A984D1CB28D188B"
+      ],
+      "replaces_or_refines": "CG_25DC22E45A984D1CB28D188B",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_25dc22e45a98_receive",
+      "source_path": "p_X000.p_X100.bp_X100_25dc22e45a98",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_1164249ec859b807",
+      "derived_from_connector_id": "CG_25DC22E45A984D1CB28D188B",
+      "derived_from_flow_refs": [
+        "flow::CG_25DC22E45A984D1CB28D188B"
+      ],
+      "replaces_or_refines": "CG_25DC22E45A984D1CB28D188B",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_7a2381dc8c36_inner",
+      "source_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_77c439392dea95b4",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_7a2381dc8c36",
+      "derived_from_connector_id": "CG_7A2381DC8C36A40B747035A5",
+      "derived_from_flow_refs": [
+        "flow::CG_7A2381DC8C36A40B747035A5"
+      ],
+      "replaces_or_refines": "CG_7A2381DC8C36A40B747035A5",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_7a2381dc8c36_outer",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_7a2381dc8c36",
+      "target_path": "p_X000.p_X100.bp_X100_7a2381dc8c36",
+      "derived_from_connector_id": "CG_7A2381DC8C36A40B747035A5",
+      "derived_from_flow_refs": [
+        "flow::CG_7A2381DC8C36A40B747035A5"
+      ],
+      "replaces_or_refines": "CG_7A2381DC8C36A40B747035A5",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_7a2381dc8c36_receive",
+      "source_path": "p_X000.p_X100.bp_X100_7a2381dc8c36",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_843fa8c83311440e",
+      "derived_from_connector_id": "CG_7A2381DC8C36A40B747035A5",
+      "derived_from_flow_refs": [
+        "flow::CG_7A2381DC8C36A40B747035A5"
+      ],
+      "replaces_or_refines": "CG_7A2381DC8C36A40B747035A5",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_9465aac3f0b0_inner",
+      "source_path": "p_X000.p_X100.p_X120.p_X121.rp_b6cf5a49ced52abf",
+      "target_path": "p_X000.p_X100.bp_X100_9465aac3f0b0",
+      "derived_from_connector_id": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "derived_from_flow_refs": [
+        "flow::CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "replaces_or_refines": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_9465aac3f0b0_outer",
+      "source_path": "p_X000.p_X100.bp_X100_9465aac3f0b0",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_9465aac3f0b0",
+      "derived_from_connector_id": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "derived_from_flow_refs": [
+        "flow::CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "replaces_or_refines": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_9465aac3f0b0_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_9465aac3f0b0",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_6437aa0577c9ccd7",
+      "derived_from_connector_id": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "derived_from_flow_refs": [
+        "flow::CG_9465AAC3F0B0B115DC3EF9FD"
+      ],
+      "replaces_or_refines": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_a6d783bbfcf6_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X111.rp_9828766df3df1904",
+      "target_path": "p_X000.p_X100.bp_X100_a6d783bbfcf6",
+      "derived_from_connector_id": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "derived_from_flow_refs": [
+        "flow::CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "replaces_or_refines": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_a6d783bbfcf6_outer",
+      "source_path": "p_X000.p_X100.bp_X100_a6d783bbfcf6",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_a6d783bbfcf6",
+      "derived_from_connector_id": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "derived_from_flow_refs": [
+        "flow::CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "replaces_or_refines": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_a6d783bbfcf6_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_a6d783bbfcf6",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_e1808e35289aaba6",
+      "derived_from_connector_id": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "derived_from_flow_refs": [
+        "flow::CG_A6D783BBFCF6C6DA11FFCF2D"
+      ],
+      "replaces_or_refines": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c03ebdd9b3cf_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_3b946767139d884a",
+      "target_path": "p_X000.p_X100.bp_X100_c03ebdd9b3cf",
+      "derived_from_connector_id": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "derived_from_flow_refs": [
+        "flow::CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "replaces_or_refines": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c03ebdd9b3cf_outer",
+      "source_path": "p_X000.p_X100.bp_X100_c03ebdd9b3cf",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_c03ebdd9b3cf",
+      "derived_from_connector_id": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "derived_from_flow_refs": [
+        "flow::CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "replaces_or_refines": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c03ebdd9b3cf_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_c03ebdd9b3cf",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_1967a947dd39d4a5",
+      "derived_from_connector_id": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "derived_from_flow_refs": [
+        "flow::CG_C03EBDD9B3CFF4E6611E41A1"
+      ],
+      "replaces_or_refines": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c113ed5b462a_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_e5eadfefaf46ac0a",
+      "target_path": "p_X000.p_X100.bp_X100_c113ed5b462a",
+      "derived_from_connector_id": "CG_C113ED5B462ACDD4ACE56E91",
+      "derived_from_flow_refs": [
+        "flow::CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "replaces_or_refines": "CG_C113ED5B462ACDD4ACE56E91",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c113ed5b462a_outer",
+      "source_path": "p_X000.p_X100.bp_X100_c113ed5b462a",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_c113ed5b462a",
+      "derived_from_connector_id": "CG_C113ED5B462ACDD4ACE56E91",
+      "derived_from_flow_refs": [
+        "flow::CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "replaces_or_refines": "CG_C113ED5B462ACDD4ACE56E91",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c113ed5b462a_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_c113ed5b462a",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_9d3500c169fe7103",
+      "derived_from_connector_id": "CG_C113ED5B462ACDD4ACE56E91",
+      "derived_from_flow_refs": [
+        "flow::CG_C113ED5B462ACDD4ACE56E91"
+      ],
+      "replaces_or_refines": "CG_C113ED5B462ACDD4ACE56E91",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_cb302083c9f3_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_388d943a537916a7",
+      "target_path": "p_X000.p_X100.bp_X100_cb302083c9f3",
+      "derived_from_connector_id": "CG_CB302083C9F33A1345D9C406",
+      "derived_from_flow_refs": [
+        "flow::CG_CB302083C9F33A1345D9C406"
+      ],
+      "replaces_or_refines": "CG_CB302083C9F33A1345D9C406",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_cb302083c9f3_outer",
+      "source_path": "p_X000.p_X100.bp_X100_cb302083c9f3",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_cb302083c9f3",
+      "derived_from_connector_id": "CG_CB302083C9F33A1345D9C406",
+      "derived_from_flow_refs": [
+        "flow::CG_CB302083C9F33A1345D9C406"
+      ],
+      "replaces_or_refines": "CG_CB302083C9F33A1345D9C406",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_cb302083c9f3_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_cb302083c9f3",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_8c3ed075d33335e8",
+      "derived_from_connector_id": "CG_CB302083C9F33A1345D9C406",
+      "derived_from_flow_refs": [
+        "flow::CG_CB302083C9F33A1345D9C406"
+      ],
+      "replaces_or_refines": "CG_CB302083C9F33A1345D9C406",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_d8fce908d4fd_inner",
+      "source_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_47c78247980cc3a5",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_d8fce908d4fd",
+      "derived_from_connector_id": "CG_D8FCE908D4FD9343C6353985",
+      "derived_from_flow_refs": [
+        "flow::CG_D8FCE908D4FD9343C6353985"
+      ],
+      "replaces_or_refines": "CG_D8FCE908D4FD9343C6353985",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_d8fce908d4fd_outer",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_d8fce908d4fd",
+      "target_path": "p_X000.p_X100.bp_X100_d8fce908d4fd",
+      "derived_from_connector_id": "CG_D8FCE908D4FD9343C6353985",
+      "derived_from_flow_refs": [
+        "flow::CG_D8FCE908D4FD9343C6353985"
+      ],
+      "replaces_or_refines": "CG_D8FCE908D4FD9343C6353985",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_d8fce908d4fd_receive",
+      "source_path": "p_X000.p_X100.bp_X100_d8fce908d4fd",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_b84f02a624b9982f",
+      "derived_from_connector_id": "CG_D8FCE908D4FD9343C6353985",
+      "derived_from_flow_refs": [
+        "flow::CG_D8FCE908D4FD9343C6353985"
+      ],
+      "replaces_or_refines": "CG_D8FCE908D4FD9343C6353985",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_d9cd1e8933f5_inner",
+      "source_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_f704c2e7bab06749",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_d9cd1e8933f5",
+      "derived_from_connector_id": "CG_D9CD1E8933F596F319A67625",
+      "derived_from_flow_refs": [
+        "flow::CG_D9CD1E8933F596F319A67625"
+      ],
+      "replaces_or_refines": "CG_D9CD1E8933F596F319A67625",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_d9cd1e8933f5_outer",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_d9cd1e8933f5",
+      "target_path": "p_X000.p_X100.bp_X100_d9cd1e8933f5",
+      "derived_from_connector_id": "CG_D9CD1E8933F596F319A67625",
+      "derived_from_flow_refs": [
+        "flow::CG_D9CD1E8933F596F319A67625"
+      ],
+      "replaces_or_refines": "CG_D9CD1E8933F596F319A67625",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_d9cd1e8933f5_receive",
+      "source_path": "p_X000.p_X100.bp_X100_d9cd1e8933f5",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_5ff890136d5d49bf",
+      "derived_from_connector_id": "CG_D9CD1E8933F596F319A67625",
+      "derived_from_flow_refs": [
+        "flow::CG_D9CD1E8933F596F319A67625"
+      ],
+      "replaces_or_refines": "CG_D9CD1E8933F596F319A67625",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_daf7d43ddd82_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_73067cce4e6a7eeb",
+      "target_path": "p_X000.p_X100.bp_X100_daf7d43ddd82",
+      "derived_from_connector_id": "CG_DAF7D43DDD825831F29A70F8",
+      "derived_from_flow_refs": [
+        "flow::CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "replaces_or_refines": "CG_DAF7D43DDD825831F29A70F8",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_daf7d43ddd82_outer",
+      "source_path": "p_X000.p_X100.bp_X100_daf7d43ddd82",
+      "target_path": "p_N_8000.p_N_8100.bp_8100_daf7d43ddd82",
+      "derived_from_connector_id": "CG_DAF7D43DDD825831F29A70F8",
+      "derived_from_flow_refs": [
+        "flow::CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "replaces_or_refines": "CG_DAF7D43DDD825831F29A70F8",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_daf7d43ddd82_receive",
+      "source_path": "p_N_8000.p_N_8100.bp_8100_daf7d43ddd82",
+      "target_path": "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_35b0ef67b409e840",
+      "derived_from_connector_id": "CG_DAF7D43DDD825831F29A70F8",
+      "derived_from_flow_refs": [
+        "flow::CG_DAF7D43DDD825831F29A70F8"
+      ],
+      "replaces_or_refines": "CG_DAF7D43DDD825831F29A70F8",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_166b9301cd54_inner",
+      "source_path": "p_X000.p_X100.p_X130.p_X133.rp_ffcdb33099ab8a28",
+      "target_path": "p_X000.p_X100.p_X130.bp_X130_166b9301cd54",
+      "derived_from_connector_id": "CG_166B9301CD54035D82DA7711",
+      "derived_from_flow_refs": [
+        "flow::CG_166B9301CD54035D82DA7711"
+      ],
+      "replaces_or_refines": "CG_166B9301CD54035D82DA7711",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_166b9301cd54_internal",
+      "source_path": "p_X000.p_X100.p_X130.bp_X130_166b9301cd54",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_166b9301cd54",
+      "derived_from_connector_id": "CG_166B9301CD54035D82DA7711",
+      "derived_from_flow_refs": [
+        "flow::CG_166B9301CD54035D82DA7711"
+      ],
+      "replaces_or_refines": "CG_166B9301CD54035D82DA7711",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_166b9301cd54_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_166b9301cd54",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_00da2edc928b715d",
+      "derived_from_connector_id": "CG_166B9301CD54035D82DA7711",
+      "derived_from_flow_refs": [
+        "flow::CG_166B9301CD54035D82DA7711"
+      ],
+      "replaces_or_refines": "CG_166B9301CD54035D82DA7711",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_169e84593a2d_inner",
+      "source_path": "p_X000.p_X100.p_X120.p_X121.rp_b6cf5a49ced52abf",
+      "target_path": "p_X000.p_X100.p_X120.bp_X120_169e84593a2d",
+      "derived_from_connector_id": "CG_169E84593A2DDD6DA3BAE4D5",
+      "derived_from_flow_refs": [
+        "flow::CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "replaces_or_refines": "CG_169E84593A2DDD6DA3BAE4D5",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_169e84593a2d_internal",
+      "source_path": "p_X000.p_X100.p_X120.bp_X120_169e84593a2d",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_169e84593a2d",
+      "derived_from_connector_id": "CG_169E84593A2DDD6DA3BAE4D5",
+      "derived_from_flow_refs": [
+        "flow::CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "replaces_or_refines": "CG_169E84593A2DDD6DA3BAE4D5",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_169e84593a2d_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_169e84593a2d",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_ced58e17348ff578",
+      "derived_from_connector_id": "CG_169E84593A2DDD6DA3BAE4D5",
+      "derived_from_flow_refs": [
+        "flow::CG_169E84593A2DDD6DA3BAE4D5"
+      ],
+      "replaces_or_refines": "CG_169E84593A2DDD6DA3BAE4D5",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_1ba0acbf380d_inner",
+      "source_path": "p_X000.p_X100.p_X120.p_X124.rp_5083db510ca305a5",
+      "target_path": "p_X000.p_X100.p_X120.bp_X120_1ba0acbf380d",
+      "derived_from_connector_id": "CG_1BA0ACBF380D191A9BED4AE4",
+      "derived_from_flow_refs": [
+        "flow::CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "replaces_or_refines": "CG_1BA0ACBF380D191A9BED4AE4",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_1ba0acbf380d_internal",
+      "source_path": "p_X000.p_X100.p_X120.bp_X120_1ba0acbf380d",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_1ba0acbf380d",
+      "derived_from_connector_id": "CG_1BA0ACBF380D191A9BED4AE4",
+      "derived_from_flow_refs": [
+        "flow::CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "replaces_or_refines": "CG_1BA0ACBF380D191A9BED4AE4",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_1ba0acbf380d_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_1ba0acbf380d",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_848f140649f8e2ae",
+      "derived_from_connector_id": "CG_1BA0ACBF380D191A9BED4AE4",
+      "derived_from_flow_refs": [
+        "flow::CG_1BA0ACBF380D191A9BED4AE4"
+      ],
+      "replaces_or_refines": "CG_1BA0ACBF380D191A9BED4AE4",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_734e10c63b7a_inner",
+      "source_path": "p_X000.p_X100.p_X130.p_X132.rp_53191daa39f85d49",
+      "target_path": "p_X000.p_X100.p_X130.bp_X130_734e10c63b7a",
+      "derived_from_connector_id": "CG_734E10C63B7A36C2BB06360D",
+      "derived_from_flow_refs": [
+        "flow::CG_734E10C63B7A36C2BB06360D"
+      ],
+      "replaces_or_refines": "CG_734E10C63B7A36C2BB06360D",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_734e10c63b7a_internal",
+      "source_path": "p_X000.p_X100.p_X130.bp_X130_734e10c63b7a",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_734e10c63b7a",
+      "derived_from_connector_id": "CG_734E10C63B7A36C2BB06360D",
+      "derived_from_flow_refs": [
+        "flow::CG_734E10C63B7A36C2BB06360D"
+      ],
+      "replaces_or_refines": "CG_734E10C63B7A36C2BB06360D",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_734e10c63b7a_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_734e10c63b7a",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_3ecd9966c9972a7e",
+      "derived_from_connector_id": "CG_734E10C63B7A36C2BB06360D",
+      "derived_from_flow_refs": [
+        "flow::CG_734E10C63B7A36C2BB06360D"
+      ],
+      "replaces_or_refines": "CG_734E10C63B7A36C2BB06360D",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_79eb6beb9b0a_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_2ea4241545e6ca09",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_79eb6beb9b0a",
+      "derived_from_connector_id": "CG_79EB6BEB9B0AE9B2B06844A4",
+      "derived_from_flow_refs": [
+        "flow::CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "replaces_or_refines": "CG_79EB6BEB9B0AE9B2B06844A4",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_79eb6beb9b0a_internal",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_79eb6beb9b0a",
+      "target_path": "p_X000.p_X100.p_X130.bp_X130_79eb6beb9b0a",
+      "derived_from_connector_id": "CG_79EB6BEB9B0AE9B2B06844A4",
+      "derived_from_flow_refs": [
+        "flow::CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "replaces_or_refines": "CG_79EB6BEB9B0AE9B2B06844A4",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_79eb6beb9b0a_receive",
+      "source_path": "p_X000.p_X100.p_X130.bp_X130_79eb6beb9b0a",
+      "target_path": "p_X000.p_X100.p_X130.p_X131.rp_b06975e1baff62be",
+      "derived_from_connector_id": "CG_79EB6BEB9B0AE9B2B06844A4",
+      "derived_from_flow_refs": [
+        "flow::CG_79EB6BEB9B0AE9B2B06844A4"
+      ],
+      "replaces_or_refines": "CG_79EB6BEB9B0AE9B2B06844A4",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_86c48ea2de05_inner",
+      "source_path": "p_X000.p_X100.p_X120.p_X123.rp_9b6812b4ca482c66",
+      "target_path": "p_X000.p_X100.p_X120.bp_X120_86c48ea2de05",
+      "derived_from_connector_id": "CG_86C48EA2DE057325EEB9853C",
+      "derived_from_flow_refs": [
+        "flow::CG_86C48EA2DE057325EEB9853C"
+      ],
+      "replaces_or_refines": "CG_86C48EA2DE057325EEB9853C",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_86c48ea2de05_internal",
+      "source_path": "p_X000.p_X100.p_X120.bp_X120_86c48ea2de05",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_86c48ea2de05",
+      "derived_from_connector_id": "CG_86C48EA2DE057325EEB9853C",
+      "derived_from_flow_refs": [
+        "flow::CG_86C48EA2DE057325EEB9853C"
+      ],
+      "replaces_or_refines": "CG_86C48EA2DE057325EEB9853C",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_86c48ea2de05_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_86c48ea2de05",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_e8341f592e73af5e",
+      "derived_from_connector_id": "CG_86C48EA2DE057325EEB9853C",
+      "derived_from_flow_refs": [
+        "flow::CG_86C48EA2DE057325EEB9853C"
+      ],
+      "replaces_or_refines": "CG_86C48EA2DE057325EEB9853C",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_9a05af4b79f0_inner",
+      "source_path": "p_X000.p_X100.p_X120.p_X122.rp_370359531bcbeddd",
+      "target_path": "p_X000.p_X100.p_X120.bp_X120_9a05af4b79f0",
+      "derived_from_connector_id": "CG_9A05AF4B79F0AC70EEBB8C27",
+      "derived_from_flow_refs": [
+        "flow::CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "replaces_or_refines": "CG_9A05AF4B79F0AC70EEBB8C27",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_9a05af4b79f0_internal",
+      "source_path": "p_X000.p_X100.p_X120.bp_X120_9a05af4b79f0",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_9a05af4b79f0",
+      "derived_from_connector_id": "CG_9A05AF4B79F0AC70EEBB8C27",
+      "derived_from_flow_refs": [
+        "flow::CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "replaces_or_refines": "CG_9A05AF4B79F0AC70EEBB8C27",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_9a05af4b79f0_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_9a05af4b79f0",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_fc5798a77b6a020d",
+      "derived_from_connector_id": "CG_9A05AF4B79F0AC70EEBB8C27",
+      "derived_from_flow_refs": [
+        "flow::CG_9A05AF4B79F0AC70EEBB8C27"
+      ],
+      "replaces_or_refines": "CG_9A05AF4B79F0AC70EEBB8C27",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c003c81fb790_inner",
+      "source_path": "p_X000.p_X100.p_X110.p_X112.rp_adb78cdbb75469df",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_c003c81fb790",
+      "derived_from_connector_id": "CG_C003C81FB79009EC9E0DAC6B",
+      "derived_from_flow_refs": [
+        "flow::CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "replaces_or_refines": "CG_C003C81FB79009EC9E0DAC6B",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c003c81fb790_internal",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_c003c81fb790",
+      "target_path": "p_X000.p_X100.p_X130.bp_X130_c003c81fb790",
+      "derived_from_connector_id": "CG_C003C81FB79009EC9E0DAC6B",
+      "derived_from_flow_refs": [
+        "flow::CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "replaces_or_refines": "CG_C003C81FB79009EC9E0DAC6B",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c003c81fb790_receive",
+      "source_path": "p_X000.p_X100.p_X130.bp_X130_c003c81fb790",
+      "target_path": "p_X000.p_X100.p_X130.p_X132.rp_4d68d3f9ee4e0009",
+      "derived_from_connector_id": "CG_C003C81FB79009EC9E0DAC6B",
+      "derived_from_flow_refs": [
+        "flow::CG_C003C81FB79009EC9E0DAC6B"
+      ],
+      "replaces_or_refines": "CG_C003C81FB79009EC9E0DAC6B",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c5e43804f4ca_inner",
+      "source_path": "p_X000.p_X100.p_X130.p_X131.rp_c029b3b1472e957d",
+      "target_path": "p_X000.p_X100.p_X130.bp_X130_c5e43804f4ca",
+      "derived_from_connector_id": "CG_C5E43804F4CA212D668FD997",
+      "derived_from_flow_refs": [
+        "flow::CG_C5E43804F4CA212D668FD997"
+      ],
+      "replaces_or_refines": "CG_C5E43804F4CA212D668FD997",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c5e43804f4ca_internal",
+      "source_path": "p_X000.p_X100.p_X130.bp_X130_c5e43804f4ca",
+      "target_path": "p_X000.p_X100.p_X110.bp_X110_c5e43804f4ca",
+      "derived_from_connector_id": "CG_C5E43804F4CA212D668FD997",
+      "derived_from_flow_refs": [
+        "flow::CG_C5E43804F4CA212D668FD997"
+      ],
+      "replaces_or_refines": "CG_C5E43804F4CA212D668FD997",
+      "evidence_type": "DERIVED_BOUNDARY"
+    },
+    {
+      "connection_id": "pc_c5e43804f4ca_receive",
+      "source_path": "p_X000.p_X100.p_X110.bp_X110_c5e43804f4ca",
+      "target_path": "p_X000.p_X100.p_X110.p_X112.rp_f929a9fa6b633837",
+      "derived_from_connector_id": "CG_C5E43804F4CA212D668FD997",
+      "derived_from_flow_refs": [
+        "flow::CG_C5E43804F4CA212D668FD997"
+      ],
+      "replaces_or_refines": "CG_C5E43804F4CA212D668FD997",
+      "evidence_type": "DERIVED_BOUNDARY"
+    }
+  ],
+  "scope": "Explicit X100/8100 leaf interface connectors only"
+}

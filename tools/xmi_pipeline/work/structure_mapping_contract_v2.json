@@ -1,0 +1,1411 @@
+{
+  "contract_id": "RAIL-MBSE-SYSML17-STRUCTURE-MAPPING-V2",
+  "frozen_source": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\architecture_xmi_ready_v1.json",
+  "target": "OMG SysML 1.7 / UML 2.5.1 with MagicDraw 2022x compatible serialization",
+  "product_definition": {
+    "count": 147,
+    "uml_metaclass": "uml:Class",
+    "standard_stereotype": "SysML::Block",
+    "xmi_id_source": "products[].xmi_id",
+    "allowed_for_every_level_and_leaf_shape": true,
+    "forbidden_metaclasses": [
+      "uml:Signal",
+      "uml:DataType",
+      "uml:Property",
+      "uml:Port",
+      "uml:InstanceSpecification"
+    ]
+  },
+  "product_hierarchy": {
+    "source": "products[].parent_id",
+    "relationship_count": 139,
+    "unique_key": [
+      "parent_product_id",
+      "child_product_id"
+    ],
+    "uml_owner": "Parent Product uml:Class",
+    "uml_feature": "ownedAttribute / uml:Property",
+    "property_name": "part_<child_product_id>",
+    "property_type": "Child Product uml:Class xmi_id only",
+    "aggregation": "composite",
+    "multiplicity": "[1]",
+    "forbidden_property_types": [
+      "Signal",
+      "Item",
+      "InterfaceBlock",
+      "FlowProperty",
+      "PortType"
+    ],
+    "relationships": [
+      {
+        "parent_product_id": "3000",
+        "child_product_id": "3100",
+        "owner_block_xmi_id": "XMI-PRODUCT-3000",
+        "child_block_xmi_id": "XMI-PRODUCT-3100",
+        "part_property_name": "part_3100",
+        "part_property_xmi_id": "XMI-PART-60068AA9AC9EF7AC03",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3000",
+        "child_product_id": "3500",
+        "owner_block_xmi_id": "XMI-PRODUCT-3000",
+        "child_block_xmi_id": "XMI-PRODUCT-3500",
+        "part_property_name": "part_3500",
+        "part_property_xmi_id": "XMI-PART-029A8C062A0F1BBEC1",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3000",
+        "child_product_id": "3600",
+        "owner_block_xmi_id": "XMI-PRODUCT-3000",
+        "child_block_xmi_id": "XMI-PRODUCT-3600",
+        "part_property_name": "part_3600",
+        "part_property_xmi_id": "XMI-PART-68586F09B4E9FCB59B",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3000",
+        "child_product_id": "3800",
+        "owner_block_xmi_id": "XMI-PRODUCT-3000",
+        "child_block_xmi_id": "XMI-PRODUCT-3800",
+        "part_property_name": "part_3800",
+        "part_property_xmi_id": "XMI-PART-BB91383ACEDE1BBD90",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3100",
+        "child_product_id": "3110",
+        "owner_block_xmi_id": "XMI-PRODUCT-3100",
+        "child_block_xmi_id": "XMI-PRODUCT-3110",
+        "part_property_name": "part_3110",
+        "part_property_xmi_id": "XMI-PART-C3FFD7A2E116DBB622",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3100",
+        "child_product_id": "3120",
+        "owner_block_xmi_id": "XMI-PRODUCT-3100",
+        "child_block_xmi_id": "XMI-PRODUCT-3120",
+        "part_property_name": "part_3120",
+        "part_property_xmi_id": "XMI-PART-B848D5E8FE68148102",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3100",
+        "child_product_id": "3130",
+        "owner_block_xmi_id": "XMI-PRODUCT-3100",
+        "child_block_xmi_id": "XMI-PRODUCT-3130",
+        "part_property_name": "part_3130",
+        "part_property_xmi_id": "XMI-PART-D7DBD1A5D27C3A34E0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3110",
+        "child_product_id": "3111",
+        "owner_block_xmi_id": "XMI-PRODUCT-3110",
+        "child_block_xmi_id": "XMI-PRODUCT-3111",
+        "part_property_name": "part_3111",
+        "part_property_xmi_id": "XMI-PART-8526269EBCC8F11314",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3110",
+        "child_product_id": "3112",
+        "owner_block_xmi_id": "XMI-PRODUCT-3110",
+        "child_block_xmi_id": "XMI-PRODUCT-3112",
+        "part_property_name": "part_3112",
+        "part_property_xmi_id": "XMI-PART-51C902F8E6BC1BCB39",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3120",
+        "child_product_id": "3121",
+        "owner_block_xmi_id": "XMI-PRODUCT-3120",
+        "child_block_xmi_id": "XMI-PRODUCT-3121",
+        "part_property_name": "part_3121",
+        "part_property_xmi_id": "XMI-PART-7329E83CEA38219291",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3130",
+        "child_product_id": "3131",
+        "owner_block_xmi_id": "XMI-PRODUCT-3130",
+        "child_block_xmi_id": "XMI-PRODUCT-3131",
+        "part_property_name": "part_3131",
+        "part_property_xmi_id": "XMI-PART-7BCF4212E3253724E0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3130",
+        "child_product_id": "3132",
+        "owner_block_xmi_id": "XMI-PRODUCT-3130",
+        "child_block_xmi_id": "XMI-PRODUCT-3132",
+        "part_property_name": "part_3132",
+        "part_property_xmi_id": "XMI-PART-3769B23B6787BAD8CC",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3130",
+        "child_product_id": "3133",
+        "owner_block_xmi_id": "XMI-PRODUCT-3130",
+        "child_block_xmi_id": "XMI-PRODUCT-3133",
+        "part_property_name": "part_3133",
+        "part_property_xmi_id": "XMI-PART-AA95EDEB7EA057ECF2",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3500",
+        "child_product_id": "3510",
+        "owner_block_xmi_id": "XMI-PRODUCT-3500",
+        "child_block_xmi_id": "XMI-PRODUCT-3510",
+        "part_property_name": "part_3510",
+        "part_property_xmi_id": "XMI-PART-E8735E334D97FA2470",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3510",
+        "child_product_id": "3511",
+        "owner_block_xmi_id": "XMI-PRODUCT-3510",
+        "child_block_xmi_id": "XMI-PRODUCT-3511",
+        "part_property_name": "part_3511",
+        "part_property_xmi_id": "XMI-PART-15F44CC8095DD35BCE",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3510",
+        "child_product_id": "3512",
+        "owner_block_xmi_id": "XMI-PRODUCT-3510",
+        "child_block_xmi_id": "XMI-PRODUCT-3512",
+        "part_property_name": "part_3512",
+        "part_property_xmi_id": "XMI-PART-2E73AA9D4E6E9EF565",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3510",
+        "child_product_id": "3514",
+        "owner_block_xmi_id": "XMI-PRODUCT-3510",
+        "child_block_xmi_id": "XMI-PRODUCT-3514",
+        "part_property_name": "part_3514",
+        "part_property_xmi_id": "XMI-PART-8143332D114BA91130",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3600",
+        "child_product_id": "3640",
+        "owner_block_xmi_id": "XMI-PRODUCT-3600",
+        "child_block_xmi_id": "XMI-PRODUCT-3640",
+        "part_property_name": "part_3640",
+        "part_property_xmi_id": "XMI-PART-AAEF30C847BC3A9B85",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3640",
+        "child_product_id": "3641",
+        "owner_block_xmi_id": "XMI-PRODUCT-3640",
+        "child_block_xmi_id": "XMI-PRODUCT-3641",
+        "part_property_name": "part_3641",
+        "part_property_xmi_id": "XMI-PART-DD37B4CE2C40D2F440",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3640",
+        "child_product_id": "3643",
+        "owner_block_xmi_id": "XMI-PRODUCT-3640",
+        "child_block_xmi_id": "XMI-PRODUCT-3643",
+        "part_property_name": "part_3643",
+        "part_property_xmi_id": "XMI-PART-9DC0B3111CB9249FB0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3640",
+        "child_product_id": "3644",
+        "owner_block_xmi_id": "XMI-PRODUCT-3640",
+        "child_block_xmi_id": "XMI-PRODUCT-3644",
+        "part_property_name": "part_3644",
+        "part_property_xmi_id": "XMI-PART-FD8858CE97F36A6294",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3800",
+        "child_product_id": "3810",
+        "owner_block_xmi_id": "XMI-PRODUCT-3800",
+        "child_block_xmi_id": "XMI-PRODUCT-3810",
+        "part_property_name": "part_3810",
+        "part_property_xmi_id": "XMI-PART-2D178FE4571731C638",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3810",
+        "child_product_id": "3811",
+        "owner_block_xmi_id": "XMI-PRODUCT-3810",
+        "child_block_xmi_id": "XMI-PRODUCT-3811",
+        "part_property_name": "part_3811",
+        "part_property_xmi_id": "XMI-PART-4869E041252266D20C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3810",
+        "child_product_id": "3813",
+        "owner_block_xmi_id": "XMI-PRODUCT-3810",
+        "child_block_xmi_id": "XMI-PRODUCT-3813",
+        "part_property_name": "part_3813",
+        "part_property_xmi_id": "XMI-PART-D8815401599409E27D",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "3810",
+        "child_product_id": "3814",
+        "owner_block_xmi_id": "XMI-PRODUCT-3810",
+        "child_block_xmi_id": "XMI-PRODUCT-3814",
+        "part_property_name": "part_3814",
+        "part_property_xmi_id": "XMI-PART-E7C7BA9535ACDC6E93",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4000",
+        "child_product_id": "4100",
+        "owner_block_xmi_id": "XMI-PRODUCT-4000",
+        "child_block_xmi_id": "XMI-PRODUCT-4100",
+        "part_property_name": "part_4100",
+        "part_property_xmi_id": "XMI-PART-C1989658D223ED3EBE",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4000",
+        "child_product_id": "4200",
+        "owner_block_xmi_id": "XMI-PRODUCT-4000",
+        "child_block_xmi_id": "XMI-PRODUCT-4200",
+        "part_property_name": "part_4200",
+        "part_property_xmi_id": "XMI-PART-DA01D7BD4677EDB22F",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4000",
+        "child_product_id": "4400",
+        "owner_block_xmi_id": "XMI-PRODUCT-4000",
+        "child_block_xmi_id": "XMI-PRODUCT-4400",
+        "part_property_name": "part_4400",
+        "part_property_xmi_id": "XMI-PART-2CF78CDB86F8237A5F",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4000",
+        "child_product_id": "4500",
+        "owner_block_xmi_id": "XMI-PRODUCT-4000",
+        "child_block_xmi_id": "XMI-PRODUCT-4500",
+        "part_property_name": "part_4500",
+        "part_property_xmi_id": "XMI-PART-4BD91F02F21CA035B9",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4100",
+        "child_product_id": "4110",
+        "owner_block_xmi_id": "XMI-PRODUCT-4100",
+        "child_block_xmi_id": "XMI-PRODUCT-4110",
+        "part_property_name": "part_4110",
+        "part_property_xmi_id": "XMI-PART-3C5334EC5F3B1F5443",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4100",
+        "child_product_id": "4120",
+        "owner_block_xmi_id": "XMI-PRODUCT-4100",
+        "child_block_xmi_id": "XMI-PRODUCT-4120",
+        "part_property_name": "part_4120",
+        "part_property_xmi_id": "XMI-PART-343AABB2D8DFDD9114",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4110",
+        "child_product_id": "4111",
+        "owner_block_xmi_id": "XMI-PRODUCT-4110",
+        "child_block_xmi_id": "XMI-PRODUCT-4111",
+        "part_property_name": "part_4111",
+        "part_property_xmi_id": "XMI-PART-011CCFBF6EA1ED28FE",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4110",
+        "child_product_id": "411C",
+        "owner_block_xmi_id": "XMI-PRODUCT-4110",
+        "child_block_xmi_id": "XMI-PRODUCT-411C",
+        "part_property_name": "part_411C",
+        "part_property_xmi_id": "XMI-PART-5D0ABA1CDDF06955E2",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4120",
+        "child_product_id": "4121",
+        "owner_block_xmi_id": "XMI-PRODUCT-4120",
+        "child_block_xmi_id": "XMI-PRODUCT-4121",
+        "part_property_name": "part_4121",
+        "part_property_xmi_id": "XMI-PART-C1C562F89C87B0A55F",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4200",
+        "child_product_id": "4210",
+        "owner_block_xmi_id": "XMI-PRODUCT-4200",
+        "child_block_xmi_id": "XMI-PRODUCT-4210",
+        "part_property_name": "part_4210",
+        "part_property_xmi_id": "XMI-PART-94DE21373E489740F1",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4200",
+        "child_product_id": "4230",
+        "owner_block_xmi_id": "XMI-PRODUCT-4200",
+        "child_block_xmi_id": "XMI-PRODUCT-4230",
+        "part_property_name": "part_4230",
+        "part_property_xmi_id": "XMI-PART-8736620796C632EA41",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4200",
+        "child_product_id": "4240",
+        "owner_block_xmi_id": "XMI-PRODUCT-4200",
+        "child_block_xmi_id": "XMI-PRODUCT-4240",
+        "part_property_name": "part_4240",
+        "part_property_xmi_id": "XMI-PART-C8890A2D727A8E7FB8",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4210",
+        "child_product_id": "4211",
+        "owner_block_xmi_id": "XMI-PRODUCT-4210",
+        "child_block_xmi_id": "XMI-PRODUCT-4211",
+        "part_property_name": "part_4211",
+        "part_property_xmi_id": "XMI-PART-A0BB93A337182A5BD6",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4210",
+        "child_product_id": "4212",
+        "owner_block_xmi_id": "XMI-PRODUCT-4210",
+        "child_block_xmi_id": "XMI-PRODUCT-4212",
+        "part_property_name": "part_4212",
+        "part_property_xmi_id": "XMI-PART-83ED46768BAEC956B0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4230",
+        "child_product_id": "4235",
+        "owner_block_xmi_id": "XMI-PRODUCT-4230",
+        "child_block_xmi_id": "XMI-PRODUCT-4235",
+        "part_property_name": "part_4235",
+        "part_property_xmi_id": "XMI-PART-D07B1738AA6F9F2716",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4230",
+        "child_product_id": "4236",
+        "owner_block_xmi_id": "XMI-PRODUCT-4230",
+        "child_block_xmi_id": "XMI-PRODUCT-4236",
+        "part_property_name": "part_4236",
+        "part_property_xmi_id": "XMI-PART-3213B2AC38B86FE816",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4230",
+        "child_product_id": "4238",
+        "owner_block_xmi_id": "XMI-PRODUCT-4230",
+        "child_block_xmi_id": "XMI-PRODUCT-4238",
+        "part_property_name": "part_4238",
+        "part_property_xmi_id": "XMI-PART-D551707C7EDDB7FC38",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4230",
+        "child_product_id": "4239",
+        "owner_block_xmi_id": "XMI-PRODUCT-4230",
+        "child_block_xmi_id": "XMI-PRODUCT-4239",
+        "part_property_name": "part_4239",
+        "part_property_xmi_id": "XMI-PART-A48D17B86FB4131BF1",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4240",
+        "child_product_id": "4241",
+        "owner_block_xmi_id": "XMI-PRODUCT-4240",
+        "child_block_xmi_id": "XMI-PRODUCT-4241",
+        "part_property_name": "part_4241",
+        "part_property_xmi_id": "XMI-PART-286399A2C74E03C8DD",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4400",
+        "child_product_id": "4410",
+        "owner_block_xmi_id": "XMI-PRODUCT-4400",
+        "child_block_xmi_id": "XMI-PRODUCT-4410",
+        "part_property_name": "part_4410",
+        "part_property_xmi_id": "XMI-PART-0E5D14F9CE5C04DC11",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4410",
+        "child_product_id": "4411",
+        "owner_block_xmi_id": "XMI-PRODUCT-4410",
+        "child_block_xmi_id": "XMI-PRODUCT-4411",
+        "part_property_name": "part_4411",
+        "part_property_xmi_id": "XMI-PART-DEFD3E6153F7D3E1E2",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4410",
+        "child_product_id": "4412",
+        "owner_block_xmi_id": "XMI-PRODUCT-4410",
+        "child_block_xmi_id": "XMI-PRODUCT-4412",
+        "part_property_name": "part_4412",
+        "part_property_xmi_id": "XMI-PART-A5A5B1FA667342D977",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4410",
+        "child_product_id": "4413",
+        "owner_block_xmi_id": "XMI-PRODUCT-4410",
+        "child_block_xmi_id": "XMI-PRODUCT-4413",
+        "part_property_name": "part_4413",
+        "part_property_xmi_id": "XMI-PART-CD4494F8A925042525",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4500",
+        "child_product_id": "4510",
+        "owner_block_xmi_id": "XMI-PRODUCT-4500",
+        "child_block_xmi_id": "XMI-PRODUCT-4510",
+        "part_property_name": "part_4510",
+        "part_property_xmi_id": "XMI-PART-DE033E98DE984D54A1",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4510",
+        "child_product_id": "4511",
+        "owner_block_xmi_id": "XMI-PRODUCT-4510",
+        "child_block_xmi_id": "XMI-PRODUCT-4511",
+        "part_property_name": "part_4511",
+        "part_property_xmi_id": "XMI-PART-555E452D95D59E6BD8",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4510",
+        "child_product_id": "4513",
+        "owner_block_xmi_id": "XMI-PRODUCT-4510",
+        "child_block_xmi_id": "XMI-PRODUCT-4513",
+        "part_property_name": "part_4513",
+        "part_property_xmi_id": "XMI-PART-BEDB8B100E365A7808",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4510",
+        "child_product_id": "4517",
+        "owner_block_xmi_id": "XMI-PRODUCT-4510",
+        "child_block_xmi_id": "XMI-PRODUCT-4517",
+        "part_property_name": "part_4517",
+        "part_property_xmi_id": "XMI-PART-EF62F202B0C436890C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "4510",
+        "child_product_id": "4518",
+        "owner_block_xmi_id": "XMI-PRODUCT-4510",
+        "child_block_xmi_id": "XMI-PRODUCT-4518",
+        "part_property_name": "part_4518",
+        "part_property_xmi_id": "XMI-PART-1C66328E8928ECA9F0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5000",
+        "child_product_id": "5100",
+        "owner_block_xmi_id": "XMI-PRODUCT-5000",
+        "child_block_xmi_id": "XMI-PRODUCT-5100",
+        "part_property_name": "part_5100",
+        "part_property_xmi_id": "XMI-PART-0ED242DF8355A9C8BD",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5000",
+        "child_product_id": "5300",
+        "owner_block_xmi_id": "XMI-PRODUCT-5000",
+        "child_block_xmi_id": "XMI-PRODUCT-5300",
+        "part_property_name": "part_5300",
+        "part_property_xmi_id": "XMI-PART-CCDBBA88F1A81CB045",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5100",
+        "child_product_id": "5110",
+        "owner_block_xmi_id": "XMI-PRODUCT-5100",
+        "child_block_xmi_id": "XMI-PRODUCT-5110",
+        "part_property_name": "part_5110",
+        "part_property_xmi_id": "XMI-PART-94729119CD0B571239",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5100",
+        "child_product_id": "5120",
+        "owner_block_xmi_id": "XMI-PRODUCT-5100",
+        "child_block_xmi_id": "XMI-PRODUCT-5120",
+        "part_property_name": "part_5120",
+        "part_property_xmi_id": "XMI-PART-CDCAD34654FFB0A63A",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5100",
+        "child_product_id": "5130",
+        "owner_block_xmi_id": "XMI-PRODUCT-5100",
+        "child_block_xmi_id": "XMI-PRODUCT-5130",
+        "part_property_name": "part_5130",
+        "part_property_xmi_id": "XMI-PART-3754639584C513B0B2",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5100",
+        "child_product_id": "5140",
+        "owner_block_xmi_id": "XMI-PRODUCT-5100",
+        "child_block_xmi_id": "XMI-PRODUCT-5140",
+        "part_property_name": "part_5140",
+        "part_property_xmi_id": "XMI-PART-7D04BA3476A21FF128",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5110",
+        "child_product_id": "5111",
+        "owner_block_xmi_id": "XMI-PRODUCT-5110",
+        "child_block_xmi_id": "XMI-PRODUCT-5111",
+        "part_property_name": "part_5111",
+        "part_property_xmi_id": "XMI-PART-C8C355855C97460F34",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5110",
+        "child_product_id": "5112",
+        "owner_block_xmi_id": "XMI-PRODUCT-5110",
+        "child_block_xmi_id": "XMI-PRODUCT-5112",
+        "part_property_name": "part_5112",
+        "part_property_xmi_id": "XMI-PART-248156CC18202CFA0C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5110",
+        "child_product_id": "5113",
+        "owner_block_xmi_id": "XMI-PRODUCT-5110",
+        "child_block_xmi_id": "XMI-PRODUCT-5113",
+        "part_property_name": "part_5113",
+        "part_property_xmi_id": "XMI-PART-609D6B9F7852EC57A6",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5120",
+        "child_product_id": "5121",
+        "owner_block_xmi_id": "XMI-PRODUCT-5120",
+        "child_block_xmi_id": "XMI-PRODUCT-5121",
+        "part_property_name": "part_5121",
+        "part_property_xmi_id": "XMI-PART-73A54BE42D5898EA01",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5120",
+        "child_product_id": "5122",
+        "owner_block_xmi_id": "XMI-PRODUCT-5120",
+        "child_block_xmi_id": "XMI-PRODUCT-5122",
+        "part_property_name": "part_5122",
+        "part_property_xmi_id": "XMI-PART-DE4DFDD5DB3BFEC9CC",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5130",
+        "child_product_id": "5131",
+        "owner_block_xmi_id": "XMI-PRODUCT-5130",
+        "child_block_xmi_id": "XMI-PRODUCT-5131",
+        "part_property_name": "part_5131",
+        "part_property_xmi_id": "XMI-PART-91234861C7E1E38CE1",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5130",
+        "child_product_id": "5132",
+        "owner_block_xmi_id": "XMI-PRODUCT-5130",
+        "child_block_xmi_id": "XMI-PRODUCT-5132",
+        "part_property_name": "part_5132",
+        "part_property_xmi_id": "XMI-PART-318037C9804457F1F3",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5130",
+        "child_product_id": "5133",
+        "owner_block_xmi_id": "XMI-PRODUCT-5130",
+        "child_block_xmi_id": "XMI-PRODUCT-5133",
+        "part_property_name": "part_5133",
+        "part_property_xmi_id": "XMI-PART-99C4C0786063ACF70C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5140",
+        "child_product_id": "5142",
+        "owner_block_xmi_id": "XMI-PRODUCT-5140",
+        "child_block_xmi_id": "XMI-PRODUCT-5142",
+        "part_property_name": "part_5142",
+        "part_property_xmi_id": "XMI-PART-57D92EBDC05C34899C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5140",
+        "child_product_id": "5145",
+        "owner_block_xmi_id": "XMI-PRODUCT-5140",
+        "child_block_xmi_id": "XMI-PRODUCT-5145",
+        "part_property_name": "part_5145",
+        "part_property_xmi_id": "XMI-PART-B4A537B2F1A9AE2B2D",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5300",
+        "child_product_id": "5310",
+        "owner_block_xmi_id": "XMI-PRODUCT-5300",
+        "child_block_xmi_id": "XMI-PRODUCT-5310",
+        "part_property_name": "part_5310",
+        "part_property_xmi_id": "XMI-PART-5B1A93B992B1F9789C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "5310",
+        "child_product_id": "5311",
+        "owner_block_xmi_id": "XMI-PRODUCT-5310",
+        "child_block_xmi_id": "XMI-PRODUCT-5311",
+        "part_property_name": "part_5311",
+        "part_property_xmi_id": "XMI-PART-D0B070D96FDB25C568",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7000",
+        "child_product_id": "7100",
+        "owner_block_xmi_id": "XMI-PRODUCT-7000",
+        "child_block_xmi_id": "XMI-PRODUCT-7100",
+        "part_property_name": "part_7100",
+        "part_property_xmi_id": "XMI-PART-574E5063F74DA47240",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7000",
+        "child_product_id": "7200",
+        "owner_block_xmi_id": "XMI-PRODUCT-7000",
+        "child_block_xmi_id": "XMI-PRODUCT-7200",
+        "part_property_name": "part_7200",
+        "part_property_xmi_id": "XMI-PART-FE8238C3CAB519FF10",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7100",
+        "child_product_id": "7120",
+        "owner_block_xmi_id": "XMI-PRODUCT-7100",
+        "child_block_xmi_id": "XMI-PRODUCT-7120",
+        "part_property_name": "part_7120",
+        "part_property_xmi_id": "XMI-PART-871D426B85C23F1805",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7100",
+        "child_product_id": "7130",
+        "owner_block_xmi_id": "XMI-PRODUCT-7100",
+        "child_block_xmi_id": "XMI-PRODUCT-7130",
+        "part_property_name": "part_7130",
+        "part_property_xmi_id": "XMI-PART-2C5385BCC52736F068",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7100",
+        "child_product_id": "7140",
+        "owner_block_xmi_id": "XMI-PRODUCT-7100",
+        "child_block_xmi_id": "XMI-PRODUCT-7140",
+        "part_property_name": "part_7140",
+        "part_property_xmi_id": "XMI-PART-111C26D4D1F88E4203",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7120",
+        "child_product_id": "7124",
+        "owner_block_xmi_id": "XMI-PRODUCT-7120",
+        "child_block_xmi_id": "XMI-PRODUCT-7124",
+        "part_property_name": "part_7124",
+        "part_property_xmi_id": "XMI-PART-0C153C0F5DA6AF9C17",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7130",
+        "child_product_id": "7131",
+        "owner_block_xmi_id": "XMI-PRODUCT-7130",
+        "child_block_xmi_id": "XMI-PRODUCT-7131",
+        "part_property_name": "part_7131",
+        "part_property_xmi_id": "XMI-PART-998D67AA781626533F",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7140",
+        "child_product_id": "7142",
+        "owner_block_xmi_id": "XMI-PRODUCT-7140",
+        "child_block_xmi_id": "XMI-PRODUCT-7142",
+        "part_property_name": "part_7142",
+        "part_property_xmi_id": "XMI-PART-C14B002D655291388A",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7200",
+        "child_product_id": "7210",
+        "owner_block_xmi_id": "XMI-PRODUCT-7200",
+        "child_block_xmi_id": "XMI-PRODUCT-7210",
+        "part_property_name": "part_7210",
+        "part_property_xmi_id": "XMI-PART-0D97E087BD063D4706",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7200",
+        "child_product_id": "7220",
+        "owner_block_xmi_id": "XMI-PRODUCT-7200",
+        "child_block_xmi_id": "XMI-PRODUCT-7220",
+        "part_property_name": "part_7220",
+        "part_property_xmi_id": "XMI-PART-4E0D03D4F75F2C9FE5",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7200",
+        "child_product_id": "7250",
+        "owner_block_xmi_id": "XMI-PRODUCT-7200",
+        "child_block_xmi_id": "XMI-PRODUCT-7250",
+        "part_property_name": "part_7250",
+        "part_property_xmi_id": "XMI-PART-9F7480A2E557340780",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7200",
+        "child_product_id": "7280",
+        "owner_block_xmi_id": "XMI-PRODUCT-7200",
+        "child_block_xmi_id": "XMI-PRODUCT-7280",
+        "part_property_name": "part_7280",
+        "part_property_xmi_id": "XMI-PART-2A35A912BFBB0FFB5F",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7210",
+        "child_product_id": "7211",
+        "owner_block_xmi_id": "XMI-PRODUCT-7210",
+        "child_block_xmi_id": "XMI-PRODUCT-7211",
+        "part_property_name": "part_7211",
+        "part_property_xmi_id": "XMI-PART-818E71F8F480384CA0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7210",
+        "child_product_id": "7213",
+        "owner_block_xmi_id": "XMI-PRODUCT-7210",
+        "child_block_xmi_id": "XMI-PRODUCT-7213",
+        "part_property_name": "part_7213",
+        "part_property_xmi_id": "XMI-PART-2A1BEBA725E29817DB",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7222",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7222",
+        "part_property_name": "part_7222",
+        "part_property_xmi_id": "XMI-PART-C90FE25DD79F1A9496",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7223",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7223",
+        "part_property_name": "part_7223",
+        "part_property_xmi_id": "XMI-PART-63D78AFC8656ABBBBA",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7224",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7224",
+        "part_property_name": "part_7224",
+        "part_property_xmi_id": "XMI-PART-FDF9C1FD940F9D1AF0",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7225",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7225",
+        "part_property_name": "part_7225",
+        "part_property_xmi_id": "XMI-PART-0D0BE3329FECDACAA2",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7226",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7226",
+        "part_property_name": "part_7226",
+        "part_property_xmi_id": "XMI-PART-791D740DE767AC5246",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7227",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7227",
+        "part_property_name": "part_7227",
+        "part_property_xmi_id": "XMI-PART-3C7EB46176423271DF",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7228",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7228",
+        "part_property_name": "part_7228",
+        "part_property_xmi_id": "XMI-PART-83325C53B7E205165B",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "7229",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-7229",
+        "part_property_name": "part_7229",
+        "part_property_xmi_id": "XMI-PART-B577FCDDE7B8341C36",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "722A",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-722A",
+        "part_property_name": "part_722A",
+        "part_property_xmi_id": "XMI-PART-A6940852BBE1112545",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "722B",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-722B",
+        "part_property_name": "part_722B",
+        "part_property_xmi_id": "XMI-PART-2158E644619FC99669",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7220",
+        "child_product_id": "722C",
+        "owner_block_xmi_id": "XMI-PRODUCT-7220",
+        "child_block_xmi_id": "XMI-PRODUCT-722C",
+        "part_property_name": "part_722C",
+        "part_property_xmi_id": "XMI-PART-CB979E29B4CD5FB22E",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7250",
+        "child_product_id": "7252",
+        "owner_block_xmi_id": "XMI-PRODUCT-7250",
+        "child_block_xmi_id": "XMI-PRODUCT-7252",
+        "part_property_name": "part_7252",
+        "part_property_xmi_id": "XMI-PART-86C6B0626C2131CE6E",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7250",
+        "child_product_id": "7254",
+        "owner_block_xmi_id": "XMI-PRODUCT-7250",
+        "child_block_xmi_id": "XMI-PRODUCT-7254",
+        "part_property_name": "part_7254",
+        "part_property_xmi_id": "XMI-PART-A56F1171B8D5B77650",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7250",
+        "child_product_id": "7255",
+        "owner_block_xmi_id": "XMI-PRODUCT-7250",
+        "child_block_xmi_id": "XMI-PRODUCT-7255",
+        "part_property_name": "part_7255",
+        "part_property_xmi_id": "XMI-PART-8F39DA5945054FF0A6",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7280",
+        "child_product_id": "7281",
+        "owner_block_xmi_id": "XMI-PRODUCT-7280",
+        "child_block_xmi_id": "XMI-PRODUCT-7281",
+        "part_property_name": "part_7281",
+        "part_property_xmi_id": "XMI-PART-BE915C4D5C516B6906",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7280",
+        "child_product_id": "7284",
+        "owner_block_xmi_id": "XMI-PRODUCT-7280",
+        "child_block_xmi_id": "XMI-PRODUCT-7284",
+        "part_property_name": "part_7284",
+        "part_property_xmi_id": "XMI-PART-38C0CDE9647FA25296",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "7280",
+        "child_product_id": "7285",
+        "owner_block_xmi_id": "XMI-PRODUCT-7280",
+        "child_block_xmi_id": "XMI-PRODUCT-7285",
+        "part_property_name": "part_7285",
+        "part_property_xmi_id": "XMI-PART-1AC11206D09FB9CED2",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8000",
+        "child_product_id": "8100",
+        "owner_block_xmi_id": "XMI-PRODUCT-8000",
+        "child_block_xmi_id": "XMI-PRODUCT-8100",
+        "part_property_name": "part_8100",
+        "part_property_xmi_id": "XMI-PART-E61A3ECD1F3E676555",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8100",
+        "child_product_id": "8120",
+        "owner_block_xmi_id": "XMI-PRODUCT-8100",
+        "child_block_xmi_id": "XMI-PRODUCT-8120",
+        "part_property_name": "part_8120",
+        "part_property_xmi_id": "XMI-PART-968DD8A6E659652B77",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8100",
+        "child_product_id": "8150",
+        "owner_block_xmi_id": "XMI-PRODUCT-8100",
+        "child_block_xmi_id": "XMI-PRODUCT-8150",
+        "part_property_name": "part_8150",
+        "part_property_xmi_id": "XMI-PART-0A1D624A5DBCE54310",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8100",
+        "child_product_id": "8160",
+        "owner_block_xmi_id": "XMI-PRODUCT-8100",
+        "child_block_xmi_id": "XMI-PRODUCT-8160",
+        "part_property_name": "part_8160",
+        "part_property_xmi_id": "XMI-PART-F0794C3C7450CA5723",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8120",
+        "child_product_id": "8121",
+        "owner_block_xmi_id": "XMI-PRODUCT-8120",
+        "child_block_xmi_id": "XMI-PRODUCT-8121",
+        "part_property_name": "part_8121",
+        "part_property_xmi_id": "XMI-PART-861E12E77451658CA5",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8120",
+        "child_product_id": "8122",
+        "owner_block_xmi_id": "XMI-PRODUCT-8120",
+        "child_block_xmi_id": "XMI-PRODUCT-8122",
+        "part_property_name": "part_8122",
+        "part_property_xmi_id": "XMI-PART-787D20BC857AB4141C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8120",
+        "child_product_id": "8125",
+        "owner_block_xmi_id": "XMI-PRODUCT-8120",
+        "child_block_xmi_id": "XMI-PRODUCT-8125",
+        "part_property_name": "part_8125",
+        "part_property_xmi_id": "XMI-PART-D8A9F42807F013866B",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8120",
+        "child_product_id": "8127",
+        "owner_block_xmi_id": "XMI-PRODUCT-8120",
+        "child_block_xmi_id": "XMI-PRODUCT-8127",
+        "part_property_name": "part_8127",
+        "part_property_xmi_id": "XMI-PART-94F715DF270F778D97",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8120",
+        "child_product_id": "8128",
+        "owner_block_xmi_id": "XMI-PRODUCT-8120",
+        "child_block_xmi_id": "XMI-PRODUCT-8128",
+        "part_property_name": "part_8128",
+        "part_property_xmi_id": "XMI-PART-F3E227E7561E04CE2C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8150",
+        "child_product_id": "8151",
+        "owner_block_xmi_id": "XMI-PRODUCT-8150",
+        "child_block_xmi_id": "XMI-PRODUCT-8151",
+        "part_property_name": "part_8151",
+        "part_property_xmi_id": "XMI-PART-EB1C745B698F609820",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8150",
+        "child_product_id": "8152",
+        "owner_block_xmi_id": "XMI-PRODUCT-8150",
+        "child_block_xmi_id": "XMI-PRODUCT-8152",
+        "part_property_name": "part_8152",
+        "part_property_xmi_id": "XMI-PART-0F010EAD527B9B4258",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8150",
+        "child_product_id": "8154",
+        "owner_block_xmi_id": "XMI-PRODUCT-8150",
+        "child_block_xmi_id": "XMI-PRODUCT-8154",
+        "part_property_name": "part_8154",
+        "part_property_xmi_id": "XMI-PART-6B666B7621A6255CD5",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "8160",
+        "child_product_id": "8166",
+        "owner_block_xmi_id": "XMI-PRODUCT-8160",
+        "child_block_xmi_id": "XMI-PRODUCT-8166",
+        "part_property_name": "part_8166",
+        "part_property_xmi_id": "XMI-PART-FA21586145288CB3FD",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D000",
+        "child_product_id": "D100",
+        "owner_block_xmi_id": "XMI-PRODUCT-D000",
+        "child_block_xmi_id": "XMI-PRODUCT-D100",
+        "part_property_name": "part_D100",
+        "part_property_xmi_id": "XMI-PART-AE00EE121F8C1B57FE",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D100",
+        "child_product_id": "D110",
+        "owner_block_xmi_id": "XMI-PRODUCT-D100",
+        "child_block_xmi_id": "XMI-PRODUCT-D110",
+        "part_property_name": "part_D110",
+        "part_property_xmi_id": "XMI-PART-215D970AE1359A0C21",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D100",
+        "child_product_id": "D120",
+        "owner_block_xmi_id": "XMI-PRODUCT-D100",
+        "child_block_xmi_id": "XMI-PRODUCT-D120",
+        "part_property_name": "part_D120",
+        "part_property_xmi_id": "XMI-PART-3649B5F17FF5790DEC",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D100",
+        "child_product_id": "D130",
+        "owner_block_xmi_id": "XMI-PRODUCT-D100",
+        "child_block_xmi_id": "XMI-PRODUCT-D130",
+        "part_property_name": "part_D130",
+        "part_property_xmi_id": "XMI-PART-AAA4B0DFA35A52D269",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D110",
+        "child_product_id": "D112",
+        "owner_block_xmi_id": "XMI-PRODUCT-D110",
+        "child_block_xmi_id": "XMI-PRODUCT-D112",
+        "part_property_name": "part_D112",
+        "part_property_xmi_id": "XMI-PART-B7286A6E1CC2A5C605",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D110",
+        "child_product_id": "D113",
+        "owner_block_xmi_id": "XMI-PRODUCT-D110",
+        "child_block_xmi_id": "XMI-PRODUCT-D113",
+        "part_property_name": "part_D113",
+        "part_property_xmi_id": "XMI-PART-4A0816510468788114",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D110",
+        "child_product_id": "D114",
+        "owner_block_xmi_id": "XMI-PRODUCT-D110",
+        "child_block_xmi_id": "XMI-PRODUCT-D114",
+        "part_property_name": "part_D114",
+        "part_property_xmi_id": "XMI-PART-B2FD41AE64340CC3D9",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D120",
+        "child_product_id": "D121",
+        "owner_block_xmi_id": "XMI-PRODUCT-D120",
+        "child_block_xmi_id": "XMI-PRODUCT-D121",
+        "part_property_name": "part_D121",
+        "part_property_xmi_id": "XMI-PART-23C6674CEB9253FA6C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "D130",
+        "child_product_id": "D13B",
+        "owner_block_xmi_id": "XMI-PRODUCT-D130",
+        "child_block_xmi_id": "XMI-PRODUCT-D13B",
+        "part_property_name": "part_D13B",
+        "part_property_xmi_id": "XMI-PART-E192B6E868F0577DC5",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "E000",
+        "child_product_id": "E100",
+        "owner_block_xmi_id": "XMI-PRODUCT-E000",
+        "child_block_xmi_id": "XMI-PRODUCT-E100",
+        "part_property_name": "part_E100",
+        "part_property_xmi_id": "XMI-PART-7364A1617812AAF02C",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X000",
+        "child_product_id": "X100",
+        "owner_block_xmi_id": "XMI-PRODUCT-X000",
+        "child_block_xmi_id": "XMI-PRODUCT-X100",
+        "part_property_name": "part_X100",
+        "part_property_xmi_id": "XMI-PART-4BE21987AF74CF8F8D",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X100",
+        "child_product_id": "X110",
+        "owner_block_xmi_id": "XMI-PRODUCT-X100",
+        "child_block_xmi_id": "XMI-PRODUCT-X110",
+        "part_property_name": "part_X110",
+        "part_property_xmi_id": "XMI-PART-12D6B1B5E3A8B52B99",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X100",
+        "child_product_id": "X120",
+        "owner_block_xmi_id": "XMI-PRODUCT-X100",
+        "child_block_xmi_id": "XMI-PRODUCT-X120",
+        "part_property_name": "part_X120",
+        "part_property_xmi_id": "XMI-PART-BA9BFF3702C7452312",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X100",
+        "child_product_id": "X130",
+        "owner_block_xmi_id": "XMI-PRODUCT-X100",
+        "child_block_xmi_id": "XMI-PRODUCT-X130",
+        "part_property_name": "part_X130",
+        "part_property_xmi_id": "XMI-PART-58772F063580C67219",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X110",
+        "child_product_id": "X111",
+        "owner_block_xmi_id": "XMI-PRODUCT-X110",
+        "child_block_xmi_id": "XMI-PRODUCT-X111",
+        "part_property_name": "part_X111",
+        "part_property_xmi_id": "XMI-PART-BFB79DE8FCB45C6CC8",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X110",
+        "child_product_id": "X112",
+        "owner_block_xmi_id": "XMI-PRODUCT-X110",
+        "child_block_xmi_id": "XMI-PRODUCT-X112",
+        "part_property_name": "part_X112",
+        "part_property_xmi_id": "XMI-PART-903D828B3D87899AE5",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X110",
+        "child_product_id": "X113",
+        "owner_block_xmi_id": "XMI-PRODUCT-X110",
+        "child_block_xmi_id": "XMI-PRODUCT-X113",
+        "part_property_name": "part_X113",
+        "part_property_xmi_id": "XMI-PART-9C292B69BA88F2CD38",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X120",
+        "child_product_id": "X121",
+        "owner_block_xmi_id": "XMI-PRODUCT-X120",
+        "child_block_xmi_id": "XMI-PRODUCT-X121",
+        "part_property_name": "part_X121",
+        "part_property_xmi_id": "XMI-PART-3A2A6D6E19EB636B51",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X120",
+        "child_product_id": "X122",
+        "owner_block_xmi_id": "XMI-PRODUCT-X120",
+        "child_block_xmi_id": "XMI-PRODUCT-X122",
+        "part_property_name": "part_X122",
+        "part_property_xmi_id": "XMI-PART-1AB342CEE65F78AB5B",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X120",
+        "child_product_id": "X123",
+        "owner_block_xmi_id": "XMI-PRODUCT-X120",
+        "child_block_xmi_id": "XMI-PRODUCT-X123",
+        "part_property_name": "part_X123",
+        "part_property_xmi_id": "XMI-PART-F08A4B9AEECA525B59",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X120",
+        "child_product_id": "X124",
+        "owner_block_xmi_id": "XMI-PRODUCT-X120",
+        "child_block_xmi_id": "XMI-PRODUCT-X124",
+        "part_property_name": "part_X124",
+        "part_property_xmi_id": "XMI-PART-B6BDA02FAD1F9C6A46",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X130",
+        "child_product_id": "X131",
+        "owner_block_xmi_id": "XMI-PRODUCT-X130",
+        "child_block_xmi_id": "XMI-PRODUCT-X131",
+        "part_property_name": "part_X131",
+        "part_property_xmi_id": "XMI-PART-D6196FB949CB2BF700",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X130",
+        "child_product_id": "X132",
+        "owner_block_xmi_id": "XMI-PRODUCT-X130",
+        "child_block_xmi_id": "XMI-PRODUCT-X132",
+        "part_property_name": "part_X132",
+        "part_property_xmi_id": "XMI-PART-B3396AB08747C2AB74",
+        "aggregation": "composite"
+      },
+      {
+        "parent_product_id": "X130",
+        "child_product_id": "X133",
+        "owner_block_xmi_id": "XMI-PRODUCT-X130",
+        "child_block_xmi_id": "XMI-PRODUCT-X133",
+        "part_property_name": "part_X133",
+        "part_property_xmi_id": "XMI-PART-31CCDB245BE8AC65CD",
+        "aggregation": "composite"
+      }
+    ]
+  },
+  "feature_separation": {
+    "part_property": {
+      "uml_metaclass": "uml:Property",
+      "owner": "Parent Product Block",
+      "type": "Child Product Block",
+      "aggregation": "composite"
+    },
+    "proxy_port": {
+      "uml_metaclass": "uml:Port",
+      "standard_stereotype": "SysML::ProxyPort",
+      "owner": "Port owner Product Block",
+      "type": "standard SysML InterfaceBlock directional projection"
+    }
+  },
+  "port_direction": {
+    "record_count": 517,
+    "projection_count": 221,
+    "raw_to_effective": {
+      "输入": "in",
+      "输出": "out",
+      "双向物理": "inout"
+    },
+    "representation": "standard InterfaceBlock with standard FlowProperty.direction",
+    "uml_port_direction_attribute": "FORBIDDEN",
+    "canonical_trace_fields": [
+      "canonical_interface_type_id",
+      "canonical_item_id"
+    ],
+    "unknown_allowed": false,
+    "resolution_file": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\tools\\xmi_pipeline\\work\\port_direction_resolution.json"
+  },
+  "bdd_projection": {
+    "purpose": "Block definitions, direct hierarchy composition, optional Port compartments",
+    "block_symbol_unique_key": [
+      "diagram_id",
+      "product_id"
+    ],
+    "composition_symbol_unique_key": [
+      "diagram_id",
+      "parent_product_id",
+      "child_product_id"
+    ],
+    "draw_part_as_second_block_symbol": false,
+    "allowed_relationships": [
+      "STRUCTURAL_COMPOSITION"
+    ],
+    "forbidden_content": [
+      "Connector",
+      "InformationFlow",
+      "ItemFlow",
+      "PhysicalNet",
+      "Function_Interface"
+    ],
+    "templates": [
+      {
+        "diagram_id": "BDD_L1_System",
+        "root": "System Context",
+        "direct_products": [
+          "3000",
+          "4000",
+          "5000",
+          "7000",
+          "8000",
+          "D000",
+          "E000",
+          "X000"
+        ]
+      },
+      {
+        "diagram_id": "BDD_5000_Traction",
+        "root_product": "5000",
+        "direct_children_only": true
+      },
+      {
+        "diagram_id": "BDD_5100",
+        "root_product": "5100",
+        "direct_children_only": true
+      }
+    ]
+  },
+  "ibd_projection": {
+    "frame": "one Product Block",
+    "internal_parts": "only direct owned composite Part Properties",
+    "part_symbol_type": "Child Product Block",
+    "block_definitions_inside_frame": "FORBIDDEN_AS_INSTANCE_SYMBOL",
+    "connections": "ConnectGraph Final Connection, keyed by connection_id",
+    "signal_flow": "one InformationFlow + one standard ItemFlow per SIGNAL connection",
+    "physical_flow": "Connector with inout interfaces; no forced one-way flow",
+    "upward_interface_promotion": "DEFERRED",
+    "exposed_upward_default": false
+  },
+  "solution_space_and_reference": {
+    "product_library_block_definitions": 147,
+    "reference_active_product_preview_count": 143,
+    "omitted_reference_product_ids": [
+      "3132",
+      "3133",
+      "4120",
+      "4121"
+    ],
+    "rule": "Final Connection/Net use or active profile port or explicit reference selection, plus necessary ancestors; explicit unselected variants remain Block definitions only.",
+    "note": "This task does not publish a new full XMI or infer upward parent Ports."
+  },
+  "frozen_baseline": {
+    "products": 147,
+    "hierarchy_relationships": 139,
+    "interfaces": 517,
+    "connections": 184,
+    "signal_connections": 147,
+    "physical_nets": 9,
+    "allocations": 191
+  },
+  "invariants": {
+    "all_parent_ids_resolve": true,
+    "hierarchy_unique": true,
+    "all_port_owners_resolve": true,
+    "all_port_directions_resolve": true
+  }
+}

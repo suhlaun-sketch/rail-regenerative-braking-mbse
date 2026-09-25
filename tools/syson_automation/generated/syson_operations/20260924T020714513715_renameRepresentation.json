@@ -1,0 +1,20 @@
+{
+  "operation_name": "renameRepresentation",
+  "timestamp": "2026-09-24T02:07:13.500676+00:00",
+  "variables": {
+    "input": {
+      "id": "e03ec8da-08cd-4b7a-83ac-415a9ec4f161",
+      "editingContextId": "12d630bc-f763-4c58-8385-152cbec448e9",
+      "representationId": "5226ade6-f403-4ad0-99c8-0df245e2a1d2",
+      "newLabel": "AUTO_FP_PORTENHANCED_6289f72770e3_GENERAL_FALLBACK"
+    }
+  },
+  "representation_id": "5226ade6-f403-4ad0-99c8-0df245e2a1d2",
+  "response": {
+    "renameRepresentation": {
+      "__typename": "SuccessPayload",
+      "messages": []
+    }
+  },
+  "error": null
+}

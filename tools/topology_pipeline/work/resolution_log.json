@@ -1,0 +1,312 @@
+{
+  "net_count_explanation": "83 candidate membership records referenced 83 unique ports; 9 participation=TAP records were counted as TAP_CONNECTED, leaving 74 NET_MEMBER. No port belonged to multiple mutually exclusive nets. Final return closure moves one port from NET membership to BOUNDARY.",
+  "coupling_resolution": {
+    "assembly_order": [
+      "5311",
+      "3511",
+      "3514",
+      "3512",
+      "3121"
+    ],
+    "status": "SERIES_ASSEMBLY",
+    "basis": "Product names identify motor-side coupling, universal shaft, and gearbox-side coupling; paired rotating-mechanical ports support serial composition."
+  },
+  "brake_disc_resolution": {
+    "selected_product": "3131",
+    "selection_basis": "executable_reference_assumption",
+    "retained_solution_space": [
+      "3131",
+      "3132",
+      "3133"
+    ]
+  },
+  "transformer_secondary_resolution": "4513 feeds parallel structural main-input (5122) and precharge (5121) branches into 5131; switch state is deferred to Simulation Contract.",
+  "route_policy": {
+    "logical_control_route": "DIRECT_BUS",
+    "physical_discrete_route": "VIA_IO_WHEN_REQUIRED"
+  },
+  "recorded_ambiguities_resolved": 42,
+  "recorded_routes_resolved": 3,
+  "resolved_signal_records": [
+    {
+      "target_port_id": "PORT::4238::高压断路器指令输入::ITM-CMD-016::输入",
+      "source_port_id": "PORT::4239::高压断路器指令输出::ITM-CMD-016::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+      "source_port_id": "PORT::4517::高压系统故障状态输出::ITM-STA-016::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+      "source_port_id": "PORT::5145::中间直流母线电流输出::ITM-MEA-009::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+      "source_port_id": "PORT::4235::高压线路电压输出::ITM-MEA-005::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5111::高压线路电流输入::ITM-MEA-006::输入",
+      "source_port_id": "PORT::4236::高压线路电流输出::ITM-MEA-006::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+      "source_port_id": "PORT::5145::中间直流母线电流输出::ITM-MEA-009::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+      "source_port_id": "PORT::5311::电机侧相电压输出::ITM-MEA-011::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+      "source_port_id": "PORT::5113::电机侧相电流输出::ITM-MEA-010::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::7211::低风压状态输入::ITM-STA-009::输入",
+      "source_port_id": "PORT::722C::低风压状态输出::ITM-STA-009::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::7211::制动安全回路状态输入::ITM-STA-025::输入",
+      "source_port_id": "PORT::8152::制动安全回路状态输出::ITM-STA-025::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8121::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "source_port_id": "PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8121::牵引可用状态输入::ITM-STA-001::输入",
+      "source_port_id": "PORT::8125::牵引可用状态输出::ITM-STA-001::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+      "source_port_id": "PORT::8125::再生功率上限输出::ITM-LIM-004::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::列车方向指令输入::ITM-CMD-001::输入",
+      "source_port_id": "PORT::8121::列车方向指令输出::ITM-CMD-001::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+      "source_port_id": "PORT::5142::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::动态制动可用状态输入::ITM-STA-002::输入",
+      "source_port_id": "PORT::8125::动态制动可用状态输出::ITM-STA-002::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "source_port_id": "PORT::X111::双向DC_DC实际功率输出::ITM-MEA-029::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::可用动态制动力输入::ITM-LIM-001::输入",
+      "source_port_id": "PORT::8125::可用动态制动力输出::ITM-LIM-001::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+      "source_port_id": "PORT::5131::回馈电网功率输出::ITM-ACC-003::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "source_port_id": "PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+      "source_port_id": "PORT::5132::实际再生功率输出::ITM-ACC-002::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::服务制动请求输入::ITM-CMD-003::输入",
+      "source_port_id": "PORT::8121::服务制动请求输出::ITM-CMD-003::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+      "source_port_id": "PORT::5113::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::牵引可用状态输入::ITM-STA-001::输入",
+      "source_port_id": "PORT::8125::牵引可用状态输出::ITM-STA-001::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::牵引指令输入::ITM-CMD-002::输入",
+      "source_port_id": "PORT::8121::牵引指令输出::ITM-CMD-002::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::紧急制动请求输入::ITM-CMD-004::输入",
+      "source_port_id": "PORT::8121::紧急制动请求输出::ITM-CMD-004::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8122::超级电容SOC输入::ITM-MEA-028::输入",
+      "source_port_id": "PORT::X121::超级电容SOC输出::ITM-MEA-028::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8127::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "source_port_id": "PORT::E100::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8128::撒砂请求输入::ITM-CMD-024::输入",
+      "source_port_id": "PORT::8122::撒砂请求输出::ITM-CMD-024::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8154::牵引使能指令输入::ITM-CMD-009::输入",
+      "source_port_id": "PORT::8121::牵引使能指令输出::ITM-CMD-009::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+      "source_port_id": "PORT::8121::牵引切除请求输出::ITM-CMD-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+      "source_port_id": "PORT::5145::中间直流母线电流输出::ITM-MEA-009::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "source_port_id": "PORT::X113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+      "source_port_id": "PORT::X133::储能保护跳闸状态输出::ITM-STA-034::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+      "source_port_id": "PORT::X113::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+      "source_port_id": "PORT::X113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+      "source_port_id": "PORT::X122::超级电容电压输出::ITM-MEA-025::输出",
+      "policy": "DIRECT_BUS"
+    },
+    {
+      "target_port_id": "PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+      "source_port_id": "PORT::X123::超级电容电流输出::ITM-MEA-026::输出",
+      "policy": "DIRECT_BUS"
+    },
+    {
+      "target_port_id": "PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+      "source_port_id": "PORT::X124::超级电容温度输出::ITM-MEA-027::输出",
+      "policy": "DIRECT_BUS"
+    },
+    {
+      "target_port_id": "PORT::3811::撒砂请求输入::ITM-CMD-024::输入",
+      "source_port_id": "PORT::8128::撒砂请求输出::ITM-CMD-024::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8128::高压安全回路状态输入::ITM-STA-024::输入",
+      "source_port_id": "PORT::8151::高压安全回路状态输出::ITM-STA-024::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8128::制动安全回路状态输入::ITM-STA-025::输入",
+      "source_port_id": "PORT::8152::制动安全回路状态输出::ITM-STA-025::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8128::牵引安全回路状态输入::ITM-STA-026::输入",
+      "source_port_id": "PORT::8154::牵引安全回路状态输出::ITM-STA-026::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8125::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "source_port_id": "PORT::5311::牵引电机实际转矩输出::ITM-MEA-012::输出",
+      "policy": "SOURCE_PRIORITY"
+    },
+    {
+      "target_port_id": "PORT::8125::牵引电机转速输入::ITM-MEA-004::输入",
+      "source_port_id": "PORT::3644::牵引电机转速输出::ITM-MEA-004::输出",
+      "policy": "SOURCE_PRIORITY"
+    }
+  ],
+  "neo4j_runs": {
+    "first": {
+      "CONNECTS_TO": 184,
+      "PhysicalNet": 9,
+      "NET_MEMBER": 82,
+      "modes": {
+        "BOUNDARY": 12,
+        "SERIES": 20,
+        "SIGNAL": 147,
+        "TAP": 5
+      }
+    },
+    "second": {
+      "CONNECTS_TO": 184,
+      "PhysicalNet": 9,
+      "NET_MEMBER": 82,
+      "modes": {
+        "BOUNDARY": 12,
+        "SERIES": 20,
+        "SIGNAL": 147,
+        "TAP": 5
+      }
+    }
+  },
+  "idempotent": true
+}

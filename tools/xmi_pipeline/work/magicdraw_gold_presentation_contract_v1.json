@@ -1,0 +1,302 @@
+{
+  "contract_id": "RAIL-MBSE-MAGICDRAW-GOLD-PRESENTATION-CONTRACT-V1",
+  "source_gold_sha256": "3e022d5a9d3bd6192956b76f622f6be197dedc4939f822e8af33ec582fd36712",
+  "generation_mode": "NATIVE_MDXML",
+  "diagram_resource_type": "inline filePart type=XML containing mdOwnedViews",
+  "diagram_type": {
+    "type": "SysML Internal Block Diagram",
+    "umlType": "Composite Structure Diagram",
+    "owner_scheme": "ownedDiagram under xmi:Extension/modelExtension of the IBD context uml:Class"
+  },
+  "shape_serialization": {
+    "node": "mdElement",
+    "class_attribute": "elementClass",
+    "geometry": "geometry text",
+    "evidence": [
+      {
+        "presentation_id": "_2022x_2ee012b_1788955150718_733971_2834",
+        "element_class": "DiagramFrame",
+        "model_element": "_2022x_2ee012b_1788955150699_609411_2816",
+        "geometry": "5, 5, 1010, 799"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955154056_891345_2846",
+        "element_class": "Part",
+        "model_element": "_2022x_2ee012b_1788955154049_352958_2845",
+        "geometry": "112, 105, 114, 39"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160650_133768_2959",
+        "element_class": "Port",
+        "model_element": "XMI-PORT-17D10E3CF7A87862",
+        "geometry": "211, 115, 15, 15"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160654_159067_2969",
+        "element_class": "TextBox",
+        "model_element": null,
+        "geometry": "229, 107, 223, 12"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955155749_119710_2924",
+        "element_class": "Part",
+        "model_element": "_2022x_2ee012b_1788955155744_749480_2923",
+        "geometry": "602, 371, 136, 39"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160648_197277_2949",
+        "element_class": "Port",
+        "model_element": "XMI-PORT-E47D00EE3FA2782A",
+        "geometry": "602, 381, 15, 15"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955160656_922293_2974",
+        "element_class": "TextBox",
+        "model_element": null,
+        "geometry": "376, 373, 223, 12"
+      },
+      {
+        "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130",
+        "element_class": "TextBox",
+        "model_element": null,
+        "geometry": "416, 263, 67, 12"
+      }
+    ]
+  },
+  "path_serialization": {
+    "node": "mdElement elementClass=Connector",
+    "geometry": "602, 389; 413, 389; 413, 123; 226, 123; ",
+    "evidence_presentation_id": "_2022x_2ee012b_1788955754676_66313_3121"
+  },
+  "connector_path_mapping": {
+    "model_reference": "Connector mdElement/elementID@xmi:idref",
+    "first_end": "linkFirstEndID",
+    "second_end": "linkSecondEndID",
+    "evidence": {
+      "presentation_id": "_2022x_2ee012b_1788955754676_66313_3121",
+      "model_connector_id": "_2022x_2ee012b_1788955755732_217889_3122",
+      "geometry": "602, 389; 413, 389; 413, 123; 226, 123; ",
+      "link_first_end_presentation": "_2022x_2ee012b_1788955160648_197277_2949",
+      "link_first_end_model": "XMI-PORT-E47D00EE3FA2782A",
+      "link_second_end_presentation": "_2022x_2ee012b_1788955160650_133768_2959",
+      "link_second_end_model": "XMI-PORT-17D10E3CF7A87862",
+      "conveyed_compartment": {
+        "{http://www.omg.org/spec/XMI/20131001}value": "XMI-ITEM-ITM-MEA-005",
+        "compartmentID": "CONVEYED_INFORMATION_A",
+        "isContentLocked": "true"
+      },
+      "conveyed_link": {
+        "field": "linkConveyedAID",
+        "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130"
+      },
+      "label": {
+        "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130",
+        "text": "高压线路电压",
+        "geometry": "416, 263, 67, 12"
+      },
+      "style_id": "_2022x_2ee012b_1788955543125_940167_3011",
+      "style_chain": [
+        {
+          "property_manager_id": "_2022x_2ee012b_1788955543125_940167_3011",
+          "parent": "_2022x_2ee012b_1788955543125_650331_3078",
+          "properties": {
+            "STEREOTYPE_COLOR": "-16777216",
+            "STEREOTYPE_FONT": null,
+            "WRAP_WORDS": null,
+            "SHOW_NAME": "true",
+            "STEREOTYPES_DISPLAY_MODE": null,
+            "DSL_STEREOTYPE_DISPLAY_MODE": null,
+            "SHOW_TAGGED_VALUES": "true",
+            "SHOW_ELEMENT_PROPERTIES": null,
+            "SHOW_ICONS_IN_COMPARTMENTS": "true",
+            "SHOW_ELEMENT_TYPE_IN_COMPARTMENTS": null,
+            "SHOW_DERIVED_SIGN": null,
+            "SHOW_CONVEYED_A": "true",
+            "SHOW_CONVEYED_B": "true",
+            "SHOW_CONSTRAINTS": "true",
+            "SHOW_TYPE": "true",
+            "SHOW_INHERITED_SIGN": "true",
+            "SHOW_CONNECTOR_END_A": "true",
+            "SHOW_CONNECTOR_END_B": "true",
+            "SHOW_ID_FOR_CONVEYED_ITEM": null,
+            "SHOW_ID_OF_INFORMATION_FLOW": null,
+            "SHOW_NAME_OF_INFORMATION_FLOW": null
+          }
+        },
+        {
+          "property_manager_id": "_2022x_2ee012b_1788955543125_650331_3078",
+          "parent": "_2022x_2ee012b_1788955543125_968083_3102",
+          "properties": {
+            "USE_FILL_COLOR": null,
+            "LINK_LINE_STYLE": null,
+            "IS_ROUNDED": null,
+            "CONSTRAINT_TEXT_MODE": null,
+            "SUSPEND_SHAPE_AUTO_RESIZE": null,
+            "SUSPEND_LABEL_AUTO_DISPLAY": null,
+            "LABEL_ORIENTATION": null
+          }
+        },
+        {
+          "property_manager_id": "_2022x_2ee012b_1788955543125_968083_3102",
+          "parent": null,
+          "properties": {
+            "FILL_COLOR": "-52",
+            "USE_FILL_COLOR": "true",
+            "PEN_COLOR": "-12434878",
+            "TEXT_COLOR": "-16777216",
+            "LINE_WIDTH": "1.0",
+            "FONT": null,
+            "SHOW_NUMBER_TAG_NAME": "true",
+            "ELEMENT_NUMBER_DISPLAY_MODE": null
+          }
+        }
+      ]
+    }
+  },
+  "itemflow_mapping": {
+    "model": "uml:InformationFlow + sysml:ItemFlow(base_InformationFlow)",
+    "presentation": "No separate ItemFlow mdElement; conveyed Signal is rendered by the Connector presentation",
+    "evidence": {
+      "application_id": "_2022x_2ee012b_1788955789111_160689_3129_application",
+      "base_information_flow": "_2022x_2ee012b_1788955789111_160689_3129",
+      "item_property": null,
+      "presentation_count": 0
+    }
+  },
+  "itemflow_arrow_mapping": {
+    "field": "CONVEYED_INFORMATION_A",
+    "semantics": "In gold, source Port is linkSecondEnd and target Port is linkFirstEnd; CONVEYED_INFORMATION_A therefore encodes source -> target on this Connector.",
+    "evidence": {
+      "source_port": "XMI-PORT-17D10E3CF7A87862",
+      "target_port": "XMI-PORT-E47D00EE3FA2782A",
+      "link_first_model": "XMI-PORT-E47D00EE3FA2782A",
+      "link_second_model": "XMI-PORT-17D10E3CF7A87862",
+      "compartment": {
+        "{http://www.omg.org/spec/XMI/20131001}value": "XMI-ITEM-ITM-MEA-005",
+        "compartmentID": "CONVEYED_INFORMATION_A",
+        "isContentLocked": "true"
+      }
+    }
+  },
+  "conveyed_label_mapping": {
+    "source": "Connector conveyed compartment references uml:Signal; Connector-owned TextBox carries Signal.name",
+    "link_field": "linkConveyedAID",
+    "text": "高压线路电压",
+    "evidence": {
+      "presentation_id": "_2022x_2ee012b_1788955789118_515212_3130",
+      "text": "高压线路电压",
+      "geometry": "416, 263, 67, 12"
+    }
+  },
+  "source_port_mapping": {
+    "model": "XMI-PORT-17D10E3CF7A87862",
+    "presentation": "_2022x_2ee012b_1788955160650_133768_2959",
+    "parent_part_presentation": "_2022x_2ee012b_1788955154056_891345_2846"
+  },
+  "target_port_mapping": {
+    "model": "XMI-PORT-E47D00EE3FA2782A",
+    "presentation": "_2022x_2ee012b_1788955160648_197277_2949",
+    "parent_part_presentation": "_2022x_2ee012b_1788955155749_119710_2924"
+  },
+  "part_symbol_mapping": {
+    "source": {
+      "id": "_2022x_2ee012b_1788955154049_352958_2845",
+      "type": "XMI-PRODUCT-4235",
+      "presentation": "_2022x_2ee012b_1788955154056_891345_2846"
+    },
+    "target": {
+      "id": "_2022x_2ee012b_1788955155744_749480_2923",
+      "type": "XMI-PRODUCT-5111",
+      "presentation": "_2022x_2ee012b_1788955155749_119710_2924"
+    },
+    "model_reference": "Part mdElement/elementID@xmi:idref"
+  },
+  "proxyport_symbol_mapping": {
+    "serialization": "Port mdElement nested under Part/mdOwnedViews; elementID references existing uml:Port",
+    "source": {
+      "id": "XMI-PORT-17D10E3CF7A87862",
+      "name": "高压线路电压输出",
+      "presentation": "_2022x_2ee012b_1788955160650_133768_2959"
+    },
+    "target": {
+      "id": "XMI-PORT-E47D00EE3FA2782A",
+      "name": "高压线路电压输入",
+      "presentation": "_2022x_2ee012b_1788955160648_197277_2949"
+    }
+  },
+  "style_mapping": {
+    "connector_symbol_style_id": "_2022x_2ee012b_1788955543125_940167_3011",
+    "style_chain_evidence": [
+      {
+        "property_manager_id": "_2022x_2ee012b_1788955543125_940167_3011",
+        "parent": "_2022x_2ee012b_1788955543125_650331_3078",
+        "properties": {
+          "STEREOTYPE_COLOR": "-16777216",
+          "STEREOTYPE_FONT": null,
+          "WRAP_WORDS": null,
+          "SHOW_NAME": "true",
+          "STEREOTYPES_DISPLAY_MODE": null,
+          "DSL_STEREOTYPE_DISPLAY_MODE": null,
+          "SHOW_TAGGED_VALUES": "true",
+          "SHOW_ELEMENT_PROPERTIES": null,
+          "SHOW_ICONS_IN_COMPARTMENTS": "true",
+          "SHOW_ELEMENT_TYPE_IN_COMPARTMENTS": null,
+          "SHOW_DERIVED_SIGN": null,
+          "SHOW_CONVEYED_A": "true",
+          "SHOW_CONVEYED_B": "true",
+          "SHOW_CONSTRAINTS": "true",
+          "SHOW_TYPE": "true",
+          "SHOW_INHERITED_SIGN": "true",
+          "SHOW_CONNECTOR_END_A": "true",
+          "SHOW_CONNECTOR_END_B": "true",
+          "SHOW_ID_FOR_CONVEYED_ITEM": null,
+          "SHOW_ID_OF_INFORMATION_FLOW": null,
+          "SHOW_NAME_OF_INFORMATION_FLOW": null
+        }
+      },
+      {
+        "property_manager_id": "_2022x_2ee012b_1788955543125_650331_3078",
+        "parent": "_2022x_2ee012b_1788955543125_968083_3102",
+        "properties": {
+          "USE_FILL_COLOR": null,
+          "LINK_LINE_STYLE": null,
+          "IS_ROUNDED": null,
+          "CONSTRAINT_TEXT_MODE": null,
+          "SUSPEND_SHAPE_AUTO_RESIZE": null,
+          "SUSPEND_LABEL_AUTO_DISPLAY": null,
+          "LABEL_ORIENTATION": null
+        }
+      },
+      {
+        "property_manager_id": "_2022x_2ee012b_1788955543125_968083_3102",
+        "parent": null,
+        "properties": {
+          "FILL_COLOR": "-52",
+          "USE_FILL_COLOR": "true",
+          "PEN_COLOR": "-12434878",
+          "TEXT_COLOR": "-16777216",
+          "LINE_WIDTH": "1.0",
+          "FONT": null,
+          "SHOW_NUMBER_TAG_NAME": "true",
+          "ELEMENT_NUMBER_DISPLAY_MODE": null
+        }
+      }
+    ],
+    "solid_rule": "LINK_LINE_STYLE has no dashed override in gold; Connector uses the default solid link style",
+    "conveyed_visibility": {
+      "SHOW_CONVEYED_A": true,
+      "SHOW_CONVEYED_B": true
+    }
+  },
+  "model_element_reference_scheme": "xmi:idref to model elements; diagramContents uses #<model-id> and usedElements text",
+  "presentation_id_scheme": "New deterministic SHA1 IDs by semantic role; no gold presentation ID is reused",
+  "owner_scheme": "A standard Block presentation harness owns direct Part Properties and the Connector; the ownedDiagram context/ownerOfDiagram reference that harness",
+  "answers": {
+    "model_semantics": "YES: uml:Connector + uml:InformationFlow + SysML::ItemFlow",
+    "solid_connector": "mdElement elementClass=Connector with geometry and default solid LINK_LINE_STYLE",
+    "black_itemflow_arrow": "Connector CONVEYED_INFORMATION_A compartment referencing the conveyed Signal; visibility is enabled by SHOW_CONVEYED_A/B",
+    "label_source": "Connector-owned TextBox linked by linkConveyedAID; its text equals conveyed Signal.name",
+    "independent_information_flow_path": false,
+    "item_property_required": false
+  }
+}

@@ -1,0 +1,29 @@
+name: rail-mbse-syson-formal
+services:
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: syson
+      POSTGRES_USER: ${SYSON_DB_USER:?Set SYSON_DB_USER}
+      POSTGRES_PASSWORD: ${SYSON_DB_PASSWORD:?Set SYSON_DB_PASSWORD}
+    volumes:
+      - syson_formal_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${SYSON_DB_USER} -d syson"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  app:
+    image: eclipsesyson/syson:v2026.7.0
+    ports:
+      - "127.0.0.1:${SYSON_FORMAL_PORT:-8080}:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/syson
+      SPRING_DATASOURCE_USERNAME: ${SYSON_DB_USER}
+      SPRING_DATASOURCE_PASSWORD: ${SYSON_DB_PASSWORD}
+      SERVER_PORT: "8080"
+    depends_on:
+      database:
+        condition: service_healthy
+volumes:
+  syson_formal_db:

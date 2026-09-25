@@ -1,0 +1,5049 @@
+{
+  "profile_id": "CRH_AC25KV_SC",
+  "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+  "default_node_active": true,
+  "default_port_active": true,
+  "profile_rows": [
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4111",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "当前参考实例采用25 kV AC受电弓碳滑板受流链。",
+      "applicability": "AC适用",
+      "object_name": "碳滑板"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "411C",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "受电弓控制单元在当前AC受流方案中启用，接口本身为控制/状态语义。",
+      "applicability": "制式无关",
+      "object_name": "受电弓电子控制单元"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4121",
+      "port_name": "",
+      "item": "",
+      "active": false,
+      "reason": "直流受流方案候选节点；CRH_AC25KV_SC不启用DC受流支路。",
+      "applicability": "DC适用",
+      "object_name": "受流器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4211",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "真空断路器属于当前25 kV AC高压主链。",
+      "applicability": "AC适用",
+      "object_name": "真空断路器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4212",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "产品类别允许不同制式型号；当前节点启用但仅激活AC物理口。",
+      "applicability": "AC/DC Variant",
+      "object_name": "非真空隔离开关"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4235",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "传统高压电压互感器按AC测量链建模。",
+      "applicability": "AC适用",
+      "object_name": "高压电压互感器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4236",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "传统高压电流互感器按AC测量链建模。",
+      "applicability": "AC适用",
+      "object_name": "高压电流互感器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4238",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "高压I/O承担外部采集与转发；Profile不按信号方向拆分节点。",
+      "applicability": "制式无关",
+      "object_name": "高压控制输入输出单元"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4239",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "高压控制逻辑接口本身不承载AC/DC物理能量。",
+      "applicability": "制式无关",
+      "object_name": "高压控制单元"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4241",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "能量计量处理信号可用于当前AC实例，接口语义不限定供电物理制式。",
+      "applicability": "制式无关",
+      "object_name": "处理单元"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4511",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "主变压器是25 kV AC到牵引变压器次级交流的必要物理链节点。",
+      "applicability": "AC适用",
+      "object_name": "主变压器主体"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4513",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "电抗器位于当前变压器次级交流链。",
+      "applicability": "AC适用",
+      "object_name": "电抗器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4517",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "主变压器检测保护随AC主变压器链启用。",
+      "applicability": "AC适用",
+      "object_name": "主变压器检测及保护元件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "4518",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "主变压器控制装置随AC主变压器链启用。",
+      "applicability": "AC适用",
+      "object_name": "主变压器控制装置"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "5121",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "预充电组件保留通用拓扑候选；当前只激活次级交流与中间直流相关端口。",
+      "applicability": "AC/DC Variant",
+      "object_name": "预充电组件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "5122",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "输入组件保留通用拓扑候选；当前只激活次级交流与中间直流相关端口。",
+      "applicability": "AC/DC Variant",
+      "object_name": "输入组件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "5131",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "网侧变流模块连接主变压器次级交流与中间直流，属于当前AC链。",
+      "applicability": "AC适用",
+      "object_name": "网侧变流模块"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "5132",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "电机侧变流模块位于中间直流下游，不直接区分上游AC/DC受流制式。",
+      "applicability": "制式无关",
+      "object_name": "电机侧变流模块"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X111",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "当前实例明确启用双向DC/DC功率模块。",
+      "applicability": "制式无关",
+      "object_name": "双向DC/DC变流模块"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X112",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "当前实例明确启用双向DC/DC控制模块。",
+      "applicability": "制式无关",
+      "object_name": "双向DC/DC控制模块"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X113",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "当前实例明确启用双向DC/DC检测保护。",
+      "applicability": "制式无关",
+      "object_name": "双向DC/DC检测保护组件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X121",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "当前实例明确选择车载超级电容储能。",
+      "applicability": "制式无关",
+      "object_name": "超级电容模块"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X122",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "超级电容电压测量属于当前储能分支。",
+      "applicability": "制式无关",
+      "object_name": "超级电容电压传感器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X123",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "超级电容电流测量属于当前储能分支。",
+      "applicability": "制式无关",
+      "object_name": "超级电容电流传感器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X124",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "超级电容温度测量属于当前储能分支。",
+      "applicability": "制式无关",
+      "object_name": "超级电容温度传感器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X131",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "储能主接触器属于当前超级电容分支。",
+      "applicability": "制式无关",
+      "object_name": "储能主接触器"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X132",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "储能预充电组件属于当前超级电容分支。",
+      "applicability": "制式无关",
+      "object_name": "储能预充电组件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "NODE",
+      "code": "X133",
+      "port_name": "",
+      "item": "",
+      "active": true,
+      "reason": "储能支路保护组件属于当前超级电容分支。",
+      "applicability": "制式无关",
+      "object_name": "储能支路保护组件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "PORT",
+      "code": "4212",
+      "port_name": "进线侧直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "AC/DC Variant中的DC物理口；当前25 kV AC实例关闭。",
+      "applicability": "AC/DC Variant",
+      "object_name": "非真空隔离开关"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "PORT",
+      "code": "4212",
+      "port_name": "出线侧直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "AC/DC Variant中的DC物理口；当前25 kV AC实例关闭。",
+      "applicability": "AC/DC Variant",
+      "object_name": "非真空隔离开关"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "PORT",
+      "code": "5121",
+      "port_name": "直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "预充电拓扑的DC供电候选；当前AC实例关闭。",
+      "applicability": "AC/DC Variant",
+      "object_name": "预充电组件"
+    },
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "object_type": "PORT",
+      "code": "5122",
+      "port_name": "直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "输入组件的DC供电候选；当前AC实例关闭。",
+      "applicability": "AC/DC Variant",
+      "object_name": "输入组件"
+    }
+  ],
+  "port_states": [
+    {
+      "source_index": 1,
+      "code": "3111",
+      "name": "车轮",
+      "port_name": "轮轴旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 2,
+      "code": "3111",
+      "name": "车轮",
+      "port_name": "轮轨纵向机械作用端口",
+      "item": "轮轨纵向机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 3,
+      "code": "3112",
+      "name": "车轴",
+      "port_name": "传动段旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 4,
+      "code": "3112",
+      "name": "车轴",
+      "port_name": "轮对段旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 5,
+      "code": "3121",
+      "name": "齿轮箱主体",
+      "port_name": "高速轴旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 6,
+      "code": "3121",
+      "name": "齿轮箱主体",
+      "port_name": "低速轴旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 7,
+      "code": "3131",
+      "name": "外轮盘",
+      "port_name": "摩擦制动机械作用端口",
+      "item": "摩擦制动机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 8,
+      "code": "3131",
+      "name": "外轮盘",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 9,
+      "code": "3132",
+      "name": "内轮盘",
+      "port_name": "摩擦制动机械作用端口",
+      "item": "摩擦制动机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 10,
+      "code": "3132",
+      "name": "内轮盘",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 11,
+      "code": "3133",
+      "name": "轴盘",
+      "port_name": "摩擦制动机械作用端口",
+      "item": "摩擦制动机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 12,
+      "code": "3133",
+      "name": "轴盘",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 13,
+      "code": "3511",
+      "name": "联轴节(电机侧)",
+      "port_name": "第一连接面旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 14,
+      "code": "3511",
+      "name": "联轴节(电机侧)",
+      "port_name": "第二连接面旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 15,
+      "code": "3512",
+      "name": "联轴节(齿轮箱侧)",
+      "port_name": "第一连接面旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 16,
+      "code": "3512",
+      "name": "联轴节(齿轮箱侧)",
+      "port_name": "第二连接面旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 17,
+      "code": "3514",
+      "name": "万向轴",
+      "port_name": "第一轴端旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 18,
+      "code": "3514",
+      "name": "万向轴",
+      "port_name": "第二轴端旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 19,
+      "code": "3641",
+      "name": "轴端速度传感器",
+      "port_name": "旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 20,
+      "code": "3641",
+      "name": "轴端速度传感器",
+      "port_name": "轴端角速度输出",
+      "item": "轴端角速度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 21,
+      "code": "3643",
+      "name": "齿轮箱速度传感器",
+      "port_name": "旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 22,
+      "code": "3643",
+      "name": "齿轮箱速度传感器",
+      "port_name": "齿轮箱转速输出",
+      "item": "齿轮箱转速",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 23,
+      "code": "3644",
+      "name": "牵引电机速度传感器",
+      "port_name": "旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 24,
+      "code": "3644",
+      "name": "牵引电机速度传感器",
+      "port_name": "牵引电机转速输出",
+      "item": "牵引电机转速",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 25,
+      "code": "4121",
+      "name": "受流器",
+      "port_name": "受流端直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "直流受流方案候选节点；CRH_AC25KV_SC不启用DC受流支路。"
+    },
+    {
+      "source_index": 26,
+      "code": "4121",
+      "name": "受流器",
+      "port_name": "导流端直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "直流受流方案候选节点；CRH_AC25KV_SC不启用DC受流支路。"
+    },
+    {
+      "source_index": 27,
+      "code": "4211",
+      "name": "真空断路器",
+      "port_name": "进线侧高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 28,
+      "code": "4211",
+      "name": "真空断路器",
+      "port_name": "出线侧高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 29,
+      "code": "4211",
+      "name": "真空断路器",
+      "port_name": "高压断路器指令输入",
+      "item": "高压断路器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 30,
+      "code": "4211",
+      "name": "真空断路器",
+      "port_name": "高压断路器状态输出",
+      "item": "高压断路器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 31,
+      "code": "4211",
+      "name": "真空断路器",
+      "port_name": "高压系统故障状态输出",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 32,
+      "code": "4212",
+      "name": "非真空隔离开关",
+      "port_name": "进线侧高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 33,
+      "code": "4212",
+      "name": "非真空隔离开关",
+      "port_name": "出线侧高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 34,
+      "code": "4212",
+      "name": "非真空隔离开关",
+      "port_name": "进线侧直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "AC/DC Variant中的DC物理口；当前25 kV AC实例关闭。"
+    },
+    {
+      "source_index": 35,
+      "code": "4212",
+      "name": "非真空隔离开关",
+      "port_name": "出线侧直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "AC/DC Variant中的DC物理口；当前25 kV AC实例关闭。"
+    },
+    {
+      "source_index": 36,
+      "code": "4212",
+      "name": "非真空隔离开关",
+      "port_name": "高压隔离开关指令输入",
+      "item": "高压隔离开关指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 37,
+      "code": "4212",
+      "name": "非真空隔离开关",
+      "port_name": "高压隔离开关状态输出",
+      "item": "高压隔离开关状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 38,
+      "code": "4235",
+      "name": "高压电压互感器",
+      "port_name": "高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 39,
+      "code": "4235",
+      "name": "高压电压互感器",
+      "port_name": "高压线路电压输出",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 40,
+      "code": "4236",
+      "name": "高压电流互感器",
+      "port_name": "第一测量端高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 41,
+      "code": "4236",
+      "name": "高压电流互感器",
+      "port_name": "第二测量端高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 42,
+      "code": "4236",
+      "name": "高压电流互感器",
+      "port_name": "高压线路电流输出",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 43,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 44,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压断路器指令输入",
+      "item": "高压断路器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 45,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压断路器指令输出",
+      "item": "高压断路器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 46,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压隔离开关指令输入",
+      "item": "高压隔离开关指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 47,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压隔离开关指令输出",
+      "item": "高压隔离开关指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 48,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "受电弓控制指令输入",
+      "item": "受电弓控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 49,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "受电弓控制指令输出",
+      "item": "受电弓控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 50,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压线路电压输入",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 51,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压线路电压输出",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 52,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压线路电流输入",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 53,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压线路电流输出",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 54,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压断路器状态输入",
+      "item": "高压断路器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 55,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压断路器状态输出",
+      "item": "高压断路器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 56,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压隔离开关状态输入",
+      "item": "高压隔离开关状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 57,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压隔离开关状态输出",
+      "item": "高压隔离开关状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 58,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "受电弓状态输入",
+      "item": "受电弓状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 59,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "受电弓状态输出",
+      "item": "受电弓状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 60,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压系统故障状态输入",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 61,
+      "code": "4238",
+      "name": "高压控制输入输出单元",
+      "port_name": "高压系统故障状态输出",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 62,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 63,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压断路器指令输出",
+      "item": "高压断路器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 64,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压隔离开关指令输出",
+      "item": "高压隔离开关指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 65,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "受电弓控制指令输出",
+      "item": "受电弓控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 66,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压线路电压输入",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 67,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压线路电流输入",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 68,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "线路频率输入",
+      "item": "线路频率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 69,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压断路器状态输入",
+      "item": "高压断路器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 70,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压隔离开关状态输入",
+      "item": "高压隔离开关状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 71,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "受电弓状态输入",
+      "item": "受电弓状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 72,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压安全回路状态输入",
+      "item": "高压安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 73,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压系统故障状态采集输入",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 74,
+      "code": "4239",
+      "name": "高压控制单元",
+      "port_name": "高压系统故障状态汇总输出",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 75,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 76,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "高压线路电压输入",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 77,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "高压线路电流输入",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 78,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "能量计量有效状态输出",
+      "item": "能量计量有效状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 79,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "牵引实际功率输出",
+      "item": "牵引实际功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 80,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "回馈电网功率输出",
+      "item": "回馈电网功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 81,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "牵引累计能量输出",
+      "item": "牵引累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 82,
+      "code": "4241",
+      "name": "处理单元",
+      "port_name": "回馈电网累计能量输出",
+      "item": "回馈电网累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 83,
+      "code": "4411",
+      "name": "接地变压器",
+      "port_name": "主回路侧回流电流端口",
+      "item": "主回路回流电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 84,
+      "code": "4411",
+      "name": "接地变压器",
+      "port_name": "回流侧电流端口",
+      "item": "主回路回流电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 85,
+      "code": "4411",
+      "name": "接地变压器",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 86,
+      "code": "4412",
+      "name": "主回路接地电阻",
+      "port_name": "主回路侧回流电流端口",
+      "item": "主回路回流电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 87,
+      "code": "4412",
+      "name": "主回路接地电阻",
+      "port_name": "回流侧电流端口",
+      "item": "主回路回流电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 88,
+      "code": "4412",
+      "name": "主回路接地电阻",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 89,
+      "code": "4413",
+      "name": "回流碳刷",
+      "port_name": "旋转端回流电流端口",
+      "item": "主回路回流电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 90,
+      "code": "4413",
+      "name": "回流碳刷",
+      "port_name": "固定端回流电流端口",
+      "item": "主回路回流电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 91,
+      "code": "4511",
+      "name": "主变压器主体",
+      "port_name": "高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 92,
+      "code": "4511",
+      "name": "主变压器主体",
+      "port_name": "牵引变压器次级交流电能端口",
+      "item": "牵引变压器次级交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 93,
+      "code": "4513",
+      "name": "电抗器",
+      "port_name": "第一交流电能端口",
+      "item": "牵引变压器次级交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 94,
+      "code": "4513",
+      "name": "电抗器",
+      "port_name": "第二交流电能端口",
+      "item": "牵引变压器次级交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 95,
+      "code": "4517",
+      "name": "主变压器检测及保护元件",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 96,
+      "code": "4517",
+      "name": "主变压器检测及保护元件",
+      "port_name": "主变压器温度输出",
+      "item": "主变压器温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 97,
+      "code": "4517",
+      "name": "主变压器检测及保护元件",
+      "port_name": "高压系统故障状态输出",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 98,
+      "code": "4518",
+      "name": "主变压器控制装置",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 99,
+      "code": "4518",
+      "name": "主变压器控制装置",
+      "port_name": "高压断路器指令输出",
+      "item": "高压断路器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 100,
+      "code": "4518",
+      "name": "主变压器控制装置",
+      "port_name": "主变压器温度输入",
+      "item": "主变压器温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 101,
+      "code": "4518",
+      "name": "主变压器控制装置",
+      "port_name": "高压断路器状态输入",
+      "item": "高压断路器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 102,
+      "code": "4518",
+      "name": "主变压器控制装置",
+      "port_name": "高压系统故障状态输入",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 103,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 104,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "网侧变流控制指令输出",
+      "item": "网侧变流控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 105,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "高压线路电压输入",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 106,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "高压线路电流输入",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 107,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "线路频率输入",
+      "item": "线路频率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 108,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 109,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "中间直流母线电流输入",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 110,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "网侧变流器状态输出",
+      "item": "网侧变流器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 111,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "牵引变流器故障状态输出",
+      "item": "牵引变流器故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 112,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "再生功率上限输出",
+      "item": "再生功率上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 113,
+      "code": "5111",
+      "name": "网侧变流器控制模块",
+      "port_name": "接触网可接收功率输出",
+      "item": "接触网可接收功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 114,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 115,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "电机侧变流控制指令输出",
+      "item": "电机侧变流控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 116,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "牵引电机转矩请求输入",
+      "item": "牵引电机转矩请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 117,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "牵引电机转速输入",
+      "item": "牵引电机转速",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 118,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 119,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "中间直流母线电流输入",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 120,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "电机侧相电流输入",
+      "item": "电机侧相电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 121,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "电机侧相电压输入",
+      "item": "电机侧相电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 122,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "牵引电机实际转矩输入",
+      "item": "牵引电机实际转矩",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 123,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "牵引可用状态输出",
+      "item": "牵引可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 124,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "动态制动可用状态输出",
+      "item": "动态制动可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 125,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "电机侧变流器状态输出",
+      "item": "电机侧变流器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 126,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "牵引变流器故障状态输出",
+      "item": "牵引变流器故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 127,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "可用动态制动力输出",
+      "item": "可用动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 128,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "牵引/再生转矩上限输出",
+      "item": "牵引/再生转矩上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 129,
+      "code": "5112",
+      "name": "电机侧变流器控制模块",
+      "port_name": "再生功率上限输出",
+      "item": "再生功率上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 130,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 131,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "中间直流母线电压输出",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 132,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "中间直流母线电流输出",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 133,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "电机侧相电流输出",
+      "item": "电机侧相电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 134,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "牵引变流器温度输出",
+      "item": "牵引变流器温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 135,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "牵引变流器故障状态输出",
+      "item": "牵引变流器故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 136,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "中间直流环节保护状态输出",
+      "item": "中间直流环节保护状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 137,
+      "code": "5113",
+      "name": "变流器检测保护组件",
+      "port_name": "直流母线电压上限输出",
+      "item": "直流母线电压上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 138,
+      "code": "5121",
+      "name": "预充电组件",
+      "port_name": "直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "预充电拓扑的DC供电候选；当前AC实例关闭。"
+    },
+    {
+      "source_index": 139,
+      "code": "5121",
+      "name": "预充电组件",
+      "port_name": "牵引变压器次级交流电能端口",
+      "item": "牵引变压器次级交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 140,
+      "code": "5121",
+      "name": "预充电组件",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 141,
+      "code": "5121",
+      "name": "预充电组件",
+      "port_name": "预充电指令输入",
+      "item": "预充电指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 142,
+      "code": "5121",
+      "name": "预充电组件",
+      "port_name": "预充电状态输出",
+      "item": "预充电状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 143,
+      "code": "5122",
+      "name": "输入组件",
+      "port_name": "直流牵引供电电能端口",
+      "item": "直流牵引供电电能",
+      "active": false,
+      "reason": "输入组件的DC供电候选；当前AC实例关闭。"
+    },
+    {
+      "source_index": 144,
+      "code": "5122",
+      "name": "输入组件",
+      "port_name": "牵引变压器次级交流电能端口",
+      "item": "牵引变压器次级交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 145,
+      "code": "5122",
+      "name": "输入组件",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 146,
+      "code": "5122",
+      "name": "输入组件",
+      "port_name": "牵引输入接通指令输入",
+      "item": "牵引输入接通指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 147,
+      "code": "5122",
+      "name": "输入组件",
+      "port_name": "牵引输入接通状态输出",
+      "item": "牵引输入接通状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 148,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 149,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "牵引变压器次级交流电能端口",
+      "item": "牵引变压器次级交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 150,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "网侧变流控制指令输入",
+      "item": "网侧变流控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 151,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "高压线路电压输出",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 152,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "高压线路电流输出",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 153,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "中间直流母线电压输出",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 154,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "中间直流母线电流输出",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 155,
+      "code": "5131",
+      "name": "网侧变流模块",
+      "port_name": "回馈电网功率输出",
+      "item": "回馈电网功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 156,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 157,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "三相交流电能端口",
+      "item": "三相交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 158,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "电机侧变流控制指令输入",
+      "item": "电机侧变流控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 159,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "中间直流母线电压输出",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 160,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "中间直流母线电流输出",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 161,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "电机侧相电流输出",
+      "item": "电机侧相电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 162,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "电机侧相电压输出",
+      "item": "电机侧相电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 163,
+      "code": "5132",
+      "name": "电机侧变流模块",
+      "port_name": "实际再生功率输出",
+      "item": "实际再生功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 164,
+      "code": "5133",
+      "name": "放电电阻控制模块",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 165,
+      "code": "5133",
+      "name": "放电电阻控制模块",
+      "port_name": "制动斩波器指令输入",
+      "item": "制动斩波器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 166,
+      "code": "5133",
+      "name": "放电电阻控制模块",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 167,
+      "code": "5133",
+      "name": "放电电阻控制模块",
+      "port_name": "制动斩波器状态输出",
+      "item": "制动斩波器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 168,
+      "code": "5133",
+      "name": "放电电阻控制模块",
+      "port_name": "制动电阻可耗散功率输出",
+      "item": "制动电阻可耗散功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 169,
+      "code": "5142",
+      "name": "放电电阻器",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 170,
+      "code": "5142",
+      "name": "放电电阻器",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 171,
+      "code": "5142",
+      "name": "放电电阻器",
+      "port_name": "制动电阻温度输出",
+      "item": "制动电阻温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 172,
+      "code": "5142",
+      "name": "放电电阻器",
+      "port_name": "制动电阻耗散功率输出",
+      "item": "制动电阻耗散功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 173,
+      "code": "5142",
+      "name": "放电电阻器",
+      "port_name": "制动电阻耗散累计能量输出",
+      "item": "制动电阻耗散累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 174,
+      "code": "5145",
+      "name": "中间直流环节检测保护组件",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 175,
+      "code": "5145",
+      "name": "中间直流环节检测保护组件",
+      "port_name": "制动斩波器指令输出",
+      "item": "制动斩波器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 176,
+      "code": "5145",
+      "name": "中间直流环节检测保护组件",
+      "port_name": "中间直流母线电压输出",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 177,
+      "code": "5145",
+      "name": "中间直流环节检测保护组件",
+      "port_name": "中间直流母线电流输出",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 178,
+      "code": "5145",
+      "name": "中间直流环节检测保护组件",
+      "port_name": "中间直流环节保护状态输出",
+      "item": "中间直流环节保护状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 179,
+      "code": "5145",
+      "name": "中间直流环节检测保护组件",
+      "port_name": "直流母线电压上限输出",
+      "item": "直流母线电压上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 180,
+      "code": "5311",
+      "name": "牵引电机",
+      "port_name": "三相交流电能端口",
+      "item": "三相交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 181,
+      "code": "5311",
+      "name": "牵引电机",
+      "port_name": "旋转机械能端口",
+      "item": "旋转机械能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 182,
+      "code": "5311",
+      "name": "牵引电机",
+      "port_name": "牵引电机转速输出",
+      "item": "牵引电机转速",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 183,
+      "code": "5311",
+      "name": "牵引电机",
+      "port_name": "电机侧相电流输出",
+      "item": "电机侧相电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 184,
+      "code": "5311",
+      "name": "牵引电机",
+      "port_name": "电机侧相电压输出",
+      "item": "电机侧相电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 185,
+      "code": "5311",
+      "name": "牵引电机",
+      "port_name": "牵引电机实际转矩输出",
+      "item": "牵引电机实际转矩",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 186,
+      "code": "7124",
+      "name": "制动风缸",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 187,
+      "code": "7124",
+      "name": "制动风缸",
+      "port_name": "制动风缸压力输出",
+      "item": "制动风缸压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 188,
+      "code": "7131",
+      "name": "总风管",
+      "port_name": "总风管首端压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 189,
+      "code": "7131",
+      "name": "总风管",
+      "port_name": "总风管末端压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 190,
+      "code": "7142",
+      "name": "总风管压力传感器",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 191,
+      "code": "7142",
+      "name": "总风管压力传感器",
+      "port_name": "总风管压力输出",
+      "item": "总风管压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 192,
+      "code": "7142",
+      "name": "总风管压力传感器",
+      "port_name": "低风压状态输出",
+      "item": "低风压状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 193,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 194,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "服务制动请求输入",
+      "item": "服务制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 195,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "紧急制动请求输入",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 196,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "安全停车/制动请求输入",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 197,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "列车速度输入",
+      "item": "列车速度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 198,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "实际动态制动力输入",
+      "item": "实际动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 199,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "总风管压力输入",
+      "item": "总风管压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 200,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动缸压力输入",
+      "item": "制动缸压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 201,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "实际摩擦制动力输入",
+      "item": "实际摩擦制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 202,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "列车质量输入",
+      "item": "列车质量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 203,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "车辆载荷系数输入",
+      "item": "车辆载荷系数",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 204,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "轮轨滑移率输入",
+      "item": "轮轨滑移率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 205,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "可用黏着系数估计输入",
+      "item": "可用黏着系数估计",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 206,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "动态制动可用状态输入",
+      "item": "动态制动可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 207,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "低风压状态输入",
+      "item": "低风压状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 208,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动安全回路状态输入",
+      "item": "制动安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 209,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "可用动态制动力输入",
+      "item": "可用动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 210,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "可用黏着限制输入",
+      "item": "可用黏着限制",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 211,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "最大允许制动力输入",
+      "item": "最大允许制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 212,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "最大允许减速度输入",
+      "item": "最大允许减速度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 213,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "动态制动力请求输出",
+      "item": "动态制动力请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 214,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "摩擦制动力请求输出",
+      "item": "摩擦制动力请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 215,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "牵引切除请求输出",
+      "item": "牵引切除请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 216,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动缓解指令输出",
+      "item": "制动缓解指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 217,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动隔离指令输出",
+      "item": "制动隔离指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 218,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "电空转换阀指令输出",
+      "item": "电空转换阀指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 219,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动电磁阀指令输出",
+      "item": "制动电磁阀指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 220,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "防滑干预指令输出",
+      "item": "防滑干预指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 221,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动控制接触器指令输出",
+      "item": "制动控制接触器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 222,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动系统可用状态输出",
+      "item": "制动系统可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 223,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动施加状态输出",
+      "item": "制动施加状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 224,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动缓解状态输出",
+      "item": "制动缓解状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 225,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动隔离状态输出",
+      "item": "制动隔离状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 226,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动控制故障状态输出",
+      "item": "制动控制故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 227,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "制动拖滞状态输出",
+      "item": "制动拖滞状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 228,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "防滑激活状态输出",
+      "item": "防滑激活状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 229,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "防滑故障状态输出",
+      "item": "防滑故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 230,
+      "code": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "port_name": "可用摩擦制动力输出",
+      "item": "可用摩擦制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 231,
+      "code": "7213",
+      "name": "制动控制接触器及其他",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 232,
+      "code": "7213",
+      "name": "制动控制接触器及其他",
+      "port_name": "制动控制接触器指令输入",
+      "item": "制动控制接触器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 233,
+      "code": "7213",
+      "name": "制动控制接触器及其他",
+      "port_name": "制动控制接触器状态输出",
+      "item": "制动控制接触器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 234,
+      "code": "7222",
+      "name": "电空转换阀",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 235,
+      "code": "7222",
+      "name": "电空转换阀",
+      "port_name": "制动控制压缩空气端口",
+      "item": "制动控制压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 236,
+      "code": "7222",
+      "name": "电空转换阀",
+      "port_name": "电空转换阀指令输入",
+      "item": "电空转换阀指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 237,
+      "code": "7223",
+      "name": "中继阀",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 238,
+      "code": "7223",
+      "name": "中继阀",
+      "port_name": "制动控制压缩空气端口",
+      "item": "制动控制压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 239,
+      "code": "7223",
+      "name": "中继阀",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 240,
+      "code": "7224",
+      "name": "空重车调整阀",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 241,
+      "code": "7224",
+      "name": "空重车调整阀",
+      "port_name": "制动控制压缩空气端口",
+      "item": "制动控制压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 242,
+      "code": "7224",
+      "name": "空重车调整阀",
+      "port_name": "车辆载荷系数输入",
+      "item": "车辆载荷系数",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 243,
+      "code": "7225",
+      "name": "控制电磁阀",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 244,
+      "code": "7225",
+      "name": "控制电磁阀",
+      "port_name": "制动控制压缩空气端口",
+      "item": "制动控制压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 245,
+      "code": "7225",
+      "name": "控制电磁阀",
+      "port_name": "制动电磁阀指令输入",
+      "item": "制动电磁阀指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 246,
+      "code": "7226",
+      "name": "紧急制动阀",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 247,
+      "code": "7226",
+      "name": "紧急制动阀",
+      "port_name": "制动控制压缩空气端口",
+      "item": "制动控制压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 248,
+      "code": "7226",
+      "name": "紧急制动阀",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 249,
+      "code": "7226",
+      "name": "紧急制动阀",
+      "port_name": "紧急制动请求输入",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 250,
+      "code": "7226",
+      "name": "紧急制动阀",
+      "port_name": "安全停车/制动请求输入",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 251,
+      "code": "7227",
+      "name": "缓解阀",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 252,
+      "code": "7227",
+      "name": "缓解阀",
+      "port_name": "制动缓解指令输入",
+      "item": "制动缓解指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 253,
+      "code": "7228",
+      "name": "车厢直接制动截断塞门",
+      "port_name": "第一气路制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 254,
+      "code": "7228",
+      "name": "车厢直接制动截断塞门",
+      "port_name": "第二气路制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 255,
+      "code": "7228",
+      "name": "车厢直接制动截断塞门",
+      "port_name": "制动隔离指令输入",
+      "item": "制动隔离指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 256,
+      "code": "7228",
+      "name": "车厢直接制动截断塞门",
+      "port_name": "制动隔离状态输出",
+      "item": "制动隔离状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 257,
+      "code": "7229",
+      "name": "调压阀",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 258,
+      "code": "7229",
+      "name": "调压阀",
+      "port_name": "制动控制压缩空气端口",
+      "item": "制动控制压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 259,
+      "code": "722A",
+      "name": "防滑阀组成",
+      "port_name": "上游制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 260,
+      "code": "722A",
+      "name": "防滑阀组成",
+      "port_name": "下游制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 261,
+      "code": "722A",
+      "name": "防滑阀组成",
+      "port_name": "防滑干预指令输入",
+      "item": "防滑干预指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 262,
+      "code": "722A",
+      "name": "防滑阀组成",
+      "port_name": "防滑激活状态输出",
+      "item": "防滑激活状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 263,
+      "code": "722A",
+      "name": "防滑阀组成",
+      "port_name": "防滑故障状态输出",
+      "item": "防滑故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 264,
+      "code": "722B",
+      "name": "压力传感器",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 265,
+      "code": "722B",
+      "name": "压力传感器",
+      "port_name": "制动缸压力输出",
+      "item": "制动缸压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 266,
+      "code": "722C",
+      "name": "压力开关",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 267,
+      "code": "722C",
+      "name": "压力开关",
+      "port_name": "低风压状态输出",
+      "item": "低风压状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 268,
+      "code": "7252",
+      "name": "非停放制动夹钳装置",
+      "port_name": "摩擦制动机械作用端口",
+      "item": "摩擦制动机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 269,
+      "code": "7252",
+      "name": "非停放制动夹钳装置",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 270,
+      "code": "7252",
+      "name": "非停放制动夹钳装置",
+      "port_name": "实际摩擦制动力输出",
+      "item": "实际摩擦制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 271,
+      "code": "7252",
+      "name": "非停放制动夹钳装置",
+      "port_name": "制动施加状态输出",
+      "item": "制动施加状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 272,
+      "code": "7252",
+      "name": "非停放制动夹钳装置",
+      "port_name": "制动缓解状态输出",
+      "item": "制动缓解状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 273,
+      "code": "7254",
+      "name": "闸片",
+      "port_name": "摩擦制动机械作用端口",
+      "item": "摩擦制动机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 274,
+      "code": "7254",
+      "name": "闸片",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 275,
+      "code": "7254",
+      "name": "闸片",
+      "port_name": "摩擦制动耗散功率输出",
+      "item": "摩擦制动耗散功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 276,
+      "code": "7254",
+      "name": "闸片",
+      "port_name": "摩擦制动耗散累计能量输出",
+      "item": "摩擦制动耗散累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 277,
+      "code": "7255",
+      "name": "增压缸",
+      "port_name": "摩擦制动机械作用端口",
+      "item": "摩擦制动机械作用",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 278,
+      "code": "7255",
+      "name": "增压缸",
+      "port_name": "制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 279,
+      "code": "7281",
+      "name": "制动指示器",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 280,
+      "code": "7281",
+      "name": "制动指示器",
+      "port_name": "制动施加状态输入",
+      "item": "制动施加状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 281,
+      "code": "7281",
+      "name": "制动指示器",
+      "port_name": "制动缓解状态输入",
+      "item": "制动缓解状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 282,
+      "code": "7281",
+      "name": "制动指示器",
+      "port_name": "制动隔离状态输入",
+      "item": "制动隔离状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 283,
+      "code": "7284",
+      "name": "转向架制动截断塞门",
+      "port_name": "第一气路制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 284,
+      "code": "7284",
+      "name": "转向架制动截断塞门",
+      "port_name": "第二气路制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 285,
+      "code": "7284",
+      "name": "转向架制动截断塞门",
+      "port_name": "制动隔离指令输入",
+      "item": "制动隔离指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 286,
+      "code": "7284",
+      "name": "转向架制动截断塞门",
+      "port_name": "制动隔离状态输出",
+      "item": "制动隔离状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 287,
+      "code": "7285",
+      "name": "单轴制动截断塞门",
+      "port_name": "第一气路制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 288,
+      "code": "7285",
+      "name": "单轴制动截断塞门",
+      "port_name": "第二气路制动缸压缩空气端口",
+      "item": "制动缸压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 289,
+      "code": "7285",
+      "name": "单轴制动截断塞门",
+      "port_name": "制动隔离指令输入",
+      "item": "制动隔离指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 290,
+      "code": "7285",
+      "name": "单轴制动截断塞门",
+      "port_name": "制动隔离状态输出",
+      "item": "制动隔离状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 291,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 292,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "列车方向指令输入",
+      "item": "列车方向指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 293,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "列车方向指令输出",
+      "item": "列车方向指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 294,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "牵引指令输入",
+      "item": "牵引指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 295,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "牵引指令输出",
+      "item": "牵引指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 296,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "服务制动请求输入",
+      "item": "服务制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 297,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "服务制动请求输出",
+      "item": "服务制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 298,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "紧急制动请求输入",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 299,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "紧急制动请求输出",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 300,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "安全停车/制动请求输入",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 301,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "列车速度输入",
+      "item": "列车速度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 302,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "牵引可用状态输入",
+      "item": "牵引可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 303,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "制动系统可用状态输入",
+      "item": "制动系统可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 304,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "高压安全回路状态输入",
+      "item": "高压安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 305,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "制动安全回路状态输入",
+      "item": "制动安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 306,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "牵引安全回路状态输入",
+      "item": "牵引安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 307,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "ATP/外部安全系统状态输入",
+      "item": "ATP/外部安全系统状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 308,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "牵引切除请求输出",
+      "item": "牵引切除请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 309,
+      "code": "8121",
+      "name": "主控制单元",
+      "port_name": "牵引使能指令输出",
+      "item": "牵引使能指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 310,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 311,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "列车方向指令输入",
+      "item": "列车方向指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 312,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "牵引指令输入",
+      "item": "牵引指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 313,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "服务制动请求输入",
+      "item": "服务制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 314,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "紧急制动请求输入",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 315,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "安全停车/制动请求输入",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 316,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "列车速度输入",
+      "item": "列车速度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 317,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 318,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "实际动态制动力输入",
+      "item": "实际动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 319,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "超级电容SOC输入",
+      "item": "超级电容SOC",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 320,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "双向DC/DC实际功率输入",
+      "item": "双向DC/DC实际功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 321,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "牵引可用状态输入",
+      "item": "牵引可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 322,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "动态制动可用状态输入",
+      "item": "动态制动可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 323,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "制动系统可用状态输入",
+      "item": "制动系统可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 324,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "牵引变流器故障状态输入",
+      "item": "牵引变流器故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 325,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能系统可用状态输入",
+      "item": "储能系统可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 326,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能系统故障状态输入",
+      "item": "储能系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 327,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "可用动态制动力输入",
+      "item": "可用动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 328,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "再生功率上限输入",
+      "item": "再生功率上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 329,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "接触网可接收功率输入",
+      "item": "接触网可接收功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 330,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能可用充电功率输入",
+      "item": "储能可用充电功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 331,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能可用放电功率输入",
+      "item": "储能可用放电功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 332,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "实际再生功率输入",
+      "item": "实际再生功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 333,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "回馈电网功率输入",
+      "item": "回馈电网功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 334,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能吸收功率输入",
+      "item": "储能吸收功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 335,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "制动电阻耗散功率输入",
+      "item": "制动电阻耗散功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 336,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "能量回收率输入",
+      "item": "能量回收率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 337,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "牵引切除请求输出",
+      "item": "牵引切除请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 338,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "牵引使能指令输出",
+      "item": "牵引使能指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 339,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "撒砂请求输出",
+      "item": "撒砂请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 340,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能功率请求输出",
+      "item": "储能功率请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 341,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "双向DC/DC使能输出",
+      "item": "双向DC/DC使能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 342,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能主接触器指令输出",
+      "item": "储能主接触器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 343,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能预充电指令输出",
+      "item": "储能预充电指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 344,
+      "code": "8122",
+      "name": "车辆控制单元",
+      "port_name": "储能故障复位指令输出",
+      "item": "储能故障复位指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 345,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 346,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引指令输入",
+      "item": "牵引指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 347,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "动态制动力请求输入",
+      "item": "动态制动力请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 348,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引切除请求输入",
+      "item": "牵引切除请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 349,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引使能指令输入",
+      "item": "牵引使能指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 350,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "列车速度输入",
+      "item": "列车速度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 351,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引电机转速输入",
+      "item": "牵引电机转速",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 352,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 353,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引电机实际转矩输入",
+      "item": "牵引电机实际转矩",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 354,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引安全回路状态输入",
+      "item": "牵引安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 355,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "接触网可接收功率输入",
+      "item": "接触网可接收功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 356,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引电机转矩请求输出",
+      "item": "牵引电机转矩请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 357,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "实际动态制动力输出",
+      "item": "实际动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 358,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引可用状态输出",
+      "item": "牵引可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 359,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "动态制动可用状态输出",
+      "item": "动态制动可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 360,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "网侧变流器状态输出",
+      "item": "网侧变流器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 361,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "电机侧变流器状态输出",
+      "item": "电机侧变流器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 362,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引变流器故障状态输出",
+      "item": "牵引变流器故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 363,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "可用动态制动力输出",
+      "item": "可用动态制动力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 364,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "牵引/再生转矩上限输出",
+      "item": "牵引/再生转矩上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 365,
+      "code": "8125",
+      "name": "列车级牵引控制单元",
+      "port_name": "再生功率上限输出",
+      "item": "再生功率上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 366,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 367,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "总风管压力输入",
+      "item": "总风管压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 368,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "总风管压力输出",
+      "item": "总风管压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 369,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "制动缸压力输入",
+      "item": "制动缸压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 370,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "制动缸压力输出",
+      "item": "制动缸压力",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 371,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "超级电容电压输入",
+      "item": "超级电容电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 372,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "超级电容电压输出",
+      "item": "超级电容电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 373,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "超级电容电流输入",
+      "item": "超级电容电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 374,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "超级电容电流输出",
+      "item": "超级电容电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 375,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "超级电容温度输入",
+      "item": "超级电容温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 376,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "超级电容温度输出",
+      "item": "超级电容温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 377,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "高压安全回路状态输入",
+      "item": "高压安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 378,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "高压安全回路状态输出",
+      "item": "高压安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 379,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "制动安全回路状态输入",
+      "item": "制动安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 380,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "制动安全回路状态输出",
+      "item": "制动安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 381,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "牵引安全回路状态输入",
+      "item": "牵引安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 382,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "牵引安全回路状态输出",
+      "item": "牵引安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 383,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "ATP/外部安全系统状态输入",
+      "item": "ATP/外部安全系统状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 384,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "ATP/外部安全系统状态输出",
+      "item": "ATP/外部安全系统状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 385,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "撒砂请求输入",
+      "item": "撒砂请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 386,
+      "code": "8128",
+      "name": "输入输出单元",
+      "port_name": "撒砂请求输出",
+      "item": "撒砂请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 387,
+      "code": "8151",
+      "name": "高压安全回路",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 388,
+      "code": "8151",
+      "name": "高压安全回路",
+      "port_name": "高压断路器指令输入",
+      "item": "高压断路器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 389,
+      "code": "8151",
+      "name": "高压安全回路",
+      "port_name": "高压安全回路状态输出",
+      "item": "高压安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 390,
+      "code": "8152",
+      "name": "制动安全回路",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 391,
+      "code": "8152",
+      "name": "制动安全回路",
+      "port_name": "紧急制动请求输入",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 392,
+      "code": "8152",
+      "name": "制动安全回路",
+      "port_name": "安全停车/制动请求输入",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 393,
+      "code": "8152",
+      "name": "制动安全回路",
+      "port_name": "制动安全回路状态输出",
+      "item": "制动安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 394,
+      "code": "8154",
+      "name": "牵引安全回路",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 395,
+      "code": "8154",
+      "name": "牵引安全回路",
+      "port_name": "牵引切除请求输入",
+      "item": "牵引切除请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 396,
+      "code": "8154",
+      "name": "牵引安全回路",
+      "port_name": "牵引使能指令输入",
+      "item": "牵引使能指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 397,
+      "code": "8154",
+      "name": "牵引安全回路",
+      "port_name": "牵引安全回路状态输出",
+      "item": "牵引安全回路状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 398,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 399,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "高压线路电压输入",
+      "item": "高压线路电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 400,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "高压线路电流输入",
+      "item": "高压线路电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 401,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 402,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "中间直流母线电流输入",
+      "item": "中间直流母线电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 403,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "能量计量有效状态输出",
+      "item": "能量计量有效状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 404,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "牵引实际功率输出",
+      "item": "牵引实际功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 405,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "实际再生功率输出",
+      "item": "实际再生功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 406,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "回馈电网功率输出",
+      "item": "回馈电网功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 407,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "储能吸收功率输出",
+      "item": "储能吸收功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 408,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "制动电阻耗散功率输出",
+      "item": "制动电阻耗散功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 409,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "牵引累计能量输出",
+      "item": "牵引累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 410,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "再生发电累计能量输出",
+      "item": "再生发电累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 411,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "回馈电网累计能量输出",
+      "item": "回馈电网累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 412,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "储能吸收累计能量输出",
+      "item": "储能吸收累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 413,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "储能释放累计能量输出",
+      "item": "储能释放累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 414,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "制动电阻耗散累计能量输出",
+      "item": "制动电阻耗散累计能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 415,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "可用制动能量输出",
+      "item": "可用制动能量",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 416,
+      "code": "8166",
+      "name": "能量计",
+      "port_name": "能量回收率输出",
+      "item": "能量回收率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 417,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 418,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 419,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "储能功率请求输入",
+      "item": "储能功率请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 420,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "双向DC/DC使能输入",
+      "item": "双向DC/DC使能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 421,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "双向DC/DC实际功率输出",
+      "item": "双向DC/DC实际功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 422,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "双向DC/DC电流输出",
+      "item": "双向DC/DC电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 423,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "双向DC/DC状态输出",
+      "item": "双向DC/DC状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 424,
+      "code": "X111",
+      "name": "双向DC/DC变流模块",
+      "port_name": "双向DC/DC故障状态输出",
+      "item": "双向DC/DC故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 425,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 426,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能功率请求输入",
+      "item": "储能功率请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 427,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能功率请求输出",
+      "item": "储能功率请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 428,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "双向DC/DC使能输入",
+      "item": "双向DC/DC使能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 429,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "双向DC/DC使能输出",
+      "item": "双向DC/DC使能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 430,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能主接触器指令输入",
+      "item": "储能主接触器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 431,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能主接触器指令输出",
+      "item": "储能主接触器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 432,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能预充电指令输入",
+      "item": "储能预充电指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 433,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能预充电指令输出",
+      "item": "储能预充电指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 434,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能故障复位指令输入",
+      "item": "储能故障复位指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 435,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "中间直流母线电压输入",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 436,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "超级电容电压输入",
+      "item": "超级电容电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 437,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "超级电容电流输入",
+      "item": "超级电容电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 438,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "超级电容温度输入",
+      "item": "超级电容温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 439,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "超级电容SOC输入",
+      "item": "超级电容SOC",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 440,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "双向DC/DC实际功率输入",
+      "item": "双向DC/DC实际功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 441,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "双向DC/DC电流输入",
+      "item": "双向DC/DC电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 442,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能主接触器状态输入",
+      "item": "储能主接触器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 443,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能预充电状态输入",
+      "item": "储能预充电状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 444,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能保护跳闸状态输入",
+      "item": "储能保护跳闸状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 445,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "直流母线电压上限输入",
+      "item": "直流母线电压上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 446,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "双向DC/DC状态输出",
+      "item": "双向DC/DC状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 447,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "双向DC/DC故障状态输出",
+      "item": "双向DC/DC故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 448,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能系统可用状态输出",
+      "item": "储能系统可用状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 449,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能系统故障状态输出",
+      "item": "储能系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 450,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能可用充电功率输出",
+      "item": "储能可用充电功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 451,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能可用放电功率输出",
+      "item": "储能可用放电功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 452,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "超级电容充电允许状态输出",
+      "item": "超级电容充电允许状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 453,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "超级电容放电允许状态输出",
+      "item": "超级电容放电允许状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 454,
+      "code": "X112",
+      "name": "双向DC/DC控制模块",
+      "port_name": "储能吸收功率输出",
+      "item": "储能吸收功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 455,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "中间直流电能端口",
+      "item": "中间直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 456,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 457,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 458,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "中间直流母线电压输出",
+      "item": "中间直流母线电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 459,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "超级电容电压输出",
+      "item": "超级电容电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 460,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "超级电容电流输出",
+      "item": "超级电容电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 461,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "超级电容温度输出",
+      "item": "超级电容温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 462,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "双向DC/DC电流输出",
+      "item": "双向DC/DC电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 463,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "双向DC/DC故障状态输出",
+      "item": "双向DC/DC故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 464,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "储能系统故障状态输出",
+      "item": "储能系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 465,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "储能保护跳闸状态输出",
+      "item": "储能保护跳闸状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 466,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "直流母线电压上限输出",
+      "item": "直流母线电压上限",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 467,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "储能可用充电功率输出",
+      "item": "储能可用充电功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 468,
+      "code": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "port_name": "储能可用放电功率输出",
+      "item": "储能可用放电功率",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 469,
+      "code": "X121",
+      "name": "超级电容模块",
+      "port_name": "热能/热流端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 470,
+      "code": "X121",
+      "name": "超级电容模块",
+      "port_name": "储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 471,
+      "code": "X121",
+      "name": "超级电容模块",
+      "port_name": "超级电容SOC输出",
+      "item": "超级电容SOC",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 472,
+      "code": "X122",
+      "name": "超级电容电压传感器",
+      "port_name": "储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 473,
+      "code": "X122",
+      "name": "超级电容电压传感器",
+      "port_name": "超级电容电压输出",
+      "item": "超级电容电压",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 474,
+      "code": "X123",
+      "name": "超级电容电流传感器",
+      "port_name": "储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 475,
+      "code": "X123",
+      "name": "超级电容电流传感器",
+      "port_name": "超级电容电流输出",
+      "item": "超级电容电流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 476,
+      "code": "X131",
+      "name": "储能主接触器",
+      "port_name": "母线段储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 477,
+      "code": "X131",
+      "name": "储能主接触器",
+      "port_name": "负载段储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 478,
+      "code": "X131",
+      "name": "储能主接触器",
+      "port_name": "储能主接触器指令输入",
+      "item": "储能主接触器指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 479,
+      "code": "X131",
+      "name": "储能主接触器",
+      "port_name": "储能主接触器状态输出",
+      "item": "储能主接触器状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 480,
+      "code": "X132",
+      "name": "储能预充电组件",
+      "port_name": "预充输入段储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 481,
+      "code": "X132",
+      "name": "储能预充电组件",
+      "port_name": "预充输出段储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 482,
+      "code": "X132",
+      "name": "储能预充电组件",
+      "port_name": "储能预充电指令输入",
+      "item": "储能预充电指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 483,
+      "code": "X132",
+      "name": "储能预充电组件",
+      "port_name": "储能预充电状态输出",
+      "item": "储能预充电状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 484,
+      "code": "X133",
+      "name": "储能支路保护组件",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 485,
+      "code": "X133",
+      "name": "储能支路保护组件",
+      "port_name": "保护输入段储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 486,
+      "code": "X133",
+      "name": "储能支路保护组件",
+      "port_name": "保护输出段储能侧直流电能端口",
+      "item": "储能侧直流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 487,
+      "code": "X133",
+      "name": "储能支路保护组件",
+      "port_name": "储能系统故障状态输出",
+      "item": "储能系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 488,
+      "code": "X133",
+      "name": "储能支路保护组件",
+      "port_name": "储能保护跳闸状态输出",
+      "item": "储能保护跳闸状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 489,
+      "code": "4111",
+      "name": "碳滑板",
+      "port_name": "接触面高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 490,
+      "code": "4111",
+      "name": "碳滑板",
+      "port_name": "导流端高压交流电能端口",
+      "item": "高压交流电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 491,
+      "code": "411C",
+      "name": "受电弓电子控制单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 492,
+      "code": "411C",
+      "name": "受电弓电子控制单元",
+      "port_name": "受电弓控制指令输入",
+      "item": "受电弓控制指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 493,
+      "code": "411C",
+      "name": "受电弓电子控制单元",
+      "port_name": "受电弓状态输出",
+      "item": "受电弓状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 494,
+      "code": "411C",
+      "name": "受电弓电子控制单元",
+      "port_name": "高压系统故障状态输出",
+      "item": "高压系统故障状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 495,
+      "code": "3811",
+      "name": "撒砂控制单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 496,
+      "code": "3811",
+      "name": "撒砂控制单元",
+      "port_name": "撒砂请求输入",
+      "item": "撒砂请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 497,
+      "code": "3811",
+      "name": "撒砂控制单元",
+      "port_name": "撒砂执行指令输出",
+      "item": "撒砂执行指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 498,
+      "code": "3811",
+      "name": "撒砂控制单元",
+      "port_name": "撒砂状态输出",
+      "item": "撒砂状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 499,
+      "code": "3813",
+      "name": "撒砂阀板组件",
+      "port_name": "主风压缩空气端口",
+      "item": "主风压缩空气",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 500,
+      "code": "3813",
+      "name": "撒砂阀板组件",
+      "port_name": "砂流端口",
+      "item": "砂流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 501,
+      "code": "3813",
+      "name": "撒砂阀板组件",
+      "port_name": "撒砂执行指令输入",
+      "item": "撒砂执行指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 502,
+      "code": "3813",
+      "name": "撒砂阀板组件",
+      "port_name": "撒砂状态输出",
+      "item": "撒砂状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 503,
+      "code": "3814",
+      "name": "撒砂喷嘴组件",
+      "port_name": "砂流端口",
+      "item": "砂流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 504,
+      "code": "D112",
+      "name": "方向操作元件",
+      "port_name": "列车方向指令输出",
+      "item": "列车方向指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 505,
+      "code": "D113",
+      "name": "牵引操作元件",
+      "port_name": "牵引指令输出",
+      "item": "牵引指令",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 506,
+      "code": "D114",
+      "name": "制动操作元件",
+      "port_name": "服务制动请求输出",
+      "item": "服务制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 507,
+      "code": "D121",
+      "name": "紧急制动按钮",
+      "port_name": "紧急制动请求输出",
+      "item": "紧急制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 508,
+      "code": "D13B",
+      "name": "撒砂按钮",
+      "port_name": "撒砂请求输出",
+      "item": "撒砂请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 509,
+      "code": "8127",
+      "name": "ATP接口单元",
+      "port_name": "低压控制电能端口",
+      "item": "低压控制电能",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 510,
+      "code": "8127",
+      "name": "ATP接口单元",
+      "port_name": "安全停车/制动请求输入",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 511,
+      "code": "8127",
+      "name": "ATP接口单元",
+      "port_name": "安全停车/制动请求输出",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 512,
+      "code": "8127",
+      "name": "ATP接口单元",
+      "port_name": "ATP/外部安全系统状态输入",
+      "item": "ATP/外部安全系统状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 513,
+      "code": "8127",
+      "name": "ATP接口单元",
+      "port_name": "ATP/外部安全系统状态输出",
+      "item": "ATP/外部安全系统状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 514,
+      "code": "E100",
+      "name": "ATP车载",
+      "port_name": "安全停车/制动请求输出",
+      "item": "安全停车/制动请求",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 515,
+      "code": "E100",
+      "name": "ATP车载",
+      "port_name": "ATP/外部安全系统状态输出",
+      "item": "ATP/外部安全系统状态",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 516,
+      "code": "X124",
+      "name": "超级电容温度传感器",
+      "port_name": "超级电容热能感知端口",
+      "item": "热能/热流",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    },
+    {
+      "source_index": 517,
+      "code": "X124",
+      "name": "超级电容温度传感器",
+      "port_name": "超级电容温度输出",
+      "item": "超级电容温度",
+      "active": true,
+      "reason": "默认Active；无当前方案停用override。"
+    }
+  ],
+  "active_port_count": 511,
+  "inactive_port_count": 6
+}

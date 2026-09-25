@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "clusters": [
+    {
+      "Cluster_ID": "CLUSTER-TRAC-DRIVE",
+      "Cluster_Name": "牵引驱动与传动",
+      "Trigger_Terms": "牵引；加速；牵引电机；变流器；转矩；齿轮箱；轮轴",
+      "Requirement_IDs": "DRV-TRAC-001；DRV-TRAC-002；DRV-TRAC-003；DRV-TRAC-004；REQ-TRAC-001；REQ-TRAC-002；REQ-TRAC-003；REQ-TRAC-004",
+      "Description": "牵引需求、变流控制、牵引电机及机械传动链。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-BRK-REGEN",
+      "Cluster_Name": "再生制动与能量回收",
+      "Trigger_Terms": "再生制动；电制动；回馈制动；制动能量；能量回收；储能；超级电容",
+      "Requirement_IDs": "PRJ-ENE-001；PRJ-ENE-002；PRJ-ENE-003；PRJ-ENE-004；REQ-BRK-004；REQ-BRK-006；REQ-BRK-007；REQ-BRK-008；REQ-BRK-009；REQ-BRK-015；REQ-ENE-001；REQ-ENE-002；REQ-ENE-003；REQ-ENE-004；REQ-ENE-005；REQ-ENE-006；REQ-ENE-007；REQ-ENE-008；REQ-ENE-009；REQ-TRAC-001；REQ-TRAC-003",
+      "Description": "电制动优先、制动能量流、储能吸收及功率/SOC边界。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-BRK-FRICTION",
+      "Cluster_Name": "机械与空气制动",
+      "Trigger_Terms": "机械制动；摩擦制动；空气制动；气动压力；制动夹钳；闸片；低速制动",
+      "Requirement_IDs": "DRV-BRK-001；DRV-BRK-002；PRJ-BRK-001；REQ-BRK-001；REQ-BRK-002；REQ-BRK-003；REQ-BRK-004；REQ-BRK-005；REQ-BRK-006；REQ-BRK-007；REQ-BRK-008；REQ-BRK-009；REQ-BRK-010；REQ-BRK-011；REQ-BRK-012；REQ-BRK-013；REQ-BRK-014；REQ-BRK-015",
+      "Description": "再生制动补偿、气动供风、机械制动执行与制动力形成。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-BRK-SAFETY",
+      "Cluster_Name": "制动安全与故障处置",
+      "Trigger_Terms": "紧急制动；防滑；安全回路；制动故障；失效降级；压力诊断",
+      "Requirement_IDs": "DRV-BRK-002；DRV-CTL-003；PRJ-BRK-001；REQ-BRK-001；REQ-BRK-002；REQ-BRK-003；REQ-BRK-004；REQ-BRK-005；REQ-BRK-006；REQ-BRK-007；REQ-BRK-008；REQ-BRK-009；REQ-BRK-010；REQ-BRK-011；REQ-BRK-012；REQ-BRK-013；REQ-BRK-014；REQ-BRK-015；REQ-ENE-002；REQ-ENE-003",
+      "Description": "紧急制动、防滑、安全回路、压力状态和故障保护。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-ENE-SUPERCAP",
+      "Cluster_Name": "超级电容状态与保护",
+      "Trigger_Terms": "超级电容；超容；SOC；电压；电流；温度；过流；过温",
+      "Requirement_IDs": "PRJ-ENE-001；PRJ-ENE-002；PRJ-ENE-003；PRJ-ENE-004；REQ-ENE-001；REQ-ENE-002；REQ-ENE-003；REQ-ENE-004；REQ-ENE-005；REQ-ENE-006；REQ-ENE-007；REQ-ENE-008；REQ-ENE-009",
+      "Description": "储能状态监测、充放电限制及故障保护。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-ENE-RECOVERY",
+      "Cluster_Name": "再生能量收支与储能功率",
+      "Trigger_Terms": "回收能量；再生功率；充电功率；可用功率；能量效率；直流母线",
+      "Requirement_IDs": "PRJ-ENE-001；PRJ-ENE-002；PRJ-ENE-003；PRJ-ENE-004；REQ-BRK-004；REQ-BRK-006；REQ-BRK-007；REQ-BRK-008；REQ-BRK-009；REQ-BRK-015；REQ-ENE-001；REQ-ENE-002；REQ-ENE-003；REQ-ENE-004；REQ-ENE-005；REQ-ENE-006；REQ-ENE-007；REQ-ENE-008；REQ-ENE-009；REQ-TRAC-001；REQ-TRAC-003",
+      "Description": "再生功率分配、能量吸收和系统能量测量。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-PWR-HV",
+      "Cluster_Name": "高压受流与主回路",
+      "Trigger_Terms": "高压；受电弓；接触网；断路器；隔离开关；主变压器；回流；接地",
+      "Requirement_IDs": "DRV-PWR-001；DRV-PWR-002；DRV-PWR-003；PRJ-PWR-001",
+      "Description": "高压输入、开关分配、变压器及牵引回流接地通路。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-CTL-INPUT",
+      "Cluster_Name": "操纵与ATP接口",
+      "Trigger_Terms": "司机操纵；方向手柄；牵引手柄；制动手柄；ATP；控制输入",
+      "Requirement_IDs": "DRV-CTL-001",
+      "Description": "司机操作元件、ATP接口及列车控制输入边界。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-CTL-COMMS",
+      "Cluster_Name": "车载控制协调与状态通信",
+      "Trigger_Terms": "车辆控制；主控制单元；输入输出单元；接口交互；状态报告；通信",
+      "Requirement_IDs": "DRV-CTL-002",
+      "Description": "车载控制单元间控制交互、路由、状态和运行数据。"
+    },
+    {
+      "Cluster_ID": "CLUSTER-DIAG-SAFETY",
+      "Cluster_Name": "诊断、状态与安全回路",
+      "Trigger_Terms": "故障状态；运行状态；安全回路；检测保护；传感器状态；诊断",
+      "Requirement_IDs": "DRV-CTL-003；REQ-BRK-004；REQ-BRK-014；REQ-BRK-015；REQ-ENE-002；REQ-ENE-003",
+      "Description": "模型已具备的设备状态检测、保护与安全回路反馈。"
+    }
+  ]
+}

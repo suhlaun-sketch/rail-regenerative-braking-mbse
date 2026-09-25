@@ -1,0 +1,98 @@
+{
+  "standards_directory": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\SysML",
+  "files": [
+    {
+      "name": "formal-26-03-02.pdf",
+      "relative_path": "SysML/formal-26-03-02.pdf",
+      "size": 3804140,
+      "sha256": "46e6c0476a6f1f34f367d57e039d56659bff75e41d2e4b3d37ca4cadea84a83a",
+      "role": "specification_pdf",
+      "cameo_magicdraw_golden_sample": false,
+      "pdf_identity": {
+        "title": "SysML Specification",
+        "pages": 691,
+        "detected_version": "2.0"
+      }
+    },
+    {
+      "name": "SysML.xmi",
+      "relative_path": "SysML/SysML.xmi",
+      "size": 538846,
+      "sha256": "a0ede93f74091621285ff03e98cf9a0b5db51aa6f19833bbdd01711af56ed181",
+      "role": "sysml_profile",
+      "cameo_magicdraw_golden_sample": false
+    },
+    {
+      "name": "SysMLdi.xmi",
+      "relative_path": "SysML/SysMLdi.xmi",
+      "size": 33883,
+      "sha256": "d6ab414431f4b83a55c3b6c944170e51b3315c664642c81c6c408868e77ddf7c",
+      "role": "sysml_di_profile",
+      "cameo_magicdraw_golden_sample": false
+    },
+    {
+      "name": "UML.xmi",
+      "relative_path": "SysML/UML.xmi",
+      "size": 1901856,
+      "sha256": "e8166c91f51b8a0c015a90101b83d2249d03252e9f9a500a6511654347804f21",
+      "role": "uml_metamodel",
+      "cameo_magicdraw_golden_sample": false
+    },
+    {
+      "name": "UMLpre.xmi",
+      "relative_path": "SysML/UMLpre.xmi",
+      "size": 2880,
+      "sha256": "62d12217fcd26037fc917709e2a896600af574efd6412c110e2a711395a69849",
+      "role": "primitive_types_local_alias",
+      "cameo_magicdraw_golden_sample": false
+    },
+    {
+      "name": "umlstandard.xmi",
+      "relative_path": "SysML/umlstandard.xmi",
+      "size": 29801,
+      "sha256": "b505ebdee791f857da838b5be3394ebd9a857fd044a89625cb71f56badb867bc",
+      "role": "standard_profile_local_alias",
+      "cameo_magicdraw_golden_sample": false
+    },
+    {
+      "name": "XMI.xsd",
+      "relative_path": "SysML/XMI.xsd",
+      "size": 4658,
+      "sha256": "7b228718d35a15a8e2fb99f078d36eee4b23b7a2cd405e7ac81b9d27bf2fab5d",
+      "role": "xmi_schema",
+      "cameo_magicdraw_golden_sample": false
+    }
+  ],
+  "recognized_roles": {
+    "specification_pdf": [
+      "SysML/formal-26-03-02.pdf"
+    ],
+    "sysml_profile": [
+      "SysML/SysML.xmi"
+    ],
+    "sysml_di_profile": [
+      "SysML/SysMLdi.xmi"
+    ],
+    "uml_metamodel": [
+      "SysML/UML.xmi"
+    ],
+    "primitive_types_local_alias": [
+      "SysML/UMLpre.xmi"
+    ],
+    "standard_profile_local_alias": [
+      "SysML/umlstandard.xmi"
+    ],
+    "xmi_schema": [
+      "SysML/XMI.xsd"
+    ]
+  },
+  "sysml_1_7_specification_pdfs": [],
+  "version_mismatched_pdfs": [
+    {
+      "path": "SysML/formal-26-03-02.pdf",
+      "detected_version": "2.0"
+    }
+  ],
+  "golden_samples": [],
+  "golden_sample_status": "NOT_FOUND"
+}

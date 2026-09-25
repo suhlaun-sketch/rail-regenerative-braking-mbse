@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-11T16:23:37.295Z",
+  "syson_version": "v2026.7.0",
+  "deployment": {
+    "url": "http://localhost:8080",
+    "project_id": "4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf",
+    "editing_context_id": "61fdde5b-67ff-4cde-848b-9ef2843e90b9",
+    "full_sysml_import": "PASS",
+    "semantic_projection": "NOT_NEEDED",
+    "visualization_projection": "GENERATED"
+  },
+  "authoritative_model": {
+    "path": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\full_engineering_model\\01_generated\\Rail_MBSE_Full_v1.sysml",
+    "sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+    "modified": false
+  },
+  "representations": {
+    "expected": 76,
+    "created": 76,
+    "failed": 0,
+    "persisted": 76,
+    "by_category": {
+      "00_overview": 2,
+      "01_l1": 8,
+      "02_l2": 16,
+      "04_ports_interfaces": 16,
+      "06_functions": 8,
+      "07_allocations": 8,
+      "05_connections": 8,
+      "08_physical_nets": 9,
+      "09_regenerative_braking": 1
+    }
+  },
+  "products": {
+    "source_count": 147,
+    "visualized_count": 147,
+    "semantic_match_count": 147,
+    "missing_semantic": [],
+    "missing_visualization": [],
+    "coverage_percent": 100
+  },
+  "ports": {
+    "source_count": 517,
+    "visualized_count": 517,
+    "semantic_match_count": 517,
+    "missing_semantic": [],
+    "missing_visualization": [],
+    "coverage_percent": 100
+  },
+  "functions": {
+    "source_count": 191,
+    "visualized_count": 191,
+    "semantic_match_count": 191,
+    "missing_semantic": [],
+    "missing_visualization": [],
+    "coverage_percent": 100
+  },
+  "allocations": {
+    "source_count": 191,
+    "visualized_count": 191,
+    "semantic_match_count": 191,
+    "missing_semantic": [],
+    "missing_visualization": [],
+    "coverage_percent": 100
+  },
+  "connections": {
+    "source_count": 184,
+    "visualized_count": 184,
+    "semantic_match_count": 184,
+    "missing_semantic": [],
+    "missing_visualization": [],
+    "coverage_percent": 100
+  },
+  "physical_nets": {
+    "source_count": 9,
+    "visualized_count": 9,
+    "semantic_match_count": 9,
+    "missing_semantic": [],
+    "missing_visualization": [],
+    "coverage_percent": 100
+  },
+  "l2_detailed_views": {
+    "expected": 16,
+    "created": 16,
+    "missing": []
+  },
+  "actual_diagram_edges": {
+    "allocations": 191,
+    "final_connections": 184,
+    "physical_nets": 9,
+    "l2_boundary_connections": 74,
+    "regenerative_braking_connections": 15
+  },
+  "key_views": {
+    "full_architecture_overview": "PASS",
+    "all16_l2_boundary_overview": "PASS",
+    "regenerative_braking_core": "PASS"
+  },
+  "status": "PASS"
+}

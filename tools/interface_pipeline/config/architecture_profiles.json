@@ -1,0 +1,46 @@
+{
+  "profiles": [
+    {
+      "profile_id": "CRH_AC25KV_SC",
+      "profile_name": "动车组25 kV AC再生制动与车载超级电容参考实例",
+      "default_node_active": true,
+      "default_port_active": true,
+      "node_rules": {
+        "4111": {"active": true, "applicability": "AC适用", "reason": "当前参考实例采用25 kV AC受电弓碳滑板受流链。"},
+        "411C": {"active": true, "applicability": "制式无关", "reason": "受电弓控制单元在当前AC受流方案中启用，接口本身为控制/状态语义。"},
+        "4121": {"active": false, "applicability": "DC适用", "reason": "直流受流方案候选节点；CRH_AC25KV_SC不启用DC受流支路。"},
+        "4211": {"active": true, "applicability": "AC适用", "reason": "真空断路器属于当前25 kV AC高压主链。"},
+        "4212": {"active": true, "applicability": "AC/DC Variant", "reason": "产品类别允许不同制式型号；当前节点启用但仅激活AC物理口。"},
+        "4235": {"active": true, "applicability": "AC适用", "reason": "传统高压电压互感器按AC测量链建模。"},
+        "4236": {"active": true, "applicability": "AC适用", "reason": "传统高压电流互感器按AC测量链建模。"},
+        "4238": {"active": true, "applicability": "制式无关", "reason": "高压I/O承担外部采集与转发；Profile不按信号方向拆分节点。"},
+        "4239": {"active": true, "applicability": "制式无关", "reason": "高压控制逻辑接口本身不承载AC/DC物理能量。"},
+        "4241": {"active": true, "applicability": "制式无关", "reason": "能量计量处理信号可用于当前AC实例，接口语义不限定供电物理制式。"},
+        "4511": {"active": true, "applicability": "AC适用", "reason": "主变压器是25 kV AC到牵引变压器次级交流的必要物理链节点。"},
+        "4513": {"active": true, "applicability": "AC适用", "reason": "电抗器位于当前变压器次级交流链。"},
+        "4517": {"active": true, "applicability": "AC适用", "reason": "主变压器检测保护随AC主变压器链启用。"},
+        "4518": {"active": true, "applicability": "AC适用", "reason": "主变压器控制装置随AC主变压器链启用。"},
+        "5121": {"active": true, "applicability": "AC/DC Variant", "reason": "预充电组件保留通用拓扑候选；当前只激活次级交流与中间直流相关端口。"},
+        "5122": {"active": true, "applicability": "AC/DC Variant", "reason": "输入组件保留通用拓扑候选；当前只激活次级交流与中间直流相关端口。"},
+        "5131": {"active": true, "applicability": "AC适用", "reason": "网侧变流模块连接主变压器次级交流与中间直流，属于当前AC链。"},
+        "5132": {"active": true, "applicability": "制式无关", "reason": "电机侧变流模块位于中间直流下游，不直接区分上游AC/DC受流制式。"},
+        "X111": {"active": true, "applicability": "制式无关", "reason": "当前实例明确启用双向DC/DC功率模块。"},
+        "X112": {"active": true, "applicability": "制式无关", "reason": "当前实例明确启用双向DC/DC控制模块。"},
+        "X113": {"active": true, "applicability": "制式无关", "reason": "当前实例明确启用双向DC/DC检测保护。"},
+        "X121": {"active": true, "applicability": "制式无关", "reason": "当前实例明确选择车载超级电容储能。"},
+        "X122": {"active": true, "applicability": "制式无关", "reason": "超级电容电压测量属于当前储能分支。"},
+        "X123": {"active": true, "applicability": "制式无关", "reason": "超级电容电流测量属于当前储能分支。"},
+        "X124": {"active": true, "applicability": "制式无关", "reason": "超级电容温度测量属于当前储能分支。"},
+        "X131": {"active": true, "applicability": "制式无关", "reason": "储能主接触器属于当前超级电容分支。"},
+        "X132": {"active": true, "applicability": "制式无关", "reason": "储能预充电组件属于当前超级电容分支。"},
+        "X133": {"active": true, "applicability": "制式无关", "reason": "储能支路保护组件属于当前超级电容分支。"}
+      },
+      "port_overrides": [
+        {"code": "4212", "port_name": "进线侧直流牵引供电电能端口", "item": "直流牵引供电电能", "active": false, "reason": "AC/DC Variant中的DC物理口；当前25 kV AC实例关闭。"},
+        {"code": "4212", "port_name": "出线侧直流牵引供电电能端口", "item": "直流牵引供电电能", "active": false, "reason": "AC/DC Variant中的DC物理口；当前25 kV AC实例关闭。"},
+        {"code": "5121", "port_name": "直流牵引供电电能端口", "item": "直流牵引供电电能", "active": false, "reason": "预充电拓扑的DC供电候选；当前AC实例关闭。"},
+        {"code": "5122", "port_name": "直流牵引供电电能端口", "item": "直流牵引供电电能", "active": false, "reason": "输入组件的DC供电候选；当前AC实例关闭。"}
+      ]
+    }
+  ]
+}

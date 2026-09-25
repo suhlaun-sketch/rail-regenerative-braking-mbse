@@ -1,0 +1,126 @@
+{
+  "artifact": "Physical Consistency Audit v2",
+  "overall": "PASS",
+  "checks": [
+    {
+      "check": "traction_supply_chain",
+      "status": "PASS",
+      "actual_value": 24999.11191156752,
+      "expected_relationship": ">15000 V",
+      "relative_error_percent": null,
+      "explanation": "pantograph, breaker, transformer and DC link energized"
+    },
+    {
+      "check": "transformer_integrated_efficiency",
+      "status": "PASS",
+      "actual_value": 0.979121619895741,
+      "expected_relationship": "0.90..1.00",
+      "relative_error_percent": null,
+      "explanation": "secondary energy divided by line energy"
+    },
+    {
+      "check": "motor_integrated_efficiency",
+      "status": "PASS",
+      "actual_value": 0.9400000000000001,
+      "expected_relationship": "0.85..1.00",
+      "relative_error_percent": null,
+      "explanation": "mechanical divided by motor electrical energy"
+    },
+    {
+      "check": "dc_power_definition",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "Pdc=Udc*Idc",
+      "relative_error_percent": null,
+      "explanation": "derived from frozen exposed U/I"
+    },
+    {
+      "check": "brake_force_sum",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "Ftotal=Fregen+Fmechanical",
+      "relative_error_percent": null,
+      "explanation": "identity"
+    },
+    {
+      "check": "brake_peak_overshoot",
+      "status": "PASS",
+      "actual_value": 7.024608462767537,
+      "expected_relationship": "<10 %",
+      "relative_error_percent": 7.024608462767537,
+      "explanation": "0.05 s communication step"
+    },
+    {
+      "check": "brake_steady_error",
+      "status": "PASS",
+      "actual_value": 0.5758612381335478,
+      "expected_relationship": "<5 %",
+      "relative_error_percent": 0.5758612381335478,
+      "explanation": "34-39 s moving interval"
+    },
+    {
+      "check": "standstill_regen_exit",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "<1000 N",
+      "relative_error_percent": null,
+      "explanation": "smooth low-speed fade"
+    },
+    {
+      "check": "supercap_energy_soc_relation",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "E=Emin+SOC(Emax-Emin)",
+      "relative_error_percent": null,
+      "explanation": "computed from frozen SOC output"
+    },
+    {
+      "check": "supercap_voltage_energy_relation",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "U=sqrt(2E/C)",
+      "relative_error_percent": null,
+      "explanation": "equivalent internal voltage"
+    },
+    {
+      "check": "supercap_terminal_esr_relation",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "Uterminal=Ucap-Icap*ESR",
+      "relative_error_percent": null,
+      "explanation": "derived monitor channel"
+    },
+    {
+      "check": "supercap_energy_integral",
+      "status": "PASS",
+      "actual_value": 1.5629901178961198e-12,
+      "expected_relationship": "<5 %",
+      "relative_error_percent": null,
+      "explanation": "trapezoidal integration"
+    },
+    {
+      "check": "regen_energy_allocation",
+      "status": "PASS",
+      "actual_value": 2.400752821088401e-14,
+      "expected_relationship": "<5 %",
+      "relative_error_percent": null,
+      "explanation": "converter=grid+resistor+DCDC"
+    },
+    {
+      "check": "sign_conventions",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "motoring positive; regen negative",
+      "relative_error_percent": null,
+      "explanation": "signed mechanical/DC channels retained"
+    },
+    {
+      "check": "finite_bounded_states",
+      "status": "PASS",
+      "actual_value": 0.0,
+      "expected_relationship": "no NaN/Inf",
+      "relative_error_percent": null,
+      "explanation": "actual all-16 FMU run"
+    }
+  ]
+}

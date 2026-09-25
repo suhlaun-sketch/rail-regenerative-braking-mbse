@@ -1,0 +1,2836 @@
+{
+  "metadata": {
+    "project_id": "RAIL_MBSE_TRACTION_BRAKE",
+    "profile_id": "CRH_AC25KV_SC",
+    "mapping_count": 471,
+    "mapped_leaf_function_count": 135
+  },
+  "function_interface_mappings": [
+    {
+      "mapping_id": "FMAP-F-3111-01-282586BD86A5532C",
+      "function_id": "F-3111-01",
+      "interface_instance_id": "IFINST::PORT::3111::轮轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3111-01-3758A62F679BD8FE",
+      "function_id": "F-3111-01",
+      "interface_instance_id": "IFINST::PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3112-01-9D1E606C8824A4A5",
+      "function_id": "F-3112-01",
+      "interface_instance_id": "IFINST::PORT::3112::轮对段旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3112-01-A57BCEA534823E6D",
+      "function_id": "F-3112-01",
+      "interface_instance_id": "IFINST::PORT::3112::传动段旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3121-01-7C2D78F97FFFB789",
+      "function_id": "F-3121-01",
+      "interface_instance_id": "IFINST::PORT::3121::高速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3121-01-BABCB9C5D3A11B4C",
+      "function_id": "F-3121-01",
+      "interface_instance_id": "IFINST::PORT::3121::低速轴旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3131-01-2BD86D5E036DB84B",
+      "function_id": "F-3131-01",
+      "interface_instance_id": "IFINST::PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3131-01-2EA1F4C4EF5D4EFE",
+      "function_id": "F-3131-01",
+      "interface_instance_id": "IFINST::PORT::3131::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3132-01-79C87187F833504C",
+      "function_id": "F-3132-01",
+      "interface_instance_id": "IFINST::PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3132-01-E2CD5DEE2D96219C",
+      "function_id": "F-3132-01",
+      "interface_instance_id": "IFINST::PORT::3132::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3133-01-31FA50C82E5095E0",
+      "function_id": "F-3133-01",
+      "interface_instance_id": "IFINST::PORT::3133::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3133-01-D90C6C640831A678",
+      "function_id": "F-3133-01",
+      "interface_instance_id": "IFINST::PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3511-01-0ACB4924CAA82343",
+      "function_id": "F-3511-01",
+      "interface_instance_id": "IFINST::PORT::3511::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3511-01-A5630BFC7B19D603",
+      "function_id": "F-3511-01",
+      "interface_instance_id": "IFINST::PORT::3511::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3512-01-A1F24750696E5A15",
+      "function_id": "F-3512-01",
+      "interface_instance_id": "IFINST::PORT::3512::第二连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3512-01-BF9EA6DB3E1207C4",
+      "function_id": "F-3512-01",
+      "interface_instance_id": "IFINST::PORT::3512::第一连接面旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3514-01-4F5FA9159DA81249",
+      "function_id": "F-3514-01",
+      "interface_instance_id": "IFINST::PORT::3514::第二轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3514-01-E639838DD90C0A0F",
+      "function_id": "F-3514-01",
+      "interface_instance_id": "IFINST::PORT::3514::第一轴端旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3641-01-C93624183702A994",
+      "function_id": "F-3641-01",
+      "interface_instance_id": "IFINST::PORT::3641::旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-3641-01-F8805492E94DBC24",
+      "function_id": "F-3641-01",
+      "interface_instance_id": "IFINST::PORT::3641::轴端角速度输出::ITM-MEA-002::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-3643-01-05D1DE5DA4273258",
+      "function_id": "F-3643-01",
+      "interface_instance_id": "IFINST::PORT::3643::齿轮箱转速输出::ITM-MEA-003::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-3643-01-060CBED4BC741DCF",
+      "function_id": "F-3643-01",
+      "interface_instance_id": "IFINST::PORT::3643::旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-3644-01-2121EB33707E9FDF",
+      "function_id": "F-3644-01",
+      "interface_instance_id": "IFINST::PORT::3644::牵引电机转速输出::ITM-MEA-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-3644-01-377EC5AB4B45E268",
+      "function_id": "F-3644-01",
+      "interface_instance_id": "IFINST::PORT::3644::旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-3811-01-BD8B9990076E67F1",
+      "function_id": "F-3811-01",
+      "interface_instance_id": "IFINST::PORT::3811::撒砂请求输入::ITM-CMD-024::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-3811-01-EA4453E8579A6AC2",
+      "function_id": "F-3811-01",
+      "interface_instance_id": "IFINST::PORT::3811::撒砂执行指令输出::ITM-CMD-032::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-3811-02-4CAA0ABA286BF39D",
+      "function_id": "F-3811-02",
+      "interface_instance_id": "IFINST::PORT::3811::撒砂状态输出::ITM-STA-012::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-3813-01-1A60F5BAC30E568A",
+      "function_id": "F-3813-01",
+      "interface_instance_id": "IFINST::PORT::3813::撒砂状态输出::ITM-STA-012::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-3813-01-419B98FA273D9528",
+      "function_id": "F-3813-01",
+      "interface_instance_id": "IFINST::PORT::3813::撒砂执行指令输入::ITM-CMD-032::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-3813-01-A1634B18CA5B9A70",
+      "function_id": "F-3813-01",
+      "interface_instance_id": "IFINST::PORT::3813::砂流端口::ITM-PHY-012::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3813-01-B5D4E1DD92352845",
+      "function_id": "F-3813-01",
+      "interface_instance_id": "IFINST::PORT::3813::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-3814-01-FC22F2CA7DA919AE",
+      "function_id": "F-3814-01",
+      "interface_instance_id": "IFINST::PORT::3814::砂流端口::ITM-PHY-012::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4111-01-49AA0B634A42F80E",
+      "function_id": "F-4111-01",
+      "interface_instance_id": "IFINST::PORT::4111::导流端高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4111-01-C6C09499548525AF",
+      "function_id": "F-4111-01",
+      "interface_instance_id": "IFINST::PORT::4111::接触面高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-411C-01-141F877EDE9B4D71",
+      "function_id": "F-411C-01",
+      "interface_instance_id": "IFINST::PORT::411C::受电弓控制指令输入::ITM-CMD-018::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-411C-02-AB8C6C66C113EFF9",
+      "function_id": "F-411C-02",
+      "interface_instance_id": "IFINST::PORT::411C::高压系统故障状态输出::ITM-STA-016::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-411C-02-E34574D49741D46D",
+      "function_id": "F-411C-02",
+      "interface_instance_id": "IFINST::PORT::411C::受电弓状态输出::ITM-STA-015::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4211-01-4F866C1181ECB6C7",
+      "function_id": "F-4211-01",
+      "interface_instance_id": "IFINST::PORT::4211::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4211-01-7C4DBDB42FC12FF0",
+      "function_id": "F-4211-01",
+      "interface_instance_id": "IFINST::PORT::4211::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4212-01-BF37095FADB4DF5D",
+      "function_id": "F-4212-01",
+      "interface_instance_id": "IFINST::PORT::4212::进线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4212-01-D2055525BBC85783",
+      "function_id": "F-4212-01",
+      "interface_instance_id": "IFINST::PORT::4212::出线侧高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4235-01-17D10E3CF7A87862",
+      "function_id": "F-4235-01",
+      "interface_instance_id": "IFINST::PORT::4235::高压线路电压输出::ITM-MEA-005::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4235-01-A6E6B20F5D4C4761",
+      "function_id": "F-4235-01",
+      "interface_instance_id": "IFINST::PORT::4235::高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-4236-01-4601D2B360AEE72D",
+      "function_id": "F-4236-01",
+      "interface_instance_id": "IFINST::PORT::4236::第二测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-4236-01-BDA577F079EC58FC",
+      "function_id": "F-4236-01",
+      "interface_instance_id": "IFINST::PORT::4236::第一测量端高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-4236-01-DB56F494D4A5C118",
+      "function_id": "F-4236-01",
+      "interface_instance_id": "IFINST::PORT::4236::高压线路电流输出::ITM-MEA-006::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-0A4A285D0318D9D9",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::受电弓控制指令输入::ITM-CMD-018::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-0E69E3BFC65FD840",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器指令输出::ITM-CMD-016::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-10C3DAEA502F3AE4",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::受电弓控制指令输出::ITM-CMD-018::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-32A487A327500499",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器指令输入::ITM-CMD-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-53A1A6643E31027C",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电压输出::ITM-MEA-005::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-7E5FFB6C34A9A504",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电流输出::ITM-MEA-006::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-9CC40D5D197F2E0F",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电压输入::ITM-MEA-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-A0BB4DAB0888DC87",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压线路电流输入::ITM-MEA-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-B2834DB8FA2FA2EC",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关指令输入::ITM-CMD-017::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-01-C6DBE44877BC8D7E",
+      "function_id": "F-4238-01",
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-02-0A4A285D0318D9D9",
+      "function_id": "F-4238-02",
+      "interface_instance_id": "IFINST::PORT::4238::受电弓控制指令输入::ITM-CMD-018::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-19DE7B17658E8AF5",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::高压系统故障状态输出::ITM-STA-016::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-2AF1446A2D2CBD20",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::受电弓状态输入::ITM-STA-015::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-57C0EC5CE5AF42F8",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关状态输入::ITM-STA-014::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-906F38482EE6B839",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::受电弓状态输出::ITM-STA-015::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-BF5F884FA1D66005",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器状态输入::ITM-STA-013::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-E0756CFF42009460",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::高压隔离开关状态输出::ITM-STA-014::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-F0D9EB55D5DF613A",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::高压断路器状态输出::ITM-STA-013::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4238-03-FEEE360DFEC53EFC",
+      "function_id": "F-4238-03",
+      "interface_instance_id": "IFINST::PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-01-07194C455A6089E0",
+      "function_id": "F-4239-01",
+      "interface_instance_id": "IFINST::PORT::4239::线路频率输入::ITM-MEA-007::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-01-54161C5D466771D5",
+      "function_id": "F-4239-01",
+      "interface_instance_id": "IFINST::PORT::4239::高压隔离开关指令输出::ITM-CMD-017::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-01-6C20D23610BF95AF",
+      "function_id": "F-4239-01",
+      "interface_instance_id": "IFINST::PORT::4239::受电弓控制指令输出::ITM-CMD-018::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-01-73C55D7AA596C330",
+      "function_id": "F-4239-01",
+      "interface_instance_id": "IFINST::PORT::4239::高压断路器指令输出::ITM-CMD-016::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-01-B5DC0BA433921118",
+      "function_id": "F-4239-01",
+      "interface_instance_id": "IFINST::PORT::4239::高压线路电流输入::ITM-MEA-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-01-FBFE102B19F1D3B3",
+      "function_id": "F-4239-01",
+      "interface_instance_id": "IFINST::PORT::4239::高压线路电压输入::ITM-MEA-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-02-6C20D23610BF95AF",
+      "function_id": "F-4239-02",
+      "interface_instance_id": "IFINST::PORT::4239::受电弓控制指令输出::ITM-CMD-018::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-03-0AAC5A9A23DE9F47",
+      "function_id": "F-4239-03",
+      "interface_instance_id": "IFINST::PORT::4239::高压断路器状态输入::ITM-STA-013::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-03-3DC6FEBBF72CB29A",
+      "function_id": "F-4239-03",
+      "interface_instance_id": "IFINST::PORT::4239::高压隔离开关状态输入::ITM-STA-014::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-03-4193776CFADA9B77",
+      "function_id": "F-4239-03",
+      "interface_instance_id": "IFINST::PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-03-780351B9D24DA63F",
+      "function_id": "F-4239-03",
+      "interface_instance_id": "IFINST::PORT::4239::受电弓状态输入::ITM-STA-015::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-03-CD06387CFCDD8ACE",
+      "function_id": "F-4239-03",
+      "interface_instance_id": "IFINST::PORT::4239::高压系统故障状态汇总输出::ITM-STA-016::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4239-03-D0BBCADA5B814EBF",
+      "function_id": "F-4239-03",
+      "interface_instance_id": "IFINST::PORT::4239::高压安全回路状态输入::ITM-STA-024::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-01-859A46FAF6F08316",
+      "function_id": "F-4241-01",
+      "interface_instance_id": "IFINST::PORT::4241::高压线路电压输入::ITM-MEA-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-01-93ACBDF75DE00B5D",
+      "function_id": "F-4241-01",
+      "interface_instance_id": "IFINST::PORT::4241::高压线路电流输入::ITM-MEA-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-02-7465FC50365A3C56",
+      "function_id": "F-4241-02",
+      "interface_instance_id": "IFINST::PORT::4241::能量计量有效状态输出::ITM-STA-035::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-03-1B34A485586B48CD",
+      "function_id": "F-4241-03",
+      "interface_instance_id": "IFINST::PORT::4241::牵引累计能量输出::ITM-ACC-007::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-03-6F0228312EB335A5",
+      "function_id": "F-4241-03",
+      "interface_instance_id": "IFINST::PORT::4241::回馈电网累计能量输出::ITM-ACC-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-03-757336C55CDD00A4",
+      "function_id": "F-4241-03",
+      "interface_instance_id": "IFINST::PORT::4241::牵引实际功率输出::ITM-ACC-001::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4241-03-8D1162A50070C547",
+      "function_id": "F-4241-03",
+      "interface_instance_id": "IFINST::PORT::4241::回馈电网功率输出::ITM-ACC-003::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4411-01-2260A7F9E70103AF",
+      "function_id": "F-4411-01",
+      "interface_instance_id": "IFINST::PORT::4411::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4411-01-3E65DE3F287B0B35",
+      "function_id": "F-4411-01",
+      "interface_instance_id": "IFINST::PORT::4411::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4411-01-7BB7FFDB5A0BE5D3",
+      "function_id": "F-4411-01",
+      "interface_instance_id": "IFINST::PORT::4411::回流侧电流端口::ITM-PHY-011::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4412-01-1486412348E2F5C3",
+      "function_id": "F-4412-01",
+      "interface_instance_id": "IFINST::PORT::4412::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4412-01-1AC98671CD585DE6",
+      "function_id": "F-4412-01",
+      "interface_instance_id": "IFINST::PORT::4412::回流侧电流端口::ITM-PHY-011::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4412-01-F571B0D9E8CA3515",
+      "function_id": "F-4412-01",
+      "interface_instance_id": "IFINST::PORT::4412::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4413-01-1E2211F7F21C78ED",
+      "function_id": "F-4413-01",
+      "interface_instance_id": "IFINST::PORT::4413::固定端回流电流端口::ITM-PHY-011::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4413-01-CEA3E3CCC78317EB",
+      "function_id": "F-4413-01",
+      "interface_instance_id": "IFINST::PORT::4413::旋转端回流电流端口::ITM-PHY-011::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4511-01-42A6D0F62142B3FE",
+      "function_id": "F-4511-01",
+      "interface_instance_id": "IFINST::PORT::4511::高压交流电能端口::ITM-PHY-001::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4511-01-7CA755EAA84E274E",
+      "function_id": "F-4511-01",
+      "interface_instance_id": "IFINST::PORT::4511::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4513-01-829662C16430D9E6",
+      "function_id": "F-4513-01",
+      "interface_instance_id": "IFINST::PORT::4513::第一交流电能端口::ITM-PHY-014::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4513-01-A229384598DD7F5D",
+      "function_id": "F-4513-01",
+      "interface_instance_id": "IFINST::PORT::4513::第二交流电能端口::ITM-PHY-014::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-4517-01-7D2529A7B6C2A02A",
+      "function_id": "F-4517-01",
+      "interface_instance_id": "IFINST::PORT::4517::主变压器温度输出::ITM-MEA-022::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4517-01-A6295CF01478FDE4",
+      "function_id": "F-4517-01",
+      "interface_instance_id": "IFINST::PORT::4517::高压系统故障状态输出::ITM-STA-016::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-4517-01-F3CEAF9C208435F4",
+      "function_id": "F-4517-01",
+      "interface_instance_id": "IFINST::PORT::4517::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-4518-01-508895131FCD9F31",
+      "function_id": "F-4518-01",
+      "interface_instance_id": "IFINST::PORT::4518::主变压器温度输入::ITM-MEA-022::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4518-01-D950944454E453AC",
+      "function_id": "F-4518-01",
+      "interface_instance_id": "IFINST::PORT::4518::高压断路器指令输出::ITM-CMD-016::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-4518-02-1B6E74EEA8B5D8C3",
+      "function_id": "F-4518-02",
+      "interface_instance_id": "IFINST::PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-4518-02-7FBC92A25963DEAA",
+      "function_id": "F-4518-02",
+      "interface_instance_id": "IFINST::PORT::4518::高压断路器状态输入::ITM-STA-013::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-01-560CB638E7595CA7",
+      "function_id": "F-5111-01",
+      "interface_instance_id": "IFINST::PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-01-7F35A2EA7EC1F17C",
+      "function_id": "F-5111-01",
+      "interface_instance_id": "IFINST::PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-01-B8924E88118E2836",
+      "function_id": "F-5111-01",
+      "interface_instance_id": "IFINST::PORT::5111::高压线路电流输入::ITM-MEA-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-01-CA4B2877EF73485B",
+      "function_id": "F-5111-01",
+      "interface_instance_id": "IFINST::PORT::5111::网侧变流控制指令输出::ITM-CMD-010::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-01-E213694F42410118",
+      "function_id": "F-5111-01",
+      "interface_instance_id": "IFINST::PORT::5111::线路频率输入::ITM-MEA-007::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-01-E47D00EE3FA2782A",
+      "function_id": "F-5111-01",
+      "interface_instance_id": "IFINST::PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-02-560CB638E7595CA7",
+      "function_id": "F-5111-02",
+      "interface_instance_id": "IFINST::PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-03-A0A8726749CF09A9",
+      "function_id": "F-5111-03",
+      "interface_instance_id": "IFINST::PORT::5111::接触网可接收功率输出::ITM-LIM-005::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-03-E04452FF46313602",
+      "function_id": "F-5111-03",
+      "interface_instance_id": "IFINST::PORT::5111::再生功率上限输出::ITM-LIM-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-04-190D6754D2071924",
+      "function_id": "F-5111-04",
+      "interface_instance_id": "IFINST::PORT::5111::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5111-04-DF62B8ED25265DEC",
+      "function_id": "F-5111-04",
+      "interface_instance_id": "IFINST::PORT::5111::网侧变流器状态输出::ITM-STA-017::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-120E59CFD8D109CE",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::电机侧变流控制指令输出::ITM-CMD-011::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-2A96B3F77569B81C",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-32BED604CEE4557B",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-35DB28574A42CE36",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-7309E65F08271D95",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-75333D113FBE060F",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-823BB7E21257530B",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::牵引电机转矩请求输入::ITM-CMD-012::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-01-F1DD7F6B7A31C7F3",
+      "function_id": "F-5112-01",
+      "interface_instance_id": "IFINST::PORT::5112::牵引电机转速输入::ITM-MEA-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-02-2A96B3F77569B81C",
+      "function_id": "F-5112-02",
+      "interface_instance_id": "IFINST::PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-03-47C6BB9D2B263282",
+      "function_id": "F-5112-03",
+      "interface_instance_id": "IFINST::PORT::5112::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-03-84D4571D4B376B71",
+      "function_id": "F-5112-03",
+      "interface_instance_id": "IFINST::PORT::5112::可用动态制动力输出::ITM-LIM-001::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-03-9068E962E43695BE",
+      "function_id": "F-5112-03",
+      "interface_instance_id": "IFINST::PORT::5112::再生功率上限输出::ITM-LIM-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-04-23B5E7E17334F1B9",
+      "function_id": "F-5112-04",
+      "interface_instance_id": "IFINST::PORT::5112::动态制动可用状态输出::ITM-STA-002::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-04-646C2BC4622517FA",
+      "function_id": "F-5112-04",
+      "interface_instance_id": "IFINST::PORT::5112::牵引可用状态输出::ITM-STA-001::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-04-6537187CAC61F07C",
+      "function_id": "F-5112-04",
+      "interface_instance_id": "IFINST::PORT::5112::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5112-04-6B723D26F19CC6FC",
+      "function_id": "F-5112-04",
+      "interface_instance_id": "IFINST::PORT::5112::电机侧变流器状态输出::ITM-STA-018::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-192196CC465C2B28",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-19771523B9323F04",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::牵引变流器温度输出::ITM-MEA-023::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-3E4DE9DB5B3BC798",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::中间直流母线电流输出::ITM-MEA-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-58C1B4AA665705F5",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-79A37518A09A1380",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::中间直流环节保护状态输出::ITM-STA-020::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-A5CBC9F4597827C2",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-BD3AEEFAC5E36F93",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::电机侧相电流输出::ITM-MEA-010::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5113-01-D2FB24459A3BED05",
+      "function_id": "F-5113-01",
+      "interface_instance_id": "IFINST::PORT::5113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5121-01-1560056C480DA188",
+      "function_id": "F-5121-01",
+      "interface_instance_id": "IFINST::PORT::5121::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5121-01-37CA92A7F808A4B4",
+      "function_id": "F-5121-01",
+      "interface_instance_id": "IFINST::PORT::5121::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5122-01-48EF07394A7280AF",
+      "function_id": "F-5122-01",
+      "interface_instance_id": "IFINST::PORT::5122::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5122-01-E0A887B27E7C5394",
+      "function_id": "F-5122-01",
+      "interface_instance_id": "IFINST::PORT::5122::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-01-1E6DD94307E21508",
+      "function_id": "F-5131-01",
+      "interface_instance_id": "IFINST::PORT::5131::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-01-E7D1B47B98CDA677",
+      "function_id": "F-5131-01",
+      "interface_instance_id": "IFINST::PORT::5131::牵引变压器次级交流电能端口::ITM-PHY-014::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-02-08E7328A268D96A4",
+      "function_id": "F-5131-02",
+      "interface_instance_id": "IFINST::PORT::5131::高压线路电流输出::ITM-MEA-006::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-02-0BEED4D4F957A5CB",
+      "function_id": "F-5131-02",
+      "interface_instance_id": "IFINST::PORT::5131::中间直流母线电流输出::ITM-MEA-009::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-02-1F28BF3710B1A20C",
+      "function_id": "F-5131-02",
+      "interface_instance_id": "IFINST::PORT::5131::网侧变流控制指令输入::ITM-CMD-010::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-02-21FCC5808C0421E3",
+      "function_id": "F-5131-02",
+      "interface_instance_id": "IFINST::PORT::5131::中间直流母线电压输出::ITM-MEA-008::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5131-02-EA0C9E4D9A2394ED",
+      "function_id": "F-5131-02",
+      "interface_instance_id": "IFINST::PORT::5131::高压线路电压输出::ITM-MEA-005::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-01-11BAED06DF0BC959",
+      "function_id": "F-5132-01",
+      "interface_instance_id": "IFINST::PORT::5132::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-01-E5C5E557D3D878CC",
+      "function_id": "F-5132-01",
+      "interface_instance_id": "IFINST::PORT::5132::三相交流电能端口::ITM-PHY-004::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-02-55B676345F75B879",
+      "function_id": "F-5132-02",
+      "interface_instance_id": "IFINST::PORT::5132::电机侧变流控制指令输入::ITM-CMD-011::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-02-938C4579DF210BEF",
+      "function_id": "F-5132-02",
+      "interface_instance_id": "IFINST::PORT::5132::电机侧相电压输出::ITM-MEA-011::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-02-C63287AD6E1B6B6D",
+      "function_id": "F-5132-02",
+      "interface_instance_id": "IFINST::PORT::5132::中间直流母线电流输出::ITM-MEA-009::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-02-DE7D7FF7BB03ADDB",
+      "function_id": "F-5132-02",
+      "interface_instance_id": "IFINST::PORT::5132::电机侧相电流输出::ITM-MEA-010::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5132-02-FE020B99742D16DC",
+      "function_id": "F-5132-02",
+      "interface_instance_id": "IFINST::PORT::5132::中间直流母线电压输出::ITM-MEA-008::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5133-01-4EDE7C4E09B5B706",
+      "function_id": "F-5133-01",
+      "interface_instance_id": "IFINST::PORT::5133::制动斩波器指令输入::ITM-CMD-015::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5133-01-C6110F195CC0F0FF",
+      "function_id": "F-5133-01",
+      "interface_instance_id": "IFINST::PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-5133-02-1D4C52EAE1A6D192",
+      "function_id": "F-5133-02",
+      "interface_instance_id": "IFINST::PORT::5133::制动电阻可耗散功率输出::ITM-LIM-006::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5133-03-1F7B31AE69A91AFF",
+      "function_id": "F-5133-03",
+      "interface_instance_id": "IFINST::PORT::5133::制动斩波器状态输出::ITM-STA-023::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5142-01-C82176324B84CE0A",
+      "function_id": "F-5142-01",
+      "interface_instance_id": "IFINST::PORT::5142::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5142-01-DDAFBA34B2408B75",
+      "function_id": "F-5142-01",
+      "interface_instance_id": "IFINST::PORT::5142::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5142-02-06F921F9B6772701",
+      "function_id": "F-5142-02",
+      "interface_instance_id": "IFINST::PORT::5142::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5142-02-F8C9F855E7561F69",
+      "function_id": "F-5142-02",
+      "interface_instance_id": "IFINST::PORT::5142::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5145-01-5CF834874108128B",
+      "function_id": "F-5145-01",
+      "interface_instance_id": "IFINST::PORT::5145::中间直流母线电压输出::ITM-MEA-008::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5145-01-6F7A26275F56DB72",
+      "function_id": "F-5145-01",
+      "interface_instance_id": "IFINST::PORT::5145::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-5145-01-CBD269435E189C12",
+      "function_id": "F-5145-01",
+      "interface_instance_id": "IFINST::PORT::5145::中间直流环节保护状态输出::ITM-STA-020::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5145-01-D6779285E6FEC2C9",
+      "function_id": "F-5145-01",
+      "interface_instance_id": "IFINST::PORT::5145::制动斩波器指令输出::ITM-CMD-015::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-5145-01-F7217605BDC8A0B8",
+      "function_id": "F-5145-01",
+      "interface_instance_id": "IFINST::PORT::5145::直流母线电压上限输出::ITM-LIM-007::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5145-01-FB860C5A1B5657D3",
+      "function_id": "F-5145-01",
+      "interface_instance_id": "IFINST::PORT::5145::中间直流母线电流输出::ITM-MEA-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5311-01-5F167C7868995C1B",
+      "function_id": "F-5311-01",
+      "interface_instance_id": "IFINST::PORT::5311::旋转机械能端口::ITM-PHY-005::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5311-01-AC73E52AE39C0D42",
+      "function_id": "F-5311-01",
+      "interface_instance_id": "IFINST::PORT::5311::三相交流电能端口::ITM-PHY-004::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-5311-02-1BABE96F63EC4964",
+      "function_id": "F-5311-02",
+      "interface_instance_id": "IFINST::PORT::5311::电机侧相电压输出::ITM-MEA-011::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5311-02-2012651B052395E1",
+      "function_id": "F-5311-02",
+      "interface_instance_id": "IFINST::PORT::5311::牵引电机转速输出::ITM-MEA-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5311-02-705F18C9BC4CF3E0",
+      "function_id": "F-5311-02",
+      "interface_instance_id": "IFINST::PORT::5311::电机侧相电流输出::ITM-MEA-010::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-5311-02-B6AC1D386C0E8507",
+      "function_id": "F-5311-02",
+      "interface_instance_id": "IFINST::PORT::5311::牵引电机实际转矩输出::ITM-MEA-012::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7124-01-8216330FF5CAD236",
+      "function_id": "F-7124-01",
+      "interface_instance_id": "IFINST::PORT::7124::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7131-01-3C43474D8A561D86",
+      "function_id": "F-7131-01",
+      "interface_instance_id": "IFINST::PORT::7131::总风管末端压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7131-01-8A6F66692BAF10F6",
+      "function_id": "F-7131-01",
+      "interface_instance_id": "IFINST::PORT::7131::总风管首端压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7142-01-52FC148C74B05C0E",
+      "function_id": "F-7142-01",
+      "interface_instance_id": "IFINST::PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-7142-01-BC14571C13E14268",
+      "function_id": "F-7142-01",
+      "interface_instance_id": "IFINST::PORT::7142::总风管压力输出::ITM-MEA-014::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7142-01-D9298A0B093C2333",
+      "function_id": "F-7142-01",
+      "interface_instance_id": "IFINST::PORT::7142::低风压状态输出::ITM-STA-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-01-7EC11B91837BAAB1",
+      "function_id": "F-7211-01",
+      "interface_instance_id": "IFINST::PORT::7211::制动隔离指令输出::ITM-CMD-020::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-01-84F60FC0946F70D5",
+      "function_id": "F-7211-01",
+      "interface_instance_id": "IFINST::PORT::7211::制动缓解指令输出::ITM-CMD-019::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-01-8686DD3EC7EE8C77",
+      "function_id": "F-7211-01",
+      "interface_instance_id": "IFINST::PORT::7211::服务制动请求输入::ITM-CMD-003::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-01-C82443ACE69E70FE",
+      "function_id": "F-7211-01",
+      "interface_instance_id": "IFINST::PORT::7211::牵引切除请求输出::ITM-CMD-008::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-01-E88D248178AC09EC",
+      "function_id": "F-7211-01",
+      "interface_instance_id": "IFINST::PORT::7211::制动控制接触器指令输出::ITM-CMD-031::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-2479C92D4DDE507D",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::动态制动力请求输出::ITM-CMD-006::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-2903F3420349ACE8",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::实际动态制动力输入::ITM-MEA-013::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-2D5F289C5654782A",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::列车速度输入::ITM-MEA-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-3361C31573EC2878",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::摩擦制动力请求输出::ITM-CMD-007::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-5572003801618AFA",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::列车质量输入::ITM-MEA-018::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-6AE0474B2B793B29",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::可用黏着系数估计输入::ITM-MEA-021::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-725594386AA0A0B3",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::实际摩擦制动力输入::ITM-MEA-017::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-758CF06C53D6996B",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::可用摩擦制动力输出::ITM-LIM-002::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-7CDDED56625CC356",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::总风管压力输入::ITM-MEA-014::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-7D71DBA923DD0E15",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::车辆载荷系数输入::ITM-MEA-019::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-7F53E0E901477CD3",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::轮轨滑移率输入::ITM-MEA-020::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-A7E4C6FF356A7E3B",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::可用动态制动力输入::ITM-LIM-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-D40191C07B3A95FF",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::最大允许制动力输入::ITM-LIM-013::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-02-FBB007B321574A31",
+      "function_id": "F-7211-02",
+      "interface_instance_id": "IFINST::PORT::7211::制动缸压力输入::ITM-MEA-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-03-1D73192B4FAB42CB",
+      "function_id": "F-7211-03",
+      "interface_instance_id": "IFINST::PORT::7211::电空转换阀指令输出::ITM-CMD-021::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-03-782E3E197F318AF7",
+      "function_id": "F-7211-03",
+      "interface_instance_id": "IFINST::PORT::7211::制动电磁阀指令输出::ITM-CMD-022::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-038E9AA9ADD31192",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动隔离状态输出::ITM-STA-006::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-1AB2E988B393D91B",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动控制故障状态输出::ITM-STA-007::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-3EA07FAABEC1210E",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::防滑激活状态输出::ITM-STA-010::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-49667F21B19E202F",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::低风压状态输入::ITM-STA-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-611A1E7C870D6D71",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动安全回路状态输入::ITM-STA-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-6287B01C806679AE",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::可用黏着限制输入::ITM-LIM-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-7AA49E450D438678",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::最大允许减速度输入::ITM-LIM-014::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-86C29B68925947F1",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动缓解状态输出::ITM-STA-005::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-876A68BE60D1D811",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动拖滞状态输出::ITM-STA-008::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-94914392658CCA3F",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::动态制动可用状态输入::ITM-STA-002::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-9F9175B10BD04A07",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-C115ADE194071485",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::紧急制动请求输入::ITM-CMD-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-C8567156541E5DFB",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动施加状态输出::ITM-STA-004::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-CA94AC9167BCCC42",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::防滑干预指令输出::ITM-CMD-023::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-D124304AA8303F55",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::制动系统可用状态输出::ITM-STA-003::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7211-04-E484A839CD8A8206",
+      "function_id": "F-7211-04",
+      "interface_instance_id": "IFINST::PORT::7211::防滑故障状态输出::ITM-STA-011::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-7213-01-0DB22C3F969E33FC",
+      "function_id": "F-7213-01",
+      "interface_instance_id": "IFINST::PORT::7213::制动控制接触器状态输出::ITM-STA-036::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7213-01-3968A85DBC4D8566",
+      "function_id": "F-7213-01",
+      "interface_instance_id": "IFINST::PORT::7213::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7213-01-8AA6F86890386F60",
+      "function_id": "F-7213-01",
+      "interface_instance_id": "IFINST::PORT::7213::制动控制接触器指令输入::ITM-CMD-031::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7222-01-56D0A95BF92EABB1",
+      "function_id": "F-7222-01",
+      "interface_instance_id": "IFINST::PORT::7222::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7222-01-75C721C88B4A9AD3",
+      "function_id": "F-7222-01",
+      "interface_instance_id": "IFINST::PORT::7222::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7223-01-5C0E1550ACFDBCEB",
+      "function_id": "F-7223-01",
+      "interface_instance_id": "IFINST::PORT::7223::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7223-01-6C43DA3E0334C805",
+      "function_id": "F-7223-01",
+      "interface_instance_id": "IFINST::PORT::7223::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7223-01-FCBD220051F5A5D3",
+      "function_id": "F-7223-01",
+      "interface_instance_id": "IFINST::PORT::7223::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7224-01-0594F4997C674D12",
+      "function_id": "F-7224-01",
+      "interface_instance_id": "IFINST::PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-7224-01-2AF8C8A01AEA5248",
+      "function_id": "F-7224-01",
+      "interface_instance_id": "IFINST::PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-7224-01-AB15BD88FD3BBDF3",
+      "function_id": "F-7224-01",
+      "interface_instance_id": "IFINST::PORT::7224::车辆载荷系数输入::ITM-MEA-019::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7225-01-381F42D05D66D1DA",
+      "function_id": "F-7225-01",
+      "interface_instance_id": "IFINST::PORT::7225::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7225-01-A6B57EE37E7F8C40",
+      "function_id": "F-7225-01",
+      "interface_instance_id": "IFINST::PORT::7225::制动电磁阀指令输入::ITM-CMD-022::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7225-01-BABF4359C0F594C8",
+      "function_id": "F-7225-01",
+      "interface_instance_id": "IFINST::PORT::7225::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7226-01-04DAA1F2F5D2B5B0",
+      "function_id": "F-7226-01",
+      "interface_instance_id": "IFINST::PORT::7226::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7226-01-65392EDD9EC78AEC",
+      "function_id": "F-7226-01",
+      "interface_instance_id": "IFINST::PORT::7226::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7226-01-6E0F18E007E88671",
+      "function_id": "F-7226-01",
+      "interface_instance_id": "IFINST::PORT::7226::紧急制动请求输入::ITM-CMD-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7226-01-AF9D1FDCF6EB0864",
+      "function_id": "F-7226-01",
+      "interface_instance_id": "IFINST::PORT::7226::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7226-01-D4E7DA637333D0E5",
+      "function_id": "F-7226-01",
+      "interface_instance_id": "IFINST::PORT::7226::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7227-01-6DFC3F9707824E38",
+      "function_id": "F-7227-01",
+      "interface_instance_id": "IFINST::PORT::7227::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7227-01-92B100DA2871D35C",
+      "function_id": "F-7227-01",
+      "interface_instance_id": "IFINST::PORT::7227::制动缓解指令输入::ITM-CMD-019::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7228-01-9884985E9F0385C5",
+      "function_id": "F-7228-01",
+      "interface_instance_id": "IFINST::PORT::7228::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7228-01-B91A9AC682B2CEBC",
+      "function_id": "F-7228-01",
+      "interface_instance_id": "IFINST::PORT::7228::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7229-01-CF3D92A293BA7041",
+      "function_id": "F-7229-01",
+      "interface_instance_id": "IFINST::PORT::7229::主风压缩空气端口::ITM-PHY-008::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7229-01-EC3D78B71F9F6C57",
+      "function_id": "F-7229-01",
+      "interface_instance_id": "IFINST::PORT::7229::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-722A-01-51614946FF9A39CC",
+      "function_id": "F-722A-01",
+      "interface_instance_id": "IFINST::PORT::722A::上游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-722A-01-FF9FAB250C210EF2",
+      "function_id": "F-722A-01",
+      "interface_instance_id": "IFINST::PORT::722A::下游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-722B-01-69B8C807B0D28021",
+      "function_id": "F-722B-01",
+      "interface_instance_id": "IFINST::PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-722B-01-A136B819AD724979",
+      "function_id": "F-722B-01",
+      "interface_instance_id": "IFINST::PORT::722B::制动缸压力输出::ITM-MEA-016::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-722C-01-3870249F5C01FA8A",
+      "function_id": "F-722C-01",
+      "interface_instance_id": "IFINST::PORT::722C::低风压状态输出::ITM-STA-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-722C-01-9AF8AFBA9AF06FDF",
+      "function_id": "F-722C-01",
+      "interface_instance_id": "IFINST::PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-7252-01-0DD038D4A404B3F9",
+      "function_id": "F-7252-01",
+      "interface_instance_id": "IFINST::PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7252-01-20F9D5A30CD53914",
+      "function_id": "F-7252-01",
+      "interface_instance_id": "IFINST::PORT::7252::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7252-01-345247B944CD61E4",
+      "function_id": "F-7252-01",
+      "interface_instance_id": "IFINST::PORT::7252::制动缓解状态输出::ITM-STA-005::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7252-01-64082B863F737F73",
+      "function_id": "F-7252-01",
+      "interface_instance_id": "IFINST::PORT::7252::制动施加状态输出::ITM-STA-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7252-01-D1DDEDF0C985A010",
+      "function_id": "F-7252-01",
+      "interface_instance_id": "IFINST::PORT::7252::实际摩擦制动力输出::ITM-MEA-017::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7254-01-AB2B43D58FD91DB6",
+      "function_id": "F-7254-01",
+      "interface_instance_id": "IFINST::PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7254-01-B767E99E8A514845",
+      "function_id": "F-7254-01",
+      "interface_instance_id": "IFINST::PORT::7254::摩擦制动耗散功率输出::ITM-ACC-006::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7254-01-D0B06E35C6321A5B",
+      "function_id": "F-7254-01",
+      "interface_instance_id": "IFINST::PORT::7254::摩擦制动耗散累计能量输出::ITM-ACC-013::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-7254-01-D91D92475C289BD8",
+      "function_id": "F-7254-01",
+      "interface_instance_id": "IFINST::PORT::7254::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7255-01-E4735239F0D2B3A8",
+      "function_id": "F-7255-01",
+      "interface_instance_id": "IFINST::PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7255-01-E7C5DFD78A161C1C",
+      "function_id": "F-7255-01",
+      "interface_instance_id": "IFINST::PORT::7255::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7281-01-A9DE40A7F3FA5D3A",
+      "function_id": "F-7281-01",
+      "interface_instance_id": "IFINST::PORT::7281::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7281-01-AA16207D1240980A",
+      "function_id": "F-7281-01",
+      "interface_instance_id": "IFINST::PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7281-01-DE43EF156EAF7264",
+      "function_id": "F-7281-01",
+      "interface_instance_id": "IFINST::PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7281-01-F421F51EDBD4EA2F",
+      "function_id": "F-7281-01",
+      "interface_instance_id": "IFINST::PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-7284-01-226567D969D612CA",
+      "function_id": "F-7284-01",
+      "interface_instance_id": "IFINST::PORT::7284::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7284-01-8AC166A27107F373",
+      "function_id": "F-7284-01",
+      "interface_instance_id": "IFINST::PORT::7284::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7285-01-4EADB07592DD1CBD",
+      "function_id": "F-7285-01",
+      "interface_instance_id": "IFINST::PORT::7285::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-7285-01-A17CE3F93479FCF8",
+      "function_id": "F-7285-01",
+      "interface_instance_id": "IFINST::PORT::7285::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-012F56027DA03507",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::列车方向指令输入::ITM-CMD-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-06961B7D981D947E",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::牵引指令输入::ITM-CMD-002::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-18A11ADD43D96EFC",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::牵引切除请求输出::ITM-CMD-008::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-35C86EE69A65D261",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::服务制动请求输入::ITM-CMD-003::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-49306E017A3434B4",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::牵引指令输出::ITM-CMD-002::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-6AF8DFF160EEF7C9",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::紧急制动请求输出::ITM-CMD-004::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-930AD7FB6A9F40E8",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::服务制动请求输出::ITM-CMD-003::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-97D436E3CA3DC165",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-A42830F04732FD36",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::列车方向指令输出::ITM-CMD-001::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-AA20945F2EA879D7",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::列车速度输入::ITM-MEA-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-D1388E19F062D7ED",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::紧急制动请求输入::ITM-CMD-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-01-F28870778F6D39AF",
+      "function_id": "F-8121-01",
+      "interface_instance_id": "IFINST::PORT::8121::牵引使能指令输出::ITM-CMD-009::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-02-43080F9204D9C6B4",
+      "function_id": "F-8121-02",
+      "interface_instance_id": "IFINST::PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-03-0EA3C4DD9FE8C07E",
+      "function_id": "F-8121-03",
+      "interface_instance_id": "IFINST::PORT::8121::制动安全回路状态输入::ITM-STA-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-03-428D86B3E02C102D",
+      "function_id": "F-8121-03",
+      "interface_instance_id": "IFINST::PORT::8121::高压安全回路状态输入::ITM-STA-024::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-03-43080F9204D9C6B4",
+      "function_id": "F-8121-03",
+      "interface_instance_id": "IFINST::PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-03-6B74E8F70F627EBF",
+      "function_id": "F-8121-03",
+      "interface_instance_id": "IFINST::PORT::8121::牵引可用状态输入::ITM-STA-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-03-782CA9E8A38B62E5",
+      "function_id": "F-8121-03",
+      "interface_instance_id": "IFINST::PORT::8121::牵引安全回路状态输入::ITM-STA-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8121-03-E9C92EF7B8957A60",
+      "function_id": "F-8121-03",
+      "interface_instance_id": "IFINST::PORT::8121::制动系统可用状态输入::ITM-STA-003::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-03A47085AD893BCB",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::撒砂请求输出::ITM-CMD-024::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-16EA38AF0182C15D",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::牵引使能指令输出::ITM-CMD-009::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-1A3A6151E210C97C",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::储能主接触器指令输出::ITM-CMD-027::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-3EF47960B605AF27",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::列车方向指令输入::ITM-CMD-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-444150A321F3A00A",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::紧急制动请求输入::ITM-CMD-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-4B16F75C632BD611",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::储能故障复位指令输出::ITM-CMD-029::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-4EC29656066102CD",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::实际动态制动力输入::ITM-MEA-013::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-5BEB476B2BE67734",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::储能功率请求输出::ITM-CMD-025::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-62D3674454BB99DC",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-737ACB0EC29404F4",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-7B01CCB8EEBD94B8",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-7BBF2413BB9D97CF",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::服务制动请求输入::ITM-CMD-003::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-8C0705698C11088B",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::储能预充电指令输出::ITM-CMD-028::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-904C04864A80C33A",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::列车速度输入::ITM-MEA-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-A96DFE5E446CFA7B",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::牵引指令输入::ITM-CMD-002::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-D5007CB2BC8F19EE",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::超级电容SOC输入::ITM-MEA-028::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-E132C63C3F114D8F",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::牵引切除请求输出::ITM-CMD-008::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-01-E8BB9F94C548CF47",
+      "function_id": "F-8122-01",
+      "interface_instance_id": "IFINST::PORT::8122::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-02-7B01CCB8EEBD94B8",
+      "function_id": "F-8122-02",
+      "interface_instance_id": "IFINST::PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-03-55933DDF535A14DA",
+      "function_id": "F-8122-03",
+      "interface_instance_id": "IFINST::PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-03-946C938A9C8106B7",
+      "function_id": "F-8122-03",
+      "interface_instance_id": "IFINST::PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-03-A99ADAF2CC873653",
+      "function_id": "F-8122-03",
+      "interface_instance_id": "IFINST::PORT::8122::接触网可接收功率输入::ITM-LIM-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-03-F9265AB0FA42A64E",
+      "function_id": "F-8122-03",
+      "interface_instance_id": "IFINST::PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-03-FCF0F1ACE0F69059",
+      "function_id": "F-8122-03",
+      "interface_instance_id": "IFINST::PORT::8122::可用动态制动力输入::ITM-LIM-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-04-18F1B09BF81E45EE",
+      "function_id": "F-8122-04",
+      "interface_instance_id": "IFINST::PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-04-417AF85B4674994F",
+      "function_id": "F-8122-04",
+      "interface_instance_id": "IFINST::PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-04-62DEF8AB8F37F137",
+      "function_id": "F-8122-04",
+      "interface_instance_id": "IFINST::PORT::8122::储能系统可用状态输入::ITM-STA-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-04-7A6E2CD8953B1B03",
+      "function_id": "F-8122-04",
+      "interface_instance_id": "IFINST::PORT::8122::动态制动可用状态输入::ITM-STA-002::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-04-C1AAF29206EECB31",
+      "function_id": "F-8122-04",
+      "interface_instance_id": "IFINST::PORT::8122::牵引可用状态输入::ITM-STA-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-04-DDE4698396738C9F",
+      "function_id": "F-8122-04",
+      "interface_instance_id": "IFINST::PORT::8122::制动系统可用状态输入::ITM-STA-003::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-05-1F33FA8CB5F6270E",
+      "function_id": "F-8122-05",
+      "interface_instance_id": "IFINST::PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-05-2CA6B5CFD86ECEF6",
+      "function_id": "F-8122-05",
+      "interface_instance_id": "IFINST::PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-05-3E487FA423EE8C49",
+      "function_id": "F-8122-05",
+      "interface_instance_id": "IFINST::PORT::8122::能量回收率输入::ITM-ACC-015::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-05-ADA5D6B7DB043802",
+      "function_id": "F-8122-05",
+      "interface_instance_id": "IFINST::PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8122-05-BE3923578AD0E54C",
+      "function_id": "F-8122-05",
+      "interface_instance_id": "IFINST::PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-01F63779BF92CA8E",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::牵引电机实际转矩输入::ITM-MEA-012::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-0850ADE0F09692E2",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::牵引指令输入::ITM-CMD-002::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-28A1DFB407376F62",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-32F169A2C4610C59",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::动态制动力请求输入::ITM-CMD-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-407B32B254857641",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::列车速度输入::ITM-MEA-001::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-48B6212C58FB5214",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::牵引电机转矩请求输出::ITM-CMD-012::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-ACE42BF6EC7E14D5",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::实际动态制动力输出::ITM-MEA-013::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-DD4B396FDAEE0773",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::牵引使能指令输入::ITM-CMD-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-F2FF0A370A16FAD9",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-01-FE2F7A9797FA9D36",
+      "function_id": "F-8125-01",
+      "interface_instance_id": "IFINST::PORT::8125::牵引电机转速输入::ITM-MEA-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-02-28A1DFB407376F62",
+      "function_id": "F-8125-02",
+      "interface_instance_id": "IFINST::PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-03-415FB6A75D2655B4",
+      "function_id": "F-8125-03",
+      "interface_instance_id": "IFINST::PORT::8125::接触网可接收功率输入::ITM-LIM-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-03-4459C3B4D3E5FFB3",
+      "function_id": "F-8125-03",
+      "interface_instance_id": "IFINST::PORT::8125::再生功率上限输出::ITM-LIM-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-03-8E0BF4AA56AF5E56",
+      "function_id": "F-8125-03",
+      "interface_instance_id": "IFINST::PORT::8125::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-03-C00A07E96257E9DC",
+      "function_id": "F-8125-03",
+      "interface_instance_id": "IFINST::PORT::8125::可用动态制动力输出::ITM-LIM-001::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-04-60642DCBE131DB8D",
+      "function_id": "F-8125-04",
+      "interface_instance_id": "IFINST::PORT::8125::牵引安全回路状态输入::ITM-STA-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-04-6AFC1FEE2208271E",
+      "function_id": "F-8125-04",
+      "interface_instance_id": "IFINST::PORT::8125::牵引变流器故障状态输出::ITM-STA-019::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-04-85E4DCF21B6A943D",
+      "function_id": "F-8125-04",
+      "interface_instance_id": "IFINST::PORT::8125::动态制动可用状态输出::ITM-STA-002::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-04-A30174C2EBD4993D",
+      "function_id": "F-8125-04",
+      "interface_instance_id": "IFINST::PORT::8125::牵引可用状态输出::ITM-STA-001::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-04-C0253EB53D4FCE69",
+      "function_id": "F-8125-04",
+      "interface_instance_id": "IFINST::PORT::8125::电机侧变流器状态输出::ITM-STA-018::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8125-04-DE62F5F217E809D6",
+      "function_id": "F-8125-04",
+      "interface_instance_id": "IFINST::PORT::8125::网侧变流器状态输出::ITM-STA-017::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8127-01-7523F12DEA28F726",
+      "function_id": "F-8127-01",
+      "interface_instance_id": "IFINST::PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8127-01-B5B0A4D3A61FFDE0",
+      "function_id": "F-8127-01",
+      "interface_instance_id": "IFINST::PORT::8127::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8127-02-B3A735759D249F00",
+      "function_id": "F-8127-02",
+      "interface_instance_id": "IFINST::PORT::8127::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8127-02-B8D66CE68378BA4D",
+      "function_id": "F-8127-02",
+      "interface_instance_id": "IFINST::PORT::8127::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-0332ED090A192313",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::制动缸压力输出::ITM-MEA-016::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-07633791D1845652",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电流输出::ITM-MEA-026::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-1296D0BD19E038E5",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::总风管压力输入::ITM-MEA-014::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-18B2B2FD4EC40A85",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::总风管压力输出::ITM-MEA-014::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-34A0FEE1465CFBAD",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::制动缸压力输入::ITM-MEA-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-552F2F0B4F0CBAFB",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::超级电容温度输入::ITM-MEA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-5A4CA69A468253DA",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::撒砂请求输出::ITM-CMD-024::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-738464A6EBED5C2E",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::超级电容温度输出::ITM-MEA-027::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-739E5BD7FF07CFE0",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电流输入::ITM-MEA-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-8AC75BA3EE902671",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电压输出::ITM-MEA-025::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-AE4D420AEFBB7EEF",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::撒砂请求输入::ITM-CMD-024::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-01-BB13F8136EE5DD4D",
+      "function_id": "F-8128-01",
+      "interface_instance_id": "IFINST::PORT::8128::超级电容电压输入::ITM-MEA-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-02-65E18E4A33E16230",
+      "function_id": "F-8128-02",
+      "interface_instance_id": "IFINST::PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-19E705FF15603BE2",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::高压安全回路状态输入::ITM-STA-024::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-27582DB4655424DC",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::高压安全回路状态输出::ITM-STA-024::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-65E18E4A33E16230",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-69472C04C3232BEE",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::制动安全回路状态输入::ITM-STA-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-AB06B0F26742D684",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::制动安全回路状态输出::ITM-STA-025::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-B8DE95FC4F9236D6",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-CFEB1F806380B443",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::牵引安全回路状态输入::ITM-STA-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8128-03-FEF5F56C091547EB",
+      "function_id": "F-8128-03",
+      "interface_instance_id": "IFINST::PORT::8128::牵引安全回路状态输出::ITM-STA-026::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8151-01-00A5D03EDEAD9B51",
+      "function_id": "F-8151-01",
+      "interface_instance_id": "IFINST::PORT::8151::高压断路器指令输入::ITM-CMD-016::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8151-02-8B2C2AB723C63197",
+      "function_id": "F-8151-02",
+      "interface_instance_id": "IFINST::PORT::8151::高压安全回路状态输出::ITM-STA-024::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8152-01-821AE2C26EB708D6",
+      "function_id": "F-8152-01",
+      "interface_instance_id": "IFINST::PORT::8152::紧急制动请求输入::ITM-CMD-004::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8152-01-F0EDCA3869E79263",
+      "function_id": "F-8152-01",
+      "interface_instance_id": "IFINST::PORT::8152::安全停车_制动请求输入::ITM-CMD-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8152-02-5CFAD7AAC90AF351",
+      "function_id": "F-8152-02",
+      "interface_instance_id": "IFINST::PORT::8152::制动安全回路状态输出::ITM-STA-025::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8154-01-E00C616370AF7F08",
+      "function_id": "F-8154-01",
+      "interface_instance_id": "IFINST::PORT::8154::牵引使能指令输入::ITM-CMD-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8154-01-F66CE65A73E84C2D",
+      "function_id": "F-8154-01",
+      "interface_instance_id": "IFINST::PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8154-02-A63EE401A425BDEE",
+      "function_id": "F-8154-02",
+      "interface_instance_id": "IFINST::PORT::8154::牵引安全回路状态输出::ITM-STA-026::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-01-43966F77C7AF86EE",
+      "function_id": "F-8166-01",
+      "interface_instance_id": "IFINST::PORT::8166::高压线路电流输入::ITM-MEA-006::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-01-54DDEB9AE53DCF6C",
+      "function_id": "F-8166-01",
+      "interface_instance_id": "IFINST::PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-01-7BD14D343EE4C7CB",
+      "function_id": "F-8166-01",
+      "interface_instance_id": "IFINST::PORT::8166::高压线路电压输入::ITM-MEA-005::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-01-CE698CED080FE047",
+      "function_id": "F-8166-01",
+      "interface_instance_id": "IFINST::PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-02-CE698CED080FE047",
+      "function_id": "F-8166-02",
+      "interface_instance_id": "IFINST::PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-03-F6D77E0B13A3B724",
+      "function_id": "F-8166-03",
+      "interface_instance_id": "IFINST::PORT::8166::能量计量有效状态输出::ITM-STA-035::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-1218443C793427FB",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-343B92FF38FC654A",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::可用制动能量输出::ITM-ACC-014::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-44587996F5A0F273",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::制动电阻耗散功率输出::ITM-ACC-005::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-46B7B3DDAFE6D367",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::牵引实际功率输出::ITM-ACC-001::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-5839D6631A47455A",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::储能释放累计能量输出::ITM-ACC-011::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-68F3B8F7CEEC2C3D",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::牵引累计能量输出::ITM-ACC-007::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-6F7A986FD91D1E0B",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::能量回收率输出::ITM-ACC-015::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-9172E547E7A86D7C",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::储能吸收累计能量输出::ITM-ACC-010::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-CBD6FEE2F64D018D",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::回馈电网累计能量输出::ITM-ACC-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-DB1E87253B188EC1",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::回馈电网功率输出::ITM-ACC-003::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-DEAD9E2A53D43A2A",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::再生发电累计能量输出::ITM-ACC-008::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-E635B152D994763E",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::储能吸收功率输出::ITM-ACC-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-8166-04-EAA6823D7CEC58B8",
+      "function_id": "F-8166-04",
+      "interface_instance_id": "IFINST::PORT::8166::实际再生功率输出::ITM-ACC-002::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-D112-01-009B358F6C26DB60",
+      "function_id": "F-D112-01",
+      "interface_instance_id": "IFINST::PORT::D112::列车方向指令输出::ITM-CMD-001::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-D113-01-69C74EE0FE47A00B",
+      "function_id": "F-D113-01",
+      "interface_instance_id": "IFINST::PORT::D113::牵引指令输出::ITM-CMD-002::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-D114-01-E0B91A50DDD96864",
+      "function_id": "F-D114-01",
+      "interface_instance_id": "IFINST::PORT::D114::服务制动请求输出::ITM-CMD-003::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-D121-01-204FFF14D736BA33",
+      "function_id": "F-D121-01",
+      "interface_instance_id": "IFINST::PORT::D121::紧急制动请求输出::ITM-CMD-004::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-D13B-01-1AC7ED1C949674EA",
+      "function_id": "F-D13B-01",
+      "interface_instance_id": "IFINST::PORT::D13B::撒砂请求输出::ITM-CMD-024::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-E100-01-86870F1638D74AD0",
+      "function_id": "F-E100-01",
+      "interface_instance_id": "IFINST::PORT::E100::安全停车_制动请求输出::ITM-CMD-030::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-E100-01-A879AB2C80CA6515",
+      "function_id": "F-E100-01",
+      "interface_instance_id": "IFINST::PORT::E100::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-01-22D4758E434F9F26",
+      "function_id": "F-X111-01",
+      "interface_instance_id": "IFINST::PORT::X111::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-01-E8C78D492AB46AF3",
+      "function_id": "F-X111-01",
+      "interface_instance_id": "IFINST::PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-02-255A3A2C3E9299ED",
+      "function_id": "F-X111-02",
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-02-367B6AA1B53D0D1F",
+      "function_id": "F-X111-02",
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-02-4C60A3C3DB565FEF",
+      "function_id": "F-X111-02",
+      "interface_instance_id": "IFINST::PORT::X111::储能功率请求输入::ITM-CMD-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-02-CEAFC8B33F18F77D",
+      "function_id": "F-X111-02",
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC状态输出::ITM-STA-028::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-02-D9BC36975DEFEE7F",
+      "function_id": "F-X111-02",
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X111-02-E894F4BB366FC702",
+      "function_id": "F-X111-02",
+      "interface_instance_id": "IFINST::PORT::X111::双向DC_DC实际功率输出::ITM-MEA-029::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-07DA1BE5D1191D1E",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC使能输入::ITM-CMD-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-192BCEF0652F8996",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC使能输出::ITM-CMD-026::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-3340E0B3E82CB085",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能预充电指令输出::ITM-CMD-028::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-3D82CEE8795D18D1",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能预充电指令输入::ITM-CMD-028::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-4A47EAADB7EE5FEF",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-7CD33277A943E1FD",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-8304A5FF85BDF53A",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能故障复位指令输入::ITM-CMD-029::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-8FAED81FF38E62F9",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC实际功率输入::ITM-MEA-029::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-95E28A9004552271",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能功率请求输入::ITM-CMD-025::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-9E83F0C14DE23F64",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能功率请求输出::ITM-CMD-025::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-A2245EF4A0740792",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能主接触器指令输出::ITM-CMD-027::输出",
+      "usage_role": "CONTROLS"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-D2A3A97E08872BCC",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-E0481001567BA2A0",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::储能主接触器指令输入::ITM-CMD-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-ECBD37F17CCB32B5",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-FD12314D0923E2DD",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::超级电容SOC输入::ITM-MEA-028::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-01-FED0AD1FE968A7C6",
+      "function_id": "F-X112-01",
+      "interface_instance_id": "IFINST::PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-02-77F216D70A2B2364",
+      "function_id": "F-X112-02",
+      "interface_instance_id": "IFINST::PORT::X112::超级电容充电允许状态输出::ITM-LIM-011::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-02-833297CF0C0B9F95",
+      "function_id": "F-X112-02",
+      "interface_instance_id": "IFINST::PORT::X112::超级电容放电允许状态输出::ITM-LIM-012::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-02-AFAF42C88A5EE2F7",
+      "function_id": "F-X112-02",
+      "interface_instance_id": "IFINST::PORT::X112::储能可用放电功率输出::ITM-LIM-010::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-02-B664A659838FD2CD",
+      "function_id": "F-X112-02",
+      "interface_instance_id": "IFINST::PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-02-C387E196DA7D5194",
+      "function_id": "F-X112-02",
+      "interface_instance_id": "IFINST::PORT::X112::储能可用充电功率输出::ITM-LIM-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-13F3133B677BCEB6",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::储能系统可用状态输出::ITM-STA-030::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-16B8EF15C532A8B4",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC状态输出::ITM-STA-028::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-1E3BFEDC9FEA2E27",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::储能预充电状态输入::ITM-STA-033::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-1F4A953B27FFD78C",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::储能吸收功率输出::ITM-ACC-004::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-5CA4CFA1020AA52F",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-63E8F668E79281C2",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::储能主接触器状态输入::ITM-STA-032::输入",
+      "usage_role": "CONSUMES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-910C5E37C3DC9B1D",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::储能系统故障状态输出::ITM-STA-031::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X112-03-FC84CB29082D251F",
+      "function_id": "F-X112-03",
+      "interface_instance_id": "IFINST::PORT::X112::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-26724762DBEF0852",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::超级电容温度输出::ITM-MEA-027::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-3D800667EEC98486",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::超级电容电压输出::ITM-MEA-025::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-573AC86C3C0B8059",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::储能系统故障状态输出::ITM-STA-031::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-6DCF3E31401FE7CE",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::储能可用放电功率输出::ITM-LIM-010::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-7A54063A125DCDAF",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::超级电容电流输出::ITM-MEA-026::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-83662835C30FE433",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::中间直流母线电压输出::ITM-MEA-008::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-86485910A2F96DFF",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-86A3FCEED14C4850",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::储能保护跳闸状态输出::ITM-STA-034::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-871E17DCA5E5D44B",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::直流母线电压上限输出::ITM-LIM-007::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-9C4E966812ACFE69",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-B0135ADD7F0564E4",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::双向DC_DC电流输出::ITM-MEA-030::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-BA5B1B009796B26C",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::储能可用充电功率输出::ITM-LIM-009::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-E3353B7707B557CF",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-X113-01-F56954332450C0C5",
+      "function_id": "F-X113-01",
+      "interface_instance_id": "IFINST::PORT::X113::双向DC_DC故障状态输出::ITM-STA-029::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X121-01-2314C0D47BE14670",
+      "function_id": "F-X121-01",
+      "interface_instance_id": "IFINST::PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X121-01-4C8A613B052513A5",
+      "function_id": "F-X121-01",
+      "interface_instance_id": "IFINST::PORT::X121::热能_热流端口::ITM-PHY-013::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X121-02-519AB12210C467A7",
+      "function_id": "F-X121-02",
+      "interface_instance_id": "IFINST::PORT::X121::超级电容SOC输出::ITM-MEA-028::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X122-01-2080F3BA7E078507",
+      "function_id": "F-X122-01",
+      "interface_instance_id": "IFINST::PORT::X122::超级电容电压输出::ITM-MEA-025::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X122-01-D6CED24BDDD7D362",
+      "function_id": "F-X122-01",
+      "interface_instance_id": "IFINST::PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-X123-01-5E5E72C94F549B27",
+      "function_id": "F-X123-01",
+      "interface_instance_id": "IFINST::PORT::X123::超级电容电流输出::ITM-MEA-026::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X123-01-F4A34E2F253F44A7",
+      "function_id": "F-X123-01",
+      "interface_instance_id": "IFINST::PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-X124-01-C6D2A2C325964F51",
+      "function_id": "F-X124-01",
+      "interface_instance_id": "IFINST::PORT::X124::超级电容热能感知端口::ITM-PHY-013::双向物理",
+      "usage_role": "MONITORS"
+    },
+    {
+      "mapping_id": "FMAP-F-X124-01-D7D7F318137E63EE",
+      "function_id": "F-X124-01",
+      "interface_instance_id": "IFINST::PORT::X124::超级电容温度输出::ITM-MEA-027::输出",
+      "usage_role": "PRODUCES"
+    },
+    {
+      "mapping_id": "FMAP-F-X131-01-936B1201D579EF02",
+      "function_id": "F-X131-01",
+      "interface_instance_id": "IFINST::PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X131-01-E57B9B2B8BEE5B7F",
+      "function_id": "F-X131-01",
+      "interface_instance_id": "IFINST::PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X132-01-0BD37A6A710FD35D",
+      "function_id": "F-X132-01",
+      "interface_instance_id": "IFINST::PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X132-01-0EAED1307CC18B75",
+      "function_id": "F-X132-01",
+      "interface_instance_id": "IFINST::PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X133-01-10B5FD67D9DEDD30",
+      "function_id": "F-X133-01",
+      "interface_instance_id": "IFINST::PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X133-01-1A86172E5162F69A",
+      "function_id": "F-X133-01",
+      "interface_instance_id": "IFINST::PORT::X133::低压控制电能端口::ITM-PHY-015::双向物理",
+      "usage_role": "EXCHANGES"
+    },
+    {
+      "mapping_id": "FMAP-F-X133-01-5C84DDB8E4AB2C1D",
+      "function_id": "F-X133-01",
+      "interface_instance_id": "IFINST::PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+      "usage_role": "EXCHANGES"
+    }
+  ]
+}

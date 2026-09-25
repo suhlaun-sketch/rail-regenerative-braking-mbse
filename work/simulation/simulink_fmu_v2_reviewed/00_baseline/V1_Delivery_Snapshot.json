@@ -1,0 +1,288 @@
+{
+  "artifact": "v1 immutable delivery snapshot for v2 physical review",
+  "v1_root": "work/simulation/simulink_fmu_v1",
+  "critical_file_count": 56,
+  "critical_files": [
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_3100.slx",
+      "bytes": 103218,
+      "sha256": "3F6D7B7465BB87C10C8AE071BC4ABC1BE982634AC0DA9839A1B589AF1604E9EC"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_3500.slx",
+      "bytes": 94154,
+      "sha256": "A23C981CF948D9758EC5F33A4D01ED5B25A8D43194E54E04833E3CEB4E20AFA3"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_3600.slx",
+      "bytes": 94342,
+      "sha256": "43052097657E4E67F37B5E77C863ECFDAB000D3D0A8AEEEB1DE1B3309D073E58"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_3800.slx",
+      "bytes": 83454,
+      "sha256": "521194E7C21AE4ABF6DCDAA332A454B8B1FFAE878A10B5A5297AF79FC71E0087"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_4100.slx",
+      "bytes": 99492,
+      "sha256": "DE29351595AB95C40EBB7F4FAAA9C9B30C520760FA4418F452ECE62F5676F6CC"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_4200.slx",
+      "bytes": 139596,
+      "sha256": "81FE4C0A6A6D312F53DF3025E2A03726D1E4459D3279EB4A4CAEFA3B18FDF8DC"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_4400.slx",
+      "bytes": 79765,
+      "sha256": "245899F22D1B7DFC7A7F94935CABB758A6BD9462504C1CFDE34CC8F1C3C3E3DB"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_4500.slx",
+      "bytes": 112284,
+      "sha256": "2A62F3E90ED0D3699EA4BD82C32851FC02D677FFBDDDA9A5B0B11F4ABF47123F"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_5100.slx",
+      "bytes": 164233,
+      "sha256": "AC3BB949D469638C416D34638255060D3348E5DC91AE9B72E253CEFF384400AE"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_5300.slx",
+      "bytes": 117253,
+      "sha256": "446A875311FC65FB36B5862C2A7CC333D1A41548572E503356F8C1C5BA8AA07D"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_7100.slx",
+      "bytes": 84805,
+      "sha256": "E777E2422BAC10145E9B5D4E5C576BBFD5F4F1A2F5AAE7928A942CA4EE410AC4"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_7200.slx",
+      "bytes": 138906,
+      "sha256": "4D91704EC7DC17913DE514F7EAC44AA3C79F83DBF104AF0C171696BB8DE88E3C"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_8100.slx",
+      "bytes": 178969,
+      "sha256": "1B89902297A7B24E024A97E374F1C49D79AEAB8C564780E1821245FEEB12C1A4"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_D100.slx",
+      "bytes": 101503,
+      "sha256": "8C30701AEB8345B81AFEC9F18A1F06A34372BCF7A94AA06BDD3483CB58B5F0A8"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_E100.slx",
+      "bytes": 89784,
+      "sha256": "3F152AAA908135A7EE58CF646C3257A6A518AAE2EAD607BF4FC5ACE8F60910F5"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/01_models/L2_X100.slx",
+      "bytes": 144723,
+      "sha256": "2D935E219CFB29EC099319D72657D0DEC7E7B77DA0F659293B85A87F322314B9"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_3100.fmu",
+      "bytes": 24756,
+      "sha256": "A90EB0932D56655082914C12711C277C7C3E5FC0ACA5089FD1FEF4F03C6FEE6C"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_3500.fmu",
+      "bytes": 24300,
+      "sha256": "C65AB1E1D4FDEBD2305E5F0DC31E171136D992B0D7F09C273D68548115D821A8"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_3600.fmu",
+      "bytes": 24361,
+      "sha256": "8D6A04784505CFEFDC06CDCF24DF06C86AC452282CC32D02AFF7759F63D91B1A"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_3800.fmu",
+      "bytes": 24123,
+      "sha256": "FBBE11CB708AE5633B43FDCC745DC0250E52AC973373FC7867D28149A49E37B8"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_4100.fmu",
+      "bytes": 24669,
+      "sha256": "23C77DEFA85C224A72F578C8D33B18FDD4BE45E7B9EE2A81963CDD9E36563665"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_4200.fmu",
+      "bytes": 25279,
+      "sha256": "99039E9977BD7D0CB7E95CE90110D24E97995E2E4FBBBCD4FBDA8A9E05152CBA"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_4400.fmu",
+      "bytes": 23808,
+      "sha256": "475687058479D5B1417958B727DE3F7DE0E81E86FB25171ACDA27B25709C492E"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_4500.fmu",
+      "bytes": 24858,
+      "sha256": "D42E9B9BE9EFD429687EC971D6693F9B15775C9D574F3D7ECDE5A38E7EB4A709"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_5100.fmu",
+      "bytes": 26637,
+      "sha256": "2C8D53B95E19C06AD6922F20B6B09599FE9D8DCFF005F061F1A509D01B859739"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_5300.fmu",
+      "bytes": 25160,
+      "sha256": "A6CD4F775CA7C5886E53F4FA1A1E8DB604AD7AD9BEA9CB422BED590E290C2A41"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_7100.fmu",
+      "bytes": 24135,
+      "sha256": "16C9FB1EBF4A5F236EFC795D01B8E151922967D6BAA2BCCA6D87179B5904C2D3"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_7200.fmu",
+      "bytes": 25641,
+      "sha256": "1ACFED14CE300E092B866AD13156A88390ECCFA798CF1D186EA44CD19AB2ECB0"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_8100.fmu",
+      "bytes": 27958,
+      "sha256": "F51DEB3D32EAF15D68A8369D1A3ECA258008BE57E66C68594F2E872EAD4F6572"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_D100.fmu",
+      "bytes": 24820,
+      "sha256": "040169C3E8ECAEF78DBC92F119A421A4E374AE0719332F8E17BF082FA9E1F848"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_E100.fmu",
+      "bytes": 24193,
+      "sha256": "747226AEF400B693034FBBF1445F0C9CE6E535BA99BFD56A7067C73AE66CCD87"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/L2_X100.fmu",
+      "bytes": 25804,
+      "sha256": "8E51209DD452B2995C1DCD35155D95498EC4AE046D6FED13BF277277AA7C479E"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3100.fmu",
+      "bytes": 24756,
+      "sha256": "A90EB0932D56655082914C12711C277C7C3E5FC0ACA5089FD1FEF4F03C6FEE6C"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3500.fmu",
+      "bytes": 24300,
+      "sha256": "C65AB1E1D4FDEBD2305E5F0DC31E171136D992B0D7F09C273D68548115D821A8"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3600.fmu",
+      "bytes": 24361,
+      "sha256": "8D6A04784505CFEFDC06CDCF24DF06C86AC452282CC32D02AFF7759F63D91B1A"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3800.fmu",
+      "bytes": 24123,
+      "sha256": "FBBE11CB708AE5633B43FDCC745DC0250E52AC973373FC7867D28149A49E37B8"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4100.fmu",
+      "bytes": 24669,
+      "sha256": "23C77DEFA85C224A72F578C8D33B18FDD4BE45E7B9EE2A81963CDD9E36563665"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4200.fmu",
+      "bytes": 25279,
+      "sha256": "99039E9977BD7D0CB7E95CE90110D24E97995E2E4FBBBCD4FBDA8A9E05152CBA"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4400.fmu",
+      "bytes": 23808,
+      "sha256": "475687058479D5B1417958B727DE3F7DE0E81E86FB25171ACDA27B25709C492E"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4500.fmu",
+      "bytes": 24858,
+      "sha256": "D42E9B9BE9EFD429687EC971D6693F9B15775C9D574F3D7ECDE5A38E7EB4A709"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_5100.fmu",
+      "bytes": 26637,
+      "sha256": "2C8D53B95E19C06AD6922F20B6B09599FE9D8DCFF005F061F1A509D01B859739"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_5300.fmu",
+      "bytes": 25160,
+      "sha256": "A6CD4F775CA7C5886E53F4FA1A1E8DB604AD7AD9BEA9CB422BED590E290C2A41"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_7100.fmu",
+      "bytes": 24135,
+      "sha256": "16C9FB1EBF4A5F236EFC795D01B8E151922967D6BAA2BCCA6D87179B5904C2D3"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_7200.fmu",
+      "bytes": 25577,
+      "sha256": "3CDF2A778CA0B8B0871F3DEF2958A2838F2D50B53FD9BC17DD5498EEC3F8C5C8"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_8100.fmu",
+      "bytes": 27808,
+      "sha256": "CF6AE6FDEF5096611E62C63C49AB81B2F912D4C21E895388F2EDCFAA5567B92B"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_D100.fmu",
+      "bytes": 24789,
+      "sha256": "62C86E81F63D15BAAE378828180B6E4BCDAB92E23AF7DA32C904F6D687C338E4"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_E100.fmu",
+      "bytes": 24193,
+      "sha256": "747226AEF400B693034FBBF1445F0C9CE6E535BA99BFD56A7067C73AE66CCD87"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_X100.fmu",
+      "bytes": 25804,
+      "sha256": "8E51209DD452B2995C1DCD35155D95498EC4AE046D6FED13BF277277AA7C479E"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/06_ssp/Rail_MBSE_All16_Executable_v1.ssd",
+      "bytes": 122612,
+      "sha256": "950AEEC70A3AE7FEDBBEBB26DD60AE38834CB1E6A70CAF7E7731A6EB465703D7"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/06_ssp/Rail_MBSE_All16_Executable_v1.ssp",
+      "bytes": 408759,
+      "sha256": "A90E2EFC0F13BED2442A679187F12673957151CA1CF38A5C6026D2821D05849C"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/07_results/Rail_MBSE_All16_FMU_CoSimulation_Exposed_Outputs.csv",
+      "bytes": 280584,
+      "sha256": "B5A2215B9146A2095A2DEA6BC14E108F5702D71AA6077B64513BB738C3F1F43F"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/07_results/Rail_MBSE_All16_FMU_CoSimulation_Results.csv",
+      "bytes": 69652,
+      "sha256": "DF01B5FB7C784286B1F4C93B2D364096788386C153F8149425AAC44C39382155"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/07_results/Rail_MBSE_All16_FMU_CoSimulation_VV.json",
+      "bytes": 16196,
+      "sha256": "61AF8BD77667C4CA63F8BCD58FCB757E92B4367C42ABCA589EDA9732951BD9A1"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/08_reports/MATLAB_ENVIRONMENT_REPORT.md",
+      "bytes": 871,
+      "sha256": "CDA4BCB35FC36F4340C37D71D90FFCB7E502C02A3652B70B7E7CC3999C3E996F"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/08_reports/Rail_MBSE_Simulink_FMU_CoSimulation_Report.md",
+      "bytes": 10163,
+      "sha256": "C7FB097DED4F9A3AA78E2A24911E6C6678003DDE729E4409303BA22048B853AE"
+    },
+    {
+      "path": "work/simulation/simulink_fmu_v1/08_reports/Rail_MBSE_System_VV_Report.md",
+      "bytes": 926,
+      "sha256": "03470F5F43A3B8E299B7183393D37B92979AA2C9B5E5B35B76B31954E02B1BE2"
+    }
+  ],
+  "v1_status": "PASS"
+}

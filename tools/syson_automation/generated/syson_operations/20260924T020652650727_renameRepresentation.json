@@ -1,0 +1,15 @@
+{
+  "operation_name": "renameRepresentation",
+  "timestamp": "2026-09-24T02:06:52.633756+00:00",
+  "variables": {
+    "input": {
+      "id": "393a2130-ab51-4814-be0d-ad208abc87f8",
+      "editingContextId": "12d630bc-f763-4c58-8385-152cbec448e9",
+      "representationId": "5226ade6-f403-4ad0-99c8-0df245e2a1d2",
+      "newLabel": "AUTO_FP_PORTENHANCED_6289f72770e3_GENERAL_FALLBACK"
+    }
+  },
+  "representation_id": "5226ade6-f403-4ad0-99c8-0df245e2a1d2",
+  "response": null,
+  "error": "SysON GraphQL 返回错误：Validation error (InvalidFragmentType@[renameRepresentation]) : Fragment cannot be spread here as objects of type 'RenameRepresentationPayload' can never be of type 'RenameRepresentationSuccessPayload'; Validation error (FieldUndefined@[renameRepresentation/representation/label]) : Field 'label' in type 'Representation' is undefined"
+}

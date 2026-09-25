@@ -1,0 +1,23 @@
+{
+  "TEST_2026_9_IBD_3110": {
+    "metaclass": "ViewUsage",
+    "object_id": "4aa18239-af16-45af-8da0-35006028de04",
+    "feature_typing_refs": [
+      "sysml:ViewDefinition sysmllibrary:///faf517ae-dbcd-30a4-b3b9-3d9cb3bbf5c1#6518462a-2f51-5276-b95e-69ee5193db38"
+    ]
+  },
+  "TEST_2026_9_IBD_X130": {
+    "metaclass": "ViewUsage",
+    "object_id": "a1a2ca4f-d796-4464-8d58-d87e515a49cd",
+    "feature_typing_refs": [
+      "sysml:ViewDefinition sysmllibrary:///faf517ae-dbcd-30a4-b3b9-3d9cb3bbf5c1#6518462a-2f51-5276-b95e-69ee5193db38"
+    ]
+  },
+  "TEST_TRUE_INTERCONNECTION_X130": {
+    "metaclass": "ViewUsage",
+    "object_id": "94931bda-01fd-4f82-97e4-50e85d99fda6",
+    "feature_typing_refs": [
+      "sysml:ViewDefinition sysmllibrary:///faf517ae-dbcd-30a4-b3b9-3d9cb3bbf5c1#6518462a-2f51-5276-b95e-69ee5193db38"
+    ]
+  }
+}

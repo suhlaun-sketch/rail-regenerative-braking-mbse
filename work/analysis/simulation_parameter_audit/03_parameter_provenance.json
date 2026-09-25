@@ -1,0 +1,765 @@
+{
+  "generated_utc": "20260916T075339Z",
+  "parameters": [
+    {
+      "parameter_id": "VEH-001",
+      "parameter_name": "vehicle_mass_kg",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> Params_v2.m -> L2_7200_behavior.m(mass=80000) -> L2_8100_behavior.m(mass=80000) -> runner_v2.py(MASS=80000)",
+      "used_by": "L2_7200",
+      "affects": "Representative single train-unit equivalent mass for longitudinal dynamics",
+      "final_value": 80000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "VEH-003",
+      "parameter_name": "wheel_radius_m",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> Params_v2.m -> L2_3100_behavior.m(0.46) -> L2_7200_behavior.m(0.46) -> L2_8100_behavior.m(rw=0.46) -> runner(WHEEL_RADIUS=0.46)",
+      "used_by": "L2_3100/L2_7200",
+      "affects": "Representative rail wheel rolling radius",
+      "final_value": 0.46,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "VEH-004",
+      "parameter_name": "equivalent_rotational_inertia_kgm2",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_3100_behavior.m(J=18000)",
+      "used_by": "L2_3100",
+      "affects": "Consistent with 80000 kg mass and 0.46 m wheel radius with driveline allowance",
+      "final_value": 18000,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "VEH-005",
+      "parameter_name": "rolling_resistance_torque_Nm",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_3100_behavior.m(T_res=1500+0.8*omega^2)",
+      "used_by": "L2_3100",
+      "affects": "Constant part of resistance torque (Davis A equivalent at wheel)",
+      "final_value": 1500,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "VEH-006",
+      "parameter_name": "aero_torque_coefficient",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_3100_behavior.m(0.8*omega_w^2)",
+      "used_by": "L2_3100",
+      "affects": "Quadratic speed-dependent torque (Davis C equivalent at wheel)",
+      "final_value": 0.8,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "DRV-001",
+      "parameter_name": "gear_ratio",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m(gear=6.2) -> runner_v2.py(GEAR=6.2)",
+      "used_by": "L2_3500",
+      "affects": "Representative rail final-drive ratio",
+      "final_value": 6.2,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "DRV-002",
+      "parameter_name": "driveline_efficiency",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m(eta=0.96) -> runner_v2.py(DRIVE_ETA=0.97)",
+      "used_by": "L2_3500",
+      "affects": "Averaged gearbox efficiency",
+      "final_value": 0.96,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-001",
+      "parameter_name": "motor_pole_pairs",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5300_behavior.m(wsync=2*pi*f/3)",
+      "used_by": "L2_5300",
+      "affects": "PMSM pole pairs",
+      "final_value": 3,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-002",
+      "parameter_name": "motor_torque_limit_Nm",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5300_behavior.m -> L2_5100_behavior.m(Treq limit 6000) -> L2_8100_behavior.m(6000)",
+      "used_by": "L2_5300",
+      "affects": "Scale retained from v1 PMSM-oriented implementation",
+      "final_value": 6000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-003",
+      "parameter_name": "motor_torque_slip_gain",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5300_behavior.m",
+      "used_by": "L2_5300",
+      "affects": "Simplified torque-slip characteristic gain",
+      "final_value": 30,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-004",
+      "parameter_name": "motor_time_constant_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5300_behavior.m(0.2)",
+      "used_by": "L2_5300",
+      "affects": "Averaged energized torque response",
+      "final_value": 0.2,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-005",
+      "parameter_name": "motor_efficiency_motoring",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5300_behavior.m -> runner_v2.py(MOTOR_ETA_MOT=0.94)",
+      "used_by": "L2_5300",
+      "affects": "Average PMSM motoring efficiency",
+      "final_value": 0.94,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-006",
+      "parameter_name": "motor_efficiency_generating",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5300_behavior.m(0.92) -> runner_v2.py(MOTOR_ETA_REG=0.93)",
+      "used_by": "L2_5300",
+      "affects": "Average PMSM generating efficiency",
+      "final_value": 0.92,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "MOT-009",
+      "parameter_name": "motor_traction_torque_limit_Nm",
+      "defined_in": "L2_8100_behavior.m",
+      "overridden_by": "L2_8100_behavior.m hardcoded",
+      "used_by": "L2_8100",
+      "affects": "Traction torque request limited to 4500 Nm (75% of 6000 Nm)",
+      "final_value": 4500,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-001",
+      "parameter_name": "dc_voltage_nominal_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5100_behavior.m(Udc init=1800) -> targetU fallback 1800/1.2",
+      "used_by": "L2_5100",
+      "affects": "Nominal traction DC-link voltage",
+      "final_value": 1800,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-002",
+      "parameter_name": "dc_voltage_min_operating_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m(in_dc_link_voltage>=1200)",
+      "used_by": "L2_5100/L2_8100",
+      "affects": "Minimum DC voltage for inverter torque production",
+      "final_value": 1200,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-003",
+      "parameter_name": "dc_voltage_max_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5100_behavior.m(targetU=min(2200,...))",
+      "used_by": "L2_5100",
+      "affects": "DC-link over-voltage limit",
+      "final_value": 2100,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-006",
+      "parameter_name": "dc_link_voltage_time_constant",
+      "defined_in": "L2_5100_behavior.m",
+      "overridden_by": "L2_5100_behavior.m hardcoded",
+      "used_by": "L2_5100",
+      "affects": "DC-link voltage first-order response time constant",
+      "final_value": 0.3,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-007",
+      "parameter_name": "converter_power_limit_W",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5100_behavior.m(pmax=1200000)",
+      "used_by": "L2_5100",
+      "affects": "System-level converter power limit",
+      "final_value": 1200000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-008",
+      "parameter_name": "grid_regen_acceptance_W",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5100_behavior.m(out_grid_acceptable_regenerative_power=0)",
+      "used_by": "L2_5100",
+      "affects": "Grid does not accept regenerative power; all regen goes to ESS/resistor",
+      "final_value": 0,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "CNV-009",
+      "parameter_name": "rectifier_voltage_gain",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_5100_behavior.m(1.2*max(U_sec,1800/1.2))",
+      "used_by": "L2_5100",
+      "affects": "Rectifier output/input voltage ratio",
+      "final_value": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-013",
+      "parameter_name": "converter_traction_efficiency",
+      "defined_in": "L2_5100_behavior.m",
+      "overridden_by": "L2_5100_behavior.m hardcoded",
+      "used_by": "L2_5100",
+      "affects": "Combined converter traction efficiency in behavior code",
+      "final_value": 0.96,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-014",
+      "parameter_name": "converter_regen_efficiency",
+      "defined_in": "L2_5100_behavior.m",
+      "overridden_by": "L2_5100_behavior.m hardcoded",
+      "used_by": "L2_5100",
+      "affects": "Combined converter regen efficiency in behavior code",
+      "final_value": 0.95,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "CNV-015",
+      "parameter_name": "motor_voltage_frequency_ratio",
+      "defined_in": "L2_5100_behavior.m",
+      "overridden_by": "L2_5100_behavior.m hardcoded",
+      "used_by": "L2_5100",
+      "affects": "V/f ratio for motor voltage command",
+      "final_value": 8.0,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "TRF-001",
+      "parameter_name": "transformer_ratio",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_4500_behavior.m(ratio=0.06)",
+      "used_by": "L2_4500",
+      "affects": "Secondary to primary voltage ratio",
+      "final_value": 0.06,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "TRF-002",
+      "parameter_name": "transformer_efficiency",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_4500_behavior.m(eta=0.97)",
+      "used_by": "L2_4500",
+      "affects": "Average traction-transformer efficiency",
+      "final_value": 0.97,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "TRF-003",
+      "parameter_name": "transformer_primary_voltage_min_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json",
+      "used_by": "L2_4500/L2_4200",
+      "affects": "Minimum primary voltage for breaker closure",
+      "final_value": 15000,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "LINE-001",
+      "parameter_name": "line_voltage_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_4100_behavior.m(25000-0.4*I)",
+      "used_by": "L2_4100",
+      "affects": "25 kV AC railway supply boundary",
+      "final_value": 25000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "LINE-002",
+      "parameter_name": "line_frequency_Hz",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_4100_behavior.m(f_ac=panto*50)",
+      "used_by": "L2_4100",
+      "affects": "AC power supply frequency",
+      "final_value": 50,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "LINE-003",
+      "parameter_name": "line_voltage_drop_V_per_A",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_4100_behavior.m(0.4)",
+      "used_by": "L2_4100",
+      "affects": "Simplified catenary voltage drop model",
+      "final_value": 0.4,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "HV-003",
+      "parameter_name": "hv_primary_voltage_min_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json",
+      "used_by": "L2_4200",
+      "affects": "Breaker may close only with valid pantograph supply",
+      "final_value": 15000,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "BRK-001",
+      "parameter_name": "max_service_deceleration_mps2",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7200_behavior.m(amax=1.2) -> L2_8100_behavior.m(brakeReq limit=1.2)",
+      "used_by": "L2_7200/L2_8100",
+      "affects": "Frozen service-brake request as demanded deceleration",
+      "final_value": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-002",
+      "parameter_name": "max_dynamic_brake_force_N",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m(Favail=...min(77000,...))",
+      "used_by": "L2_8100",
+      "affects": "Maximum achievable regenerative braking force",
+      "final_value": 77000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-003",
+      "parameter_name": "cylinder_pressure_max_Pa",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7200_behavior.m(600000)",
+      "used_by": "L2_7200",
+      "affects": "Maximum brake cylinder pressure",
+      "final_value": 600000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-004",
+      "parameter_name": "cylinder_time_constant_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7200_behavior.m(0.4)",
+      "used_by": "L2_7200",
+      "affects": "Brake cylinder pressure first-order time constant",
+      "final_value": 0.4,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-005",
+      "parameter_name": "mechanical_force_build_time_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7200_behavior.m(tauF=0.25 for build)",
+      "used_by": "L2_7200",
+      "affects": "First-order friction-brake buildup time",
+      "final_value": 0.25,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-006",
+      "parameter_name": "mechanical_force_release_time_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7200_behavior.m(tauF=0.12 for release)",
+      "used_by": "L2_7200",
+      "affects": "Coordinated release time constant",
+      "final_value": 0.12,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-007",
+      "parameter_name": "low_speed_takeover_time_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7200_behavior.m(tauF=0.015 for low-speed)",
+      "used_by": "L2_7200",
+      "affects": "Fast friction-brake takeover below cutoff-high",
+      "final_value": 0.015,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-008",
+      "parameter_name": "regen_cutoff_low_mps",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m",
+      "used_by": "L2_8100",
+      "affects": "Regenerative capability is zero at and below this speed",
+      "final_value": 0.5,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-009",
+      "parameter_name": "regen_cutoff_high_mps",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m",
+      "used_by": "L2_8100",
+      "affects": "Regenerative capability fully available above this speed",
+      "final_value": 1.5,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-010",
+      "parameter_name": "stop_hold_entry_speed_mps",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m(v<=0.1)",
+      "used_by": "L2_8100",
+      "affects": "Enter hold mode after train reaches standstill",
+      "final_value": 0.1,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-011",
+      "parameter_name": "hold_deceleration_mps2",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_8100_behavior.m -> L2_D100_behavior.m(phase4: 0.3)",
+      "used_by": "L2_8100/L2_7200",
+      "affects": "Mechanical hold-brake equivalent request after standstill",
+      "final_value": 0.3,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-012",
+      "parameter_name": "total_force_tolerance",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json",
+      "used_by": "L2_7200",
+      "affects": "V&V limit for total-force overshoot",
+      "final_value": 0.05,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "BRK-013",
+      "parameter_name": "regen_fade_smoothstep",
+      "defined_in": "L2_8100_behavior.m",
+      "overridden_by": "L2_8100_behavior.m hardcoded",
+      "used_by": "L2_8100",
+      "affects": "Hermite smoothstep for regen fade between cutoff_low and cutoff_high",
+      "final_value": "smoothstep",
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "BRK-014",
+      "parameter_name": "supercap_soc_max_for_regen",
+      "defined_in": "L2_8100_behavior.m",
+      "overridden_by": "L2_8100_behavior.m hardcoded",
+      "used_by": "L2_8100",
+      "affects": "Dynamic brake availability requires SOC < 0.98",
+      "final_value": 0.98,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "PNE-001",
+      "parameter_name": "reservoir_pressure_nominal_Pa",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_7100_behavior.m(constant 900000)",
+      "used_by": "L2_7100",
+      "affects": "Representative main-reservoir pressure",
+      "final_value": 900000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "PNE-002",
+      "parameter_name": "brake_availability_pressure_threshold_Pa",
+      "defined_in": "L2_7200_behavior.m",
+      "overridden_by": "L2_7200_behavior.m hardcoded",
+      "used_by": "L2_7200",
+      "affects": "Minimum reservoir pressure for brake availability",
+      "final_value": 600000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-001",
+      "parameter_name": "supercap_capacitance_F",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(120) -> runner(SC_C=120)",
+      "used_by": "L2_X100",
+      "affects": "Equivalent bank capacitance",
+      "final_value": 120,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-002",
+      "parameter_name": "supercap_esr_Ohm",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> runner_v2.py(SC_ESR=0.04)",
+      "used_by": "L2_X100",
+      "affects": "Equivalent bank ESR; requires calibration",
+      "final_value": 0.04,
+      "confidence": "low"
+    },
+    {
+      "parameter_id": "SC-003",
+      "parameter_name": "supercap_voltage_min_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(Emin=15000000) -> runner(SC_VMIN=500)",
+      "used_by": "L2_X100",
+      "affects": "Lower capacitor internal-voltage limit",
+      "final_value": 500,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-004",
+      "parameter_name": "supercap_voltage_max_V",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(Emax=48600000) -> runner(SC_VMAX=900)",
+      "used_by": "L2_X100",
+      "affects": "Upper capacitor internal-voltage limit",
+      "final_value": 900,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-005",
+      "parameter_name": "supercap_initial_soc",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(E=26760000 => SOC=0.35)",
+      "used_by": "L2_X100",
+      "affects": "Initial state of charge",
+      "final_value": 0.35,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-006",
+      "parameter_name": "supercap_charge_power_limit_W",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(PchgLim=600000)",
+      "used_by": "L2_X100",
+      "affects": "Bidirectional DC/DC charge limit",
+      "final_value": 600000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-007",
+      "parameter_name": "supercap_discharge_power_limit_W",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(PdisLim=400000)",
+      "used_by": "L2_X100",
+      "affects": "Bidirectional DC/DC discharge limit",
+      "final_value": 400000,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-008",
+      "parameter_name": "supercap_current_limit_A",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> runner_v2.py current bounds check <=909",
+      "used_by": "L2_X100",
+      "affects": "Bidirectional capacitor current limit",
+      "final_value": 900,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-009",
+      "parameter_name": "dcdc_efficiency_charge",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(0.96)",
+      "used_by": "L2_X100",
+      "affects": "DC/DC converter charge efficiency",
+      "final_value": 0.96,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-010",
+      "parameter_name": "dcdc_efficiency_discharge",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json -> L2_X100_behavior.m(0.95)",
+      "used_by": "L2_X100",
+      "affects": "DC/DC converter discharge efficiency",
+      "final_value": 0.95,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SC-011",
+      "parameter_name": "supercap_Emin_J",
+      "defined_in": "L2_X100_behavior.m",
+      "overridden_by": "0.5*C*Vmin^2 = 0.5*120*500^2 -> runner SC_EMIN=15000000",
+      "used_by": "L2_X100",
+      "affects": "Derived from C and V_min",
+      "final_value": 15000000,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SC-012",
+      "parameter_name": "supercap_Emax_J",
+      "defined_in": "L2_X100_behavior.m",
+      "overridden_by": "0.5*C*Vmax^2 = 0.5*120*900^2 -> runner SC_EMAX=48600000",
+      "used_by": "L2_X100",
+      "affects": "Derived from C and V_max",
+      "final_value": 48600000,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SC-013",
+      "parameter_name": "supercap_E_init_J",
+      "defined_in": "L2_X100_behavior.m",
+      "overridden_by": "Emin + SOC_init*(Emax-Emin) = 15000000 + 0.35*33600000",
+      "used_by": "L2_X100",
+      "affects": "Initial energy from initial SOC",
+      "final_value": 26760000,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-001",
+      "parameter_name": "start_time_s",
+      "defined_in": "modelDescription.xml",
+      "overridden_by": "FMU DefaultExperiment -> runner setupExperiment(startTime=0.0)",
+      "used_by": "ALL",
+      "affects": "Simulation start time",
+      "final_value": 0,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-002",
+      "parameter_name": "stop_time_s",
+      "defined_in": "modelDescription.xml / runner_v2.py",
+      "overridden_by": "FMU DefaultExperiment(50) -> runner STOP=50.0",
+      "used_by": "ALL",
+      "affects": "Total simulation time",
+      "final_value": 50,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-003",
+      "parameter_name": "internal_step_size_s",
+      "defined_in": "modelDescription.xml",
+      "overridden_by": "Simulink export -> FMU DefaultExperiment stepSize=0.01",
+      "used_by": "ALL",
+      "affects": "Internal fixed step inside each FMU",
+      "final_value": 0.01,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-004",
+      "parameter_name": "communication_step_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json / runner_v2.py",
+      "overridden_by": "v1 Params(0.1) -> v2 Params(0.05) -> runner_v2.py(main dt=0.05)",
+      "used_by": "ALL",
+      "affects": "Communication step between FMU instances",
+      "final_value": 0.05,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-005",
+      "parameter_name": "co_sim_algorithm",
+      "defined_in": "runner_v2.py",
+      "overridden_by": "runner_v1.py = runner_v2.py = Explicit Jacobi",
+      "used_by": "ALL",
+      "affects": "All FMUs advanced one step in parallel, outputs transferred after",
+      "final_value": "Explicit Jacobi",
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-006",
+      "parameter_name": "fmu_count",
+      "defined_in": "SSP/runner",
+      "overridden_by": "SSD defines 16 components",
+      "used_by": "ALL",
+      "affects": "L2_3100,3500,3600,3800,4100,4200,4400,4500,5100,5300,7100,7200,8100,D100,E100,X100",
+      "final_value": 16,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-007",
+      "parameter_name": "connection_records",
+      "defined_in": "Executable_FMU_Interface_v1.json",
+      "overridden_by": "Implementation binding -> SSP -> runner",
+      "used_by": "ALL",
+      "affects": "87 connection records, 77 unique causal paths",
+      "final_value": 87,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SIM-008",
+      "parameter_name": "sample_time_s",
+      "defined_in": "Rail_MBSE_Simulation_Parameters_v2.json",
+      "overridden_by": "Params_v2.json(0.01) matches FMU stepSize(0.01)",
+      "used_by": "ALL",
+      "affects": "Internal fixed step for Simulink models",
+      "final_value": 0.01,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SCN-001",
+      "parameter_name": "traction_phase_end_s",
+      "defined_in": "L2_D100_behavior.m",
+      "overridden_by": "L2_D100_behavior.m",
+      "used_by": "L2_D100",
+      "affects": "Traction command ramp from 0 to 20s",
+      "final_value": 20,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SCN-002",
+      "parameter_name": "coast_phase_end_s",
+      "defined_in": "L2_D100_behavior.m",
+      "overridden_by": "L2_D100_behavior.m",
+      "used_by": "L2_D100",
+      "affects": "Coast from 20s to 30s",
+      "final_value": 30,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SCN-003",
+      "parameter_name": "braking_phase_end_s",
+      "defined_in": "L2_D100_behavior.m",
+      "overridden_by": "L2_D100_behavior.m",
+      "used_by": "L2_D100",
+      "affects": "Full service brake from 30s to 45s",
+      "final_value": 45,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SCN-004",
+      "parameter_name": "traction_ramp_time_s",
+      "defined_in": "L2_D100_behavior.m",
+      "overridden_by": "L2_D100_behavior.m",
+      "used_by": "L2_D100",
+      "affects": "Traction command reaches 1.0 at t=3s",
+      "final_value": 3,
+      "confidence": "medium"
+    },
+    {
+      "parameter_id": "SCN-005",
+      "parameter_name": "service_brake_request_braking",
+      "defined_in": "L2_D100_behavior.m",
+      "overridden_by": "L2_D100_behavior.m",
+      "used_by": "L2_D100",
+      "affects": "Service brake request = 1.0 m/s^2 during braking phase",
+      "final_value": 1.0,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "SCN-006",
+      "parameter_name": "service_brake_request_hold",
+      "defined_in": "L2_D100_behavior.m",
+      "overridden_by": "L2_D100_behavior.m",
+      "used_by": "L2_D100",
+      "affects": "Service brake request = 0.3 m/s^2 during hold phase (t>=45s)",
+      "final_value": 0.3,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "MIS-010",
+      "parameter_name": "initial_speed_mps",
+      "defined_in": "L2_3100_behavior.m",
+      "overridden_by": "L2_3100_behavior.m persistent init -> FMU start",
+      "used_by": "L2_3100",
+      "affects": "IMPLICIT_DEFAULT: Initial wheel speed = 0",
+      "final_value": 0,
+      "confidence": "high"
+    },
+    {
+      "parameter_id": "MIS-014",
+      "parameter_name": "fault_protection_thresholds",
+      "defined_in": "L2_8100_behavior.m",
+      "overridden_by": "L2_8100 checks: traction_converter_fault==0, external_safety_state>0",
+      "used_by": "L2_8100",
+      "affects": "Only basic safety interlock, no over-voltage/current/temp protection",
+      "final_value": "MINIMAL",
+      "confidence": "medium"
+    }
+  ]
+}

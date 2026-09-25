@@ -1,0 +1,71 @@
+{
+  "manifest_id": "RAIL-MBSE-GOLD2-INTEGRATED-4235-5111-PROBE-V2",
+  "generation_mode": "NATIVE_MDXML",
+  "gold2_read_only_sha256": "5f37209b06d1d64fe97f5264e490b7611fba9b1a9dfa9195f2f1810a82b3ee60",
+  "output": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_Gold2_Integrated_4235_5111_Probe_v2.mdxml",
+  "sha256": "1863e6a5a508c82980466d6241fca8d1a5f76b38ecbc3a65aeccd56b8fe84896",
+  "project_id": "PROJECT-42a22fec-5172-79e5-edea-39ab102b8e37",
+  "model_id": "XMI-MODEL-RAIL-MBSE-GOLD2-INTEGRATED-4235-5111-PROBE-V2",
+  "counts": {
+    "product_blocks": 8,
+    "context_blocks": 1,
+    "packages": 9,
+    "part_properties": 8,
+    "proxy_ports": 8,
+    "raw_ports": 2,
+    "promoted_ports": 6,
+    "interface_blocks": 2,
+    "flow_properties": 2,
+    "connectors": 7,
+    "information_flows": 7,
+    "item_flows": 7,
+    "ibds": 7,
+    "icd_rows": 7
+  },
+  "resources": [
+    {
+      "diagram": "IBD_4230",
+      "resource_id": "BINARY-e0906781-9197-3f70-4fd0-449603954fc9",
+      "sha1": "7935e6df2d975a4823d05f41b9a197f440e915be",
+      "used_model_elements": 6
+    },
+    {
+      "diagram": "IBD_4200",
+      "resource_id": "BINARY-44f18155-1e1c-7f18-4ab9-69b22f231960",
+      "sha1": "a943773e480a3dd464eb5a8b7aacac4c0e739524",
+      "used_model_elements": 6
+    },
+    {
+      "diagram": "IBD_4000",
+      "resource_id": "BINARY-f04ef395-2280-6c69-e336-5cacfbf38b96",
+      "sha1": "0d4fe2aef7c9ee77f60b6cabfee5f188ca879eac",
+      "used_model_elements": 6
+    },
+    {
+      "diagram": "IBD_System_Context",
+      "resource_id": "BINARY-eacffc76-52c8-a520-a0e4-0dfd9f447d16",
+      "sha1": "b193a6755e180b29a9ec061295921e9763f71714",
+      "used_model_elements": 7
+    },
+    {
+      "diagram": "IBD_5000",
+      "resource_id": "BINARY-435ca16f-8bb3-b754-8d86-857726f3b0b1",
+      "sha1": "2c69f661be5ad128de16ac41cc5be8a697fc07a2",
+      "used_model_elements": 6
+    },
+    {
+      "diagram": "IBD_5100",
+      "resource_id": "BINARY-b09e0173-fe38-923e-fed4-b24ac183b755",
+      "sha1": "feb299c133193b9c8ce790c8dd6b72d978fd5dcb",
+      "used_model_elements": 6
+    },
+    {
+      "diagram": "IBD_5110",
+      "resource_id": "BINARY-08e06f62-d152-fb69-6abe-9514d5e365d2",
+      "sha1": "44f8d360a92f65069aef1fd93c66d672a3d211ea",
+      "used_model_elements": 6
+    }
+  ],
+  "independent_information_flow_path_count": 0,
+  "byte_deterministic": true
+}

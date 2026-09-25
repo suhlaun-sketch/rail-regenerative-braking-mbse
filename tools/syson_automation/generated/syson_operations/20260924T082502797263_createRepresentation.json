@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T08:25:01.311233+00:00",
+  "variables": {
+    "input": {
+      "id": "5851f8d5-0b0e-49b8-8b24-fb4089cdae30",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "objectId": "c2d2c80e-88b8-41e1-8d8b-d1901e0d6dcc",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "representationName": "AUTO_FULL_SMOKE_ALLOCATION"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "4bb40a3d-6880-410c-b484-b9ca2fdcdf8c",
+        "label": "AUTO_FULL_SMOKE_ALLOCATION",
+        "kind": "siriusComponents://representation?type=Diagram"
+      }
+    }
+  },
+  "error": null
+}

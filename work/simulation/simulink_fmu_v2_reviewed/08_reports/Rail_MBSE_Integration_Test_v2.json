@@ -1,0 +1,30 @@
+{
+  "scenario": "0-20 s traction; 20-30 s coast; 30-45 s regenerative braking; 45-50 s stop hold",
+  "checks": {
+    "acceleration": true,
+    "braking_deceleration": true,
+    "regen_power_direction": true,
+    "supercap_charging": true,
+    "soc_bounds": true,
+    "mechanical_brake_supplement": true,
+    "finite": true,
+    "power_plausibility": true,
+    "energy_balance": true
+  },
+  "metrics": {
+    "runtime_s": 9.5635157,
+    "v5_mps": 1.9920296876330552,
+    "v20_mps": 11.594142695701102,
+    "v30_mps": 11.136830677780335,
+    "v45_mps": 0,
+    "peak_traction_power_W": 702027.28043581825,
+    "peak_regen_power_W": 540854.88926103886,
+    "peak_mechanical_force_N": 79999.998505323558,
+    "soc_initial": 0.35,
+    "soc_30s": 0.35,
+    "soc_45s": 0.463719281901451,
+    "recovered_energy_kJ": 3820.9678718887858,
+    "energy_balance_relative_error": 8.1652888209698722E-15
+  },
+  "status": "PASS"
+}

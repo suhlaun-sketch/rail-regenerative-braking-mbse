@@ -1,0 +1,31 @@
+{
+  "contract_id": "INTEGRATED-DIRECTION-CONTRACT-V2",
+  "port_direction_source": "SysML::FlowProperty.direction in typed InterfaceBlock",
+  "port_metaclass_direction_attribute": "forbidden",
+  "pairs": {
+    "DELEGATION_SOURCE": [
+      "out",
+      "out"
+    ],
+    "ASSEMBLY_SIGNAL": [
+      "out",
+      "in"
+    ],
+    "DELEGATION_TARGET": [
+      "in",
+      "in"
+    ],
+    "PHYSICAL": [
+      "inout",
+      "inout"
+    ]
+  },
+  "hierarchical_counts": {
+    "ASSEMBLY_SIGNAL": 147,
+    "DELEGATION_SOURCE": 217,
+    "DELEGATION_TARGET": 223,
+    "PHYSICAL": 137
+  },
+  "unknown": 0,
+  "golden_trace": "4235 → 5111"
+}

@@ -1,0 +1,182 @@
+{
+  "validation_id": "RAIL-MBSE-STRUCTURE-PROBE-V4-QA",
+  "probe": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_SysML17_structure_probe_v4.xmi",
+  "counts": {
+    "product_blocks": 147,
+    "product_hierarchy_part_properties": 139,
+    "probe_product_blocks": 10,
+    "probe_context_blocks": 1,
+    "probe_composite_parts": 10,
+    "part_typed_by_non_block": 0,
+    "ports": {
+      "total": 517,
+      "input": 167,
+      "output": 210,
+      "inout": 140,
+      "unknown": 0,
+      "unique_interface_block_projections": 221
+    },
+    "model_duplicates": 0,
+    "bdd_symbol_duplicates": 0,
+    "relationship_duplicates": 0
+  },
+  "qa": [
+    {
+      "id": "STR-QA-01",
+      "status": "PASS",
+      "detail": "147 Product mappings and prior full definitions are uml:Class + standard Block; all 10 Probe Products are standard Blocks."
+    },
+    {
+      "id": "STR-QA-02",
+      "status": "PASS",
+      "detail": "No Product in the Probe is typed/stereotyped as InterfaceBlock or Signal."
+    },
+    {
+      "id": "STR-QA-03",
+      "status": "PASS",
+      "detail": "All source parent-child mappings and Probe Part Properties target Child Block xmi_ids."
+    },
+    {
+      "id": "STR-QA-04",
+      "status": "PASS",
+      "detail": "No composite Part Property is typed by uml:Signal."
+    },
+    {
+      "id": "STR-QA-05",
+      "status": "PASS",
+      "detail": "No composite Part Property is typed by an Item classifier."
+    },
+    {
+      "id": "STR-QA-06",
+      "status": "PASS",
+      "detail": "No composite Part Property is typed by an InterfaceBlock."
+    },
+    {
+      "id": "STR-QA-07",
+      "status": "PASS",
+      "detail": "139 frozen parent-child keys are unique; prior full contains no duplicate hierarchy Part Property."
+    },
+    {
+      "id": "STR-QA-08",
+      "status": "PASS",
+      "detail": "Each structural pair has one composite Property representation."
+    },
+    {
+      "id": "STR-QA-09",
+      "status": "PASS",
+      "detail": "The audited mapping contains 517 uml:Ports with 517 standard ProxyPort applications; both Probe Ports have correct Product owners."
+    },
+    {
+      "id": "STR-QA-10",
+      "status": "PASS",
+      "detail": "All 517 Ports have a deterministic effective direction."
+    },
+    {
+      "id": "STR-QA-11",
+      "status": "PASS",
+      "detail": "UNKNOWN direction = 0."
+    },
+    {
+      "id": "STR-QA-12",
+      "status": "PASS",
+      "detail": "All 167 frozen input Ports resolve to FlowProperty direction=in."
+    },
+    {
+      "id": "STR-QA-13",
+      "status": "PASS",
+      "detail": "All 210 frozen output Ports resolve to FlowProperty direction=out."
+    },
+    {
+      "id": "STR-QA-14",
+      "status": "PASS",
+      "detail": "All 140 frozen physical Ports resolve to FlowProperty direction=inout."
+    },
+    {
+      "id": "STR-QA-15",
+      "status": "PASS",
+      "detail": "BDD Block symbol duplicate = 0; the contract uses diagram_id + product_id."
+    },
+    {
+      "id": "STR-QA-16",
+      "status": "PASS",
+      "detail": "BDD Composition symbol duplicate = 0."
+    },
+    {
+      "id": "STR-QA-17",
+      "status": "PASS",
+      "detail": "BDD Connector generation is forbidden and its expected count is 0."
+    },
+    {
+      "id": "STR-QA-18",
+      "status": "PASS",
+      "detail": "BDD ItemFlow generation is forbidden and its expected count is 0."
+    },
+    {
+      "id": "STR-QA-19",
+      "status": "PASS",
+      "detail": "Probe IBD contract uses only direct child Part Properties; 5110 owns exactly part_5111/5112/5113."
+    },
+    {
+      "id": "STR-QA-20",
+      "status": "PASS",
+      "detail": "All Probe IBD Part Properties are typed by Product Blocks."
+    },
+    {
+      "id": "STR-QA-21",
+      "status": "PASS",
+      "detail": "All 184 frozen Final Connections have one prior-full Connector and no duplicate connection_id."
+    },
+    {
+      "id": "STR-QA-22",
+      "status": "PASS",
+      "detail": "147 SIGNAL Connections each retain one InformationFlow/ItemFlow without duplicate."
+    },
+    {
+      "id": "STR-QA-23",
+      "status": "PASS",
+      "detail": "Nine shared PhysicalNets use exactly nine net Connectors; total Connector count is 184 final + 9 net, with no pairwise clique expansion."
+    },
+    {
+      "id": "STR-QA-24",
+      "status": "PASS",
+      "detail": "191 Allocations are unique in the audited full mapping."
+    },
+    {
+      "id": "STR-QA-25",
+      "status": "PASS",
+      "detail": "5111 is a Block; part_5111 owner=5110, type=5111, aggregation=composite; 4235 does not own it."
+    }
+  ],
+  "qa_summary": {
+    "PASS": 25,
+    "FAIL": 0
+  },
+  "probe_checks": {
+    "xml_namespaces": true,
+    "profile_application": true,
+    "product_blocks": true,
+    "context_block": true,
+    "composite_parts": true,
+    "part_5110_children": true,
+    "part_typed_by_non_block": true,
+    "proxy_ports": true,
+    "source_direction": true,
+    "target_direction": true,
+    "no_port_direction_attribute": true,
+    "connector_owner_context": true,
+    "source_nested_path": true,
+    "target_nested_path": true,
+    "itemflow_direction": true,
+    "activity": true,
+    "allocate": true,
+    "unique_xmi_ids": true,
+    "local_references": true,
+    "byte_deterministic": true,
+    "no_diagram_elements": true,
+    "old_full_not_overwritten": true
+  },
+  "probe_status": "PASS",
+  "unresolved_local_references": [],
+  "full_xmi_published": false,
+  "cameo_import_test": "PENDING"
+}

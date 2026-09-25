@@ -1,0 +1,22 @@
+{
+  "operation_name": "hideDiagramElement",
+  "timestamp": "2026-09-24T14:34:30.902958+00:00",
+  "variables": {
+    "input": {
+      "id": "b53a3ff4-23ae-4a17-8f87-d8eb8ccfe46b",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "representationId": "1304075e-8826-4bc0-8278-bd75627e3bba",
+      "elementIds": [
+        "8fcaff37-26f0-3ca7-9baf-0f60df53f366"
+      ],
+      "hide": false
+    }
+  },
+  "representation_id": "1304075e-8826-4bc0-8278-bd75627e3bba",
+  "response": {
+    "hideDiagramElement": {
+      "__typename": "SuccessPayload"
+    }
+  },
+  "error": null
+}

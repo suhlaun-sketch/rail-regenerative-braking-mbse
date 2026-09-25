@@ -1,0 +1,44 @@
+{
+  "ssd_component_id": "L2_D100",
+  "ssd_component_name": "L2_D100",
+  "l2_code": "D100",
+  "l2_engineering_name": "操纵设施",
+  "inputs": [],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_D100::p_D112_rp_8962dea15ad904c6",
+      "ssd_connector_name": "p_D112_rp_8962dea15ad904c6",
+      "simulink_port_name": "p_D112_rp_8962dea15ad904c6",
+      "future_fmu_variable": "p_D112_rp_8962dea15ad904c6",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_D100::p_D113_rp_9ca0d9d396f8ffd0",
+      "ssd_connector_name": "p_D113_rp_9ca0d9d396f8ffd0",
+      "simulink_port_name": "p_D113_rp_9ca0d9d396f8ffd0",
+      "future_fmu_variable": "p_D113_rp_9ca0d9d396f8ffd0",
+      "binding_status": "READY"
+    },
+    {
+      "binding_id": "BIND::L2_D100::p_D114_rp_d3d5739989ecf2dd",
+      "ssd_connector_name": "p_D114_rp_d3d5739989ecf2dd",
+      "simulink_port_name": "p_D114_rp_d3d5739989ecf2dd",
+      "future_fmu_variable": "p_D114_rp_d3d5739989ecf2dd",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_D100::p_D121_rp_d32b32814a84a88a",
+      "ssd_connector_name": "p_D121_rp_d32b32814a84a88a",
+      "simulink_port_name": "p_D121_rp_d32b32814a84a88a",
+      "future_fmu_variable": "p_D121_rp_d32b32814a84a88a",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 4,
+  "connected_l2_peers": [
+    "L2_8100"
+  ],
+  "future_simulink": "L2_D100.slx",
+  "future_fmu": "L2_D100.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

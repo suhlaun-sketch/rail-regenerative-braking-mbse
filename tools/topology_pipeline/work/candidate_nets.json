@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "kg_sha256": "8968c94456c651179586d014e54d8312fa44798107e644ab4af7b6b471f7810b",
+    "Product": 147,
+    "Item": 144,
+    "Profile": 1,
+    "CONTAINS": 139,
+    "EXPOSES": 517,
+    "Active_EXPOSES": 511,
+    "Inactive_EXPOSES": 6,
+    "Port_nodes": 0,
+    "net_count": 9,
+    "member_count": 83
+  },
+  "nets": [
+    {
+      "net_id": "NET-DC-LINK-01",
+      "connection_mode": "NET",
+      "net_kind": "shared DC Link",
+      "item_code": "ITM-PHY-003",
+      "interface_type_id": "IF-PHY-003",
+      "observation": "U_dc",
+      "members": [
+        {
+          "port_id": "PORT::5121::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "5121",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::5122::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "5122",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::5131::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "5131",
+          "product_role": "ENERGY_CONVERTER",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::5132::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "5132",
+          "product_role": "ENERGY_CONVERTER",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::5142::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "5142",
+          "product_role": "ENERGY_SINK",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X111::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "X111",
+          "product_role": "ENERGY_CONVERTER",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X113::中间直流电能端口::ITM-PHY-003::双向物理",
+          "product_code": "X113",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-STORAGE-DC-BUS-01",
+      "connection_mode": "NET",
+      "net_kind": "storage DC upstream bus",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::X111::储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X111",
+          "product_role": "ENERGY_CONVERTER",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X113::储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X113",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::X131::母线段储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X131",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X132::预充输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X132",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "connection_mode": "NET",
+      "net_kind": "storage DC protected intermediate bus",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::X131::负载段储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X131",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X132::预充输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X132",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X133::保护输入段储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X133",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-STORAGE-DC-SC-01",
+      "connection_mode": "NET",
+      "net_kind": "supercapacitor terminal net",
+      "item_code": "ITM-PHY-016",
+      "interface_type_id": "IF-PHY-016",
+      "observation": "U_sc",
+      "members": [
+        {
+          "port_id": "PORT::X133::保护输出段储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X133",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X121::储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X121",
+          "product_role": "ENERGY_STORAGE",
+          "participation": "ENERGY"
+        },
+        {
+          "port_id": "PORT::X122::储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X122",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::X123::储能侧直流电能端口::ITM-PHY-016::双向物理",
+          "product_code": "X123",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-PNEU-MAIN-01",
+      "connection_mode": "NET",
+      "net_kind": "main reservoir shared pneumatic net",
+      "item_code": "ITM-PHY-008",
+      "interface_type_id": "IF-PHY-008",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::3813::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "3813",
+          "product_role": "ACTUATOR",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7124::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7124",
+          "product_role": "ENERGY_SOURCE",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7131::总风管末端压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7131",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7131::总风管首端压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7131",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7142::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7142",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::7222::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7222",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7223::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7223",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7224::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7224",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::7225::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7225",
+          "product_role": "ACTUATOR",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7226::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7226",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7229::主风压缩空气端口::ITM-PHY-008::双向物理",
+          "product_code": "7229",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-PNEU-BRAKE-SUPPLY-01",
+      "connection_mode": "NET",
+      "net_kind": "brake supply pneumatic net",
+      "item_code": "ITM-PHY-009",
+      "interface_type_id": "IF-PHY-009",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::7222::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+          "product_code": "7222",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7223::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+          "product_code": "7223",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7224::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+          "product_code": "7224",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::7225::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+          "product_code": "7225",
+          "product_role": "ACTUATOR",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7226::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+          "product_code": "7226",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7229::制动控制压缩空气端口::ITM-PHY-009::双向物理",
+          "product_code": "7229",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-PNEU-CYLINDER-01",
+      "connection_mode": "NET",
+      "net_kind": "cylinder/control pressure candidate net",
+      "item_code": "ITM-PHY-010",
+      "interface_type_id": "IF-PHY-010",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::7223::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7223",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7226::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7226",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7227::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7227",
+          "product_role": "ACTUATOR",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7228::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7228",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7228::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7228",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::722A::上游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "722A",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::722A::下游制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "722A",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::722B::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "722B",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::722C::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "722C",
+          "product_role": "SENSOR_TAP",
+          "participation": "TAP"
+        },
+        {
+          "port_id": "PORT::7252::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7252",
+          "product_role": "ACTUATOR",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7255::制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7255",
+          "product_role": "ACTUATOR",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7284::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7284",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7284::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7284",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7285::第一气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7285",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        },
+        {
+          "port_id": "PORT::7285::第二气路制动缸压缩空气端口::ITM-PHY-010::双向物理",
+          "product_code": "7285",
+          "product_role": "PNEUMATIC_ELEMENT",
+          "participation": "FLOW"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-LVDC-CONTROL-01",
+      "connection_mode": "NET",
+      "net_kind": "low-voltage control supply net",
+      "item_code": "ITM-PHY-015",
+      "interface_type_id": "IF-PHY-015",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::3811::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "3811",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::411C::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "411C",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::4238::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "4238",
+          "product_role": "IO_ROUTER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::4239::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "4239",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::4241::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "4241",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::4517::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "4517",
+          "product_role": "SENSOR_TAP",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::4518::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "4518",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::5111::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "5111",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::5112::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "5112",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::5113::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "5113",
+          "product_role": "SENSOR_TAP",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::5133::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "5133",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::5145::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "5145",
+          "product_role": "SENSOR_TAP",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::7211::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "7211",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::7213::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "7213",
+          "product_role": "ACTUATOR",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::7281::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "7281",
+          "product_role": "ACTUATOR",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8121::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8121",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8122::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8122",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8125::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8125",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8127::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8127",
+          "product_role": "IO_ROUTER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8128::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8128",
+          "product_role": "IO_ROUTER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8151::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8151",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8152::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8152",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8154::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8154",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::8166::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "8166",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::X112::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "X112",
+          "product_role": "CONTROLLER",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::X113::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "X113",
+          "product_role": "SENSOR_TAP",
+          "participation": "LOAD"
+        },
+        {
+          "port_id": "PORT::X133::低压控制电能端口::ITM-PHY-015::双向物理",
+          "product_code": "X133",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "LOAD"
+        }
+      ],
+      "pairwise_clique_generated": false
+    },
+    {
+      "net_id": "NET-MAIN-RETURN-01",
+      "connection_mode": "NET",
+      "net_kind": "traction return/ground candidate net",
+      "item_code": "ITM-PHY-011",
+      "interface_type_id": "IF-PHY-011",
+      "observation": null,
+      "members": [
+        {
+          "port_id": "PORT::4411::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+          "product_code": "4411",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "RETURN"
+        },
+        {
+          "port_id": "PORT::4411::回流侧电流端口::ITM-PHY-011::双向物理",
+          "product_code": "4411",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "RETURN"
+        },
+        {
+          "port_id": "PORT::4412::主回路侧回流电流端口::ITM-PHY-011::双向物理",
+          "product_code": "4412",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "RETURN"
+        },
+        {
+          "port_id": "PORT::4412::回流侧电流端口::ITM-PHY-011::双向物理",
+          "product_code": "4412",
+          "product_role": "SAFETY_LOGIC",
+          "participation": "RETURN"
+        },
+        {
+          "port_id": "PORT::4413::固定端回流电流端口::ITM-PHY-011::双向物理",
+          "product_code": "4413",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "RETURN"
+        },
+        {
+          "port_id": "PORT::4413::旋转端回流电流端口::ITM-PHY-011::双向物理",
+          "product_code": "4413",
+          "product_role": "SERIES_ELECTRICAL",
+          "participation": "RETURN"
+        }
+      ],
+      "pairwise_clique_generated": false
+    }
+  ]
+}

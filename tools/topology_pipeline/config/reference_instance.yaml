@@ -1,0 +1,22 @@
+{
+  "profile_id":"CRH_AC25KV_SC",
+  "project_id":"RAIL_MBSE_TRACTION_BRAKE",
+  "logical_control_route":"DIRECT_BUS",
+  "physical_discrete_route":"VIA_IO_WHEN_REQUIRED",
+  "coupling_resolution":{"assembly_order":["5311","3511","3514","3512","3121"],"status":"SERIES_ASSEMBLY","basis":"Product names identify motor-side coupling, universal shaft, and gearbox-side coupling; paired rotating-mechanical ports support serial composition."},
+  "brake_disc_resolution":{"selected_product":"3131","selection_basis":"executable_reference_assumption","retained_solution_space":["3131","3132","3133"]},
+  "signal_source_overrides":[
+    ["4238","ITM-CMD-016","4239"],["4238","ITM-STA-016","4517"],
+    ["5111","ITM-MEA-008","5145"],["5111","ITM-MEA-009","5145"],["5111","ITM-MEA-005","4235"],["5111","ITM-MEA-006","4236"],
+    ["5112","ITM-MEA-008","5145"],["5112","ITM-MEA-009","5145"],["5112","ITM-MEA-011","5311"],["5112","ITM-MEA-010","5113"],
+    ["5133","ITM-MEA-008","5145"],["7211","ITM-STA-009","722C"],["7211","ITM-STA-025","8152"],
+    ["8121","ITM-CMD-030","8127"],["8121","ITM-STA-001","8125"],
+    ["8122","ITM-MEA-008","5145"],["8122","ITM-LIM-004","8125"],["8122","ITM-CMD-001","8121"],["8122","ITM-ACC-005","5142"],["8122","ITM-STA-002","8125"],["8122","ITM-MEA-029","X111"],["8122","ITM-LIM-001","8125"],["8122","ITM-ACC-003","5131"],["8122","ITM-CMD-030","8127"],["8122","ITM-ACC-002","5132"],["8122","ITM-CMD-003","8121"],["8122","ITM-STA-019","5113"],["8122","ITM-STA-001","8125"],["8122","ITM-CMD-002","8121"],["8122","ITM-CMD-004","8121"],["8122","ITM-MEA-028","X121"],
+    ["8125","ITM-MEA-008","5145"],["8127","ITM-STA-027","E100"],["8128","ITM-CMD-024","8122"],
+    ["8154","ITM-CMD-009","8121"],["8154","ITM-CMD-008","8121"],
+    ["8166","ITM-MEA-008","5145"],["8166","ITM-MEA-009","5145"],
+    ["X112","ITM-MEA-008","X113"],["X112","ITM-STA-034","X133"],["X112","ITM-MEA-030","X113"],["X112","ITM-LIM-007","X113"]
+  ],
+  "direct_bus_routes":[["X112","ITM-MEA-025","X122"],["X112","ITM-MEA-026","X123"],["X112","ITM-MEA-027","X124"]],
+  "additional_signal_routes":[["3811","ITM-CMD-024","8128"],["8128","ITM-STA-024","8151"],["8128","ITM-STA-025","8152"],["8128","ITM-STA-026","8154"],["8125","ITM-MEA-012","5311"],["8125","ITM-MEA-004","3644"]]
+}

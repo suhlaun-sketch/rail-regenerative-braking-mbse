@@ -1,0 +1,4 @@
+import {Card,Col,Descriptions,Row,Tag,Typography} from 'antd'
+import {useEffect,useState} from 'react'
+import {api} from '../api'
+export default function FmuPage(){const [d,setD]=useState<any>();useEffect(()=>{api.get('/application/fmu').then(r=>setD(r.data))},[]);return <><div className="page-title"><Typography.Title level={3}>FMU组件库</Typography.Title><Tag color="green">16个L2 FMU</Tag></div><Row gutter={[14,14]}>{d?.models.map((m:any)=><Col xs={24} md={12} xl={8} key={m.component}><Card title={m.display_name} extra={<Tag color={m.validation_status==='PASS'?'green':'default'}>{m.validation_status}</Tag>}><Descriptions size="small" column={1} items={[{key:'file',label:'FMU文件',children:m.fmu_file?.split('/').pop()},{key:'fmi',label:'FMI',children:`${m.fmi_version} ${m.fmi_type}`},{key:'vars',label:'验证变量',children:m.validated_variables}]}/><details><summary>技术信息</summary><div>{m.component}</div></details></Card></Col>)}</Row></>}

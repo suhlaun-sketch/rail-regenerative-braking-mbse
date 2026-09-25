@@ -1,0 +1,3138 @@
+{
+  "artifact": "Executable SSP Traceability",
+  "authority": {
+    "structural_ssd": "work/sysmlv2/ssi_integration/03_ssd/Rail_MBSE_L2_All16_v1.ssd",
+    "executable_interface": "work/simulation/implementation_binding/Rail_MBSE_Executable_FMU_Interface_v1.json"
+  },
+  "counts": {
+    "components": 16,
+    "structural_connectors": 138,
+    "executable_variables": 151,
+    "structural_connections": 74,
+    "executable_connection_records": 87,
+    "unique_causal_signal_paths": 77,
+    "trace_equivalent_duplicate_records": 10
+  },
+  "variables": [
+    {
+      "component": "L2_3100",
+      "executable_variable": "in_T_brake",
+      "executable_variable_id": "EV::L2_3100::in_T_brake",
+      "structural_ssd_connectors": [
+        "L2_3100.p_3131_rp_06d152ddc255f2eb"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3100.p_N_3130.p_N_3131.rp_06d152ddc255f2eb",
+        "ItemDefinitions::ITM-PHY-007",
+        "IF_IF_PHY_007"
+      ]
+    },
+    {
+      "component": "L2_3100",
+      "executable_variable": "in_T_shaft",
+      "executable_variable_id": "EV::L2_3100::in_T_shaft",
+      "structural_ssd_connectors": [
+        "L2_3100.p_3121_rp_fdcd27ee9b0a936f"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_fdcd27ee9b0a936f",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3100",
+      "executable_variable": "out_omega_axle",
+      "executable_variable_id": "EV::L2_3100::out_omega_axle",
+      "structural_ssd_connectors": [
+        "L2_3100.p_3112_rp_c530418a51140052"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3100.p_N_3110.p_N_3112.rp_c530418a51140052",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3100",
+      "executable_variable": "out_omega_gearbox",
+      "executable_variable_id": "EV::L2_3100::out_omega_gearbox",
+      "structural_ssd_connectors": [
+        "L2_3100.p_3121_rp_6464b6253314b208"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_6464b6253314b208",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3100",
+      "executable_variable": "out_omega_shaft",
+      "executable_variable_id": "EV::L2_3100::out_omega_shaft",
+      "structural_ssd_connectors": [
+        "L2_3100.p_3121_rp_fdcd27ee9b0a936f"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_fdcd27ee9b0a936f",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3100",
+      "executable_variable": "out_omega_wheel",
+      "executable_variable_id": "EV::L2_3100::out_omega_wheel",
+      "structural_ssd_connectors": [
+        "L2_3100.p_3131_rp_06d152ddc255f2eb"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3100.p_N_3130.p_N_3131.rp_06d152ddc255f2eb",
+        "ItemDefinitions::ITM-PHY-007",
+        "IF_IF_PHY_007"
+      ]
+    },
+    {
+      "component": "L2_3500",
+      "executable_variable": "in_T_shaft",
+      "executable_variable_id": "EV::L2_3500::in_T_shaft",
+      "structural_ssd_connectors": [
+        "L2_3500.p_3511_rp_aa7691c6f81e4771"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3500",
+      "executable_variable": "in_omega_shaft",
+      "executable_variable_id": "EV::L2_3500::in_omega_shaft",
+      "structural_ssd_connectors": [
+        "L2_3500.p_3512_rp_c455741f6ca5a597"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3500",
+      "executable_variable": "out_T_shaft",
+      "executable_variable_id": "EV::L2_3500::out_T_shaft",
+      "structural_ssd_connectors": [
+        "L2_3500.p_3512_rp_c455741f6ca5a597"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3500",
+      "executable_variable": "out_omega_shaft",
+      "executable_variable_id": "EV::L2_3500::out_omega_shaft",
+      "structural_ssd_connectors": [
+        "L2_3500.p_3511_rp_aa7691c6f81e4771"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3600",
+      "executable_variable": "in_omega_axle",
+      "executable_variable_id": "EV::L2_3600::in_omega_axle",
+      "structural_ssd_connectors": [
+        "L2_3600.p_3641_rp_4ddc6037e5eea6fc"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3600.p_N_3640.p_N_3641.rp_4ddc6037e5eea6fc",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3600",
+      "executable_variable": "in_omega_gearbox",
+      "executable_variable_id": "EV::L2_3600::in_omega_gearbox",
+      "structural_ssd_connectors": [
+        "L2_3600.p_3643_rp_48ddc723a7d58137"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3600.p_N_3640.p_N_3643.rp_48ddc723a7d58137",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3600",
+      "executable_variable": "in_omega_motor",
+      "executable_variable_id": "EV::L2_3600::in_omega_motor",
+      "structural_ssd_connectors": [
+        "L2_3600.p_3644_rp_af1c1b2c65382775"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3600.p_N_3640.p_N_3644.rp_af1c1b2c65382775",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_3600",
+      "executable_variable": "out_motor_speed",
+      "executable_variable_id": "EV::L2_3600::out_motor_speed",
+      "structural_ssd_connectors": [
+        "L2_3600.p_3644_rp_08c271db56ce8427"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3600.p_N_3640.p_N_3644.rp_08c271db56ce8427",
+        "ItemDefinitions::ITM-MEA-004",
+        "IF_IF_MEA_004"
+      ]
+    },
+    {
+      "component": "L2_3800",
+      "executable_variable": "in_sanding_request",
+      "executable_variable_id": "EV::L2_3800::in_sanding_request",
+      "structural_ssd_connectors": [
+        "L2_3800.p_3811_rp_81d4e1a7092e0653"
+      ],
+      "sysml_elements": [
+        "p_N_3000.p_N_3800.p_N_3810.p_N_3811.rp_81d4e1a7092e0653",
+        "ItemDefinitions::ITM-CMD-024",
+        "IF_IF_CMD_024"
+      ]
+    },
+    {
+      "component": "L2_4100",
+      "executable_variable": "in_I_ac_rms",
+      "executable_variable_id": "EV::L2_4100::in_I_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4100.p_4111_rp_ca65ceda639dfc7a"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4100.p_N_4110.p_N_4111.rp_ca65ceda639dfc7a",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4100",
+      "executable_variable": "in_pantograph_command",
+      "executable_variable_id": "EV::L2_4100::in_pantograph_command",
+      "structural_ssd_connectors": [
+        "L2_4100.p_411C_rp_201c13a158f19a88"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4100.p_N_4110.p_N_411C.rp_201c13a158f19a88",
+        "ItemDefinitions::ITM-CMD-018",
+        "IF_IF_CMD_018"
+      ]
+    },
+    {
+      "component": "L2_4100",
+      "executable_variable": "out_U_ac_rms",
+      "executable_variable_id": "EV::L2_4100::out_U_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4100.p_4111_rp_ca65ceda639dfc7a"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4100.p_N_4110.p_N_4111.rp_ca65ceda639dfc7a",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4100",
+      "executable_variable": "out_f_ac",
+      "executable_variable_id": "EV::L2_4100::out_f_ac",
+      "structural_ssd_connectors": [
+        "L2_4100.p_4111_rp_ca65ceda639dfc7a"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4100.p_N_4110.p_N_4111.rp_ca65ceda639dfc7a",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4100",
+      "executable_variable": "out_pantograph_state",
+      "executable_variable_id": "EV::L2_4100::out_pantograph_state",
+      "structural_ssd_connectors": [
+        "L2_4100.p_411C_rp_72d2eed2608e1b56"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4100.p_N_4110.p_N_411C.rp_72d2eed2608e1b56",
+        "ItemDefinitions::ITM-STA-015",
+        "IF_IF_STA_015"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "in_I_ac_rms",
+      "executable_variable_id": "EV::L2_4200::in_I_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4236_rp_78e99abb7d77c156"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "in_U_ac_rms",
+      "executable_variable_id": "EV::L2_4200::in_U_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4211_rp_bba7ece236be8f3c"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "in_f_ac",
+      "executable_variable_id": "EV::L2_4200::in_f_ac",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4211_rp_bba7ece236be8f3c"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "in_hv_safety_loop_state",
+      "executable_variable_id": "EV::L2_4200::in_hv_safety_loop_state",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4239_rp_c9c4c887a8c7b2f0"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4239.rp_c9c4c887a8c7b2f0",
+        "ItemDefinitions::ITM-STA-024",
+        "IF_IF_STA_024"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "in_hv_system_fault",
+      "executable_variable_id": "EV::L2_4200::in_hv_system_fault",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4238_rp_11b7e7965ec2e386"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_11b7e7965ec2e386",
+        "ItemDefinitions::ITM-STA-016",
+        "IF_IF_STA_016"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "in_pantograph_state",
+      "executable_variable_id": "EV::L2_4200::in_pantograph_state",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4238_rp_d9d25dfbac32d1e3"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_d9d25dfbac32d1e3",
+        "ItemDefinitions::ITM-STA-015",
+        "IF_IF_STA_015"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_I_ac_rms",
+      "executable_variable_id": "EV::L2_4200::out_I_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4211_rp_bba7ece236be8f3c"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_U_ac_rms",
+      "executable_variable_id": "EV::L2_4200::out_U_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4236_rp_78e99abb7d77c156"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_f_ac",
+      "executable_variable_id": "EV::L2_4200::out_f_ac",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4236_rp_78e99abb7d77c156"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_hv_breaker_command",
+      "executable_variable_id": "EV::L2_4200::out_hv_breaker_command",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4238_rp_65aacc4600de3990"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_65aacc4600de3990",
+        "ItemDefinitions::ITM-CMD-016",
+        "IF_IF_CMD_016"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_hv_breaker_state",
+      "executable_variable_id": "EV::L2_4200::out_hv_breaker_state",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4238_rp_0674d2b80a6a72da"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_0674d2b80a6a72da",
+        "ItemDefinitions::ITM-STA-013",
+        "IF_IF_STA_013"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_hv_system_fault",
+      "executable_variable_id": "EV::L2_4200::out_hv_system_fault",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4238_rp_9458944450b0dd4c"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9458944450b0dd4c",
+        "ItemDefinitions::ITM-STA-016",
+        "IF_IF_STA_016"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_line_current",
+      "executable_variable_id": "EV::L2_4200::out_line_current",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4236_rp_9107465175683792",
+        "L2_4200.p_4238_rp_c7dcc306b020116f"
+      ],
+      "sysml_elements": [
+        "IF_IF_MEA_006",
+        "ItemDefinitions::ITM-MEA-006",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_9107465175683792",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_c7dcc306b020116f"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_line_voltage",
+      "executable_variable_id": "EV::L2_4200::out_line_voltage",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4235_rp_6fea4b377f978aac",
+        "L2_4200.p_4238_rp_5576b5e0dbb912ba"
+      ],
+      "sysml_elements": [
+        "IF_IF_MEA_005",
+        "ItemDefinitions::ITM-MEA-005",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4235.rp_6fea4b377f978aac",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_5576b5e0dbb912ba"
+      ]
+    },
+    {
+      "component": "L2_4200",
+      "executable_variable": "out_pantograph_command",
+      "executable_variable_id": "EV::L2_4200::out_pantograph_command",
+      "structural_ssd_connectors": [
+        "L2_4200.p_4238_rp_9744a4b3a255a6e8"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9744a4b3a255a6e8",
+        "ItemDefinitions::ITM-CMD-018",
+        "IF_IF_CMD_018"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "in_I_sec_rms",
+      "executable_variable_id": "EV::L2_4500::in_I_sec_rms",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4513_rp_f597e9dc63931270"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270",
+        "ItemDefinitions::ITM-PHY-014",
+        "IF_IF_PHY_014"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "in_U_ac_rms",
+      "executable_variable_id": "EV::L2_4500::in_U_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4511_rp_c782fb362436088e"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "in_f_ac",
+      "executable_variable_id": "EV::L2_4500::in_f_ac",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4511_rp_c782fb362436088e"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "in_hv_breaker_state",
+      "executable_variable_id": "EV::L2_4500::in_hv_breaker_state",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4518_rp_67eef246e016ac82"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4518.rp_67eef246e016ac82",
+        "ItemDefinitions::ITM-STA-013",
+        "IF_IF_STA_013"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "in_hv_system_fault",
+      "executable_variable_id": "EV::L2_4500::in_hv_system_fault",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4518_rp_a87c9390595138d6"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4518.rp_a87c9390595138d6",
+        "ItemDefinitions::ITM-STA-016",
+        "IF_IF_STA_016"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "out_I_ac_rms",
+      "executable_variable_id": "EV::L2_4500::out_I_ac_rms",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4511_rp_c782fb362436088e"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "out_U_sec_rms",
+      "executable_variable_id": "EV::L2_4500::out_U_sec_rms",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4513_rp_f597e9dc63931270"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270",
+        "ItemDefinitions::ITM-PHY-014",
+        "IF_IF_PHY_014"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "out_f_sec",
+      "executable_variable_id": "EV::L2_4500::out_f_sec",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4513_rp_f597e9dc63931270"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270",
+        "ItemDefinitions::ITM-PHY-014",
+        "IF_IF_PHY_014"
+      ]
+    },
+    {
+      "component": "L2_4500",
+      "executable_variable": "out_hv_system_fault",
+      "executable_variable_id": "EV::L2_4500::out_hv_system_fault",
+      "structural_ssd_connectors": [
+        "L2_4500.p_4517_rp_b93b1716e8b4e844"
+      ],
+      "sysml_elements": [
+        "p_N_4000.p_N_4500.p_N_4510.p_N_4517.rp_b93b1716e8b4e844",
+        "ItemDefinitions::ITM-STA-016",
+        "IF_IF_STA_016"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_I_motor_rms",
+      "executable_variable_id": "EV::L2_5100::in_I_motor_rms",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5132_rp_770f7e1c507cc073"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_U_sec_rms",
+      "executable_variable_id": "EV::L2_5100::in_U_sec_rms",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5121_rp_9dedfe88c8a34261",
+        "L2_5100.p_5122_rp_0b57347688ba1240"
+      ],
+      "sysml_elements": [
+        "IF_IF_PHY_014",
+        "ItemDefinitions::ITM-PHY-014",
+        "p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261",
+        "p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_f_sec",
+      "executable_variable_id": "EV::L2_5100::in_f_sec",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5121_rp_9dedfe88c8a34261",
+        "L2_5100.p_5122_rp_0b57347688ba1240"
+      ],
+      "sysml_elements": [
+        "IF_IF_PHY_014",
+        "ItemDefinitions::ITM-PHY-014",
+        "p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261",
+        "p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_line_current",
+      "executable_variable_id": "EV::L2_5100::in_line_current",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5111_rp_651700e69b7dccba"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_651700e69b7dccba",
+        "ItemDefinitions::ITM-MEA-006",
+        "IF_IF_MEA_006"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_line_voltage",
+      "executable_variable_id": "EV::L2_5100::in_line_voltage",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5111_rp_5f90d6dd8fba4321"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_5f90d6dd8fba4321",
+        "ItemDefinitions::ITM-MEA-005",
+        "IF_IF_MEA_005"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_motor_phase_voltage",
+      "executable_variable_id": "EV::L2_5100::in_motor_phase_voltage",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5112_rp_21e86fb073b61523"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_21e86fb073b61523",
+        "ItemDefinitions::ITM-MEA-011",
+        "IF_IF_MEA_011"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_motor_speed",
+      "executable_variable_id": "EV::L2_5100::in_motor_speed",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5112_rp_780596fabcc73a0f"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_780596fabcc73a0f",
+        "ItemDefinitions::ITM-MEA-004",
+        "IF_IF_MEA_004"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_motor_torque_actual",
+      "executable_variable_id": "EV::L2_5100::in_motor_torque_actual",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5112_rp_4557e9b0656c46f5"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_4557e9b0656c46f5",
+        "ItemDefinitions::ITM-MEA-012",
+        "IF_IF_MEA_012"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "in_motor_torque_request",
+      "executable_variable_id": "EV::L2_5100::in_motor_torque_request",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5112_rp_6ce5fb5c81d47ab4"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_6ce5fb5c81d47ab4",
+        "ItemDefinitions::ITM-CMD-012",
+        "IF_IF_CMD_012"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_I_sec_rms",
+      "executable_variable_id": "EV::L2_5100::out_I_sec_rms",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5121_rp_9dedfe88c8a34261",
+        "L2_5100.p_5122_rp_0b57347688ba1240"
+      ],
+      "sysml_elements": [
+        "IF_IF_PHY_014",
+        "ItemDefinitions::ITM-PHY-014",
+        "p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261",
+        "p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_U_motor_ll_rms",
+      "executable_variable_id": "EV::L2_5100::out_U_motor_ll_rms",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5132_rp_770f7e1c507cc073"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_brake_resistor_dissipated_power",
+      "executable_variable_id": "EV::L2_5100::out_brake_resistor_dissipated_power",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5142_rp_ff09931c451e831b"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5140.p_N_5142.rp_ff09931c451e831b",
+        "ItemDefinitions::ITM-ACC-005",
+        "IF_IF_ACC_005"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_dc_link_current",
+      "executable_variable_id": "EV::L2_5100::out_dc_link_current",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5145_rp_a9cc4822e30a5ede"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5140.p_N_5145.rp_a9cc4822e30a5ede",
+        "ItemDefinitions::ITM-MEA-009",
+        "IF_IF_MEA_009"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_dc_link_voltage",
+      "executable_variable_id": "EV::L2_5100::out_dc_link_voltage",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5145_rp_1680714c67f7d311"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5140.p_N_5145.rp_1680714c67f7d311",
+        "ItemDefinitions::ITM-MEA-008",
+        "IF_IF_MEA_008"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_f_motor_e",
+      "executable_variable_id": "EV::L2_5100::out_f_motor_e",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5132_rp_770f7e1c507cc073"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_grid_acceptable_regenerative_power",
+      "executable_variable_id": "EV::L2_5100::out_grid_acceptable_regenerative_power",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5111_rp_cd7720cf9a4eae22"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_cd7720cf9a4eae22",
+        "ItemDefinitions::ITM-LIM-005",
+        "IF_IF_LIM_005"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_grid_returned_power",
+      "executable_variable_id": "EV::L2_5100::out_grid_returned_power",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5131_rp_95979f7c6bb276e7"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5130.p_N_5131.rp_95979f7c6bb276e7",
+        "ItemDefinitions::ITM-ACC-003",
+        "IF_IF_ACC_003"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_regenerative_power_actual",
+      "executable_variable_id": "EV::L2_5100::out_regenerative_power_actual",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5132_rp_75d86c9dc39b94b8"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_75d86c9dc39b94b8",
+        "ItemDefinitions::ITM-ACC-002",
+        "IF_IF_ACC_002"
+      ]
+    },
+    {
+      "component": "L2_5100",
+      "executable_variable": "out_traction_converter_fault",
+      "executable_variable_id": "EV::L2_5100::out_traction_converter_fault",
+      "structural_ssd_connectors": [
+        "L2_5100.p_5113_rp_d93ff3dea2be11bd"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5100.p_N_5110.p_N_5113.rp_d93ff3dea2be11bd",
+        "ItemDefinitions::ITM-STA-019",
+        "IF_IF_STA_019"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "in_U_motor_ll_rms",
+      "executable_variable_id": "EV::L2_5300::in_U_motor_ll_rms",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_57f3c317ac0c860d"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "in_f_motor_e",
+      "executable_variable_id": "EV::L2_5300::in_f_motor_e",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_57f3c317ac0c860d"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "in_omega_shaft",
+      "executable_variable_id": "EV::L2_5300::in_omega_shaft",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "out_I_motor_rms",
+      "executable_variable_id": "EV::L2_5300::out_I_motor_rms",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_57f3c317ac0c860d"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "out_T_shaft",
+      "executable_variable_id": "EV::L2_5300::out_T_shaft",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "out_motor_phase_voltage",
+      "executable_variable_id": "EV::L2_5300::out_motor_phase_voltage",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_537e9856bafa2a02"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_537e9856bafa2a02",
+        "ItemDefinitions::ITM-MEA-011",
+        "IF_IF_MEA_011"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "out_motor_speed",
+      "executable_variable_id": "EV::L2_5300::out_motor_speed",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_79c695a1342df24f"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_79c695a1342df24f",
+        "ItemDefinitions::ITM-MEA-004",
+        "IF_IF_MEA_004"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "out_motor_torque_actual",
+      "executable_variable_id": "EV::L2_5300::out_motor_torque_actual",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_10bb4c4f0063bc18"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_10bb4c4f0063bc18",
+        "ItemDefinitions::ITM-MEA-012",
+        "IF_IF_MEA_012"
+      ]
+    },
+    {
+      "component": "L2_5300",
+      "executable_variable": "out_omega_motor",
+      "executable_variable_id": "EV::L2_5300::out_omega_motor",
+      "structural_ssd_connectors": [
+        "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+      ],
+      "sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ]
+    },
+    {
+      "component": "L2_7100",
+      "executable_variable": "out_main_reservoir_pressure",
+      "executable_variable_id": "EV::L2_7100::out_main_reservoir_pressure",
+      "structural_ssd_connectors": [
+        "L2_7100.p_7142_rp_52f3b82b80918b84"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7100.p_N_7140.p_N_7142.rp_52f3b82b80918b84",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_achieved_dynamic_brake_force",
+      "executable_variable_id": "EV::L2_7200::in_achieved_dynamic_brake_force",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_179bcc3fb8dacbbf"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_179bcc3fb8dacbbf",
+        "ItemDefinitions::ITM-MEA-013",
+        "IF_IF_MEA_013"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_available_dynamic_brake_force",
+      "executable_variable_id": "EV::L2_7200::in_available_dynamic_brake_force",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_e4d6047a07b1416e"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_e4d6047a07b1416e",
+        "ItemDefinitions::ITM-LIM-001",
+        "IF_IF_LIM_001"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_brake_cylinder_pressure",
+      "executable_variable_id": "EV::L2_7200::in_brake_cylinder_pressure",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_f786158194c89c8a"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_f786158194c89c8a",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_brake_safety_loop_state",
+      "executable_variable_id": "EV::L2_7200::in_brake_safety_loop_state",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_daaf414c1711f2bd"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_daaf414c1711f2bd",
+        "ItemDefinitions::ITM-STA-025",
+        "IF_IF_STA_025"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_dynamic_brake_availability",
+      "executable_variable_id": "EV::L2_7200::in_dynamic_brake_availability",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_d26568a796272d7a"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_d26568a796272d7a",
+        "ItemDefinitions::ITM-STA-002",
+        "IF_IF_STA_002"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_emergency_brake_request",
+      "executable_variable_id": "EV::L2_7200::in_emergency_brake_request",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_faa6c7c9931b0a58",
+        "L2_7200.p_7226_rp_5f6a9d81cebde2d3"
+      ],
+      "sysml_elements": [
+        "IF_IF_CMD_004",
+        "ItemDefinitions::ITM-CMD-004",
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_faa6c7c9931b0a58",
+        "p_N_7000.p_N_7200.p_N_7220.p_N_7226.rp_5f6a9d81cebde2d3"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_main_reservoir_pressure",
+      "executable_variable_id": "EV::L2_7200::in_main_reservoir_pressure",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_04cfaf63bfa3ed70"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_04cfaf63bfa3ed70",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_omega_wheel",
+      "executable_variable_id": "EV::L2_7200::in_omega_wheel",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7254_rp_d9511ef0fa1c17df"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df",
+        "ItemDefinitions::ITM-PHY-007",
+        "IF_IF_PHY_007"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_safety_brake_request",
+      "executable_variable_id": "EV::L2_7200::in_safety_brake_request",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_da3049ae66223d22"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_da3049ae66223d22",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "in_service_brake_request",
+      "executable_variable_id": "EV::L2_7200::in_service_brake_request",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_77afbfa330bfb95e"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_77afbfa330bfb95e",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "out_T_brake",
+      "executable_variable_id": "EV::L2_7200::out_T_brake",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7254_rp_d9511ef0fa1c17df"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df",
+        "ItemDefinitions::ITM-PHY-007",
+        "IF_IF_PHY_007"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "out_brake_availability",
+      "executable_variable_id": "EV::L2_7200::out_brake_availability",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_c021f63639408eff"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_c021f63639408eff",
+        "ItemDefinitions::ITM-STA-003",
+        "IF_IF_STA_003"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "out_brake_cylinder_pressure",
+      "executable_variable_id": "EV::L2_7200::out_brake_cylinder_pressure",
+      "structural_ssd_connectors": [
+        "L2_7200.p_722B_rp_8d219d5375ded80b"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7220.p_N_722B.rp_8d219d5375ded80b",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ]
+    },
+    {
+      "component": "L2_7200",
+      "executable_variable": "out_dynamic_brake_force_request",
+      "executable_variable_id": "EV::L2_7200::out_dynamic_brake_force_request",
+      "structural_ssd_connectors": [
+        "L2_7200.p_7211_rp_0194ebfed505dfb5"
+      ],
+      "sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_0194ebfed505dfb5",
+        "ItemDefinitions::ITM-CMD-006",
+        "IF_IF_CMD_006"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_brake_availability",
+      "executable_variable_id": "EV::L2_8100::in_brake_availability",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_1c14ea3cdc439198",
+        "L2_8100.p_8122_rp_b1fb8856841fb7cf"
+      ],
+      "sysml_elements": [
+        "IF_IF_STA_003",
+        "ItemDefinitions::ITM-STA-003",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_1c14ea3cdc439198",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_b1fb8856841fb7cf"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_brake_cylinder_pressure",
+      "executable_variable_id": "EV::L2_8100::in_brake_cylinder_pressure",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8128_rp_cc7a917501039195"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_cc7a917501039195",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_brake_resistor_dissipated_power",
+      "executable_variable_id": "EV::L2_8100::in_brake_resistor_dissipated_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_dae173a1561f3f35"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_dae173a1561f3f35",
+        "ItemDefinitions::ITM-ACC-005",
+        "IF_IF_ACC_005"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_dc_link_current",
+      "executable_variable_id": "EV::L2_8100::in_dc_link_current",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8166_rp_3b0068559b0ca1e4"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_3b0068559b0ca1e4",
+        "ItemDefinitions::ITM-MEA-009",
+        "IF_IF_MEA_009"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_dc_link_voltage",
+      "executable_variable_id": "EV::L2_8100::in_dc_link_voltage",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_361eac651ec9fd05",
+        "L2_8100.p_8125_rp_7262595caaf3b8d8",
+        "L2_8100.p_8166_rp_54d624d57f57843b"
+      ],
+      "sysml_elements": [
+        "IF_IF_MEA_008",
+        "ItemDefinitions::ITM-MEA-008",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_361eac651ec9fd05",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_7262595caaf3b8d8",
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_54d624d57f57843b"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_dcdc_actual_power",
+      "executable_variable_id": "EV::L2_8100::in_dcdc_actual_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_e1808e35289aaba6"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_e1808e35289aaba6",
+        "ItemDefinitions::ITM-MEA-029",
+        "IF_IF_MEA_029"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_dynamic_brake_force_request",
+      "executable_variable_id": "EV::L2_8100::in_dynamic_brake_force_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_d69905c106b65d8f"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_d69905c106b65d8f",
+        "ItemDefinitions::ITM-CMD-006",
+        "IF_IF_CMD_006"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_emergency_brake_request",
+      "executable_variable_id": "EV::L2_8100::in_emergency_brake_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_1e34bb2697325127",
+        "L2_8100.p_8152_rp_93024c6ed1623fbd"
+      ],
+      "sysml_elements": [
+        "IF_IF_CMD_004",
+        "ItemDefinitions::ITM-CMD-004",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_1e34bb2697325127",
+        "p_N_8000.p_N_8100.p_N_8150.p_N_8152.rp_93024c6ed1623fbd"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_ess_absorbed_power",
+      "executable_variable_id": "EV::L2_8100::in_ess_absorbed_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_a095b9b42ab5cc7d"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a095b9b42ab5cc7d",
+        "ItemDefinitions::ITM-ACC-004",
+        "IF_IF_ACC_004"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_ess_availability",
+      "executable_variable_id": "EV::L2_8100::in_ess_availability",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_1967a947dd39d4a5"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_1967a947dd39d4a5",
+        "ItemDefinitions::ITM-STA-030",
+        "IF_IF_STA_030"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_ess_available_charge_power",
+      "executable_variable_id": "EV::L2_8100::in_ess_available_charge_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_8c3ed075d33335e8"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_8c3ed075d33335e8",
+        "ItemDefinitions::ITM-LIM-009",
+        "IF_IF_LIM_009"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_ess_available_discharge_power",
+      "executable_variable_id": "EV::L2_8100::in_ess_available_discharge_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_35b0ef67b409e840"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_35b0ef67b409e840",
+        "ItemDefinitions::ITM-LIM-010",
+        "IF_IF_LIM_010"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_ess_fault",
+      "executable_variable_id": "EV::L2_8100::in_ess_fault",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_9d3500c169fe7103"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_9d3500c169fe7103",
+        "ItemDefinitions::ITM-STA-031",
+        "IF_IF_STA_031"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_external_safety_system_state",
+      "executable_variable_id": "EV::L2_8100::in_external_safety_system_state",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8127_rp_a916a9847aeadebb",
+        "L2_8100.p_8128_rp_ce6397cb7b81dd94"
+      ],
+      "sysml_elements": [
+        "IF_IF_STA_027",
+        "ItemDefinitions::ITM-STA-027",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_a916a9847aeadebb",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_ce6397cb7b81dd94"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_grid_acceptable_regenerative_power",
+      "executable_variable_id": "EV::L2_8100::in_grid_acceptable_regenerative_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_abc36140248d0eef",
+        "L2_8100.p_8125_rp_1809c94f1581c7f8"
+      ],
+      "sysml_elements": [
+        "IF_IF_LIM_005",
+        "ItemDefinitions::ITM-LIM-005",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_abc36140248d0eef",
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_1809c94f1581c7f8"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_grid_returned_power",
+      "executable_variable_id": "EV::L2_8100::in_grid_returned_power",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_eb1cf5594b5796be"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_eb1cf5594b5796be",
+        "ItemDefinitions::ITM-ACC-003",
+        "IF_IF_ACC_003"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_hv_breaker_command",
+      "executable_variable_id": "EV::L2_8100::in_hv_breaker_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8151_rp_d7d7f4cb9554ff03"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8150.p_N_8151.rp_d7d7f4cb9554ff03",
+        "ItemDefinitions::ITM-CMD-016",
+        "IF_IF_CMD_016"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_line_current",
+      "executable_variable_id": "EV::L2_8100::in_line_current",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8166_rp_d9d89be1583c0e18"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_d9d89be1583c0e18",
+        "ItemDefinitions::ITM-MEA-006",
+        "IF_IF_MEA_006"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_line_voltage",
+      "executable_variable_id": "EV::L2_8100::in_line_voltage",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8166_rp_573e029523ef9946"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_573e029523ef9946",
+        "ItemDefinitions::ITM-MEA-005",
+        "IF_IF_MEA_005"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_main_reservoir_pressure",
+      "executable_variable_id": "EV::L2_8100::in_main_reservoir_pressure",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8128_rp_ccc90acd04ba0ccc"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_ccc90acd04ba0ccc",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_motor_speed",
+      "executable_variable_id": "EV::L2_8100::in_motor_speed",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_4e582bfad9ebbf1d"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_4e582bfad9ebbf1d",
+        "ItemDefinitions::ITM-MEA-004",
+        "IF_IF_MEA_004"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_motor_torque_actual",
+      "executable_variable_id": "EV::L2_8100::in_motor_torque_actual",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_1faca3fc4ff0e741"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_1faca3fc4ff0e741",
+        "ItemDefinitions::ITM-MEA-012",
+        "IF_IF_MEA_012"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_regenerative_power_actual",
+      "executable_variable_id": "EV::L2_8100::in_regenerative_power_actual",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_bd78e8d84d334672"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_bd78e8d84d334672",
+        "ItemDefinitions::ITM-ACC-002",
+        "IF_IF_ACC_002"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_safety_brake_request",
+      "executable_variable_id": "EV::L2_8100::in_safety_brake_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8127_rp_be0fc7194a7f0161"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_be0fc7194a7f0161",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_service_brake_request",
+      "executable_variable_id": "EV::L2_8100::in_service_brake_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_0b58c63caeaf2f6d"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_0b58c63caeaf2f6d",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_super_cap_soc",
+      "executable_variable_id": "EV::L2_8100::in_super_cap_soc",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_6437aa0577c9ccd7"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_6437aa0577c9ccd7",
+        "ItemDefinitions::ITM-MEA-028",
+        "IF_IF_MEA_028"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_traction_command",
+      "executable_variable_id": "EV::L2_8100::in_traction_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_a49a67fafe112278"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_a49a67fafe112278",
+        "ItemDefinitions::ITM-CMD-002",
+        "IF_IF_CMD_002"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_traction_converter_fault",
+      "executable_variable_id": "EV::L2_8100::in_traction_converter_fault",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_81e596aab3f0fe4c"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_81e596aab3f0fe4c",
+        "ItemDefinitions::ITM-STA-019",
+        "IF_IF_STA_019"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "in_train_direction_command",
+      "executable_variable_id": "EV::L2_8100::in_train_direction_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_2ee1cd48c6d41ac7"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_2ee1cd48c6d41ac7",
+        "ItemDefinitions::ITM-CMD-001",
+        "IF_IF_CMD_001"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_achieved_dynamic_brake_force",
+      "executable_variable_id": "EV::L2_8100::out_achieved_dynamic_brake_force",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_36a59f5828d4c515"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_36a59f5828d4c515",
+        "ItemDefinitions::ITM-MEA-013",
+        "IF_IF_MEA_013"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_available_dynamic_brake_force",
+      "executable_variable_id": "EV::L2_8100::out_available_dynamic_brake_force",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_b60dd66dcfd10afa"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_b60dd66dcfd10afa",
+        "ItemDefinitions::ITM-LIM-001",
+        "IF_IF_LIM_001"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_brake_cylinder_pressure",
+      "executable_variable_id": "EV::L2_8100::out_brake_cylinder_pressure",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8128_rp_0e19632016b69ff2"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_0e19632016b69ff2",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_brake_safety_loop_state",
+      "executable_variable_id": "EV::L2_8100::out_brake_safety_loop_state",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8152_rp_ae53feffb1e116e3"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8150.p_N_8152.rp_ae53feffb1e116e3",
+        "ItemDefinitions::ITM-STA-025",
+        "IF_IF_STA_025"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_dcdc_enable_command",
+      "executable_variable_id": "EV::L2_8100::out_dcdc_enable_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_a4aac084c46e1e57"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a4aac084c46e1e57",
+        "ItemDefinitions::ITM-CMD-026",
+        "IF_IF_CMD_026"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_dynamic_brake_availability",
+      "executable_variable_id": "EV::L2_8100::out_dynamic_brake_availability",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_dae11d7502a6c37a"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_dae11d7502a6c37a",
+        "ItemDefinitions::ITM-STA-002",
+        "IF_IF_STA_002"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_emergency_brake_request",
+      "executable_variable_id": "EV::L2_8100::out_emergency_brake_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_a9c7eff84933cd80"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_a9c7eff84933cd80",
+        "ItemDefinitions::ITM-CMD-004",
+        "IF_IF_CMD_004"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_ess_contactor_command",
+      "executable_variable_id": "EV::L2_8100::out_ess_contactor_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_4683a7cb63e55daf"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_4683a7cb63e55daf",
+        "ItemDefinitions::ITM-CMD-027",
+        "IF_IF_CMD_027"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_ess_fault_reset_command",
+      "executable_variable_id": "EV::L2_8100::out_ess_fault_reset_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_47c78247980cc3a5"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_47c78247980cc3a5",
+        "ItemDefinitions::ITM-CMD-029",
+        "IF_IF_CMD_029"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_ess_power_request",
+      "executable_variable_id": "EV::L2_8100::out_ess_power_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_77c439392dea95b4"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_77c439392dea95b4",
+        "ItemDefinitions::ITM-CMD-025",
+        "IF_IF_CMD_025"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_ess_precharge_command",
+      "executable_variable_id": "EV::L2_8100::out_ess_precharge_command",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8122_rp_f704c2e7bab06749"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_f704c2e7bab06749",
+        "ItemDefinitions::ITM-CMD-028",
+        "IF_IF_CMD_028"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_hv_safety_loop_state",
+      "executable_variable_id": "EV::L2_8100::out_hv_safety_loop_state",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8128_rp_cb74be2d7d4a54c7"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_cb74be2d7d4a54c7",
+        "ItemDefinitions::ITM-STA-024",
+        "IF_IF_STA_024"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_main_reservoir_pressure",
+      "executable_variable_id": "EV::L2_8100::out_main_reservoir_pressure",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8128_rp_8d19f6989a5bebad"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_8d19f6989a5bebad",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_motor_torque_request",
+      "executable_variable_id": "EV::L2_8100::out_motor_torque_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8125_rp_70a8e2c4b0887b4d"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_70a8e2c4b0887b4d",
+        "ItemDefinitions::ITM-CMD-012",
+        "IF_IF_CMD_012"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_safety_brake_request",
+      "executable_variable_id": "EV::L2_8100::out_safety_brake_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8127_rp_8f3091a86214dd4e"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_8f3091a86214dd4e",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_sanding_request",
+      "executable_variable_id": "EV::L2_8100::out_sanding_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8128_rp_5accd69f9c3a8b0c"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_5accd69f9c3a8b0c",
+        "ItemDefinitions::ITM-CMD-024",
+        "IF_IF_CMD_024"
+      ]
+    },
+    {
+      "component": "L2_8100",
+      "executable_variable": "out_service_brake_request",
+      "executable_variable_id": "EV::L2_8100::out_service_brake_request",
+      "structural_ssd_connectors": [
+        "L2_8100.p_8121_rp_d82e5c8a7afb4b7b"
+      ],
+      "sysml_elements": [
+        "p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_d82e5c8a7afb4b7b",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ]
+    },
+    {
+      "component": "L2_D100",
+      "executable_variable": "out_emergency_brake_request",
+      "executable_variable_id": "EV::L2_D100::out_emergency_brake_request",
+      "structural_ssd_connectors": [
+        "L2_D100.p_D121_rp_d32b32814a84a88a"
+      ],
+      "sysml_elements": [
+        "p_D000.p_D100.p_D120.p_D121.rp_d32b32814a84a88a",
+        "ItemDefinitions::ITM-CMD-004",
+        "IF_IF_CMD_004"
+      ]
+    },
+    {
+      "component": "L2_D100",
+      "executable_variable": "out_service_brake_request",
+      "executable_variable_id": "EV::L2_D100::out_service_brake_request",
+      "structural_ssd_connectors": [
+        "L2_D100.p_D114_rp_d3d5739989ecf2dd"
+      ],
+      "sysml_elements": [
+        "p_D000.p_D100.p_D110.p_D114.rp_d3d5739989ecf2dd",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ]
+    },
+    {
+      "component": "L2_D100",
+      "executable_variable": "out_traction_command",
+      "executable_variable_id": "EV::L2_D100::out_traction_command",
+      "structural_ssd_connectors": [
+        "L2_D100.p_D113_rp_9ca0d9d396f8ffd0"
+      ],
+      "sysml_elements": [
+        "p_D000.p_D100.p_D110.p_D113.rp_9ca0d9d396f8ffd0",
+        "ItemDefinitions::ITM-CMD-002",
+        "IF_IF_CMD_002"
+      ]
+    },
+    {
+      "component": "L2_D100",
+      "executable_variable": "out_train_direction_command",
+      "executable_variable_id": "EV::L2_D100::out_train_direction_command",
+      "structural_ssd_connectors": [
+        "L2_D100.p_D112_rp_8962dea15ad904c6"
+      ],
+      "sysml_elements": [
+        "p_D000.p_D100.p_D110.p_D112.rp_8962dea15ad904c6",
+        "ItemDefinitions::ITM-CMD-001",
+        "IF_IF_CMD_001"
+      ]
+    },
+    {
+      "component": "L2_E100",
+      "executable_variable": "out_external_safety_system_state",
+      "executable_variable_id": "EV::L2_E100::out_external_safety_system_state",
+      "structural_ssd_connectors": [
+        "L2_E100.p_E100_rp_0307dc18d9537f9d"
+      ],
+      "sysml_elements": [
+        "p_E000.p_E100.rp_0307dc18d9537f9d",
+        "ItemDefinitions::ITM-STA-027",
+        "IF_IF_STA_027"
+      ]
+    },
+    {
+      "component": "L2_E100",
+      "executable_variable": "out_safety_brake_request",
+      "executable_variable_id": "EV::L2_E100::out_safety_brake_request",
+      "structural_ssd_connectors": [
+        "L2_E100.p_E100_rp_7273a171b473f816"
+      ],
+      "sysml_elements": [
+        "p_E000.p_E100.rp_7273a171b473f816",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "in_dcdc_enable_command",
+      "executable_variable_id": "EV::L2_X100::in_dcdc_enable_command",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_1164249ec859b807"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_1164249ec859b807",
+        "ItemDefinitions::ITM-CMD-026",
+        "IF_IF_CMD_026"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "in_ess_contactor_command",
+      "executable_variable_id": "EV::L2_X100::in_ess_contactor_command",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_81f1c1da5d6d3173"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_81f1c1da5d6d3173",
+        "ItemDefinitions::ITM-CMD-027",
+        "IF_IF_CMD_027"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "in_ess_fault_reset_command",
+      "executable_variable_id": "EV::L2_X100::in_ess_fault_reset_command",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_b84f02a624b9982f"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_b84f02a624b9982f",
+        "ItemDefinitions::ITM-CMD-029",
+        "IF_IF_CMD_029"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "in_ess_power_request",
+      "executable_variable_id": "EV::L2_X100::in_ess_power_request",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_843fa8c83311440e"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_843fa8c83311440e",
+        "ItemDefinitions::ITM-CMD-025",
+        "IF_IF_CMD_025"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "in_ess_precharge_command",
+      "executable_variable_id": "EV::L2_X100::in_ess_precharge_command",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_5ff890136d5d49bf"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_5ff890136d5d49bf",
+        "ItemDefinitions::ITM-CMD-028",
+        "IF_IF_CMD_028"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_dcdc_actual_power",
+      "executable_variable_id": "EV::L2_X100::out_dcdc_actual_power",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X111_rp_9828766df3df1904"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X111.rp_9828766df3df1904",
+        "ItemDefinitions::ITM-MEA-029",
+        "IF_IF_MEA_029"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_ess_absorbed_power",
+      "executable_variable_id": "EV::L2_X100::out_ess_absorbed_power",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_a59821acb0d73604"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_a59821acb0d73604",
+        "ItemDefinitions::ITM-ACC-004",
+        "IF_IF_ACC_004"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_ess_availability",
+      "executable_variable_id": "EV::L2_X100::out_ess_availability",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_3b946767139d884a"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_3b946767139d884a",
+        "ItemDefinitions::ITM-STA-030",
+        "IF_IF_STA_030"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_ess_available_charge_power",
+      "executable_variable_id": "EV::L2_X100::out_ess_available_charge_power",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_388d943a537916a7"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_388d943a537916a7",
+        "ItemDefinitions::ITM-LIM-009",
+        "IF_IF_LIM_009"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_ess_available_discharge_power",
+      "executable_variable_id": "EV::L2_X100::out_ess_available_discharge_power",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_73067cce4e6a7eeb"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_73067cce4e6a7eeb",
+        "ItemDefinitions::ITM-LIM-010",
+        "IF_IF_LIM_010"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_ess_fault",
+      "executable_variable_id": "EV::L2_X100::out_ess_fault",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X112_rp_e5eadfefaf46ac0a"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X110.p_X112.rp_e5eadfefaf46ac0a",
+        "ItemDefinitions::ITM-STA-031",
+        "IF_IF_STA_031"
+      ]
+    },
+    {
+      "component": "L2_X100",
+      "executable_variable": "out_super_cap_soc",
+      "executable_variable_id": "EV::L2_X100::out_super_cap_soc",
+      "structural_ssd_connectors": [
+        "L2_X100.p_X121_rp_b6cf5a49ced52abf"
+      ],
+      "sysml_elements": [
+        "p_X000.p_X100.p_X120.p_X121.rp_b6cf5a49ced52abf",
+        "ItemDefinitions::ITM-MEA-028",
+        "IF_IF_MEA_028"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "executable_connection_id": "EC::CG_002543DBE0F9A7FBC2A3FDD3::line_voltage",
+      "structural_connection_id": "CG_002543DBE0F9A7FBC2A3FDD3",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_voltage",
+      "target_component": "L2_5100",
+      "target_variable": "in_line_voltage",
+      "quantity": "line_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_071B7693DAFA8B87ADA0A61E::emergency_brake_request",
+      "structural_connection_id": "CG_071B7693DAFA8B87ADA0A61E",
+      "source_component": "L2_8100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_emergency_brake_request",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_07AF42BFA3927EF22F7BDDE7::omega_motor",
+      "structural_connection_id": "CG_07AF42BFA3927EF22F7BDDE7",
+      "source_component": "L2_5300",
+      "source_variable": "out_omega_motor",
+      "target_component": "L2_3600",
+      "target_variable": "in_omega_motor",
+      "quantity": "omega_motor",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_08375F15DCE75E45D4C45CE8::grid_acceptable_regenerative_power",
+      "structural_connection_id": "CG_08375F15DCE75E45D4C45CE8",
+      "source_component": "L2_5100",
+      "source_variable": "out_grid_acceptable_regenerative_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_grid_acceptable_regenerative_power",
+      "quantity": "grid_acceptable_regenerative_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_093EFCE58F3AB220CFEC48AC::ess_absorbed_power",
+      "structural_connection_id": "CG_093EFCE58F3AB220CFEC48AC",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_absorbed_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_absorbed_power",
+      "quantity": "ess_absorbed_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_0D68248E62957CCB92C5A2A5::external_safety_system_state",
+      "structural_connection_id": "CG_0D68248E62957CCB92C5A2A5",
+      "source_component": "L2_E100",
+      "source_variable": "out_external_safety_system_state",
+      "target_component": "L2_8100",
+      "target_variable": "in_external_safety_system_state",
+      "quantity": "external_safety_system_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_1102EBD35D52A38B96D5D2E7::brake_availability",
+      "structural_connection_id": "CG_1102EBD35D52A38B96D5D2E7",
+      "source_component": "L2_7200",
+      "source_variable": "out_brake_availability",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_availability",
+      "quantity": "brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::U_sec_rms",
+      "structural_connection_id": "CG_117A3F0E6C8FF8FF0013A46B",
+      "source_component": "L2_4500",
+      "source_variable": "out_U_sec_rms",
+      "target_component": "L2_5100",
+      "target_variable": "in_U_sec_rms",
+      "quantity": "U_sec_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::f_sec",
+      "structural_connection_id": "CG_117A3F0E6C8FF8FF0013A46B",
+      "source_component": "L2_4500",
+      "source_variable": "out_f_sec",
+      "target_component": "L2_5100",
+      "target_variable": "in_f_sec",
+      "quantity": "f_sec",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::I_sec_rms",
+      "structural_connection_id": "CG_117A3F0E6C8FF8FF0013A46B",
+      "source_component": "L2_5100",
+      "source_variable": "out_I_sec_rms",
+      "target_component": "L2_4500",
+      "target_variable": "in_I_sec_rms",
+      "quantity": "I_sec_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::U_sec_rms",
+      "structural_connection_id": "CG_118F2C2B84D1D301C7BE63F8",
+      "source_component": "L2_4500",
+      "source_variable": "out_U_sec_rms",
+      "target_component": "L2_5100",
+      "target_variable": "in_U_sec_rms",
+      "quantity": "U_sec_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::f_sec",
+      "structural_connection_id": "CG_118F2C2B84D1D301C7BE63F8",
+      "source_component": "L2_4500",
+      "source_variable": "out_f_sec",
+      "target_component": "L2_5100",
+      "target_variable": "in_f_sec",
+      "quantity": "f_sec",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::I_sec_rms",
+      "structural_connection_id": "CG_118F2C2B84D1D301C7BE63F8",
+      "source_component": "L2_5100",
+      "source_variable": "out_I_sec_rms",
+      "target_component": "L2_4500",
+      "target_variable": "in_I_sec_rms",
+      "quantity": "I_sec_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_1ACF37CC65D3FF235E8BD75C::dynamic_brake_availability",
+      "structural_connection_id": "CG_1ACF37CC65D3FF235E8BD75C",
+      "source_component": "L2_8100",
+      "source_variable": "out_dynamic_brake_availability",
+      "target_component": "L2_7200",
+      "target_variable": "in_dynamic_brake_availability",
+      "quantity": "dynamic_brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_1AE13610E33C0DC7055CFCED::ess_contactor_command",
+      "structural_connection_id": "CG_1AE13610E33C0DC7055CFCED",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_contactor_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_contactor_command",
+      "quantity": "ess_contactor_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_1AEA8B915E14A5D0FFEE30D9::brake_cylinder_pressure",
+      "structural_connection_id": "CG_1AEA8B915E14A5D0FFEE30D9",
+      "source_component": "L2_8100",
+      "source_variable": "out_brake_cylinder_pressure",
+      "target_component": "L2_7200",
+      "target_variable": "in_brake_cylinder_pressure",
+      "quantity": "brake_cylinder_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_1C5FC46A1E7682144A3BDDDF::line_voltage",
+      "structural_connection_id": "CG_1C5FC46A1E7682144A3BDDDF",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_line_voltage",
+      "quantity": "line_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_20C0A22ECCF07864FDBA3F5A::line_current",
+      "structural_connection_id": "CG_20C0A22ECCF07864FDBA3F5A",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_current",
+      "target_component": "L2_5100",
+      "target_variable": "in_line_current",
+      "quantity": "line_current",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_2274BA128E639FDE4D4F56EC::hv_system_fault",
+      "structural_connection_id": "CG_2274BA128E639FDE4D4F56EC",
+      "source_component": "L2_4500",
+      "source_variable": "out_hv_system_fault",
+      "target_component": "L2_4200",
+      "target_variable": "in_hv_system_fault",
+      "quantity": "hv_system_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_25DC22E45A984D1CB28D188B::dcdc_enable_command",
+      "structural_connection_id": "CG_25DC22E45A984D1CB28D188B",
+      "source_component": "L2_8100",
+      "source_variable": "out_dcdc_enable_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_dcdc_enable_command",
+      "quantity": "dcdc_enable_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_2E8F3CC8A8EBCDE6B7CF4D27::traction_command",
+      "structural_connection_id": "CG_2E8F3CC8A8EBCDE6B7CF4D27",
+      "source_component": "L2_D100",
+      "source_variable": "out_traction_command",
+      "target_component": "L2_8100",
+      "target_variable": "in_traction_command",
+      "quantity": "traction_command",
+      "unit": "1",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_2EE117B4B0633E38D394B904::pantograph_command",
+      "structural_connection_id": "CG_2EE117B4B0633E38D394B904",
+      "source_component": "L2_4200",
+      "source_variable": "out_pantograph_command",
+      "target_component": "L2_4100",
+      "target_variable": "in_pantograph_command",
+      "quantity": "pantograph_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_338D68ABEF709ACD5E0DDCC6::T_shaft",
+      "structural_connection_id": "CG_338D68ABEF709ACD5E0DDCC6",
+      "source_component": "L2_5300",
+      "source_variable": "out_T_shaft",
+      "target_component": "L2_3500",
+      "target_variable": "in_T_shaft",
+      "quantity": "T_shaft",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_338D68ABEF709ACD5E0DDCC6::omega_shaft",
+      "structural_connection_id": "CG_338D68ABEF709ACD5E0DDCC6",
+      "source_component": "L2_3500",
+      "source_variable": "out_omega_shaft",
+      "target_component": "L2_5300",
+      "target_variable": "in_omega_shaft",
+      "quantity": "omega_shaft",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_37792F42F4274C7C51C63270::hv_breaker_state",
+      "structural_connection_id": "CG_37792F42F4274C7C51C63270",
+      "source_component": "L2_4200",
+      "source_variable": "out_hv_breaker_state",
+      "target_component": "L2_4500",
+      "target_variable": "in_hv_breaker_state",
+      "quantity": "hv_breaker_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_37ECA5B04E215AC3E6A4B472::motor_phase_voltage",
+      "structural_connection_id": "CG_37ECA5B04E215AC3E6A4B472",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_phase_voltage",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_phase_voltage",
+      "quantity": "motor_phase_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::U_motor_ll_rms",
+      "structural_connection_id": "CG_3BD24EBE88F37EEFFE563597",
+      "source_component": "L2_5100",
+      "source_variable": "out_U_motor_ll_rms",
+      "target_component": "L2_5300",
+      "target_variable": "in_U_motor_ll_rms",
+      "quantity": "U_motor_ll_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::f_motor_e",
+      "structural_connection_id": "CG_3BD24EBE88F37EEFFE563597",
+      "source_component": "L2_5100",
+      "source_variable": "out_f_motor_e",
+      "target_component": "L2_5300",
+      "target_variable": "in_f_motor_e",
+      "quantity": "f_motor_e",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::I_motor_rms",
+      "structural_connection_id": "CG_3BD24EBE88F37EEFFE563597",
+      "source_component": "L2_5300",
+      "source_variable": "out_I_motor_rms",
+      "target_component": "L2_5100",
+      "target_variable": "in_I_motor_rms",
+      "quantity": "I_motor_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_3CA6C3BF7D7B4F80CF0990D0::T_shaft",
+      "structural_connection_id": "CG_3CA6C3BF7D7B4F80CF0990D0",
+      "source_component": "L2_3500",
+      "source_variable": "out_T_shaft",
+      "target_component": "L2_3100",
+      "target_variable": "in_T_shaft",
+      "quantity": "T_shaft",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_3CA6C3BF7D7B4F80CF0990D0::omega_shaft",
+      "structural_connection_id": "CG_3CA6C3BF7D7B4F80CF0990D0",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_shaft",
+      "target_component": "L2_3500",
+      "target_variable": "in_omega_shaft",
+      "quantity": "omega_shaft",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_40ADD911FF2840BEEAA67F8D::regenerative_power_actual",
+      "structural_connection_id": "CG_40ADD911FF2840BEEAA67F8D",
+      "source_component": "L2_5100",
+      "source_variable": "out_regenerative_power_actual",
+      "target_component": "L2_8100",
+      "target_variable": "in_regenerative_power_actual",
+      "quantity": "regenerative_power_actual",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_4163C3EB1F2D16B7AFCB21C9::emergency_brake_request",
+      "structural_connection_id": "CG_4163C3EB1F2D16B7AFCB21C9",
+      "source_component": "L2_8100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_emergency_brake_request",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_41AD09EEB4EAB9DC956C08F8::service_brake_request",
+      "structural_connection_id": "CG_41AD09EEB4EAB9DC956C08F8",
+      "source_component": "L2_D100",
+      "source_variable": "out_service_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_service_brake_request",
+      "quantity": "service_brake_request",
+      "unit": "1 或 m/s2",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_46A1EE350324445D016EAF45::motor_speed",
+      "structural_connection_id": "CG_46A1EE350324445D016EAF45",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_speed",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_speed",
+      "quantity": "motor_speed",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_4CB0735167799FD438F90DD2::omega_gearbox",
+      "structural_connection_id": "CG_4CB0735167799FD438F90DD2",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_gearbox",
+      "target_component": "L2_3600",
+      "target_variable": "in_omega_gearbox",
+      "quantity": "omega_gearbox",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_4E4C49F08CEE642A5C3C67EB::dc_link_current",
+      "structural_connection_id": "CG_4E4C49F08CEE642A5C3C67EB",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_current",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_current",
+      "quantity": "dc_link_current",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_55513667B46680F5B87A0939::traction_converter_fault",
+      "structural_connection_id": "CG_55513667B46680F5B87A0939",
+      "source_component": "L2_5100",
+      "source_variable": "out_traction_converter_fault",
+      "target_component": "L2_8100",
+      "target_variable": "in_traction_converter_fault",
+      "quantity": "traction_converter_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_565AF053FC6E3FF333FD7433::sanding_request",
+      "structural_connection_id": "CG_565AF053FC6E3FF333FD7433",
+      "source_component": "L2_8100",
+      "source_variable": "out_sanding_request",
+      "target_component": "L2_3800",
+      "target_variable": "in_sanding_request",
+      "quantity": "sanding_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_65E377DBF988541FA5778D1E::motor_torque_actual",
+      "structural_connection_id": "CG_65E377DBF988541FA5778D1E",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_torque_actual",
+      "target_component": "L2_8100",
+      "target_variable": "in_motor_torque_actual",
+      "quantity": "motor_torque_actual",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_663CDC611495882DCD3E5B8F::emergency_brake_request",
+      "structural_connection_id": "CG_663CDC611495882DCD3E5B8F",
+      "source_component": "L2_D100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_emergency_brake_request",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_732BB9F5922B7AC9420BB2D0::dc_link_voltage",
+      "structural_connection_id": "CG_732BB9F5922B7AC9420BB2D0",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_voltage",
+      "quantity": "dc_link_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_7365C853DD9391D9914E0C8A::motor_torque_request",
+      "structural_connection_id": "CG_7365C853DD9391D9914E0C8A",
+      "source_component": "L2_8100",
+      "source_variable": "out_motor_torque_request",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_torque_request",
+      "quantity": "motor_torque_request",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_739E53DD845C8CD2646C8E39::main_reservoir_pressure",
+      "structural_connection_id": "CG_739E53DD845C8CD2646C8E39",
+      "source_component": "L2_7100",
+      "source_variable": "out_main_reservoir_pressure",
+      "target_component": "L2_8100",
+      "target_variable": "in_main_reservoir_pressure",
+      "quantity": "main_reservoir_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_7A2381DC8C36A40B747035A5::ess_power_request",
+      "structural_connection_id": "CG_7A2381DC8C36A40B747035A5",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_power_request",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_power_request",
+      "quantity": "ess_power_request",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_86987C60BCB826208FEFEF31::safety_brake_request",
+      "structural_connection_id": "CG_86987C60BCB826208FEFEF31",
+      "source_component": "L2_E100",
+      "source_variable": "out_safety_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_safety_brake_request",
+      "quantity": "safety_brake_request",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_89318B491DF9CED18997C36D::external_safety_system_state",
+      "structural_connection_id": "CG_89318B491DF9CED18997C36D",
+      "source_component": "L2_E100",
+      "source_variable": "out_external_safety_system_state",
+      "target_component": "L2_8100",
+      "target_variable": "in_external_safety_system_state",
+      "quantity": "external_safety_system_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_89DF67BFD358C3EEF4DB05F2::motor_speed",
+      "structural_connection_id": "CG_89DF67BFD358C3EEF4DB05F2",
+      "source_component": "L2_3600",
+      "source_variable": "out_motor_speed",
+      "target_component": "L2_8100",
+      "target_variable": "in_motor_speed",
+      "quantity": "motor_speed",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_8EED0159D22D9EDC70A9EA67::emergency_brake_request",
+      "structural_connection_id": "CG_8EED0159D22D9EDC70A9EA67",
+      "source_component": "L2_D100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_emergency_brake_request",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_8F81398231970DBDB0A7F854::pantograph_state",
+      "structural_connection_id": "CG_8F81398231970DBDB0A7F854",
+      "source_component": "L2_4100",
+      "source_variable": "out_pantograph_state",
+      "target_component": "L2_4200",
+      "target_variable": "in_pantograph_state",
+      "quantity": "pantograph_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_944069F2CBBFA2A01274A9DB::brake_availability",
+      "structural_connection_id": "CG_944069F2CBBFA2A01274A9DB",
+      "source_component": "L2_7200",
+      "source_variable": "out_brake_availability",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_availability",
+      "quantity": "brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_9465AAC3F0B0B115DC3EF9FD::super_cap_soc",
+      "structural_connection_id": "CG_9465AAC3F0B0B115DC3EF9FD",
+      "source_component": "L2_X100",
+      "source_variable": "out_super_cap_soc",
+      "target_component": "L2_8100",
+      "target_variable": "in_super_cap_soc",
+      "quantity": "super_cap_soc",
+      "unit": "1",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_979C19823B520B68E370ECB6::service_brake_request",
+      "structural_connection_id": "CG_979C19823B520B68E370ECB6",
+      "source_component": "L2_8100",
+      "source_variable": "out_service_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_service_brake_request",
+      "quantity": "service_brake_request",
+      "unit": "1 或 m/s2",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_9ACDE46A41EE650430438B91::hv_breaker_command",
+      "structural_connection_id": "CG_9ACDE46A41EE650430438B91",
+      "source_component": "L2_4200",
+      "source_variable": "out_hv_breaker_command",
+      "target_component": "L2_8100",
+      "target_variable": "in_hv_breaker_command",
+      "quantity": "hv_breaker_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::U_ac_rms",
+      "structural_connection_id": "CG_9EB19436ED0A54ECCF52C717",
+      "source_component": "L2_4100",
+      "source_variable": "out_U_ac_rms",
+      "target_component": "L2_4200",
+      "target_variable": "in_U_ac_rms",
+      "quantity": "U_ac_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::f_ac",
+      "structural_connection_id": "CG_9EB19436ED0A54ECCF52C717",
+      "source_component": "L2_4100",
+      "source_variable": "out_f_ac",
+      "target_component": "L2_4200",
+      "target_variable": "in_f_ac",
+      "quantity": "f_ac",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::I_ac_rms",
+      "structural_connection_id": "CG_9EB19436ED0A54ECCF52C717",
+      "source_component": "L2_4200",
+      "source_variable": "out_I_ac_rms",
+      "target_component": "L2_4100",
+      "target_variable": "in_I_ac_rms",
+      "quantity": "I_ac_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_A0B82CF482DDFB4553F8CFCA::main_reservoir_pressure",
+      "structural_connection_id": "CG_A0B82CF482DDFB4553F8CFCA",
+      "source_component": "L2_8100",
+      "source_variable": "out_main_reservoir_pressure",
+      "target_component": "L2_7200",
+      "target_variable": "in_main_reservoir_pressure",
+      "quantity": "main_reservoir_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_A35E2178763C6233BE73AA36::brake_resistor_dissipated_power",
+      "structural_connection_id": "CG_A35E2178763C6233BE73AA36",
+      "source_component": "L2_5100",
+      "source_variable": "out_brake_resistor_dissipated_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_resistor_dissipated_power",
+      "quantity": "brake_resistor_dissipated_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_A3B31951ADAE62C498E76260::train_direction_command",
+      "structural_connection_id": "CG_A3B31951ADAE62C498E76260",
+      "source_component": "L2_D100",
+      "source_variable": "out_train_direction_command",
+      "target_component": "L2_8100",
+      "target_variable": "in_train_direction_command",
+      "quantity": "train_direction_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_A424455519797490E4F865AA::dc_link_voltage",
+      "structural_connection_id": "CG_A424455519797490E4F865AA",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_voltage",
+      "quantity": "dc_link_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_A6D783BBFCF6C6DA11FFCF2D::dcdc_actual_power",
+      "structural_connection_id": "CG_A6D783BBFCF6C6DA11FFCF2D",
+      "source_component": "L2_X100",
+      "source_variable": "out_dcdc_actual_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_dcdc_actual_power",
+      "quantity": "dcdc_actual_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_B251741505CB19FE47559F29::dynamic_brake_force_request",
+      "structural_connection_id": "CG_B251741505CB19FE47559F29",
+      "source_component": "L2_7200",
+      "source_variable": "out_dynamic_brake_force_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_dynamic_brake_force_request",
+      "quantity": "dynamic_brake_force_request",
+      "unit": "N",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_B399D92EE15558C08A95FA03::grid_returned_power",
+      "structural_connection_id": "CG_B399D92EE15558C08A95FA03",
+      "source_component": "L2_5100",
+      "source_variable": "out_grid_returned_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_grid_returned_power",
+      "quantity": "grid_returned_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::U_ac_rms",
+      "structural_connection_id": "CG_B483D5C4E4EC5F805E3B0F19",
+      "source_component": "L2_4200",
+      "source_variable": "out_U_ac_rms",
+      "target_component": "L2_4500",
+      "target_variable": "in_U_ac_rms",
+      "quantity": "U_ac_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::f_ac",
+      "structural_connection_id": "CG_B483D5C4E4EC5F805E3B0F19",
+      "source_component": "L2_4200",
+      "source_variable": "out_f_ac",
+      "target_component": "L2_4500",
+      "target_variable": "in_f_ac",
+      "quantity": "f_ac",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::I_ac_rms",
+      "structural_connection_id": "CG_B483D5C4E4EC5F805E3B0F19",
+      "source_component": "L2_4500",
+      "source_variable": "out_I_ac_rms",
+      "target_component": "L2_4200",
+      "target_variable": "in_I_ac_rms",
+      "quantity": "I_ac_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_BDD8747118488C9BE895D95F::grid_acceptable_regenerative_power",
+      "structural_connection_id": "CG_BDD8747118488C9BE895D95F",
+      "source_component": "L2_5100",
+      "source_variable": "out_grid_acceptable_regenerative_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_grid_acceptable_regenerative_power",
+      "quantity": "grid_acceptable_regenerative_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_BEDE0932E86628B2EFCA8CCD::available_dynamic_brake_force",
+      "structural_connection_id": "CG_BEDE0932E86628B2EFCA8CCD",
+      "source_component": "L2_8100",
+      "source_variable": "out_available_dynamic_brake_force",
+      "target_component": "L2_7200",
+      "target_variable": "in_available_dynamic_brake_force",
+      "quantity": "available_dynamic_brake_force",
+      "unit": "N",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_C03EBDD9B3CFF4E6611E41A1::ess_availability",
+      "structural_connection_id": "CG_C03EBDD9B3CFF4E6611E41A1",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_availability",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_availability",
+      "quantity": "ess_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_C113ED5B462ACDD4ACE56E91::ess_fault",
+      "structural_connection_id": "CG_C113ED5B462ACDD4ACE56E91",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_fault",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_fault",
+      "quantity": "ess_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_C8FE042475056BF85CFA2B40::dc_link_voltage",
+      "structural_connection_id": "CG_C8FE042475056BF85CFA2B40",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_voltage",
+      "quantity": "dc_link_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_CB302083C9F33A1345D9C406::ess_available_charge_power",
+      "structural_connection_id": "CG_CB302083C9F33A1345D9C406",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_available_charge_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_available_charge_power",
+      "quantity": "ess_available_charge_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_CE151D40A2BF816F41762F4C::brake_safety_loop_state",
+      "structural_connection_id": "CG_CE151D40A2BF816F41762F4C",
+      "source_component": "L2_8100",
+      "source_variable": "out_brake_safety_loop_state",
+      "target_component": "L2_7200",
+      "target_variable": "in_brake_safety_loop_state",
+      "quantity": "brake_safety_loop_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_CE2820923CC0CB141833E11D::hv_system_fault",
+      "structural_connection_id": "CG_CE2820923CC0CB141833E11D",
+      "source_component": "L2_4200",
+      "source_variable": "out_hv_system_fault",
+      "target_component": "L2_4500",
+      "target_variable": "in_hv_system_fault",
+      "quantity": "hv_system_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_D4DF5719633CB5B375F35094::motor_torque_actual",
+      "structural_connection_id": "CG_D4DF5719633CB5B375F35094",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_torque_actual",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_torque_actual",
+      "quantity": "motor_torque_actual",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_D8FCE908D4FD9343C6353985::ess_fault_reset_command",
+      "structural_connection_id": "CG_D8FCE908D4FD9343C6353985",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_fault_reset_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_fault_reset_command",
+      "quantity": "ess_fault_reset_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_D9CD1E8933F596F319A67625::ess_precharge_command",
+      "structural_connection_id": "CG_D9CD1E8933F596F319A67625",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_precharge_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_precharge_command",
+      "quantity": "ess_precharge_command",
+      "unit": "1",
+      "datatype": "Boolean",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_DA869E241F8A36DBAAC07E48::T_brake",
+      "structural_connection_id": "CG_DA869E241F8A36DBAAC07E48",
+      "source_component": "L2_7200",
+      "source_variable": "out_T_brake",
+      "target_component": "L2_3100",
+      "target_variable": "in_T_brake",
+      "quantity": "T_brake",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_DA869E241F8A36DBAAC07E48::omega_wheel",
+      "structural_connection_id": "CG_DA869E241F8A36DBAAC07E48",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_wheel",
+      "target_component": "L2_7200",
+      "target_variable": "in_omega_wheel",
+      "quantity": "omega_wheel",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_DAF7D43DDD825831F29A70F8::ess_available_discharge_power",
+      "structural_connection_id": "CG_DAF7D43DDD825831F29A70F8",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_available_discharge_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_available_discharge_power",
+      "quantity": "ess_available_discharge_power",
+      "unit": "W",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_E8DAA56D71F2BE4B5E1C9BBF::achieved_dynamic_brake_force",
+      "structural_connection_id": "CG_E8DAA56D71F2BE4B5E1C9BBF",
+      "source_component": "L2_8100",
+      "source_variable": "out_achieved_dynamic_brake_force",
+      "target_component": "L2_7200",
+      "target_variable": "in_achieved_dynamic_brake_force",
+      "quantity": "achieved_dynamic_brake_force",
+      "unit": "N",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_E9224B53F74EDFCCFDA0FC70::brake_cylinder_pressure",
+      "structural_connection_id": "CG_E9224B53F74EDFCCFDA0FC70",
+      "source_component": "L2_7200",
+      "source_variable": "out_brake_cylinder_pressure",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_cylinder_pressure",
+      "quantity": "brake_cylinder_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_ED49C68C1459BB1005D412BB::safety_brake_request",
+      "structural_connection_id": "CG_ED49C68C1459BB1005D412BB",
+      "source_component": "L2_8100",
+      "source_variable": "out_safety_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_safety_brake_request",
+      "quantity": "safety_brake_request",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_F55B5E17D8CBFAC80E0961C2::hv_safety_loop_state",
+      "structural_connection_id": "CG_F55B5E17D8CBFAC80E0961C2",
+      "source_component": "L2_8100",
+      "source_variable": "out_hv_safety_loop_state",
+      "target_component": "L2_4200",
+      "target_variable": "in_hv_safety_loop_state",
+      "quantity": "hv_safety_loop_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_FA31DFA220FEF0D6FAC8EB67::omega_axle",
+      "structural_connection_id": "CG_FA31DFA220FEF0D6FAC8EB67",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_axle",
+      "target_component": "L2_3600",
+      "target_variable": "in_omega_axle",
+      "quantity": "omega_axle",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "executable_connection_id": "EC::CG_FE573ED935CFF37491A053E8::line_current",
+      "structural_connection_id": "CG_FE573ED935CFF37491A053E8",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_current",
+      "target_component": "L2_8100",
+      "target_variable": "in_line_current",
+      "quantity": "line_current",
+      "unit": "A",
+      "datatype": "Float64",
+      "status": "PASS",
+      "issues": []
+    }
+  ]
+}

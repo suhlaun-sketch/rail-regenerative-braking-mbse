@@ -1,0 +1,27 @@
+{
+  "operation_name": "dropOnDiagram",
+  "timestamp": "2026-09-24T14:26:10.695392+00:00",
+  "variables": {
+    "input": {
+      "id": "c97771a0-daf4-4257-90cf-8ba47b1a038f",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "representationId": "1304075e-8826-4bc0-8278-bd75627e3bba",
+      "diagramTargetElementId": "1304075e-8826-4bc0-8278-bd75627e3bba",
+      "objectIds": [
+        "b6888ba7-00ef-416f-88c5-920004d11b60"
+      ],
+      "startingPositionX": 80.0,
+      "startingPositionY": 80.0
+    }
+  },
+  "representation_id": "1304075e-8826-4bc0-8278-bd75627e3bba",
+  "response": {
+    "dropOnDiagram": {
+      "__typename": "DropOnDiagramSuccessPayload",
+      "diagram": {
+        "id": "1304075e-8826-4bc0-8278-bd75627e3bba"
+      }
+    }
+  },
+  "error": null
+}

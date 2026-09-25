@@ -1,0 +1,360 @@
+{
+  "manifest_id": "RAIL-MBSE-FULL-NATIVE-MDXML-V1",
+  "output": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_TractionBrake_Full_UpwardIBD_v1.mdxml",
+  "sha256": "75d644d9eeaff3e110c1b44024ee071111ee31304bff85cb22dbb12bb4a7703d",
+  "project_id": "PROJECT-956dabc4fbff135a2dcf97ec520f9dff",
+  "diagram_count": 58,
+  "presentation_resource_count": 58,
+  "independent_information_flow_path_count": 0,
+  "byte_deterministic": true,
+  "resources": [
+    {
+      "diagram": "IBD_System_Context",
+      "resource_id": "BINARY-180a0213c1e7291e11f7c7f5a3c12377",
+      "sha1": "02bc08f339c7778151a34cb5234f12d1b54f38a4",
+      "used_model_elements": 426
+    },
+    {
+      "diagram": "IBD_3000",
+      "resource_id": "BINARY-39fa3b662ea03d002fbc0d1eb2ffb8be",
+      "sha1": "c673c8a51835ab498a58f63d54e8f2fac076a85c",
+      "used_model_elements": 88
+    },
+    {
+      "diagram": "IBD_3100",
+      "resource_id": "BINARY-d71aa372f09ac137388895bf80c98469",
+      "sha1": "da053eef400d753388adceb562a6e1509ad8d9a4",
+      "used_model_elements": 50
+    },
+    {
+      "diagram": "IBD_3110",
+      "resource_id": "BINARY-75953b895aad19c2af5b1d4538bba4d0",
+      "sha1": "c6fa9954ca70722eefeba3ca1a17034ad5385f39",
+      "used_model_elements": 23
+    },
+    {
+      "diagram": "IBD_3120",
+      "resource_id": "BINARY-58d8e18057769c9d01f2ebf325c51712",
+      "sha1": "a6c6c9ee57ba989ab9cb1323d56e2ecb2b97d167",
+      "used_model_elements": 17
+    },
+    {
+      "diagram": "IBD_3130",
+      "resource_id": "BINARY-19fa6fd5e123d6e3b8504e5cffa8cea7",
+      "sha1": "327b2cd0c91ee96d73e7e0ba7cbe7abb816a82eb",
+      "used_model_elements": 27
+    },
+    {
+      "diagram": "IBD_3500",
+      "resource_id": "BINARY-128e8283f02fc6fd7b335ae9c8d9229c",
+      "sha1": "1894601f100f53ad00e1ec548e76c9e76a3725a5",
+      "used_model_elements": 13
+    },
+    {
+      "diagram": "IBD_3510",
+      "resource_id": "BINARY-883b010133ff484b13ac1f87d1a60f56",
+      "sha1": "e4716af5208c6ff61cc9865abbfb3a25e2fd7c1e",
+      "used_model_elements": 25
+    },
+    {
+      "diagram": "IBD_3600",
+      "resource_id": "BINARY-2154dd262fe7c9a8ff99f04cbb4349c4",
+      "sha1": "d941a697ef9ff434bc51d40147b4d0707dd864e9",
+      "used_model_elements": 23
+    },
+    {
+      "diagram": "IBD_3640",
+      "resource_id": "BINARY-0349f43e8826a83c2e42e4ad3b6453e0",
+      "sha1": "ea443b6e0bd7001c43f97156e66f5d45643d4f12",
+      "used_model_elements": 27
+    },
+    {
+      "diagram": "IBD_3800",
+      "resource_id": "BINARY-2e3684bb727363a6f4142c57c842895b",
+      "sha1": "20cedd2c58d72f7a94376af9920f0b1ebe4cfb31",
+      "used_model_elements": 30
+    },
+    {
+      "diagram": "IBD_3810",
+      "resource_id": "BINARY-d0876f4ee03b58143031d6b538be9fd1",
+      "sha1": "82248d403e7f5f94aa6e1fec7bb480217077998e",
+      "used_model_elements": 44
+    },
+    {
+      "diagram": "IBD_4000",
+      "resource_id": "BINARY-5e4b1965b16de8d0d39ba466a4f2b29c",
+      "sha1": "af5d10ed805532dd93f28b25d50b5ea66eecd78b",
+      "used_model_elements": 122
+    },
+    {
+      "diagram": "IBD_4100",
+      "resource_id": "BINARY-4a3b4d81bb12289f0e1de1584c9d7d73",
+      "sha1": "a080161053bf68c6070471fb5a4e78bca70a976e",
+      "used_model_elements": 35
+    },
+    {
+      "diagram": "IBD_4110",
+      "resource_id": "BINARY-33c93eab682a68858872e0804f35e069",
+      "sha1": "0617ae8952fca71c115ea11d2dd72f94b228eeab",
+      "used_model_elements": 36
+    },
+    {
+      "diagram": "IBD_4120",
+      "resource_id": "BINARY-c40fdce0fcf6f9100d92d44d2f9ec591",
+      "sha1": "9a527b45c063b0519420f45f73e880eee0567d62",
+      "used_model_elements": 5
+    },
+    {
+      "diagram": "IBD_4200",
+      "resource_id": "BINARY-78aa5b96aba61a766912b56afe66b68e",
+      "sha1": "4c24ca48f26c113d80a315faf744556332a08da8",
+      "used_model_elements": 126
+    },
+    {
+      "diagram": "IBD_4210",
+      "resource_id": "BINARY-c850be577b9f8417e371bd65848c273b",
+      "sha1": "edcaca140e188d692ca03ac73fa800b77f60cf92",
+      "used_model_elements": 46
+    },
+    {
+      "diagram": "IBD_4230",
+      "resource_id": "BINARY-804ba708264d66ab7759d77ae136732d",
+      "sha1": "7bbfa0f755b18b265d0629604b4d494b856c5d5c",
+      "used_model_elements": 170
+    },
+    {
+      "diagram": "IBD_4240",
+      "resource_id": "BINARY-6853046948c538e0208852cb9dbcd256",
+      "sha1": "7545bdbfc69cc8c541df22006647f24f0556cfad",
+      "used_model_elements": 29
+    },
+    {
+      "diagram": "IBD_4400",
+      "resource_id": "BINARY-1974fea5a8ee8b8fb2407e2ebcabe306",
+      "sha1": "c0a29473246158ff436a550efc01df952ecd928b",
+      "used_model_elements": 18
+    },
+    {
+      "diagram": "IBD_4410",
+      "resource_id": "BINARY-23bf6c6c92365910ae30acc2ff202dc5",
+      "sha1": "9f24188f37435a542ec7b06606489b9c35fe63a3",
+      "used_model_elements": 46
+    },
+    {
+      "diagram": "IBD_4500",
+      "resource_id": "BINARY-3bf3c32036b90b65cb9d7e4aeefd4e44",
+      "sha1": "dbdef40f2eef91bdd965a445b3d16cddb9a87fee",
+      "used_model_elements": 44
+    },
+    {
+      "diagram": "IBD_4510",
+      "resource_id": "BINARY-7644de09268660eccd6c76f66dd88b7d",
+      "sha1": "6506f963c7c0e7a4e3f3b48fa02ca510aeb12aab",
+      "used_model_elements": 62
+    },
+    {
+      "diagram": "IBD_5000",
+      "resource_id": "BINARY-409e0ccbf09027c1dacb08e659f6aa3c",
+      "sha1": "04838d93df5ebfa84f994bd6c0cb4c9b773da8da",
+      "used_model_elements": 141
+    },
+    {
+      "diagram": "IBD_5100",
+      "resource_id": "BINARY-67437b3bb348f4500f7fbbc6a5f81633",
+      "sha1": "2c4c9201c687935c9b3f5c01672511aef7e2653e",
+      "used_model_elements": 198
+    },
+    {
+      "diagram": "IBD_5110",
+      "resource_id": "BINARY-810120215f4dccc0d5df79d81572b4cc",
+      "sha1": "56fbc87ccdffdef30f590c4d5ad398fe27288d63",
+      "used_model_elements": 121
+    },
+    {
+      "diagram": "IBD_5120",
+      "resource_id": "BINARY-43159946750cbf0589abc9234a32b98e",
+      "sha1": "3c52128e0ba0495e0a869fb8c4e39922da803a98",
+      "used_model_elements": 44
+    },
+    {
+      "diagram": "IBD_5130",
+      "resource_id": "BINARY-6450ccef0129070895af842996efe28b",
+      "sha1": "d4933cc4c4b760d473c700892714bf5a5cf8e3dc",
+      "used_model_elements": 86
+    },
+    {
+      "diagram": "IBD_5140",
+      "resource_id": "BINARY-f2f4e02f1ea93de510f335cbe7959f21",
+      "sha1": "d072435517382208a1e9e9b62a76578d279b9b82",
+      "used_model_elements": 83
+    },
+    {
+      "diagram": "IBD_5300",
+      "resource_id": "BINARY-88b127e48c35830dc82b486465e672bb",
+      "sha1": "481953eb919d699a3e804069a9921032f3bd7636",
+      "used_model_elements": 38
+    },
+    {
+      "diagram": "IBD_5310",
+      "resource_id": "BINARY-11c78951be72ede8830e7a2600f0273c",
+      "sha1": "4ef3c91a8f613cc872ac59325d1be626003334fd",
+      "used_model_elements": 37
+    },
+    {
+      "diagram": "IBD_7000",
+      "resource_id": "BINARY-acf81d90dfefde380513176686c534de",
+      "sha1": "a9071988c6ffbd69511cba3afc68c6825921ba3a",
+      "used_model_elements": 116
+    },
+    {
+      "diagram": "IBD_7100",
+      "resource_id": "BINARY-5ebd4b8cc961181f0134ea085fe0927d",
+      "sha1": "b6a6c356359a27c44e0564ea5a9de278775a2f7f",
+      "used_model_elements": 31
+    },
+    {
+      "diagram": "IBD_7120",
+      "resource_id": "BINARY-cfedf8305a61b5a2e0289d2edb573115",
+      "sha1": "46b9f3ccb2fc7d8d5e28a69eaf60894ebdb5afbe",
+      "used_model_elements": 15
+    },
+    {
+      "diagram": "IBD_7130",
+      "resource_id": "BINARY-e60ef9399b0737301fb429993e116cf4",
+      "sha1": "2862a28547e9d5d5017a44b02acaf2a9dc3fb666",
+      "used_model_elements": 19
+    },
+    {
+      "diagram": "IBD_7140",
+      "resource_id": "BINARY-1cde83b8c50e95e90e433364846555d2",
+      "sha1": "a50b21417e1fd9d41203273b70609f4bb5e2cf18",
+      "used_model_elements": 20
+    },
+    {
+      "diagram": "IBD_7200",
+      "resource_id": "BINARY-172f0df8d8169c4d51b2c416ddf05995",
+      "sha1": "226dafc853eef1b83504013f365d773ece8e36b1",
+      "used_model_elements": 189
+    },
+    {
+      "diagram": "IBD_7210",
+      "resource_id": "BINARY-bcf7381e75493158d0e15fff8465062f",
+      "sha1": "ca16faadd9f3e84b6a303322062fa9b8c2a03fb9",
+      "used_model_elements": 158
+    },
+    {
+      "diagram": "IBD_7220",
+      "resource_id": "BINARY-8cf90c9807988c96fafedeb32226c985",
+      "sha1": "3c937f5ead46cf40ede32c3897f19f131597dea0",
+      "used_model_elements": 176
+    },
+    {
+      "diagram": "IBD_7250",
+      "resource_id": "BINARY-833e45e66c7668043e7b35d3cb809e20",
+      "sha1": "8de41fba708cf7658041f14be35b4f0fc1d35747",
+      "used_model_elements": 48
+    },
+    {
+      "diagram": "IBD_7280",
+      "resource_id": "BINARY-6ed354bb54058d537b6170cf66ccb173",
+      "sha1": "356972e5694c0b34c4f2717b47dc22bb6e77104c",
+      "used_model_elements": 69
+    },
+    {
+      "diagram": "IBD_8000",
+      "resource_id": "BINARY-397d84081cd6d0d3ff20c24563d582ff",
+      "sha1": "b392ef3d0b89fa43e07ef2a614588bacb9de8bd5",
+      "used_model_elements": 279
+    },
+    {
+      "diagram": "IBD_8100",
+      "resource_id": "BINARY-fb592b5117aa19f780ea8eb044c63a27",
+      "sha1": "b4066a72139d8f53af129066c28706a4507d2e6f",
+      "used_model_elements": 326
+    },
+    {
+      "diagram": "IBD_8120",
+      "resource_id": "BINARY-c0fc38bd2377aba67f9fb1709fc88f2f",
+      "sha1": "1a24454e5990d9d6c45cf120ad1be4d1d8e63d50",
+      "used_model_elements": 409
+    },
+    {
+      "diagram": "IBD_8150",
+      "resource_id": "BINARY-815c0f43eb96a5b5b347c2dad910c079",
+      "sha1": "8d620a7f7ce89c9aa48bac821b1eedfb9fa435ee",
+      "used_model_elements": 70
+    },
+    {
+      "diagram": "IBD_8160",
+      "resource_id": "BINARY-127d51a22692f8d1ab1cba6d654d0347",
+      "sha1": "adfc6e385d76ed6dad27f4cb48cd6d0e39c02fd1",
+      "used_model_elements": 52
+    },
+    {
+      "diagram": "IBD_D000",
+      "resource_id": "BINARY-4b9df1400cae66b55082ededc91a1102",
+      "sha1": "7d1417c440f85ccdf9125b8401ca2849cc50860c",
+      "used_model_elements": 28
+    },
+    {
+      "diagram": "IBD_D100",
+      "resource_id": "BINARY-d5cd35605033c5e50310a3ed5e973b7f",
+      "sha1": "d5f339114f374994dece6b3c80848ca63fe8c7ad",
+      "used_model_elements": 30
+    },
+    {
+      "diagram": "IBD_D110",
+      "resource_id": "BINARY-2253b373ba2fb78145fa43d0e65641f2",
+      "sha1": "6e6dbe27729599d86b418ad0c715915821543f49",
+      "used_model_elements": 20
+    },
+    {
+      "diagram": "IBD_D120",
+      "resource_id": "BINARY-afa7446073058d3faba40ecd4afa4fad",
+      "sha1": "4db367795952403898aa8c6cf05667df40632ae9",
+      "used_model_elements": 12
+    },
+    {
+      "diagram": "IBD_D130",
+      "resource_id": "BINARY-aaff45b48825c4fde8c28ee29d5fa28b",
+      "sha1": "08d5a0d00963c239a985311c0516f2a57734d468",
+      "used_model_elements": 4
+    },
+    {
+      "diagram": "IBD_E000",
+      "resource_id": "BINARY-666e3fabea87ae8121cb749cecb93b4c",
+      "sha1": "d1162c1fe77150d6d1169f45488543b91671a48a",
+      "used_model_elements": 17
+    },
+    {
+      "diagram": "IBD_X000",
+      "resource_id": "BINARY-add79e423e3d2a12d06e5b5872da561e",
+      "sha1": "ac4afe0e9b392cf9be08e36b410caf28b309b84e",
+      "used_model_elements": 95
+    },
+    {
+      "diagram": "IBD_X100",
+      "resource_id": "BINARY-152c952b039eacdab6a78dd0b8b6bbc5",
+      "sha1": "a53704c41b7b0dbfedc290cf5e69ab04a5e2e17a",
+      "used_model_elements": 169
+    },
+    {
+      "diagram": "IBD_X110",
+      "resource_id": "BINARY-3aaaec9874e0d9aeb68fda4f7997d99d",
+      "sha1": "bb32ee07d6c0d623e97bdbe5dfadaf71c5d62131",
+      "used_model_elements": 197
+    },
+    {
+      "diagram": "IBD_X120",
+      "resource_id": "BINARY-fe5808451eba331c8053939920a71849",
+      "sha1": "26754de16e3f7dae018c62b4b48fa11089eccc43",
+      "used_model_elements": 64
+    },
+    {
+      "diagram": "IBD_X130",
+      "resource_id": "BINARY-f9b557117da21a84eeae9b45d70de906",
+      "sha1": "6ad20a5477b1bd7587782b676de8468b903a8869",
+      "used_model_elements": 85
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Products": {
+    "source_count": 147,
+    "generated_count": 147,
+    "matched_count": 147,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  },
+  "Items": {
+    "source_count": 144,
+    "generated_count": 144,
+    "matched_count": 144,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  },
+  "Raw Ports": {
+    "source_count": 517,
+    "generated_count": 517,
+    "matched_count": 517,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  },
+  "Functions": {
+    "source_count": 191,
+    "generated_count": 191,
+    "matched_count": 191,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  },
+  "Allocations": {
+    "source_count": 191,
+    "generated_count": 191,
+    "matched_count": 191,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  },
+  "Final Connections": {
+    "source_count": 184,
+    "generated_count": 184,
+    "matched_count": 184,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  },
+  "Physical Nets": {
+    "source_count": 9,
+    "generated_count": 9,
+    "matched_count": 9,
+    "missing": [],
+    "duplicate": [],
+    "extra": []
+  }
+}

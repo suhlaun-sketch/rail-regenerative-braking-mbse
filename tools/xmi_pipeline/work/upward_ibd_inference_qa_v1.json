@@ -1,0 +1,54 @@
+{
+  "upward": {
+    "UP-QA-01": "PASS",
+    "UP-QA-02": "PASS",
+    "UP-QA-03": "PASS",
+    "UP-QA-04": "PASS",
+    "UP-QA-05": "PASS",
+    "UP-QA-06": "PASS",
+    "UP-QA-07": "PASS",
+    "UP-QA-08": "PASS",
+    "UP-QA-09": "PASS",
+    "UP-QA-10": "PASS",
+    "UP-QA-11": "PASS",
+    "UP-QA-12": "PASS",
+    "UP-QA-13": "PASS",
+    "UP-QA-14": "PASS",
+    "UP-QA-15": "PASS"
+  },
+  "ibd": {
+    "IBD-QA-01": "PASS",
+    "IBD-QA-02": "PASS",
+    "IBD-QA-03": "PASS",
+    "IBD-QA-04": "PASS",
+    "IBD-QA-05": "PASS",
+    "IBD-QA-06": "PASS",
+    "IBD-QA-07": "PASS",
+    "IBD-QA-08": "PASS",
+    "IBD-QA-09": "PASS",
+    "IBD-QA-10": "PASS"
+  },
+  "itemflow": {
+    "ITEM-QA-01": "PASS",
+    "ITEM-QA-02": "PASS",
+    "ITEM-QA-03": "PASS",
+    "ITEM-QA-04": "PASS",
+    "ITEM-QA-05": "PASS",
+    "ITEM-QA-06": "PASS",
+    "ITEM-QA-07": "PASS",
+    "ITEM-QA-08": "PASS",
+    "ITEM-QA-09": "PASS"
+  },
+  "physical_net": {
+    "PHY-QA-01": "PASS",
+    "PHY-QA-02": "PASS",
+    "PHY-QA-03": "PASS",
+    "PHY-QA-04": "PASS"
+  },
+  "evidence": {
+    "unresolved_promoted_refs": [],
+    "direct_child_violations": [],
+    "wrong_signal_direction": [],
+    "wrong_physical_direction": []
+  }
+}

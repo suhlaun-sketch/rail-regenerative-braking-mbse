@@ -1,0 +1,33 @@
+{
+  "operation_name": "dropNodes",
+  "timestamp": "2026-09-23T16:21:04.018580+00:00",
+  "variables": {
+    "input": {
+      "id": "7f2fd3a2-7fa6-4209-b857-60f47bcf1ce7",
+      "editingContextId": "967a4588-11d1-435d-ba59-2412f2e63002",
+      "representationId": "191435ec-48f2-4958-83f1-06948e88eb0d",
+      "droppedElementIds": [
+        "4f835bd6-1684-4535-9ef1-8716f1cab65f",
+        "4f482186-3282-40fc-8d73-0b848be91d39"
+      ],
+      "dropPositions": [
+        {
+          "x": 80.0,
+          "y": 80.0
+        },
+        {
+          "x": 260.0,
+          "y": 80.0
+        }
+      ]
+    }
+  },
+  "representation_id": "191435ec-48f2-4958-83f1-06948e88eb0d",
+  "response": {
+    "dropNodes": {
+      "__typename": "ErrorPayload",
+      "message": "Invalid input type, \"DropNodesInput\" has been received while \"DropNodesInput\" was expected"
+    }
+  },
+  "error": null
+}

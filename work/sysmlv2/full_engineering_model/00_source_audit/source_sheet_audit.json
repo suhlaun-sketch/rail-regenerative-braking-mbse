@@ -1,0 +1,482 @@
+[
+  {
+    "sheet": "Function",
+    "header_row": 4,
+    "rows": 191,
+    "columns": [
+      "function_id",
+      "function_name_cn",
+      "function_name_en",
+      "function_level",
+      "function_category",
+      "owner_product_code",
+      "owner_product_name",
+      "description",
+      "generation_basis"
+    ],
+    "types": {
+      "function_id": [
+        "str"
+      ],
+      "function_name_cn": [
+        "str"
+      ],
+      "function_name_en": [
+        "str"
+      ],
+      "function_level": [
+        "int"
+      ],
+      "function_category": [
+        "str"
+      ],
+      "owner_product_code": [
+        "str"
+      ],
+      "owner_product_name": [
+        "str"
+      ],
+      "description": [
+        "str"
+      ],
+      "generation_basis": [
+        "str"
+      ]
+    },
+    "id_column": "function_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Engineering functions and hierarchy level",
+    "participates": true
+  },
+  {
+    "sheet": "Function_Allocation",
+    "header_row": 4,
+    "rows": 191,
+    "columns": [
+      "allocation_id",
+      "function_id",
+      "product_code",
+      "product_name",
+      "allocation_type"
+    ],
+    "types": {
+      "allocation_id": [
+        "str"
+      ],
+      "function_id": [
+        "str"
+      ],
+      "product_code": [
+        "str"
+      ],
+      "product_name": [
+        "str"
+      ],
+      "allocation_type": [
+        "str"
+      ]
+    },
+    "id_column": "allocation_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Function-to-product allocations",
+    "participates": true
+  },
+  {
+    "sheet": "Interface",
+    "header_row": 4,
+    "rows": 517,
+    "columns": [
+      "interface_instance_id",
+      "product_code",
+      "product_name",
+      "port_id",
+      "port_name",
+      "direction",
+      "port_category",
+      "item_code",
+      "item_name",
+      "port_type_id",
+      "interface_type_id",
+      "profile_active",
+      "connection_mode",
+      "physical_net_id",
+      "xmi_element_id"
+    ],
+    "types": {
+      "interface_instance_id": [
+        "str"
+      ],
+      "product_code": [
+        "str"
+      ],
+      "product_name": [
+        "str"
+      ],
+      "port_id": [
+        "str"
+      ],
+      "port_name": [
+        "str"
+      ],
+      "direction": [
+        "str"
+      ],
+      "port_category": [
+        "str"
+      ],
+      "item_code": [
+        "str"
+      ],
+      "item_name": [
+        "str"
+      ],
+      "port_type_id": [
+        "str"
+      ],
+      "interface_type_id": [
+        "str"
+      ],
+      "profile_active": [
+        "bool"
+      ],
+      "connection_mode": [
+        "str"
+      ],
+      "physical_net_id": [
+        "str"
+      ],
+      "xmi_element_id": [
+        "str"
+      ]
+    },
+    "id_column": "interface_instance_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Leaf raw port instances and item/type bindings",
+    "participates": true
+  },
+  {
+    "sheet": "Function_Interface",
+    "header_row": 4,
+    "rows": 471,
+    "columns": [
+      "mapping_id",
+      "function_id",
+      "interface_instance_id",
+      "usage_role"
+    ],
+    "types": {
+      "mapping_id": [
+        "str"
+      ],
+      "function_id": [
+        "str"
+      ],
+      "interface_instance_id": [
+        "str"
+      ],
+      "usage_role": [
+        "str"
+      ]
+    },
+    "id_column": "mapping_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Function-to-interface usage relations",
+    "participates": true
+  },
+  {
+    "sheet": "Connection",
+    "header_row": 4,
+    "rows": 184,
+    "columns": [
+      "connection_id",
+      "source_product_code",
+      "source_port_id",
+      "target_product_code",
+      "target_port_id",
+      "item_code",
+      "interface_type_id",
+      "mode",
+      "profile_id",
+      "resolution_basis",
+      "xmi_connector_id"
+    ],
+    "types": {
+      "connection_id": [
+        "str"
+      ],
+      "source_product_code": [
+        "str"
+      ],
+      "source_port_id": [
+        "str"
+      ],
+      "target_product_code": [
+        "str"
+      ],
+      "target_port_id": [
+        "str"
+      ],
+      "item_code": [
+        "str"
+      ],
+      "interface_type_id": [
+        "str"
+      ],
+      "mode": [
+        "str"
+      ],
+      "profile_id": [
+        "str"
+      ],
+      "resolution_basis": [
+        "str"
+      ],
+      "xmi_connector_id": [
+        "str"
+      ]
+    },
+    "id_column": "connection_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Formal final leaf connections",
+    "participates": true
+  },
+  {
+    "sheet": "PhysicalNet",
+    "header_row": 4,
+    "rows": 9,
+    "columns": [
+      "net_id",
+      "name",
+      "item_code",
+      "domain",
+      "profile_id",
+      "member_count",
+      "xmi_element_id"
+    ],
+    "types": {
+      "net_id": [
+        "str"
+      ],
+      "name": [
+        "str"
+      ],
+      "item_code": [
+        "str"
+      ],
+      "domain": [
+        "str"
+      ],
+      "profile_id": [
+        "str"
+      ],
+      "member_count": [
+        "int"
+      ],
+      "xmi_element_id": [
+        "str"
+      ]
+    },
+    "id_column": "net_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "N-ary physical network definitions",
+    "participates": true
+  },
+  {
+    "sheet": "Net_Member",
+    "header_row": 4,
+    "rows": 82,
+    "columns": [
+      "net_member_id",
+      "net_id",
+      "product_code",
+      "port_id",
+      "item_code"
+    ],
+    "types": {
+      "net_member_id": [
+        "str"
+      ],
+      "net_id": [
+        "str"
+      ],
+      "product_code": [
+        "str"
+      ],
+      "port_id": [
+        "str"
+      ],
+      "item_code": [
+        "str"
+      ]
+    },
+    "id_column": "net_member_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Physical network member ports",
+    "participates": true
+  },
+  {
+    "sheet": "Product_Hierarchy",
+    "header_row": 4,
+    "rows": 147,
+    "columns": [
+      "code",
+      "name",
+      "level",
+      "parent_code",
+      "leaf",
+      "selected",
+      "source_type",
+      "namespace",
+      "xmi_element_id"
+    ],
+    "types": {
+      "code": [
+        "str"
+      ],
+      "name": [
+        "str"
+      ],
+      "level": [
+        "int"
+      ],
+      "parent_code": [
+        "str"
+      ],
+      "leaf": [
+        "bool"
+      ],
+      "selected": [
+        "bool"
+      ],
+      "source_type": [
+        "str"
+      ],
+      "namespace": [
+        "str"
+      ],
+      "xmi_element_id": [
+        "str"
+      ]
+    },
+    "id_column": "code",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Complete L1-L4 product hierarchy",
+    "participates": true
+  },
+  {
+    "sheet": "Item",
+    "header_row": 4,
+    "rows": 144,
+    "columns": [
+      "item_code",
+      "name_cn",
+      "name_en",
+      "family",
+      "domain",
+      "datatype",
+      "unit_medium",
+      "semantic_definition",
+      "aliases",
+      "priority",
+      "validity_rule",
+      "fault_strategy",
+      "usage_note",
+      "port_type_id",
+      "interface_type_id",
+      "xmi_metaclass_hint",
+      "xmi_element_id"
+    ],
+    "types": {
+      "item_code": [
+        "str"
+      ],
+      "name_cn": [
+        "str"
+      ],
+      "name_en": [
+        "str"
+      ],
+      "family": [
+        "str"
+      ],
+      "domain": [
+        "str"
+      ],
+      "datatype": [
+        "str"
+      ],
+      "unit_medium": [
+        "str"
+      ],
+      "semantic_definition": [
+        "str"
+      ],
+      "aliases": [
+        "str"
+      ],
+      "priority": [
+        "str"
+      ],
+      "validity_rule": [
+        "str"
+      ],
+      "fault_strategy": [
+        "str"
+      ],
+      "usage_note": [
+        "str"
+      ],
+      "port_type_id": [
+        "str"
+      ],
+      "interface_type_id": [
+        "str"
+      ],
+      "xmi_metaclass_hint": [
+        "str"
+      ],
+      "xmi_element_id": [
+        "str"
+      ]
+    },
+    "id_column": "item_code",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Canonical engineering item dictionary",
+    "participates": true
+  },
+  {
+    "sheet": "XMI_Export_QA",
+    "header_row": 4,
+    "rows": 10,
+    "columns": [
+      "qa_id",
+      "status",
+      "detail"
+    ],
+    "types": {
+      "qa_id": [
+        "str"
+      ],
+      "status": [
+        "str"
+      ],
+      "detail": [
+        "str"
+      ]
+    },
+    "id_column": "qa_id",
+    "blank_ids": 0,
+    "duplicate_ids": [],
+    "purpose": "Source-side cross-check only",
+    "participates": false
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "component": "L2_3100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_3100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 24.9222945,
+    "error": ""
+  },
+  {
+    "component": "L2_3500",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3500.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_3500.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 10.8909124,
+    "error": ""
+  },
+  {
+    "component": "L2_3600",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3600.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_3600.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.7315941,
+    "error": ""
+  },
+  {
+    "component": "L2_3800",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3800.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_3800.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.4005451,
+    "error": ""
+  },
+  {
+    "component": "L2_4100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_4100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 13.6639169,
+    "error": ""
+  },
+  {
+    "component": "L2_4200",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4200.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_4200.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 10.1079186,
+    "error": ""
+  },
+  {
+    "component": "L2_4400",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4400.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_4400.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 8.4730565,
+    "error": ""
+  },
+  {
+    "component": "L2_4500",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4500.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_4500.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 8.6731412,
+    "error": ""
+  },
+  {
+    "component": "L2_5100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_5100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_5100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.6920994,
+    "error": ""
+  },
+  {
+    "component": "L2_5300",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_5300.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_5300.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.0425468,
+    "error": ""
+  },
+  {
+    "component": "L2_7100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_7100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_7100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 8.5930549,
+    "error": ""
+  },
+  {
+    "component": "L2_7200",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_7200.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_7200.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.0200164,
+    "error": ""
+  },
+  {
+    "component": "L2_8100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_8100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_8100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.7325133,
+    "error": ""
+  },
+  {
+    "component": "L2_D100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_D100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_D100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.0184358,
+    "error": ""
+  },
+  {
+    "component": "L2_E100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_E100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_E100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 8.1087056,
+    "error": ""
+  },
+  {
+    "component": "L2_X100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_X100.slx",
+    "fmu_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\05_fmu\\L2_X100.fmu",
+    "fmi_version": "2.0",
+    "fmi_type": "Co-Simulation",
+    "export_status": "PASS",
+    "duration_s": 9.8377598,
+    "error": ""
+  }
+]

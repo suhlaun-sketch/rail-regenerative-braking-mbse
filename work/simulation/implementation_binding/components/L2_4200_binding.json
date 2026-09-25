@@ -1,0 +1,111 @@
+{
+  "ssd_component_id": "L2_4200",
+  "ssd_component_name": "L2_4200",
+  "l2_code": "4200",
+  "l2_engineering_name": "网侧高压分配及控制",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_4200::p_4211_rp_bba7ece236be8f3c",
+      "ssd_connector_name": "p_4211_rp_bba7ece236be8f3c",
+      "simulink_port_name": "p_4211_rp_bba7ece236be8f3c",
+      "future_fmu_variable": "p_4211_rp_bba7ece236be8f3c",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_11b7e7965ec2e386",
+      "ssd_connector_name": "p_4238_rp_11b7e7965ec2e386",
+      "simulink_port_name": "p_4238_rp_11b7e7965ec2e386",
+      "future_fmu_variable": "p_4238_rp_11b7e7965ec2e386",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_d9d25dfbac32d1e3",
+      "ssd_connector_name": "p_4238_rp_d9d25dfbac32d1e3",
+      "simulink_port_name": "p_4238_rp_d9d25dfbac32d1e3",
+      "future_fmu_variable": "p_4238_rp_d9d25dfbac32d1e3",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4239_rp_c9c4c887a8c7b2f0",
+      "ssd_connector_name": "p_4239_rp_c9c4c887a8c7b2f0",
+      "simulink_port_name": "p_4239_rp_c9c4c887a8c7b2f0",
+      "future_fmu_variable": "p_4239_rp_c9c4c887a8c7b2f0",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_4200::p_4235_rp_6fea4b377f978aac",
+      "ssd_connector_name": "p_4235_rp_6fea4b377f978aac",
+      "simulink_port_name": "p_4235_rp_6fea4b377f978aac",
+      "future_fmu_variable": "p_4235_rp_6fea4b377f978aac",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4236_rp_78e99abb7d77c156",
+      "ssd_connector_name": "p_4236_rp_78e99abb7d77c156",
+      "simulink_port_name": "p_4236_rp_78e99abb7d77c156",
+      "future_fmu_variable": "p_4236_rp_78e99abb7d77c156",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4236_rp_9107465175683792",
+      "ssd_connector_name": "p_4236_rp_9107465175683792",
+      "simulink_port_name": "p_4236_rp_9107465175683792",
+      "future_fmu_variable": "p_4236_rp_9107465175683792",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_0674d2b80a6a72da",
+      "ssd_connector_name": "p_4238_rp_0674d2b80a6a72da",
+      "simulink_port_name": "p_4238_rp_0674d2b80a6a72da",
+      "future_fmu_variable": "p_4238_rp_0674d2b80a6a72da",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_5576b5e0dbb912ba",
+      "ssd_connector_name": "p_4238_rp_5576b5e0dbb912ba",
+      "simulink_port_name": "p_4238_rp_5576b5e0dbb912ba",
+      "future_fmu_variable": "p_4238_rp_5576b5e0dbb912ba",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_65aacc4600de3990",
+      "ssd_connector_name": "p_4238_rp_65aacc4600de3990",
+      "simulink_port_name": "p_4238_rp_65aacc4600de3990",
+      "future_fmu_variable": "p_4238_rp_65aacc4600de3990",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_9458944450b0dd4c",
+      "ssd_connector_name": "p_4238_rp_9458944450b0dd4c",
+      "simulink_port_name": "p_4238_rp_9458944450b0dd4c",
+      "future_fmu_variable": "p_4238_rp_9458944450b0dd4c",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_9744a4b3a255a6e8",
+      "ssd_connector_name": "p_4238_rp_9744a4b3a255a6e8",
+      "simulink_port_name": "p_4238_rp_9744a4b3a255a6e8",
+      "future_fmu_variable": "p_4238_rp_9744a4b3a255a6e8",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4200::p_4238_rp_c7dcc306b020116f",
+      "ssd_connector_name": "p_4238_rp_c7dcc306b020116f",
+      "simulink_port_name": "p_4238_rp_c7dcc306b020116f",
+      "future_fmu_variable": "p_4238_rp_c7dcc306b020116f",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 13,
+  "connected_l2_peers": [
+    "L2_4100",
+    "L2_4500",
+    "L2_5100",
+    "L2_8100"
+  ],
+  "future_simulink": "L2_4200.slx",
+  "future_fmu": "L2_4200.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,403 @@
+{
+  "ssd_component": "L2_5300",
+  "l2_code": "5300",
+  "l2_engineering_name": "牵引电机及其冷却",
+  "future_simulink_model": "L2_5300.slx",
+  "future_fmu_file": "L2_5300.fmu",
+  "source_structural_connectors": [
+    "L2_5300.p_5311_rp_10bb4c4f0063bc18",
+    "L2_5300.p_5311_rp_537e9856bafa2a02",
+    "L2_5300.p_5311_rp_57f3c317ac0c860d",
+    "L2_5300.p_5311_rp_79c695a1342df24f",
+    "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+  ],
+  "inputs": [
+    {
+      "executable_variable_id": "EV::L2_5300::in_U_motor_ll_rms",
+      "variable_name": "in_U_motor_ll_rms",
+      "engineering_meaning": "Motor-side line-line RMS voltage equivalent.",
+      "quantity": "U_motor_ll_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0081"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_3BD24EBE88F37EEFFE563597"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-004-3PH"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_57f3c317ac0c860d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::in_f_motor_e",
+      "variable_name": "in_f_motor_e",
+      "engineering_meaning": "Motor-side electrical fundamental frequency.",
+      "quantity": "f_motor_e",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0082"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_3BD24EBE88F37EEFFE563597"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-004-3PH"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_57f3c317ac0c860d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::in_omega_shaft",
+      "variable_name": "in_omega_shaft",
+      "engineering_meaning": "Shaft angular-speed feedback variable.",
+      "quantity": "omega_shaft",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0087"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_338D68ABEF709ACD5E0DDCC6"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-SERIES"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_5300::out_I_motor_rms",
+      "variable_name": "out_I_motor_rms",
+      "engineering_meaning": "Motor RMS current feedback/load flow.",
+      "quantity": "I_motor_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0083"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_3BD24EBE88F37EEFFE563597"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-004-3PH"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+        "ItemDefinitions::ITM-PHY-004",
+        "IF_IF_PHY_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_57f3c317ac0c860d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::out_T_shaft",
+      "variable_name": "out_T_shaft",
+      "engineering_meaning": "Shaft torque effort variable.",
+      "quantity": "T_shaft",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0086"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_338D68ABEF709ACD5E0DDCC6"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-SERIES"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::out_motor_phase_voltage",
+      "variable_name": "out_motor_phase_voltage",
+      "engineering_meaning": "电机侧变流器/牵引电机的三相电压测量。",
+      "quantity": "motor_phase_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0020"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_37ECA5B04E215AC3E6A4B472"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_537e9856bafa2a02",
+        "ItemDefinitions::ITM-MEA-011",
+        "IF_IF_MEA_011"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_537e9856bafa2a02"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::out_motor_speed",
+      "variable_name": "out_motor_speed",
+      "engineering_meaning": "牵引电机速度传感器或电机控制估算的电机机械角速度。",
+      "quantity": "motor_speed",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0019"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_46A1EE350324445D016EAF45"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_79c695a1342df24f",
+        "ItemDefinitions::ITM-MEA-004",
+        "IF_IF_MEA_004"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_79c695a1342df24f"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::out_motor_torque_actual",
+      "variable_name": "out_motor_torque_actual",
+      "engineering_meaning": "电机控制估算或测量的实际电磁转矩。",
+      "quantity": "motor_torque_actual",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0021",
+        "SIM-L2-0022"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_65E377DBF988541FA5778D1E",
+        "CG_D4DF5719633CB5B375F35094"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_10bb4c4f0063bc18",
+        "ItemDefinitions::ITM-MEA-012",
+        "IF_IF_MEA_012"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_10bb4c4f0063bc18"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_5300::out_omega_motor",
+      "variable_name": "out_omega_motor",
+      "engineering_meaning": "Host mechanical angular speed sampled by sensor leaf 3644.",
+      "quantity": "omega_motor",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0065"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_07AF42BFA3927EF22F7BDDE7"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-TAP"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "TAP不传递机械功率；按原始叶级传感器通道逐一展开，避免L2聚合后丢失多传感器通道。"
+      ],
+      "ssd_component": "L2_5300",
+      "source_ssd_connectors": [
+        "L2_5300.p_5311_rp_97eb613c06ae1b2e"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 3,
+    "outputs": 6,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 9
+  },
+  "readiness": "READY"
+}

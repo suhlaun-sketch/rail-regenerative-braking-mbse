@@ -1,0 +1,2237 @@
+{
+  "source_model": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\full_engineering_model\\01_generated\\Rail_MBSE_Full_v1.sysml",
+  "total": 147,
+  "level_counts": {
+    "1": 8,
+    "2": 16,
+    "3": 34,
+    "4": 89
+  },
+  "container_codes": [
+    "3000",
+    "3100",
+    "3110",
+    "3120",
+    "3130",
+    "3500",
+    "3510",
+    "3600",
+    "3640",
+    "3800",
+    "3810",
+    "4000",
+    "4100",
+    "4110",
+    "4120",
+    "4200",
+    "4210",
+    "4230",
+    "4240",
+    "4400",
+    "4410",
+    "4500",
+    "4510",
+    "5000",
+    "5100",
+    "5110",
+    "5120",
+    "5130",
+    "5140",
+    "5300",
+    "5310",
+    "7000",
+    "7100",
+    "7120",
+    "7130",
+    "7140",
+    "7200",
+    "7210",
+    "7220",
+    "7250",
+    "7280",
+    "8000",
+    "8100",
+    "8120",
+    "8150",
+    "8160",
+    "D000",
+    "D100",
+    "D110",
+    "D120",
+    "D130",
+    "E000",
+    "X000",
+    "X100",
+    "X110",
+    "X120",
+    "X130"
+  ],
+  "products": [
+    {
+      "product_code": "3000",
+      "definition_id": "P_N_3000",
+      "usage_id": "p_N_3000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "3100",
+        "3500",
+        "3600",
+        "3800"
+      ],
+      "hierarchy_path": [
+        "3000"
+      ]
+    },
+    {
+      "product_code": "4000",
+      "definition_id": "P_N_4000",
+      "usage_id": "p_N_4000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "4100",
+        "4200",
+        "4400",
+        "4500"
+      ],
+      "hierarchy_path": [
+        "4000"
+      ]
+    },
+    {
+      "product_code": "5000",
+      "definition_id": "P_N_5000",
+      "usage_id": "p_N_5000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "5100",
+        "5300"
+      ],
+      "hierarchy_path": [
+        "5000"
+      ]
+    },
+    {
+      "product_code": "7000",
+      "definition_id": "P_N_7000",
+      "usage_id": "p_N_7000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "7100",
+        "7200"
+      ],
+      "hierarchy_path": [
+        "7000"
+      ]
+    },
+    {
+      "product_code": "8000",
+      "definition_id": "P_N_8000",
+      "usage_id": "p_N_8000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "8100"
+      ],
+      "hierarchy_path": [
+        "8000"
+      ]
+    },
+    {
+      "product_code": "D000",
+      "definition_id": "P_D000",
+      "usage_id": "p_D000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "D100"
+      ],
+      "hierarchy_path": [
+        "D000"
+      ]
+    },
+    {
+      "product_code": "E000",
+      "definition_id": "P_E000",
+      "usage_id": "p_E000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "E100"
+      ],
+      "hierarchy_path": [
+        "E000"
+      ]
+    },
+    {
+      "product_code": "X000",
+      "definition_id": "P_X000",
+      "usage_id": "p_X000",
+      "level": 1,
+      "parent_code": null,
+      "direct_children": [
+        "X100"
+      ],
+      "hierarchy_path": [
+        "X000"
+      ]
+    },
+    {
+      "product_code": "3100",
+      "definition_id": "P_N_3100",
+      "usage_id": "p_N_3100",
+      "level": 2,
+      "parent_code": "3000",
+      "direct_children": [
+        "3110",
+        "3120",
+        "3130"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3100"
+      ]
+    },
+    {
+      "product_code": "3500",
+      "definition_id": "P_N_3500",
+      "usage_id": "p_N_3500",
+      "level": 2,
+      "parent_code": "3000",
+      "direct_children": [
+        "3510"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3500"
+      ]
+    },
+    {
+      "product_code": "3600",
+      "definition_id": "P_N_3600",
+      "usage_id": "p_N_3600",
+      "level": 2,
+      "parent_code": "3000",
+      "direct_children": [
+        "3640"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3600"
+      ]
+    },
+    {
+      "product_code": "3800",
+      "definition_id": "P_N_3800",
+      "usage_id": "p_N_3800",
+      "level": 2,
+      "parent_code": "3000",
+      "direct_children": [
+        "3810"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3800"
+      ]
+    },
+    {
+      "product_code": "4100",
+      "definition_id": "P_N_4100",
+      "usage_id": "p_N_4100",
+      "level": 2,
+      "parent_code": "4000",
+      "direct_children": [
+        "4110",
+        "4120"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4100"
+      ]
+    },
+    {
+      "product_code": "4200",
+      "definition_id": "P_N_4200",
+      "usage_id": "p_N_4200",
+      "level": 2,
+      "parent_code": "4000",
+      "direct_children": [
+        "4210",
+        "4230",
+        "4240"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4200"
+      ]
+    },
+    {
+      "product_code": "4400",
+      "definition_id": "P_N_4400",
+      "usage_id": "p_N_4400",
+      "level": 2,
+      "parent_code": "4000",
+      "direct_children": [
+        "4410"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4400"
+      ]
+    },
+    {
+      "product_code": "4500",
+      "definition_id": "P_N_4500",
+      "usage_id": "p_N_4500",
+      "level": 2,
+      "parent_code": "4000",
+      "direct_children": [
+        "4510"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4500"
+      ]
+    },
+    {
+      "product_code": "5100",
+      "definition_id": "P_N_5100",
+      "usage_id": "p_N_5100",
+      "level": 2,
+      "parent_code": "5000",
+      "direct_children": [
+        "5110",
+        "5120",
+        "5130",
+        "5140"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5100"
+      ]
+    },
+    {
+      "product_code": "5300",
+      "definition_id": "P_N_5300",
+      "usage_id": "p_N_5300",
+      "level": 2,
+      "parent_code": "5000",
+      "direct_children": [
+        "5310"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5300"
+      ]
+    },
+    {
+      "product_code": "7100",
+      "definition_id": "P_N_7100",
+      "usage_id": "p_N_7100",
+      "level": 2,
+      "parent_code": "7000",
+      "direct_children": [
+        "7120",
+        "7130",
+        "7140"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7100"
+      ]
+    },
+    {
+      "product_code": "7200",
+      "definition_id": "P_N_7200",
+      "usage_id": "p_N_7200",
+      "level": 2,
+      "parent_code": "7000",
+      "direct_children": [
+        "7210",
+        "7220",
+        "7250",
+        "7280"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7200"
+      ]
+    },
+    {
+      "product_code": "8100",
+      "definition_id": "P_N_8100",
+      "usage_id": "p_N_8100",
+      "level": 2,
+      "parent_code": "8000",
+      "direct_children": [
+        "8120",
+        "8150",
+        "8160"
+      ],
+      "hierarchy_path": [
+        "8000",
+        "8100"
+      ]
+    },
+    {
+      "product_code": "D100",
+      "definition_id": "P_D100",
+      "usage_id": "p_D100",
+      "level": 2,
+      "parent_code": "D000",
+      "direct_children": [
+        "D110",
+        "D120",
+        "D130"
+      ],
+      "hierarchy_path": [
+        "D000",
+        "D100"
+      ]
+    },
+    {
+      "product_code": "E100",
+      "definition_id": "P_E100",
+      "usage_id": "p_E100",
+      "level": 2,
+      "parent_code": "E000",
+      "direct_children": [],
+      "hierarchy_path": [
+        "E000",
+        "E100"
+      ]
+    },
+    {
+      "product_code": "X100",
+      "definition_id": "P_X100",
+      "usage_id": "p_X100",
+      "level": 2,
+      "parent_code": "X000",
+      "direct_children": [
+        "X110",
+        "X120",
+        "X130"
+      ],
+      "hierarchy_path": [
+        "X000",
+        "X100"
+      ]
+    },
+    {
+      "product_code": "3110",
+      "definition_id": "P_N_3110",
+      "usage_id": "p_N_3110",
+      "level": 3,
+      "parent_code": "3100",
+      "direct_children": [
+        "3111",
+        "3112"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3110"
+      ]
+    },
+    {
+      "product_code": "3120",
+      "definition_id": "P_N_3120",
+      "usage_id": "p_N_3120",
+      "level": 3,
+      "parent_code": "3100",
+      "direct_children": [
+        "3121"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3120"
+      ]
+    },
+    {
+      "product_code": "3130",
+      "definition_id": "P_N_3130",
+      "usage_id": "p_N_3130",
+      "level": 3,
+      "parent_code": "3100",
+      "direct_children": [
+        "3131",
+        "3132",
+        "3133"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3130"
+      ]
+    },
+    {
+      "product_code": "3510",
+      "definition_id": "P_N_3510",
+      "usage_id": "p_N_3510",
+      "level": 3,
+      "parent_code": "3500",
+      "direct_children": [
+        "3511",
+        "3512",
+        "3514"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3500",
+        "3510"
+      ]
+    },
+    {
+      "product_code": "3640",
+      "definition_id": "P_N_3640",
+      "usage_id": "p_N_3640",
+      "level": 3,
+      "parent_code": "3600",
+      "direct_children": [
+        "3641",
+        "3643",
+        "3644"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3600",
+        "3640"
+      ]
+    },
+    {
+      "product_code": "3810",
+      "definition_id": "P_N_3810",
+      "usage_id": "p_N_3810",
+      "level": 3,
+      "parent_code": "3800",
+      "direct_children": [
+        "3811",
+        "3813",
+        "3814"
+      ],
+      "hierarchy_path": [
+        "3000",
+        "3800",
+        "3810"
+      ]
+    },
+    {
+      "product_code": "4110",
+      "definition_id": "P_N_4110",
+      "usage_id": "p_N_4110",
+      "level": 3,
+      "parent_code": "4100",
+      "direct_children": [
+        "4111",
+        "411C"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4100",
+        "4110"
+      ]
+    },
+    {
+      "product_code": "4120",
+      "definition_id": "P_N_4120",
+      "usage_id": "p_N_4120",
+      "level": 3,
+      "parent_code": "4100",
+      "direct_children": [
+        "4121"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4100",
+        "4120"
+      ]
+    },
+    {
+      "product_code": "4210",
+      "definition_id": "P_N_4210",
+      "usage_id": "p_N_4210",
+      "level": 3,
+      "parent_code": "4200",
+      "direct_children": [
+        "4211",
+        "4212"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4210"
+      ]
+    },
+    {
+      "product_code": "4230",
+      "definition_id": "P_N_4230",
+      "usage_id": "p_N_4230",
+      "level": 3,
+      "parent_code": "4200",
+      "direct_children": [
+        "4235",
+        "4236",
+        "4238",
+        "4239"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4230"
+      ]
+    },
+    {
+      "product_code": "4240",
+      "definition_id": "P_N_4240",
+      "usage_id": "p_N_4240",
+      "level": 3,
+      "parent_code": "4200",
+      "direct_children": [
+        "4241"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4240"
+      ]
+    },
+    {
+      "product_code": "4410",
+      "definition_id": "P_N_4410",
+      "usage_id": "p_N_4410",
+      "level": 3,
+      "parent_code": "4400",
+      "direct_children": [
+        "4411",
+        "4412",
+        "4413"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4400",
+        "4410"
+      ]
+    },
+    {
+      "product_code": "4510",
+      "definition_id": "P_N_4510",
+      "usage_id": "p_N_4510",
+      "level": 3,
+      "parent_code": "4500",
+      "direct_children": [
+        "4511",
+        "4513",
+        "4517",
+        "4518"
+      ],
+      "hierarchy_path": [
+        "4000",
+        "4500",
+        "4510"
+      ]
+    },
+    {
+      "product_code": "5110",
+      "definition_id": "P_N_5110",
+      "usage_id": "p_N_5110",
+      "level": 3,
+      "parent_code": "5100",
+      "direct_children": [
+        "5111",
+        "5112",
+        "5113"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5110"
+      ]
+    },
+    {
+      "product_code": "5120",
+      "definition_id": "P_N_5120",
+      "usage_id": "p_N_5120",
+      "level": 3,
+      "parent_code": "5100",
+      "direct_children": [
+        "5121",
+        "5122"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5120"
+      ]
+    },
+    {
+      "product_code": "5130",
+      "definition_id": "P_N_5130",
+      "usage_id": "p_N_5130",
+      "level": 3,
+      "parent_code": "5100",
+      "direct_children": [
+        "5131",
+        "5132",
+        "5133"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5130"
+      ]
+    },
+    {
+      "product_code": "5140",
+      "definition_id": "P_N_5140",
+      "usage_id": "p_N_5140",
+      "level": 3,
+      "parent_code": "5100",
+      "direct_children": [
+        "5142",
+        "5145"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5140"
+      ]
+    },
+    {
+      "product_code": "5310",
+      "definition_id": "P_N_5310",
+      "usage_id": "p_N_5310",
+      "level": 3,
+      "parent_code": "5300",
+      "direct_children": [
+        "5311"
+      ],
+      "hierarchy_path": [
+        "5000",
+        "5300",
+        "5310"
+      ]
+    },
+    {
+      "product_code": "7120",
+      "definition_id": "P_N_7120",
+      "usage_id": "p_N_7120",
+      "level": 3,
+      "parent_code": "7100",
+      "direct_children": [
+        "7124"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7100",
+        "7120"
+      ]
+    },
+    {
+      "product_code": "7130",
+      "definition_id": "P_N_7130",
+      "usage_id": "p_N_7130",
+      "level": 3,
+      "parent_code": "7100",
+      "direct_children": [
+        "7131"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7100",
+        "7130"
+      ]
+    },
+    {
+      "product_code": "7140",
+      "definition_id": "P_N_7140",
+      "usage_id": "p_N_7140",
+      "level": 3,
+      "parent_code": "7100",
+      "direct_children": [
+        "7142"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7100",
+        "7140"
+      ]
+    },
+    {
+      "product_code": "7210",
+      "definition_id": "P_N_7210",
+      "usage_id": "p_N_7210",
+      "level": 3,
+      "parent_code": "7200",
+      "direct_children": [
+        "7211",
+        "7213"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7210"
+      ]
+    },
+    {
+      "product_code": "7220",
+      "definition_id": "P_N_7220",
+      "usage_id": "p_N_7220",
+      "level": 3,
+      "parent_code": "7200",
+      "direct_children": [
+        "7222",
+        "7223",
+        "7224",
+        "7225",
+        "7226",
+        "7227",
+        "7228",
+        "7229",
+        "722A",
+        "722B",
+        "722C"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220"
+      ]
+    },
+    {
+      "product_code": "7250",
+      "definition_id": "P_N_7250",
+      "usage_id": "p_N_7250",
+      "level": 3,
+      "parent_code": "7200",
+      "direct_children": [
+        "7252",
+        "7254",
+        "7255"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7250"
+      ]
+    },
+    {
+      "product_code": "7280",
+      "definition_id": "P_N_7280",
+      "usage_id": "p_N_7280",
+      "level": 3,
+      "parent_code": "7200",
+      "direct_children": [
+        "7281",
+        "7284",
+        "7285"
+      ],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7280"
+      ]
+    },
+    {
+      "product_code": "8120",
+      "definition_id": "P_N_8120",
+      "usage_id": "p_N_8120",
+      "level": 3,
+      "parent_code": "8100",
+      "direct_children": [
+        "8121",
+        "8122",
+        "8125",
+        "8127",
+        "8128"
+      ],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8120"
+      ]
+    },
+    {
+      "product_code": "8150",
+      "definition_id": "P_N_8150",
+      "usage_id": "p_N_8150",
+      "level": 3,
+      "parent_code": "8100",
+      "direct_children": [
+        "8151",
+        "8152",
+        "8154"
+      ],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8150"
+      ]
+    },
+    {
+      "product_code": "8160",
+      "definition_id": "P_N_8160",
+      "usage_id": "p_N_8160",
+      "level": 3,
+      "parent_code": "8100",
+      "direct_children": [
+        "8166"
+      ],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8160"
+      ]
+    },
+    {
+      "product_code": "D110",
+      "definition_id": "P_D110",
+      "usage_id": "p_D110",
+      "level": 3,
+      "parent_code": "D100",
+      "direct_children": [
+        "D112",
+        "D113",
+        "D114"
+      ],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D110"
+      ]
+    },
+    {
+      "product_code": "D120",
+      "definition_id": "P_D120",
+      "usage_id": "p_D120",
+      "level": 3,
+      "parent_code": "D100",
+      "direct_children": [
+        "D121"
+      ],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D120"
+      ]
+    },
+    {
+      "product_code": "D130",
+      "definition_id": "P_D130",
+      "usage_id": "p_D130",
+      "level": 3,
+      "parent_code": "D100",
+      "direct_children": [
+        "D13B"
+      ],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D130"
+      ]
+    },
+    {
+      "product_code": "X110",
+      "definition_id": "P_X110",
+      "usage_id": "p_X110",
+      "level": 3,
+      "parent_code": "X100",
+      "direct_children": [
+        "X111",
+        "X112",
+        "X113"
+      ],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X110"
+      ]
+    },
+    {
+      "product_code": "X120",
+      "definition_id": "P_X120",
+      "usage_id": "p_X120",
+      "level": 3,
+      "parent_code": "X100",
+      "direct_children": [
+        "X121",
+        "X122",
+        "X123",
+        "X124"
+      ],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X120"
+      ]
+    },
+    {
+      "product_code": "X130",
+      "definition_id": "P_X130",
+      "usage_id": "p_X130",
+      "level": 3,
+      "parent_code": "X100",
+      "direct_children": [
+        "X131",
+        "X132",
+        "X133"
+      ],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X130"
+      ]
+    },
+    {
+      "product_code": "3111",
+      "definition_id": "P_N_3111",
+      "usage_id": "p_N_3111",
+      "level": 4,
+      "parent_code": "3110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3110",
+        "3111"
+      ]
+    },
+    {
+      "product_code": "3112",
+      "definition_id": "P_N_3112",
+      "usage_id": "p_N_3112",
+      "level": 4,
+      "parent_code": "3110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3110",
+        "3112"
+      ]
+    },
+    {
+      "product_code": "3121",
+      "definition_id": "P_N_3121",
+      "usage_id": "p_N_3121",
+      "level": 4,
+      "parent_code": "3120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3120",
+        "3121"
+      ]
+    },
+    {
+      "product_code": "3131",
+      "definition_id": "P_N_3131",
+      "usage_id": "p_N_3131",
+      "level": 4,
+      "parent_code": "3130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3130",
+        "3131"
+      ]
+    },
+    {
+      "product_code": "3132",
+      "definition_id": "P_N_3132",
+      "usage_id": "p_N_3132",
+      "level": 4,
+      "parent_code": "3130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3130",
+        "3132"
+      ]
+    },
+    {
+      "product_code": "3133",
+      "definition_id": "P_N_3133",
+      "usage_id": "p_N_3133",
+      "level": 4,
+      "parent_code": "3130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3100",
+        "3130",
+        "3133"
+      ]
+    },
+    {
+      "product_code": "3511",
+      "definition_id": "P_N_3511",
+      "usage_id": "p_N_3511",
+      "level": 4,
+      "parent_code": "3510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3500",
+        "3510",
+        "3511"
+      ]
+    },
+    {
+      "product_code": "3512",
+      "definition_id": "P_N_3512",
+      "usage_id": "p_N_3512",
+      "level": 4,
+      "parent_code": "3510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3500",
+        "3510",
+        "3512"
+      ]
+    },
+    {
+      "product_code": "3514",
+      "definition_id": "P_N_3514",
+      "usage_id": "p_N_3514",
+      "level": 4,
+      "parent_code": "3510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3500",
+        "3510",
+        "3514"
+      ]
+    },
+    {
+      "product_code": "3641",
+      "definition_id": "P_N_3641",
+      "usage_id": "p_N_3641",
+      "level": 4,
+      "parent_code": "3640",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3600",
+        "3640",
+        "3641"
+      ]
+    },
+    {
+      "product_code": "3643",
+      "definition_id": "P_N_3643",
+      "usage_id": "p_N_3643",
+      "level": 4,
+      "parent_code": "3640",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3600",
+        "3640",
+        "3643"
+      ]
+    },
+    {
+      "product_code": "3644",
+      "definition_id": "P_N_3644",
+      "usage_id": "p_N_3644",
+      "level": 4,
+      "parent_code": "3640",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3600",
+        "3640",
+        "3644"
+      ]
+    },
+    {
+      "product_code": "3811",
+      "definition_id": "P_N_3811",
+      "usage_id": "p_N_3811",
+      "level": 4,
+      "parent_code": "3810",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3800",
+        "3810",
+        "3811"
+      ]
+    },
+    {
+      "product_code": "3813",
+      "definition_id": "P_N_3813",
+      "usage_id": "p_N_3813",
+      "level": 4,
+      "parent_code": "3810",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3800",
+        "3810",
+        "3813"
+      ]
+    },
+    {
+      "product_code": "3814",
+      "definition_id": "P_N_3814",
+      "usage_id": "p_N_3814",
+      "level": 4,
+      "parent_code": "3810",
+      "direct_children": [],
+      "hierarchy_path": [
+        "3000",
+        "3800",
+        "3810",
+        "3814"
+      ]
+    },
+    {
+      "product_code": "4111",
+      "definition_id": "P_N_4111",
+      "usage_id": "p_N_4111",
+      "level": 4,
+      "parent_code": "4110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4100",
+        "4110",
+        "4111"
+      ]
+    },
+    {
+      "product_code": "411C",
+      "definition_id": "P_N_411C",
+      "usage_id": "p_N_411C",
+      "level": 4,
+      "parent_code": "4110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4100",
+        "4110",
+        "411C"
+      ]
+    },
+    {
+      "product_code": "4121",
+      "definition_id": "P_N_4121",
+      "usage_id": "p_N_4121",
+      "level": 4,
+      "parent_code": "4120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4100",
+        "4120",
+        "4121"
+      ]
+    },
+    {
+      "product_code": "4211",
+      "definition_id": "P_N_4211",
+      "usage_id": "p_N_4211",
+      "level": 4,
+      "parent_code": "4210",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4210",
+        "4211"
+      ]
+    },
+    {
+      "product_code": "4212",
+      "definition_id": "P_N_4212",
+      "usage_id": "p_N_4212",
+      "level": 4,
+      "parent_code": "4210",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4210",
+        "4212"
+      ]
+    },
+    {
+      "product_code": "4235",
+      "definition_id": "P_N_4235",
+      "usage_id": "p_N_4235",
+      "level": 4,
+      "parent_code": "4230",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4230",
+        "4235"
+      ]
+    },
+    {
+      "product_code": "4236",
+      "definition_id": "P_N_4236",
+      "usage_id": "p_N_4236",
+      "level": 4,
+      "parent_code": "4230",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4230",
+        "4236"
+      ]
+    },
+    {
+      "product_code": "4238",
+      "definition_id": "P_N_4238",
+      "usage_id": "p_N_4238",
+      "level": 4,
+      "parent_code": "4230",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4230",
+        "4238"
+      ]
+    },
+    {
+      "product_code": "4239",
+      "definition_id": "P_N_4239",
+      "usage_id": "p_N_4239",
+      "level": 4,
+      "parent_code": "4230",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4230",
+        "4239"
+      ]
+    },
+    {
+      "product_code": "4241",
+      "definition_id": "P_N_4241",
+      "usage_id": "p_N_4241",
+      "level": 4,
+      "parent_code": "4240",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4200",
+        "4240",
+        "4241"
+      ]
+    },
+    {
+      "product_code": "4411",
+      "definition_id": "P_N_4411",
+      "usage_id": "p_N_4411",
+      "level": 4,
+      "parent_code": "4410",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4400",
+        "4410",
+        "4411"
+      ]
+    },
+    {
+      "product_code": "4412",
+      "definition_id": "P_N_4412",
+      "usage_id": "p_N_4412",
+      "level": 4,
+      "parent_code": "4410",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4400",
+        "4410",
+        "4412"
+      ]
+    },
+    {
+      "product_code": "4413",
+      "definition_id": "P_N_4413",
+      "usage_id": "p_N_4413",
+      "level": 4,
+      "parent_code": "4410",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4400",
+        "4410",
+        "4413"
+      ]
+    },
+    {
+      "product_code": "4511",
+      "definition_id": "P_N_4511",
+      "usage_id": "p_N_4511",
+      "level": 4,
+      "parent_code": "4510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4500",
+        "4510",
+        "4511"
+      ]
+    },
+    {
+      "product_code": "4513",
+      "definition_id": "P_N_4513",
+      "usage_id": "p_N_4513",
+      "level": 4,
+      "parent_code": "4510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4500",
+        "4510",
+        "4513"
+      ]
+    },
+    {
+      "product_code": "4517",
+      "definition_id": "P_N_4517",
+      "usage_id": "p_N_4517",
+      "level": 4,
+      "parent_code": "4510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4500",
+        "4510",
+        "4517"
+      ]
+    },
+    {
+      "product_code": "4518",
+      "definition_id": "P_N_4518",
+      "usage_id": "p_N_4518",
+      "level": 4,
+      "parent_code": "4510",
+      "direct_children": [],
+      "hierarchy_path": [
+        "4000",
+        "4500",
+        "4510",
+        "4518"
+      ]
+    },
+    {
+      "product_code": "5111",
+      "definition_id": "P_N_5111",
+      "usage_id": "p_N_5111",
+      "level": 4,
+      "parent_code": "5110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5110",
+        "5111"
+      ]
+    },
+    {
+      "product_code": "5112",
+      "definition_id": "P_N_5112",
+      "usage_id": "p_N_5112",
+      "level": 4,
+      "parent_code": "5110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5110",
+        "5112"
+      ]
+    },
+    {
+      "product_code": "5113",
+      "definition_id": "P_N_5113",
+      "usage_id": "p_N_5113",
+      "level": 4,
+      "parent_code": "5110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5110",
+        "5113"
+      ]
+    },
+    {
+      "product_code": "5121",
+      "definition_id": "P_N_5121",
+      "usage_id": "p_N_5121",
+      "level": 4,
+      "parent_code": "5120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5120",
+        "5121"
+      ]
+    },
+    {
+      "product_code": "5122",
+      "definition_id": "P_N_5122",
+      "usage_id": "p_N_5122",
+      "level": 4,
+      "parent_code": "5120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5120",
+        "5122"
+      ]
+    },
+    {
+      "product_code": "5131",
+      "definition_id": "P_N_5131",
+      "usage_id": "p_N_5131",
+      "level": 4,
+      "parent_code": "5130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5130",
+        "5131"
+      ]
+    },
+    {
+      "product_code": "5132",
+      "definition_id": "P_N_5132",
+      "usage_id": "p_N_5132",
+      "level": 4,
+      "parent_code": "5130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5130",
+        "5132"
+      ]
+    },
+    {
+      "product_code": "5133",
+      "definition_id": "P_N_5133",
+      "usage_id": "p_N_5133",
+      "level": 4,
+      "parent_code": "5130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5130",
+        "5133"
+      ]
+    },
+    {
+      "product_code": "5142",
+      "definition_id": "P_N_5142",
+      "usage_id": "p_N_5142",
+      "level": 4,
+      "parent_code": "5140",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5140",
+        "5142"
+      ]
+    },
+    {
+      "product_code": "5145",
+      "definition_id": "P_N_5145",
+      "usage_id": "p_N_5145",
+      "level": 4,
+      "parent_code": "5140",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5100",
+        "5140",
+        "5145"
+      ]
+    },
+    {
+      "product_code": "5311",
+      "definition_id": "P_N_5311",
+      "usage_id": "p_N_5311",
+      "level": 4,
+      "parent_code": "5310",
+      "direct_children": [],
+      "hierarchy_path": [
+        "5000",
+        "5300",
+        "5310",
+        "5311"
+      ]
+    },
+    {
+      "product_code": "7124",
+      "definition_id": "P_N_7124",
+      "usage_id": "p_N_7124",
+      "level": 4,
+      "parent_code": "7120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7100",
+        "7120",
+        "7124"
+      ]
+    },
+    {
+      "product_code": "7131",
+      "definition_id": "P_N_7131",
+      "usage_id": "p_N_7131",
+      "level": 4,
+      "parent_code": "7130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7100",
+        "7130",
+        "7131"
+      ]
+    },
+    {
+      "product_code": "7142",
+      "definition_id": "P_N_7142",
+      "usage_id": "p_N_7142",
+      "level": 4,
+      "parent_code": "7140",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7100",
+        "7140",
+        "7142"
+      ]
+    },
+    {
+      "product_code": "7211",
+      "definition_id": "P_N_7211",
+      "usage_id": "p_N_7211",
+      "level": 4,
+      "parent_code": "7210",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7210",
+        "7211"
+      ]
+    },
+    {
+      "product_code": "7213",
+      "definition_id": "P_N_7213",
+      "usage_id": "p_N_7213",
+      "level": 4,
+      "parent_code": "7210",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7210",
+        "7213"
+      ]
+    },
+    {
+      "product_code": "7222",
+      "definition_id": "P_N_7222",
+      "usage_id": "p_N_7222",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7222"
+      ]
+    },
+    {
+      "product_code": "7223",
+      "definition_id": "P_N_7223",
+      "usage_id": "p_N_7223",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7223"
+      ]
+    },
+    {
+      "product_code": "7224",
+      "definition_id": "P_N_7224",
+      "usage_id": "p_N_7224",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7224"
+      ]
+    },
+    {
+      "product_code": "7225",
+      "definition_id": "P_N_7225",
+      "usage_id": "p_N_7225",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7225"
+      ]
+    },
+    {
+      "product_code": "7226",
+      "definition_id": "P_N_7226",
+      "usage_id": "p_N_7226",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7226"
+      ]
+    },
+    {
+      "product_code": "7227",
+      "definition_id": "P_N_7227",
+      "usage_id": "p_N_7227",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7227"
+      ]
+    },
+    {
+      "product_code": "7228",
+      "definition_id": "P_N_7228",
+      "usage_id": "p_N_7228",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7228"
+      ]
+    },
+    {
+      "product_code": "7229",
+      "definition_id": "P_N_7229",
+      "usage_id": "p_N_7229",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "7229"
+      ]
+    },
+    {
+      "product_code": "722A",
+      "definition_id": "P_N_722A",
+      "usage_id": "p_N_722A",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "722A"
+      ]
+    },
+    {
+      "product_code": "722B",
+      "definition_id": "P_N_722B",
+      "usage_id": "p_N_722B",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "722B"
+      ]
+    },
+    {
+      "product_code": "722C",
+      "definition_id": "P_N_722C",
+      "usage_id": "p_N_722C",
+      "level": 4,
+      "parent_code": "7220",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7220",
+        "722C"
+      ]
+    },
+    {
+      "product_code": "7252",
+      "definition_id": "P_N_7252",
+      "usage_id": "p_N_7252",
+      "level": 4,
+      "parent_code": "7250",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7250",
+        "7252"
+      ]
+    },
+    {
+      "product_code": "7254",
+      "definition_id": "P_N_7254",
+      "usage_id": "p_N_7254",
+      "level": 4,
+      "parent_code": "7250",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7250",
+        "7254"
+      ]
+    },
+    {
+      "product_code": "7255",
+      "definition_id": "P_N_7255",
+      "usage_id": "p_N_7255",
+      "level": 4,
+      "parent_code": "7250",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7250",
+        "7255"
+      ]
+    },
+    {
+      "product_code": "7281",
+      "definition_id": "P_N_7281",
+      "usage_id": "p_N_7281",
+      "level": 4,
+      "parent_code": "7280",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7280",
+        "7281"
+      ]
+    },
+    {
+      "product_code": "7284",
+      "definition_id": "P_N_7284",
+      "usage_id": "p_N_7284",
+      "level": 4,
+      "parent_code": "7280",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7280",
+        "7284"
+      ]
+    },
+    {
+      "product_code": "7285",
+      "definition_id": "P_N_7285",
+      "usage_id": "p_N_7285",
+      "level": 4,
+      "parent_code": "7280",
+      "direct_children": [],
+      "hierarchy_path": [
+        "7000",
+        "7200",
+        "7280",
+        "7285"
+      ]
+    },
+    {
+      "product_code": "8121",
+      "definition_id": "P_N_8121",
+      "usage_id": "p_N_8121",
+      "level": 4,
+      "parent_code": "8120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8120",
+        "8121"
+      ]
+    },
+    {
+      "product_code": "8122",
+      "definition_id": "P_N_8122",
+      "usage_id": "p_N_8122",
+      "level": 4,
+      "parent_code": "8120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8120",
+        "8122"
+      ]
+    },
+    {
+      "product_code": "8125",
+      "definition_id": "P_N_8125",
+      "usage_id": "p_N_8125",
+      "level": 4,
+      "parent_code": "8120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8120",
+        "8125"
+      ]
+    },
+    {
+      "product_code": "8127",
+      "definition_id": "P_N_8127",
+      "usage_id": "p_N_8127",
+      "level": 4,
+      "parent_code": "8120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8120",
+        "8127"
+      ]
+    },
+    {
+      "product_code": "8128",
+      "definition_id": "P_N_8128",
+      "usage_id": "p_N_8128",
+      "level": 4,
+      "parent_code": "8120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8120",
+        "8128"
+      ]
+    },
+    {
+      "product_code": "8151",
+      "definition_id": "P_N_8151",
+      "usage_id": "p_N_8151",
+      "level": 4,
+      "parent_code": "8150",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8150",
+        "8151"
+      ]
+    },
+    {
+      "product_code": "8152",
+      "definition_id": "P_N_8152",
+      "usage_id": "p_N_8152",
+      "level": 4,
+      "parent_code": "8150",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8150",
+        "8152"
+      ]
+    },
+    {
+      "product_code": "8154",
+      "definition_id": "P_N_8154",
+      "usage_id": "p_N_8154",
+      "level": 4,
+      "parent_code": "8150",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8150",
+        "8154"
+      ]
+    },
+    {
+      "product_code": "8166",
+      "definition_id": "P_N_8166",
+      "usage_id": "p_N_8166",
+      "level": 4,
+      "parent_code": "8160",
+      "direct_children": [],
+      "hierarchy_path": [
+        "8000",
+        "8100",
+        "8160",
+        "8166"
+      ]
+    },
+    {
+      "product_code": "D112",
+      "definition_id": "P_D112",
+      "usage_id": "p_D112",
+      "level": 4,
+      "parent_code": "D110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D110",
+        "D112"
+      ]
+    },
+    {
+      "product_code": "D113",
+      "definition_id": "P_D113",
+      "usage_id": "p_D113",
+      "level": 4,
+      "parent_code": "D110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D110",
+        "D113"
+      ]
+    },
+    {
+      "product_code": "D114",
+      "definition_id": "P_D114",
+      "usage_id": "p_D114",
+      "level": 4,
+      "parent_code": "D110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D110",
+        "D114"
+      ]
+    },
+    {
+      "product_code": "D121",
+      "definition_id": "P_D121",
+      "usage_id": "p_D121",
+      "level": 4,
+      "parent_code": "D120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D120",
+        "D121"
+      ]
+    },
+    {
+      "product_code": "D13B",
+      "definition_id": "P_D13B",
+      "usage_id": "p_D13B",
+      "level": 4,
+      "parent_code": "D130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "D000",
+        "D100",
+        "D130",
+        "D13B"
+      ]
+    },
+    {
+      "product_code": "X111",
+      "definition_id": "P_X111",
+      "usage_id": "p_X111",
+      "level": 4,
+      "parent_code": "X110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X110",
+        "X111"
+      ]
+    },
+    {
+      "product_code": "X112",
+      "definition_id": "P_X112",
+      "usage_id": "p_X112",
+      "level": 4,
+      "parent_code": "X110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X110",
+        "X112"
+      ]
+    },
+    {
+      "product_code": "X113",
+      "definition_id": "P_X113",
+      "usage_id": "p_X113",
+      "level": 4,
+      "parent_code": "X110",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X110",
+        "X113"
+      ]
+    },
+    {
+      "product_code": "X121",
+      "definition_id": "P_X121",
+      "usage_id": "p_X121",
+      "level": 4,
+      "parent_code": "X120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X120",
+        "X121"
+      ]
+    },
+    {
+      "product_code": "X122",
+      "definition_id": "P_X122",
+      "usage_id": "p_X122",
+      "level": 4,
+      "parent_code": "X120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X120",
+        "X122"
+      ]
+    },
+    {
+      "product_code": "X123",
+      "definition_id": "P_X123",
+      "usage_id": "p_X123",
+      "level": 4,
+      "parent_code": "X120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X120",
+        "X123"
+      ]
+    },
+    {
+      "product_code": "X124",
+      "definition_id": "P_X124",
+      "usage_id": "p_X124",
+      "level": 4,
+      "parent_code": "X120",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X120",
+        "X124"
+      ]
+    },
+    {
+      "product_code": "X131",
+      "definition_id": "P_X131",
+      "usage_id": "p_X131",
+      "level": 4,
+      "parent_code": "X130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X130",
+        "X131"
+      ]
+    },
+    {
+      "product_code": "X132",
+      "definition_id": "P_X132",
+      "usage_id": "p_X132",
+      "level": 4,
+      "parent_code": "X130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X130",
+        "X132"
+      ]
+    },
+    {
+      "product_code": "X133",
+      "definition_id": "P_X133",
+      "usage_id": "p_X133",
+      "level": 4,
+      "parent_code": "X130",
+      "direct_children": [],
+      "hierarchy_path": [
+        "X000",
+        "X100",
+        "X130",
+        "X133"
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-23T16:24:18.278203+00:00",
+  "variables": {
+    "input": {
+      "id": "205f8ab8-e5ad-4b14-a646-8bc30e948071",
+      "editingContextId": "967a4588-11d1-435d-ba59-2412f2e63002",
+      "objectId": "4476c5e1-162b-4234-bde4-5bd54437356e",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "representationName": "AUTO_REQ_6289f72770e3"
+    }
+  },
+  "representation_id": null,
+  "response": null,
+  "error": "SysON GraphQL 返回错误：Exception while fetching data (/createRepresentation/representation/description) : Cannot invoke \"java.util.Map.get(Object)\" because \"localContext\" is null"
+}

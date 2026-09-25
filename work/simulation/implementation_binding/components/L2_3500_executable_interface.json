@@ -1,0 +1,189 @@
+{
+  "ssd_component": "L2_3500",
+  "l2_code": "3500",
+  "l2_engineering_name": "牵引传动耦合组件及其附件",
+  "future_simulink_model": "L2_3500.slx",
+  "future_fmu_file": "L2_3500.fmu",
+  "source_structural_connectors": [
+    "L2_3500.p_3511_rp_aa7691c6f81e4771",
+    "L2_3500.p_3512_rp_c455741f6ca5a597"
+  ],
+  "inputs": [
+    {
+      "executable_variable_id": "EV::L2_3500::in_T_shaft",
+      "variable_name": "in_T_shaft",
+      "engineering_meaning": "Shaft torque effort variable.",
+      "quantity": "T_shaft",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0086"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_338D68ABEF709ACD5E0DDCC6"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-SERIES"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_3500",
+      "source_ssd_connectors": [
+        "L2_3500.p_3511_rp_aa7691c6f81e4771"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_3500::in_omega_shaft",
+      "variable_name": "in_omega_shaft",
+      "engineering_meaning": "Shaft angular-speed feedback variable.",
+      "quantity": "omega_shaft",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0062"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_3CA6C3BF7D7B4F80CF0990D0"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-SERIES"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_3500",
+      "source_ssd_connectors": [
+        "L2_3500.p_3512_rp_c455741f6ca5a597"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_3500::out_T_shaft",
+      "variable_name": "out_T_shaft",
+      "engineering_meaning": "Shaft torque effort variable.",
+      "quantity": "T_shaft",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0061"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_3CA6C3BF7D7B4F80CF0990D0"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-SERIES"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_3500",
+      "source_ssd_connectors": [
+        "L2_3500.p_3512_rp_c455741f6ca5a597"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_3500::out_omega_shaft",
+      "variable_name": "out_omega_shaft",
+      "engineering_meaning": "Shaft angular-speed feedback variable.",
+      "quantity": "omega_shaft",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0087"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_338D68ABEF709ACD5E0DDCC6"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-005-SERIES"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771",
+        "ItemDefinitions::ITM-PHY-005",
+        "IF_IF_PHY_005"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_3500",
+      "source_ssd_connectors": [
+        "L2_3500.p_3511_rp_aa7691c6f81e4771"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 2,
+    "outputs": 2,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 4
+  },
+  "readiness": "READY"
+}

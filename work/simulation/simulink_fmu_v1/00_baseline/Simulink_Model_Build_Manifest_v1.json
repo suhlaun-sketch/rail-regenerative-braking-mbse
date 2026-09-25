@@ -1,0 +1,181 @@
+[
+  {
+    "component": "L2_3100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_3100.slx",
+    "inputs": 2,
+    "outputs": 4,
+    "internal_monitors": [
+      "internal_v_train"
+    ],
+    "fidelity": "FIDELITY_A",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_3500",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_3500.slx",
+    "inputs": 2,
+    "outputs": 2,
+    "internal_monitors": [
+      "internal_driveline_loss_power"
+    ],
+    "fidelity": "FIDELITY_A",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_3600",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_3600.slx",
+    "inputs": 3,
+    "outputs": 1,
+    "internal_monitors": [
+      "internal_sensor_residual"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_3800",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_3800.slx",
+    "inputs": 1,
+    "outputs": 0,
+    "internal_monitors": [
+      "internal_adhesion_coefficient"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_4100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_4100.slx",
+    "inputs": 2,
+    "outputs": 3,
+    "internal_monitors": [
+      "internal_contact_quality"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_4200",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_4200.slx",
+    "inputs": 6,
+    "outputs": 9,
+    "internal_monitors": [
+      "internal_line_power"
+    ],
+    "fidelity": "FIDELITY_B",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_4400",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_4400.slx",
+    "inputs": 0,
+    "outputs": 0,
+    "internal_monitors": [
+      "internal_return_temperature"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_4500",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_4500.slx",
+    "inputs": 5,
+    "outputs": 4,
+    "internal_monitors": [
+      "internal_transformer_loss_power"
+    ],
+    "fidelity": "FIDELITY_B",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_5100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_5100.slx",
+    "inputs": 9,
+    "outputs": 10,
+    "internal_monitors": [
+      "internal_Ptraction",
+      "internal_Pregen"
+    ],
+    "fidelity": "FIDELITY_A",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_5300",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_5300.slx",
+    "inputs": 3,
+    "outputs": 6,
+    "internal_monitors": [
+      "internal_Pmechanical"
+    ],
+    "fidelity": "FIDELITY_A",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_7100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_7100.slx",
+    "inputs": 0,
+    "outputs": 1,
+    "internal_monitors": [
+      "internal_compressor_duty"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_7200",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_7200.slx",
+    "inputs": 10,
+    "outputs": 4,
+    "internal_monitors": [
+      "internal_Fmechanical"
+    ],
+    "fidelity": "FIDELITY_A",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_8100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_8100.slx",
+    "inputs": 29,
+    "outputs": 17,
+    "internal_monitors": [
+      "internal_brake_demand_force"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_D100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_D100.slx",
+    "inputs": 0,
+    "outputs": 4,
+    "internal_monitors": [
+      "internal_scenario_phase"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_E100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_E100.slx",
+    "inputs": 0,
+    "outputs": 2,
+    "internal_monitors": [
+      "internal_safety_permit"
+    ],
+    "fidelity": "FIDELITY_C",
+    "build_status": "PASS"
+  },
+  {
+    "component": "L2_X100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v1\\01_models\\L2_X100.slx",
+    "inputs": 5,
+    "outputs": 7,
+    "internal_monitors": [
+      "internal_Usc",
+      "internal_Esc_kJ",
+      "internal_Eregen_kJ"
+    ],
+    "fidelity": "FIDELITY_A",
+    "build_status": "PASS"
+  }
+]

@@ -1,0 +1,879 @@
+{
+  "expected_connection_records": 87,
+  "validated_connection_records": 87,
+  "unique_causal_connections": 77,
+  "duplicate_trace_aliases": 10,
+  "all_status_pass": true,
+  "connections": [
+    {
+      "executable_connection_id": "EC::CG_002543DBE0F9A7FBC2A3FDD3::line_voltage",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_voltage",
+      "target_component": "L2_5100",
+      "target_variable": "in_line_voltage",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_001",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_071B7693DAFA8B87ADA0A61E::emergency_brake_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_emergency_brake_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_002",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_07AF42BFA3927EF22F7BDDE7::omega_motor",
+      "source_component": "L2_5300",
+      "source_variable": "out_omega_motor",
+      "target_component": "L2_3600",
+      "target_variable": "in_omega_motor",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_003",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_08375F15DCE75E45D4C45CE8::grid_acceptable_regenerative_power",
+      "source_component": "L2_5100",
+      "source_variable": "out_grid_acceptable_regenerative_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_grid_acceptable_regenerative_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_004",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_093EFCE58F3AB220CFEC48AC::ess_absorbed_power",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_absorbed_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_absorbed_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_005",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_0D68248E62957CCB92C5A2A5::external_safety_system_state",
+      "source_component": "L2_E100",
+      "source_variable": "out_external_safety_system_state",
+      "target_component": "L2_8100",
+      "target_variable": "in_external_safety_system_state",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_006",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_1102EBD35D52A38B96D5D2E7::brake_availability",
+      "source_component": "L2_7200",
+      "source_variable": "out_brake_availability",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_availability",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_007",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::U_sec_rms",
+      "source_component": "L2_4500",
+      "source_variable": "out_U_sec_rms",
+      "target_component": "L2_5100",
+      "target_variable": "in_U_sec_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_008",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::f_sec",
+      "source_component": "L2_4500",
+      "source_variable": "out_f_sec",
+      "target_component": "L2_5100",
+      "target_variable": "in_f_sec",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_009",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_117A3F0E6C8FF8FF0013A46B::I_sec_rms",
+      "source_component": "L2_5100",
+      "source_variable": "out_I_sec_rms",
+      "target_component": "L2_4500",
+      "target_variable": "in_I_sec_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_010",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::U_sec_rms",
+      "source_component": "L2_4500",
+      "source_variable": "out_U_sec_rms",
+      "target_component": "L2_5100",
+      "target_variable": "in_U_sec_rms",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_011",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::f_sec",
+      "source_component": "L2_4500",
+      "source_variable": "out_f_sec",
+      "target_component": "L2_5100",
+      "target_variable": "in_f_sec",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_012",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_118F2C2B84D1D301C7BE63F8::I_sec_rms",
+      "source_component": "L2_5100",
+      "source_variable": "out_I_sec_rms",
+      "target_component": "L2_4500",
+      "target_variable": "in_I_sec_rms",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_013",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_1ACF37CC65D3FF235E8BD75C::dynamic_brake_availability",
+      "source_component": "L2_8100",
+      "source_variable": "out_dynamic_brake_availability",
+      "target_component": "L2_7200",
+      "target_variable": "in_dynamic_brake_availability",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_014",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_1AE13610E33C0DC7055CFCED::ess_contactor_command",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_contactor_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_contactor_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_015",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_1AEA8B915E14A5D0FFEE30D9::brake_cylinder_pressure",
+      "source_component": "L2_8100",
+      "source_variable": "out_brake_cylinder_pressure",
+      "target_component": "L2_7200",
+      "target_variable": "in_brake_cylinder_pressure",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_016",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_1C5FC46A1E7682144A3BDDDF::line_voltage",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_line_voltage",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_017",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_20C0A22ECCF07864FDBA3F5A::line_current",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_current",
+      "target_component": "L2_5100",
+      "target_variable": "in_line_current",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_018",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_2274BA128E639FDE4D4F56EC::hv_system_fault",
+      "source_component": "L2_4500",
+      "source_variable": "out_hv_system_fault",
+      "target_component": "L2_4200",
+      "target_variable": "in_hv_system_fault",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_019",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_25DC22E45A984D1CB28D188B::dcdc_enable_command",
+      "source_component": "L2_8100",
+      "source_variable": "out_dcdc_enable_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_dcdc_enable_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_020",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_2E8F3CC8A8EBCDE6B7CF4D27::traction_command",
+      "source_component": "L2_D100",
+      "source_variable": "out_traction_command",
+      "target_component": "L2_8100",
+      "target_variable": "in_traction_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_021",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_2EE117B4B0633E38D394B904::pantograph_command",
+      "source_component": "L2_4200",
+      "source_variable": "out_pantograph_command",
+      "target_component": "L2_4100",
+      "target_variable": "in_pantograph_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_022",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_338D68ABEF709ACD5E0DDCC6::T_shaft",
+      "source_component": "L2_5300",
+      "source_variable": "out_T_shaft",
+      "target_component": "L2_3500",
+      "target_variable": "in_T_shaft",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_023",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_338D68ABEF709ACD5E0DDCC6::omega_shaft",
+      "source_component": "L2_3500",
+      "source_variable": "out_omega_shaft",
+      "target_component": "L2_5300",
+      "target_variable": "in_omega_shaft",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_024",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_37792F42F4274C7C51C63270::hv_breaker_state",
+      "source_component": "L2_4200",
+      "source_variable": "out_hv_breaker_state",
+      "target_component": "L2_4500",
+      "target_variable": "in_hv_breaker_state",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_025",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_37ECA5B04E215AC3E6A4B472::motor_phase_voltage",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_phase_voltage",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_phase_voltage",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_026",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::U_motor_ll_rms",
+      "source_component": "L2_5100",
+      "source_variable": "out_U_motor_ll_rms",
+      "target_component": "L2_5300",
+      "target_variable": "in_U_motor_ll_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_027",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::f_motor_e",
+      "source_component": "L2_5100",
+      "source_variable": "out_f_motor_e",
+      "target_component": "L2_5300",
+      "target_variable": "in_f_motor_e",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_028",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_3BD24EBE88F37EEFFE563597::I_motor_rms",
+      "source_component": "L2_5300",
+      "source_variable": "out_I_motor_rms",
+      "target_component": "L2_5100",
+      "target_variable": "in_I_motor_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_029",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_3CA6C3BF7D7B4F80CF0990D0::T_shaft",
+      "source_component": "L2_3500",
+      "source_variable": "out_T_shaft",
+      "target_component": "L2_3100",
+      "target_variable": "in_T_shaft",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_030",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_3CA6C3BF7D7B4F80CF0990D0::omega_shaft",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_shaft",
+      "target_component": "L2_3500",
+      "target_variable": "in_omega_shaft",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_031",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_40ADD911FF2840BEEAA67F8D::regenerative_power_actual",
+      "source_component": "L2_5100",
+      "source_variable": "out_regenerative_power_actual",
+      "target_component": "L2_8100",
+      "target_variable": "in_regenerative_power_actual",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_032",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_4163C3EB1F2D16B7AFCB21C9::emergency_brake_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_emergency_brake_request",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_033",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_41AD09EEB4EAB9DC956C08F8::service_brake_request",
+      "source_component": "L2_D100",
+      "source_variable": "out_service_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_service_brake_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_034",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_46A1EE350324445D016EAF45::motor_speed",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_speed",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_speed",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_035",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_4CB0735167799FD438F90DD2::omega_gearbox",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_gearbox",
+      "target_component": "L2_3600",
+      "target_variable": "in_omega_gearbox",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_036",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_4E4C49F08CEE642A5C3C67EB::dc_link_current",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_current",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_current",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_037",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_55513667B46680F5B87A0939::traction_converter_fault",
+      "source_component": "L2_5100",
+      "source_variable": "out_traction_converter_fault",
+      "target_component": "L2_8100",
+      "target_variable": "in_traction_converter_fault",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_038",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_565AF053FC6E3FF333FD7433::sanding_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_sanding_request",
+      "target_component": "L2_3800",
+      "target_variable": "in_sanding_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_039",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_65E377DBF988541FA5778D1E::motor_torque_actual",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_torque_actual",
+      "target_component": "L2_8100",
+      "target_variable": "in_motor_torque_actual",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_040",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_663CDC611495882DCD3E5B8F::emergency_brake_request",
+      "source_component": "L2_D100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_emergency_brake_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_041",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_732BB9F5922B7AC9420BB2D0::dc_link_voltage",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_voltage",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_042",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_7365C853DD9391D9914E0C8A::motor_torque_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_motor_torque_request",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_torque_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_043",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_739E53DD845C8CD2646C8E39::main_reservoir_pressure",
+      "source_component": "L2_7100",
+      "source_variable": "out_main_reservoir_pressure",
+      "target_component": "L2_8100",
+      "target_variable": "in_main_reservoir_pressure",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_044",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_7A2381DC8C36A40B747035A5::ess_power_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_power_request",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_power_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_045",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_86987C60BCB826208FEFEF31::safety_brake_request",
+      "source_component": "L2_E100",
+      "source_variable": "out_safety_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_safety_brake_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_046",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_89318B491DF9CED18997C36D::external_safety_system_state",
+      "source_component": "L2_E100",
+      "source_variable": "out_external_safety_system_state",
+      "target_component": "L2_8100",
+      "target_variable": "in_external_safety_system_state",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_047",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_89DF67BFD358C3EEF4DB05F2::motor_speed",
+      "source_component": "L2_3600",
+      "source_variable": "out_motor_speed",
+      "target_component": "L2_8100",
+      "target_variable": "in_motor_speed",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_048",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_8EED0159D22D9EDC70A9EA67::emergency_brake_request",
+      "source_component": "L2_D100",
+      "source_variable": "out_emergency_brake_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_emergency_brake_request",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_049",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_8F81398231970DBDB0A7F854::pantograph_state",
+      "source_component": "L2_4100",
+      "source_variable": "out_pantograph_state",
+      "target_component": "L2_4200",
+      "target_variable": "in_pantograph_state",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_050",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_944069F2CBBFA2A01274A9DB::brake_availability",
+      "source_component": "L2_7200",
+      "source_variable": "out_brake_availability",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_availability",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_051",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_9465AAC3F0B0B115DC3EF9FD::super_cap_soc",
+      "source_component": "L2_X100",
+      "source_variable": "out_super_cap_soc",
+      "target_component": "L2_8100",
+      "target_variable": "in_super_cap_soc",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_052",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_979C19823B520B68E370ECB6::service_brake_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_service_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_service_brake_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_053",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_9ACDE46A41EE650430438B91::hv_breaker_command",
+      "source_component": "L2_4200",
+      "source_variable": "out_hv_breaker_command",
+      "target_component": "L2_8100",
+      "target_variable": "in_hv_breaker_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_054",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::U_ac_rms",
+      "source_component": "L2_4100",
+      "source_variable": "out_U_ac_rms",
+      "target_component": "L2_4200",
+      "target_variable": "in_U_ac_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_055",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::f_ac",
+      "source_component": "L2_4100",
+      "source_variable": "out_f_ac",
+      "target_component": "L2_4200",
+      "target_variable": "in_f_ac",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_056",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_9EB19436ED0A54ECCF52C717::I_ac_rms",
+      "source_component": "L2_4200",
+      "source_variable": "out_I_ac_rms",
+      "target_component": "L2_4100",
+      "target_variable": "in_I_ac_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_057",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_A0B82CF482DDFB4553F8CFCA::main_reservoir_pressure",
+      "source_component": "L2_8100",
+      "source_variable": "out_main_reservoir_pressure",
+      "target_component": "L2_7200",
+      "target_variable": "in_main_reservoir_pressure",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_058",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_A35E2178763C6233BE73AA36::brake_resistor_dissipated_power",
+      "source_component": "L2_5100",
+      "source_variable": "out_brake_resistor_dissipated_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_resistor_dissipated_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_059",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_A3B31951ADAE62C498E76260::train_direction_command",
+      "source_component": "L2_D100",
+      "source_variable": "out_train_direction_command",
+      "target_component": "L2_8100",
+      "target_variable": "in_train_direction_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_060",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_A424455519797490E4F865AA::dc_link_voltage",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_voltage",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_061",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_A6D783BBFCF6C6DA11FFCF2D::dcdc_actual_power",
+      "source_component": "L2_X100",
+      "source_variable": "out_dcdc_actual_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_dcdc_actual_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_062",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_B251741505CB19FE47559F29::dynamic_brake_force_request",
+      "source_component": "L2_7200",
+      "source_variable": "out_dynamic_brake_force_request",
+      "target_component": "L2_8100",
+      "target_variable": "in_dynamic_brake_force_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_063",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_B399D92EE15558C08A95FA03::grid_returned_power",
+      "source_component": "L2_5100",
+      "source_variable": "out_grid_returned_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_grid_returned_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_064",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::U_ac_rms",
+      "source_component": "L2_4200",
+      "source_variable": "out_U_ac_rms",
+      "target_component": "L2_4500",
+      "target_variable": "in_U_ac_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_065",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::f_ac",
+      "source_component": "L2_4200",
+      "source_variable": "out_f_ac",
+      "target_component": "L2_4500",
+      "target_variable": "in_f_ac",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_066",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_B483D5C4E4EC5F805E3B0F19::I_ac_rms",
+      "source_component": "L2_4500",
+      "source_variable": "out_I_ac_rms",
+      "target_component": "L2_4200",
+      "target_variable": "in_I_ac_rms",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_067",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_BDD8747118488C9BE895D95F::grid_acceptable_regenerative_power",
+      "source_component": "L2_5100",
+      "source_variable": "out_grid_acceptable_regenerative_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_grid_acceptable_regenerative_power",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_068",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_BEDE0932E86628B2EFCA8CCD::available_dynamic_brake_force",
+      "source_component": "L2_8100",
+      "source_variable": "out_available_dynamic_brake_force",
+      "target_component": "L2_7200",
+      "target_variable": "in_available_dynamic_brake_force",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_069",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_C03EBDD9B3CFF4E6611E41A1::ess_availability",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_availability",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_availability",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_070",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_C113ED5B462ACDD4ACE56E91::ess_fault",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_fault",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_fault",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_071",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_C8FE042475056BF85CFA2B40::dc_link_voltage",
+      "source_component": "L2_5100",
+      "source_variable": "out_dc_link_voltage",
+      "target_component": "L2_8100",
+      "target_variable": "in_dc_link_voltage",
+      "realization": "TRACE_EQUIVALENT_DUPLICATE",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/TraceAlias_072",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_CB302083C9F33A1345D9C406::ess_available_charge_power",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_available_charge_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_available_charge_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_073",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_CE151D40A2BF816F41762F4C::brake_safety_loop_state",
+      "source_component": "L2_8100",
+      "source_variable": "out_brake_safety_loop_state",
+      "target_component": "L2_7200",
+      "target_variable": "in_brake_safety_loop_state",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_074",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_CE2820923CC0CB141833E11D::hv_system_fault",
+      "source_component": "L2_4200",
+      "source_variable": "out_hv_system_fault",
+      "target_component": "L2_4500",
+      "target_variable": "in_hv_system_fault",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_075",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_D4DF5719633CB5B375F35094::motor_torque_actual",
+      "source_component": "L2_5300",
+      "source_variable": "out_motor_torque_actual",
+      "target_component": "L2_5100",
+      "target_variable": "in_motor_torque_actual",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_076",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_D8FCE908D4FD9343C6353985::ess_fault_reset_command",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_fault_reset_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_fault_reset_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_077",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_D9CD1E8933F596F319A67625::ess_precharge_command",
+      "source_component": "L2_8100",
+      "source_variable": "out_ess_precharge_command",
+      "target_component": "L2_X100",
+      "target_variable": "in_ess_precharge_command",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_078",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_DA869E241F8A36DBAAC07E48::T_brake",
+      "source_component": "L2_7200",
+      "source_variable": "out_T_brake",
+      "target_component": "L2_3100",
+      "target_variable": "in_T_brake",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_079",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_DA869E241F8A36DBAAC07E48::omega_wheel",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_wheel",
+      "target_component": "L2_7200",
+      "target_variable": "in_omega_wheel",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_080",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_DAF7D43DDD825831F29A70F8::ess_available_discharge_power",
+      "source_component": "L2_X100",
+      "source_variable": "out_ess_available_discharge_power",
+      "target_component": "L2_8100",
+      "target_variable": "in_ess_available_discharge_power",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_081",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_E8DAA56D71F2BE4B5E1C9BBF::achieved_dynamic_brake_force",
+      "source_component": "L2_8100",
+      "source_variable": "out_achieved_dynamic_brake_force",
+      "target_component": "L2_7200",
+      "target_variable": "in_achieved_dynamic_brake_force",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_082",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_E9224B53F74EDFCCFDA0FC70::brake_cylinder_pressure",
+      "source_component": "L2_7200",
+      "source_variable": "out_brake_cylinder_pressure",
+      "target_component": "L2_8100",
+      "target_variable": "in_brake_cylinder_pressure",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_083",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_ED49C68C1459BB1005D412BB::safety_brake_request",
+      "source_component": "L2_8100",
+      "source_variable": "out_safety_brake_request",
+      "target_component": "L2_7200",
+      "target_variable": "in_safety_brake_request",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_084",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_F55B5E17D8CBFAC80E0961C2::hv_safety_loop_state",
+      "source_component": "L2_8100",
+      "source_variable": "out_hv_safety_loop_state",
+      "target_component": "L2_4200",
+      "target_variable": "in_hv_safety_loop_state",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_085",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_FA31DFA220FEF0D6FAC8EB67::omega_axle",
+      "source_component": "L2_3100",
+      "source_variable": "out_omega_axle",
+      "target_component": "L2_3600",
+      "target_variable": "in_omega_axle",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_086",
+      "status": "PASS"
+    },
+    {
+      "executable_connection_id": "EC::CG_FE573ED935CFF37491A053E8::line_current",
+      "source_component": "L2_4200",
+      "source_variable": "out_line_current",
+      "target_component": "L2_8100",
+      "target_variable": "in_line_current",
+      "realization": "CAUSAL_INPUT_WITH_UNIT_DELAY",
+      "simulink_element": "Rail_MBSE_All16_Integrated_v1/Connection_087",
+      "status": "PASS"
+    }
+  ]
+}

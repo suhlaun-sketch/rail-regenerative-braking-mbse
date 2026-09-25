@@ -1,0 +1,342 @@
+{
+  "component_mapping": [
+    {
+      "rail_l2_code": "4200",
+      "sysml_component": "L2_4200",
+      "ssd_component": "L2_4200"
+    },
+    {
+      "rail_l2_code": "4500",
+      "sysml_component": "L2_4500",
+      "ssd_component": "L2_4500"
+    },
+    {
+      "rail_l2_code": "5100",
+      "sysml_component": "L2_5100",
+      "ssd_component": "L2_5100"
+    },
+    {
+      "rail_l2_code": "5300",
+      "sysml_component": "L2_5300",
+      "ssd_component": "L2_5300"
+    },
+    {
+      "rail_l2_code": "7200",
+      "sysml_component": "L2_7200",
+      "ssd_component": "L2_7200"
+    },
+    {
+      "rail_l2_code": "X100",
+      "sysml_component": "L2_X100",
+      "ssd_component": "L2_X100"
+    },
+    {
+      "rail_l2_code": "3500",
+      "sysml_component": "L2_3500",
+      "ssd_component": "L2_3500"
+    },
+    {
+      "rail_l2_code": "3100",
+      "sysml_component": "L2_3100",
+      "ssd_component": "L2_3100"
+    }
+  ],
+  "port_mapping": [
+    {
+      "rail_leaf_port_path": "p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_fdcd27ee9b0a936f",
+      "sysml_component": "L2_3100",
+      "sysml_promoted_port": "p_3121_rp_fdcd27ee9b0a936f",
+      "ssd_connector": "p_3121_rp_fdcd27ee9b0a936f"
+    },
+    {
+      "rail_leaf_port_path": "p_N_3000.p_N_3100.p_N_3130.p_N_3131.rp_06d152ddc255f2eb",
+      "sysml_component": "L2_3100",
+      "sysml_promoted_port": "p_3131_rp_06d152ddc255f2eb",
+      "ssd_connector": "p_3131_rp_06d152ddc255f2eb"
+    },
+    {
+      "rail_leaf_port_path": "p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771",
+      "sysml_component": "L2_3500",
+      "sysml_promoted_port": "p_3511_rp_aa7691c6f81e4771",
+      "ssd_connector": "p_3511_rp_aa7691c6f81e4771"
+    },
+    {
+      "rail_leaf_port_path": "p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597",
+      "sysml_component": "L2_3500",
+      "sysml_promoted_port": "p_3512_rp_c455741f6ca5a597",
+      "ssd_connector": "p_3512_rp_c455741f6ca5a597"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4200.p_N_4230.p_N_4235.rp_6fea4b377f978aac",
+      "sysml_component": "L2_4200",
+      "sysml_promoted_port": "p_4235_rp_6fea4b377f978aac",
+      "ssd_connector": "p_4235_rp_6fea4b377f978aac"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+      "sysml_component": "L2_4200",
+      "sysml_promoted_port": "p_4236_rp_78e99abb7d77c156",
+      "ssd_connector": "p_4236_rp_78e99abb7d77c156"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_9107465175683792",
+      "sysml_component": "L2_4200",
+      "sysml_promoted_port": "p_4236_rp_9107465175683792",
+      "ssd_connector": "p_4236_rp_9107465175683792"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_0674d2b80a6a72da",
+      "sysml_component": "L2_4200",
+      "sysml_promoted_port": "p_4238_rp_0674d2b80a6a72da",
+      "ssd_connector": "p_4238_rp_0674d2b80a6a72da"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_11b7e7965ec2e386",
+      "sysml_component": "L2_4200",
+      "sysml_promoted_port": "p_4238_rp_11b7e7965ec2e386",
+      "ssd_connector": "p_4238_rp_11b7e7965ec2e386"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9458944450b0dd4c",
+      "sysml_component": "L2_4200",
+      "sysml_promoted_port": "p_4238_rp_9458944450b0dd4c",
+      "ssd_connector": "p_4238_rp_9458944450b0dd4c"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e",
+      "sysml_component": "L2_4500",
+      "sysml_promoted_port": "p_4511_rp_c782fb362436088e",
+      "ssd_connector": "p_4511_rp_c782fb362436088e"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270",
+      "sysml_component": "L2_4500",
+      "sysml_promoted_port": "p_4513_rp_f597e9dc63931270",
+      "ssd_connector": "p_4513_rp_f597e9dc63931270"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4500.p_N_4510.p_N_4517.rp_b93b1716e8b4e844",
+      "sysml_component": "L2_4500",
+      "sysml_promoted_port": "p_4517_rp_b93b1716e8b4e844",
+      "ssd_connector": "p_4517_rp_b93b1716e8b4e844"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4500.p_N_4510.p_N_4518.rp_67eef246e016ac82",
+      "sysml_component": "L2_4500",
+      "sysml_promoted_port": "p_4518_rp_67eef246e016ac82",
+      "ssd_connector": "p_4518_rp_67eef246e016ac82"
+    },
+    {
+      "rail_leaf_port_path": "p_N_4000.p_N_4500.p_N_4510.p_N_4518.rp_a87c9390595138d6",
+      "sysml_component": "L2_4500",
+      "sysml_promoted_port": "p_4518_rp_a87c9390595138d6",
+      "ssd_connector": "p_4518_rp_a87c9390595138d6"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_5f90d6dd8fba4321",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5111_rp_5f90d6dd8fba4321",
+      "ssd_connector": "p_5111_rp_5f90d6dd8fba4321"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_651700e69b7dccba",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5111_rp_651700e69b7dccba",
+      "ssd_connector": "p_5111_rp_651700e69b7dccba"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_21e86fb073b61523",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5112_rp_21e86fb073b61523",
+      "ssd_connector": "p_5112_rp_21e86fb073b61523"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_4557e9b0656c46f5",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5112_rp_4557e9b0656c46f5",
+      "ssd_connector": "p_5112_rp_4557e9b0656c46f5"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_780596fabcc73a0f",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5112_rp_780596fabcc73a0f",
+      "ssd_connector": "p_5112_rp_780596fabcc73a0f"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5121_rp_9dedfe88c8a34261",
+      "ssd_connector": "p_5121_rp_9dedfe88c8a34261"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5122_rp_0b57347688ba1240",
+      "ssd_connector": "p_5122_rp_0b57347688ba1240"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073",
+      "sysml_component": "L2_5100",
+      "sysml_promoted_port": "p_5132_rp_770f7e1c507cc073",
+      "ssd_connector": "p_5132_rp_770f7e1c507cc073"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_10bb4c4f0063bc18",
+      "sysml_component": "L2_5300",
+      "sysml_promoted_port": "p_5311_rp_10bb4c4f0063bc18",
+      "ssd_connector": "p_5311_rp_10bb4c4f0063bc18"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_537e9856bafa2a02",
+      "sysml_component": "L2_5300",
+      "sysml_promoted_port": "p_5311_rp_537e9856bafa2a02",
+      "ssd_connector": "p_5311_rp_537e9856bafa2a02"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d",
+      "sysml_component": "L2_5300",
+      "sysml_promoted_port": "p_5311_rp_57f3c317ac0c860d",
+      "ssd_connector": "p_5311_rp_57f3c317ac0c860d"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_79c695a1342df24f",
+      "sysml_component": "L2_5300",
+      "sysml_promoted_port": "p_5311_rp_79c695a1342df24f",
+      "ssd_connector": "p_5311_rp_79c695a1342df24f"
+    },
+    {
+      "rail_leaf_port_path": "p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e",
+      "sysml_component": "L2_5300",
+      "sysml_promoted_port": "p_5311_rp_97eb613c06ae1b2e",
+      "ssd_connector": "p_5311_rp_97eb613c06ae1b2e"
+    },
+    {
+      "rail_leaf_port_path": "p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df",
+      "sysml_component": "L2_7200",
+      "sysml_promoted_port": "p_7254_rp_d9511ef0fa1c17df",
+      "ssd_connector": "p_7254_rp_d9511ef0fa1c17df"
+    }
+  ],
+  "connection_mapping": [
+    {
+      "rail_connection_id": "c_CG_002543DBE0F9A7FBC2A3FDD3",
+      "sysml_interface": "IF_IF_MEA_005",
+      "ssd_start_element": "L2_4200",
+      "ssd_start_connector": "L2_4200.p_4235_rp_6fea4b377f978aac",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5111_rp_5f90d6dd8fba4321"
+    },
+    {
+      "rail_connection_id": "c_CG_117A3F0E6C8FF8FF0013A46B",
+      "sysml_interface": "IF_IF_PHY_014",
+      "ssd_start_element": "L2_4500",
+      "ssd_start_connector": "L2_4500.p_4513_rp_f597e9dc63931270",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5122_rp_0b57347688ba1240"
+    },
+    {
+      "rail_connection_id": "c_CG_118F2C2B84D1D301C7BE63F8",
+      "sysml_interface": "IF_IF_PHY_014",
+      "ssd_start_element": "L2_4500",
+      "ssd_start_connector": "L2_4500.p_4513_rp_f597e9dc63931270",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5121_rp_9dedfe88c8a34261"
+    },
+    {
+      "rail_connection_id": "c_CG_20C0A22ECCF07864FDBA3F5A",
+      "sysml_interface": "IF_IF_MEA_006",
+      "ssd_start_element": "L2_4200",
+      "ssd_start_connector": "L2_4200.p_4236_rp_9107465175683792",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5111_rp_651700e69b7dccba"
+    },
+    {
+      "rail_connection_id": "c_CG_2274BA128E639FDE4D4F56EC",
+      "sysml_interface": "IF_IF_STA_016",
+      "ssd_start_element": "L2_4500",
+      "ssd_start_connector": "L2_4500.p_4517_rp_b93b1716e8b4e844",
+      "ssd_end_element": "L2_4200",
+      "ssd_end_connector": "L2_4200.p_4238_rp_11b7e7965ec2e386"
+    },
+    {
+      "rail_connection_id": "c_CG_338D68ABEF709ACD5E0DDCC6",
+      "sysml_interface": "IF_IF_PHY_005",
+      "ssd_start_element": "L2_5300",
+      "ssd_start_connector": "L2_5300.p_5311_rp_97eb613c06ae1b2e",
+      "ssd_end_element": "L2_3500",
+      "ssd_end_connector": "L2_3500.p_3511_rp_aa7691c6f81e4771"
+    },
+    {
+      "rail_connection_id": "c_CG_37792F42F4274C7C51C63270",
+      "sysml_interface": "IF_IF_STA_013",
+      "ssd_start_element": "L2_4200",
+      "ssd_start_connector": "L2_4200.p_4238_rp_0674d2b80a6a72da",
+      "ssd_end_element": "L2_4500",
+      "ssd_end_connector": "L2_4500.p_4518_rp_67eef246e016ac82"
+    },
+    {
+      "rail_connection_id": "c_CG_37ECA5B04E215AC3E6A4B472",
+      "sysml_interface": "IF_IF_MEA_011",
+      "ssd_start_element": "L2_5300",
+      "ssd_start_connector": "L2_5300.p_5311_rp_537e9856bafa2a02",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5112_rp_21e86fb073b61523"
+    },
+    {
+      "rail_connection_id": "c_CG_3BD24EBE88F37EEFFE563597",
+      "sysml_interface": "IF_IF_PHY_004",
+      "ssd_start_element": "L2_5100",
+      "ssd_start_connector": "L2_5100.p_5132_rp_770f7e1c507cc073",
+      "ssd_end_element": "L2_5300",
+      "ssd_end_connector": "L2_5300.p_5311_rp_57f3c317ac0c860d"
+    },
+    {
+      "rail_connection_id": "c_CG_3CA6C3BF7D7B4F80CF0990D0",
+      "sysml_interface": "IF_IF_PHY_005",
+      "ssd_start_element": "L2_3500",
+      "ssd_start_connector": "L2_3500.p_3512_rp_c455741f6ca5a597",
+      "ssd_end_element": "L2_3100",
+      "ssd_end_connector": "L2_3100.p_3121_rp_fdcd27ee9b0a936f"
+    },
+    {
+      "rail_connection_id": "c_CG_46A1EE350324445D016EAF45",
+      "sysml_interface": "IF_IF_MEA_004",
+      "ssd_start_element": "L2_5300",
+      "ssd_start_connector": "L2_5300.p_5311_rp_79c695a1342df24f",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5112_rp_780596fabcc73a0f"
+    },
+    {
+      "rail_connection_id": "c_CG_B483D5C4E4EC5F805E3B0F19",
+      "sysml_interface": "IF_IF_PHY_001",
+      "ssd_start_element": "L2_4200",
+      "ssd_start_connector": "L2_4200.p_4236_rp_78e99abb7d77c156",
+      "ssd_end_element": "L2_4500",
+      "ssd_end_connector": "L2_4500.p_4511_rp_c782fb362436088e"
+    },
+    {
+      "rail_connection_id": "c_CG_CE2820923CC0CB141833E11D",
+      "sysml_interface": "IF_IF_STA_016",
+      "ssd_start_element": "L2_4200",
+      "ssd_start_connector": "L2_4200.p_4238_rp_9458944450b0dd4c",
+      "ssd_end_element": "L2_4500",
+      "ssd_end_connector": "L2_4500.p_4518_rp_a87c9390595138d6"
+    },
+    {
+      "rail_connection_id": "c_CG_D4DF5719633CB5B375F35094",
+      "sysml_interface": "IF_IF_MEA_012",
+      "ssd_start_element": "L2_5300",
+      "ssd_start_connector": "L2_5300.p_5311_rp_10bb4c4f0063bc18",
+      "ssd_end_element": "L2_5100",
+      "ssd_end_connector": "L2_5100.p_5112_rp_4557e9b0656c46f5"
+    },
+    {
+      "rail_connection_id": "c_CG_DA869E241F8A36DBAAC07E48",
+      "sysml_interface": "IF_IF_PHY_007",
+      "ssd_start_element": "L2_7200",
+      "ssd_start_connector": "L2_7200.p_7254_rp_d9511ef0fa1c17df",
+      "ssd_end_element": "L2_3100",
+      "ssd_end_connector": "L2_3100.p_3131_rp_06d152ddc255f2eb"
+    }
+  ]
+}

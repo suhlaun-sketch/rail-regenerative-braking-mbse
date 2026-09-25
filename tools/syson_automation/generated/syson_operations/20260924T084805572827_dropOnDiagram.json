@@ -1,0 +1,36 @@
+{
+  "operation_name": "dropOnDiagram",
+  "timestamp": "2026-09-24T08:47:58.098431+00:00",
+  "variables": {
+    "input": {
+      "id": "bc6456ea-6d61-4b78-8d43-3edb3e6e6b5a",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "representationId": "80438d60-b7db-429c-bc3f-594a8bf18945",
+      "diagramTargetElementId": "80438d60-b7db-429c-bc3f-594a8bf18945",
+      "objectIds": [
+        "3d89841c-1125-49ae-b181-50bd3c680b0d",
+        "354b434d-94ae-45e6-9fef-784b70e499b6",
+        "dcbbee55-93fb-4a0b-a2c4-f4e915aea26d",
+        "901b218b-7319-4a6a-8d7d-9c97629e3cd2",
+        "7c178bec-8977-4471-835e-76cee882966e",
+        "1c779567-209a-4aa6-8648-bccb80b97dc7",
+        "0c35d9ed-73f3-4a11-bc32-b15d1fbb6800",
+        "7d890236-8b47-4a97-8331-7654f30119e5",
+        "6e7b5978-03b1-4846-83e2-bf9cd9b58b69",
+        "634f0d6e-9f37-458d-a08b-95ece3c0637a"
+      ],
+      "startingPositionX": 80.0,
+      "startingPositionY": 80.0
+    }
+  },
+  "representation_id": "80438d60-b7db-429c-bc3f-594a8bf18945",
+  "response": {
+    "dropOnDiagram": {
+      "__typename": "DropOnDiagramSuccessPayload",
+      "diagram": {
+        "id": "80438d60-b7db-429c-bc3f-594a8bf18945"
+      }
+    }
+  },
+  "error": null
+}

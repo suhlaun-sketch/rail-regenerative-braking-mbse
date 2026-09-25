@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T02:01:53.714502+00:00",
+  "variables": {
+    "input": {
+      "id": "4da5d8fa-58ef-4edf-8adf-2a45e919f470",
+      "editingContextId": "12d630bc-f763-4c58-8385-152cbec448e9",
+      "objectId": "3fb62768-1d95-4820-bfc5-af38a72177a5",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "representationName": "AUTO_IBD_X100_CONTAINER_SMOKE"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "eab3be09-3ec6-4453-97cd-340f87f0c965",
+        "label": "AUTO_IBD_X100_CONTAINER_SMOKE",
+        "kind": "siriusComponents://representation?type=Diagram"
+      }
+    }
+  },
+  "error": null
+}

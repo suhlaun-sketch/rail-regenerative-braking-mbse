@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "actual": {
+    "products": 147,
+    "items": 144,
+    "exposes": 517,
+    "ports": 0,
+    "connects": 184,
+    "nets": 9,
+    "members": 82,
+    "modes": {
+      "BOUNDARY": 12,
+      "SERIES": 20,
+      "SIGNAL": 147,
+      "TAP": 5
+    }
+  },
+  "qa": {
+    "QA-CG-01": true,
+    "QA-CG-02": true,
+    "QA-CG-03": true,
+    "QA-CG-04": true,
+    "QA-CG-05": true,
+    "QA-CG-06": true,
+    "QA-CG-07": true,
+    "QA-CG-08": true,
+    "QA-CG-09": true,
+    "QA-CG-10": true,
+    "QA-CG-11": true,
+    "QA-CG-12": true,
+    "Voltage-Continuity": true,
+    "CRITICAL_UNRESOLVED": true,
+    "Neo4j-counts-match-files": true
+  },
+  "closure": {
+    "AC供电": true,
+    "主变二次交流": true,
+    "DC Link": true,
+    "三相电机": true,
+    "机械牵引": true,
+    "再生回馈": true,
+    "超级电容": true,
+    "制动电阻": true,
+    "服务制动": true,
+    "ATP/紧急制动": true,
+    "气动制动": true,
+    "主回路回流": true
+  },
+  "voltage": {
+    "U_grid": true,
+    "U_transformer_primary": true,
+    "U_transformer_secondary": true,
+    "U_dc": true,
+    "U_motor": true,
+    "U_sc": true
+  },
+  "idempotent": true
+}

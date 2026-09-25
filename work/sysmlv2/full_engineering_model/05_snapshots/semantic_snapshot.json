@@ -1,0 +1,12 @@
+{
+  "sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+  "counts": {
+    "Products": 147,
+    "Items": 144,
+    "Raw Ports": 517,
+    "Functions": 191,
+    "Allocations": 191,
+    "Final Connections": 184,
+    "Physical Nets": 9
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "parameters": {
+    "sample_time_s": 0.01,
+    "default_communication_step_s": 0.05,
+    "vehicle": {
+      "wheel_radius_m": 0.46,
+      "equivalent_rotational_inertia_kgm2": 18000,
+      "rolling_resistance_torque_Nm": 1500,
+      "aero_torque_coefficient": 0.8
+    },
+    "driveline": {
+      "gear_ratio": 6.2,
+      "efficiency": 0.96
+    },
+    "motor": {
+      "pole_pairs": 3,
+      "torque_slip_gain_Nm_per_radps": 30,
+      "torque_limit_Nm": 6000,
+      "time_constant_s": 0.2,
+      "deenergized_time_constant_s": 0.05,
+      "minimum_operating_voltage_V": 250,
+      "efficiency_motoring": 0.94,
+      "efficiency_generating": 0.92
+    },
+    "converter": {
+      "dc_voltage_nominal_V": 1800,
+      "dc_voltage_min_operating_V": 1200,
+      "dc_voltage_max_V": 2100,
+      "dc_link_capacitance_F": 0.4,
+      "dc_link_bleed_power_W": 5000,
+      "precharge_power_limit_W": 900000,
+      "precharge_time_constant_s": 0.6,
+      "secondary_voltage_min_V": 900,
+      "secondary_frequency_min_Hz": 45,
+      "secondary_frequency_max_Hz": 55,
+      "rectifier_voltage_gain": 1.2,
+      "power_limit_W": 1.2E+6,
+      "grid_regen_acceptance_W": 0,
+      "front_end_efficiency": 0.98,
+      "inverter_efficiency_motoring": 0.98,
+      "inverter_efficiency_generating": 0.98
+    },
+    "transformer": {
+      "ratio_secondary_to_primary": 0.06,
+      "efficiency": 0.97,
+      "primary_voltage_min_V": 15000,
+      "frequency_min_Hz": 45,
+      "frequency_max_Hz": 55
+    },
+    "line": {
+      "voltage_V": 25000,
+      "frequency_Hz": 50,
+      "pantograph_raise_delay_s": 0.2,
+      "voltage_drop_V_per_A": 0.4
+    },
+    "hv": {
+      "primary_voltage_min_V": 15000,
+      "frequency_min_Hz": 45,
+      "frequency_max_Hz": 55,
+      "breaker_close_delay_s": 0.3,
+      "breaker_open_delay_s": 0.05
+    },
+    "brake": {
+      "vehicle_mass_kg": 80000,
+      "max_service_deceleration_mps2": 1.2,
+      "max_dynamic_force_N": 77000,
+      "wheel_radius_m": 0.46,
+      "cylinder_pressure_max_Pa": 600000,
+      "cylinder_time_constant_s": 0.4,
+      "mechanical_force_build_time_s": 0.25,
+      "mechanical_force_release_time_s": 0.12,
+      "regen_cutoff_low_mps": 0.5,
+      "regen_cutoff_high_mps": 1.5,
+      "total_force_tolerance": 0.05
+    },
+    "pneumatic": {
+      "reservoir_pressure_nominal_Pa": 900000
+    },
+    "supercap": {
+      "capacitance_F": 120,
+      "esr_Ohm": 0.04,
+      "voltage_min_V": 500,
+      "voltage_max_V": 900,
+      "initial_soc": 0.35,
+      "charge_power_limit_W": 600000,
+      "discharge_power_limit_W": 400000,
+      "current_limit_A": 900,
+      "dcdc_efficiency_charge": 0.96,
+      "dcdc_efficiency_discharge": 0.95
+    }
+  },
+  "metadata": [
+    {
+      "parameter": "sample_time_s",
+      "value": 0.01,
+      "unit": "s",
+      "component": "ALL",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "Internal fixed step supports communication-step sensitivity at 0.10, 0.05 and 0.02 s."
+    },
+    {
+      "parameter": "default_communication_step_s",
+      "value": 0.05,
+      "unit": "s",
+      "component": "ALL",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "Selected after brake-transient communication-step comparison."
+    },
+    {
+      "parameter": "wheel_radius_m",
+      "value": 0.46,
+      "unit": "m",
+      "component": "L2_3100/L2_7200",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Representative rail wheel rolling radius."
+    },
+    {
+      "parameter": "equivalent_rotational_inertia_kgm2",
+      "value": 18000,
+      "unit": "kg*m^2",
+      "component": "L2_3100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "Consistent with the 80000 kg equivalent mass and 0.46 m wheel radius with driveline allowance."
+    },
+    {
+      "parameter": "gear_ratio",
+      "value": 6.2,
+      "unit": "1",
+      "component": "L2_3500",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Representative rail final-drive ratio."
+    },
+    {
+      "parameter": "driveline_efficiency",
+      "value": 0.96,
+      "unit": "1",
+      "component": "L2_3500",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Averaged gearbox efficiency."
+    },
+    {
+      "parameter": "motor_torque_limit_Nm",
+      "value": 6000,
+      "unit": "N*m",
+      "component": "L2_5300",
+      "source": "SOURCE_MODEL",
+      "confidence": "medium",
+      "assumption": "Scale retained from the v1 PMSM-oriented implementation."
+    },
+    {
+      "parameter": "motor_time_constant_s",
+      "value": 0.2,
+      "unit": "s",
+      "component": "L2_5300",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Averaged energized torque response."
+    },
+    {
+      "parameter": "motor_deenergized_time_constant_s",
+      "value": 0.05,
+      "unit": "s",
+      "component": "L2_5300",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Fast torque decay when inverter voltage is unavailable or speed is below regeneration cutoff."
+    },
+    {
+      "parameter": "motor_minimum_operating_voltage_V",
+      "value": 250,
+      "unit": "V",
+      "component": "L2_5300",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Prevents torque production without a valid inverter voltage."
+    },
+    {
+      "parameter": "motor_efficiency_motoring",
+      "value": 0.94,
+      "unit": "1",
+      "component": "L2_5300",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average PMSM motoring efficiency."
+    },
+    {
+      "parameter": "motor_efficiency_generating",
+      "value": 0.92,
+      "unit": "1",
+      "component": "L2_5300",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average PMSM generating efficiency."
+    },
+    {
+      "parameter": "dc_voltage_nominal_V",
+      "value": 1800,
+      "unit": "V",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Nominal traction DC-link voltage."
+    },
+    {
+      "parameter": "dc_voltage_min_operating_V",
+      "value": 1200,
+      "unit": "V",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Minimum DC voltage for inverter torque production."
+    },
+    {
+      "parameter": "dc_voltage_max_V",
+      "value": 2100,
+      "unit": "V",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Averaged DC-link over-voltage limit."
+    },
+    {
+      "parameter": "dc_link_capacitance_F",
+      "value": 0.4,
+      "unit": "F",
+      "component": "L2_5100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "low",
+      "assumption": "Equivalent system-level DC-link capacitance; requires vehicle calibration."
+    },
+    {
+      "parameter": "dc_link_bleed_power_W",
+      "value": 5000,
+      "unit": "W",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "low",
+      "assumption": "Equivalent auxiliary/bleed load used only in the DC energy balance."
+    },
+    {
+      "parameter": "precharge_power_limit_W",
+      "value": 900000,
+      "unit": "W",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Limits DC-link startup energy transfer."
+    },
+    {
+      "parameter": "precharge_time_constant_s",
+      "value": 0.6,
+      "unit": "s",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "System-level DC-link establishment response."
+    },
+    {
+      "parameter": "secondary_voltage_min_V",
+      "value": 900,
+      "unit": "V",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "Functional enable threshold separated from numerical epsilon."
+    },
+    {
+      "parameter": "front_end_efficiency",
+      "value": 0.98,
+      "unit": "1",
+      "component": "L2_5100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average rectifier/front-end efficiency."
+    },
+    {
+      "parameter": "inverter_efficiency_motoring",
+      "value": 0.98,
+      "unit": "1",
+      "component": "L2_5100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average inverter motoring efficiency."
+    },
+    {
+      "parameter": "inverter_efficiency_generating",
+      "value": 0.98,
+      "unit": "1",
+      "component": "L2_5100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average inverter regenerative efficiency."
+    },
+    {
+      "parameter": "transformer_ratio",
+      "value": 0.06,
+      "unit": "1",
+      "component": "L2_4500",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Retained system-level voltage ratio."
+    },
+    {
+      "parameter": "transformer_efficiency",
+      "value": 0.97,
+      "unit": "1",
+      "component": "L2_4500",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average traction-transformer efficiency."
+    },
+    {
+      "parameter": "line_voltage_V",
+      "value": 25000,
+      "unit": "V",
+      "component": "L2_4100/L2_4200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "25 kV AC railway supply boundary."
+    },
+    {
+      "parameter": "pantograph_raise_delay_s",
+      "value": 0.2,
+      "unit": "s",
+      "component": "L2_4100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Startup sequencing delay; not a hardware certification value."
+    },
+    {
+      "parameter": "hv_primary_voltage_min_V",
+      "value": 15000,
+      "unit": "V",
+      "component": "L2_4200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "Breaker may close only with a valid pantograph supply."
+    },
+    {
+      "parameter": "hv_breaker_close_delay_s",
+      "value": 0.3,
+      "unit": "s",
+      "component": "L2_4200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Averaged breaker command-to-state delay."
+    },
+    {
+      "parameter": "vehicle_mass_kg",
+      "value": 80000,
+      "unit": "kg",
+      "component": "L2_7200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Representative train-unit equivalent mass."
+    },
+    {
+      "parameter": "max_service_deceleration_mps2",
+      "value": 1.2,
+      "unit": "m/s^2",
+      "component": "L2_7200",
+      "source": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Frozen service-brake request interpreted as demanded deceleration."
+    },
+    {
+      "parameter": "mechanical_force_build_time_s",
+      "value": 0.25,
+      "unit": "s",
+      "component": "L2_7200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "First-order friction-brake buildup."
+    },
+    {
+      "parameter": "mechanical_force_release_time_s",
+      "value": 0.12,
+      "unit": "s",
+      "component": "L2_7200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Coordinated release plus total-force safety limiting."
+    },
+    {
+      "parameter": "regen_cutoff_low_mps",
+      "value": 0.5,
+      "unit": "m/s",
+      "component": "L2_8100/L2_5300",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Regenerative capability is zero at and below this speed."
+    },
+    {
+      "parameter": "regen_cutoff_high_mps",
+      "value": 1.5,
+      "unit": "m/s",
+      "component": "L2_8100/L2_5300",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Regenerative capability is fully available at and above this speed."
+    },
+    {
+      "parameter": "brake_total_force_tolerance",
+      "value": 0.05,
+      "unit": "1",
+      "component": "L2_7200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "V&V limit for total-force overshoot."
+    },
+    {
+      "parameter": "reservoir_pressure_nominal_Pa",
+      "value": 900000,
+      "unit": "Pa",
+      "component": "L2_7100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Representative main-reservoir pressure."
+    },
+    {
+      "parameter": "supercap_capacitance_F",
+      "value": 120,
+      "unit": "F",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Equivalent bank capacitance."
+    },
+    {
+      "parameter": "supercap_esr_Ohm",
+      "value": 0.04,
+      "unit": "Ohm",
+      "component": "L2_X100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "low",
+      "assumption": "Equivalent bank ESR; requires calibration."
+    },
+    {
+      "parameter": "supercap_voltage_min_V",
+      "value": 500,
+      "unit": "V",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Lower capacitor internal-voltage limit."
+    },
+    {
+      "parameter": "supercap_voltage_max_V",
+      "value": 900,
+      "unit": "V",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Upper capacitor internal-voltage limit."
+    },
+    {
+      "parameter": "supercap_current_limit_A",
+      "value": 900,
+      "unit": "A",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Bidirectional capacitor current limit."
+    },
+    {
+      "parameter": "supercap_charge_power_limit_W",
+      "value": 600000,
+      "unit": "W",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Bidirectional DC/DC charge limit."
+    },
+    {
+      "parameter": "supercap_discharge_power_limit_W",
+      "value": 400000,
+      "unit": "W",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Bidirectional DC/DC discharge limit."
+    }
+  ]
+}

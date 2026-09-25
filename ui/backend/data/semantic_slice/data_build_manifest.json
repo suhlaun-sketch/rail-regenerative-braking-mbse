@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-09-23T02:54:23.098001+00:00",
+  "requirement_source": "Req/牵引制动能量回收系统_正式需求库_v1.xlsx",
+  "requirement_source_sha256": "b6a83b3c45697eb205eded20572170f15d31cb9838b1bd1a04f498dad080d495",
+  "sysml_source_sha256": "a15cf7170dc5458738080a146c391e438fe57b85f9687857f34a081b8efdf0d5",
+  "sheet_counts": {
+    "摘要": 7,
+    "正式需求库": 34,
+    "标准来源": 4,
+    "编码与口径": 8,
+    "Codex导入视图": 34,
+    "关键词检索表": 34
+  },
+  "codex_import_id_count": 34,
+  "codex_import_ids_match": true,
+  "requirement_count": 34,
+  "function_count": 191,
+  "product_count": 147,
+  "requirement_function_relation_count": 3,
+  "candidate_suggestion_count": 0,
+  "function_product_relation_count": 191,
+  "l2_interaction_count": 74,
+  "unresolved_requirement_count": 31,
+  "unresolved_function_count": 0,
+  "warnings": [],
+  "files": [
+    "requirement_catalog.json",
+    "function_catalog.json",
+    "product_catalog.json",
+    "requirement_function_map.json",
+    "requirement_function_candidates.json",
+    "function_product_map.json",
+    "function_interaction_map.json",
+    "l2_interaction_catalog.json",
+    "requirement_function_product_map.json",
+    "semantic_query_examples.json",
+    "semantic_index.json",
+    "semantic_cache.json"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "artifact": "Rail MBSE v2.1 final freeze manifest",
+  "timestamp": "2026-09-14T00:39:45.011734+00:00",
+  "baseline_status": "FROZEN",
+  "fmus": [
+    {
+      "filename": "L2_3100.fmu",
+      "sha256": "9690E3EB3ED889157FC54B598968CE302957C32068836C56829145B23547DE4B"
+    },
+    {
+      "filename": "L2_3500.fmu",
+      "sha256": "89CB7C4F544577AA089EEA0EE130FEC4B33126FE03D9E539342A31D32484D101"
+    },
+    {
+      "filename": "L2_3600.fmu",
+      "sha256": "374D8FB0B1AB9961E02DA036DE8E9B561764BDE84AA4AB8A449FFA775EB17ED2"
+    },
+    {
+      "filename": "L2_3800.fmu",
+      "sha256": "833C24AF3565AC1F2A95CBEC295A4453100B7B41BE0AE5970B07F6650EC95EBA"
+    },
+    {
+      "filename": "L2_4100.fmu",
+      "sha256": "FA92037469AAE9A3A007F4EC1853ED22ABC7DB7B948140344298DBF6190095B1"
+    },
+    {
+      "filename": "L2_4200.fmu",
+      "sha256": "FE7AB260E685B82340AE54EFB60E6DCE046D9C824B213D65D2286ED9C7CB30C3"
+    },
+    {
+      "filename": "L2_4400.fmu",
+      "sha256": "DE58652F1EAA150A4749E02C0B87301E5B5BE9A98669F4B3C776B604C19DF947"
+    },
+    {
+      "filename": "L2_4500.fmu",
+      "sha256": "B8E24AC32D721F820BE8F3AFCFE974D6AB4C73195FD46017DC85E9360C660478"
+    },
+    {
+      "filename": "L2_5100.fmu",
+      "sha256": "9CDF4A5B18A6C3F4D3D334E2E923ADD12C4EA6BE762BC782245E4F103B4517B6"
+    },
+    {
+      "filename": "L2_5300.fmu",
+      "sha256": "15F6B3C3AAD9B015AB8A5EE39839092C2557665402DF6887F046C6877358DEDF"
+    },
+    {
+      "filename": "L2_7100.fmu",
+      "sha256": "B2480D892BA0758529AEEEDB01BC8AC48A002B8CD151E8BA883F65874DD8EBD6"
+    },
+    {
+      "filename": "L2_7200.fmu",
+      "sha256": "6EE4CDBEB010654A97FA44A81D7D9A66A47B9FC1280E885F624E6CA6E7B30006"
+    },
+    {
+      "filename": "L2_8100.fmu",
+      "sha256": "2961F2B3E114B610D3C74B45FE66D6FC7A3D77D2B8B8B52995B5AE47365F885C"
+    },
+    {
+      "filename": "L2_D100.fmu",
+      "sha256": "3D8B445D1DA4FBC4F20BE935338111D2912A8117460781C4C3FC841C64C6EAF5"
+    },
+    {
+      "filename": "L2_E100.fmu",
+      "sha256": "31AD50799A4F60A9468ECCE832D5FFF4F577182ABAEE053EF1EE40F97B13121D"
+    },
+    {
+      "filename": "L2_X100.fmu",
+      "sha256": "D586A4ABC640054A8E1CF1A479FBF3C5337BB692B577F5ACE1E03A464B88CE40"
+    }
+  ],
+  "ssp": {
+    "filename": "Rail_MBSE_All16_Executable_v2_1.ssp",
+    "sha256": "955892BCB3EE0A8B1CBBEFE2C4135DE35C337BA996A823D579BB00F7569C04C7"
+  },
+  "authoritative_result_csv": {
+    "filename": "Rail_MBSE_All16_FMU_CoSimulation_Results_v2_1.csv",
+    "sha256": "B6B064A0CEB8CC36C6CA911F4D29E4C2E2138DA0209B86E5F8BE773998997D29"
+  },
+  "brake_transition_vv": {
+    "filename": "Brake_Transition_VV_v2_1.json",
+    "sha256": "B329D7DD7BC58C290895DD4E4B6D032656EFA278C543C1861F2E9588589A9050"
+  },
+  "final_status": {
+    "filename": "Final_Status_v2_1.txt",
+    "sha256": "B5F5A64B953B5E79AD00186EF1DE536E280B2A7C815819622992DB9C56A819E1"
+  },
+  "build_script": {
+    "filename": "build_all16_models.m",
+    "sha256": "AC74D0C7F1639E759E126B6DCBA5ED8C45AE64581540539643090FE2E53A3BA6"
+  },
+  "parameter_file": {
+    "filename": "Rail_MBSE_Simulation_Parameters_v2.m",
+    "sha256": "F92B520B6B8CF2F0CED73746AE8D17AABF3BF339FD62A4118EC67CD031ABFF4D"
+  },
+  "counts": {
+    "fmus": 16,
+    "required_variables": 151,
+    "connection_records": 87
+  },
+  "final_status_value": "PASS"
+}

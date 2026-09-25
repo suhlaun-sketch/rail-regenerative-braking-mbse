@@ -1,0 +1,53 @@
+{
+  "ssd_component_id": "L2_4500",
+  "ssd_component_name": "L2_4500",
+  "l2_code": "4500",
+  "l2_engineering_name": "主变压器及其冷却",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_4500::p_4511_rp_c782fb362436088e",
+      "ssd_connector_name": "p_4511_rp_c782fb362436088e",
+      "simulink_port_name": "p_4511_rp_c782fb362436088e",
+      "future_fmu_variable": "p_4511_rp_c782fb362436088e",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_4500::p_4518_rp_67eef246e016ac82",
+      "ssd_connector_name": "p_4518_rp_67eef246e016ac82",
+      "simulink_port_name": "p_4518_rp_67eef246e016ac82",
+      "future_fmu_variable": "p_4518_rp_67eef246e016ac82",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_4500::p_4518_rp_a87c9390595138d6",
+      "ssd_connector_name": "p_4518_rp_a87c9390595138d6",
+      "simulink_port_name": "p_4518_rp_a87c9390595138d6",
+      "future_fmu_variable": "p_4518_rp_a87c9390595138d6",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_4500::p_4513_rp_f597e9dc63931270",
+      "ssd_connector_name": "p_4513_rp_f597e9dc63931270",
+      "simulink_port_name": "p_4513_rp_f597e9dc63931270",
+      "future_fmu_variable": "p_4513_rp_f597e9dc63931270",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_4500::p_4517_rp_b93b1716e8b4e844",
+      "ssd_connector_name": "p_4517_rp_b93b1716e8b4e844",
+      "simulink_port_name": "p_4517_rp_b93b1716e8b4e844",
+      "future_fmu_variable": "p_4517_rp_b93b1716e8b4e844",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 5,
+  "connected_l2_peers": [
+    "L2_4200",
+    "L2_5100"
+  ],
+  "future_simulink": "L2_4500.slx",
+  "future_fmu": "L2_4500.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rail MBSE XMI-ready Architecture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "profile",
+    "products",
+    "items",
+    "interfaces",
+    "external_boundaries",
+    "physical_nets",
+    "connections",
+    "functions",
+    "allocations",
+    "function_interface_mappings",
+    "verification_anchors"
+  ],
+  "$defs": {
+    "stableId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!.*[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}).+$"
+    },
+    "xmiId": {
+      "type": "string",
+      "pattern": "^XMI-[A-Z0-9:_-]+$"
+    }
+  },
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "project_id",
+        "profile_id",
+        "counts"
+      ]
+    },
+    "profile": {
+      "type": "object",
+      "required": [
+        "profile_id",
+        "xmi_id"
+      ]
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "xmi_id",
+          "name",
+          "level",
+          "parent_id",
+          "leaf",
+          "selected",
+          "namespace",
+          "source_type",
+          "stereotype_hint"
+        ]
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item_code",
+          "xmi_id",
+          "name_cn",
+          "name_en",
+          "family",
+          "domain",
+          "datatype",
+          "unit_medium",
+          "semantic_definition",
+          "port_type_id",
+          "interface_type_id",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "interfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "interface_instance_id",
+          "xmi_id",
+          "owner_product_id",
+          "port_id",
+          "name",
+          "direction",
+          "category",
+          "item_id",
+          "port_type_id",
+          "interface_type_id",
+          "profile_active",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "external_boundaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "boundary_id",
+          "xmi_id",
+          "name",
+          "domain",
+          "profile_id"
+        ]
+      }
+    },
+    "physical_nets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "net_id",
+          "xmi_id",
+          "name",
+          "item_id",
+          "domain",
+          "profile_id",
+          "members",
+          "member_count",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "connection_id",
+          "xmi_id",
+          "mode",
+          "source_product_id",
+          "source_interface_id",
+          "item_id",
+          "profile_id",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "functions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "function_id",
+          "xmi_id",
+          "name_cn",
+          "name_en",
+          "level",
+          "category",
+          "allocated_product_id",
+          "derived_from",
+          "aggregated_from_functions",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "allocations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "allocation_id",
+          "xmi_id",
+          "function_id",
+          "product_id",
+          "allocation_type",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "function_interface_mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "mapping_id",
+          "xmi_id",
+          "function_id",
+          "interface_instance_id",
+          "usage_role",
+          "xmi_metaclass_hint"
+        ]
+      }
+    },
+    "verification_anchors": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "anchor_id",
+          "status",
+          "target_type"
+        ]
+      }
+    }
+  }
+}

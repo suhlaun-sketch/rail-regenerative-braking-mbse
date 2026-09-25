@@ -1,0 +1,109 @@
+{
+  "ssd_component": "L2_E100",
+  "l2_code": "E100",
+  "l2_engineering_name": "ATP车载",
+  "future_simulink_model": "L2_E100.slx",
+  "future_fmu_file": "L2_E100.fmu",
+  "source_structural_connectors": [
+    "L2_E100.p_E100_rp_0307dc18d9537f9d",
+    "L2_E100.p_E100_rp_7273a171b473f816"
+  ],
+  "inputs": [],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_E100::out_external_safety_system_state",
+      "variable_name": "out_external_safety_system_state",
+      "engineering_meaning": "ATP等外部安全系统提供的运行/制动相关状态。",
+      "quantity": "external_safety_system_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0049"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_0D68248E62957CCB92C5A2A5",
+        "CG_89318B491DF9CED18997C36D"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_E000.p_E100.rp_0307dc18d9537f9d",
+        "ItemDefinitions::ITM-STA-027",
+        "IF_IF_STA_027"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_E100",
+      "source_ssd_connectors": [
+        "L2_E100.p_E100_rp_0307dc18d9537f9d"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_E100::out_safety_brake_request",
+      "variable_name": "out_safety_brake_request",
+      "engineering_meaning": "来自ATP/安全回路等外部安全功能的制动请求,进入EBCU后映射为服务或紧急制动。",
+      "quantity": "safety_brake_request",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0048"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_86987C60BCB826208FEFEF31"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_E000.p_E100.rp_7273a171b473f816",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_E100",
+      "source_ssd_connectors": [
+        "L2_E100.p_E100_rp_7273a171b473f816"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 0,
+    "outputs": 2,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 2
+  },
+  "readiness": "READY"
+}

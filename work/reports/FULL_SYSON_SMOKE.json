@@ -1,0 +1,111 @@
+{
+  "requirement": {
+    "representation_id": "5de56769-27d5-4b8a-bda8-05777820fef3",
+    "root": "req_REQ_BRK_007",
+    "description": "General View",
+    "nodes": [
+      "req_REQ_BRK_007",
+      "req_REQ_BRK_008"
+    ],
+    "result": {
+      "status": "CREATED",
+      "verified_object_ids": [
+        "2f96abab-1d04-4bae-93d6-2fe23464f7c0",
+        "a749749b-0442-4ed6-bb69-17cf15dae074"
+      ],
+      "missing_object_ids": [],
+      "node_count": 2,
+      "edge_count": 0,
+      "layout": "NOT_ATTEMPTED"
+    },
+    "edge_target_ids": [],
+    "target_object_id": "2edb0590-f50b-4efb-b1bf-de69deaa37fc"
+  },
+  "allocation": {
+    "representation_id": "4bb40a3d-6880-410c-b484-b9ca2fdcdf8c",
+    "root": "FunctionAllocations",
+    "description": "Interconnection View",
+    "nodes": [
+      "fu_F_3000_01",
+      "ap_N_3000",
+      "fu_F_3100_01",
+      "ap_N_3100"
+    ],
+    "result": {
+      "status": "CREATED",
+      "verified_object_ids": [
+        "0e80499b-1d30-4c6a-8a1f-f874cfa70448",
+        "8333d0e3-dfb4-47fd-85ad-86e750424151",
+        "88afb358-bb17-4153-9014-98888834c4b4",
+        "aecaf512-9ce0-4acc-886b-627b26b1a719"
+      ],
+      "missing_object_ids": [],
+      "node_count": 4,
+      "edge_count": 2,
+      "layout": "NOT_ATTEMPTED"
+    },
+    "edge_target_ids": [
+      "c27ba255-15b5-4396-9c3c-781c6689759c",
+      "bb7d1bc5-194f-43cc-9eab-a044e44bc87d"
+    ],
+    "target_object_id": "5290088b-43a6-44b1-95b6-14fa136f670c"
+  },
+  "port": {
+    "representation_id": "536b36a6-c785-434e-a199-2be7b42c2147",
+    "root": "p_X100",
+    "description": "Interconnection View",
+    "nodes": [
+      "p_X100",
+      "bp_X100_d6b2350e786a",
+      "bp_X100_243fbf9a0b50"
+    ],
+    "result": {
+      "status": "CREATED",
+      "verified_object_ids": [
+        "4a78a5fe-89bb-4b3b-8495-20f191e2fcd9",
+        "558786bb-28f5-4cad-b073-aac6f9a6f5c2",
+        "d8797617-f78d-422a-b845-0d76e9cbcf76"
+      ],
+      "missing_object_ids": [],
+      "node_count": 3,
+      "edge_count": 0,
+      "layout": "NOT_ATTEMPTED"
+    },
+    "edge_target_ids": [],
+    "target_object_id": "78b215cd-406f-4b5e-987f-ccdab91918d2"
+  },
+  "ibd": {
+    "representation_id": "dac9a129-5c46-489e-8235-87a13481c099",
+    "root": "p_X100",
+    "description": "Interconnection View",
+    "nodes": [
+      "p_X110",
+      "p_X120",
+      "p_X130"
+    ],
+    "result": {
+      "status": "CREATED",
+      "verified_object_ids": [
+        "2f2b56ea-ba9c-4c89-a6e9-b3b3116c85b2",
+        "a0cc6008-30df-4d30-8814-c8033a3847c5",
+        "be90d44b-c109-4756-9921-edc8302f966f"
+      ],
+      "missing_object_ids": [],
+      "node_count": 3,
+      "edge_count": 9,
+      "layout": "NOT_ATTEMPTED"
+    },
+    "edge_target_ids": [
+      "4a342b09-207b-4585-b856-7724d66aee81",
+      "39eaddc1-2501-4f2c-9a85-e2e644d5e83f",
+      "3aff18d9-3c0f-4e31-ab57-c5da8633b93b",
+      "1ce2f206-827f-4c6b-a5c0-37dd18725102",
+      "429fbc06-d8e6-4a14-b7e9-926d2336de5c",
+      "cc62a006-2a7d-49b5-8aea-5d2570f64740",
+      "af3a842f-2e9f-448d-935c-38b00b8fabd7",
+      "407c8f6b-035a-4d19-b26c-901324ef7c8e",
+      "0d3db70e-61bb-4017-8afc-e046bafeef13"
+    ],
+    "target_object_id": "ec2fb64d-deaf-48ad-8463-0ce51c1c6376"
+  }
+}

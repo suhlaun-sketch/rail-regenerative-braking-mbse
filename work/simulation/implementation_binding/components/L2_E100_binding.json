@@ -1,0 +1,30 @@
+{
+  "ssd_component_id": "L2_E100",
+  "ssd_component_name": "L2_E100",
+  "l2_code": "E100",
+  "l2_engineering_name": "ATP车载",
+  "inputs": [],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_E100::p_E100_rp_0307dc18d9537f9d",
+      "ssd_connector_name": "p_E100_rp_0307dc18d9537f9d",
+      "simulink_port_name": "p_E100_rp_0307dc18d9537f9d",
+      "future_fmu_variable": "p_E100_rp_0307dc18d9537f9d",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_E100::p_E100_rp_7273a171b473f816",
+      "ssd_connector_name": "p_E100_rp_7273a171b473f816",
+      "simulink_port_name": "p_E100_rp_7273a171b473f816",
+      "future_fmu_variable": "p_E100_rp_7273a171b473f816",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 2,
+  "connected_l2_peers": [
+    "L2_8100"
+  ],
+  "future_simulink": "L2_E100.slx",
+  "future_fmu": "L2_E100.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

@@ -1,0 +1,314 @@
+{
+  "artifact": "Rail MBSE FMU Interface Validation",
+  "generated_utc": "2026-09-12T17:59:20.213806+00:00",
+  "authority": "work/simulation/implementation_binding/Rail_MBSE_Executable_FMU_Interface_v1.json",
+  "normalization_scope": "Validated FMU copy modelDescription packaging metadata only; direct Simulink exports, models, and frozen baselines unchanged",
+  "unit_normalizations": [
+    {
+      "component": "L2_7200",
+      "variable": "in_service_brake_request",
+      "restored_unit": "1 或 m/s2"
+    },
+    {
+      "component": "L2_8100",
+      "variable": "in_service_brake_request",
+      "restored_unit": "1 或 m/s2"
+    },
+    {
+      "component": "L2_8100",
+      "variable": "out_service_brake_request",
+      "restored_unit": "1 或 m/s2"
+    },
+    {
+      "component": "L2_D100",
+      "variable": "out_service_brake_request",
+      "restored_unit": "1 或 m/s2"
+    }
+  ],
+  "summary": {
+    "components_expected": 16,
+    "components_valid": 16,
+    "executable_variables_expected": 151,
+    "executable_variables_validated": 151,
+    "missing": 0,
+    "unexpected_exporter_internal_variables": 16,
+    "causality_mismatches": 0,
+    "datatype_mismatches": 0,
+    "unit_mismatches": 0,
+    "status": "PASS"
+  },
+  "components": [
+    {
+      "component": "L2_3100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3100.fmu",
+      "expected_required_variables": 6,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{90f9739b-d771-5e90-870f-edbcd80a48a2}",
+      "found_required_variables": 6,
+      "validated_required_variables": 6,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_3500",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3500.fmu",
+      "expected_required_variables": 4,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{21b4132a-a6f3-c9a2-9b65-787f8227020a}",
+      "found_required_variables": 4,
+      "validated_required_variables": 4,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_3600",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3600.fmu",
+      "expected_required_variables": 4,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{d5108dfc-4d4e-10e3-9c0f-b8a2fd71f0ed}",
+      "found_required_variables": 4,
+      "validated_required_variables": 4,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_3800",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_3800.fmu",
+      "expected_required_variables": 1,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{1897e6d9-ed20-02a3-5703-739d3007a313}",
+      "found_required_variables": 1,
+      "validated_required_variables": 1,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_4100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4100.fmu",
+      "expected_required_variables": 5,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{b39885f1-20c2-ad6e-1db6-c31437bcf96f}",
+      "found_required_variables": 5,
+      "validated_required_variables": 5,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_4200",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4200.fmu",
+      "expected_required_variables": 15,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{5d1f59b8-3f76-71dd-868d-cbb95bb43037}",
+      "found_required_variables": 15,
+      "validated_required_variables": 15,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_4400",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4400.fmu",
+      "expected_required_variables": 0,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{4e379e65-a083-a6ee-9dd8-3c988a71600c}",
+      "found_required_variables": 0,
+      "validated_required_variables": 0,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_4500",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_4500.fmu",
+      "expected_required_variables": 9,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{7b263b42-3f4b-c004-d912-36574183abc0}",
+      "found_required_variables": 9,
+      "validated_required_variables": 9,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_5100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_5100.fmu",
+      "expected_required_variables": 19,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{920120d7-3114-3844-30ad-4b89d9cbdebd}",
+      "found_required_variables": 19,
+      "validated_required_variables": 19,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_5300",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_5300.fmu",
+      "expected_required_variables": 9,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{e5861db3-6d6f-f420-9d26-c40db4c3edd6}",
+      "found_required_variables": 9,
+      "validated_required_variables": 9,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_7100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_7100.fmu",
+      "expected_required_variables": 1,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{8c2ba878-d6e9-5a49-d34e-19db890171d4}",
+      "found_required_variables": 1,
+      "validated_required_variables": 1,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_7200",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_7200.fmu",
+      "expected_required_variables": 14,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{2ddea95b-d143-43a0-f89b-2af35fa6b91b}",
+      "found_required_variables": 14,
+      "validated_required_variables": 14,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_8100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_8100.fmu",
+      "expected_required_variables": 46,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{3c023527-2b20-1e0e-b67b-eb6382e18f1c}",
+      "found_required_variables": 46,
+      "validated_required_variables": 46,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_D100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_D100.fmu",
+      "expected_required_variables": 4,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{2231d3e3-9c3a-f322-3b27-889636a4abda}",
+      "found_required_variables": 4,
+      "validated_required_variables": 4,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_E100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_E100.fmu",
+      "expected_required_variables": 2,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{4ebb5d73-6ec2-ed4d-5738-8a87deb2d6e8}",
+      "found_required_variables": 2,
+      "validated_required_variables": 2,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    },
+    {
+      "component": "L2_X100",
+      "fmu_file": "work/simulation/simulink_fmu_v1/05_fmu/validated/L2_X100.fmu",
+      "expected_required_variables": 12,
+      "fmi_version": "2.0",
+      "fmi_type": "Co-Simulation",
+      "guid_or_token": "{da4aab8c-0a1b-3033-d475-73873215884d}",
+      "found_required_variables": 12,
+      "validated_required_variables": 12,
+      "missing_required_variables": [],
+      "unexpected_exporter_variables": [
+        "time"
+      ],
+      "mismatches": [],
+      "archive_crc": "PASS",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "ssd_component_id": "L2_3100",
+  "ssd_component_name": "L2_3100",
+  "l2_code": "3100",
+  "l2_engineering_name": "轮轴组成",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_3100::p_3112_rp_c530418a51140052",
+      "ssd_connector_name": "p_3112_rp_c530418a51140052",
+      "simulink_port_name": "p_3112_rp_c530418a51140052",
+      "future_fmu_variable": "p_3112_rp_c530418a51140052",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_3100::p_3121_rp_6464b6253314b208",
+      "ssd_connector_name": "p_3121_rp_6464b6253314b208",
+      "simulink_port_name": "p_3121_rp_6464b6253314b208",
+      "future_fmu_variable": "p_3121_rp_6464b6253314b208",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_3100::p_3121_rp_fdcd27ee9b0a936f",
+      "ssd_connector_name": "p_3121_rp_fdcd27ee9b0a936f",
+      "simulink_port_name": "p_3121_rp_fdcd27ee9b0a936f",
+      "future_fmu_variable": "p_3121_rp_fdcd27ee9b0a936f",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    },
+    {
+      "binding_id": "BIND::L2_3100::p_3131_rp_06d152ddc255f2eb",
+      "ssd_connector_name": "p_3131_rp_06d152ddc255f2eb",
+      "simulink_port_name": "p_3131_rp_06d152ddc255f2eb",
+      "future_fmu_variable": "p_3131_rp_06d152ddc255f2eb",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [],
+  "total_connectors": 4,
+  "connected_l2_peers": [
+    "L2_3500",
+    "L2_3600",
+    "L2_7200"
+  ],
+  "future_simulink": "L2_3100.slx",
+  "future_fmu": "L2_3100.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

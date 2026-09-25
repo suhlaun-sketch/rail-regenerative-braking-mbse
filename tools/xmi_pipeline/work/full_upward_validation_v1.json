@@ -1,0 +1,144 @@
+{
+  "validation_id": "RAIL-MBSE-FULL-UPWARD-IBD-VALIDATION-V1",
+  "counts": {
+    "Product": 147,
+    "RawPort": 517,
+    "FinalConnection": 184,
+    "PhysicalNet": 9,
+    "Function": 191,
+    "Allocation": 191,
+    "FunctionInterface": 471,
+    "VoltageAnchor": 6,
+    "PromotedPort": 594,
+    "SignalPromotedOut": 217,
+    "SignalPromotedIn": 223,
+    "PhysicalPromoted": 154,
+    "HierarchicalConnectorSegment": 724,
+    "HierarchicalItemFlow": 587,
+    "PhysicalNetProjection": 63,
+    "PhysicalNetProjectionConnector": 190,
+    "NonLeafBlock": 57,
+    "IBD": 58,
+    "NativeConnectorPath": 914
+  },
+  "violations": {
+    "xmi_duplicate_ids": [],
+    "wrong_raw_owner": [],
+    "missing_segment_model": [],
+    "wrong_segment_item": [],
+    "direct_child": [],
+    "missing_connector_paths": [],
+    "independent_information_flow_paths": 0,
+    "wrong_itemflow_arrow": [],
+    "wrong_itemflow_label": [],
+    "physical_arrow": 0,
+    "non_solid_connector": [],
+    "forbidden_relationship_presentation": [],
+    "part_type_non_block": [],
+    "unresolved_used_objects": [],
+    "item_property": 0,
+    "physical_net_clique": [],
+    "resource_hash": []
+  },
+  "qa": {
+    "upward": {
+      "UP-QA-01": "PASS",
+      "UP-QA-02": "PASS",
+      "UP-QA-03": "PASS",
+      "UP-QA-04": "PASS",
+      "UP-QA-05": "PASS",
+      "UP-QA-06": "PASS",
+      "UP-QA-07": "PASS",
+      "UP-QA-08": "PASS",
+      "UP-QA-09": "PASS",
+      "UP-QA-10": "PASS",
+      "UP-QA-11": "PASS",
+      "UP-QA-12": "PASS",
+      "UP-QA-13": "PASS",
+      "UP-QA-14": "PASS",
+      "UP-QA-15": "PASS",
+      "UP-FULL-01": "PASS",
+      "UP-FULL-02": "PASS",
+      "UP-FULL-03": "PASS",
+      "UP-FULL-04": "PASS"
+    },
+    "ibd": {
+      "IBD-QA-01": "PASS",
+      "IBD-QA-02": "PASS",
+      "IBD-QA-03": "PASS",
+      "IBD-QA-04": "PASS",
+      "IBD-QA-05": "PASS",
+      "IBD-QA-06": "PASS",
+      "IBD-QA-07": "PASS",
+      "IBD-QA-08": "PASS",
+      "IBD-QA-09": "PASS",
+      "IBD-QA-10": "PASS",
+      "IBD-FULL-01": "PASS",
+      "IBD-FULL-02": "PASS",
+      "IBD-FULL-03": "PASS",
+      "IBD-FULL-04": "PASS",
+      "IBD-FULL-05": "PASS",
+      "IBD-FULL-06": "PASS",
+      "IBD-FULL-07": "PASS"
+    },
+    "itemflow": {
+      "ITEM-QA-01": "PASS",
+      "ITEM-QA-02": "PASS",
+      "ITEM-QA-03": "PASS",
+      "ITEM-QA-04": "PASS",
+      "ITEM-QA-05": "PASS",
+      "ITEM-QA-06": "PASS",
+      "ITEM-QA-07": "PASS",
+      "ITEM-QA-08": "PASS",
+      "ITEM-QA-09": "PASS",
+      "ITEM-FULL-01": "PASS",
+      "ITEM-FULL-02": "PASS",
+      "ITEM-FULL-03": "PASS",
+      "ITEM-FULL-04": "PASS",
+      "ITEM-FULL-05": "PASS",
+      "ITEM-FULL-06": "PASS"
+    },
+    "physical_net": {
+      "PHY-QA-01": "PASS",
+      "PHY-QA-02": "PASS",
+      "PHY-QA-03": "PASS",
+      "PHY-QA-04": "PASS",
+      "PHY-FULL-01": "PASS",
+      "PHY-FULL-02": "PASS",
+      "PHY-FULL-03": "PASS"
+    },
+    "preservation": "PASS",
+    "xmi_unique": "PASS",
+    "byte_deterministic": "PASS"
+  },
+  "summary": {
+    "upward": {
+      "pass": 19,
+      "fail": 0,
+      "status": "PASS"
+    },
+    "ibd": {
+      "pass": 17,
+      "fail": 0,
+      "status": "PASS"
+    },
+    "itemflow": {
+      "pass": 15,
+      "fail": 0,
+      "status": "PASS"
+    },
+    "physical_net": {
+      "pass": 7,
+      "fail": 0,
+      "status": "PASS"
+    },
+    "preservation": "PASS",
+    "xmi_unique": "PASS",
+    "byte_deterministic": "PASS"
+  },
+  "outputs": {
+    "mdxml": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_TractionBrake_Full_UpwardIBD_v1.mdxml",
+    "xmi": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_TractionBrake_Full_UpwardIBD_v1.xmi"
+  },
+  "MAGICDRAW_FULL_OPEN_TEST": "PENDING"
+}

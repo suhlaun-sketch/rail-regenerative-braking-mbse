@@ -1,0 +1,84 @@
+{
+  "contract_id": "RAIL-MBSE-BLOCK-RELATIONSHIP-CONTRACT-V2",
+  "principle": "One engineering semantic has one authoritative model representation; diagrams are projections only.",
+  "relationships": {
+    "A_STRUCTURAL_COMPOSITION": {
+      "source": "Product parent_id",
+      "representation": "Parent Block owns composite uml:Property typed only by Child Block",
+      "model_unique_key": [
+        "parent_product_id",
+        "child_product_id"
+      ],
+      "diagram_scope": "BDD and owning Block IBD part compartment",
+      "forbidden_parallel_forms": [
+        "Association",
+        "Dependency",
+        "duplicate Property",
+        "duplicate Composition"
+      ]
+    },
+    "B_INTERFACE_CONNECTION": {
+      "source": "Final ConnectGraph Connection",
+      "representation": "uml:Connector between Part/ProxyPort endpoints",
+      "model_unique_key": [
+        "connection_id"
+      ],
+      "duplicate_equivalence_key": [
+        "source_port_id",
+        "target_port_id",
+        "item_code",
+        "mode"
+      ],
+      "diagram_scope": "IBD only"
+    },
+    "C_ITEM_FLOW": {
+      "source": "SIGNAL Final Connection",
+      "representation": "one uml:InformationFlow + one SysML::ItemFlow realized by Connector",
+      "model_unique_key": [
+        "connection_id"
+      ],
+      "direction": "source effective out -> target effective in",
+      "diagram_scope": "IBD only"
+    },
+    "D_PHYSICAL_CONNECTION": {
+      "source": "physical SERIES/TAP/BOUNDARY Final Connection",
+      "representation": "uml:Connector with inout ProxyPort interface semantics",
+      "direction": "inout",
+      "forbidden": "unidirectional Block relationship",
+      "diagram_scope": "IBD only"
+    },
+    "E_ALLOCATION": {
+      "source": "Function Allocation",
+      "representation": "uml:Abstraction + standard SysML::Allocate",
+      "model_unique_key": [
+        "allocation_id"
+      ],
+      "structural_relationship": false,
+      "diagram_scope": "Allocation/behavior views only"
+    },
+    "F_EXTERNAL_BOUNDARY": {
+      "source": "ExternalBoundary",
+      "representation": "reference property or standard modeling Block",
+      "product_composite_child": false,
+      "diagram_scope": "System context IBD"
+    }
+  },
+  "physical_net": {
+    "count": 9,
+    "representation": "one shared standard network construct per net_id",
+    "unique_key": [
+      "net_id"
+    ],
+    "pairwise_clique_generation": "FORBIDDEN",
+    "real_final_series_or_tap_connectors_remain_allowed": true
+  },
+  "diagram_guards": {
+    "BDD_connector_count": 0,
+    "BDD_itemflow_count": 0,
+    "BDD_block_symbol_key": [
+      "diagram_id",
+      "product_id"
+    ],
+    "IBD_direct_part_only": true
+  }
+}

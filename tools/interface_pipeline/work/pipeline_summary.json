@@ -1,0 +1,26 @@
+{
+  "input_node_count": 90,
+  "before_port_count": 520,
+  "after_port_count": 517,
+  "deleted_port_count": 3,
+  "modified_port_count": 0,
+  "added_port_count": 0,
+  "active_port_count": 511,
+  "inactive_variant_port_count": 6,
+  "port_type_count": 142,
+  "interface_type_count": 142,
+  "compatibility_rule_count": 15,
+  "qa_overall": "WARNING",
+  "qa_pass_count": 14,
+  "qa_fail_count": 0,
+  "warnings": [
+    "4238高压控制输入输出单元的19个Port包含成对采集/转发语义；按I/O单元职责保留，实际部署边界需在下一轮连接阶段用拓扑证据约束。",
+    "8128输入输出单元的21个Port包含成对采集/转发语义；按I/O单元职责保留，不能仅因Item相同且方向相反而删除。",
+    "X112双向DC/DC控制模块的30个Port包含命令接收与下发；按控制分配职责保留，后续须避免把内部实现回路误作外部连接。",
+    "7211 EBCU与8122 VCU端口数较多，但均对应请求、测量、状态、故障、能力或跨组件统计；未发现可确定删除的内部算法中间量。",
+    "4241处理单元与8166能量计均发布部分能量统计量；是否在具体车辆部署中合并职责取决于设备配置，本轮保留两者并标记为架构配置问题。"
+  ],
+  "output_workbook": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\筛选牵引制动架构V2_InterfaceLayer_v1.xlsx",
+  "code_directory": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\tools\\interface_pipeline",
+  "audit_report": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\reports\\interface_layer_audit.md"
+}

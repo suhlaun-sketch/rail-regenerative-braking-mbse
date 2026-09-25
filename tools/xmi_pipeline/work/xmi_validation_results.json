@@ -1,0 +1,187 @@
+{
+  "probe": {
+    "xml_well_formed": true,
+    "system_context": true,
+    "product_blocks": 2,
+    "composite_parts": 1,
+    "proxy_ports": 2,
+    "canonical_interface_blocks": 1,
+    "conjugated_interface_blocks": 1,
+    "flow_properties": 1,
+    "signal_items": 1,
+    "connectors": 1,
+    "information_flows": 1,
+    "item_flows": 1,
+    "activities": 1,
+    "allocates": 1,
+    "profile_application": true,
+    "status": "PASS"
+  },
+  "full": {
+    "status": "PASS",
+    "qa": [
+      {
+        "id": "XMI17-01",
+        "status": "PASS",
+        "detail": "XML well-formed"
+      },
+      {
+        "id": "XMI17-02",
+        "status": "PASS",
+        "detail": "duplicate xmi:id=0"
+      },
+      {
+        "id": "XMI17-03",
+        "status": "PASS",
+        "detail": "unresolved local references=0"
+      },
+      {
+        "id": "XMI17-04",
+        "status": "PASS",
+        "detail": "hrefs=['../SysML/SysML.xmi#SysML']"
+      },
+      {
+        "id": "XMI17-05",
+        "status": "PASS",
+        "detail": "SysML ProfileApplication href=../SysML/SysML.xmi#SysML"
+      },
+      {
+        "id": "XMI17-06",
+        "status": "PASS",
+        "detail": "Product Blocks=147/147"
+      },
+      {
+        "id": "XMI17-07",
+        "status": "PASS",
+        "detail": "hierarchy compositions=139/139"
+      },
+      {
+        "id": "XMI17-08",
+        "status": "PASS",
+        "detail": "Context-to-L1 compositions=8/8"
+      },
+      {
+        "id": "XMI17-09",
+        "status": "PASS",
+        "detail": "composite Part Properties=147"
+      },
+      {
+        "id": "XMI17-10",
+        "status": "PASS",
+        "detail": "Ports/ProxyPorts=517/517"
+      },
+      {
+        "id": "XMI17-11",
+        "status": "PASS",
+        "detail": "bad port types=0, bad isConjugated=0"
+      },
+      {
+        "id": "XMI17-12",
+        "status": "PASS",
+        "detail": "FlowProperties=142, invalid=0, InterfaceBlocks without flow=0"
+      },
+      {
+        "id": "XMI17-13",
+        "status": "PASS",
+        "detail": "SIGNAL/ItemFlow=147/147"
+      },
+      {
+        "id": "XMI17-14",
+        "status": "PASS",
+        "detail": "direction errors=0"
+      },
+      {
+        "id": "XMI17-15",
+        "status": "PASS",
+        "detail": "conveyed=0, itemProperty=0, orphan=0"
+      },
+      {
+        "id": "XMI17-16",
+        "status": "PASS",
+        "detail": "Final Connectors=184/184; owner errors=0"
+      },
+      {
+        "id": "XMI17-17",
+        "status": "PASS",
+        "detail": "PhysicalNets=9/9; total connectors=193; clique expansion=0"
+      },
+      {
+        "id": "XMI17-18",
+        "status": "PASS",
+        "detail": "Activities=191"
+      },
+      {
+        "id": "XMI17-19",
+        "status": "PASS",
+        "detail": "Allocates=191, errors=0"
+      },
+      {
+        "id": "XMI17-20",
+        "status": "PASS",
+        "detail": "Function_Interface traces=471, errors=0"
+      },
+      {
+        "id": "XMI17-21",
+        "status": "PASS",
+        "detail": "Voltage anchors=6, unresolved=0"
+      },
+      {
+        "id": "XMI17-22",
+        "status": "PASS",
+        "detail": "custom stereotype applications=[]; profile definitions=0; contract field errors=0"
+      },
+      {
+        "id": "XMI17-23",
+        "status": "PASS",
+        "detail": "hierarchy dependencies=0"
+      },
+      {
+        "id": "XMI17-24",
+        "status": "PASS",
+        "detail": "physical direction errors=0, physical port flow errors=0"
+      },
+      {
+        "id": "XMI17-25",
+        "status": "PASS",
+        "detail": "byte deterministic=True, sha256=20091a10db4a38c2b94441fdc91776eb7a50b690957c36d4c5c0cfcefb94f7d8"
+      }
+    ],
+    "counts": {
+      "product_blocks": 147,
+      "system_context_blocks": 1,
+      "external_boundary_blocks": 3,
+      "composite_parts": 147,
+      "proxy_ports": 517,
+      "canonical_interface_blocks": 142,
+      "conjugated_interface_blocks": 126,
+      "flow_properties": 142,
+      "item_classifiers": 144,
+      "connectors_total": 193,
+      "final_connectors": 184,
+      "signal_item_flows": 147,
+      "physical_nets": 9,
+      "activities": 191,
+      "allocates": 191,
+      "function_interface_traces": 471,
+      "voltage_anchors": 6
+    },
+    "xmi_xsd_validation": {
+      "status": "NOT_APPLICABLE_NAMESPACE_MISMATCH",
+      "reason": "Local XMI.xsd targetNamespace=http://www.omg.org/spec/XMI/20131001, while normative SysML.xmi and output use https://www.omg.org/spec/XMI/20131001; the local set also has no UML.xsd/SysML.xsd. XML and model-reference validation were executed separately.",
+      "validation_attempt": {
+        "attempted": true,
+        "valid": false,
+        "error": "file:/C:/Users/AUSA/Desktop/%E7%89%B5%E5%BC%95%E5%88%B6%E5%8A%A8%E8%83%BD%E9%87%8F%E5%9B%9E%E6%94%B6/work/Rail_MBSE_SysML17_v1.xmi:2:0:ERROR:SCHEMASV:SCHEMAV_CVC_ELT_1: Element '{https://www.omg.org/spec/XMI/20131001}XMI': No matching global declaration available for the validation root."
+      }
+    },
+    "diagnostics": {
+      "duplicate_ids": [],
+      "missing_references": [],
+      "bad_port_types": [],
+      "connector_owner_errors": [],
+      "net_errors": [],
+      "stereotype_contract_errors": []
+    }
+  },
+  "cameo_import_test": "PENDING"
+}

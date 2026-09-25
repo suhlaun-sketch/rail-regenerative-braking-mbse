@@ -1,0 +1,14 @@
+{
+  "contract_id": "INTEGRATED-ITEMFLOW-CONTRACT-V2",
+  "signal_classifier": "uml:Signal",
+  "information_flow": {
+    "conveyed": "uml:Signal xmi:id",
+    "informationSource": "global source ProxyPort xmi:id",
+    "informationTarget": "global target ProxyPort xmi:id",
+    "realizingConnector": "local ownedConnector xmi:id"
+  },
+  "item_flow": "SysML::ItemFlow.base_InformationFlow references the uml:InformationFlow",
+  "item_property": "empty",
+  "diagram": "Connector path carries arrow/label; InformationFlow path count=0",
+  "physical": "no Signal ItemFlow required"
+}

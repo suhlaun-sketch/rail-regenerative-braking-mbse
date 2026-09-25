@@ -1,0 +1,64 @@
+{
+  "ssd_component": "L2_3800",
+  "l2_code": "3800",
+  "l2_engineering_name": "辅助增粘及轮缘润滑",
+  "future_simulink_model": "L2_3800.slx",
+  "future_fmu_file": "L2_3800.fmu",
+  "source_structural_connectors": [
+    "L2_3800.p_3811_rp_81d4e1a7092e0653"
+  ],
+  "inputs": [
+    {
+      "executable_variable_id": "EV::L2_3800::in_sanding_request",
+      "variable_name": "in_sanding_request",
+      "engineering_meaning": "人工或自动发出的撒砂/增粘请求。",
+      "quantity": "sanding_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0027"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_565AF053FC6E3FF333FD7433"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_3000.p_N_3800.p_N_3810.p_N_3811.rp_81d4e1a7092e0653",
+        "ItemDefinitions::ITM-CMD-024",
+        "IF_IF_CMD_024"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_3800",
+      "source_ssd_connectors": [
+        "L2_3800.p_3811_rp_81d4e1a7092e0653"
+      ]
+    }
+  ],
+  "outputs": [],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 1,
+    "outputs": 0,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 1
+  },
+  "readiness": "READY"
+}

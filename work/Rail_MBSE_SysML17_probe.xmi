@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmi:XMI xmlns:SysML="https://www.omg.org/spec/SysML/20240101" xmlns:uml="https://www.omg.org/spec/UML/20161101" xmlns:xmi="https://www.omg.org/spec/XMI/20131001">
+  <xmi:Documentation exporter="Rail MBSE deterministic SysML 1.7 converter" exporterVersion="1.0" />
+  <uml:Model xmi:id="XMI-MODEL-RAIL-MBSE-TRACTIONBRAKE-PROBE" name="Rail_MBSE_TractionBrake_Probe">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="XMI-PROFILEAPPLICATION-SYSML17">
+      <appliedProfile href="../SysML/SysML.xmi#SysML" />
+    </profileApplication>
+    <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-01_Structure" name="01_Structure">
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-RollingStockMechanical" name="RollingStockMechanical" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-MainPowerSupply" name="MainPowerSupply" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-Traction" name="Traction" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-PneumaticBrake" name="PneumaticBrake" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-TrainControl" name="TrainControl" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-DriverInterface" name="DriverInterface" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-ExternalSystems" name="ExternalSystems">
+        <packagedElement xmi:type="uml:Class" xmi:id="XMI-PRODUCT-4235" name="高压电压互感器">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="XMI-PART-A1C54A83ACDA17917B" name="part_5111" aggregation="composite" type="XMI-PRODUCT-5111" />
+          <ownedAttribute xmi:type="uml:Port" xmi:id="XMI-PORT-17D10E3CF7A87862" name="高压线路电压输出" type="XMI-IB-C473C6CE7B4B3E4CB9" isConjugated="false" isBehavior="false" isService="false" />
+          <ownedConnector xmi:type="uml:Connector" xmi:id="XMI-CONN-CG-002543DBE0F9A7FBC2A3FDD3" name="CG-002543DBE0F9A7FBC2A3FDD3">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="XMI-CONNECTOREND-0CE7910D631226C94C" role="XMI-PORT-17D10E3CF7A87862" />
+            <end xmi:type="uml:ConnectorEnd" xmi:id="XMI-CONNECTOREND-567D20F8537A09E803" role="XMI-PORT-E47D00EE3FA2782A" partWithPort="XMI-PART-A1C54A83ACDA17917B" />
+          </ownedConnector>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="XMI-PRODUCT-5111" name="网侧变流器控制模块">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="XMI-PORT-E47D00EE3FA2782A" name="高压线路电压输入" type="XMI-IB-CONJ-C473C6CE7B4B3E4CB9" isConjugated="false" isBehavior="false" isService="false" />
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-STRUCTURE-RegenerativeStorage" name="RegenerativeStorage" />
+      <packagedElement xmi:type="uml:Class" xmi:id="XMI-SYSTEM-CONTEXT-RAIL-MBSE-TRACTIONBRAKE" name="Rail_MBSE_TractionBrake_Context" />
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-02_Interfaces" name="02_Interfaces">
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-INTERFACEBLOCKS" name="InterfaceBlocks">
+        <packagedElement xmi:type="uml:Class" xmi:id="XMI-IB-C473C6CE7B4B3E4CB9" name="IB_IF_MEA_005_ITM_MEA_005">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="XMI-FLOWPROPERTY-C473C6CE7B4B3E4CB9" name="flow_ITM_MEA_005" type="XMI-ITEM-ITM-MEA-005" />
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="XMI-IB-CONJ-C473C6CE7B4B3E4CB9" name="~IB_IF_MEA_005_ITM_MEA_005" />
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-SIGNALS" name="Signals">
+        <packagedElement xmi:type="uml:Signal" xmi:id="XMI-ITEM-ITM-MEA-005" name="高压线路电压">
+          <ownedComment xmi:type="uml:Comment" xmi:id="XMI-COMMENT-ITEM-3986F3BF7D605A7F10" body="受流/高压测量通道得到的线路电压。" />
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-DATATYPES" name="DataTypes" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-PHYSICALITEMS" name="PhysicalItems" />
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-03_Behavior" name="03_Behavior">
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-LEAFFUNCTIONS" name="LeafFunctions">
+        <packagedElement xmi:type="uml:Activity" xmi:id="XMI-FUNCTION-F-4235-01" name="检测高压电压互感器状态">
+          <ownedComment xmi:type="uml:Comment" xmi:id="XMI-COMMENT-FUNCTION-251CFFA0C7236D4385" body="检测高压电压互感器状态。" />
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-AGGFUNCTIONS" name="AggregatedFunctions" />
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-FUNCTIONINTERFACETRACE" name="FunctionInterfaceTrace" />
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-04_Connections" name="04_Connections">
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-ITEMFLOWS" name="ItemFlows">
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="XMI-INFORMATIONFLOW-37ED4C945C08EDD0E2" name="IF_CG-002543DBE0F9A7FBC2A3FDD3" informationSource="XMI-PORT-17D10E3CF7A87862" informationTarget="XMI-PORT-E47D00EE3FA2782A" conveyed="XMI-ITEM-ITM-MEA-005" realizingConnector="XMI-CONN-CG-002543DBE0F9A7FBC2A3FDD3" />
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-PHYSICALNETWORKS" name="PhysicalNetworks" />
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-05_Allocations" name="05_Allocations">
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="XMI-ALLOC-ALLOC-F-4235-01-4235" name="ALLOC-F-4235-01-4235" client="XMI-FUNCTION-F-4235-01" supplier="XMI-PRODUCT-4235" />
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="XMI-PACKAGE-06_Verification" name="06_Verification" />
+  </uml:Model>
+  <SysML:Block xmi:id="XMI-APP-BLOCK-SYSTEM-CONTEXT" isEncapsulated="true">
+    <base_Class xmi:idref="XMI-SYSTEM-CONTEXT-RAIL-MBSE-TRACTIONBRAKE" />
+  </SysML:Block>
+  <SysML:Block xmi:id="XMI-APP-BLOCK-63366435425B24CDBA" isEncapsulated="false">
+    <base_Class xmi:idref="XMI-PRODUCT-4235" />
+  </SysML:Block>
+  <SysML:Block xmi:id="XMI-APP-BLOCK-EC6DE4C24A50E4788B" isEncapsulated="false">
+    <base_Class xmi:idref="XMI-PRODUCT-5111" />
+  </SysML:Block>
+  <SysML:InterfaceBlock xmi:id="XMI-APP-INTERFACEBLOCK-C473C6CE7B4B3E4CB9" isEncapsulated="false">
+    <base_Class xmi:idref="XMI-IB-C473C6CE7B4B3E4CB9" />
+  </SysML:InterfaceBlock>
+  <SysML:FlowProperty xmi:id="XMI-APP-FLOWPROPERTY-C473C6CE7B4B3E4CB9" direction="out">
+    <base_Property xmi:idref="XMI-FLOWPROPERTY-C473C6CE7B4B3E4CB9" />
+  </SysML:FlowProperty>
+  <SysML:tildeInterfaceBlock xmi:id="XMI-APP-TILDEINTERFACEBLOCK-C473C6CE7B4B3E4CB9" isEncapsulated="false">
+    <base_Class xmi:idref="XMI-IB-CONJ-C473C6CE7B4B3E4CB9" />
+    <original xmi:idref="XMI-APP-INTERFACEBLOCK-C473C6CE7B4B3E4CB9" />
+  </SysML:tildeInterfaceBlock>
+  <SysML:ProxyPort xmi:id="XMI-APP-PROXYPORT-39689FB68BC8EE8E1E">
+    <base_Port xmi:idref="XMI-PORT-17D10E3CF7A87862" />
+  </SysML:ProxyPort>
+  <SysML:ProxyPort xmi:id="XMI-APP-PROXYPORT-B39E720B9CEC435411">
+    <base_Port xmi:idref="XMI-PORT-E47D00EE3FA2782A" />
+  </SysML:ProxyPort>
+  <SysML:ItemFlow xmi:id="XMI-APP-ITEMFLOW-37ED4C945C08EDD0E2">
+    <base_InformationFlow xmi:idref="XMI-INFORMATIONFLOW-37ED4C945C08EDD0E2" />
+    <itemProperty xmi:idref="XMI-FLOWPROPERTY-C473C6CE7B4B3E4CB9" />
+  </SysML:ItemFlow>
+  <SysML:Allocate xmi:id="XMI-APP-ALLOCATE-2EA72CA9BC025AF3FC">
+    <base_DirectedRelationship xmi:idref="XMI-ALLOC-ALLOC-F-4235-01-4235" />
+    <base_Abstraction xmi:idref="XMI-ALLOC-ALLOC-F-4235-01-4235" />
+  </SysML:Allocate>
+</xmi:XMI>

@@ -1,0 +1,34 @@
+{
+  "operation_name": "dropOnDiagram",
+  "timestamp": "2026-09-23T16:44:35.383233+00:00",
+  "variables": {
+    "input": {
+      "id": "730b50e5-077e-4759-b146-89915e499d55",
+      "editingContextId": "967a4588-11d1-435d-ba59-2412f2e63002",
+      "representationId": "3fbaed54-7cf8-4756-a22a-c643e4ca1c4f",
+      "diagramTargetElementId": "3fbaed54-7cf8-4756-a22a-c643e4ca1c4f",
+      "objectIds": [
+        "23d811c6-dde3-4f7a-8aaf-132e8b230846",
+        "97aeaa56-48c9-47f2-b8fb-6cc13062954b",
+        "08437642-fc3d-4c9a-ba23-558ce1a4939d",
+        "88b16846-cc0a-4b74-bd2c-cba52586ed6e",
+        "fa86d743-1282-4ba5-862d-67dc4185cccf",
+        "8d65a094-c101-42d4-8c0c-c70c5875aae7",
+        "15749e49-14e1-45ae-b1aa-c0c20d39ac26",
+        "393d1c6c-a164-4b38-a715-e8c0158f97fd"
+      ],
+      "startingPositionX": 80.0,
+      "startingPositionY": 80.0
+    }
+  },
+  "representation_id": "3fbaed54-7cf8-4756-a22a-c643e4ca1c4f",
+  "response": {
+    "dropOnDiagram": {
+      "__typename": "DropOnDiagramSuccessPayload",
+      "diagram": {
+        "id": "3fbaed54-7cf8-4756-a22a-c643e4ca1c4f"
+      }
+    }
+  },
+  "error": null
+}

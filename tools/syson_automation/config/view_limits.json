@@ -1,0 +1,13 @@
+{
+  "requirement_view_max_nodes": 20,
+  "requirement_view_recommended_min": 5,
+  "requirement_view_recommended_max": 15,
+  "function_product_view_max_nodes": 25,
+  "function_product_view_recommended_functions": [5, 12],
+  "function_product_view_recommended_products": [4, 10],
+  "ibd_overview_products": [4, 7],
+  "ibd_overview_flows": [8, 15],
+  "ibd_view_max_products": 7,
+  "ibd_view_max_flows": 15,
+  "pair_focus_min_flows": 8
+}

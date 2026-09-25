@@ -1,0 +1,79 @@
+{
+  "structural_checks": [
+    {
+      "file": "01_RequirementDefinitions.sysml",
+      "exists": true,
+      "utf8": true,
+      "balanced_braces": true,
+      "package_declared": true,
+      "duplicate_local_declarations": false,
+      "redefines_product_or_function_definition": false
+    },
+    {
+      "file": "02_RequirementUsages.sysml",
+      "exists": true,
+      "utf8": true,
+      "balanced_braces": true,
+      "package_declared": true,
+      "duplicate_local_declarations": false,
+      "redefines_product_or_function_definition": false
+    },
+    {
+      "file": "03_RequirementFunctionTrace.sysml",
+      "exists": true,
+      "utf8": true,
+      "balanced_braces": true,
+      "package_declared": true,
+      "duplicate_local_declarations": false,
+      "redefines_product_or_function_definition": false
+    },
+    {
+      "file": "04_FunctionProductAllocationTrace.sysml",
+      "exists": true,
+      "utf8": true,
+      "balanced_braces": true,
+      "package_declared": true,
+      "duplicate_local_declarations": false,
+      "redefines_product_or_function_definition": false
+    },
+    {
+      "file": "05_FunctionInteractionTrace.sysml",
+      "exists": true,
+      "utf8": true,
+      "balanced_braces": true,
+      "package_declared": true,
+      "duplicate_local_declarations": false,
+      "redefines_product_or_function_definition": false
+    },
+    {
+      "file": "06_RequirementTraceability_AllInOne.sysml",
+      "exists": true,
+      "utf8": true,
+      "balanced_braces": true,
+      "package_declared": true,
+      "duplicate_local_declarations": false,
+      "redefines_product_or_function_definition": false
+    }
+  ],
+  "semantic_consistency": {
+    "requirements_covered": true,
+    "requirement_function_ids_resolve": true,
+    "owner_product_ids_resolve": true,
+    "interaction_endpoints_resolve": true,
+    "interaction_interface_connector_ids_resolve": true,
+    "mapping_sources_are_explicit_or_model_derived": true,
+    "model_derived_have_semantic_structural_and_source_evidence": true,
+    "model_derived_source_files_exist": true,
+    "model_derived_paths_resolve_product_ids": true,
+    "model_derived_paths_begin_with_requirement_and_end_with_function": true,
+    "interface_and_flow_paths_resolve": true,
+    "model_derived_paths_include_real_allocations": true,
+    "semantic_assisted_candidates_not_promoted": true,
+    "sysml_satisfy_links_match_explicit_map": true,
+    "source_hash_matches_frozen_baseline": true,
+    "baseline_then_split_file_import_order_present": true
+  },
+  "sysml_satisfy_usage_count": 102,
+  "structural_consistency_status": "PASS",
+  "official_sysml_pilot_0_59_0": "NOT_RUN: local kernel JAR unavailable; official SysIDE CLI rejected validation because no license key is configured"
+}

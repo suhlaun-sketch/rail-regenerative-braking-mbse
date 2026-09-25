@@ -1,0 +1,914 @@
+{
+  "view": "AUTO_IBD_3110",
+  "smoke_view": "AUTO_V3_IBD_3110",
+  "root_product": "3110",
+  "smoke_representation_id": "976cfb74-4401-4412-b1f2-d5538b2182ce",
+  "smoke_url": "http://localhost:8080/projects/e44ac856-b4b0-4fb8-a94a-0ce1a6d722b8/edit/976cfb74-4401-4412-b1f2-d5538b2182ce",
+  "live_queryback": {
+    "top_level_nodes": 1,
+    "graphical_nodes": 79,
+    "graphical_edges": 1,
+    "matches_persisted": true
+  },
+  "direct_children": [
+    "3111",
+    "3112"
+  ],
+  "model_semantic_ownership": "PartDefinition-owned ports inherited by PartUsage",
+  "summary": {
+    "semantic_ports": 14,
+    "inherited_ports": 7,
+    "root_boundary_ports_expected": 3,
+    "root_boundary_ports_rendered": 3,
+    "root_boundary_ports_standalone": 0,
+    "child_endpoint_ports_expected": 4,
+    "child_endpoint_ports_rendered": 4,
+    "connected_child_parts": 2,
+    "connected_child_parts_with_visible_endpoint_ports": 2,
+    "old_standalone_ports": 5,
+    "smoke_standalone_ports": 0,
+    "smoke_orphan_ports": 0,
+    "old_port_to_port_edges": 1,
+    "smoke_port_to_port_edges": 1,
+    "expected_current_level_edges": 4,
+    "visible_current_level_edges": 1,
+    "missing_current_level_relation_ids": [
+      "0f9eaf0e-5562-44fb-8aa7-b6f56b5c90ac",
+      "6c8a650c-189f-4c2b-9137-4460efeadd0d",
+      "715ce4a0-100a-4793-b786-bac7383511e6"
+    ],
+    "view_kind": "General View",
+    "semantic_view_type": "InterconnectionView",
+    "part_count": 2,
+    "port_count": 7,
+    "edge_count": 1,
+    "hierarchy_ok": true,
+    "grandchild_or_external_part_leakage": 0,
+    "live_queryback_ok": true,
+    "block_internal_id_label_failures": 3,
+    "port_internal_id_label_failures": 7,
+    "connection_internal_id_label_failures": 0
+  },
+  "ports": [
+    {
+      "port_name": "bp_3110_0807a7e0da02",
+      "port_object_id": "e586907e-cf13-4eb7-a1a4-205a7ffd854b",
+      "port_definition_or_type": "PT_PT_PHY_006",
+      "direction": "inout",
+      "semantic_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c",
+      "semantic_owner_name": "P_N_3110",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3110",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "轮轨纵向机械作用",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_N_3110",
+      "expected_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "625b3673-a8f5-335b-95d9-38fcc8b49e6a",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_3110_0807a7e0da02 : PT_PT_PHY_006",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "89c7ffc0-0b11-3610-b5ee-d3839a82f00b",
+          "border_node": true,
+          "displayed_label": "bp_3110_0807a7e0da02 : PT_PT_PHY_006",
+          "graphical_parent_id": "50a00acd-2531-36e1-910b-cab8bc57b43d",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_N_3110",
+          "current_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "6c8a650c-189f-4c2b-9137-4460efeadd0d",
+        "c768265e-5d51-4c0d-8b2f-dbc0ff751a67"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_3110_0b98efa624af",
+      "port_object_id": "647074b6-458c-4a0d-bc51-2d0f5979c19a",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c",
+      "semantic_owner_name": "P_N_3110",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3110",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "旋转机械能",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_N_3110",
+      "expected_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "7987b4ff-fdf5-3c2e-b5c0-bf8ed70e068c",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_3110_0b98efa624af : PT_PT_PHY_005",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "3e6f97d6-d4c4-3400-9915-512eb656186d",
+          "border_node": true,
+          "displayed_label": "bp_3110_0b98efa624af : PT_PT_PHY_005",
+          "graphical_parent_id": "50a00acd-2531-36e1-910b-cab8bc57b43d",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_N_3110",
+          "current_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "0f9eaf0e-5562-44fb-8aa7-b6f56b5c90ac",
+        "d69a57d5-d6b6-4156-89a9-c03b027ab6c9"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_3110_84fdc07033eb",
+      "port_object_id": "1eefd51e-d005-41c6-9667-d5f06963a75e",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c",
+      "semantic_owner_name": "P_N_3110",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3110",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "旋转机械能",
+      "category": "ROOT_CONTAINER_BOUNDARY",
+      "expected_graphical_owner": "P_N_3110",
+      "expected_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c",
+      "current_graphical_owner": [
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        null
+      ],
+      "graphical_parent_type": [
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "ab9e8629-2969-3a11-a56f-70c5dd0b37da",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_3110_84fdc07033eb : PT_PT_PHY_005",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "00ee4add-302a-3d58-b17d-2e6afab442e5",
+          "border_node": true,
+          "displayed_label": "bp_3110_84fdc07033eb : PT_PT_PHY_005",
+          "graphical_parent_id": "50a00acd-2531-36e1-910b-cab8bc57b43d",
+          "graphical_parent_type": "PartDefinition",
+          "current_graphical_owner": "P_N_3110",
+          "current_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c"
+        }
+      ],
+      "is_container_boundary_port": true,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "20447a31-2b89-4c86-86e7-9774bd8a00b7",
+        "715ce4a0-100a-4793-b786-bac7383511e6"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "bp_3120_2165abe3f067",
+      "port_object_id": "57f19b21-a9ab-492d-81b9-1567507baf3f",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "5979f5ef-80e7-4786-a1ba-2ee4a1d455fd",
+      "semantic_owner_name": "P_N_3120",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3120",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "旋转机械能",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3120",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "3e33c757-4333-32e2-8c73-0dd6e4bfd47f",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "a79b0986-68c2-35dc-b97d-104c3f51f079",
+          "border_node": true,
+          "displayed_label": "^bp_3120_2165abe3f067 : PT_PT_PHY_005",
+          "graphical_parent_id": "3e33c757-4333-32e2-8c73-0dd6e4bfd47f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3120",
+          "current_graphical_owner_id": "37334feb-937e-4f8b-b4b7-2069d88b3e27"
+        },
+        {
+          "graphical_node_id": "704eacb1-2314-399c-ab42-e520b450710b",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_3120_2165abe3f067 : PT_PT_PHY_005",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "20447a31-2b89-4c86-86e7-9774bd8a00b7",
+        "8bd84c8c-bebe-444a-b5e9-509e80f6bfb9"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "bp_3120_6aa94125ec4c",
+      "port_object_id": "3b3cbcba-814c-49b4-999c-035ca60544cf",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "5979f5ef-80e7-4786-a1ba-2ee4a1d455fd",
+      "semantic_owner_name": "P_N_3120",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3120",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "旋转机械能",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3120"
+      ],
+      "graphical_parent_id": [
+        "3e33c757-4333-32e2-8c73-0dd6e4bfd47f"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "750921bd-987b-3fa4-be25-723cc46be702",
+          "border_node": true,
+          "displayed_label": "^bp_3120_6aa94125ec4c : PT_PT_PHY_005",
+          "graphical_parent_id": "3e33c757-4333-32e2-8c73-0dd6e4bfd47f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3120",
+          "current_graphical_owner_id": "37334feb-937e-4f8b-b4b7-2069d88b3e27"
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "a0f224ae-d92e-406b-9160-4cd3cee22bcd",
+        "f2c1866f-25bf-4234-92fa-190ffa7ae816"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "bp_3120_fdbb71f2b7dd",
+      "port_object_id": "00c81a53-9113-4269-8639-7c235622d546",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "5979f5ef-80e7-4786-a1ba-2ee4a1d455fd",
+      "semantic_owner_name": "P_N_3120",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3120",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "旋转机械能",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3120"
+      ],
+      "graphical_parent_id": [
+        "3e33c757-4333-32e2-8c73-0dd6e4bfd47f"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "53b74ba9-4c67-3fe8-81ea-ff0853767126",
+          "border_node": true,
+          "displayed_label": "^bp_3120_fdbb71f2b7dd : PT_PT_PHY_005",
+          "graphical_parent_id": "3e33c757-4333-32e2-8c73-0dd6e4bfd47f",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3120",
+          "current_graphical_owner_id": "37334feb-937e-4f8b-b4b7-2069d88b3e27"
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "79aa585f-e3a1-4584-88dd-1f4c2cba1c19",
+        "9dca4cdd-bf51-45da-8685-058a1844c83a"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "bp_3640_040c34dbbc74",
+      "port_object_id": "fe56062f-bf03-42f4-a73a-6b930c02f5cf",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "01621868-c035-4e4e-861d-62fd76e6b524",
+      "semantic_owner_name": "P_N_3640",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3640",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "旋转机械能",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3640"
+      ],
+      "graphical_parent_id": [
+        "5ab50edc-6011-3eaf-8859-faaea8272923"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "0ec357a5-c118-301c-867a-e0604b61ce7b",
+          "border_node": true,
+          "displayed_label": "^bp_3640_040c34dbbc74 : PT_PT_PHY_005",
+          "graphical_parent_id": "5ab50edc-6011-3eaf-8859-faaea8272923",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3640",
+          "current_graphical_owner_id": "83583c37-92bb-4463-a361-85cca0249e8d"
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "976c0840-5454-4382-96f5-9fdcd29e9581",
+        "c047f365-ad19-49bd-813f-1b8944333838"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "bp_3640_8fc08c520326",
+      "port_object_id": "615685ad-e0e9-43de-90fb-e3673598d515",
+      "port_definition_or_type": "PT_PT_MEA_004",
+      "direction": "out",
+      "semantic_owner_id": "01621868-c035-4e4e-861d-62fd76e6b524",
+      "semantic_owner_name": "P_N_3640",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3640",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "牵引电机转速",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3640"
+      ],
+      "graphical_parent_id": [
+        "5ab50edc-6011-3eaf-8859-faaea8272923"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "aab26ccd-0fd5-36d2-9679-663c1ba934e7",
+          "border_node": true,
+          "displayed_label": "^bp_3640_8fc08c520326 : PT_PT_MEA_004",
+          "graphical_parent_id": "5ab50edc-6011-3eaf-8859-faaea8272923",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3640",
+          "current_graphical_owner_id": "83583c37-92bb-4463-a361-85cca0249e8d"
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "1d074dce-e79a-4a64-8b95-975e9ed1e648",
+        "f5ed0c44-06a9-4c60-bc5e-dae263e2462a"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "bp_3640_ceb533ff9cc2",
+      "port_object_id": "72331cdf-9f59-43bf-827e-4b3e79c9bc6c",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "01621868-c035-4e4e-861d-62fd76e6b524",
+      "semantic_owner_name": "P_N_3640",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3640",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "旋转机械能",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3640",
+        "DIAGRAM_BACKGROUND"
+      ],
+      "graphical_parent_id": [
+        "5ab50edc-6011-3eaf-8859-faaea8272923",
+        null
+      ],
+      "graphical_parent_type": [
+        "PartUsage",
+        "Diagram"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "c1f5c1ce-8235-3708-8db4-dd44af9fdb21",
+          "border_node": true,
+          "displayed_label": "^bp_3640_ceb533ff9cc2 : PT_PT_PHY_005",
+          "graphical_parent_id": "5ab50edc-6011-3eaf-8859-faaea8272923",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3640",
+          "current_graphical_owner_id": "83583c37-92bb-4463-a361-85cca0249e8d"
+        },
+        {
+          "graphical_node_id": "7285e57f-c53d-387f-964e-14ff2f4d14b0",
+          "border_node": false,
+          "displayed_label": "«port»\nbp_3640_ceb533ff9cc2 : PT_PT_PHY_005",
+          "graphical_parent_id": null,
+          "graphical_parent_type": "Diagram",
+          "current_graphical_owner": "DIAGRAM_BACKGROUND",
+          "current_graphical_owner_id": null
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "48d75483-24bc-4c72-884f-0ab88aa3aada",
+        "b36d8785-bd21-47f8-bee3-3d062cfba15d"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "bp_3640_defcee846693",
+      "port_object_id": "ec7b3fe0-1e16-4cd7-9e73-6d449e4aebd3",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "inout",
+      "semantic_owner_id": "01621868-c035-4e4e-861d-62fd76e6b524",
+      "semantic_owner_name": "P_N_3640",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3640",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": false,
+      "semantic_display_name": "旋转机械能",
+      "category": "NOT_NEEDED",
+      "expected_graphical_owner": null,
+      "expected_graphical_owner_id": null,
+      "current_graphical_owner": [
+        "p_N_3640"
+      ],
+      "graphical_parent_id": [
+        "5ab50edc-6011-3eaf-8859-faaea8272923"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "3103932b-16a1-348d-8623-3993f780938b",
+          "border_node": true,
+          "displayed_label": "^bp_3640_defcee846693 : PT_PT_PHY_005",
+          "graphical_parent_id": "5ab50edc-6011-3eaf-8859-faaea8272923",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3640",
+          "current_graphical_owner_id": "83583c37-92bb-4463-a361-85cca0249e8d"
+        }
+      ],
+      "smoke_graphical_instances": [],
+      "is_container_boundary_port": false,
+      "is_child_part_port": false,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": false,
+      "connection_ids": [
+        "2fa45f0c-95dd-42f6-8b8c-7cebd0e70fb7",
+        "72b2c34c-e9e9-49a0-bb58-1be1efe1e74c"
+      ],
+      "status": "NOT_NEEDED"
+    },
+    {
+      "port_name": "rp_6917242b1f7fc50f",
+      "port_object_id": "cdb1ac69-e535-4cdd-a4ee-efd2bdfc5d5a",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "双向物理",
+      "semantic_owner_id": "f2b08708-0387-45c1-a43e-5a199fd17151",
+      "semantic_owner_name": "P_N_3112",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3112",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "传动段旋转机械能端口",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_N_3112",
+      "expected_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f",
+      "current_graphical_owner": [
+        "p_N_3112"
+      ],
+      "graphical_parent_id": [
+        "21115421-4886-39dd-9a4e-b73e04303999"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "9f9b1d49-df65-315a-ab2c-8e97fa35d773",
+          "border_node": true,
+          "displayed_label": "^rp_6917242b1f7fc50f : PT_PT_PHY_005",
+          "graphical_parent_id": "21115421-4886-39dd-9a4e-b73e04303999",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3112",
+          "current_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f"
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "d38fe790-d181-3b1a-9c36-2e117528d71a",
+          "border_node": true,
+          "displayed_label": "^rp_6917242b1f7fc50f : PT_PT_PHY_005",
+          "graphical_parent_id": "6baa9d95-fabc-30d3-983c-a126458fd8d4",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3112",
+          "current_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "05c96665-a5b6-4da6-b7e4-810d7ba44ad0",
+        "715ce4a0-100a-4793-b786-bac7383511e6"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_8ee7c79c0fe26b93",
+      "port_object_id": "5b8e0a12-e072-48e5-8389-44122d04e5ee",
+      "port_definition_or_type": "PT_PT_PHY_006",
+      "direction": "双向物理",
+      "semantic_owner_id": "8ec26896-52f6-43f0-bd3d-b7ddadd50a6f",
+      "semantic_owner_name": "P_N_3111",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3111",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "轮轨纵向机械作用端口",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_N_3111",
+      "expected_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884",
+      "current_graphical_owner": [
+        "p_N_3111"
+      ],
+      "graphical_parent_id": [
+        "0f76f2ef-d32d-3e08-9fe3-0e2ac61907c8"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "472be9e1-95f6-3eb3-8b44-903c979b5460",
+          "border_node": true,
+          "displayed_label": "^rp_8ee7c79c0fe26b93 : PT_PT_PHY_006",
+          "graphical_parent_id": "0f76f2ef-d32d-3e08-9fe3-0e2ac61907c8",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3111",
+          "current_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884"
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "69fc5a41-dafe-3e4e-b5af-175edbcea769",
+          "border_node": true,
+          "displayed_label": "^rp_8ee7c79c0fe26b93 : PT_PT_PHY_006",
+          "graphical_parent_id": "540b2a1d-be62-3789-a3a7-bae21fe7da75",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3111",
+          "current_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": false,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "6c8a650c-189f-4c2b-9137-4460efeadd0d",
+        "71e3f511-1c81-4791-8576-36023792d822"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_c530418a51140052",
+      "port_object_id": "b602bb75-3e91-493c-871f-0574437f69cf",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "双向物理",
+      "semantic_owner_id": "f2b08708-0387-45c1-a43e-5a199fd17151",
+      "semantic_owner_name": "P_N_3112",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3112",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "轮对段旋转机械能端口",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_N_3112",
+      "expected_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f",
+      "current_graphical_owner": [
+        "p_N_3112"
+      ],
+      "graphical_parent_id": [
+        "21115421-4886-39dd-9a4e-b73e04303999"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "1b2e8cc2-8722-33a1-8f5b-cdf894cfbedb",
+          "border_node": true,
+          "displayed_label": "^rp_c530418a51140052 : PT_PT_PHY_005",
+          "graphical_parent_id": "21115421-4886-39dd-9a4e-b73e04303999",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3112",
+          "current_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f"
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "b36acfa6-92a6-3a48-8973-cf13f7513d70",
+          "border_node": true,
+          "displayed_label": "^rp_c530418a51140052 : PT_PT_PHY_005",
+          "graphical_parent_id": "6baa9d95-fabc-30d3-983c-a126458fd8d4",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3112",
+          "current_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": true,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "0f9eaf0e-5562-44fb-8aa7-b6f56b5c90ac",
+        "2f5cc1ee-5499-432c-ba60-4b7951b77b71",
+        "66cb35ce-2b3c-4ff2-bffa-4f8a5b8fc599"
+      ],
+      "status": "PASS"
+    },
+    {
+      "port_name": "rp_f0350fc816a551ff",
+      "port_object_id": "fda805b1-0a77-45b1-9b67-4553efb168e8",
+      "port_definition_or_type": "PT_PT_PHY_005",
+      "direction": "双向物理",
+      "semantic_owner_id": "8ec26896-52f6-43f0-bd3d-b7ddadd50a6f",
+      "semantic_owner_name": "P_N_3111",
+      "semantic_owner_metaclass": "PartDefinition",
+      "owning_product_code": "3111",
+      "is_direct_owned": true,
+      "is_inherited_from_definition": true,
+      "semantic_display_name": "轮轴旋转机械能端口",
+      "category": "CHILD_PART_ENDPOINT",
+      "expected_graphical_owner": "p_N_3111",
+      "expected_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884",
+      "current_graphical_owner": [
+        "p_N_3111"
+      ],
+      "graphical_parent_id": [
+        "0f76f2ef-d32d-3e08-9fe3-0e2ac61907c8"
+      ],
+      "graphical_parent_type": [
+        "PartUsage"
+      ],
+      "old_graphical_instances": [
+        {
+          "graphical_node_id": "516772ad-cdc1-3bf2-bc31-d13ef1304faa",
+          "border_node": true,
+          "displayed_label": "^rp_f0350fc816a551ff : PT_PT_PHY_005",
+          "graphical_parent_id": "0f76f2ef-d32d-3e08-9fe3-0e2ac61907c8",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3111",
+          "current_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884"
+        }
+      ],
+      "smoke_graphical_instances": [
+        {
+          "graphical_node_id": "71ff420a-5e44-3b96-b3d7-8f7b49932878",
+          "border_node": true,
+          "displayed_label": "^rp_f0350fc816a551ff : PT_PT_PHY_005",
+          "graphical_parent_id": "540b2a1d-be62-3789-a3a7-bae21fe7da75",
+          "graphical_parent_type": "PartUsage",
+          "current_graphical_owner": "p_N_3111",
+          "current_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884"
+        }
+      ],
+      "is_container_boundary_port": false,
+      "is_child_part_port": true,
+      "used_by_visible_connection": true,
+      "used_by_current_level_connection": true,
+      "connection_ids": [
+        "2f5cc1ee-5499-432c-ba60-4b7951b77b71"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "old_edges": [
+    {
+      "edge_id": "c4d1896c-4496-3436-8a7d-8f189631a66c",
+      "semantic_relation_id": "2f5cc1ee-5499-432c-ba60-4b7951b77b71",
+      "semantic_relation_name": "c_CG_C81A2253CDA9FC6173740074",
+      "source": {
+        "side": "source",
+        "graphical_node_id": "1b2e8cc2-8722-33a1-8f5b-cdf894cfbedb",
+        "semantic_object_id": "b602bb75-3e91-493c-871f-0574437f69cf",
+        "semantic_name": "rp_c530418a51140052",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "21115421-4886-39dd-9a4e-b73e04303999",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_N_3112",
+        "current_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f"
+      },
+      "target": {
+        "side": "target",
+        "graphical_node_id": "516772ad-cdc1-3bf2-bc31-d13ef1304faa",
+        "semantic_object_id": "fda805b1-0a77-45b1-9b67-4553efb168e8",
+        "semantic_name": "rp_f0350fc816a551ff",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "0f76f2ef-d32d-3e08-9fe3-0e2ac61907c8",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_N_3111",
+        "current_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884"
+      },
+      "source_port_id": "b602bb75-3e91-493c-871f-0574437f69cf",
+      "target_port_id": "fda805b1-0a77-45b1-9b67-4553efb168e8",
+      "displayed_label": "c_CG_C81A2253CDA9FC6173740074 : IF_IF_PHY_005",
+      "label_visibility": "visible",
+      "visible": true,
+      "port_to_port": true
+    }
+  ],
+  "smoke_edges": [
+    {
+      "edge_id": "6dfb64cd-310f-3673-b18d-563b79073533",
+      "semantic_relation_id": "2f5cc1ee-5499-432c-ba60-4b7951b77b71",
+      "semantic_relation_name": "c_CG_C81A2253CDA9FC6173740074",
+      "source": {
+        "side": "source",
+        "graphical_node_id": "b36acfa6-92a6-3a48-8973-cf13f7513d70",
+        "semantic_object_id": "b602bb75-3e91-493c-871f-0574437f69cf",
+        "semantic_name": "rp_c530418a51140052",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "6baa9d95-fabc-30d3-983c-a126458fd8d4",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_N_3112",
+        "current_graphical_owner_id": "2eab3207-7cb3-4b9d-b18d-3f50dd31d18f"
+      },
+      "target": {
+        "side": "target",
+        "graphical_node_id": "71ff420a-5e44-3b96-b3d7-8f7b49932878",
+        "semantic_object_id": "fda805b1-0a77-45b1-9b67-4553efb168e8",
+        "semantic_name": "rp_f0350fc816a551ff",
+        "semantic_type": "PortUsage",
+        "graphical_parent_id": "540b2a1d-be62-3789-a3a7-bae21fe7da75",
+        "graphical_parent_type": "PartUsage",
+        "current_graphical_owner": "p_N_3111",
+        "current_graphical_owner_id": "b3fdc901-7993-4221-8728-78d49f354884"
+      },
+      "source_port_id": "b602bb75-3e91-493c-871f-0574437f69cf",
+      "target_port_id": "fda805b1-0a77-45b1-9b67-4553efb168e8",
+      "displayed_label": "c_CG_C81A2253CDA9FC6173740074 : IF_IF_PHY_005",
+      "label_visibility": "hidden",
+      "visible": true,
+      "port_to_port": true
+    }
+  ],
+  "visible_parts": [
+    {
+      "product_code": "3110",
+      "graphical_node_id": "50a00acd-2531-36e1-910b-cab8bc57b43d",
+      "semantic_type": "PartDefinition",
+      "displayed_label": "«part def»\nP_N_3110",
+      "human_name_in_model": "车轮车轴",
+      "graphical_parent_id": null,
+      "graphical_parent_type": "Diagram",
+      "current_graphical_owner": "DIAGRAM_BACKGROUND",
+      "current_graphical_owner_id": null
+    },
+    {
+      "product_code": "3111",
+      "graphical_node_id": "540b2a1d-be62-3789-a3a7-bae21fe7da75",
+      "semantic_type": "PartUsage",
+      "displayed_label": "«part»\np_N_3111 : P_N_3111",
+      "human_name_in_model": "车轮",
+      "graphical_parent_id": "52590f59-0fa5-376d-8f8b-22c697683eca",
+      "graphical_parent_type": "PartDefinition",
+      "current_graphical_owner": "P_N_3110",
+      "current_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c"
+    },
+    {
+      "product_code": "3112",
+      "graphical_node_id": "6baa9d95-fabc-30d3-983c-a126458fd8d4",
+      "semantic_type": "PartUsage",
+      "displayed_label": "«part»\np_N_3112 : P_N_3112",
+      "human_name_in_model": "车轴",
+      "graphical_parent_id": "52590f59-0fa5-376d-8f8b-22c697683eca",
+      "graphical_parent_type": "PartDefinition",
+      "current_graphical_owner": "P_N_3110",
+      "current_graphical_owner_id": "b264eb3b-2a82-4502-a731-7913c5d4159c"
+    }
+  ],
+  "block_display_labels": [
+    "«part def»\nP_N_3110",
+    "«part»\np_N_3111 : P_N_3111",
+    "«part»\np_N_3112 : P_N_3112"
+  ],
+  "port_display_labels": [
+    "bp_3110_0807a7e0da02 : PT_PT_PHY_006",
+    "bp_3110_0b98efa624af : PT_PT_PHY_005",
+    "bp_3110_84fdc07033eb : PT_PT_PHY_005",
+    "^rp_6917242b1f7fc50f : PT_PT_PHY_005",
+    "^rp_8ee7c79c0fe26b93 : PT_PT_PHY_006",
+    "^rp_c530418a51140052 : PT_PT_PHY_005",
+    "^rp_f0350fc816a551ff : PT_PT_PHY_005"
+  ],
+  "connection_display_labels": [],
+  "ownership_status": "PASS",
+  "status": "FAIL"
+}

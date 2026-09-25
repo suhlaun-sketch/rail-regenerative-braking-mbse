@@ -1,0 +1,619 @@
+{
+  "ssd_component": "L2_7200",
+  "l2_code": "7200",
+  "l2_engineering_name": "制动",
+  "future_simulink_model": "L2_7200.slx",
+  "future_fmu_file": "L2_7200.fmu",
+  "source_structural_connectors": [
+    "L2_7200.p_7211_rp_0194ebfed505dfb5",
+    "L2_7200.p_7211_rp_04cfaf63bfa3ed70",
+    "L2_7200.p_7211_rp_179bcc3fb8dacbbf",
+    "L2_7200.p_7211_rp_77afbfa330bfb95e",
+    "L2_7200.p_7211_rp_c021f63639408eff",
+    "L2_7200.p_7211_rp_d26568a796272d7a",
+    "L2_7200.p_7211_rp_da3049ae66223d22",
+    "L2_7200.p_7211_rp_daaf414c1711f2bd",
+    "L2_7200.p_7211_rp_e4d6047a07b1416e",
+    "L2_7200.p_7211_rp_f786158194c89c8a",
+    "L2_7200.p_7211_rp_faa6c7c9931b0a58",
+    "L2_7200.p_7226_rp_5f6a9d81cebde2d3",
+    "L2_7200.p_722B_rp_8d219d5375ded80b",
+    "L2_7200.p_7254_rp_d9511ef0fa1c17df"
+  ],
+  "inputs": [
+    {
+      "executable_variable_id": "EV::L2_7200::in_achieved_dynamic_brake_force",
+      "variable_name": "in_achieved_dynamic_brake_force",
+      "engineering_meaning": "牵引电制动通道实际实现的列车等效动态制动力。",
+      "quantity": "achieved_dynamic_brake_force",
+      "unit": "N",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0034"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_E8DAA56D71F2BE4B5E1C9BBF"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_179bcc3fb8dacbbf",
+        "ItemDefinitions::ITM-MEA-013",
+        "IF_IF_MEA_013"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_179bcc3fb8dacbbf"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_available_dynamic_brake_force",
+      "variable_name": "in_available_dynamic_brake_force",
+      "engineering_meaning": "当前速度、电压、黏着、温度和故障条件下动态制动可提供的最大列车等效制动力。",
+      "quantity": "available_dynamic_brake_force",
+      "unit": "N",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0033"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_BEDE0932E86628B2EFCA8CCD"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_e4d6047a07b1416e",
+        "ItemDefinitions::ITM-LIM-001",
+        "IF_IF_LIM_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_e4d6047a07b1416e"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_brake_cylinder_pressure",
+      "variable_name": "in_brake_cylinder_pressure",
+      "engineering_meaning": "摩擦制动执行通道的制动缸/夹钳驱动压力。",
+      "quantity": "brake_cylinder_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0036"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1AEA8B915E14A5D0FFEE30D9"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_f786158194c89c8a",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_f786158194c89c8a"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_brake_safety_loop_state",
+      "variable_name": "in_brake_safety_loop_state",
+      "engineering_meaning": "制动安全回路状态。",
+      "quantity": "brake_safety_loop_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0038"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_CE151D40A2BF816F41762F4C"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_daaf414c1711f2bd",
+        "ItemDefinitions::ITM-STA-025",
+        "IF_IF_STA_025"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_daaf414c1711f2bd"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_dynamic_brake_availability",
+      "variable_name": "in_dynamic_brake_availability",
+      "engineering_meaning": "动态制动通道是否可用于当前制动力分配。",
+      "quantity": "dynamic_brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0037"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1ACF37CC65D3FF235E8BD75C"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_d26568a796272d7a",
+        "ItemDefinitions::ITM-STA-002",
+        "IF_IF_STA_002"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_d26568a796272d7a"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_emergency_brake_request",
+      "variable_name": "in_emergency_brake_request",
+      "engineering_meaning": "触发紧急制动的有效请求。",
+      "quantity": "emergency_brake_request",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0031"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_071B7693DAFA8B87ADA0A61E",
+        "CG_4163C3EB1F2D16B7AFCB21C9"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_CMD_004",
+        "ItemDefinitions::ITM-CMD-004",
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_faa6c7c9931b0a58",
+        "p_N_7000.p_N_7200.p_N_7220.p_N_7226.rp_5f6a9d81cebde2d3"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_faa6c7c9931b0a58",
+        "L2_7200.p_7226_rp_5f6a9d81cebde2d3"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_main_reservoir_pressure",
+      "variable_name": "in_main_reservoir_pressure",
+      "engineering_meaning": "总风管压力传感器输出。",
+      "quantity": "main_reservoir_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0035"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_A0B82CF482DDFB4553F8CFCA"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_04cfaf63bfa3ed70",
+        "ItemDefinitions::ITM-MEA-014",
+        "IF_IF_MEA_014"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_04cfaf63bfa3ed70"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_omega_wheel",
+      "variable_name": "in_omega_wheel",
+      "engineering_meaning": "Wheel/disc angular speed feedback.",
+      "quantity": "omega_wheel",
+      "unit": "rad/s",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0089"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_DA869E241F8A36DBAAC07E48"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-007-FRICTION"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df",
+        "ItemDefinitions::ITM-PHY-007",
+        "IF_IF_PHY_007"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7254_rp_d9511ef0fa1c17df"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_safety_brake_request",
+      "variable_name": "in_safety_brake_request",
+      "engineering_meaning": "来自ATP/安全回路等外部安全功能的制动请求,进入EBCU后映射为服务或紧急制动。",
+      "quantity": "safety_brake_request",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0032"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_ED49C68C1459BB1005D412BB"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_da3049ae66223d22",
+        "ItemDefinitions::ITM-CMD-030",
+        "IF_IF_CMD_030"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_da3049ae66223d22"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::in_service_brake_request",
+      "variable_name": "in_service_brake_request",
+      "engineering_meaning": "服务制动需求;可采用归一化请求或减速度请求,工程中必须在接口处固定一种语义。",
+      "quantity": "service_brake_request",
+      "unit": "1 或 m/s2",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0030"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_979C19823B520B68E370ECB6"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_77afbfa330bfb95e",
+        "ItemDefinitions::ITM-CMD-003",
+        "IF_IF_CMD_003"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_77afbfa330bfb95e"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_7200::out_T_brake",
+      "variable_name": "out_T_brake",
+      "engineering_meaning": "Equivalent friction braking torque.",
+      "quantity": "T_brake",
+      "unit": "N*m",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0088"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_DA869E241F8A36DBAAC07E48"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-007-FRICTION"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df",
+        "ItemDefinitions::ITM-PHY-007",
+        "IF_IF_PHY_007"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7254_rp_d9511ef0fa1c17df"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::out_brake_availability",
+      "variable_name": "out_brake_availability",
+      "engineering_meaning": "制动控制/执行系统是否具备请求的制动能力。",
+      "quantity": "brake_availability",
+      "unit": "1",
+      "datatype": "Boolean",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0026"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_1102EBD35D52A38B96D5D2E7",
+        "CG_944069F2CBBFA2A01274A9DB"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_c021f63639408eff",
+        "ItemDefinitions::ITM-STA-003",
+        "IF_IF_STA_003"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_c021f63639408eff"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::out_brake_cylinder_pressure",
+      "variable_name": "out_brake_cylinder_pressure",
+      "engineering_meaning": "摩擦制动执行通道的制动缸/夹钳驱动压力。",
+      "quantity": "brake_cylinder_pressure",
+      "unit": "Pa",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0025"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_E9224B53F74EDFCCFDA0FC70"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7220.p_N_722B.rp_8d219d5375ded80b",
+        "ItemDefinitions::ITM-MEA-016",
+        "IF_IF_MEA_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_722B_rp_8d219d5375ded80b"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_7200::out_dynamic_brake_force_request",
+      "variable_name": "out_dynamic_brake_force_request",
+      "engineering_meaning": "分配给牵引电制动通道的动态制动力请求。",
+      "quantity": "dynamic_brake_force_request",
+      "unit": "N",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0024"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_B251741505CB19FE47559F29"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_0194ebfed505dfb5",
+        "ItemDefinitions::ITM-CMD-006",
+        "IF_IF_CMD_006"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_7200",
+      "source_ssd_connectors": [
+        "L2_7200.p_7211_rp_0194ebfed505dfb5"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 10,
+    "outputs": 4,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 14
+  },
+  "readiness": "READY"
+}

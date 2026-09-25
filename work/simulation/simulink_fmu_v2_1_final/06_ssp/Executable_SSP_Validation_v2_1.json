@@ -1,0 +1,16 @@
+{
+  "artifact": "Executable SSP Validation",
+  "ssd_sha256": "78c52660d73e9d2e9cf21aaa0301c17eec8510c273d511ab5adcd6c4d3f5ed5f",
+  "ssp_sha256": "955892bcb3ee0a8b1cbbefe2c4135de35c337ba996a823d579bb00f7569c04c7",
+  "components": 16,
+  "executable_connectors": 151,
+  "executable_connection_records": 87,
+  "unique_causal_signal_paths": 77,
+  "trace_equivalent_duplicate_records": 10,
+  "packaged_fmus": 16,
+  "connection_records_valid": 87,
+  "invalid_connection_records": [],
+  "zip_crc": "PASS",
+  "status": "PASS",
+  "note": "The executable SSD/SSP is an implementation artifact. The authoritative structural SSD is unchanged."
+}

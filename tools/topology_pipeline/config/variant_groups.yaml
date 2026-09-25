@@ -1,0 +1,6 @@
+{
+  "variant_groups": [
+    {"variant_group_id":"VG-BRAKE-DISC-01","products":["3131","3132","3133"],"selection_cardinality":1,"status":"UNRESOLVED_VARIANT","reason":"外轮盘、内轮盘、轴盘均为solution-space合法方案，当前Profile无选型证据。"},
+    {"variant_group_id":"VG-COUPLING-01","products":["3511","3512","3514"],"selection_cardinality":1,"status":"UNRESOLVED_VARIANT","reason":"两种联轴节与万向轴均合法，当前Profile无部署选型证据。"}
+  ]
+}

@@ -1,0 +1,22 @@
+package general_definition {
+    part def P_N_4200;
+    part def P_N_4500;
+    part def P_N_5100;
+    part def P_N_5300;
+    part def P_N_7200;
+    part def P_X100;
+    part def P_N_3500;
+    part def P_N_3100;
+    item def I_ITM_MEA_004;
+    item def I_ITM_MEA_005;
+    item def I_ITM_MEA_006;
+    item def I_ITM_MEA_011;
+    item def I_ITM_MEA_012;
+    item def I_ITM_PHY_001;
+    item def I_ITM_PHY_004;
+    item def I_ITM_PHY_005;
+    item def I_ITM_PHY_007;
+    item def I_ITM_PHY_014;
+    item def I_ITM_STA_013;
+    item def I_ITM_STA_016;
+}

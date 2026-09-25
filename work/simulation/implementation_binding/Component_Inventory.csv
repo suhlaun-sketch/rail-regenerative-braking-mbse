@@ -1,0 +1,17 @@
+﻿ssd_component_id,ssd_component_name,l2_code,l2_engineering_name,full_sysml_path,simulation_model_name,future_fmu_file,connector_count,connected_l2_peers,readiness
+L2_3100,L2_3100,3100,轮轴组成,SystemDefinition::railSystem.p_N_3000.p_N_3100,L2_3100.slx,L2_3100.fmu,4,L2_3500 | L2_3600 | L2_7200,REVIEW_REQUIRED
+L2_3500,L2_3500,3500,牵引传动耦合组件及其附件,SystemDefinition::railSystem.p_N_3000.p_N_3500,L2_3500.slx,L2_3500.fmu,2,L2_3100 | L2_5300,REVIEW_REQUIRED
+L2_3600,L2_3600,3600,转向架相关检测,SystemDefinition::railSystem.p_N_3000.p_N_3600,L2_3600.slx,L2_3600.fmu,4,L2_3100 | L2_5300 | L2_8100,REVIEW_REQUIRED
+L2_3800,L2_3800,3800,辅助增粘及轮缘润滑,SystemDefinition::railSystem.p_N_3000.p_N_3800,L2_3800.slx,L2_3800.fmu,1,L2_8100,REVIEW_REQUIRED
+L2_4100,L2_4100,4100,高压受流,SystemDefinition::railSystem.p_N_4000.p_N_4100,L2_4100.slx,L2_4100.fmu,3,L2_4200,REVIEW_REQUIRED
+L2_4200,L2_4200,4200,网侧高压分配及控制,SystemDefinition::railSystem.p_N_4000.p_N_4200,L2_4200.slx,L2_4200.fmu,13,L2_4100 | L2_4500 | L2_5100 | L2_8100,REVIEW_REQUIRED
+L2_4400,L2_4400,4400,回流及接地,SystemDefinition::railSystem.p_N_4000.p_N_4400,L2_4400.slx,L2_4400.fmu,0,,READY
+L2_4500,L2_4500,4500,主变压器及其冷却,SystemDefinition::railSystem.p_N_4000.p_N_4500,L2_4500.slx,L2_4500.fmu,5,L2_4200 | L2_5100,REVIEW_REQUIRED
+L2_5100,L2_5100,5100,牵引变流器主体及其控制,SystemDefinition::railSystem.p_N_5000.p_N_5100,L2_5100.slx,L2_5100.fmu,16,L2_4200 | L2_4500 | L2_5300 | L2_8100,REVIEW_REQUIRED
+L2_5300,L2_5300,5300,牵引电机及其冷却,SystemDefinition::railSystem.p_N_5000.p_N_5300,L2_5300.slx,L2_5300.fmu,5,L2_3500 | L2_3600 | L2_5100 | L2_8100,REVIEW_REQUIRED
+L2_7100,L2_7100,7100,供风,SystemDefinition::railSystem.p_N_7000.p_N_7100,L2_7100.slx,L2_7100.fmu,1,L2_8100,REVIEW_REQUIRED
+L2_7200,L2_7200,7200,制动,SystemDefinition::railSystem.p_N_7000.p_N_7200,L2_7200.slx,L2_7200.fmu,14,L2_3100 | L2_8100,REVIEW_REQUIRED
+L2_8100,L2_8100,8100,列车主干网及安全回路,SystemDefinition::railSystem.p_N_8000.p_N_8100,L2_8100.slx,L2_8100.fmu,52,L2_3600 | L2_3800 | L2_4200 | L2_5100 | L2_5300 | L2_7100 | L2_7200 | L2_D100 | L2_E100 | L2_X100,REVIEW_REQUIRED
+L2_D100,L2_D100,D100,操纵设施,SystemDefinition::railSystem.p_D000.p_D100,L2_D100.slx,L2_D100.fmu,4,L2_8100,REVIEW_REQUIRED
+L2_E100,L2_E100,E100,ATP车载,SystemDefinition::railSystem.p_E000.p_E100,L2_E100.slx,L2_E100.fmu,2,L2_8100,REVIEW_REQUIRED
+L2_X100,L2_X100,X100,车载再生储能,SystemDefinition::railSystem.p_X000.p_X100,L2_X100.slx,L2_X100.fmu,12,L2_8100,REVIEW_REQUIRED

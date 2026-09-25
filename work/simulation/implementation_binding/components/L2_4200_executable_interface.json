@@ -1,0 +1,665 @@
+{
+  "ssd_component": "L2_4200",
+  "l2_code": "4200",
+  "l2_engineering_name": "网侧高压分配及控制",
+  "future_simulink_model": "L2_4200.slx",
+  "future_fmu_file": "L2_4200.fmu",
+  "source_structural_connectors": [
+    "L2_4200.p_4211_rp_bba7ece236be8f3c",
+    "L2_4200.p_4235_rp_6fea4b377f978aac",
+    "L2_4200.p_4236_rp_78e99abb7d77c156",
+    "L2_4200.p_4236_rp_9107465175683792",
+    "L2_4200.p_4238_rp_0674d2b80a6a72da",
+    "L2_4200.p_4238_rp_11b7e7965ec2e386",
+    "L2_4200.p_4238_rp_5576b5e0dbb912ba",
+    "L2_4200.p_4238_rp_65aacc4600de3990",
+    "L2_4200.p_4238_rp_9458944450b0dd4c",
+    "L2_4200.p_4238_rp_9744a4b3a255a6e8",
+    "L2_4200.p_4238_rp_c7dcc306b020116f",
+    "L2_4200.p_4238_rp_d9d25dfbac32d1e3",
+    "L2_4200.p_4239_rp_c9c4c887a8c7b2f0"
+  ],
+  "inputs": [
+    {
+      "executable_variable_id": "EV::L2_4200::in_I_ac_rms",
+      "variable_name": "in_I_ac_rms",
+      "engineering_meaning": "High-voltage AC current feedback/load flow.",
+      "quantity": "I_ac_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0074"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_B483D5C4E4EC5F805E3B0F19"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-001-HVAC"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4236_rp_78e99abb7d77c156"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::in_U_ac_rms",
+      "variable_name": "in_U_ac_rms",
+      "engineering_meaning": "High-voltage AC RMS voltage.",
+      "quantity": "U_ac_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0066"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_9EB19436ED0A54ECCF52C717"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-001-HVAC"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4211_rp_bba7ece236be8f3c"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::in_f_ac",
+      "variable_name": "in_f_ac",
+      "engineering_meaning": "High-voltage AC frequency.",
+      "quantity": "f_ac",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "fmi_causality": "input",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0067"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_9EB19436ED0A54ECCF52C717"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-001-HVAC"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4211_rp_bba7ece236be8f3c"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::in_hv_safety_loop_state",
+      "variable_name": "in_hv_safety_loop_state",
+      "engineering_meaning": "高压相关安全回路闭合/断开/故障状态。",
+      "quantity": "hv_safety_loop_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0028"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_F55B5E17D8CBFAC80E0961C2"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4239.rp_c9c4c887a8c7b2f0",
+        "ItemDefinitions::ITM-STA-024",
+        "IF_IF_STA_024"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4239_rp_c9c4c887a8c7b2f0"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::in_hv_system_fault",
+      "variable_name": "in_hv_system_fault",
+      "engineering_meaning": "高压测量、断路器、绝缘或主变压器等高压系统故障集合。",
+      "quantity": "hv_system_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0011"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_2274BA128E639FDE4D4F56EC"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_11b7e7965ec2e386",
+        "ItemDefinitions::ITM-STA-016",
+        "IF_IF_STA_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4238_rp_11b7e7965ec2e386"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::in_pantograph_state",
+      "variable_name": "in_pantograph_state",
+      "engineering_meaning": "受电弓升/降/接触异常等状态。",
+      "quantity": "pantograph_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "input",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Inport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0002"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_8F81398231970DBDB0A7F854"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_d9d25dfbac32d1e3",
+        "ItemDefinitions::ITM-STA-015",
+        "IF_IF_STA_015"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4238_rp_d9d25dfbac32d1e3"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "executable_variable_id": "EV::L2_4200::out_I_ac_rms",
+      "variable_name": "out_I_ac_rms",
+      "engineering_meaning": "High-voltage AC current feedback/load flow.",
+      "quantity": "I_ac_rms",
+      "unit": "A",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0068"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_9EB19436ED0A54ECCF52C717"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-001-HVAC"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4211_rp_bba7ece236be8f3c"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_U_ac_rms",
+      "variable_name": "out_U_ac_rms",
+      "engineering_meaning": "High-voltage AC RMS voltage.",
+      "quantity": "U_ac_rms",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0072"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_B483D5C4E4EC5F805E3B0F19"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-001-HVAC"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4236_rp_78e99abb7d77c156"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_f_ac",
+      "variable_name": "out_f_ac",
+      "engineering_meaning": "High-voltage AC frequency.",
+      "quantity": "f_ac",
+      "unit": "Hz",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "The Full SysML physical item is causalized only in the implementation layer; the SSD structural connector remains unchanged. | Legacy Mapping_Status=PROPOSED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0073"
+      ],
+      "legacy_mapping_statuses": [
+        "PROPOSED"
+      ],
+      "structural_connection_ids": [
+        "CG_B483D5C4E4EC5F805E3B0F19"
+      ],
+      "binding_rule_ids": [
+        "BR-PHY-001-HVAC"
+      ],
+      "interface_kind": "PHYSICAL_EXPANDED",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156",
+        "ItemDefinitions::ITM-PHY-001",
+        "IF_IF_PHY_001"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4236_rp_78e99abb7d77c156"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_hv_breaker_command",
+      "variable_name": "out_hv_breaker_command",
+      "engineering_meaning": "高压断路器分/合控制请求。",
+      "quantity": "hv_breaker_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0008"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_9ACDE46A41EE650430438B91"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_65aacc4600de3990",
+        "ItemDefinitions::ITM-CMD-016",
+        "IF_IF_CMD_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4238_rp_65aacc4600de3990"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_hv_breaker_state",
+      "variable_name": "out_hv_breaker_state",
+      "engineering_meaning": "高压断路器分/合/跳闸状态。",
+      "quantity": "hv_breaker_state",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0004"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_37792F42F4274C7C51C63270"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_0674d2b80a6a72da",
+        "ItemDefinitions::ITM-STA-013",
+        "IF_IF_STA_013"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4238_rp_0674d2b80a6a72da"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_hv_system_fault",
+      "variable_name": "out_hv_system_fault",
+      "engineering_meaning": "高压测量、断路器、绝缘或主变压器等高压系统故障集合。",
+      "quantity": "hv_system_fault",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1. | Legacy Mapping_Status=REVIEW_REQUIRED; accepted as an executable interface resolution because scalar quantity, datatype and causality are explicit and traceable to the Full SysML item.",
+      "legacy_contract_ids": [
+        "SIM-L2-0005"
+      ],
+      "legacy_mapping_statuses": [
+        "REVIEW_REQUIRED"
+      ],
+      "structural_connection_ids": [
+        "CG_CE2820923CC0CB141833E11D"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9458944450b0dd4c",
+        "ItemDefinitions::ITM-STA-016",
+        "IF_IF_STA_016"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [
+        "源Datatype或单位为复合/歧义表示，导出FMU前需固定编码或向量维度。"
+      ],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4238_rp_9458944450b0dd4c"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_line_current",
+      "variable_name": "out_line_current",
+      "engineering_meaning": "受流/高压测量通道得到的线路电流;符号用于区分取能与回馈。",
+      "quantity": "line_current",
+      "unit": "A",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0007",
+        "SIM-L2-0010"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_20C0A22ECCF07864FDBA3F5A",
+        "CG_FE573ED935CFF37491A053E8"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_MEA_006",
+        "ItemDefinitions::ITM-MEA-006",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_9107465175683792",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_c7dcc306b020116f"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4236_rp_9107465175683792",
+        "L2_4200.p_4238_rp_c7dcc306b020116f"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_line_voltage",
+      "variable_name": "out_line_voltage",
+      "engineering_meaning": "受流/高压测量通道得到的线路电压。",
+      "quantity": "line_voltage",
+      "unit": "V",
+      "datatype": "Float64",
+      "fmi_causality": "output",
+      "fmi_variability": "continuous",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "LEGACY_CONTRACT",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "high",
+      "assumption": null,
+      "legacy_contract_ids": [
+        "SIM-L2-0006",
+        "SIM-L2-0009"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_002543DBE0F9A7FBC2A3FDD3",
+        "CG_1C5FC46A1E7682144A3BDDDF"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "IF_IF_MEA_005",
+        "ItemDefinitions::ITM-MEA-005",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4235.rp_6fea4b377f978aac",
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_5576b5e0dbb912ba"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4235_rp_6fea4b377f978aac",
+        "L2_4200.p_4238_rp_5576b5e0dbb912ba"
+      ]
+    },
+    {
+      "executable_variable_id": "EV::L2_4200::out_pantograph_command",
+      "variable_name": "out_pantograph_command",
+      "engineering_meaning": "受电弓升弓/降弓控制请求。",
+      "quantity": "pantograph_command",
+      "unit": "1",
+      "datatype": "Int32",
+      "fmi_causality": "output",
+      "fmi_variability": "discrete",
+      "simulink_port_type": "Outport",
+      "source_of_semantics": "LEGACY_CONTRACT",
+      "source_of_unit": "ENGINEERING_INFERENCE",
+      "source_of_causality": "LEGACY_CONTRACT",
+      "confidence": "inferred",
+      "assumption": "Full SysML unit/medium is '无'; encoded as FMI dimensionless unit 1.",
+      "legacy_contract_ids": [
+        "SIM-L2-0003"
+      ],
+      "legacy_mapping_statuses": [
+        "READY"
+      ],
+      "structural_connection_ids": [
+        "CG_2EE117B4B0633E38D394B904"
+      ],
+      "binding_rule_ids": [
+        "BR-SIG-001"
+      ],
+      "interface_kind": "SIGNAL",
+      "source_sysml_elements": [
+        "p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9744a4b3a255a6e8",
+        "ItemDefinitions::ITM-CMD-018",
+        "IF_IF_CMD_018"
+      ],
+      "resolution_status": "RESOLVED",
+      "unresolved_reasons": [],
+      "legacy_review_notes": [],
+      "ssd_component": "L2_4200",
+      "source_ssd_connectors": [
+        "L2_4200.p_4238_rp_9744a4b3a255a6e8"
+      ]
+    }
+  ],
+  "parameters": [],
+  "states_monitoring_outputs": [],
+  "counts": {
+    "inputs": 6,
+    "outputs": 9,
+    "parameters": 0,
+    "states_monitoring_outputs": 0,
+    "total_executable_variables": 15
+  },
+  "readiness": "READY"
+}

@@ -1,0 +1,23 @@
+{
+  "ssd_component_id": "L2_7100",
+  "ssd_component_name": "L2_7100",
+  "l2_code": "7100",
+  "l2_engineering_name": "供风",
+  "inputs": [],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_7100::p_7142_rp_52f3b82b80918b84",
+      "ssd_connector_name": "p_7142_rp_52f3b82b80918b84",
+      "simulink_port_name": "p_7142_rp_52f3b82b80918b84",
+      "future_fmu_variable": "p_7142_rp_52f3b82b80918b84",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 1,
+  "connected_l2_peers": [
+    "L2_8100"
+  ],
+  "future_simulink": "L2_7100.slx",
+  "future_fmu": "L2_7100.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

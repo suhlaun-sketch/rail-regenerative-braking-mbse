@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T02:06:23.117696+00:00",
+  "variables": {
+    "input": {
+      "id": "e3a18fa1-17c4-44e3-ae50-069efd8e317a",
+      "editingContextId": "12d630bc-f763-4c58-8385-152cbec448e9",
+      "objectId": "2139ba8f-b912-4710-8c7c-52b30c5ad239",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+      "representationName": "AUTO_FP_ALLOCATION_INTERCONNECTION_SMOKE"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "abb08b79-0bcc-4ebf-9bcf-27f5b4741247",
+        "label": "AUTO_FP_ALLOCATION_INTERCONNECTION_SMOKE",
+        "kind": "siriusComponents://representation?type=Diagram"
+      }
+    }
+  },
+  "error": null
+}

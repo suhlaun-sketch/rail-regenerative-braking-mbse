@@ -1,0 +1,3577 @@
+{
+  "schema_version": "1.0",
+  "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml",
+  "generated_at": "2026-09-23T02:54:23.098001+00:00",
+  "products": [
+    {
+      "product_id": "3111",
+      "name": "车轮",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3110",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3193",
+      "function_ids": [
+        "FN_F_3111_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3111"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3112",
+      "name": "车轴",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3110",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3215",
+      "function_ids": [
+        "FN_F_3112_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3112"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3121",
+      "name": "齿轮箱主体",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3120",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3237",
+      "function_ids": [
+        "FN_F_3121_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3121"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3131",
+      "name": "外轮盘",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3130",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3259",
+      "function_ids": [
+        "FN_F_3131_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3131"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3132",
+      "name": "内轮盘",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3130",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3281",
+      "function_ids": [
+        "FN_F_3132_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3132"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3133",
+      "name": "轴盘",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3130",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3303",
+      "function_ids": [
+        "FN_F_3133_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3133"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3511",
+      "name": "联轴节(电机侧)",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3510",
+      "l2_product_id": "3500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3325",
+      "function_ids": [
+        "FN_F_3511_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3511"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3512",
+      "name": "联轴节(齿轮箱侧)",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3510",
+      "l2_product_id": "3500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3347",
+      "function_ids": [
+        "FN_F_3512_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3512"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3514",
+      "name": "万向轴",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3510",
+      "l2_product_id": "3500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3369",
+      "function_ids": [
+        "FN_F_3514_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3514"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3641",
+      "name": "轴端速度传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3640",
+      "l2_product_id": "3600",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3391",
+      "function_ids": [
+        "FN_F_3641_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3641"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3643",
+      "name": "齿轮箱速度传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3640",
+      "l2_product_id": "3600",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3413",
+      "function_ids": [
+        "FN_F_3643_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3643"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3644",
+      "name": "牵引电机速度传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3640",
+      "l2_product_id": "3600",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3435",
+      "function_ids": [
+        "FN_F_3644_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3644"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3811",
+      "name": "撒砂控制单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3810",
+      "l2_product_id": "3800",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3457",
+      "function_ids": [
+        "FN_F_3811_01",
+        "FN_F_3811_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3811"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3813",
+      "name": "撒砂阀板组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3810",
+      "l2_product_id": "3800",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3491",
+      "function_ids": [
+        "FN_F_3813_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3813"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3814",
+      "name": "撒砂喷嘴组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "3810",
+      "l2_product_id": "3800",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3525",
+      "function_ids": [
+        "FN_F_3814_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3814"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4111",
+      "name": "碳滑板",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4110",
+      "l2_product_id": "4100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3541",
+      "function_ids": [
+        "FN_F_4111_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4111"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "411C",
+      "name": "受电弓电子控制单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4110",
+      "l2_product_id": "4100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3563",
+      "function_ids": [
+        "FN_F_411C_01",
+        "FN_F_411C_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_411C"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4121",
+      "name": "受流器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4120",
+      "l2_product_id": "4100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3597",
+      "function_ids": [],
+      "traceability": {
+        "sysml_refs": [
+          "P_4121"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4211",
+      "name": "真空断路器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4210",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3619",
+      "function_ids": [
+        "FN_F_4211_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4211"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4212",
+      "name": "非真空隔离开关",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4210",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3659",
+      "function_ids": [
+        "FN_F_4212_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4212"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4235",
+      "name": "高压电压互感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4230",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3705",
+      "function_ids": [
+        "FN_F_4235_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4235"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4236",
+      "name": "高压电流互感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4230",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3727",
+      "function_ids": [
+        "FN_F_4236_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4236"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4238",
+      "name": "高压控制输入输出单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4230",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3755",
+      "function_ids": [
+        "FN_F_4238_01",
+        "FN_F_4238_02",
+        "FN_F_4238_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4238"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4239",
+      "name": "高压控制单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4230",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3879",
+      "function_ids": [
+        "FN_F_4239_01",
+        "FN_F_4239_02",
+        "FN_F_4239_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4239"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4241",
+      "name": "处理单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4240",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3967",
+      "function_ids": [
+        "FN_F_4241_01",
+        "FN_F_4241_02",
+        "FN_F_4241_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4241"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4411",
+      "name": "接地变压器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4410",
+      "l2_product_id": "4400",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4025",
+      "function_ids": [
+        "FN_F_4411_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4411"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4412",
+      "name": "主回路接地电阻",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4410",
+      "l2_product_id": "4400",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4053",
+      "function_ids": [
+        "FN_F_4412_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4412"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4413",
+      "name": "回流碳刷",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4410",
+      "l2_product_id": "4400",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4081",
+      "function_ids": [
+        "FN_F_4413_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4413"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4511",
+      "name": "主变压器主体",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4510",
+      "l2_product_id": "4500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4103",
+      "function_ids": [
+        "FN_F_4511_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4511"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4513",
+      "name": "电抗器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4510",
+      "l2_product_id": "4500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4125",
+      "function_ids": [
+        "FN_F_4513_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4513"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4517",
+      "name": "主变压器检测及保护元件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4510",
+      "l2_product_id": "4500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4147",
+      "function_ids": [
+        "FN_F_4517_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4517"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4518",
+      "name": "主变压器控制装置",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "4510",
+      "l2_product_id": "4500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4175",
+      "function_ids": [
+        "FN_F_4518_01",
+        "FN_F_4518_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4518"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5111",
+      "name": "网侧变流器控制模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5110",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4215",
+      "function_ids": [
+        "FN_F_5111_01",
+        "FN_F_5111_02",
+        "FN_F_5111_03",
+        "FN_F_5111_04"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5111"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5112",
+      "name": "电机侧变流器控制模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5110",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4291",
+      "function_ids": [
+        "FN_F_5112_01",
+        "FN_F_5112_02",
+        "FN_F_5112_03",
+        "FN_F_5112_04"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5112"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5113",
+      "name": "变流器检测保护组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5110",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4397",
+      "function_ids": [
+        "FN_F_5113_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5113"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5121",
+      "name": "预充电组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5120",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4455",
+      "function_ids": [
+        "FN_F_5121_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5121"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5122",
+      "name": "输入组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5120",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4495",
+      "function_ids": [
+        "FN_F_5122_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5122"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5131",
+      "name": "网侧变流模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5130",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4535",
+      "function_ids": [
+        "FN_F_5131_01",
+        "FN_F_5131_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5131"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5132",
+      "name": "电机侧变流模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5130",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4593",
+      "function_ids": [
+        "FN_F_5132_01",
+        "FN_F_5132_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5132"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5133",
+      "name": "放电电阻控制模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5130",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4651",
+      "function_ids": [
+        "FN_F_5133_01",
+        "FN_F_5133_02",
+        "FN_F_5133_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5133"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5142",
+      "name": "放电电阻器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5140",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4691",
+      "function_ids": [
+        "FN_F_5142_01",
+        "FN_F_5142_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5142"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5145",
+      "name": "中间直流环节检测保护组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5140",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4731",
+      "function_ids": [
+        "FN_F_5145_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5145"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5311",
+      "name": "牵引电机",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "5310",
+      "l2_product_id": "5300",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4777",
+      "function_ids": [
+        "FN_F_5311_01",
+        "FN_F_5311_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5311"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7124",
+      "name": "制动风缸",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7120",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4823",
+      "function_ids": [
+        "FN_F_7124_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7124"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7131",
+      "name": "总风管",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7130",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4845",
+      "function_ids": [
+        "FN_F_7131_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7131"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7142",
+      "name": "总风管压力传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7140",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4867",
+      "function_ids": [
+        "FN_F_7142_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7142"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7211",
+      "name": "电子制动控制单元(EBCU)",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7210",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:4895",
+      "function_ids": [
+        "FN_F_7211_01",
+        "FN_F_7211_02",
+        "FN_F_7211_03",
+        "FN_F_7211_04"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7211"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7213",
+      "name": "制动控制接触器及其他",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7210",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5133",
+      "function_ids": [
+        "FN_F_7213_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7213"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7222",
+      "name": "电空转换阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5161",
+      "function_ids": [
+        "FN_F_7222_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7222"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7223",
+      "name": "中继阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5189",
+      "function_ids": [
+        "FN_F_7223_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7223"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7224",
+      "name": "空重车调整阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5217",
+      "function_ids": [
+        "FN_F_7224_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7224"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7225",
+      "name": "控制电磁阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5245",
+      "function_ids": [
+        "FN_F_7225_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7225"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7226",
+      "name": "紧急制动阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5273",
+      "function_ids": [
+        "FN_F_7226_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7226"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7227",
+      "name": "缓解阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5313",
+      "function_ids": [
+        "FN_F_7227_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7227"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7228",
+      "name": "车厢直接制动截断塞门",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5335",
+      "function_ids": [
+        "FN_F_7228_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7228"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7229",
+      "name": "调压阀",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5369",
+      "function_ids": [
+        "FN_F_7229_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7229"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "722A",
+      "name": "防滑阀组成",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5391",
+      "function_ids": [
+        "FN_F_722A_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_722A"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "722B",
+      "name": "压力传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5431",
+      "function_ids": [
+        "FN_F_722B_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_722B"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "722C",
+      "name": "压力开关",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7220",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5453",
+      "function_ids": [
+        "FN_F_722C_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_722C"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7252",
+      "name": "非停放制动夹钳装置",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7250",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5475",
+      "function_ids": [
+        "FN_F_7252_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7252"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7254",
+      "name": "闸片",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7250",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5515",
+      "function_ids": [
+        "FN_F_7254_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7254"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7255",
+      "name": "增压缸",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7250",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5549",
+      "function_ids": [
+        "FN_F_7255_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7255"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7281",
+      "name": "制动指示器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7280",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5571",
+      "function_ids": [
+        "FN_F_7281_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7281"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7284",
+      "name": "转向架制动截断塞门",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7280",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5605",
+      "function_ids": [
+        "FN_F_7284_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7284"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7285",
+      "name": "单轴制动截断塞门",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "7280",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5639",
+      "function_ids": [
+        "FN_F_7285_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7285"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8121",
+      "name": "主控制单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8120",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5673",
+      "function_ids": [
+        "FN_F_8121_01",
+        "FN_F_8121_02",
+        "FN_F_8121_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8121"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8122",
+      "name": "车辆控制单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8120",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:5797",
+      "function_ids": [
+        "FN_F_8122_01",
+        "FN_F_8122_02",
+        "FN_F_8122_03",
+        "FN_F_8122_04",
+        "FN_F_8122_05"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8122"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8125",
+      "name": "列车级牵引控制单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8120",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6017",
+      "function_ids": [
+        "FN_F_8125_01",
+        "FN_F_8125_02",
+        "FN_F_8125_03",
+        "FN_F_8125_04"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8125"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8127",
+      "name": "ATP接口单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8120",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6153",
+      "function_ids": [
+        "FN_F_8127_01",
+        "FN_F_8127_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8127"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8128",
+      "name": "输入输出单元",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8120",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6193",
+      "function_ids": [
+        "FN_F_8128_01",
+        "FN_F_8128_02",
+        "FN_F_8128_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8128"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8151",
+      "name": "高压安全回路",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8150",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6329",
+      "function_ids": [
+        "FN_F_8151_01",
+        "FN_F_8151_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8151"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8152",
+      "name": "制动安全回路",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8150",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6357",
+      "function_ids": [
+        "FN_F_8152_01",
+        "FN_F_8152_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8152"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8154",
+      "name": "牵引安全回路",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8150",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6391",
+      "function_ids": [
+        "FN_F_8154_01",
+        "FN_F_8154_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8154"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8166",
+      "name": "能量计",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "8160",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6425",
+      "function_ids": [
+        "FN_F_8166_01",
+        "FN_F_8166_02",
+        "FN_F_8166_03",
+        "FN_F_8166_04"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8166"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D112",
+      "name": "方向操作元件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "D110",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6549",
+      "function_ids": [
+        "FN_F_D112_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D112"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D113",
+      "name": "牵引操作元件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "D110",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6565",
+      "function_ids": [
+        "FN_F_D113_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D113"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D114",
+      "name": "制动操作元件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "D110",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6581",
+      "function_ids": [
+        "FN_F_D114_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D114"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D121",
+      "name": "紧急制动按钮",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "D120",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6597",
+      "function_ids": [
+        "FN_F_D121_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D121"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D13B",
+      "name": "撒砂按钮",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "D130",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6613",
+      "function_ids": [
+        "FN_F_D13B_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D13B"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X111",
+      "name": "双向DC/DC变流模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X110",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6629",
+      "function_ids": [
+        "FN_F_X111_01",
+        "FN_F_X111_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X111"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X112",
+      "name": "双向DC/DC控制模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X110",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6687",
+      "function_ids": [
+        "FN_F_X112_01",
+        "FN_F_X112_02",
+        "FN_F_X112_03"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X112"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X113",
+      "name": "双向DC/DC检测保护组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X110",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6877",
+      "function_ids": [
+        "FN_F_X113_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X113"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X121",
+      "name": "超级电容模块",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X120",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6971",
+      "function_ids": [
+        "FN_F_X121_01",
+        "FN_F_X121_02"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X121"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X122",
+      "name": "超级电容电压传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X120",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:6999",
+      "function_ids": [
+        "FN_F_X122_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X122"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X123",
+      "name": "超级电容电流传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X120",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7021",
+      "function_ids": [
+        "FN_F_X123_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X123"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X124",
+      "name": "超级电容温度传感器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X120",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7043",
+      "function_ids": [
+        "FN_F_X124_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X124"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X131",
+      "name": "储能主接触器",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X130",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7065",
+      "function_ids": [
+        "FN_F_X131_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X131"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X132",
+      "name": "储能预充电组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X130",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7099",
+      "function_ids": [
+        "FN_F_X132_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X132"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X133",
+      "name": "储能支路保护组件",
+      "description": "",
+      "level": 4,
+      "parent_product_id": "X130",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7133",
+      "function_ids": [
+        "FN_F_X133_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X133"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3110",
+      "name": "车轮车轴",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "3100",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7173",
+      "function_ids": [
+        "FN_F_3110_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3110"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3120",
+      "name": "齿轮箱及附件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "3100",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7185",
+      "function_ids": [
+        "FN_F_3120_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3130",
+      "name": "制动盘",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "3100",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7196",
+      "function_ids": [
+        "FN_F_3130_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3130"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3510",
+      "name": "传动耦合机构",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "3500",
+      "l2_product_id": "3500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7209",
+      "function_ids": [
+        "FN_F_3510_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3510"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3640",
+      "name": "速度检测组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "3600",
+      "l2_product_id": "3600",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7222",
+      "function_ids": [
+        "FN_F_3640_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3640"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3810",
+      "name": "撒砂装置",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "3800",
+      "l2_product_id": "3800",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7235",
+      "function_ids": [
+        "FN_F_3810_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3810"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4110",
+      "name": "受电弓总成",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4100",
+      "l2_product_id": "4100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7248",
+      "function_ids": [
+        "FN_F_4110_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4110"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4120",
+      "name": "其它类型受流组成",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4100",
+      "l2_product_id": "4100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7260",
+      "function_ids": [],
+      "traceability": {
+        "sysml_refs": [
+          "P_4120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4210",
+      "name": "高压开关",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4200",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7271",
+      "function_ids": [
+        "FN_F_4210_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4210"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4230",
+      "name": "高压保护及检测部件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4200",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7283",
+      "function_ids": [
+        "FN_F_4230_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4230"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4240",
+      "name": "能量测量",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4200",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7297",
+      "function_ids": [
+        "FN_F_4240_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4240"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4410",
+      "name": "主回路回流设备",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4400",
+      "l2_product_id": "4400",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7308",
+      "function_ids": [
+        "FN_F_4410_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4410"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4510",
+      "name": "主变压器主体及其控制",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "4500",
+      "l2_product_id": "4500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7321",
+      "function_ids": [
+        "FN_F_4510_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4510"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5110",
+      "name": "牵引变流器控制",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "5100",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7335",
+      "function_ids": [
+        "FN_F_5110_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5110"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5120",
+      "name": "输入及预充电单元",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "5100",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7348",
+      "function_ids": [
+        "FN_F_5120_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5130",
+      "name": "变流模块",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "5100",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7360",
+      "function_ids": [
+        "FN_F_5130_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5130"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5140",
+      "name": "中间直流环节组件及其",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "5100",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7373",
+      "function_ids": [
+        "FN_F_5140_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5140"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5310",
+      "name": "牵引电机组成",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "5300",
+      "l2_product_id": "5300",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7385",
+      "function_ids": [
+        "FN_F_5310_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5310"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7120",
+      "name": "风缸",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7100",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7396",
+      "function_ids": [
+        "FN_F_7120_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7130",
+      "name": "列车级压缩空气分配组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7100",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7407",
+      "function_ids": [
+        "FN_F_7130_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7130"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7140",
+      "name": "供风压力开关及传感器",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7100",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7418",
+      "function_ids": [
+        "FN_F_7140_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7140"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7210",
+      "name": "制动控制组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7200",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7429",
+      "function_ids": [
+        "FN_F_7210_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7210"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7220",
+      "name": "直接制动控制",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7200",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7441",
+      "function_ids": [
+        "FN_F_7220_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7220"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7250",
+      "name": "制动夹钳及其配套组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7200",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7462",
+      "function_ids": [
+        "FN_F_7250_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7250"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7280",
+      "name": "其它制动元件及附件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "7200",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7475",
+      "function_ids": [
+        "FN_F_7280_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7280"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8120",
+      "name": "控制单元及输入输出模块",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "8100",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7488",
+      "function_ids": [
+        "FN_F_8120_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8150",
+      "name": "整车级安全回路及其附件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "8100",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7503",
+      "function_ids": [
+        "FN_F_8150_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8150"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8160",
+      "name": "其它附件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "8100",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7516",
+      "function_ids": [
+        "FN_F_8160_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8160"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D110",
+      "name": "基本操纵组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "D100",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7527",
+      "function_ids": [
+        "FN_F_D110_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D110"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D120",
+      "name": "紧急响应元件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "D100",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7540",
+      "function_ids": [
+        "FN_F_D120_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D130",
+      "name": "开关按钮功能组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "D100",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7551",
+      "function_ids": [
+        "FN_F_D130_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D130"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X110",
+      "name": "双向储能变流及控制",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "X100",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7562",
+      "function_ids": [
+        "FN_F_X110_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X110"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X120",
+      "name": "超级电容储能组件",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "X100",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7575",
+      "function_ids": [
+        "FN_F_X120_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X120"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X130",
+      "name": "储能接入与保护",
+      "description": "",
+      "level": 3,
+      "parent_product_id": "X100",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7589",
+      "function_ids": [
+        "FN_F_X130_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X130"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3100",
+      "name": "轮轴组成",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "3000",
+      "l2_product_id": "3100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7602",
+      "function_ids": [
+        "FN_F_3100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3500",
+      "name": "牵引传动耦合组件及其附件",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "3000",
+      "l2_product_id": "3500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7615",
+      "function_ids": [
+        "FN_F_3500_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3500"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3600",
+      "name": "转向架相关检测",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "3000",
+      "l2_product_id": "3600",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7626",
+      "function_ids": [
+        "FN_F_3600_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3600"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3800",
+      "name": "辅助增粘及轮缘润滑",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "3000",
+      "l2_product_id": "3800",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7637",
+      "function_ids": [
+        "FN_F_3800_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3800"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4100",
+      "name": "高压受流",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "4000",
+      "l2_product_id": "4100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7648",
+      "function_ids": [
+        "FN_F_4100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4200",
+      "name": "网侧高压分配及控制",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "4000",
+      "l2_product_id": "4200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7660",
+      "function_ids": [
+        "FN_F_4200_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4200"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4400",
+      "name": "回流及接地",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "4000",
+      "l2_product_id": "4400",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7673",
+      "function_ids": [
+        "FN_F_4400_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4400"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4500",
+      "name": "主变压器及其冷却",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "4000",
+      "l2_product_id": "4500",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7684",
+      "function_ids": [
+        "FN_F_4500_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4500"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5100",
+      "name": "牵引变流器主体及其控制",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "5000",
+      "l2_product_id": "5100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7695",
+      "function_ids": [
+        "FN_F_5100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5300",
+      "name": "牵引电机及其冷却",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "5000",
+      "l2_product_id": "5300",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7709",
+      "function_ids": [
+        "FN_F_5300_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5300"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7100",
+      "name": "供风",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "7000",
+      "l2_product_id": "7100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7720",
+      "function_ids": [
+        "FN_F_7100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7200",
+      "name": "制动",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "7000",
+      "l2_product_id": "7200",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7733",
+      "function_ids": [
+        "FN_F_7200_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7200"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8100",
+      "name": "列车主干网及安全回路",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "8000",
+      "l2_product_id": "8100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7747",
+      "function_ids": [
+        "FN_F_8100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D100",
+      "name": "操纵设施",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "D000",
+      "l2_product_id": "D100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7760",
+      "function_ids": [
+        "FN_F_D100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "E100",
+      "name": "ATP车载",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "E000",
+      "l2_product_id": "E100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7773",
+      "function_ids": [
+        "FN_F_E100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_E100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X100",
+      "name": "车载再生储能",
+      "description": "",
+      "level": 2,
+      "parent_product_id": "X000",
+      "l2_product_id": "X100",
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7795",
+      "function_ids": [
+        "FN_F_X100_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X100"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "3000",
+      "name": "转向架及其辅助",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7808",
+      "function_ids": [
+        "FN_F_3000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_3000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "4000",
+      "name": "主供电",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7822",
+      "function_ids": [
+        "FN_F_4000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_4000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "5000",
+      "name": "牵引",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7836",
+      "function_ids": [
+        "FN_F_5000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_5000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "7000",
+      "name": "供风制动",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7848",
+      "function_ids": [
+        "FN_F_7000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_7000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "8000",
+      "name": "网络及辅助监控",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7860",
+      "function_ids": [
+        "FN_F_8000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_8000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "D000",
+      "name": "驾驶设施",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7871",
+      "function_ids": [
+        "FN_F_D000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_D000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "E000",
+      "name": "电务车载",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7882",
+      "function_ids": [
+        "FN_F_E000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_E000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    },
+    {
+      "product_id": "X000",
+      "name": "再生储能扩展",
+      "description": "",
+      "level": 1,
+      "parent_product_id": null,
+      "l2_product_id": null,
+      "source": "SysML v2 part def",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7893",
+      "function_ids": [
+        "FN_F_X000_01"
+      ],
+      "traceability": {
+        "sysml_refs": [
+          "P_X000"
+        ],
+        "interface_refs": [],
+        "fmi_refs": [],
+        "fmu_refs": [],
+        "ssp_refs": [],
+        "simulation_refs": [],
+        "vv_refs": []
+      }
+    }
+  ]
+}

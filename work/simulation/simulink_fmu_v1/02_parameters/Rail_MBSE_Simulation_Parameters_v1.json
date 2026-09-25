@@ -1,0 +1,243 @@
+{
+  "parameters": {
+    "sample_time_s": 0.1,
+    "vehicle": {
+      "wheel_radius_m": 0.46,
+      "equivalent_rotational_inertia_kgm2": 18000,
+      "rolling_resistance_torque_Nm": 1500,
+      "aero_torque_coefficient": 0.8
+    },
+    "driveline": {
+      "gear_ratio": 6.2,
+      "efficiency": 0.96
+    },
+    "motor": {
+      "pole_pairs": 3,
+      "torque_slip_gain_Nm_per_radps": 30,
+      "torque_limit_Nm": 6000,
+      "time_constant_s": 0.2,
+      "efficiency_motoring": 0.94,
+      "efficiency_generating": 0.92
+    },
+    "converter": {
+      "dc_voltage_nominal_V": 1800,
+      "power_limit_W": 1.2E+6,
+      "grid_regen_acceptance_W": 0,
+      "efficiency_motoring": 0.96,
+      "efficiency_generating": 0.95
+    },
+    "transformer": {
+      "ratio_secondary_to_primary": 0.06,
+      "efficiency": 0.97
+    },
+    "line": {
+      "voltage_V": 25000,
+      "frequency_Hz": 50
+    },
+    "brake": {
+      "vehicle_mass_kg": 80000,
+      "max_service_deceleration_mps2": 1.2,
+      "max_dynamic_force_N": 77000,
+      "wheel_radius_m": 0.46,
+      "cylinder_pressure_max_Pa": 600000,
+      "cylinder_time_constant_s": 0.4
+    },
+    "pneumatic": {
+      "reservoir_pressure_nominal_Pa": 900000
+    },
+    "supercap": {
+      "capacitance_F": 120,
+      "esr_Ohm": 0.04,
+      "voltage_min_V": 500,
+      "voltage_max_V": 900,
+      "initial_soc": 0.35,
+      "charge_power_limit_W": 600000,
+      "discharge_power_limit_W": 400000,
+      "current_limit_A": 900,
+      "dcdc_efficiency_charge": 0.96,
+      "dcdc_efficiency_discharge": 0.95
+    }
+  },
+  "metadata": [
+    {
+      "parameter": "sample_time_s",
+      "value": 0.1,
+      "unit": "s",
+      "component": "ALL",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "System-level averaged co-simulation step."
+    },
+    {
+      "parameter": "wheel_radius_m",
+      "value": 0.46,
+      "unit": "m",
+      "component": "L2_3100/L2_7200",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Representative rail wheel rolling radius."
+    },
+    {
+      "parameter": "equivalent_rotational_inertia_kgm2",
+      "value": 18000,
+      "unit": "kg*m^2",
+      "component": "L2_3100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "high",
+      "assumption": "Consistent with m*r^2 for the 80000 kg equivalent mass and 0.46 m wheel radius, with drivetrain allowance."
+    },
+    {
+      "parameter": "gear_ratio",
+      "value": 6.2,
+      "unit": "1",
+      "component": "L2_3500",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Representative single-stage rail final drive ratio."
+    },
+    {
+      "parameter": "driveline_efficiency",
+      "value": 0.96,
+      "unit": "1",
+      "component": "L2_3500",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "System-level gearbox efficiency."
+    },
+    {
+      "parameter": "motor_torque_limit_Nm",
+      "value": 6000,
+      "unit": "N*m",
+      "component": "L2_5300",
+      "source": "SOURCE_MODEL",
+      "confidence": "medium",
+      "assumption": "Consistent with the reusable PMSM traction-model scale; not a certified vehicle value."
+    },
+    {
+      "parameter": "motor_efficiency_motoring",
+      "value": 0.94,
+      "unit": "1",
+      "component": "L2_5300",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average PMSM motoring efficiency."
+    },
+    {
+      "parameter": "motor_efficiency_generating",
+      "value": 0.92,
+      "unit": "1",
+      "component": "L2_5300",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Average PMSM generating efficiency."
+    },
+    {
+      "parameter": "dc_voltage_nominal_V",
+      "value": 1800,
+      "unit": "V",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Representative traction DC-link voltage."
+    },
+    {
+      "parameter": "converter_power_limit_W",
+      "value": 1.2E+6,
+      "unit": "W",
+      "component": "L2_5100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "System-level converter power limit."
+    },
+    {
+      "parameter": "line_voltage_V",
+      "value": 25000,
+      "unit": "V",
+      "component": "L2_4100/L2_4200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "25 kV AC railway supply boundary."
+    },
+    {
+      "parameter": "vehicle_mass_kg",
+      "value": 80000,
+      "unit": "kg",
+      "component": "L2_7200",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Representative single train-unit equivalent mass."
+    },
+    {
+      "parameter": "max_service_deceleration_mps2",
+      "value": 1.2,
+      "unit": "m/s^2",
+      "component": "L2_7200",
+      "source": "LEGACY_CONTRACT",
+      "confidence": "medium",
+      "assumption": "Interprets frozen service-brake request as demanded deceleration."
+    },
+    {
+      "parameter": "reservoir_pressure_nominal_Pa",
+      "value": 900000,
+      "unit": "Pa",
+      "component": "L2_7100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "medium",
+      "assumption": "Representative main-reservoir pressure."
+    },
+    {
+      "parameter": "supercap_capacitance_F",
+      "value": 120,
+      "unit": "F",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Equivalent bank capacitance for system-level energy dynamics."
+    },
+    {
+      "parameter": "supercap_esr_Ohm",
+      "value": 0.04,
+      "unit": "Ohm",
+      "component": "L2_X100",
+      "source": "LITERATURE_TYPICAL",
+      "confidence": "low",
+      "assumption": "Equivalent bank ESR; requires vehicle-specific calibration."
+    },
+    {
+      "parameter": "supercap_voltage_min_V",
+      "value": 500,
+      "unit": "V",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Lower operating voltage assumption."
+    },
+    {
+      "parameter": "supercap_voltage_max_V",
+      "value": 900,
+      "unit": "V",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Upper operating voltage assumption."
+    },
+    {
+      "parameter": "supercap_charge_power_limit_W",
+      "value": 600000,
+      "unit": "W",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Bidirectional DC/DC charge limit."
+    },
+    {
+      "parameter": "supercap_discharge_power_limit_W",
+      "value": 400000,
+      "unit": "W",
+      "component": "L2_X100",
+      "source": "ENGINEERING_ASSUMPTION",
+      "confidence": "medium",
+      "assumption": "Bidirectional DC/DC discharge limit."
+    }
+  ]
+}

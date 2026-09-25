@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "counts": {
+    "products": 147,
+    "items": 144,
+    "interfaces": 517,
+    "active_interfaces": 511,
+    "connections": 184,
+    "physical_nets": 9,
+    "net_members": 82,
+    "leaf_functions": 135,
+    "aggregated_functions": 56,
+    "functions": 191,
+    "allocations": 191,
+    "function_interface_mappings": 471
+  },
+  "function_qa": {
+    "FUN-QA-01": true,
+    "FUN-QA-02": true,
+    "FUN-QA-03": true,
+    "FUN-QA-04": true,
+    "FUN-QA-05": true,
+    "FUN-QA-06": true,
+    "FUN-QA-07": true,
+    "FUN-QA-08": true,
+    "FUN-QA-09": true
+  },
+  "xmi_qa": {
+    "XMI-QA-01": true,
+    "XMI-QA-02": true,
+    "XMI-QA-03": true,
+    "XMI-QA-04": true,
+    "XMI-QA-05": true,
+    "XMI-QA-06": true,
+    "XMI-QA-07": true,
+    "XMI-QA-08": true,
+    "XMI-QA-09": true,
+    "XMI-QA-10": true
+  },
+  "schema_validation": "PASS",
+  "schema_errors": [],
+  "voltage_anchors": {
+    "U_dc": "PASS",
+    "U_grid": "PASS",
+    "U_motor": "PASS",
+    "U_sc": "PASS",
+    "U_transformer_primary": "PASS",
+    "U_transformer_secondary": "PASS"
+  },
+  "workbook_qa": "PASS",
+  "workbook_counts": {
+    "Function": 191,
+    "Function_Allocation": 191,
+    "Interface": 517,
+    "Function_Interface": 471,
+    "Connection": 184,
+    "PhysicalNet": 9,
+    "Net_Member": 82,
+    "Product_Hierarchy": 147,
+    "Item": 144,
+    "XMI_Export_QA": 10
+  },
+  "repeatability": {
+    "architecture_json_byte_identical": true,
+    "schema_json_byte_identical": true,
+    "workbook_byte_identical": false,
+    "workbook_semantically_identical": true,
+    "status": "PASS"
+  }
+}

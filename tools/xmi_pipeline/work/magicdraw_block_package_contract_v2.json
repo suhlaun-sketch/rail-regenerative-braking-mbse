@@ -1,0 +1,22 @@
+{
+  "contract_id": "MAGICDRAW-BLOCK-PACKAGE-CONTRACT-V2",
+  "product_count_frozen": 147,
+  "product_mapping": "exactly one uml:Class + SysML::Block per Product",
+  "forbidden_product_metaclasses": [
+    "uml:Package",
+    "uml:Signal",
+    "uml:DataType",
+    "uml:Property"
+  ],
+  "domain_packages": {
+    "3000": "转向架产品域",
+    "4000": "主供电产品域",
+    "5000": "牵引产品域",
+    "7000": "供风制动产品域",
+    "8000": "网络与辅助监控产品域",
+    "D000": "驾驶设施产品域",
+    "E000": "电务车载产品域",
+    "X000": "再生储能产品域"
+  },
+  "context": "Rail_MBSE_TractionBrake_Context is uml:Class + SysML::Block"
+}

@@ -1,0 +1,25 @@
+{
+  "operation_name": "createRepresentation",
+  "timestamp": "2026-09-24T08:33:13.228671+00:00",
+  "variables": {
+    "input": {
+      "id": "6309c048-71d2-49ec-b4c6-943d8db282ad",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "objectId": "b5f57a33-a398-4ccd-bb6c-6f0944e566aa",
+      "representationDescriptionId": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+      "representationName": "AUTO_FULL_PROBE_req_REQ_BRK_015"
+    }
+  },
+  "representation_id": null,
+  "response": {
+    "createRepresentation": {
+      "__typename": "CreateRepresentationSuccessPayload",
+      "representation": {
+        "id": "2e608615-66bf-4573-9780-44d55f14c9c2",
+        "label": "AUTO_FULL_PROBE_req_REQ_BRK_015",
+        "kind": "siriusComponents://representation?type=Diagram"
+      }
+    }
+  },
+  "error": null
+}

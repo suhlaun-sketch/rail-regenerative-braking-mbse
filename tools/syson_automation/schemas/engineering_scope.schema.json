@@ -1,0 +1,1352 @@
+{
+  "$defs": {
+    "CanonicalProduct": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "source_product_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Product Ids",
+          "type": "array"
+        },
+        "source_element_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Element Ids",
+          "type": "array"
+        },
+        "source_allocation_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Allocation Refs",
+          "type": "array"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        },
+        "flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Flow Refs",
+          "type": "array"
+        },
+        "merge_kind": {
+          "default": "IDENTITY",
+          "enum": [
+            "IDENTITY",
+            "EXPLICIT_VISUAL_OCCURRENCE"
+          ],
+          "title": "Merge Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "display_name",
+        "source_product_ids"
+      ],
+      "title": "CanonicalProduct",
+      "type": "object"
+    },
+    "ClosureWitness": {
+      "additionalProperties": false,
+      "properties": {
+        "neighbor_product_id": {
+          "title": "Neighbor Product Id",
+          "type": "string"
+        },
+        "interface_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Interface Ref"
+        },
+        "flow_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Flow Ref"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "neighbor_product_id"
+      ],
+      "title": "ClosureWitness",
+      "type": "object"
+    },
+    "ContainerIBDViewSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "view_id": {
+          "title": "View Id",
+          "type": "string"
+        },
+        "view_name": {
+          "title": "View Name",
+          "type": "string"
+        },
+        "container_product_id": {
+          "title": "Container Product Id",
+          "type": "string"
+        },
+        "container_product_name": {
+          "title": "Container Product Name",
+          "type": "string"
+        },
+        "hierarchy_level": {
+          "title": "Hierarchy Level",
+          "type": "integer"
+        },
+        "drilldown_depth": {
+          "title": "Drilldown Depth",
+          "type": "integer"
+        },
+        "direct_children": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Direct Children",
+          "type": "array"
+        },
+        "internal_connections": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Internal Connections",
+          "type": "array"
+        },
+        "real_boundary_ports": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Real Boundary Ports",
+          "type": "array"
+        },
+        "virtual_boundary_projections": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Virtual Boundary Projections",
+          "type": "array"
+        },
+        "boundary_links": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Boundary Links",
+          "type": "array"
+        },
+        "external_endpoints": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "External Endpoints",
+          "type": "array"
+        },
+        "external_connections": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "External Connections",
+          "type": "array"
+        },
+        "drilldown_targets": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Drilldown Targets",
+          "type": "array"
+        },
+        "parent_container_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent Container Id"
+        },
+        "evidence_summary": {
+          "additionalProperties": true,
+          "title": "Evidence Summary",
+          "type": "object"
+        }
+      },
+      "required": [
+        "view_id",
+        "view_name",
+        "container_product_id",
+        "container_product_name",
+        "hierarchy_level",
+        "drilldown_depth"
+      ],
+      "title": "ContainerIBDViewSpec",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "text"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "FlowScopeItem": {
+      "additionalProperties": false,
+      "properties": {
+        "source_product_id": {
+          "title": "Source Product Id",
+          "type": "string"
+        },
+        "target_product_id": {
+          "title": "Target Product Id",
+          "type": "string"
+        },
+        "flow_name": {
+          "title": "Flow Name",
+          "type": "string"
+        },
+        "flow_kind": {
+          "title": "Flow Kind",
+          "type": "string"
+        },
+        "flow_ref": {
+          "title": "Flow Ref",
+          "type": "string"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        },
+        "evidence": {
+          "default": "",
+          "title": "Evidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_product_id",
+        "target_product_id",
+        "flow_name",
+        "flow_kind",
+        "flow_ref"
+      ],
+      "title": "FlowScopeItem",
+      "type": "object"
+    },
+    "FunctionScopeItem": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "owner_product_id": {
+          "title": "Owner Product Id",
+          "type": "string"
+        },
+        "owner_product_name": {
+          "title": "Owner Product Name",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "owner_product_id",
+        "owner_product_name"
+      ],
+      "title": "FunctionScopeItem",
+      "type": "object"
+    },
+    "HierarchyNode": {
+      "additionalProperties": false,
+      "properties": {
+        "product_id": {
+          "title": "Product Id",
+          "type": "string"
+        },
+        "product_name": {
+          "title": "Product Name",
+          "type": "string"
+        },
+        "level": {
+          "title": "Level",
+          "type": "integer"
+        },
+        "parent_product_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent Product Id"
+        },
+        "child_product_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Child Product Ids",
+          "type": "array"
+        },
+        "hierarchy_path": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Hierarchy Path",
+          "type": "array"
+        },
+        "role": {
+          "enum": [
+            "OWNER",
+            "INTERACTION_NEIGHBOR",
+            "HIERARCHY_ANCESTOR"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "product_id",
+        "product_name",
+        "level",
+        "role"
+      ],
+      "title": "HierarchyNode",
+      "type": "object"
+    },
+    "IBDBoundaryPort": {
+      "additionalProperties": false,
+      "properties": {
+        "port_id": {
+          "title": "Port Id",
+          "type": "string"
+        },
+        "parent_product_id": {
+          "title": "Parent Product Id",
+          "type": "string"
+        },
+        "child_product_id": {
+          "title": "Child Product Id",
+          "type": "string"
+        },
+        "source_product_id": {
+          "title": "Source Product Id",
+          "type": "string"
+        },
+        "source_element_id": {
+          "title": "Source Element Id",
+          "type": "string"
+        },
+        "target_product_id": {
+          "title": "Target Product Id",
+          "type": "string"
+        },
+        "target_element_id": {
+          "title": "Target Element Id",
+          "type": "string"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Flow Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        },
+        "evidence_type": {
+          "const": "DERIVED_BOUNDARY",
+          "default": "DERIVED_BOUNDARY",
+          "title": "Evidence Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "port_id",
+        "parent_product_id",
+        "child_product_id",
+        "source_product_id",
+        "source_element_id",
+        "target_product_id",
+        "target_element_id"
+      ],
+      "title": "IBDBoundaryPort",
+      "type": "object"
+    },
+    "IBDConnection": {
+      "additionalProperties": false,
+      "properties": {
+        "source_product_id": {
+          "title": "Source Product Id",
+          "type": "string"
+        },
+        "source_element_id": {
+          "title": "Source Element Id",
+          "type": "string"
+        },
+        "target_product_id": {
+          "title": "Target Product Id",
+          "type": "string"
+        },
+        "target_element_id": {
+          "title": "Target Element Id",
+          "type": "string"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Flow Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        },
+        "evidence_type": {
+          "enum": [
+            "EXPLICIT_CONNECTOR",
+            "EXPLICIT_FLOW",
+            "DERIVED_BOUNDARY"
+          ],
+          "title": "Evidence Type",
+          "type": "string"
+        },
+        "aggregated_from_flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aggregated From Flow Refs",
+          "type": "array"
+        },
+        "aggregated_from_interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aggregated From Interface Refs",
+          "type": "array"
+        },
+        "aggregated_from_connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aggregated From Connector Refs",
+          "type": "array"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        },
+        "target": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target"
+        },
+        "source_canonical_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Canonical Id"
+        },
+        "target_canonical_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Canonical Id"
+        }
+      },
+      "required": [
+        "source_product_id",
+        "source_element_id",
+        "target_product_id",
+        "target_element_id",
+        "evidence_type"
+      ],
+      "title": "IBDConnection",
+      "type": "object"
+    },
+    "IBDEvidenceSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "connection_count": {
+          "default": 0,
+          "title": "Connection Count",
+          "type": "integer"
+        },
+        "internal_connection_count": {
+          "default": 0,
+          "title": "Internal Connection Count",
+          "type": "integer"
+        },
+        "boundary_port_count": {
+          "default": 0,
+          "title": "Boundary Port Count",
+          "type": "integer"
+        },
+        "boundary_link_count": {
+          "default": 0,
+          "title": "Boundary Link Count",
+          "type": "integer"
+        },
+        "external_connection_count": {
+          "default": 0,
+          "title": "External Connection Count",
+          "type": "integer"
+        },
+        "evidence_type_counts": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Evidence Type Counts",
+          "type": "object"
+        }
+      },
+      "title": "IBDEvidenceSummary",
+      "type": "object"
+    },
+    "IBDProduct": {
+      "additionalProperties": false,
+      "properties": {
+        "product_id": {
+          "title": "Product Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "level": {
+          "title": "Level",
+          "type": "integer"
+        },
+        "parent_product_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent Product Id"
+        },
+        "canonical_product_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Product Id"
+        }
+      },
+      "required": [
+        "product_id",
+        "name",
+        "level"
+      ],
+      "title": "IBDProduct",
+      "type": "object"
+    },
+    "InterfaceScopeItem": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Flow Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "InterfaceScopeItem",
+      "type": "object"
+    },
+    "ProductClosureEdge": {
+      "additionalProperties": false,
+      "properties": {
+        "source_product_id": {
+          "title": "Source Product Id",
+          "type": "string"
+        },
+        "target_product_id": {
+          "title": "Target Product Id",
+          "type": "string"
+        },
+        "flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Flow Refs",
+          "type": "array"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        },
+        "directions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Directions",
+          "type": "array"
+        },
+        "flow_kinds": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Flow Kinds",
+          "type": "object"
+        },
+        "evidence_sources": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Sources",
+          "type": "array"
+        }
+      },
+      "required": [
+        "source_product_id",
+        "target_product_id"
+      ],
+      "title": "ProductClosureEdge",
+      "type": "object"
+    },
+    "ProductClosureNode": {
+      "additionalProperties": false,
+      "properties": {
+        "product_id": {
+          "title": "Product Id",
+          "type": "string"
+        },
+        "product_name": {
+          "title": "Product Name",
+          "type": "string"
+        },
+        "canonical_name": {
+          "title": "Canonical Name",
+          "type": "string"
+        },
+        "source_element_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Element Ids",
+          "type": "array"
+        },
+        "seed": {
+          "title": "Seed",
+          "type": "boolean"
+        },
+        "introduced_at_round": {
+          "title": "Introduced At Round",
+          "type": "integer"
+        },
+        "introduced_by": {
+          "items": {
+            "$ref": "#/$defs/ClosureWitness"
+          },
+          "title": "Introduced By",
+          "type": "array"
+        }
+      },
+      "required": [
+        "product_id",
+        "product_name",
+        "canonical_name",
+        "seed",
+        "introduced_at_round"
+      ],
+      "title": "ProductClosureNode",
+      "type": "object"
+    },
+    "ProductScopeItem": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "level": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Level"
+        },
+        "role": {
+          "enum": [
+            "OWNER",
+            "INTERACTION_NEIGHBOR",
+            "HIERARCHY_ANCESTOR"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "role"
+      ],
+      "title": "ProductScopeItem",
+      "type": "object"
+    },
+    "RequirementScopeItem": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "requirement_level": {
+          "title": "Requirement Level",
+          "type": "string"
+        },
+        "source_type": {
+          "title": "Source Type",
+          "type": "string"
+        },
+        "score": {
+          "default": 0,
+          "title": "Score",
+          "type": "number"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "parent_requirement_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Parent Requirement Ids",
+          "type": "array"
+        },
+        "derived_requirement_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Derived Requirement Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "requirement_level",
+        "source_type"
+      ],
+      "title": "RequirementScopeItem",
+      "type": "object"
+    },
+    "ScopeViewPlan": {
+      "additionalProperties": false,
+      "properties": {
+        "requirement_view": {
+          "$ref": "#/$defs/ViewSpec"
+        },
+        "function_product_view": {
+          "$ref": "#/$defs/ViewSpec"
+        },
+        "hierarchical_ibd_views": {
+          "items": {
+            "$ref": "#/$defs/ViewSpec"
+          },
+          "title": "Hierarchical Ibd Views",
+          "type": "array"
+        },
+        "full_hierarchy_projection": {
+          "items": {
+            "$ref": "#/$defs/ViewSpec"
+          },
+          "title": "Full Hierarchy Projection",
+          "type": "array"
+        },
+        "container_ibd_views": {
+          "items": {
+            "$ref": "#/$defs/ContainerIBDViewSpec"
+          },
+          "title": "Container Ibd Views",
+          "type": "array"
+        },
+        "ibd_views": {
+          "items": {
+            "$ref": "#/$defs/ViewSpec"
+          },
+          "title": "Ibd Views",
+          "type": "array"
+        }
+      },
+      "required": [
+        "requirement_view",
+        "function_product_view"
+      ],
+      "title": "ScopeViewPlan",
+      "type": "object"
+    },
+    "ViewSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "view_type": {
+          "enum": [
+            "REQUIREMENT",
+            "FUNCTION_PRODUCT",
+            "IBD"
+          ],
+          "title": "View Type",
+          "type": "string"
+        },
+        "status": {
+          "default": "PLANNED",
+          "title": "Status",
+          "type": "string"
+        },
+        "requirement_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Requirement Ids",
+          "type": "array"
+        },
+        "function_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Function Ids",
+          "type": "array"
+        },
+        "product_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Product Ids",
+          "type": "array"
+        },
+        "interface_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Interface Refs",
+          "type": "array"
+        },
+        "flow_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Flow Refs",
+          "type": "array"
+        },
+        "connector_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Connector Refs",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "hierarchy_level": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hierarchy Level"
+        },
+        "canonical_product_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Canonical Product Ids",
+          "type": "array"
+        },
+        "projected_interactions": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Projected Interactions",
+          "type": "array"
+        },
+        "view_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "View Id"
+        },
+        "level": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Level"
+        },
+        "products": {
+          "items": {
+            "$ref": "#/$defs/IBDProduct"
+          },
+          "title": "Products",
+          "type": "array"
+        },
+        "internal_connections": {
+          "items": {
+            "$ref": "#/$defs/IBDConnection"
+          },
+          "title": "Internal Connections",
+          "type": "array"
+        },
+        "boundary_ports": {
+          "items": {
+            "$ref": "#/$defs/IBDBoundaryPort"
+          },
+          "title": "Boundary Ports",
+          "type": "array"
+        },
+        "boundary_links": {
+          "items": {
+            "$ref": "#/$defs/IBDConnection"
+          },
+          "title": "Boundary Links",
+          "type": "array"
+        },
+        "external_connections": {
+          "items": {
+            "$ref": "#/$defs/IBDConnection"
+          },
+          "title": "External Connections",
+          "type": "array"
+        },
+        "evidence_summary": {
+          "$ref": "#/$defs/IBDEvidenceSummary"
+        },
+        "parent_view_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent View Name"
+        },
+        "child_view_names": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Child View Names",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "view_type"
+      ],
+      "title": "ViewSpec",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "scope_id": {
+      "title": "Scope Id",
+      "type": "string"
+    },
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "query_provider": {
+      "title": "Query Provider",
+      "type": "string"
+    },
+    "requirements": {
+      "items": {
+        "$ref": "#/$defs/RequirementScopeItem"
+      },
+      "title": "Requirements",
+      "type": "array"
+    },
+    "functions": {
+      "items": {
+        "$ref": "#/$defs/FunctionScopeItem"
+      },
+      "title": "Functions",
+      "type": "array"
+    },
+    "products": {
+      "items": {
+        "$ref": "#/$defs/ProductScopeItem"
+      },
+      "title": "Products",
+      "type": "array"
+    },
+    "interfaces": {
+      "items": {
+        "$ref": "#/$defs/InterfaceScopeItem"
+      },
+      "title": "Interfaces",
+      "type": "array"
+    },
+    "flows": {
+      "items": {
+        "$ref": "#/$defs/FlowScopeItem"
+      },
+      "title": "Flows",
+      "type": "array"
+    },
+    "seed_products": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Seed Products",
+      "type": "array"
+    },
+    "product_closure": {
+      "items": {
+        "$ref": "#/$defs/ProductClosureNode"
+      },
+      "title": "Product Closure",
+      "type": "array"
+    },
+    "closure_edges": {
+      "items": {
+        "$ref": "#/$defs/ProductClosureEdge"
+      },
+      "title": "Closure Edges",
+      "type": "array"
+    },
+    "canonical_products": {
+      "items": {
+        "$ref": "#/$defs/CanonicalProduct"
+      },
+      "title": "Canonical Products",
+      "type": "array"
+    },
+    "hierarchy_nodes": {
+      "items": {
+        "$ref": "#/$defs/HierarchyNode"
+      },
+      "title": "Hierarchy Nodes",
+      "type": "array"
+    },
+    "hierarchical_ibd_views": {
+      "items": {
+        "$ref": "#/$defs/ViewSpec"
+      },
+      "title": "Hierarchical Ibd Views",
+      "type": "array"
+    },
+    "full_hierarchy_projection": {
+      "items": {
+        "$ref": "#/$defs/ViewSpec"
+      },
+      "title": "Full Hierarchy Projection",
+      "type": "array"
+    },
+    "container_ibd_views": {
+      "items": {
+        "$ref": "#/$defs/ContainerIBDViewSpec"
+      },
+      "title": "Container Ibd Views",
+      "type": "array"
+    },
+    "closure_stats": {
+      "additionalProperties": true,
+      "title": "Closure Stats",
+      "type": "object"
+    },
+    "view_plan": {
+      "$ref": "#/$defs/ScopeViewPlan"
+    },
+    "limits_applied": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limits Applied",
+      "type": "array"
+    },
+    "source_hashes": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Source Hashes",
+      "type": "object"
+    },
+    "diagnostics": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Diagnostics",
+      "type": "array"
+    },
+    "raw_stats": {
+      "additionalProperties": true,
+      "title": "Raw Stats",
+      "type": "object"
+    }
+  },
+  "required": [
+    "scope_id",
+    "query",
+    "created_at",
+    "query_provider",
+    "requirements",
+    "functions",
+    "products",
+    "interfaces",
+    "flows",
+    "view_plan"
+  ],
+  "title": "EngineeringScopeManifest",
+  "type": "object"
+}

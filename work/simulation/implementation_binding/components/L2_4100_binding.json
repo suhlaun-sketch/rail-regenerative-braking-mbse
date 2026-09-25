@@ -1,0 +1,38 @@
+{
+  "ssd_component_id": "L2_4100",
+  "ssd_component_name": "L2_4100",
+  "l2_code": "4100",
+  "l2_engineering_name": "高压受流",
+  "inputs": [
+    {
+      "binding_id": "BIND::L2_4100::p_411C_rp_201c13a158f19a88",
+      "ssd_connector_name": "p_411C_rp_201c13a158f19a88",
+      "simulink_port_name": "p_411C_rp_201c13a158f19a88",
+      "future_fmu_variable": "p_411C_rp_201c13a158f19a88",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "outputs": [
+    {
+      "binding_id": "BIND::L2_4100::p_4111_rp_ca65ceda639dfc7a",
+      "ssd_connector_name": "p_4111_rp_ca65ceda639dfc7a",
+      "simulink_port_name": "p_4111_rp_ca65ceda639dfc7a",
+      "future_fmu_variable": "p_4111_rp_ca65ceda639dfc7a",
+      "binding_status": "SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "binding_id": "BIND::L2_4100::p_411C_rp_72d2eed2608e1b56",
+      "ssd_connector_name": "p_411C_rp_72d2eed2608e1b56",
+      "simulink_port_name": "p_411C_rp_72d2eed2608e1b56",
+      "future_fmu_variable": "p_411C_rp_72d2eed2608e1b56",
+      "binding_status": "LEGACY_CONTRACT_CONFLICT"
+    }
+  ],
+  "total_connectors": 3,
+  "connected_l2_peers": [
+    "L2_4200"
+  ],
+  "future_simulink": "L2_4100.slx",
+  "future_fmu": "L2_4100.fmu",
+  "readiness": "REVIEW_REQUIRED"
+}

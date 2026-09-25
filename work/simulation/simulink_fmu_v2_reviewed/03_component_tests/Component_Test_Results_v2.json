@@ -1,0 +1,458 @@
+[
+  {
+    "component": "L2_3100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 2,
+      "expected_inputs": 2,
+      "outputs": 4,
+      "expected_outputs": 4
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 6,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_omega_axle": 0.694408831275221,
+      "out_omega_gearbox": 0.694408831275221,
+      "out_omega_shaft": 0.694408831275221,
+      "out_omega_wheel": 0.694408831275221
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_3500",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3500.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 2,
+      "expected_inputs": 2,
+      "outputs": 2,
+      "expected_outputs": 2
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 4,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_T_shaft": 35712,
+      "out_omega_shaft": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_3600",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3600.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 3,
+      "expected_inputs": 3,
+      "outputs": 1,
+      "expected_outputs": 1
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 4,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_motor_speed": 93.333333333333229
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_3800",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_3800.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 1,
+      "expected_inputs": 1,
+      "outputs": 0,
+      "expected_outputs": 0
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 1,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {},
+    "error": ""
+  },
+  {
+    "component": "L2_4100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 2,
+      "expected_inputs": 2,
+      "outputs": 3,
+      "expected_outputs": 3
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 5,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_U_ac_rms": 24960,
+      "out_f_ac": 50,
+      "out_pantograph_state": 1
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_4200",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4200.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 6,
+      "expected_inputs": 6,
+      "outputs": 9,
+      "expected_outputs": 9
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 15,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_I_ac_rms": 100,
+      "out_U_ac_rms": 25000,
+      "out_f_ac": 50,
+      "out_hv_breaker_command": 0,
+      "out_hv_breaker_state": 1,
+      "out_hv_system_fault": 0,
+      "out_line_current": 100,
+      "out_line_voltage": 25000,
+      "out_pantograph_command": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_4400",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4400.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 0,
+      "expected_inputs": 0,
+      "outputs": 0,
+      "expected_outputs": 0
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 0,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {},
+    "error": ""
+  },
+  {
+    "component": "L2_4500",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_4500.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 5,
+      "expected_inputs": 5,
+      "outputs": 4,
+      "expected_outputs": 4
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 9,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_I_ac_rms": 0,
+      "out_U_sec_rms": 0,
+      "out_f_sec": 0,
+      "out_hv_system_fault": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_5100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_5100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 9,
+      "expected_inputs": 9,
+      "outputs": 10,
+      "expected_outputs": 10
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 19,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_I_sec_rms": 796.59859920724239,
+      "out_U_motor_ll_rms": 891.26768131461392,
+      "out_brake_resistor_dissipated_power": 0,
+      "out_dc_link_current": 1505.0468905291318,
+      "out_dc_link_voltage": 1607.4144172328165,
+      "out_f_motor_e": 127.32395447351628,
+      "out_grid_acceptable_regenerative_power": 0,
+      "out_grid_returned_power": 0,
+      "out_regenerative_power_actual": 360640,
+      "out_traction_converter_fault": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_5300",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_5300.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 3,
+      "expected_inputs": 3,
+      "outputs": 6,
+      "expected_outputs": 6
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 9,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_I_motor_rms": 94.449813217840642,
+      "out_T_shaft": 2513.2741228192144,
+      "out_motor_phase_voltage": 0,
+      "out_motor_speed": 0,
+      "out_motor_torque_actual": 2513.2741228192144,
+      "out_omega_motor": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_7100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_7100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 0,
+      "expected_inputs": 0,
+      "outputs": 1,
+      "expected_outputs": 1
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 1,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_main_reservoir_pressure": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_7200",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_7200.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 10,
+      "expected_inputs": 10,
+      "outputs": 4,
+      "expected_outputs": 4
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 13,
+    "units_traced_where_not_supported": 1,
+    "output_ranges": {
+      "out_T_brake": 15910.673112362432,
+      "out_brake_availability": 0,
+      "out_brake_cylinder_pressure": 224782.1747477047,
+      "out_dynamic_brake_force_request": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_8100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_8100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 29,
+      "expected_inputs": 29,
+      "outputs": 17,
+      "expected_outputs": 17
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 44,
+    "units_traced_where_not_supported": 2,
+    "output_ranges": {
+      "out_achieved_dynamic_brake_force": 51756.521739130432,
+      "out_available_dynamic_brake_force": 0,
+      "out_brake_cylinder_pressure": 0,
+      "out_brake_safety_loop_state": 0,
+      "out_dcdc_enable_command": 0,
+      "out_dynamic_brake_availability": 0,
+      "out_emergency_brake_request": 0,
+      "out_ess_contactor_command": 0,
+      "out_ess_fault_reset_command": 0,
+      "out_ess_power_request": 0,
+      "out_ess_precharge_command": 1,
+      "out_hv_safety_loop_state": 0,
+      "out_main_reservoir_pressure": 0,
+      "out_motor_torque_request": 0,
+      "out_safety_brake_request": 0,
+      "out_sanding_request": 0,
+      "out_service_brake_request": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_D100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_D100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 0,
+      "expected_inputs": 0,
+      "outputs": 4,
+      "expected_outputs": 4
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 3,
+    "units_traced_where_not_supported": 1,
+    "output_ranges": {
+      "out_emergency_brake_request": 0,
+      "out_service_brake_request": 0,
+      "out_traction_command": 1,
+      "out_train_direction_command": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_E100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_E100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 0,
+      "expected_inputs": 0,
+      "outputs": 2,
+      "expected_outputs": 2
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 2,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_external_safety_system_state": 0,
+      "out_safety_brake_request": 0
+    },
+    "error": ""
+  },
+  {
+    "component": "L2_X100",
+    "model_file": "C:\\RailMBSE_Runtime\\project\\work\\simulation\\simulink_fmu_v2_reviewed\\01_models\\L2_X100.slx",
+    "load_status": "PASS",
+    "update_status": "PASS",
+    "simulation_status": "PASS",
+    "finite_outputs": true,
+    "port_interface_status": "PASS",
+    "dynamic_test_status": "PASS",
+    "status": "PASS",
+    "port_counts": {
+      "inputs": 5,
+      "expected_inputs": 5,
+      "outputs": 7,
+      "expected_outputs": 7
+    },
+    "external_names_match": true,
+    "datatypes_match": true,
+    "units_set_where_supported": 12,
+    "units_traced_where_not_supported": 0,
+    "output_ranges": {
+      "out_dcdc_actual_power": 400000,
+      "out_ess_absorbed_power": 288000,
+      "out_ess_availability": 0,
+      "out_ess_available_charge_power": 0,
+      "out_ess_available_discharge_power": 0,
+      "out_ess_fault": 0,
+      "out_super_cap_soc": 0.042798621553884753
+    },
+    "error": ""
+  }
+]

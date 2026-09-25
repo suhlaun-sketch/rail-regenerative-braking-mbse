@@ -1,0 +1,7 @@
+{
+  "base_url": "http://localhost:8080",
+  "graphql_endpoint": "/api/graphql",
+  "project_name_hint": "Rail_Regenerative_Braking_MBSE",
+  "request_timeout_seconds": 12,
+  "element_search_timeout_seconds": 8
+}

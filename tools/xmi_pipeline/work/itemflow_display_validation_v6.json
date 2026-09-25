@@ -1,0 +1,89 @@
+{
+  "validation_id": "RAIL-MBSE-ITEMFLOW-CONNECTOR-DISPLAY-V6",
+  "counts": {
+    "signal_connections": 147,
+    "connectors": 147,
+    "information_flows": 147,
+    "item_flows": 147,
+    "empty_item_property": 147,
+    "direction_correct": 147,
+    "probe_connectors": 1,
+    "probe_information_flows": 1,
+    "probe_item_flows": 1,
+    "probe_empty_item_property": 1,
+    "unique_chinese_signal_names": 79,
+    "chinese_interface_block_names": 221,
+    "independent_dashed_information_flow_symbols": 0
+  },
+  "connector_plus_itemflow_model_style": "PASS",
+  "automatic_magicdraw_diagram_presentation": "PRESENTATION_STILL_NEEDS_ADJUSTMENT",
+  "qa": [
+    {
+      "id": "FLOW-DISPLAY-QA-01",
+      "status": "PASS",
+      "detail": "Each of 147 SIGNAL mappings retains exactly one frozen Connector reference."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-02",
+      "status": "PASS",
+      "detail": "Each SIGNAL mapping has exactly one uml:InformationFlow."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-03",
+      "status": "PASS",
+      "detail": "Each SIGNAL mapping has exactly one standard ItemFlow application; the Probe contains one representative application."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-04",
+      "status": "PASS",
+      "detail": "InformationFlow.conveyed resolves to the expected Chinese-named uml:Signal."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-05",
+      "status": "PASS",
+      "detail": "Direction is source out -> target in for all mappings and the Probe."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-06",
+      "status": "PASS",
+      "detail": "Item Property is empty for all SIGNAL mappings; no fake common-owner Property exists."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-07",
+      "status": "PASS",
+      "detail": "Corrected SIGNAL Connector mapping count equals the frozen SIGNAL connection count."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-08",
+      "status": "PASS",
+      "detail": "The model contains a real Connector with an attached InformationFlow/ItemFlow semantic chain; it is not a plain Connector-only mapping."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-09",
+      "status": "PASS",
+      "detail": "No independent dashed InformationFlow symbol replaces the real Connector."
+    },
+    {
+      "id": "FLOW-DISPLAY-QA-10",
+      "status": "PASS",
+      "detail": "Signal, Port, and InterfaceBlock primary labels use Chinese engineering names; codes remain metadata."
+    }
+  ],
+  "qa_summary": {
+    "PASS": 10,
+    "FAIL": 0
+  },
+  "extra_checks": {
+    "structure_unchanged_from_v5": true,
+    "one_probe_connector": true,
+    "one_probe_information_flow": true,
+    "one_probe_item_flow": true,
+    "no_probe_item_property": true,
+    "no_vendor_diagram_in_standard_xmi": true,
+    "byte_deterministic": true
+  },
+  "probe_static_status": "PASS",
+  "conclusion": "PRESENTATION_STILL_NEEDS_ADJUSTMENT",
+  "probe_path": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\Rail_MBSE_SysML17_itemflow_probe_v6.xmi",
+  "full_xmi_published": false
+}

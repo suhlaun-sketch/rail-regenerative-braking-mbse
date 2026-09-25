@@ -1,0 +1,20 @@
+{
+  "operation_name": "renameRepresentation",
+  "timestamp": "2026-09-24T02:11:07.888708+00:00",
+  "variables": {
+    "input": {
+      "id": "1493b731-3351-4590-b47c-5960a9507573",
+      "editingContextId": "12d630bc-f763-4c58-8385-152cbec448e9",
+      "representationId": "eab3be09-3ec6-4453-97cd-340f87f0c965",
+      "newLabel": "AUTO_IBD_X100_INTERNAL_PORTENHANCED_6289f72770e3"
+    }
+  },
+  "representation_id": "eab3be09-3ec6-4453-97cd-340f87f0c965",
+  "response": {
+    "renameRepresentation": {
+      "__typename": "SuccessPayload",
+      "messages": []
+    }
+  },
+  "error": null
+}

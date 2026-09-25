@@ -1,0 +1,620 @@
+{
+  "syson_version": "v2026.7.0",
+  "deployment_method": "Official Eclipse SysON application JAR + PostgreSQL 15.19",
+  "url": "http://localhost:8080",
+  "project_name": "Rail MBSE Full v1",
+  "project_id": "4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf",
+  "editing_context_id": "61fdde5b-67ff-4cde-848b-9ef2843e90b9",
+  "direct_full_sysml_import": "PASS",
+  "direct_import_payload_id": "20a47fd9-b616-45a3-abc5-3a53e9f65ebb",
+  "representations": [
+    {
+      "view_name": "RV_00_RAIL_FULL_ARCHITECTURE_OVERVIEW",
+      "label": "Rail Full Architecture Overview",
+      "category": "00_overview",
+      "representation_id": "fa46c543-1ace-418c-a55c-e9a2eef4ce4d",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/fa46c543-1ace-418c-a55c-e9a2eef4ce4d?selection=fa46c543-1ace-418c-a55c-e9a2eef4ce4d",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\00_overview\\RV_00_RAIL_FULL_ARCHITECTURE_OVERVIEW.svg"
+    },
+    {
+      "view_name": "RV_01_L1_3000_ARCHITECTURE",
+      "label": "L1 3000 转向架及其辅助",
+      "category": "01_l1",
+      "representation_id": "ed4391b6-bfaa-4c8a-9f7f-ef27fc26e3cd",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/ed4391b6-bfaa-4c8a-9f7f-ef27fc26e3cd?selection=ed4391b6-bfaa-4c8a-9f7f-ef27fc26e3cd",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_3000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_4000_ARCHITECTURE",
+      "label": "L1 4000 主供电",
+      "category": "01_l1",
+      "representation_id": "9214338a-4e7d-4e2c-b1cc-19f7a8b3735e",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/9214338a-4e7d-4e2c-b1cc-19f7a8b3735e?selection=9214338a-4e7d-4e2c-b1cc-19f7a8b3735e",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_4000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_5000_ARCHITECTURE",
+      "label": "L1 5000 牵引",
+      "category": "01_l1",
+      "representation_id": "4f66d421-49a4-4d3c-87b6-59af8222980e",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/4f66d421-49a4-4d3c-87b6-59af8222980e?selection=4f66d421-49a4-4d3c-87b6-59af8222980e",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_5000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_7000_ARCHITECTURE",
+      "label": "L1 7000 供风制动",
+      "category": "01_l1",
+      "representation_id": "5f5acfaf-dbad-4cd5-9d65-190918d5ecc3",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/5f5acfaf-dbad-4cd5-9d65-190918d5ecc3?selection=5f5acfaf-dbad-4cd5-9d65-190918d5ecc3",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_7000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_8000_ARCHITECTURE",
+      "label": "L1 8000 网络及辅助监控",
+      "category": "01_l1",
+      "representation_id": "ffae9fda-0357-4d30-944a-de49e0952381",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/ffae9fda-0357-4d30-944a-de49e0952381?selection=ffae9fda-0357-4d30-944a-de49e0952381",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_8000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_D000_ARCHITECTURE",
+      "label": "L1 D000 驾驶设施",
+      "category": "01_l1",
+      "representation_id": "7514416e-5cc3-4378-95c6-d56b9e11c36d",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/7514416e-5cc3-4378-95c6-d56b9e11c36d?selection=7514416e-5cc3-4378-95c6-d56b9e11c36d",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_D000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_E000_ARCHITECTURE",
+      "label": "L1 E000 电务车载",
+      "category": "01_l1",
+      "representation_id": "2f581425-10b1-4039-a743-680070cea08c",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/2f581425-10b1-4039-a743-680070cea08c?selection=2f581425-10b1-4039-a743-680070cea08c",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_E000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_01_L1_X000_ARCHITECTURE",
+      "label": "L1 X000 再生储能扩展",
+      "category": "01_l1",
+      "representation_id": "a7379ba0-b342-4212-89f4-bf7b0354b5d8",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/a7379ba0-b342-4212-89f4-bf7b0354b5d8?selection=a7379ba0-b342-4212-89f4-bf7b0354b5d8",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\01_l1\\RV_01_L1_X000_ARCHITECTURE.svg"
+    },
+    {
+      "view_name": "RV_02_L2_3100_DETAIL",
+      "label": "L2 3100 轮轴组成 Detailed View",
+      "category": "02_l2",
+      "representation_id": "5c038aea-a186-4f39-a464-c2cdfd81555f",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/5c038aea-a186-4f39-a464-c2cdfd81555f?selection=5c038aea-a186-4f39-a464-c2cdfd81555f",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_3100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_3100_LEAF_PORTS",
+      "label": "L2 3100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "00e6abd8-2f85-44ef-b010-f18d9fbe77b9",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/00e6abd8-2f85-44ef-b010-f18d9fbe77b9?selection=00e6abd8-2f85-44ef-b010-f18d9fbe77b9",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_3100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_3500_DETAIL",
+      "label": "L2 3500 牵引传动耦合组件及其附件 Detailed View",
+      "category": "02_l2",
+      "representation_id": "52b317cb-0be3-4eb5-b620-eec695175f5b",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/52b317cb-0be3-4eb5-b620-eec695175f5b?selection=52b317cb-0be3-4eb5-b620-eec695175f5b",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_3500_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_3500_LEAF_PORTS",
+      "label": "L2 3500 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "c6aabda6-30b6-43f0-88a5-9c98cc35887b",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/c6aabda6-30b6-43f0-88a5-9c98cc35887b?selection=c6aabda6-30b6-43f0-88a5-9c98cc35887b",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_3500_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_3600_DETAIL",
+      "label": "L2 3600 转向架相关检测 Detailed View",
+      "category": "02_l2",
+      "representation_id": "c0256438-5d5a-4d63-b3c2-9087c65ca4fb",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/c0256438-5d5a-4d63-b3c2-9087c65ca4fb?selection=c0256438-5d5a-4d63-b3c2-9087c65ca4fb",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_3600_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_3600_LEAF_PORTS",
+      "label": "L2 3600 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "e436358b-23b0-4840-bb1f-e7225716fa5f",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/e436358b-23b0-4840-bb1f-e7225716fa5f?selection=e436358b-23b0-4840-bb1f-e7225716fa5f",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_3600_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_3800_DETAIL",
+      "label": "L2 3800 辅助增粘及轮缘润滑 Detailed View",
+      "category": "02_l2",
+      "representation_id": "21dc522d-4382-45eb-aea4-20f21c0cacf1",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/21dc522d-4382-45eb-aea4-20f21c0cacf1?selection=21dc522d-4382-45eb-aea4-20f21c0cacf1",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_3800_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_3800_LEAF_PORTS",
+      "label": "L2 3800 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "f8a6cd7e-9d50-4d2a-ad1c-cd6df3a0a142",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/f8a6cd7e-9d50-4d2a-ad1c-cd6df3a0a142?selection=f8a6cd7e-9d50-4d2a-ad1c-cd6df3a0a142",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_3800_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_4100_DETAIL",
+      "label": "L2 4100 高压受流 Detailed View",
+      "category": "02_l2",
+      "representation_id": "ff4b5366-d004-4295-a5ae-cb61359c2221",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/ff4b5366-d004-4295-a5ae-cb61359c2221?selection=ff4b5366-d004-4295-a5ae-cb61359c2221",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_4100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_4100_LEAF_PORTS",
+      "label": "L2 4100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "bf72b64d-07ea-419d-829b-3207e026bc7e",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/bf72b64d-07ea-419d-829b-3207e026bc7e?selection=bf72b64d-07ea-419d-829b-3207e026bc7e",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_4100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_4200_DETAIL",
+      "label": "L2 4200 网侧高压分配及控制 Detailed View",
+      "category": "02_l2",
+      "representation_id": "a0223e15-ee99-4c3e-8625-a5cbaa53f807",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/a0223e15-ee99-4c3e-8625-a5cbaa53f807?selection=a0223e15-ee99-4c3e-8625-a5cbaa53f807",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_4200_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_4200_LEAF_PORTS",
+      "label": "L2 4200 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "4a32ec05-cfd1-43e2-9063-2c7fa6a2adf6",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/4a32ec05-cfd1-43e2-9063-2c7fa6a2adf6?selection=4a32ec05-cfd1-43e2-9063-2c7fa6a2adf6",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_4200_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_4400_DETAIL",
+      "label": "L2 4400 回流及接地 Detailed View",
+      "category": "02_l2",
+      "representation_id": "adb0bf4e-f4f1-47c9-90ad-3cb1c0e12508",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/adb0bf4e-f4f1-47c9-90ad-3cb1c0e12508?selection=adb0bf4e-f4f1-47c9-90ad-3cb1c0e12508",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_4400_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_4400_LEAF_PORTS",
+      "label": "L2 4400 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "0a12fbb9-addf-4977-a4e4-178471b57ce5",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/0a12fbb9-addf-4977-a4e4-178471b57ce5?selection=0a12fbb9-addf-4977-a4e4-178471b57ce5",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_4400_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_4500_DETAIL",
+      "label": "L2 4500 主变压器及其冷却 Detailed View",
+      "category": "02_l2",
+      "representation_id": "c5e995e2-8b77-4bc7-84bb-89d1dd5e257e",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/c5e995e2-8b77-4bc7-84bb-89d1dd5e257e?selection=c5e995e2-8b77-4bc7-84bb-89d1dd5e257e",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_4500_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_4500_LEAF_PORTS",
+      "label": "L2 4500 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "d0315e58-7beb-4e73-ad06-b2819ad94f25",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/d0315e58-7beb-4e73-ad06-b2819ad94f25?selection=d0315e58-7beb-4e73-ad06-b2819ad94f25",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_4500_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_5100_DETAIL",
+      "label": "L2 5100 牵引变流器主体及其控制 Detailed View",
+      "category": "02_l2",
+      "representation_id": "517e5447-2f7a-47da-a1e2-2d6b9b56a807",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/517e5447-2f7a-47da-a1e2-2d6b9b56a807?selection=517e5447-2f7a-47da-a1e2-2d6b9b56a807",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_5100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_5100_LEAF_PORTS",
+      "label": "L2 5100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "62ec5f73-3acc-465a-93dc-3f4128369d9d",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/62ec5f73-3acc-465a-93dc-3f4128369d9d?selection=62ec5f73-3acc-465a-93dc-3f4128369d9d",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_5100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_5300_DETAIL",
+      "label": "L2 5300 牵引电机及其冷却 Detailed View",
+      "category": "02_l2",
+      "representation_id": "aaec8b08-faa8-49ff-bca5-9e573194fea0",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/aaec8b08-faa8-49ff-bca5-9e573194fea0?selection=aaec8b08-faa8-49ff-bca5-9e573194fea0",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_5300_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_5300_LEAF_PORTS",
+      "label": "L2 5300 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "dd3cc4b4-0cc1-49b9-8a30-5044132b36fe",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/dd3cc4b4-0cc1-49b9-8a30-5044132b36fe?selection=dd3cc4b4-0cc1-49b9-8a30-5044132b36fe",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_5300_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_7100_DETAIL",
+      "label": "L2 7100 供风 Detailed View",
+      "category": "02_l2",
+      "representation_id": "bb960cf4-6343-4c7d-b595-fa6b3b1c9153",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/bb960cf4-6343-4c7d-b595-fa6b3b1c9153?selection=bb960cf4-6343-4c7d-b595-fa6b3b1c9153",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_7100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_7100_LEAF_PORTS",
+      "label": "L2 7100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "22e8f77e-514c-4b54-ae2f-3a1640ee9ede",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/22e8f77e-514c-4b54-ae2f-3a1640ee9ede?selection=22e8f77e-514c-4b54-ae2f-3a1640ee9ede",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_7100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_7200_DETAIL",
+      "label": "L2 7200 制动 Detailed View",
+      "category": "02_l2",
+      "representation_id": "15ffc0fd-c4e3-4428-9121-935f06ac18fe",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/15ffc0fd-c4e3-4428-9121-935f06ac18fe?selection=15ffc0fd-c4e3-4428-9121-935f06ac18fe",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_7200_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_7200_LEAF_PORTS",
+      "label": "L2 7200 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "8026dc17-3632-43c8-8524-5c4b79f153cb",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/8026dc17-3632-43c8-8524-5c4b79f153cb?selection=8026dc17-3632-43c8-8524-5c4b79f153cb",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_7200_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_8100_DETAIL",
+      "label": "L2 8100 列车主干网及安全回路 Detailed View",
+      "category": "02_l2",
+      "representation_id": "8ab6987c-dea5-4e78-b0ee-aaf654382757",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/8ab6987c-dea5-4e78-b0ee-aaf654382757?selection=8ab6987c-dea5-4e78-b0ee-aaf654382757",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_8100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_8100_LEAF_PORTS",
+      "label": "L2 8100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "017a5cf7-0be5-43d8-bd5c-6e09f387a58e",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/017a5cf7-0be5-43d8-bd5c-6e09f387a58e?selection=017a5cf7-0be5-43d8-bd5c-6e09f387a58e",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_8100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_D100_DETAIL",
+      "label": "L2 D100 操纵设施 Detailed View",
+      "category": "02_l2",
+      "representation_id": "1b744d99-39b2-4f46-868d-f51ce3609f0c",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/1b744d99-39b2-4f46-868d-f51ce3609f0c?selection=1b744d99-39b2-4f46-868d-f51ce3609f0c",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_D100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_D100_LEAF_PORTS",
+      "label": "L2 D100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "84f3d7d6-bc5e-4892-a096-6b3b4975bcc7",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/84f3d7d6-bc5e-4892-a096-6b3b4975bcc7?selection=84f3d7d6-bc5e-4892-a096-6b3b4975bcc7",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_D100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_E100_DETAIL",
+      "label": "L2 E100 ATP车载 Detailed View",
+      "category": "02_l2",
+      "representation_id": "627ab5b6-8a77-4a18-b332-4fd319ebef12",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/627ab5b6-8a77-4a18-b332-4fd319ebef12?selection=627ab5b6-8a77-4a18-b332-4fd319ebef12",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_E100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_E100_LEAF_PORTS",
+      "label": "L2 E100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "1a075db0-14d0-4f99-9371-d8fa51d1a507",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/1a075db0-14d0-4f99-9371-d8fa51d1a507?selection=1a075db0-14d0-4f99-9371-d8fa51d1a507",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_E100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_02_L2_X100_DETAIL",
+      "label": "L2 X100 车载再生储能 Detailed View",
+      "category": "02_l2",
+      "representation_id": "1d96ef9f-526f-4446-b910-16c9adf29097",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/1d96ef9f-526f-4446-b910-16c9adf29097?selection=1d96ef9f-526f-4446-b910-16c9adf29097",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\02_l2\\RV_02_L2_X100_DETAIL.svg"
+    },
+    {
+      "view_name": "RV_04_L2_X100_LEAF_PORTS",
+      "label": "L2 X100 Leaf Ports and Interfaces",
+      "category": "04_ports_interfaces",
+      "representation_id": "71e2120d-e22a-4e71-977e-4c18169871bd",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/71e2120d-e22a-4e71-977e-4c18169871bd?selection=71e2120d-e22a-4e71-977e-4c18169871bd",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\04_ports_interfaces\\RV_04_L2_X100_LEAF_PORTS.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_3000",
+      "label": "Functions allocated under L1 3000",
+      "category": "06_functions",
+      "representation_id": "95932d21-ba60-41a8-b25b-fe7050a769af",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/95932d21-ba60-41a8-b25b-fe7050a769af?selection=95932d21-ba60-41a8-b25b-fe7050a769af",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_3000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_4000",
+      "label": "Functions allocated under L1 4000",
+      "category": "06_functions",
+      "representation_id": "2800143f-8079-4a74-be7a-41bbef8802a6",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/2800143f-8079-4a74-be7a-41bbef8802a6?selection=2800143f-8079-4a74-be7a-41bbef8802a6",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_4000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_5000",
+      "label": "Functions allocated under L1 5000",
+      "category": "06_functions",
+      "representation_id": "619dbc63-ecc3-480a-9d44-6035efd52cfd",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/619dbc63-ecc3-480a-9d44-6035efd52cfd?selection=619dbc63-ecc3-480a-9d44-6035efd52cfd",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_5000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_7000",
+      "label": "Functions allocated under L1 7000",
+      "category": "06_functions",
+      "representation_id": "1ef45a8b-8a3a-42c7-838f-b8be4dbc228a",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/1ef45a8b-8a3a-42c7-838f-b8be4dbc228a?selection=1ef45a8b-8a3a-42c7-838f-b8be4dbc228a",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_7000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_8000",
+      "label": "Functions allocated under L1 8000",
+      "category": "06_functions",
+      "representation_id": "a30013ae-c4ff-4b8a-9309-c75f3ea72b79",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/a30013ae-c4ff-4b8a-9309-c75f3ea72b79?selection=a30013ae-c4ff-4b8a-9309-c75f3ea72b79",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_8000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_D000",
+      "label": "Functions allocated under L1 D000",
+      "category": "06_functions",
+      "representation_id": "ed7045f9-fe94-4a96-b335-2e9cb4b38f46",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/ed7045f9-fe94-4a96-b335-2e9cb4b38f46?selection=ed7045f9-fe94-4a96-b335-2e9cb4b38f46",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_D000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_E000",
+      "label": "Functions allocated under L1 E000",
+      "category": "06_functions",
+      "representation_id": "3b9ab047-206d-4dc7-b1fa-3680ae9cf0df",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/3b9ab047-206d-4dc7-b1fa-3680ae9cf0df?selection=3b9ab047-206d-4dc7-b1fa-3680ae9cf0df",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_E000.svg"
+    },
+    {
+      "view_name": "RV_06_FUNCTIONS_L1_X000",
+      "label": "Functions allocated under L1 X000",
+      "category": "06_functions",
+      "representation_id": "5fc7eb65-5c33-4621-aed8-cfa2bd011f9e",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/5fc7eb65-5c33-4621-aed8-cfa2bd011f9e?selection=5fc7eb65-5c33-4621-aed8-cfa2bd011f9e",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\06_functions\\RV_06_FUNCTIONS_L1_X000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_3000",
+      "label": "Function Allocations under L1 3000",
+      "category": "07_allocations",
+      "representation_id": "e676d260-9f2c-4cb1-a9bd-24bf6db72b25",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/e676d260-9f2c-4cb1-a9bd-24bf6db72b25?selection=e676d260-9f2c-4cb1-a9bd-24bf6db72b25",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_3000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_4000",
+      "label": "Function Allocations under L1 4000",
+      "category": "07_allocations",
+      "representation_id": "4f724896-18cd-49c1-b1d6-65697bc17bf5",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/4f724896-18cd-49c1-b1d6-65697bc17bf5?selection=4f724896-18cd-49c1-b1d6-65697bc17bf5",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_4000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_5000",
+      "label": "Function Allocations under L1 5000",
+      "category": "07_allocations",
+      "representation_id": "5c06adec-684c-4110-a17f-26fc9c9e06ef",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/5c06adec-684c-4110-a17f-26fc9c9e06ef?selection=5c06adec-684c-4110-a17f-26fc9c9e06ef",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_5000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_7000",
+      "label": "Function Allocations under L1 7000",
+      "category": "07_allocations",
+      "representation_id": "3b84bf1b-f97f-430f-b013-f5e0b59058fb",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/3b84bf1b-f97f-430f-b013-f5e0b59058fb?selection=3b84bf1b-f97f-430f-b013-f5e0b59058fb",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_7000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_8000",
+      "label": "Function Allocations under L1 8000",
+      "category": "07_allocations",
+      "representation_id": "ee022c0c-0c52-46ee-8993-14d27bbfae9d",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/ee022c0c-0c52-46ee-8993-14d27bbfae9d?selection=ee022c0c-0c52-46ee-8993-14d27bbfae9d",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_8000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_D000",
+      "label": "Function Allocations under L1 D000",
+      "category": "07_allocations",
+      "representation_id": "bfa589a4-8a72-4d26-aa78-071405e2dcce",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/bfa589a4-8a72-4d26-aa78-071405e2dcce?selection=bfa589a4-8a72-4d26-aa78-071405e2dcce",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_D000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_E000",
+      "label": "Function Allocations under L1 E000",
+      "category": "07_allocations",
+      "representation_id": "6a13d811-2887-4d35-8164-d3625652bc4b",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/6a13d811-2887-4d35-8164-d3625652bc4b?selection=6a13d811-2887-4d35-8164-d3625652bc4b",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_E000.svg"
+    },
+    {
+      "view_name": "RV_07_ALLOCATIONS_L1_X000",
+      "label": "Function Allocations under L1 X000",
+      "category": "07_allocations",
+      "representation_id": "344f60e2-0620-4178-8a94-580b129d8371",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/344f60e2-0620-4178-8a94-580b129d8371?selection=344f60e2-0620-4178-8a94-580b129d8371",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\07_allocations\\RV_07_ALLOCATIONS_L1_X000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_3000",
+      "label": "Final Connections sourced under L1 3000",
+      "category": "05_connections",
+      "representation_id": "4328d910-ee59-47b1-aa91-c8db030779aa",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/4328d910-ee59-47b1-aa91-c8db030779aa?selection=4328d910-ee59-47b1-aa91-c8db030779aa",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_3000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_4000",
+      "label": "Final Connections sourced under L1 4000",
+      "category": "05_connections",
+      "representation_id": "47b1ad36-6dca-4eb1-8089-6d8e36b31edd",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/47b1ad36-6dca-4eb1-8089-6d8e36b31edd?selection=47b1ad36-6dca-4eb1-8089-6d8e36b31edd",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_4000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_5000",
+      "label": "Final Connections sourced under L1 5000",
+      "category": "05_connections",
+      "representation_id": "e87c7059-a93f-49ba-a7b2-c46274c5e8db",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/e87c7059-a93f-49ba-a7b2-c46274c5e8db?selection=e87c7059-a93f-49ba-a7b2-c46274c5e8db",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_5000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_7000",
+      "label": "Final Connections sourced under L1 7000",
+      "category": "05_connections",
+      "representation_id": "5f5e0cd4-0895-436c-8eba-e25c667cb6ec",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/5f5e0cd4-0895-436c-8eba-e25c667cb6ec?selection=5f5e0cd4-0895-436c-8eba-e25c667cb6ec",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_7000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_8000",
+      "label": "Final Connections sourced under L1 8000",
+      "category": "05_connections",
+      "representation_id": "2756f2b6-9141-4d9e-9c6d-9ba55bcd12af",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/2756f2b6-9141-4d9e-9c6d-9ba55bcd12af?selection=2756f2b6-9141-4d9e-9c6d-9ba55bcd12af",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_8000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_D000",
+      "label": "Final Connections sourced under L1 D000",
+      "category": "05_connections",
+      "representation_id": "3f1ba42c-90bb-4add-b7d8-a6e63afa5949",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/3f1ba42c-90bb-4add-b7d8-a6e63afa5949?selection=3f1ba42c-90bb-4add-b7d8-a6e63afa5949",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_D000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_E000",
+      "label": "Final Connections sourced under L1 E000",
+      "category": "05_connections",
+      "representation_id": "d508ae48-324e-4f57-916c-fc2643beeec5",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/d508ae48-324e-4f57-916c-fc2643beeec5?selection=d508ae48-324e-4f57-916c-fc2643beeec5",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_E000.svg"
+    },
+    {
+      "view_name": "RV_05_CONNECTIONS_SOURCE_L1_X000",
+      "label": "Final Connections sourced under L1 X000",
+      "category": "05_connections",
+      "representation_id": "90a4ca7c-95fc-48f4-aacf-558a1d5116cb",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/90a4ca7c-95fc-48f4-aacf-558a1d5116cb?selection=90a4ca7c-95fc-48f4-aacf-558a1d5116cb",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\05_connections\\RV_05_CONNECTIONS_SOURCE_L1_X000.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_DC_LINK_01",
+      "label": "Physical Network NET-DC-LINK-01",
+      "category": "08_physical_nets",
+      "representation_id": "e218cd20-162f-48e9-a871-b3fada4a983a",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/e218cd20-162f-48e9-a871-b3fada4a983a?selection=e218cd20-162f-48e9-a871-b3fada4a983a",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_DC_LINK_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_LVDC_CONTROL_01",
+      "label": "Physical Network NET-LVDC-CONTROL-01",
+      "category": "08_physical_nets",
+      "representation_id": "b8e312bd-1f6e-4c8f-bde4-72b950fbde49",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/b8e312bd-1f6e-4c8f-bde4-72b950fbde49?selection=b8e312bd-1f6e-4c8f-bde4-72b950fbde49",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_LVDC_CONTROL_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_MAIN_RETURN_01",
+      "label": "Physical Network NET-MAIN-RETURN-01",
+      "category": "08_physical_nets",
+      "representation_id": "5f8271db-8f83-4705-a4e2-bf12b7fe0251",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/5f8271db-8f83-4705-a4e2-bf12b7fe0251?selection=5f8271db-8f83-4705-a4e2-bf12b7fe0251",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_MAIN_RETURN_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_PNEU_BRAKE_SUPPLY_01",
+      "label": "Physical Network NET-PNEU-BRAKE-SUPPLY-01",
+      "category": "08_physical_nets",
+      "representation_id": "8d52ffa8-a1b1-4bc2-bf5b-83f430295f71",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/8d52ffa8-a1b1-4bc2-bf5b-83f430295f71?selection=8d52ffa8-a1b1-4bc2-bf5b-83f430295f71",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_PNEU_BRAKE_SUPPLY_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_PNEU_CYLINDER_01",
+      "label": "Physical Network NET-PNEU-CYLINDER-01",
+      "category": "08_physical_nets",
+      "representation_id": "c079e63f-7e93-4b56-8eca-ddb7f37bdfae",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/c079e63f-7e93-4b56-8eca-ddb7f37bdfae?selection=c079e63f-7e93-4b56-8eca-ddb7f37bdfae",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_PNEU_CYLINDER_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_PNEU_MAIN_01",
+      "label": "Physical Network NET-PNEU-MAIN-01",
+      "category": "08_physical_nets",
+      "representation_id": "311c62e7-6438-468e-98dd-8821b54325cd",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/311c62e7-6438-468e-98dd-8821b54325cd?selection=311c62e7-6438-468e-98dd-8821b54325cd",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_PNEU_MAIN_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_STORAGE_DC_AFTER_CONTACTOR_01",
+      "label": "Physical Network NET-STORAGE-DC-AFTER-CONTACTOR-01",
+      "category": "08_physical_nets",
+      "representation_id": "c79959b7-dca3-43f5-be2a-7f71eb372a31",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/c79959b7-dca3-43f5-be2a-7f71eb372a31?selection=c79959b7-dca3-43f5-be2a-7f71eb372a31",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_STORAGE_DC_AFTER_CONTACTOR_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_STORAGE_DC_BUS_01",
+      "label": "Physical Network NET-STORAGE-DC-BUS-01",
+      "category": "08_physical_nets",
+      "representation_id": "d78cba76-9218-465f-82ac-2fc89291e61b",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/d78cba76-9218-465f-82ac-2fc89291e61b?selection=d78cba76-9218-465f-82ac-2fc89291e61b",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_STORAGE_DC_BUS_01.svg"
+    },
+    {
+      "view_name": "RV_08_PHYSICAL_NET_NET_STORAGE_DC_SC_01",
+      "label": "Physical Network NET-STORAGE-DC-SC-01",
+      "category": "08_physical_nets",
+      "representation_id": "17d183da-e4bb-45ea-a987-46decdac19d9",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/17d183da-e4bb-45ea-a987-46decdac19d9?selection=17d183da-e4bb-45ea-a987-46decdac19d9",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\08_physical_nets\\RV_08_PHYSICAL_NET_NET_STORAGE_DC_SC_01.svg"
+    },
+    {
+      "view_name": "RV_00_ALL16_L2_BOUNDARY_OVERVIEW",
+      "label": "Full L2 Interface Overview (All 16 L2)",
+      "category": "00_overview",
+      "representation_id": "d775a92b-d5c9-419d-892d-8e314e3eeb31",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/d775a92b-d5c9-419d-892d-8e314e3eeb31?selection=d775a92b-d5c9-419d-892d-8e314e3eeb31",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\00_overview\\RV_00_ALL16_L2_BOUNDARY_OVERVIEW.svg"
+    },
+    {
+      "view_name": "RV_09_REGENERATIVE_BRAKING_CORE",
+      "label": "Regenerative Braking Core",
+      "category": "09_regenerative_braking",
+      "representation_id": "7c7cec46-1fe6-4104-927d-5cb37eeb26d7",
+      "url": "http://localhost:8080/projects/4db1e0e8-09cd-45e3-b97f-562eb6ae3cdf/edit/7c7cec46-1fe6-4104-927d-5cb37eeb26d7?selection=7c7cec46-1fe6-4104-927d-5cb37eeb26d7",
+      "svg": "C:\\Users\\AUSA\\Desktop\\牵引制动能量回收\\work\\sysmlv2\\syson_integration\\exports\\09_regenerative_braking\\RV_09_REGENERATIVE_BRAKING_CORE.svg"
+    }
+  ]
+}

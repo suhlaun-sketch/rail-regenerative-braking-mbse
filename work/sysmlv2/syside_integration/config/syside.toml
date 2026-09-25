@@ -1,0 +1,2 @@
+# Explicit project-local Syside configuration prevents parent-directory discovery.
+version = "1"

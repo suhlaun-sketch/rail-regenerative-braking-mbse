@@ -1,0 +1,27 @@
+{
+  "operation_name": "editLabelAppearance",
+  "timestamp": "2026-09-24T14:42:24.695454+00:00",
+  "variables": {
+    "input": {
+      "id": "1d093504-f924-428b-95cd-170d0c461b78",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "representationId": "94cea473-1328-4930-8e2a-9cc1c4d28686",
+      "diagramElementIds": [
+        "07eceda0-39bc-30d2-a25b-d60d1da8bc74"
+      ],
+      "labelIds": [
+        "708c1129-b3c2-3692-afce-4c6af4eb0483"
+      ],
+      "appearance": {
+        "visibility": "hidden"
+      }
+    }
+  },
+  "representation_id": "94cea473-1328-4930-8e2a-9cc1c4d28686",
+  "response": {
+    "editLabelAppearance": {
+      "__typename": "SuccessPayload"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "component": "L2_7200",
+    "compile": "PASS",
+    "simulation": "PASS",
+    "inputs": 10,
+    "outputs": 4,
+    "status": "PASS"
+  },
+  {
+    "component": "L2_8100",
+    "compile": "PASS",
+    "simulation": "PASS",
+    "inputs": 29,
+    "outputs": 17,
+    "status": "PASS"
+  }
+]

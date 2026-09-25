@@ -1,0 +1,168 @@
+{
+  "editing_context_id": "967a4588-11d1-435d-ba59-2412f2e63002",
+  "root_support": {
+    "FN_F_3110_01": {
+      "root_object_id": "4f835bd6-1684-4535-9ef1-8716f1cab65f",
+      "root_type": "ActionDefinition",
+      "descriptions": [
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+          "label": "General View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+          "label": "Action Flow View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+          "label": "Interconnection View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+          "label": "Requirements Table View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+          "label": "State Transition View",
+          "defaultName": "view2",
+          "documentation": ""
+        }
+      ]
+    },
+    "REQ-BRK-007": {
+      "root_object_id": "cb90511e-f9bd-429f-bbd1-4dfd53891ffe",
+      "root_type": "RequirementUsage",
+      "descriptions": [
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+          "label": "General View",
+          "defaultName": "view1",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+          "label": "Action Flow View",
+          "defaultName": "view1",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+          "label": "Interconnection View",
+          "defaultName": "view1",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+          "label": "Requirements Table View",
+          "defaultName": "view1",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+          "label": "State Transition View",
+          "defaultName": "view1",
+          "documentation": ""
+        }
+      ]
+    },
+    "X100": {
+      "root_object_id": "b2b06694-0542-4365-9b03-cefeff416175",
+      "root_type": "PartDefinition",
+      "descriptions": [
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+          "label": "General View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+          "label": "Action Flow View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+          "label": "Interconnection View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+          "label": "Requirements Table View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+          "label": "State Transition View",
+          "defaultName": "view2",
+          "documentation": ""
+        }
+      ]
+    },
+    "Rail_MBSE": {
+      "root_object_id": "ecd96d8d-dd60-49e5-baf2-2517b4e9b716",
+      "root_type": "Package",
+      "descriptions": [
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=8dcd14b0-6259-3193-ad2c-743f394c68e4&sourceElementId=db495705-e917-319b-af55-a32ad63f4089",
+          "label": "General View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=0d6e5145-02ea-336b-b4d4-9be6b0e63786&sourceElementId=ea3511e5-5ba5-3d2c-8e80-9182db336675",
+          "label": "Action Flow View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=74c5d045-51d7-359f-9634-611d0f1bef3d&sourceElementId=e1bd3b6d-357b-3068-b2e9-e0c1e19d6856",
+          "label": "Interconnection View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=tableDescription&sourceKind=view&sourceId=f445c867-006e-3b07-9385-40143a87f533&sourceElementId=05ffd328-a162-3d7e-b09b-7757ef23ef01",
+          "label": "Requirements Table View",
+          "defaultName": "view2",
+          "documentation": ""
+        },
+        {
+          "id": "siriusComponents://representationDescription?kind=diagramDescription&sourceKind=view&sourceId=067eb84f-3fe2-3b1b-9d45-9ffb9b5bb65e&sourceElementId=be71dab0-25e1-3180-90d0-24b31f68df8f",
+          "label": "State Transition View",
+          "defaultName": "view2",
+          "documentation": ""
+        }
+      ]
+    }
+  },
+  "create_representation_input_fields": [
+    "id",
+    "editingContextId",
+    "objectId",
+    "representationDescriptionId",
+    "representationName"
+  ],
+  "existing_user_representations": [
+    {
+      "id": "a4bea9d1-a489-4e50-874f-67170636bfbc",
+      "label": "view1",
+      "description_label": "General View"
+    },
+    {
+      "id": "31dde202-6ea5-48ca-b9f5-3a1794e9d61f",
+      "label": "view1",
+      "description_label": "General View"
+    }
+  ]
+}

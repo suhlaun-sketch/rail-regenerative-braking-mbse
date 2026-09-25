@@ -1,0 +1,25 @@
+{
+  "operation_name": "dropOnDiagram",
+  "timestamp": "2026-09-24T08:32:17.847456+00:00",
+  "variables": {
+    "input": {
+      "id": "1b6f8233-7699-4321-a1a4-7389a34bb3db",
+      "editingContextId": "67dd7e52-bdf8-42dd-b5eb-8325e5c13a68",
+      "representationId": "fd9f3997-3653-4907-98ed-925bac1ebaa8",
+      "diagramTargetElementId": "fd9f3997-3653-4907-98ed-925bac1ebaa8",
+      "objectIds": [
+        "b5f57a33-a398-4ccd-bb6c-6f0944e566aa"
+      ],
+      "startingPositionX": 80.0,
+      "startingPositionY": 80.0
+    }
+  },
+  "representation_id": "fd9f3997-3653-4907-98ed-925bac1ebaa8",
+  "response": {
+    "dropOnDiagram": {
+      "__typename": "ErrorPayload",
+      "message": "Cannot drop this object here"
+    }
+  },
+  "error": null
+}

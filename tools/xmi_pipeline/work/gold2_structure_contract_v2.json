@@ -1,0 +1,17 @@
+{
+  "contract_id": "GOLD2-STRUCTURE-CONTRACT-V2",
+  "source_sha256": "5f37209b06d1d64fe97f5264e490b7611fba9b1a9dfa9195f2f1810a82b3ee60",
+  "rules": {
+    "product_classifier": "uml:Class + SysML::Block",
+    "package_role": "organization only; package is never a Product",
+    "composition": "Parent Block.ownedAttribute uml:Property, aggregation=composite, type=direct Child Block",
+    "part_property": "SysML::PartProperty applied to the composite Property",
+    "visible_part_name": "Child Product Chinese name",
+    "hierarchy": "strict parent_id, one level per Part Property; no flattening"
+  },
+  "gold2_evidence": {
+    "blocks": 10,
+    "composite_parts": 8,
+    "chain_field": "block_to_ibd_to_part_to_port_to_connector_chain"
+  }
+}

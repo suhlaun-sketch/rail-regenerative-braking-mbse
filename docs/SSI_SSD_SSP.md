@@ -1,0 +1,3 @@
+# SSI / SSD / SSP
+
+转换链、真实启动器和正式资产路径见 [SSI_SSD.md](SSI_SSD.md)；FMI 变量映射见 [IMPLEMENTATION_BINDING.md](IMPLEMENTATION_BINDING.md)。
