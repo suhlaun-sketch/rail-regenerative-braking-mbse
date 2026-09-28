@@ -1,0 +1,3374 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "source": "tools/topology_pipeline/work/final_port_coverage.json",
+    "optional_open_count": 126,
+    "unique_compatible_counterpart_count": 30,
+    "ambiguous_compatible_counterparts_count": 29,
+    "no_counterpart_in_current_model_count": 67,
+    "policy": "Unique matches are derived fill candidates only. Ambiguous and zero-match ports must not be auto-connected without additional engineering evidence."
+  },
+  "classifications": {
+    "UNIQUE_COMPATIBLE_COUNTERPART": [
+      {
+        "product_id": "4241",
+        "product_name": "处理单元",
+        "port_id": "PORT::4241::回馈电网功率输出::ITM-ACC-003::输出",
+        "port_name": "回馈电网功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-003",
+        "item_name": "回馈电网功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+            "port_name": "回馈电网功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "4241",
+            "product_name": "处理单元",
+            "port_id": "PORT::4241::回馈电网功率输出::ITM-ACC-003::输出",
+            "port_name": "回馈电网功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+            "port_name": "回馈电网功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-ACC-003",
+          "item_name": "回馈电网功率"
+        }
+      },
+      {
+        "product_id": "5111",
+        "product_name": "网侧变流器控制模块",
+        "port_id": "PORT::5111::再生功率上限输出::ITM-LIM-004::输出",
+        "port_name": "再生功率上限输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-004",
+        "item_name": "再生功率上限",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+            "port_name": "再生功率上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::再生功率上限输出::ITM-LIM-004::输出",
+            "port_name": "再生功率上限输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+            "port_name": "再生功率上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-LIM-004",
+          "item_name": "再生功率上限"
+        }
+      },
+      {
+        "product_id": "5111",
+        "product_name": "网侧变流器控制模块",
+        "port_id": "PORT::5111::牵引变流器故障状态输出::ITM-STA-019::输出",
+        "port_name": "牵引变流器故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-019",
+        "item_name": "牵引变流器故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+            "port_name": "牵引变流器故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::牵引变流器故障状态输出::ITM-STA-019::输出",
+            "port_name": "牵引变流器故障状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+            "port_name": "牵引变流器故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-019",
+          "item_name": "牵引变流器故障状态"
+        }
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::再生功率上限输出::ITM-LIM-004::输出",
+        "port_name": "再生功率上限输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-004",
+        "item_name": "再生功率上限",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+            "port_name": "再生功率上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::再生功率上限输出::ITM-LIM-004::输出",
+            "port_name": "再生功率上限输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::再生功率上限输入::ITM-LIM-004::输入",
+            "port_name": "再生功率上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-LIM-004",
+          "item_name": "再生功率上限"
+        }
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::牵引变流器故障状态输出::ITM-STA-019::输出",
+        "port_name": "牵引变流器故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-019",
+        "item_name": "牵引变流器故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+            "port_name": "牵引变流器故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::牵引变流器故障状态输出::ITM-STA-019::输出",
+            "port_name": "牵引变流器故障状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+            "port_name": "牵引变流器故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-019",
+          "item_name": "牵引变流器故障状态"
+        }
+      },
+      {
+        "product_id": "5113",
+        "product_name": "变流器检测保护组件",
+        "port_id": "PORT::5113::直流母线电压上限输出::ITM-LIM-007::输出",
+        "port_name": "直流母线电压上限输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-007",
+        "item_name": "直流母线电压上限",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+            "port_name": "直流母线电压上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5113",
+            "product_name": "变流器检测保护组件",
+            "port_id": "PORT::5113::直流母线电压上限输出::ITM-LIM-007::输出",
+            "port_name": "直流母线电压上限输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+            "port_name": "直流母线电压上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-LIM-007",
+          "item_name": "直流母线电压上限"
+        }
+      },
+      {
+        "product_id": "5132",
+        "product_name": "电机侧变流模块",
+        "port_id": "PORT::5132::电机侧相电压输出::ITM-MEA-011::输出",
+        "port_name": "电机侧相电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-011",
+        "item_name": "电机侧相电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+            "port_name": "电机侧相电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5132",
+            "product_name": "电机侧变流模块",
+            "port_id": "PORT::5132::电机侧相电压输出::ITM-MEA-011::输出",
+            "port_name": "电机侧相电压输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::电机侧相电压输入::ITM-MEA-011::输入",
+            "port_name": "电机侧相电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-011",
+          "item_name": "电机侧相电压"
+        }
+      },
+      {
+        "product_id": "5132",
+        "product_name": "电机侧变流模块",
+        "port_id": "PORT::5132::电机侧相电流输出::ITM-MEA-010::输出",
+        "port_name": "电机侧相电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-010",
+        "item_name": "电机侧相电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+            "port_name": "电机侧相电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5132",
+            "product_name": "电机侧变流模块",
+            "port_id": "PORT::5132::电机侧相电流输出::ITM-MEA-010::输出",
+            "port_name": "电机侧相电流输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+            "port_name": "电机侧相电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-010",
+          "item_name": "电机侧相电流"
+        }
+      },
+      {
+        "product_id": "5145",
+        "product_name": "中间直流环节检测保护组件",
+        "port_id": "PORT::5145::直流母线电压上限输出::ITM-LIM-007::输出",
+        "port_name": "直流母线电压上限输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-007",
+        "item_name": "直流母线电压上限",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+            "port_name": "直流母线电压上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5145",
+            "product_name": "中间直流环节检测保护组件",
+            "port_id": "PORT::5145::直流母线电压上限输出::ITM-LIM-007::输出",
+            "port_name": "直流母线电压上限输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::直流母线电压上限输入::ITM-LIM-007::输入",
+            "port_name": "直流母线电压上限输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-LIM-007",
+          "item_name": "直流母线电压上限"
+        }
+      },
+      {
+        "product_id": "5311",
+        "product_name": "牵引电机",
+        "port_id": "PORT::5311::电机侧相电流输出::ITM-MEA-010::输出",
+        "port_name": "电机侧相电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-010",
+        "item_name": "电机侧相电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+            "port_name": "电机侧相电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "5311",
+            "product_name": "牵引电机",
+            "port_id": "PORT::5311::电机侧相电流输出::ITM-MEA-010::输出",
+            "port_name": "电机侧相电流输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::电机侧相电流输入::ITM-MEA-010::输入",
+            "port_name": "电机侧相电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-010",
+          "item_name": "电机侧相电流"
+        }
+      },
+      {
+        "product_id": "7142",
+        "product_name": "总风管压力传感器",
+        "port_id": "PORT::7142::低风压状态输出::ITM-STA-009::输出",
+        "port_name": "低风压状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-009",
+        "item_name": "低风压状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "7211",
+            "product_name": "电子制动控制单元(EBCU)",
+            "port_id": "PORT::7211::低风压状态输入::ITM-STA-009::输入",
+            "port_name": "低风压状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "7142",
+            "product_name": "总风管压力传感器",
+            "port_id": "PORT::7142::低风压状态输出::ITM-STA-009::输出",
+            "port_name": "低风压状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "7211",
+            "product_name": "电子制动控制单元(EBCU)",
+            "port_id": "PORT::7211::低风压状态输入::ITM-STA-009::输入",
+            "port_name": "低风压状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-009",
+          "item_name": "低风压状态"
+        }
+      },
+      {
+        "product_id": "7228",
+        "product_name": "车厢直接制动截断塞门",
+        "port_id": "PORT::7228::制动隔离状态输出::ITM-STA-006::输出",
+        "port_name": "制动隔离状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-006",
+        "item_name": "制动隔离状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+            "port_name": "制动隔离状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "7228",
+            "product_name": "车厢直接制动截断塞门",
+            "port_id": "PORT::7228::制动隔离状态输出::ITM-STA-006::输出",
+            "port_name": "制动隔离状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+            "port_name": "制动隔离状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-006",
+          "item_name": "制动隔离状态"
+        }
+      },
+      {
+        "product_id": "7252",
+        "product_name": "非停放制动夹钳装置",
+        "port_id": "PORT::7252::制动施加状态输出::ITM-STA-004::输出",
+        "port_name": "制动施加状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-004",
+        "item_name": "制动施加状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+            "port_name": "制动施加状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "7252",
+            "product_name": "非停放制动夹钳装置",
+            "port_id": "PORT::7252::制动施加状态输出::ITM-STA-004::输出",
+            "port_name": "制动施加状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动施加状态输入::ITM-STA-004::输入",
+            "port_name": "制动施加状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-004",
+          "item_name": "制动施加状态"
+        }
+      },
+      {
+        "product_id": "7252",
+        "product_name": "非停放制动夹钳装置",
+        "port_id": "PORT::7252::制动缓解状态输出::ITM-STA-005::输出",
+        "port_name": "制动缓解状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-005",
+        "item_name": "制动缓解状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+            "port_name": "制动缓解状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "7252",
+            "product_name": "非停放制动夹钳装置",
+            "port_id": "PORT::7252::制动缓解状态输出::ITM-STA-005::输出",
+            "port_name": "制动缓解状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动缓解状态输入::ITM-STA-005::输入",
+            "port_name": "制动缓解状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-005",
+          "item_name": "制动缓解状态"
+        }
+      },
+      {
+        "product_id": "7284",
+        "product_name": "转向架制动截断塞门",
+        "port_id": "PORT::7284::制动隔离状态输出::ITM-STA-006::输出",
+        "port_name": "制动隔离状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-006",
+        "item_name": "制动隔离状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+            "port_name": "制动隔离状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "7284",
+            "product_name": "转向架制动截断塞门",
+            "port_id": "PORT::7284::制动隔离状态输出::ITM-STA-006::输出",
+            "port_name": "制动隔离状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+            "port_name": "制动隔离状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-006",
+          "item_name": "制动隔离状态"
+        }
+      },
+      {
+        "product_id": "7285",
+        "product_name": "单轴制动截断塞门",
+        "port_id": "PORT::7285::制动隔离状态输出::ITM-STA-006::输出",
+        "port_name": "制动隔离状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-006",
+        "item_name": "制动隔离状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+            "port_name": "制动隔离状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "7285",
+            "product_name": "单轴制动截断塞门",
+            "port_id": "PORT::7285::制动隔离状态输出::ITM-STA-006::输出",
+            "port_name": "制动隔离状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "7281",
+            "product_name": "制动指示器",
+            "port_id": "PORT::7281::制动隔离状态输入::ITM-STA-006::输入",
+            "port_name": "制动隔离状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-006",
+          "item_name": "制动隔离状态"
+        }
+      },
+      {
+        "product_id": "8125",
+        "product_name": "列车级牵引控制单元",
+        "port_id": "PORT::8125::牵引变流器故障状态输出::ITM-STA-019::输出",
+        "port_name": "牵引变流器故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-019",
+        "item_name": "牵引变流器故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+            "port_name": "牵引变流器故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::牵引变流器故障状态输出::ITM-STA-019::输出",
+            "port_name": "牵引变流器故障状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引变流器故障状态输入::ITM-STA-019::输入",
+            "port_name": "牵引变流器故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-019",
+          "item_name": "牵引变流器故障状态"
+        }
+      },
+      {
+        "product_id": "8128",
+        "product_name": "输入输出单元",
+        "port_id": "PORT::8128::超级电容温度输出::ITM-MEA-027::输出",
+        "port_name": "超级电容温度输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-027",
+        "item_name": "超级电容温度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+            "port_name": "超级电容温度输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::超级电容温度输出::ITM-MEA-027::输出",
+            "port_name": "超级电容温度输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+            "port_name": "超级电容温度输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-027",
+          "item_name": "超级电容温度"
+        }
+      },
+      {
+        "product_id": "8128",
+        "product_name": "输入输出单元",
+        "port_id": "PORT::8128::超级电容电压输出::ITM-MEA-025::输出",
+        "port_name": "超级电容电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-025",
+        "item_name": "超级电容电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+            "port_name": "超级电容电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::超级电容电压输出::ITM-MEA-025::输出",
+            "port_name": "超级电容电压输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+            "port_name": "超级电容电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-025",
+          "item_name": "超级电容电压"
+        }
+      },
+      {
+        "product_id": "8128",
+        "product_name": "输入输出单元",
+        "port_id": "PORT::8128::超级电容电流输出::ITM-MEA-026::输出",
+        "port_name": "超级电容电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-026",
+        "item_name": "超级电容电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+            "port_name": "超级电容电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::超级电容电流输出::ITM-MEA-026::输出",
+            "port_name": "超级电容电流输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+            "port_name": "超级电容电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-026",
+          "item_name": "超级电容电流"
+        }
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::储能吸收功率输出::ITM-ACC-004::输出",
+        "port_name": "储能吸收功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-004",
+        "item_name": "储能吸收功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+            "port_name": "储能吸收功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::储能吸收功率输出::ITM-ACC-004::输出",
+            "port_name": "储能吸收功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能吸收功率输入::ITM-ACC-004::输入",
+            "port_name": "储能吸收功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-ACC-004",
+          "item_name": "储能吸收功率"
+        }
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::制动电阻耗散功率输出::ITM-ACC-005::输出",
+        "port_name": "制动电阻耗散功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-005",
+        "item_name": "制动电阻耗散功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+            "port_name": "制动电阻耗散功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::制动电阻耗散功率输出::ITM-ACC-005::输出",
+            "port_name": "制动电阻耗散功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::制动电阻耗散功率输入::ITM-ACC-005::输入",
+            "port_name": "制动电阻耗散功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-ACC-005",
+          "item_name": "制动电阻耗散功率"
+        }
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::回馈电网功率输出::ITM-ACC-003::输出",
+        "port_name": "回馈电网功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-003",
+        "item_name": "回馈电网功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+            "port_name": "回馈电网功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::回馈电网功率输出::ITM-ACC-003::输出",
+            "port_name": "回馈电网功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::回馈电网功率输入::ITM-ACC-003::输入",
+            "port_name": "回馈电网功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-ACC-003",
+          "item_name": "回馈电网功率"
+        }
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::实际再生功率输出::ITM-ACC-002::输出",
+        "port_name": "实际再生功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-002",
+        "item_name": "实际再生功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+            "port_name": "实际再生功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::实际再生功率输出::ITM-ACC-002::输出",
+            "port_name": "实际再生功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::实际再生功率输入::ITM-ACC-002::输入",
+            "port_name": "实际再生功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-ACC-002",
+          "item_name": "实际再生功率"
+        }
+      },
+      {
+        "product_id": "X111",
+        "product_name": "双向DC/DC变流模块",
+        "port_id": "PORT::X111::双向DC_DC电流输出::ITM-MEA-030::输出",
+        "port_name": "双向DC_DC电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-030",
+        "item_name": "双向DC/DC电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+            "port_name": "双向DC_DC电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "X111",
+            "product_name": "双向DC/DC变流模块",
+            "port_id": "PORT::X111::双向DC_DC电流输出::ITM-MEA-030::输出",
+            "port_name": "双向DC_DC电流输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::双向DC_DC电流输入::ITM-MEA-030::输入",
+            "port_name": "双向DC_DC电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-MEA-030",
+          "item_name": "双向DC/DC电流"
+        }
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::储能保护跳闸状态输出::ITM-STA-034::输出",
+        "port_name": "储能保护跳闸状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-034",
+        "item_name": "储能保护跳闸状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+            "port_name": "储能保护跳闸状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::储能保护跳闸状态输出::ITM-STA-034::输出",
+            "port_name": "储能保护跳闸状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::储能保护跳闸状态输入::ITM-STA-034::输入",
+            "port_name": "储能保护跳闸状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-034",
+          "item_name": "储能保护跳闸状态"
+        }
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::储能可用充电功率输出::ITM-LIM-009::输出",
+        "port_name": "储能可用充电功率输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-009",
+        "item_name": "储能可用充电功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+            "port_name": "储能可用充电功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::储能可用充电功率输出::ITM-LIM-009::输出",
+            "port_name": "储能可用充电功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能可用充电功率输入::ITM-LIM-009::输入",
+            "port_name": "储能可用充电功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-LIM-009",
+          "item_name": "储能可用充电功率"
+        }
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::储能可用放电功率输出::ITM-LIM-010::输出",
+        "port_name": "储能可用放电功率输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-010",
+        "item_name": "储能可用放电功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+            "port_name": "储能可用放电功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::储能可用放电功率输出::ITM-LIM-010::输出",
+            "port_name": "储能可用放电功率输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能可用放电功率输入::ITM-LIM-010::输入",
+            "port_name": "储能可用放电功率输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-LIM-010",
+          "item_name": "储能可用放电功率"
+        }
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::储能系统故障状态输出::ITM-STA-031::输出",
+        "port_name": "储能系统故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-031",
+        "item_name": "储能系统故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+            "port_name": "储能系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::储能系统故障状态输出::ITM-STA-031::输出",
+            "port_name": "储能系统故障状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+            "port_name": "储能系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-031",
+          "item_name": "储能系统故障状态"
+        }
+      },
+      {
+        "product_id": "X133",
+        "product_name": "储能支路保护组件",
+        "port_id": "PORT::X133::储能系统故障状态输出::ITM-STA-031::输出",
+        "port_name": "储能系统故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-031",
+        "item_name": "储能系统故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 1,
+        "candidate_counterparts": [
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+            "port_name": "储能系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ],
+        "proposal": {
+          "relation_type": "DERIVED_CONNECTS_TO",
+          "status": "PROPOSED",
+          "provenance_class": "DERIVED",
+          "derivation_basis": "ITEM_DIRECTION_UNIQUE_MATCH",
+          "source": {
+            "product_id": "X133",
+            "product_name": "储能支路保护组件",
+            "port_id": "PORT::X133::储能系统故障状态输出::ITM-STA-031::输出",
+            "port_name": "储能系统故障状态输出",
+            "direction": "输出"
+          },
+          "target": {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::储能系统故障状态输入::ITM-STA-031::输入",
+            "port_name": "储能系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          "item_code": "ITM-STA-031",
+          "item_name": "储能系统故障状态"
+        }
+      }
+    ],
+    "AMBIGUOUS_COMPATIBLE_COUNTERPARTS": [
+      {
+        "product_id": "3132",
+        "product_name": "内轮盘",
+        "port_id": "PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+        "port_name": "摩擦制动机械作用端口",
+        "direction": "双向物理",
+        "item_code": "ITM-PHY-007",
+        "item_name": "摩擦制动机械作用",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 5,
+        "candidate_counterparts": [
+          {
+            "product_id": "3131",
+            "product_name": "外轮盘",
+            "port_id": "PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "3133",
+            "product_name": "轴盘",
+            "port_id": "PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "7252",
+            "product_name": "非停放制动夹钳装置",
+            "port_id": "PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "7254",
+            "product_name": "闸片",
+            "port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "7255",
+            "product_name": "增压缸",
+            "port_id": "PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "3133",
+        "product_name": "轴盘",
+        "port_id": "PORT::3133::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+        "port_name": "摩擦制动机械作用端口",
+        "direction": "双向物理",
+        "item_code": "ITM-PHY-007",
+        "item_name": "摩擦制动机械作用",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 5,
+        "candidate_counterparts": [
+          {
+            "product_id": "3131",
+            "product_name": "外轮盘",
+            "port_id": "PORT::3131::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "3132",
+            "product_name": "内轮盘",
+            "port_id": "PORT::3132::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "7252",
+            "product_name": "非停放制动夹钳装置",
+            "port_id": "PORT::7252::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "7254",
+            "product_name": "闸片",
+            "port_id": "PORT::7254::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "7255",
+            "product_name": "增压缸",
+            "port_id": "PORT::7255::摩擦制动机械作用端口::ITM-PHY-007::双向物理",
+            "port_name": "摩擦制动机械作用端口",
+            "direction": "双向物理",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "411C",
+        "product_name": "受电弓电子控制单元",
+        "port_id": "PORT::411C::高压系统故障状态输出::ITM-STA-016::输出",
+        "port_name": "高压系统故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-016",
+        "item_name": "高压系统故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 3,
+        "candidate_counterparts": [
+          {
+            "product_id": "4238",
+            "product_name": "高压控制输入输出单元",
+            "port_id": "PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4239",
+            "product_name": "高压控制单元",
+            "port_id": "PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态采集输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4518",
+            "product_name": "主变压器控制装置",
+            "port_id": "PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "4211",
+        "product_name": "真空断路器",
+        "port_id": "PORT::4211::高压系统故障状态输出::ITM-STA-016::输出",
+        "port_name": "高压系统故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-016",
+        "item_name": "高压系统故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 3,
+        "candidate_counterparts": [
+          {
+            "product_id": "4238",
+            "product_name": "高压控制输入输出单元",
+            "port_id": "PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4239",
+            "product_name": "高压控制单元",
+            "port_id": "PORT::4239::高压系统故障状态采集输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态采集输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4518",
+            "product_name": "主变压器控制装置",
+            "port_id": "PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "4239",
+        "product_name": "高压控制单元",
+        "port_id": "PORT::4239::高压系统故障状态汇总输出::ITM-STA-016::输出",
+        "port_name": "高压系统故障状态汇总输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-016",
+        "item_name": "高压系统故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "4238",
+            "product_name": "高压控制输入输出单元",
+            "port_id": "PORT::4238::高压系统故障状态输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4518",
+            "product_name": "主变压器控制装置",
+            "port_id": "PORT::4518::高压系统故障状态输入::ITM-STA-016::输入",
+            "port_name": "高压系统故障状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "4518",
+        "product_name": "主变压器控制装置",
+        "port_id": "PORT::4518::高压断路器指令输出::ITM-CMD-016::输出",
+        "port_name": "高压断路器指令输出",
+        "direction": "输出",
+        "item_code": "ITM-CMD-016",
+        "item_name": "高压断路器指令",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 3,
+        "candidate_counterparts": [
+          {
+            "product_id": "4211",
+            "product_name": "真空断路器",
+            "port_id": "PORT::4211::高压断路器指令输入::ITM-CMD-016::输入",
+            "port_name": "高压断路器指令输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4238",
+            "product_name": "高压控制输入输出单元",
+            "port_id": "PORT::4238::高压断路器指令输入::ITM-CMD-016::输入",
+            "port_name": "高压断路器指令输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8151",
+            "product_name": "高压安全回路",
+            "port_id": "PORT::8151::高压断路器指令输入::ITM-CMD-016::输入",
+            "port_name": "高压断路器指令输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::动态制动可用状态输出::ITM-STA-002::输出",
+        "port_name": "动态制动可用状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-002",
+        "item_name": "动态制动可用状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "7211",
+            "product_name": "电子制动控制单元(EBCU)",
+            "port_id": "PORT::7211::动态制动可用状态输入::ITM-STA-002::输入",
+            "port_name": "动态制动可用状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::动态制动可用状态输入::ITM-STA-002::输入",
+            "port_name": "动态制动可用状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::可用动态制动力输出::ITM-LIM-001::输出",
+        "port_name": "可用动态制动力输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-001",
+        "item_name": "可用动态制动力",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "7211",
+            "product_name": "电子制动控制单元(EBCU)",
+            "port_id": "PORT::7211::可用动态制动力输入::ITM-LIM-001::输入",
+            "port_name": "可用动态制动力输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::可用动态制动力输入::ITM-LIM-001::输入",
+            "port_name": "可用动态制动力输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::牵引可用状态输出::ITM-STA-001::输出",
+        "port_name": "牵引可用状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-001",
+        "item_name": "牵引可用状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8121",
+            "product_name": "主控制单元",
+            "port_id": "PORT::8121::牵引可用状态输入::ITM-STA-001::输入",
+            "port_name": "牵引可用状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::牵引可用状态输入::ITM-STA-001::输入",
+            "port_name": "牵引可用状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5113",
+        "product_name": "变流器检测保护组件",
+        "port_id": "PORT::5113::中间直流母线电压输出::ITM-MEA-008::输出",
+        "port_name": "中间直流母线电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-008",
+        "item_name": "中间直流母线电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 7,
+        "candidate_counterparts": [
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5133",
+            "product_name": "放电电阻控制模块",
+            "port_id": "PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5113",
+        "product_name": "变流器检测保护组件",
+        "port_id": "PORT::5113::中间直流母线电流输出::ITM-MEA-009::输出",
+        "port_name": "中间直流母线电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-009",
+        "item_name": "中间直流母线电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 3,
+        "candidate_counterparts": [
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5131",
+        "product_name": "网侧变流模块",
+        "port_id": "PORT::5131::中间直流母线电压输出::ITM-MEA-008::输出",
+        "port_name": "中间直流母线电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-008",
+        "item_name": "中间直流母线电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 7,
+        "candidate_counterparts": [
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5133",
+            "product_name": "放电电阻控制模块",
+            "port_id": "PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5131",
+        "product_name": "网侧变流模块",
+        "port_id": "PORT::5131::中间直流母线电流输出::ITM-MEA-009::输出",
+        "port_name": "中间直流母线电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-009",
+        "item_name": "中间直流母线电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 3,
+        "candidate_counterparts": [
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5131",
+        "product_name": "网侧变流模块",
+        "port_id": "PORT::5131::高压线路电压输出::ITM-MEA-005::输出",
+        "port_name": "高压线路电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-005",
+        "item_name": "高压线路电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 5,
+        "candidate_counterparts": [
+          {
+            "product_id": "4238",
+            "product_name": "高压控制输入输出单元",
+            "port_id": "PORT::4238::高压线路电压输入::ITM-MEA-005::输入",
+            "port_name": "高压线路电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4239",
+            "product_name": "高压控制单元",
+            "port_id": "PORT::4239::高压线路电压输入::ITM-MEA-005::输入",
+            "port_name": "高压线路电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4241",
+            "product_name": "处理单元",
+            "port_id": "PORT::4241::高压线路电压输入::ITM-MEA-005::输入",
+            "port_name": "高压线路电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::高压线路电压输入::ITM-MEA-005::输入",
+            "port_name": "高压线路电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::高压线路电压输入::ITM-MEA-005::输入",
+            "port_name": "高压线路电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5131",
+        "product_name": "网侧变流模块",
+        "port_id": "PORT::5131::高压线路电流输出::ITM-MEA-006::输出",
+        "port_name": "高压线路电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-006",
+        "item_name": "高压线路电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 5,
+        "candidate_counterparts": [
+          {
+            "product_id": "4238",
+            "product_name": "高压控制输入输出单元",
+            "port_id": "PORT::4238::高压线路电流输入::ITM-MEA-006::输入",
+            "port_name": "高压线路电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4239",
+            "product_name": "高压控制单元",
+            "port_id": "PORT::4239::高压线路电流输入::ITM-MEA-006::输入",
+            "port_name": "高压线路电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "4241",
+            "product_name": "处理单元",
+            "port_id": "PORT::4241::高压线路电流输入::ITM-MEA-006::输入",
+            "port_name": "高压线路电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::高压线路电流输入::ITM-MEA-006::输入",
+            "port_name": "高压线路电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::高压线路电流输入::ITM-MEA-006::输入",
+            "port_name": "高压线路电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5132",
+        "product_name": "电机侧变流模块",
+        "port_id": "PORT::5132::中间直流母线电压输出::ITM-MEA-008::输出",
+        "port_name": "中间直流母线电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-008",
+        "item_name": "中间直流母线电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 7,
+        "candidate_counterparts": [
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5133",
+            "product_name": "放电电阻控制模块",
+            "port_id": "PORT::5133::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8122",
+            "product_name": "车辆控制单元",
+            "port_id": "PORT::8122::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::中间直流母线电压输入::ITM-MEA-008::输入",
+            "port_name": "中间直流母线电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "5132",
+        "product_name": "电机侧变流模块",
+        "port_id": "PORT::5132::中间直流母线电流输出::ITM-MEA-009::输出",
+        "port_name": "中间直流母线电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-009",
+        "item_name": "中间直流母线电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 3,
+        "candidate_counterparts": [
+          {
+            "product_id": "5111",
+            "product_name": "网侧变流器控制模块",
+            "port_id": "PORT::5111::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "5112",
+            "product_name": "电机侧变流器控制模块",
+            "port_id": "PORT::5112::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8166",
+            "product_name": "能量计",
+            "port_id": "PORT::8166::中间直流母线电流输入::ITM-MEA-009::输入",
+            "port_name": "中间直流母线电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::牵引切除请求输出::ITM-CMD-008::输出",
+        "port_name": "牵引切除请求输出",
+        "direction": "输出",
+        "item_code": "ITM-CMD-008",
+        "item_name": "牵引切除请求",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+            "port_name": "牵引切除请求输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8154",
+            "product_name": "牵引安全回路",
+            "port_id": "PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+            "port_name": "牵引切除请求输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "7226",
+        "product_name": "紧急制动阀",
+        "port_id": "PORT::7226::安全停车_制动请求输入::ITM-CMD-030::输入",
+        "port_name": "安全停车_制动请求输入",
+        "direction": "输入",
+        "item_code": "ITM-CMD-030",
+        "item_name": "安全停车/制动请求",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8127",
+            "product_name": "ATP接口单元",
+            "port_id": "PORT::8127::安全停车_制动请求输出::ITM-CMD-030::输出",
+            "port_name": "安全停车_制动请求输出",
+            "direction": "输出",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "E100",
+            "product_name": "ATP车载",
+            "port_id": "PORT::E100::安全停车_制动请求输出::ITM-CMD-030::输出",
+            "port_name": "安全停车_制动请求输出",
+            "direction": "输出",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "8122",
+        "product_name": "车辆控制单元",
+        "port_id": "PORT::8122::牵引使能指令输出::ITM-CMD-009::输出",
+        "port_name": "牵引使能指令输出",
+        "direction": "输出",
+        "item_code": "ITM-CMD-009",
+        "item_name": "牵引使能指令",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::牵引使能指令输入::ITM-CMD-009::输入",
+            "port_name": "牵引使能指令输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8154",
+            "product_name": "牵引安全回路",
+            "port_id": "PORT::8154::牵引使能指令输入::ITM-CMD-009::输入",
+            "port_name": "牵引使能指令输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "8122",
+        "product_name": "车辆控制单元",
+        "port_id": "PORT::8122::牵引切除请求输出::ITM-CMD-008::输出",
+        "port_name": "牵引切除请求输出",
+        "direction": "输出",
+        "item_code": "ITM-CMD-008",
+        "item_name": "牵引切除请求",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8125",
+            "product_name": "列车级牵引控制单元",
+            "port_id": "PORT::8125::牵引切除请求输入::ITM-CMD-008::输入",
+            "port_name": "牵引切除请求输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8154",
+            "product_name": "牵引安全回路",
+            "port_id": "PORT::8154::牵引切除请求输入::ITM-CMD-008::输入",
+            "port_name": "牵引切除请求输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "8127",
+        "product_name": "ATP接口单元",
+        "port_id": "PORT::8127::ATP_外部安全系统状态输出::ITM-STA-027::输出",
+        "port_name": "ATP_外部安全系统状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-027",
+        "item_name": "ATP/外部安全系统状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8121",
+            "product_name": "主控制单元",
+            "port_id": "PORT::8121::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+            "port_name": "ATP_外部安全系统状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::ATP_外部安全系统状态输入::ITM-STA-027::输入",
+            "port_name": "ATP_外部安全系统状态输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "8128",
+        "product_name": "输入输出单元",
+        "port_id": "PORT::8128::超级电容温度输入::ITM-MEA-027::输入",
+        "port_name": "超级电容温度输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-027",
+        "item_name": "超级电容温度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::超级电容温度输出::ITM-MEA-027::输出",
+            "port_name": "超级电容温度输出",
+            "direction": "输出",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "X124",
+            "product_name": "超级电容温度传感器",
+            "port_id": "PORT::X124::超级电容温度输出::ITM-MEA-027::输出",
+            "port_name": "超级电容温度输出",
+            "direction": "输出",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "8128",
+        "product_name": "输入输出单元",
+        "port_id": "PORT::8128::超级电容电压输入::ITM-MEA-025::输入",
+        "port_name": "超级电容电压输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-025",
+        "item_name": "超级电容电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::超级电容电压输出::ITM-MEA-025::输出",
+            "port_name": "超级电容电压输出",
+            "direction": "输出",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "X122",
+            "product_name": "超级电容电压传感器",
+            "port_id": "PORT::X122::超级电容电压输出::ITM-MEA-025::输出",
+            "port_name": "超级电容电压输出",
+            "direction": "输出",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "8128",
+        "product_name": "输入输出单元",
+        "port_id": "PORT::8128::超级电容电流输入::ITM-MEA-026::输入",
+        "port_name": "超级电容电流输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-026",
+        "item_name": "超级电容电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "X113",
+            "product_name": "双向DC/DC检测保护组件",
+            "port_id": "PORT::X113::超级电容电流输出::ITM-MEA-026::输出",
+            "port_name": "超级电容电流输出",
+            "direction": "输出",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "X123",
+            "product_name": "超级电容电流传感器",
+            "port_id": "PORT::X123::超级电容电流输出::ITM-MEA-026::输出",
+            "port_name": "超级电容电流输出",
+            "direction": "输出",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "D13B",
+        "product_name": "撒砂按钮",
+        "port_id": "PORT::D13B::撒砂请求输出::ITM-CMD-024::输出",
+        "port_name": "撒砂请求输出",
+        "direction": "输出",
+        "item_code": "ITM-CMD-024",
+        "item_name": "撒砂请求",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "3811",
+            "product_name": "撒砂控制单元",
+            "port_id": "PORT::3811::撒砂请求输入::ITM-CMD-024::输入",
+            "port_name": "撒砂请求输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          },
+          {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::撒砂请求输入::ITM-CMD-024::输入",
+            "port_name": "撒砂请求输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::超级电容温度输出::ITM-MEA-027::输出",
+        "port_name": "超级电容温度输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-027",
+        "item_name": "超级电容温度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::超级电容温度输入::ITM-MEA-027::输入",
+            "port_name": "超级电容温度输入",
+            "direction": "输入",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容温度输入::ITM-MEA-027::输入",
+            "port_name": "超级电容温度输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::超级电容电压输出::ITM-MEA-025::输出",
+        "port_name": "超级电容电压输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-025",
+        "item_name": "超级电容电压",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::超级电容电压输入::ITM-MEA-025::输入",
+            "port_name": "超级电容电压输入",
+            "direction": "输入",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容电压输入::ITM-MEA-025::输入",
+            "port_name": "超级电容电压输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::超级电容电流输出::ITM-MEA-026::输出",
+        "port_name": "超级电容电流输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-026",
+        "item_name": "超级电容电流",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 2,
+        "candidate_counterparts": [
+          {
+            "product_id": "8128",
+            "product_name": "输入输出单元",
+            "port_id": "PORT::8128::超级电容电流输入::ITM-MEA-026::输入",
+            "port_name": "超级电容电流输入",
+            "direction": "输入",
+            "disposition": "OPTIONAL_OPEN"
+          },
+          {
+            "product_id": "X112",
+            "product_name": "双向DC/DC控制模块",
+            "port_id": "PORT::X112::超级电容电流输入::ITM-MEA-026::输入",
+            "port_name": "超级电容电流输入",
+            "direction": "输入",
+            "disposition": "CONNECTED"
+          }
+        ]
+      }
+    ],
+    "NO_COUNTERPART_IN_CURRENT_MODEL": [
+      {
+        "product_id": "3641",
+        "product_name": "轴端速度传感器",
+        "port_id": "PORT::3641::轴端角速度输出::ITM-MEA-002::输出",
+        "port_name": "轴端角速度输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-002",
+        "item_name": "轴端角速度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "3643",
+        "product_name": "齿轮箱速度传感器",
+        "port_id": "PORT::3643::齿轮箱转速输出::ITM-MEA-003::输出",
+        "port_name": "齿轮箱转速输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-003",
+        "item_name": "齿轮箱转速",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "3811",
+        "product_name": "撒砂控制单元",
+        "port_id": "PORT::3811::撒砂状态输出::ITM-STA-012::输出",
+        "port_name": "撒砂状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-012",
+        "item_name": "撒砂状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "3813",
+        "product_name": "撒砂阀板组件",
+        "port_id": "PORT::3813::撒砂状态输出::ITM-STA-012::输出",
+        "port_name": "撒砂状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-012",
+        "item_name": "撒砂状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "4239",
+        "product_name": "高压控制单元",
+        "port_id": "PORT::4239::线路频率输入::ITM-MEA-007::输入",
+        "port_name": "线路频率输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-007",
+        "item_name": "线路频率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "4241",
+        "product_name": "处理单元",
+        "port_id": "PORT::4241::回馈电网累计能量输出::ITM-ACC-009::输出",
+        "port_name": "回馈电网累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-009",
+        "item_name": "回馈电网累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "4241",
+        "product_name": "处理单元",
+        "port_id": "PORT::4241::牵引实际功率输出::ITM-ACC-001::输出",
+        "port_name": "牵引实际功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-001",
+        "item_name": "牵引实际功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "4241",
+        "product_name": "处理单元",
+        "port_id": "PORT::4241::牵引累计能量输出::ITM-ACC-007::输出",
+        "port_name": "牵引累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-007",
+        "item_name": "牵引累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "4241",
+        "product_name": "处理单元",
+        "port_id": "PORT::4241::能量计量有效状态输出::ITM-STA-035::输出",
+        "port_name": "能量计量有效状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-035",
+        "item_name": "能量计量有效状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5111",
+        "product_name": "网侧变流器控制模块",
+        "port_id": "PORT::5111::线路频率输入::ITM-MEA-007::输入",
+        "port_name": "线路频率输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-007",
+        "item_name": "线路频率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5111",
+        "product_name": "网侧变流器控制模块",
+        "port_id": "PORT::5111::网侧变流器状态输出::ITM-STA-017::输出",
+        "port_name": "网侧变流器状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-017",
+        "item_name": "网侧变流器状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+        "port_name": "牵引_再生转矩上限输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-003",
+        "item_name": "牵引/再生转矩上限",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5112",
+        "product_name": "电机侧变流器控制模块",
+        "port_id": "PORT::5112::电机侧变流器状态输出::ITM-STA-018::输出",
+        "port_name": "电机侧变流器状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-018",
+        "item_name": "电机侧变流器状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5113",
+        "product_name": "变流器检测保护组件",
+        "port_id": "PORT::5113::中间直流环节保护状态输出::ITM-STA-020::输出",
+        "port_name": "中间直流环节保护状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-020",
+        "item_name": "中间直流环节保护状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5113",
+        "product_name": "变流器检测保护组件",
+        "port_id": "PORT::5113::牵引变流器温度输出::ITM-MEA-023::输出",
+        "port_name": "牵引变流器温度输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-023",
+        "item_name": "牵引变流器温度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5121",
+        "product_name": "预充电组件",
+        "port_id": "PORT::5121::预充电指令输入::ITM-CMD-013::输入",
+        "port_name": "预充电指令输入",
+        "direction": "输入",
+        "item_code": "ITM-CMD-013",
+        "item_name": "预充电指令",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5121",
+        "product_name": "预充电组件",
+        "port_id": "PORT::5121::预充电状态输出::ITM-STA-021::输出",
+        "port_name": "预充电状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-021",
+        "item_name": "预充电状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5122",
+        "product_name": "输入组件",
+        "port_id": "PORT::5122::牵引输入接通指令输入::ITM-CMD-014::输入",
+        "port_name": "牵引输入接通指令输入",
+        "direction": "输入",
+        "item_code": "ITM-CMD-014",
+        "item_name": "牵引输入接通指令",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5122",
+        "product_name": "输入组件",
+        "port_id": "PORT::5122::牵引输入接通状态输出::ITM-STA-022::输出",
+        "port_name": "牵引输入接通状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-022",
+        "item_name": "牵引输入接通状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5133",
+        "product_name": "放电电阻控制模块",
+        "port_id": "PORT::5133::制动斩波器状态输出::ITM-STA-023::输出",
+        "port_name": "制动斩波器状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-023",
+        "item_name": "制动斩波器状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5133",
+        "product_name": "放电电阻控制模块",
+        "port_id": "PORT::5133::制动电阻可耗散功率输出::ITM-LIM-006::输出",
+        "port_name": "制动电阻可耗散功率输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-006",
+        "item_name": "制动电阻可耗散功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5142",
+        "product_name": "放电电阻器",
+        "port_id": "PORT::5142::制动电阻温度输出::ITM-MEA-024::输出",
+        "port_name": "制动电阻温度输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-024",
+        "item_name": "制动电阻温度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5142",
+        "product_name": "放电电阻器",
+        "port_id": "PORT::5142::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+        "port_name": "制动电阻耗散累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-012",
+        "item_name": "制动电阻耗散累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "5145",
+        "product_name": "中间直流环节检测保护组件",
+        "port_id": "PORT::5145::中间直流环节保护状态输出::ITM-STA-020::输出",
+        "port_name": "中间直流环节保护状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-020",
+        "item_name": "中间直流环节保护状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7124",
+        "product_name": "制动风缸",
+        "port_id": "PORT::7124::制动风缸压力输出::ITM-MEA-015::输出",
+        "port_name": "制动风缸压力输出",
+        "direction": "输出",
+        "item_code": "ITM-MEA-015",
+        "item_name": "制动风缸压力",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::列车质量输入::ITM-MEA-018::输入",
+        "port_name": "列车质量输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-018",
+        "item_name": "列车质量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::列车速度输入::ITM-MEA-001::输入",
+        "port_name": "列车速度输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-001",
+        "item_name": "列车速度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::制动拖滞状态输出::ITM-STA-008::输出",
+        "port_name": "制动拖滞状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-008",
+        "item_name": "制动拖滞状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::制动控制故障状态输出::ITM-STA-007::输出",
+        "port_name": "制动控制故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-007",
+        "item_name": "制动控制故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::可用摩擦制动力输出::ITM-LIM-002::输出",
+        "port_name": "可用摩擦制动力输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-002",
+        "item_name": "可用摩擦制动力",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::可用黏着系数估计输入::ITM-MEA-021::输入",
+        "port_name": "可用黏着系数估计输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-021",
+        "item_name": "可用黏着系数估计",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::可用黏着限制输入::ITM-LIM-008::输入",
+        "port_name": "可用黏着限制输入",
+        "direction": "输入",
+        "item_code": "ITM-LIM-008",
+        "item_name": "可用黏着限制",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::摩擦制动力请求输出::ITM-CMD-007::输出",
+        "port_name": "摩擦制动力请求输出",
+        "direction": "输出",
+        "item_code": "ITM-CMD-007",
+        "item_name": "摩擦制动力请求",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::最大允许减速度输入::ITM-LIM-014::输入",
+        "port_name": "最大允许减速度输入",
+        "direction": "输入",
+        "item_code": "ITM-LIM-014",
+        "item_name": "最大允许减速度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::最大允许制动力输入::ITM-LIM-013::输入",
+        "port_name": "最大允许制动力输入",
+        "direction": "输入",
+        "item_code": "ITM-LIM-013",
+        "item_name": "最大允许制动力",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::车辆载荷系数输入::ITM-MEA-019::输入",
+        "port_name": "车辆载荷系数输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-019",
+        "item_name": "车辆载荷系数",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::轮轨滑移率输入::ITM-MEA-020::输入",
+        "port_name": "轮轨滑移率输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-020",
+        "item_name": "轮轨滑移率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::防滑故障状态输出::ITM-STA-011::输出",
+        "port_name": "防滑故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-011",
+        "item_name": "防滑故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7211",
+        "product_name": "电子制动控制单元(EBCU)",
+        "port_id": "PORT::7211::防滑激活状态输出::ITM-STA-010::输出",
+        "port_name": "防滑激活状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-010",
+        "item_name": "防滑激活状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7213",
+        "product_name": "制动控制接触器及其他",
+        "port_id": "PORT::7213::制动控制接触器状态输出::ITM-STA-036::输出",
+        "port_name": "制动控制接触器状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-036",
+        "item_name": "制动控制接触器状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7224",
+        "product_name": "空重车调整阀",
+        "port_id": "PORT::7224::车辆载荷系数输入::ITM-MEA-019::输入",
+        "port_name": "车辆载荷系数输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-019",
+        "item_name": "车辆载荷系数",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "722A",
+        "product_name": "防滑阀组成",
+        "port_id": "PORT::722A::防滑故障状态输出::ITM-STA-011::输出",
+        "port_name": "防滑故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-011",
+        "item_name": "防滑故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "722A",
+        "product_name": "防滑阀组成",
+        "port_id": "PORT::722A::防滑激活状态输出::ITM-STA-010::输出",
+        "port_name": "防滑激活状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-010",
+        "item_name": "防滑激活状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7254",
+        "product_name": "闸片",
+        "port_id": "PORT::7254::摩擦制动耗散功率输出::ITM-ACC-006::输出",
+        "port_name": "摩擦制动耗散功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-006",
+        "item_name": "摩擦制动耗散功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "7254",
+        "product_name": "闸片",
+        "port_id": "PORT::7254::摩擦制动耗散累计能量输出::ITM-ACC-013::输出",
+        "port_name": "摩擦制动耗散累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-013",
+        "item_name": "摩擦制动耗散累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8121",
+        "product_name": "主控制单元",
+        "port_id": "PORT::8121::列车速度输入::ITM-MEA-001::输入",
+        "port_name": "列车速度输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-001",
+        "item_name": "列车速度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8122",
+        "product_name": "车辆控制单元",
+        "port_id": "PORT::8122::列车速度输入::ITM-MEA-001::输入",
+        "port_name": "列车速度输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-001",
+        "item_name": "列车速度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8125",
+        "product_name": "列车级牵引控制单元",
+        "port_id": "PORT::8125::列车速度输入::ITM-MEA-001::输入",
+        "port_name": "列车速度输入",
+        "direction": "输入",
+        "item_code": "ITM-MEA-001",
+        "item_name": "列车速度",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8125",
+        "product_name": "列车级牵引控制单元",
+        "port_id": "PORT::8125::牵引_再生转矩上限输出::ITM-LIM-003::输出",
+        "port_name": "牵引_再生转矩上限输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-003",
+        "item_name": "牵引/再生转矩上限",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8125",
+        "product_name": "列车级牵引控制单元",
+        "port_id": "PORT::8125::电机侧变流器状态输出::ITM-STA-018::输出",
+        "port_name": "电机侧变流器状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-018",
+        "item_name": "电机侧变流器状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8125",
+        "product_name": "列车级牵引控制单元",
+        "port_id": "PORT::8125::网侧变流器状态输出::ITM-STA-017::输出",
+        "port_name": "网侧变流器状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-017",
+        "item_name": "网侧变流器状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::储能吸收累计能量输出::ITM-ACC-010::输出",
+        "port_name": "储能吸收累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-010",
+        "item_name": "储能吸收累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::储能释放累计能量输出::ITM-ACC-011::输出",
+        "port_name": "储能释放累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-011",
+        "item_name": "储能释放累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::再生发电累计能量输出::ITM-ACC-008::输出",
+        "port_name": "再生发电累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-008",
+        "item_name": "再生发电累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::制动电阻耗散累计能量输出::ITM-ACC-012::输出",
+        "port_name": "制动电阻耗散累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-012",
+        "item_name": "制动电阻耗散累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::可用制动能量输出::ITM-ACC-014::输出",
+        "port_name": "可用制动能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-014",
+        "item_name": "可用制动能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::回馈电网累计能量输出::ITM-ACC-009::输出",
+        "port_name": "回馈电网累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-009",
+        "item_name": "回馈电网累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::牵引实际功率输出::ITM-ACC-001::输出",
+        "port_name": "牵引实际功率输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-001",
+        "item_name": "牵引实际功率",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::牵引累计能量输出::ITM-ACC-007::输出",
+        "port_name": "牵引累计能量输出",
+        "direction": "输出",
+        "item_code": "ITM-ACC-007",
+        "item_name": "牵引累计能量",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "8166",
+        "product_name": "能量计",
+        "port_id": "PORT::8166::能量计量有效状态输出::ITM-STA-035::输出",
+        "port_name": "能量计量有效状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-035",
+        "item_name": "能量计量有效状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X111",
+        "product_name": "双向DC/DC变流模块",
+        "port_id": "PORT::X111::双向DC_DC故障状态输出::ITM-STA-029::输出",
+        "port_name": "双向DC_DC故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-029",
+        "item_name": "双向DC/DC故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X111",
+        "product_name": "双向DC/DC变流模块",
+        "port_id": "PORT::X111::双向DC_DC状态输出::ITM-STA-028::输出",
+        "port_name": "双向DC_DC状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-028",
+        "item_name": "双向DC/DC状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X112",
+        "product_name": "双向DC/DC控制模块",
+        "port_id": "PORT::X112::双向DC_DC故障状态输出::ITM-STA-029::输出",
+        "port_name": "双向DC_DC故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-029",
+        "item_name": "双向DC/DC故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X112",
+        "product_name": "双向DC/DC控制模块",
+        "port_id": "PORT::X112::双向DC_DC状态输出::ITM-STA-028::输出",
+        "port_name": "双向DC_DC状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-028",
+        "item_name": "双向DC/DC状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X112",
+        "product_name": "双向DC/DC控制模块",
+        "port_id": "PORT::X112::超级电容充电允许状态输出::ITM-LIM-011::输出",
+        "port_name": "超级电容充电允许状态输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-011",
+        "item_name": "超级电容充电允许状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X112",
+        "product_name": "双向DC/DC控制模块",
+        "port_id": "PORT::X112::超级电容放电允许状态输出::ITM-LIM-012::输出",
+        "port_name": "超级电容放电允许状态输出",
+        "direction": "输出",
+        "item_code": "ITM-LIM-012",
+        "item_name": "超级电容放电允许状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      },
+      {
+        "product_id": "X113",
+        "product_name": "双向DC/DC检测保护组件",
+        "port_id": "PORT::X113::双向DC_DC故障状态输出::ITM-STA-029::输出",
+        "port_name": "双向DC_DC故障状态输出",
+        "direction": "输出",
+        "item_code": "ITM-STA-029",
+        "item_name": "双向DC/DC故障状态",
+        "reason": "non-critical diagnostic/statistic/spare or unexposed Simulation Contract input",
+        "critical": false,
+        "candidate_count": 0,
+        "candidate_counterparts": []
+      }
+    ]
+  }
+}
