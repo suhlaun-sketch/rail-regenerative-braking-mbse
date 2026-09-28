@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "branch": "kg-full-enrichment-20260928",
+    "purpose": "Audit full Requirement→Function expansion and Product/Port/Item route completion before Neo4j import"
+  },
+  "requirement_function": {
+    "requirement_count": 46,
+    "function_catalog_count": 191,
+    "frozen_v2_relations": 289,
+    "added_evidence_derived_relations": 201,
+    "total_v3_relations": 490,
+    "min_functions_per_requirement": 6,
+    "max_functions_per_requirement": 21,
+    "duplicate_requirement_function_pairs": 0,
+    "dangling_function_refs": 0
+  },
+  "product_port_item": {
+    "product_count": 147,
+    "total_ports": 517,
+    "active_ports": 511,
+    "inactive_ports": 6,
+    "formal_connections": 184,
+    "physical_nets": 9,
+    "net_memberships": 82,
+    "external_boundaries": 3,
+    "active_port_dispositions": {
+      "EXTERNAL_BOUNDARY": 12,
+      "CONNECTED": 283,
+      "TAP_CONNECTED": 17,
+      "OPTIONAL_OPEN": 126,
+      "NET_MEMBER": 73
+    },
+    "critical_unresolved": 0,
+    "route_classification_unknown": 0
+  },
+  "function_interface": {
+    "function_count": 191,
+    "mapped_leaf_functions": 135,
+    "function_interface_mappings": 471,
+    "unknown_port_refs": 0,
+    "unresolved_route_classifications": 0
+  },
+  "optional_open_gap_analysis": {
+    "optional_open_ports": 126,
+    "unique_compatible_counterpart": 30,
+    "ambiguous_compatible_counterparts": 29,
+    "no_counterpart_in_current_model": 67,
+    "active_derived_connection_overlays": 30,
+    "note": "30 unique matches are stored as DERIVED_CONNECTS_TO enrichment overlays; frozen final_connections.json remains unchanged."
+  },
+  "assertions": [
+    {
+      "name": "Requirement→Function full expansion has no duplicate pair",
+      "pass": true
+    },
+    {
+      "name": "All Requirement→Function Function IDs resolve",
+      "pass": true
+    },
+    {
+      "name": "Every Requirement has at least 6 Functions after V3 enrichment",
+      "pass": true
+    },
+    {
+      "name": "All 517 Ports are classified as active or inactive",
+      "pass": true
+    },
+    {
+      "name": "No critical active Port is unresolved in frozen topology",
+      "pass": true
+    },
+    {
+      "name": "All 471 Function→Interface mappings resolve to a known Port route classification",
+      "pass": true
+    },
+    {
+      "name": "All 126 OPTIONAL_OPEN Ports are explicitly classified for gap handling",
+      "pass": true
+    }
+  ],
+  "import_order": [
+    "requirement_function_trace_v3_full.json",
+    "product_port_item_routes_v1.json",
+    "function_product_interface_item_routes_v1.json",
+    "optional_open_route_candidates_v1.json",
+    "derived_interface_connections_v1.json"
+  ]
+}
