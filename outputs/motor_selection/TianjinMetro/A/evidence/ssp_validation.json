@@ -1,0 +1,13 @@
+{
+  "candidate": "A",
+  "status": "PASS",
+  "formal_architecture_source": "work\\simulation\\simulink_fmu_v2_1_final\\06_ssp\\Rail_MBSE_All16_Executable_v2_1.ssp",
+  "candidate_motor_fmu": "resources/L2_5300.fmu",
+  "counts": {
+    "components": 16,
+    "connectors": 151,
+    "connections": 87
+  },
+  "zip_error": null,
+  "architecture_change": "traction motor FMU replacement only"
+}

@@ -1,0 +1,1548 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:SystemStructureDescription xmlns:ns0="http://ssp-standard.org/SSP1/SystemStructureDescription" xmlns:ns2="http://ssp-standard.org/SSP1/SystemStructureCommon" xmlns:ns3="urn:rail-mbse:executable-trace:v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" name="Rail_MBSE_TianjinMetro_C" generationTool="Tianjin motor-selection SSI compatible batch builder" generationDateAndTime="2026-09-13T14:25:14.100074+00:00" xsi:schemaLocation="http://ssp-standard.org/SSP1/SystemStructureDescription http://ssp-standard.org/SSP/1.0/SystemStructureDescription.xsd">
+    <ns0:System name="Rail_MBSE_All16_Executable_v2">
+        <ns0:Elements>
+            <ns0:Component name="L2_3100" type="application/x-fmu-sharedlibrary" source="resources/L2_3100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_T_brake" kind="input">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_T_shaft" kind="input">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_omega_axle" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_omega_gearbox" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_omega_shaft" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_omega_wheel" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_3500" type="application/x-fmu-sharedlibrary" source="resources/L2_3500.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_T_shaft" kind="input">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_omega_shaft" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_T_shaft" kind="output">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_omega_shaft" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_3600" type="application/x-fmu-sharedlibrary" source="resources/L2_3600.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_omega_axle" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_omega_gearbox" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_omega_motor" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_motor_speed" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_3800" type="application/x-fmu-sharedlibrary" source="resources/L2_3800.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_sanding_request" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_4100" type="application/x-fmu-sharedlibrary" source="resources/L2_4100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_I_ac_rms" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_pantograph_command" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_U_ac_rms" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_f_ac" kind="output">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_pantograph_state" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_4200" type="application/x-fmu-sharedlibrary" source="resources/L2_4200.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_I_ac_rms" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_U_ac_rms" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_f_ac" kind="input">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_hv_safety_loop_state" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_hv_system_fault" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_pantograph_state" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_I_ac_rms" kind="output">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_U_ac_rms" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_f_ac" kind="output">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_hv_breaker_command" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_hv_breaker_state" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_hv_system_fault" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_line_current" kind="output">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_line_voltage" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_pantograph_command" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_4400" type="application/x-fmu-sharedlibrary" source="resources/L2_4400.fmu">
+                <ns0:Connectors />
+            </ns0:Component>
+            <ns0:Component name="L2_4500" type="application/x-fmu-sharedlibrary" source="resources/L2_4500.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_I_sec_rms" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_U_ac_rms" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_f_ac" kind="input">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_hv_breaker_state" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_hv_system_fault" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_I_ac_rms" kind="output">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_U_sec_rms" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_f_sec" kind="output">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_hv_system_fault" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_5100" type="application/x-fmu-sharedlibrary" source="resources/L2_5100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_I_motor_rms" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_U_sec_rms" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_f_sec" kind="input">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_line_current" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_line_voltage" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_motor_phase_voltage" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_motor_speed" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_motor_torque_actual" kind="input">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_motor_torque_request" kind="input">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_I_sec_rms" kind="output">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_U_motor_ll_rms" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_brake_resistor_dissipated_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_dc_link_current" kind="output">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_dc_link_voltage" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_f_motor_e" kind="output">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_grid_acceptable_regenerative_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_grid_returned_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_regenerative_power_actual" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_traction_converter_fault" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_5300" type="application/x-fmu-sharedlibrary" source="resources/L2_5300.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_U_motor_ll_rms" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_f_motor_e" kind="input">
+                        <ns2:Real unit="Hz" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_omega_shaft" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_I_motor_rms" kind="output">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_T_shaft" kind="output">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_motor_phase_voltage" kind="output">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_motor_speed" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_motor_torque_actual" kind="output">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_omega_motor" kind="output">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_7100" type="application/x-fmu-sharedlibrary" source="resources/L2_7100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="out_main_reservoir_pressure" kind="output">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_7200" type="application/x-fmu-sharedlibrary" source="resources/L2_7200.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_achieved_dynamic_brake_force" kind="input">
+                        <ns2:Real unit="N" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_available_dynamic_brake_force" kind="input">
+                        <ns2:Real unit="N" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_brake_cylinder_pressure" kind="input">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_brake_safety_loop_state" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_dynamic_brake_availability" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_emergency_brake_request" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_main_reservoir_pressure" kind="input">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_omega_wheel" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_safety_brake_request" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_service_brake_request" kind="input">
+                        <ns2:Real unit="1 或 m/s2" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_T_brake" kind="output">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_brake_availability" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_brake_cylinder_pressure" kind="output">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_dynamic_brake_force_request" kind="output">
+                        <ns2:Real unit="N" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_8100" type="application/x-fmu-sharedlibrary" source="resources/L2_8100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_brake_availability" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_brake_cylinder_pressure" kind="input">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_brake_resistor_dissipated_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_dc_link_current" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_dc_link_voltage" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_dcdc_actual_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_dynamic_brake_force_request" kind="input">
+                        <ns2:Real unit="N" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_emergency_brake_request" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_absorbed_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_availability" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_available_charge_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_available_discharge_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_fault" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_external_safety_system_state" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_grid_acceptable_regenerative_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_grid_returned_power" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_hv_breaker_command" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_line_current" kind="input">
+                        <ns2:Real unit="A" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_line_voltage" kind="input">
+                        <ns2:Real unit="V" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_main_reservoir_pressure" kind="input">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_motor_speed" kind="input">
+                        <ns2:Real unit="rad/s" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_motor_torque_actual" kind="input">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_regenerative_power_actual" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_safety_brake_request" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_service_brake_request" kind="input">
+                        <ns2:Real unit="1 或 m/s2" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_super_cap_soc" kind="input">
+                        <ns2:Real unit="1" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_traction_command" kind="input">
+                        <ns2:Real unit="1" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_traction_converter_fault" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_train_direction_command" kind="input">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_achieved_dynamic_brake_force" kind="output">
+                        <ns2:Real unit="N" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_available_dynamic_brake_force" kind="output">
+                        <ns2:Real unit="N" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_brake_cylinder_pressure" kind="output">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_brake_safety_loop_state" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_dcdc_enable_command" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_dynamic_brake_availability" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_emergency_brake_request" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_contactor_command" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_fault_reset_command" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_power_request" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_precharge_command" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_hv_safety_loop_state" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_main_reservoir_pressure" kind="output">
+                        <ns2:Real unit="Pa" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_motor_torque_request" kind="output">
+                        <ns2:Real unit="N*m" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_safety_brake_request" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_sanding_request" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_service_brake_request" kind="output">
+                        <ns2:Real unit="1 或 m/s2" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_D100" type="application/x-fmu-sharedlibrary" source="resources/L2_D100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="out_emergency_brake_request" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_service_brake_request" kind="output">
+                        <ns2:Real unit="1 或 m/s2" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_traction_command" kind="output">
+                        <ns2:Real unit="1" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_train_direction_command" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_E100" type="application/x-fmu-sharedlibrary" source="resources/L2_E100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="out_external_safety_system_state" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_safety_brake_request" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+            <ns0:Component name="L2_X100" type="application/x-fmu-sharedlibrary" source="resources/L2_X100.fmu">
+                <ns0:Connectors>
+                    <ns0:Connector name="in_dcdc_enable_command" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_contactor_command" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_fault_reset_command" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_power_request" kind="input">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="in_ess_precharge_command" kind="input">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_dcdc_actual_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_absorbed_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_availability" kind="output">
+                        <ns2:Boolean />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_available_charge_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_available_discharge_power" kind="output">
+                        <ns2:Real unit="W" />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_ess_fault" kind="output">
+                        <ns2:Integer />
+                    </ns0:Connector>
+                    <ns0:Connector name="out_super_cap_soc" kind="output">
+                        <ns2:Real unit="1" />
+                    </ns0:Connector>
+                </ns0:Connectors>
+            </ns0:Component>
+        </ns0:Elements>
+        <ns0:Connections>
+            <ns0:Connection startElement="L2_4200" startConnector="out_line_voltage" endElement="L2_5100" endConnector="in_line_voltage" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_emergency_brake_request" endElement="L2_7200" endConnector="in_emergency_brake_request" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_omega_motor" endElement="L2_3600" endConnector="in_omega_motor" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_grid_acceptable_regenerative_power" endElement="L2_8100" endConnector="in_grid_acceptable_regenerative_power" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_ess_absorbed_power" endElement="L2_8100" endConnector="in_ess_absorbed_power" />
+            <ns0:Connection startElement="L2_E100" startConnector="out_external_safety_system_state" endElement="L2_8100" endConnector="in_external_safety_system_state" />
+            <ns0:Connection startElement="L2_7200" startConnector="out_brake_availability" endElement="L2_8100" endConnector="in_brake_availability" />
+            <ns0:Connection startElement="L2_4500" startConnector="out_U_sec_rms" endElement="L2_5100" endConnector="in_U_sec_rms" />
+            <ns0:Connection startElement="L2_4500" startConnector="out_f_sec" endElement="L2_5100" endConnector="in_f_sec" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_I_sec_rms" endElement="L2_4500" endConnector="in_I_sec_rms" />
+            <ns0:Connection startElement="L2_4500" startConnector="out_U_sec_rms" endElement="L2_5100" endConnector="in_U_sec_rms" />
+            <ns0:Connection startElement="L2_4500" startConnector="out_f_sec" endElement="L2_5100" endConnector="in_f_sec" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_I_sec_rms" endElement="L2_4500" endConnector="in_I_sec_rms" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_dynamic_brake_availability" endElement="L2_7200" endConnector="in_dynamic_brake_availability" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_ess_contactor_command" endElement="L2_X100" endConnector="in_ess_contactor_command" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_brake_cylinder_pressure" endElement="L2_7200" endConnector="in_brake_cylinder_pressure" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_line_voltage" endElement="L2_8100" endConnector="in_line_voltage" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_line_current" endElement="L2_5100" endConnector="in_line_current" />
+            <ns0:Connection startElement="L2_4500" startConnector="out_hv_system_fault" endElement="L2_4200" endConnector="in_hv_system_fault" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_dcdc_enable_command" endElement="L2_X100" endConnector="in_dcdc_enable_command" />
+            <ns0:Connection startElement="L2_D100" startConnector="out_traction_command" endElement="L2_8100" endConnector="in_traction_command" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_pantograph_command" endElement="L2_4100" endConnector="in_pantograph_command" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_T_shaft" endElement="L2_3500" endConnector="in_T_shaft" />
+            <ns0:Connection startElement="L2_3500" startConnector="out_omega_shaft" endElement="L2_5300" endConnector="in_omega_shaft" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_hv_breaker_state" endElement="L2_4500" endConnector="in_hv_breaker_state" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_motor_phase_voltage" endElement="L2_5100" endConnector="in_motor_phase_voltage" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_U_motor_ll_rms" endElement="L2_5300" endConnector="in_U_motor_ll_rms" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_f_motor_e" endElement="L2_5300" endConnector="in_f_motor_e" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_I_motor_rms" endElement="L2_5100" endConnector="in_I_motor_rms" />
+            <ns0:Connection startElement="L2_3500" startConnector="out_T_shaft" endElement="L2_3100" endConnector="in_T_shaft" />
+            <ns0:Connection startElement="L2_3100" startConnector="out_omega_shaft" endElement="L2_3500" endConnector="in_omega_shaft" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_regenerative_power_actual" endElement="L2_8100" endConnector="in_regenerative_power_actual" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_emergency_brake_request" endElement="L2_7200" endConnector="in_emergency_brake_request" />
+            <ns0:Connection startElement="L2_D100" startConnector="out_service_brake_request" endElement="L2_8100" endConnector="in_service_brake_request" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_motor_speed" endElement="L2_5100" endConnector="in_motor_speed" />
+            <ns0:Connection startElement="L2_3100" startConnector="out_omega_gearbox" endElement="L2_3600" endConnector="in_omega_gearbox" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_dc_link_current" endElement="L2_8100" endConnector="in_dc_link_current" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_traction_converter_fault" endElement="L2_8100" endConnector="in_traction_converter_fault" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_sanding_request" endElement="L2_3800" endConnector="in_sanding_request" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_motor_torque_actual" endElement="L2_8100" endConnector="in_motor_torque_actual" />
+            <ns0:Connection startElement="L2_D100" startConnector="out_emergency_brake_request" endElement="L2_8100" endConnector="in_emergency_brake_request" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_dc_link_voltage" endElement="L2_8100" endConnector="in_dc_link_voltage" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_motor_torque_request" endElement="L2_5100" endConnector="in_motor_torque_request" />
+            <ns0:Connection startElement="L2_7100" startConnector="out_main_reservoir_pressure" endElement="L2_8100" endConnector="in_main_reservoir_pressure" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_ess_power_request" endElement="L2_X100" endConnector="in_ess_power_request" />
+            <ns0:Connection startElement="L2_E100" startConnector="out_safety_brake_request" endElement="L2_8100" endConnector="in_safety_brake_request" />
+            <ns0:Connection startElement="L2_E100" startConnector="out_external_safety_system_state" endElement="L2_8100" endConnector="in_external_safety_system_state" />
+            <ns0:Connection startElement="L2_3600" startConnector="out_motor_speed" endElement="L2_8100" endConnector="in_motor_speed" />
+            <ns0:Connection startElement="L2_D100" startConnector="out_emergency_brake_request" endElement="L2_8100" endConnector="in_emergency_brake_request" />
+            <ns0:Connection startElement="L2_4100" startConnector="out_pantograph_state" endElement="L2_4200" endConnector="in_pantograph_state" />
+            <ns0:Connection startElement="L2_7200" startConnector="out_brake_availability" endElement="L2_8100" endConnector="in_brake_availability" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_super_cap_soc" endElement="L2_8100" endConnector="in_super_cap_soc" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_service_brake_request" endElement="L2_7200" endConnector="in_service_brake_request" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_hv_breaker_command" endElement="L2_8100" endConnector="in_hv_breaker_command" />
+            <ns0:Connection startElement="L2_4100" startConnector="out_U_ac_rms" endElement="L2_4200" endConnector="in_U_ac_rms" />
+            <ns0:Connection startElement="L2_4100" startConnector="out_f_ac" endElement="L2_4200" endConnector="in_f_ac" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_I_ac_rms" endElement="L2_4100" endConnector="in_I_ac_rms" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_main_reservoir_pressure" endElement="L2_7200" endConnector="in_main_reservoir_pressure" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_brake_resistor_dissipated_power" endElement="L2_8100" endConnector="in_brake_resistor_dissipated_power" />
+            <ns0:Connection startElement="L2_D100" startConnector="out_train_direction_command" endElement="L2_8100" endConnector="in_train_direction_command" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_dc_link_voltage" endElement="L2_8100" endConnector="in_dc_link_voltage" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_dcdc_actual_power" endElement="L2_8100" endConnector="in_dcdc_actual_power" />
+            <ns0:Connection startElement="L2_7200" startConnector="out_dynamic_brake_force_request" endElement="L2_8100" endConnector="in_dynamic_brake_force_request" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_grid_returned_power" endElement="L2_8100" endConnector="in_grid_returned_power" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_U_ac_rms" endElement="L2_4500" endConnector="in_U_ac_rms" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_f_ac" endElement="L2_4500" endConnector="in_f_ac" />
+            <ns0:Connection startElement="L2_4500" startConnector="out_I_ac_rms" endElement="L2_4200" endConnector="in_I_ac_rms" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_grid_acceptable_regenerative_power" endElement="L2_8100" endConnector="in_grid_acceptable_regenerative_power" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_available_dynamic_brake_force" endElement="L2_7200" endConnector="in_available_dynamic_brake_force" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_ess_availability" endElement="L2_8100" endConnector="in_ess_availability" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_ess_fault" endElement="L2_8100" endConnector="in_ess_fault" />
+            <ns0:Connection startElement="L2_5100" startConnector="out_dc_link_voltage" endElement="L2_8100" endConnector="in_dc_link_voltage" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_ess_available_charge_power" endElement="L2_8100" endConnector="in_ess_available_charge_power" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_brake_safety_loop_state" endElement="L2_7200" endConnector="in_brake_safety_loop_state" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_hv_system_fault" endElement="L2_4500" endConnector="in_hv_system_fault" />
+            <ns0:Connection startElement="L2_5300" startConnector="out_motor_torque_actual" endElement="L2_5100" endConnector="in_motor_torque_actual" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_ess_fault_reset_command" endElement="L2_X100" endConnector="in_ess_fault_reset_command" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_ess_precharge_command" endElement="L2_X100" endConnector="in_ess_precharge_command" />
+            <ns0:Connection startElement="L2_7200" startConnector="out_T_brake" endElement="L2_3100" endConnector="in_T_brake" />
+            <ns0:Connection startElement="L2_3100" startConnector="out_omega_wheel" endElement="L2_7200" endConnector="in_omega_wheel" />
+            <ns0:Connection startElement="L2_X100" startConnector="out_ess_available_discharge_power" endElement="L2_8100" endConnector="in_ess_available_discharge_power" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_achieved_dynamic_brake_force" endElement="L2_7200" endConnector="in_achieved_dynamic_brake_force" />
+            <ns0:Connection startElement="L2_7200" startConnector="out_brake_cylinder_pressure" endElement="L2_8100" endConnector="in_brake_cylinder_pressure" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_safety_brake_request" endElement="L2_7200" endConnector="in_safety_brake_request" />
+            <ns0:Connection startElement="L2_8100" startConnector="out_hv_safety_loop_state" endElement="L2_4200" endConnector="in_hv_safety_loop_state" />
+            <ns0:Connection startElement="L2_3100" startConnector="out_omega_axle" endElement="L2_3600" endConnector="in_omega_axle" />
+            <ns0:Connection startElement="L2_4200" startConnector="out_line_current" endElement="L2_8100" endConnector="in_line_current" />
+        </ns0:Connections>
+        <ns0:Annotations>
+            <ns2:Annotation type="rail-mbse-executable-trace-v1">
+                <ns3:ExecutableTrace authoritativeSSD="work/sysmlv2/ssi_integration/03_ssd/Rail_MBSE_L2_All16_v1.ssd" executableInterface="work/simulation/implementation_binding/Rail_MBSE_Executable_FMU_Interface_v1.json" structuralConnectors="138" executableVariables="151" structuralConnections="74" executableConnectionRecords="87" uniqueCausalPaths="77">
+                    <ns3:Variable component="L2_3100" name="in_T_brake" id="EV::L2_3100::in_T_brake">
+                        <ns3:StructuralConnector ref="L2_3100.p_3131_rp_06d152ddc255f2eb" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3100.p_N_3130.p_N_3131.rp_06d152ddc255f2eb" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-007" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_007" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3100" name="in_T_shaft" id="EV::L2_3100::in_T_shaft">
+                        <ns3:StructuralConnector ref="L2_3100.p_3121_rp_fdcd27ee9b0a936f" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_fdcd27ee9b0a936f" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3100" name="out_omega_axle" id="EV::L2_3100::out_omega_axle">
+                        <ns3:StructuralConnector ref="L2_3100.p_3112_rp_c530418a51140052" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3100.p_N_3110.p_N_3112.rp_c530418a51140052" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3100" name="out_omega_gearbox" id="EV::L2_3100::out_omega_gearbox">
+                        <ns3:StructuralConnector ref="L2_3100.p_3121_rp_6464b6253314b208" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_6464b6253314b208" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3100" name="out_omega_shaft" id="EV::L2_3100::out_omega_shaft">
+                        <ns3:StructuralConnector ref="L2_3100.p_3121_rp_fdcd27ee9b0a936f" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3100.p_N_3120.p_N_3121.rp_fdcd27ee9b0a936f" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3100" name="out_omega_wheel" id="EV::L2_3100::out_omega_wheel">
+                        <ns3:StructuralConnector ref="L2_3100.p_3131_rp_06d152ddc255f2eb" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3100.p_N_3130.p_N_3131.rp_06d152ddc255f2eb" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-007" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_007" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3500" name="in_T_shaft" id="EV::L2_3500::in_T_shaft">
+                        <ns3:StructuralConnector ref="L2_3500.p_3511_rp_aa7691c6f81e4771" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3500" name="in_omega_shaft" id="EV::L2_3500::in_omega_shaft">
+                        <ns3:StructuralConnector ref="L2_3500.p_3512_rp_c455741f6ca5a597" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3500" name="out_T_shaft" id="EV::L2_3500::out_T_shaft">
+                        <ns3:StructuralConnector ref="L2_3500.p_3512_rp_c455741f6ca5a597" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3500.p_N_3510.p_N_3512.rp_c455741f6ca5a597" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3500" name="out_omega_shaft" id="EV::L2_3500::out_omega_shaft">
+                        <ns3:StructuralConnector ref="L2_3500.p_3511_rp_aa7691c6f81e4771" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3500.p_N_3510.p_N_3511.rp_aa7691c6f81e4771" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3600" name="in_omega_axle" id="EV::L2_3600::in_omega_axle">
+                        <ns3:StructuralConnector ref="L2_3600.p_3641_rp_4ddc6037e5eea6fc" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3600.p_N_3640.p_N_3641.rp_4ddc6037e5eea6fc" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3600" name="in_omega_gearbox" id="EV::L2_3600::in_omega_gearbox">
+                        <ns3:StructuralConnector ref="L2_3600.p_3643_rp_48ddc723a7d58137" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3600.p_N_3640.p_N_3643.rp_48ddc723a7d58137" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3600" name="in_omega_motor" id="EV::L2_3600::in_omega_motor">
+                        <ns3:StructuralConnector ref="L2_3600.p_3644_rp_af1c1b2c65382775" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3600.p_N_3640.p_N_3644.rp_af1c1b2c65382775" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3600" name="out_motor_speed" id="EV::L2_3600::out_motor_speed">
+                        <ns3:StructuralConnector ref="L2_3600.p_3644_rp_08c271db56ce8427" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3600.p_N_3640.p_N_3644.rp_08c271db56ce8427" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-004" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_3800" name="in_sanding_request" id="EV::L2_3800::in_sanding_request">
+                        <ns3:StructuralConnector ref="L2_3800.p_3811_rp_81d4e1a7092e0653" />
+                        <ns3:SysMLElement ref="p_N_3000.p_N_3800.p_N_3810.p_N_3811.rp_81d4e1a7092e0653" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-024" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_024" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4100" name="in_I_ac_rms" id="EV::L2_4100::in_I_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4100.p_4111_rp_ca65ceda639dfc7a" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4100.p_N_4110.p_N_4111.rp_ca65ceda639dfc7a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4100" name="in_pantograph_command" id="EV::L2_4100::in_pantograph_command">
+                        <ns3:StructuralConnector ref="L2_4100.p_411C_rp_201c13a158f19a88" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4100.p_N_4110.p_N_411C.rp_201c13a158f19a88" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-018" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_018" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4100" name="out_U_ac_rms" id="EV::L2_4100::out_U_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4100.p_4111_rp_ca65ceda639dfc7a" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4100.p_N_4110.p_N_4111.rp_ca65ceda639dfc7a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4100" name="out_f_ac" id="EV::L2_4100::out_f_ac">
+                        <ns3:StructuralConnector ref="L2_4100.p_4111_rp_ca65ceda639dfc7a" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4100.p_N_4110.p_N_4111.rp_ca65ceda639dfc7a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4100" name="out_pantograph_state" id="EV::L2_4100::out_pantograph_state">
+                        <ns3:StructuralConnector ref="L2_4100.p_411C_rp_72d2eed2608e1b56" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4100.p_N_4110.p_N_411C.rp_72d2eed2608e1b56" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-015" />
+                        <ns3:SysMLElement ref="IF_IF_STA_015" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="in_I_ac_rms" id="EV::L2_4200::in_I_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4200.p_4236_rp_78e99abb7d77c156" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="in_U_ac_rms" id="EV::L2_4200::in_U_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4200.p_4211_rp_bba7ece236be8f3c" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="in_f_ac" id="EV::L2_4200::in_f_ac">
+                        <ns3:StructuralConnector ref="L2_4200.p_4211_rp_bba7ece236be8f3c" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="in_hv_safety_loop_state" id="EV::L2_4200::in_hv_safety_loop_state">
+                        <ns3:StructuralConnector ref="L2_4200.p_4239_rp_c9c4c887a8c7b2f0" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4239.rp_c9c4c887a8c7b2f0" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-024" />
+                        <ns3:SysMLElement ref="IF_IF_STA_024" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="in_hv_system_fault" id="EV::L2_4200::in_hv_system_fault">
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_11b7e7965ec2e386" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_11b7e7965ec2e386" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-016" />
+                        <ns3:SysMLElement ref="IF_IF_STA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="in_pantograph_state" id="EV::L2_4200::in_pantograph_state">
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_d9d25dfbac32d1e3" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_d9d25dfbac32d1e3" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-015" />
+                        <ns3:SysMLElement ref="IF_IF_STA_015" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_I_ac_rms" id="EV::L2_4200::out_I_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4200.p_4211_rp_bba7ece236be8f3c" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4210.p_N_4211.rp_bba7ece236be8f3c" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_U_ac_rms" id="EV::L2_4200::out_U_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4200.p_4236_rp_78e99abb7d77c156" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_f_ac" id="EV::L2_4200::out_f_ac">
+                        <ns3:StructuralConnector ref="L2_4200.p_4236_rp_78e99abb7d77c156" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_78e99abb7d77c156" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_hv_breaker_command" id="EV::L2_4200::out_hv_breaker_command">
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_65aacc4600de3990" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_65aacc4600de3990" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-016" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_hv_breaker_state" id="EV::L2_4200::out_hv_breaker_state">
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_0674d2b80a6a72da" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_0674d2b80a6a72da" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-013" />
+                        <ns3:SysMLElement ref="IF_IF_STA_013" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_hv_system_fault" id="EV::L2_4200::out_hv_system_fault">
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_9458944450b0dd4c" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9458944450b0dd4c" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-016" />
+                        <ns3:SysMLElement ref="IF_IF_STA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_line_current" id="EV::L2_4200::out_line_current">
+                        <ns3:StructuralConnector ref="L2_4200.p_4236_rp_9107465175683792" />
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_c7dcc306b020116f" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_006" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-006" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4236.rp_9107465175683792" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_c7dcc306b020116f" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_line_voltage" id="EV::L2_4200::out_line_voltage">
+                        <ns3:StructuralConnector ref="L2_4200.p_4235_rp_6fea4b377f978aac" />
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_5576b5e0dbb912ba" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_005" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-005" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4235.rp_6fea4b377f978aac" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_5576b5e0dbb912ba" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4200" name="out_pantograph_command" id="EV::L2_4200::out_pantograph_command">
+                        <ns3:StructuralConnector ref="L2_4200.p_4238_rp_9744a4b3a255a6e8" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4200.p_N_4230.p_N_4238.rp_9744a4b3a255a6e8" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-018" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_018" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="in_I_sec_rms" id="EV::L2_4500::in_I_sec_rms">
+                        <ns3:StructuralConnector ref="L2_4500.p_4513_rp_f597e9dc63931270" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-014" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="in_U_ac_rms" id="EV::L2_4500::in_U_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4500.p_4511_rp_c782fb362436088e" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="in_f_ac" id="EV::L2_4500::in_f_ac">
+                        <ns3:StructuralConnector ref="L2_4500.p_4511_rp_c782fb362436088e" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="in_hv_breaker_state" id="EV::L2_4500::in_hv_breaker_state">
+                        <ns3:StructuralConnector ref="L2_4500.p_4518_rp_67eef246e016ac82" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4518.rp_67eef246e016ac82" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-013" />
+                        <ns3:SysMLElement ref="IF_IF_STA_013" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="in_hv_system_fault" id="EV::L2_4500::in_hv_system_fault">
+                        <ns3:StructuralConnector ref="L2_4500.p_4518_rp_a87c9390595138d6" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4518.rp_a87c9390595138d6" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-016" />
+                        <ns3:SysMLElement ref="IF_IF_STA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="out_I_ac_rms" id="EV::L2_4500::out_I_ac_rms">
+                        <ns3:StructuralConnector ref="L2_4500.p_4511_rp_c782fb362436088e" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4511.rp_c782fb362436088e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-001" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="out_U_sec_rms" id="EV::L2_4500::out_U_sec_rms">
+                        <ns3:StructuralConnector ref="L2_4500.p_4513_rp_f597e9dc63931270" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-014" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="out_f_sec" id="EV::L2_4500::out_f_sec">
+                        <ns3:StructuralConnector ref="L2_4500.p_4513_rp_f597e9dc63931270" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4513.rp_f597e9dc63931270" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-014" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_4500" name="out_hv_system_fault" id="EV::L2_4500::out_hv_system_fault">
+                        <ns3:StructuralConnector ref="L2_4500.p_4517_rp_b93b1716e8b4e844" />
+                        <ns3:SysMLElement ref="p_N_4000.p_N_4500.p_N_4510.p_N_4517.rp_b93b1716e8b4e844" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-016" />
+                        <ns3:SysMLElement ref="IF_IF_STA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_I_motor_rms" id="EV::L2_5100::in_I_motor_rms">
+                        <ns3:StructuralConnector ref="L2_5100.p_5132_rp_770f7e1c507cc073" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-004" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_U_sec_rms" id="EV::L2_5100::in_U_sec_rms">
+                        <ns3:StructuralConnector ref="L2_5100.p_5121_rp_9dedfe88c8a34261" />
+                        <ns3:StructuralConnector ref="L2_5100.p_5122_rp_0b57347688ba1240" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_014" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-014" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_f_sec" id="EV::L2_5100::in_f_sec">
+                        <ns3:StructuralConnector ref="L2_5100.p_5121_rp_9dedfe88c8a34261" />
+                        <ns3:StructuralConnector ref="L2_5100.p_5122_rp_0b57347688ba1240" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_014" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-014" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_line_current" id="EV::L2_5100::in_line_current">
+                        <ns3:StructuralConnector ref="L2_5100.p_5111_rp_651700e69b7dccba" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_651700e69b7dccba" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-006" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_006" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_line_voltage" id="EV::L2_5100::in_line_voltage">
+                        <ns3:StructuralConnector ref="L2_5100.p_5111_rp_5f90d6dd8fba4321" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_5f90d6dd8fba4321" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-005" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_motor_phase_voltage" id="EV::L2_5100::in_motor_phase_voltage">
+                        <ns3:StructuralConnector ref="L2_5100.p_5112_rp_21e86fb073b61523" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_21e86fb073b61523" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-011" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_011" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_motor_speed" id="EV::L2_5100::in_motor_speed">
+                        <ns3:StructuralConnector ref="L2_5100.p_5112_rp_780596fabcc73a0f" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_780596fabcc73a0f" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-004" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_motor_torque_actual" id="EV::L2_5100::in_motor_torque_actual">
+                        <ns3:StructuralConnector ref="L2_5100.p_5112_rp_4557e9b0656c46f5" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_4557e9b0656c46f5" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-012" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_012" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="in_motor_torque_request" id="EV::L2_5100::in_motor_torque_request">
+                        <ns3:StructuralConnector ref="L2_5100.p_5112_rp_6ce5fb5c81d47ab4" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5112.rp_6ce5fb5c81d47ab4" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-012" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_012" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_I_sec_rms" id="EV::L2_5100::out_I_sec_rms">
+                        <ns3:StructuralConnector ref="L2_5100.p_5121_rp_9dedfe88c8a34261" />
+                        <ns3:StructuralConnector ref="L2_5100.p_5122_rp_0b57347688ba1240" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_014" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-014" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5120.p_N_5121.rp_9dedfe88c8a34261" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5120.p_N_5122.rp_0b57347688ba1240" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_U_motor_ll_rms" id="EV::L2_5100::out_U_motor_ll_rms">
+                        <ns3:StructuralConnector ref="L2_5100.p_5132_rp_770f7e1c507cc073" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-004" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_brake_resistor_dissipated_power" id="EV::L2_5100::out_brake_resistor_dissipated_power">
+                        <ns3:StructuralConnector ref="L2_5100.p_5142_rp_ff09931c451e831b" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5140.p_N_5142.rp_ff09931c451e831b" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-005" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_dc_link_current" id="EV::L2_5100::out_dc_link_current">
+                        <ns3:StructuralConnector ref="L2_5100.p_5145_rp_a9cc4822e30a5ede" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5140.p_N_5145.rp_a9cc4822e30a5ede" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-009" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_009" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_dc_link_voltage" id="EV::L2_5100::out_dc_link_voltage">
+                        <ns3:StructuralConnector ref="L2_5100.p_5145_rp_1680714c67f7d311" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5140.p_N_5145.rp_1680714c67f7d311" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-008" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_008" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_f_motor_e" id="EV::L2_5100::out_f_motor_e">
+                        <ns3:StructuralConnector ref="L2_5100.p_5132_rp_770f7e1c507cc073" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_770f7e1c507cc073" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-004" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_grid_acceptable_regenerative_power" id="EV::L2_5100::out_grid_acceptable_regenerative_power">
+                        <ns3:StructuralConnector ref="L2_5100.p_5111_rp_cd7720cf9a4eae22" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5111.rp_cd7720cf9a4eae22" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-005" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_grid_returned_power" id="EV::L2_5100::out_grid_returned_power">
+                        <ns3:StructuralConnector ref="L2_5100.p_5131_rp_95979f7c6bb276e7" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5130.p_N_5131.rp_95979f7c6bb276e7" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-003" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_regenerative_power_actual" id="EV::L2_5100::out_regenerative_power_actual">
+                        <ns3:StructuralConnector ref="L2_5100.p_5132_rp_75d86c9dc39b94b8" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5130.p_N_5132.rp_75d86c9dc39b94b8" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-002" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_002" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5100" name="out_traction_converter_fault" id="EV::L2_5100::out_traction_converter_fault">
+                        <ns3:StructuralConnector ref="L2_5100.p_5113_rp_d93ff3dea2be11bd" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5100.p_N_5110.p_N_5113.rp_d93ff3dea2be11bd" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-019" />
+                        <ns3:SysMLElement ref="IF_IF_STA_019" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="in_U_motor_ll_rms" id="EV::L2_5300::in_U_motor_ll_rms">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_57f3c317ac0c860d" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-004" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="in_f_motor_e" id="EV::L2_5300::in_f_motor_e">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_57f3c317ac0c860d" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-004" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="in_omega_shaft" id="EV::L2_5300::in_omega_shaft">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_97eb613c06ae1b2e" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="out_I_motor_rms" id="EV::L2_5300::out_I_motor_rms">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_57f3c317ac0c860d" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_57f3c317ac0c860d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-004" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="out_T_shaft" id="EV::L2_5300::out_T_shaft">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_97eb613c06ae1b2e" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="out_motor_phase_voltage" id="EV::L2_5300::out_motor_phase_voltage">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_537e9856bafa2a02" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_537e9856bafa2a02" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-011" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_011" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="out_motor_speed" id="EV::L2_5300::out_motor_speed">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_79c695a1342df24f" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_79c695a1342df24f" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-004" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="out_motor_torque_actual" id="EV::L2_5300::out_motor_torque_actual">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_10bb4c4f0063bc18" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_10bb4c4f0063bc18" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-012" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_012" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_5300" name="out_omega_motor" id="EV::L2_5300::out_omega_motor">
+                        <ns3:StructuralConnector ref="L2_5300.p_5311_rp_97eb613c06ae1b2e" />
+                        <ns3:SysMLElement ref="p_N_5000.p_N_5300.p_N_5310.p_N_5311.rp_97eb613c06ae1b2e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-005" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7100" name="out_main_reservoir_pressure" id="EV::L2_7100::out_main_reservoir_pressure">
+                        <ns3:StructuralConnector ref="L2_7100.p_7142_rp_52f3b82b80918b84" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7100.p_N_7140.p_N_7142.rp_52f3b82b80918b84" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-014" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_achieved_dynamic_brake_force" id="EV::L2_7200::in_achieved_dynamic_brake_force">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_179bcc3fb8dacbbf" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_179bcc3fb8dacbbf" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-013" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_013" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_available_dynamic_brake_force" id="EV::L2_7200::in_available_dynamic_brake_force">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_e4d6047a07b1416e" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_e4d6047a07b1416e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-001" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_brake_cylinder_pressure" id="EV::L2_7200::in_brake_cylinder_pressure">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_f786158194c89c8a" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_f786158194c89c8a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-016" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_brake_safety_loop_state" id="EV::L2_7200::in_brake_safety_loop_state">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_daaf414c1711f2bd" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_daaf414c1711f2bd" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-025" />
+                        <ns3:SysMLElement ref="IF_IF_STA_025" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_dynamic_brake_availability" id="EV::L2_7200::in_dynamic_brake_availability">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_d26568a796272d7a" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_d26568a796272d7a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-002" />
+                        <ns3:SysMLElement ref="IF_IF_STA_002" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_emergency_brake_request" id="EV::L2_7200::in_emergency_brake_request">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_faa6c7c9931b0a58" />
+                        <ns3:StructuralConnector ref="L2_7200.p_7226_rp_5f6a9d81cebde2d3" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_004" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-004" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_faa6c7c9931b0a58" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7220.p_N_7226.rp_5f6a9d81cebde2d3" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_main_reservoir_pressure" id="EV::L2_7200::in_main_reservoir_pressure">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_04cfaf63bfa3ed70" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_04cfaf63bfa3ed70" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-014" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_omega_wheel" id="EV::L2_7200::in_omega_wheel">
+                        <ns3:StructuralConnector ref="L2_7200.p_7254_rp_d9511ef0fa1c17df" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-007" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_007" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_safety_brake_request" id="EV::L2_7200::in_safety_brake_request">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_da3049ae66223d22" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_da3049ae66223d22" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-030" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_030" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="in_service_brake_request" id="EV::L2_7200::in_service_brake_request">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_77afbfa330bfb95e" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_77afbfa330bfb95e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-003" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="out_T_brake" id="EV::L2_7200::out_T_brake">
+                        <ns3:StructuralConnector ref="L2_7200.p_7254_rp_d9511ef0fa1c17df" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7250.p_N_7254.rp_d9511ef0fa1c17df" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-PHY-007" />
+                        <ns3:SysMLElement ref="IF_IF_PHY_007" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="out_brake_availability" id="EV::L2_7200::out_brake_availability">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_c021f63639408eff" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_c021f63639408eff" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-003" />
+                        <ns3:SysMLElement ref="IF_IF_STA_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="out_brake_cylinder_pressure" id="EV::L2_7200::out_brake_cylinder_pressure">
+                        <ns3:StructuralConnector ref="L2_7200.p_722B_rp_8d219d5375ded80b" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7220.p_N_722B.rp_8d219d5375ded80b" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-016" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_7200" name="out_dynamic_brake_force_request" id="EV::L2_7200::out_dynamic_brake_force_request">
+                        <ns3:StructuralConnector ref="L2_7200.p_7211_rp_0194ebfed505dfb5" />
+                        <ns3:SysMLElement ref="p_N_7000.p_N_7200.p_N_7210.p_N_7211.rp_0194ebfed505dfb5" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-006" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_006" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_brake_availability" id="EV::L2_8100::in_brake_availability">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_1c14ea3cdc439198" />
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_b1fb8856841fb7cf" />
+                        <ns3:SysMLElement ref="IF_IF_STA_003" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-003" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_1c14ea3cdc439198" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_b1fb8856841fb7cf" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_brake_cylinder_pressure" id="EV::L2_8100::in_brake_cylinder_pressure">
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_cc7a917501039195" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_cc7a917501039195" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-016" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_brake_resistor_dissipated_power" id="EV::L2_8100::in_brake_resistor_dissipated_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_dae173a1561f3f35" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_dae173a1561f3f35" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-005" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_dc_link_current" id="EV::L2_8100::in_dc_link_current">
+                        <ns3:StructuralConnector ref="L2_8100.p_8166_rp_3b0068559b0ca1e4" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_3b0068559b0ca1e4" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-009" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_009" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_dc_link_voltage" id="EV::L2_8100::in_dc_link_voltage">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_361eac651ec9fd05" />
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_7262595caaf3b8d8" />
+                        <ns3:StructuralConnector ref="L2_8100.p_8166_rp_54d624d57f57843b" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_008" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-008" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_361eac651ec9fd05" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_7262595caaf3b8d8" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_54d624d57f57843b" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_dcdc_actual_power" id="EV::L2_8100::in_dcdc_actual_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_e1808e35289aaba6" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_e1808e35289aaba6" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-029" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_029" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_dynamic_brake_force_request" id="EV::L2_8100::in_dynamic_brake_force_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_d69905c106b65d8f" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_d69905c106b65d8f" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-006" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_006" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_emergency_brake_request" id="EV::L2_8100::in_emergency_brake_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_1e34bb2697325127" />
+                        <ns3:StructuralConnector ref="L2_8100.p_8152_rp_93024c6ed1623fbd" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_004" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-004" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_1e34bb2697325127" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8150.p_N_8152.rp_93024c6ed1623fbd" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_ess_absorbed_power" id="EV::L2_8100::in_ess_absorbed_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_a095b9b42ab5cc7d" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a095b9b42ab5cc7d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-004" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_ess_availability" id="EV::L2_8100::in_ess_availability">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_1967a947dd39d4a5" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_1967a947dd39d4a5" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-030" />
+                        <ns3:SysMLElement ref="IF_IF_STA_030" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_ess_available_charge_power" id="EV::L2_8100::in_ess_available_charge_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_8c3ed075d33335e8" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_8c3ed075d33335e8" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-009" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_009" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_ess_available_discharge_power" id="EV::L2_8100::in_ess_available_discharge_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_35b0ef67b409e840" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_35b0ef67b409e840" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-010" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_010" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_ess_fault" id="EV::L2_8100::in_ess_fault">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_9d3500c169fe7103" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_9d3500c169fe7103" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-031" />
+                        <ns3:SysMLElement ref="IF_IF_STA_031" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_external_safety_system_state" id="EV::L2_8100::in_external_safety_system_state">
+                        <ns3:StructuralConnector ref="L2_8100.p_8127_rp_a916a9847aeadebb" />
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_ce6397cb7b81dd94" />
+                        <ns3:SysMLElement ref="IF_IF_STA_027" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-027" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_a916a9847aeadebb" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_ce6397cb7b81dd94" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_grid_acceptable_regenerative_power" id="EV::L2_8100::in_grid_acceptable_regenerative_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_abc36140248d0eef" />
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_1809c94f1581c7f8" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_005" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-005" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_abc36140248d0eef" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_1809c94f1581c7f8" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_grid_returned_power" id="EV::L2_8100::in_grid_returned_power">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_eb1cf5594b5796be" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_eb1cf5594b5796be" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-003" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_hv_breaker_command" id="EV::L2_8100::in_hv_breaker_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8151_rp_d7d7f4cb9554ff03" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8150.p_N_8151.rp_d7d7f4cb9554ff03" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-016" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_line_current" id="EV::L2_8100::in_line_current">
+                        <ns3:StructuralConnector ref="L2_8100.p_8166_rp_d9d89be1583c0e18" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_d9d89be1583c0e18" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-006" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_006" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_line_voltage" id="EV::L2_8100::in_line_voltage">
+                        <ns3:StructuralConnector ref="L2_8100.p_8166_rp_573e029523ef9946" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8160.p_N_8166.rp_573e029523ef9946" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-005" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_005" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_main_reservoir_pressure" id="EV::L2_8100::in_main_reservoir_pressure">
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_ccc90acd04ba0ccc" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_ccc90acd04ba0ccc" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-014" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_motor_speed" id="EV::L2_8100::in_motor_speed">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_4e582bfad9ebbf1d" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_4e582bfad9ebbf1d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-004" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_motor_torque_actual" id="EV::L2_8100::in_motor_torque_actual">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_1faca3fc4ff0e741" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_1faca3fc4ff0e741" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-012" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_012" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_regenerative_power_actual" id="EV::L2_8100::in_regenerative_power_actual">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_bd78e8d84d334672" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_bd78e8d84d334672" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-002" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_002" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_safety_brake_request" id="EV::L2_8100::in_safety_brake_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8127_rp_be0fc7194a7f0161" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_be0fc7194a7f0161" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-030" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_030" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_service_brake_request" id="EV::L2_8100::in_service_brake_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_0b58c63caeaf2f6d" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_0b58c63caeaf2f6d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-003" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_super_cap_soc" id="EV::L2_8100::in_super_cap_soc">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_6437aa0577c9ccd7" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_6437aa0577c9ccd7" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-028" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_028" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_traction_command" id="EV::L2_8100::in_traction_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_a49a67fafe112278" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_a49a67fafe112278" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-002" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_002" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_traction_converter_fault" id="EV::L2_8100::in_traction_converter_fault">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_81e596aab3f0fe4c" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_81e596aab3f0fe4c" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-019" />
+                        <ns3:SysMLElement ref="IF_IF_STA_019" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="in_train_direction_command" id="EV::L2_8100::in_train_direction_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_2ee1cd48c6d41ac7" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_2ee1cd48c6d41ac7" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-001" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_achieved_dynamic_brake_force" id="EV::L2_8100::out_achieved_dynamic_brake_force">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_36a59f5828d4c515" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_36a59f5828d4c515" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-013" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_013" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_available_dynamic_brake_force" id="EV::L2_8100::out_available_dynamic_brake_force">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_b60dd66dcfd10afa" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_b60dd66dcfd10afa" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-001" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_brake_cylinder_pressure" id="EV::L2_8100::out_brake_cylinder_pressure">
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_0e19632016b69ff2" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_0e19632016b69ff2" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-016" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_016" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_brake_safety_loop_state" id="EV::L2_8100::out_brake_safety_loop_state">
+                        <ns3:StructuralConnector ref="L2_8100.p_8152_rp_ae53feffb1e116e3" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8150.p_N_8152.rp_ae53feffb1e116e3" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-025" />
+                        <ns3:SysMLElement ref="IF_IF_STA_025" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_dcdc_enable_command" id="EV::L2_8100::out_dcdc_enable_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_a4aac084c46e1e57" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_a4aac084c46e1e57" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-026" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_026" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_dynamic_brake_availability" id="EV::L2_8100::out_dynamic_brake_availability">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_dae11d7502a6c37a" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_dae11d7502a6c37a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-002" />
+                        <ns3:SysMLElement ref="IF_IF_STA_002" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_emergency_brake_request" id="EV::L2_8100::out_emergency_brake_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_a9c7eff84933cd80" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_a9c7eff84933cd80" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-004" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_ess_contactor_command" id="EV::L2_8100::out_ess_contactor_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_4683a7cb63e55daf" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_4683a7cb63e55daf" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-027" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_027" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_ess_fault_reset_command" id="EV::L2_8100::out_ess_fault_reset_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_47c78247980cc3a5" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_47c78247980cc3a5" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-029" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_029" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_ess_power_request" id="EV::L2_8100::out_ess_power_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_77c439392dea95b4" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_77c439392dea95b4" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-025" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_025" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_ess_precharge_command" id="EV::L2_8100::out_ess_precharge_command">
+                        <ns3:StructuralConnector ref="L2_8100.p_8122_rp_f704c2e7bab06749" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8122.rp_f704c2e7bab06749" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-028" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_028" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_hv_safety_loop_state" id="EV::L2_8100::out_hv_safety_loop_state">
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_cb74be2d7d4a54c7" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_cb74be2d7d4a54c7" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-024" />
+                        <ns3:SysMLElement ref="IF_IF_STA_024" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_main_reservoir_pressure" id="EV::L2_8100::out_main_reservoir_pressure">
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_8d19f6989a5bebad" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_8d19f6989a5bebad" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-014" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_014" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_motor_torque_request" id="EV::L2_8100::out_motor_torque_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8125_rp_70a8e2c4b0887b4d" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8125.rp_70a8e2c4b0887b4d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-012" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_012" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_safety_brake_request" id="EV::L2_8100::out_safety_brake_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8127_rp_8f3091a86214dd4e" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8127.rp_8f3091a86214dd4e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-030" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_030" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_sanding_request" id="EV::L2_8100::out_sanding_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8128_rp_5accd69f9c3a8b0c" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8128.rp_5accd69f9c3a8b0c" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-024" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_024" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_8100" name="out_service_brake_request" id="EV::L2_8100::out_service_brake_request">
+                        <ns3:StructuralConnector ref="L2_8100.p_8121_rp_d82e5c8a7afb4b7b" />
+                        <ns3:SysMLElement ref="p_N_8000.p_N_8100.p_N_8120.p_N_8121.rp_d82e5c8a7afb4b7b" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-003" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_D100" name="out_emergency_brake_request" id="EV::L2_D100::out_emergency_brake_request">
+                        <ns3:StructuralConnector ref="L2_D100.p_D121_rp_d32b32814a84a88a" />
+                        <ns3:SysMLElement ref="p_D000.p_D100.p_D120.p_D121.rp_d32b32814a84a88a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-004" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_D100" name="out_service_brake_request" id="EV::L2_D100::out_service_brake_request">
+                        <ns3:StructuralConnector ref="L2_D100.p_D114_rp_d3d5739989ecf2dd" />
+                        <ns3:SysMLElement ref="p_D000.p_D100.p_D110.p_D114.rp_d3d5739989ecf2dd" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-003" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_003" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_D100" name="out_traction_command" id="EV::L2_D100::out_traction_command">
+                        <ns3:StructuralConnector ref="L2_D100.p_D113_rp_9ca0d9d396f8ffd0" />
+                        <ns3:SysMLElement ref="p_D000.p_D100.p_D110.p_D113.rp_9ca0d9d396f8ffd0" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-002" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_002" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_D100" name="out_train_direction_command" id="EV::L2_D100::out_train_direction_command">
+                        <ns3:StructuralConnector ref="L2_D100.p_D112_rp_8962dea15ad904c6" />
+                        <ns3:SysMLElement ref="p_D000.p_D100.p_D110.p_D112.rp_8962dea15ad904c6" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-001" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_001" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_E100" name="out_external_safety_system_state" id="EV::L2_E100::out_external_safety_system_state">
+                        <ns3:StructuralConnector ref="L2_E100.p_E100_rp_0307dc18d9537f9d" />
+                        <ns3:SysMLElement ref="p_E000.p_E100.rp_0307dc18d9537f9d" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-027" />
+                        <ns3:SysMLElement ref="IF_IF_STA_027" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_E100" name="out_safety_brake_request" id="EV::L2_E100::out_safety_brake_request">
+                        <ns3:StructuralConnector ref="L2_E100.p_E100_rp_7273a171b473f816" />
+                        <ns3:SysMLElement ref="p_E000.p_E100.rp_7273a171b473f816" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-030" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_030" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="in_dcdc_enable_command" id="EV::L2_X100::in_dcdc_enable_command">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_1164249ec859b807" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_1164249ec859b807" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-026" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_026" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="in_ess_contactor_command" id="EV::L2_X100::in_ess_contactor_command">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_81f1c1da5d6d3173" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_81f1c1da5d6d3173" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-027" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_027" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="in_ess_fault_reset_command" id="EV::L2_X100::in_ess_fault_reset_command">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_b84f02a624b9982f" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_b84f02a624b9982f" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-029" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_029" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="in_ess_power_request" id="EV::L2_X100::in_ess_power_request">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_843fa8c83311440e" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_843fa8c83311440e" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-025" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_025" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="in_ess_precharge_command" id="EV::L2_X100::in_ess_precharge_command">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_5ff890136d5d49bf" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_5ff890136d5d49bf" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-CMD-028" />
+                        <ns3:SysMLElement ref="IF_IF_CMD_028" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_dcdc_actual_power" id="EV::L2_X100::out_dcdc_actual_power">
+                        <ns3:StructuralConnector ref="L2_X100.p_X111_rp_9828766df3df1904" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X111.rp_9828766df3df1904" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-029" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_029" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_ess_absorbed_power" id="EV::L2_X100::out_ess_absorbed_power">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_a59821acb0d73604" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_a59821acb0d73604" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-ACC-004" />
+                        <ns3:SysMLElement ref="IF_IF_ACC_004" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_ess_availability" id="EV::L2_X100::out_ess_availability">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_3b946767139d884a" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_3b946767139d884a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-030" />
+                        <ns3:SysMLElement ref="IF_IF_STA_030" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_ess_available_charge_power" id="EV::L2_X100::out_ess_available_charge_power">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_388d943a537916a7" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_388d943a537916a7" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-009" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_009" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_ess_available_discharge_power" id="EV::L2_X100::out_ess_available_discharge_power">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_73067cce4e6a7eeb" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_73067cce4e6a7eeb" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-LIM-010" />
+                        <ns3:SysMLElement ref="IF_IF_LIM_010" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_ess_fault" id="EV::L2_X100::out_ess_fault">
+                        <ns3:StructuralConnector ref="L2_X100.p_X112_rp_e5eadfefaf46ac0a" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X110.p_X112.rp_e5eadfefaf46ac0a" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-STA-031" />
+                        <ns3:SysMLElement ref="IF_IF_STA_031" />
+                    </ns3:Variable>
+                    <ns3:Variable component="L2_X100" name="out_super_cap_soc" id="EV::L2_X100::out_super_cap_soc">
+                        <ns3:StructuralConnector ref="L2_X100.p_X121_rp_b6cf5a49ced52abf" />
+                        <ns3:SysMLElement ref="p_X000.p_X100.p_X120.p_X121.rp_b6cf5a49ced52abf" />
+                        <ns3:SysMLElement ref="ItemDefinitions::ITM-MEA-028" />
+                        <ns3:SysMLElement ref="IF_IF_MEA_028" />
+                    </ns3:Variable>
+                </ns3:ExecutableTrace>
+            </ns2:Annotation>
+        </ns0:Annotations>
+    </ns0:System>
+<!--Candidate C TME 46-17-4; published nameplate surrogate; architecture unchanged--></ns0:SystemStructureDescription>

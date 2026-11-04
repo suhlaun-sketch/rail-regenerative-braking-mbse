@@ -1,0 +1,80 @@
+{
+  "generated_utc": "2026-10-03T05:28:23.741677+00:00",
+  "baseline_switched_from_regional_to_tianjin_metro_B": true,
+  "a_b_type_mixed": false,
+  "candidate_nameplate_traceable": true,
+  "fabricated_manufacturer_parameters": false,
+  "surrogate_parameters_explicit": true,
+  "candidate_schemes_identical_except_motor": true,
+  "hard_constraint_filter_executed": true,
+  "recommendation": "A / TME 42-18-4",
+  "recommendation_stable": true,
+  "sensitivity_win_rate": 1.0,
+  "weights": {
+    "net_energy_kwh": 0.3,
+    "regen_energy_kwh": 0.2,
+    "dynamic_margin": 0.2,
+    "rms_current": 0.15,
+    "motor_mass_total": 0.1,
+    "speed_margin": 0.05
+  },
+  "results_csv_recomputable": true,
+  "fmpy_fmu_runs": 16,
+  "ssp_validation": {
+    "A": "PASS",
+    "B": "PASS",
+    "C": "PASS",
+    "D": "PASS"
+  },
+  "formal_ssp_sha256_after": "955892bcb3ee0a8b1cbbefe2c4135de35c337ba996a823d579bb00f7569c04c7",
+  "formal_baseline_modified": false,
+  "figure_files": 36,
+  "hard_constraints": [
+    {
+      "candidate_id": "A",
+      "model": "TME 42-18-4",
+      "REQ_ACC_040": "PASS",
+      "REQ_ACC_080": "PASS",
+      "REQ_SPEED": "PASS",
+      "REQ_BRAKE": "PASS",
+      "OVERALL": "PASS"
+    },
+    {
+      "candidate_id": "B",
+      "model": "TME 45-19-4",
+      "REQ_ACC_040": "FAIL",
+      "REQ_ACC_080": "PASS",
+      "REQ_SPEED": "PASS",
+      "REQ_BRAKE": "PASS",
+      "OVERALL": "FAIL"
+    },
+    {
+      "candidate_id": "C",
+      "model": "TME 46-17-4",
+      "REQ_ACC_040": "PASS",
+      "REQ_ACC_080": "PASS",
+      "REQ_SPEED": "PASS",
+      "REQ_BRAKE": "PASS",
+      "OVERALL": "PASS"
+    },
+    {
+      "candidate_id": "D",
+      "model": "TMR 50-20-4",
+      "REQ_ACC_040": "PASS",
+      "REQ_ACC_080": "PASS",
+      "REQ_SPEED": "PASS",
+      "REQ_BRAKE": "PASS",
+      "OVERALL": "PASS"
+    }
+  ],
+  "remaining_without_public_source": [
+    "天津线路精确齿轮比",
+    "精确牵引控制器参数",
+    "厂家效率MAP",
+    "厂家热模型",
+    "天津线路逆变器限流与DC-link控制标定",
+    "超级电容容量与接受功率",
+    "4M2T/16电机精确线路配置",
+    "轴重/轮径/车宽的条款级公开全文复核"
+  ]
+}

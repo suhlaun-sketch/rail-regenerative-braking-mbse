@@ -1,0 +1,17 @@
+{
+  "candidate": "A",
+  "status": "PASS",
+  "fmi_version": "2.0",
+  "variables": [
+    "in_U_motor_ll_rms",
+    "in_f_motor_e",
+    "in_omega_shaft",
+    "out_I_motor_rms",
+    "out_T_shaft",
+    "out_motor_phase_voltage",
+    "out_motor_speed",
+    "out_motor_torque_actual",
+    "out_omega_motor"
+  ],
+  "model": "parameterized surrogate traction motor model based on published nameplate data"
+}

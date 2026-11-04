@@ -1,0 +1,50 @@
+requirements:
+  - id: REQ-ACC-040
+    statement: AW2平直额定供电0→40 km/h平均加速度
+    operator: >=
+    threshold: 1.0
+    unit: m/s²
+    metric: avg_acc_0_40
+    class: hard
+  - id: REQ-ACC-080
+    statement: AW2平直额定供电0→80 km/h平均加速度
+    operator: >=
+    threshold: 0.6
+    unit: m/s²
+    metric: avg_acc_0_80
+    class: hard
+  - id: REQ-SPEED
+    statement: 运行中电机最高转速不超过公开允许最高转速
+    operator: >=
+    threshold: 0.0
+    unit: rpm margin
+    metric: speed_margin
+    class: hard
+  - id: REQ-BRAKE
+    statement: AW2/AW3 80→0 km/h常用制动平均减速度
+    operator: >=
+    threshold: 1.0
+    unit: m/s²
+    metric: avg_brake_decel
+    class: hard
+  - id: REQ-REGEN
+    statement: 在制动需求满足前提下提高回收能量
+    operator: maximize
+    threshold: null
+    unit: kWh
+    metric: regen_energy_kwh
+    class: objective
+  - id: REQ-CURRENT
+    statement: 降低峰值与RMS电流热负荷代理
+    operator: minimize
+    threshold: null
+    unit: A
+    metric: rms_current
+    class: objective
+  - id: REQ-MASS
+    statement: 降低整列牵引电机总质量
+    operator: minimize
+    threshold: null
+    unit: kg
+    metric: motor_mass_total
+    class: objective

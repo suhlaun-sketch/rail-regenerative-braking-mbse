@@ -1,0 +1,8 @@
+﻿requirement_id,requirement,source_or_basis,scenario,metric,criterion,evidence_file
+REQ-ACC-040,AW2平直额定供电0→40 km/h平均加速度,competition engineering requirement,S1_AW2_LEVEL,avg_acc_0_40,>= 1.0,outputs/motor_selection/TianjinMetro/results.csv
+REQ-ACC-080,AW2平直额定供电0→80 km/h平均加速度,competition engineering requirement,S1_AW2_LEVEL,avg_acc_0_80,>= 0.6,outputs/motor_selection/TianjinMetro/results.csv
+REQ-SPEED,运行中电机最高转速不超过公开允许最高转速,competition engineering requirement,all/aggregate,speed_margin,>= 0.0,outputs/motor_selection/TianjinMetro/results.csv
+REQ-BRAKE,AW2/AW3 80→0 km/h常用制动平均减速度,competition engineering requirement,S2_AW3_LEVEL,avg_brake_decel,>= 1.0,outputs/motor_selection/TianjinMetro/results.csv
+REQ-REGEN,在制动需求满足前提下提高回收能量,competition engineering requirement,all/aggregate,regen_energy_kwh,maximize,outputs/motor_selection/TianjinMetro/results.csv
+REQ-CURRENT,降低峰值与RMS电流热负荷代理,competition engineering requirement,all/aggregate,rms_current,minimize,outputs/motor_selection/TianjinMetro/results.csv
+REQ-MASS,降低整列牵引电机总质量,competition engineering requirement,all/aggregate,motor_mass_total,minimize,outputs/motor_selection/TianjinMetro/results.csv
