@@ -1,0 +1,75 @@
+{
+  "query": "常用制动平均减速度需求",
+  "seed_id": "REQ-BRK-001",
+  "logical_gap": "Neo4j has no formal Logical entity; no node synthesized",
+  "nodes": [
+    {
+      "id": "REQ-BRK-001",
+      "name": "常用制动平均减速度需求",
+      "source_file": "Req/牵引制动能量回收系统_正式需求库_v2_扩展版.xlsx",
+      "type": "Requirement"
+    },
+    {
+      "id": "FN_F_3111_01",
+      "name": "通过车轮耗散能量",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:7965",
+      "type": "Function"
+    },
+    {
+      "id": "3111",
+      "name": "车轮",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:3193",
+      "type": "Product"
+    },
+    {
+      "id": "PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理",
+      "name": "轮轨纵向机械作用端口",
+      "source_file": "tools/interface_pipeline/work/cleaned_ports.json",
+      "type": "Port"
+    },
+    {
+      "id": "BOUNDARY-RAIL",
+      "name": "Rail mechanical and traction-return boundary",
+      "source_file": "tools/topology_pipeline/work/final_nets.json",
+      "type": "ExternalBoundary"
+    }
+  ],
+  "edges": [
+    {
+      "evidence": "既有需求范围与Function语义一致；allocation alloc_ALLOC_F_3111_01_3111 allocate F_3111_01 to 3111。仅以真实OWNER allocation定位Function所属Product。",
+      "id": "TRACE_TO_FUNCTION::REQ-BRK-001::FN_F_3111_01",
+      "provenance": "FROZEN_V2",
+      "source": "formal requirement function map",
+      "source_file": "ui/backend/data/semantic_slice/requirement_function_map_v2.json",
+      "status": "DERIVED",
+      "type": "TRACE_TO_FUNCTION"
+    },
+    {
+      "evidence": "allocation alloc_ALLOC_F_3111_01_3111 allocate F_3111_01 to 3111",
+      "id": "alloc_ALLOC_F_3111_01_3111",
+      "provenance": "AUTHORITATIVE",
+      "source": "SYSML",
+      "source_file": "work/sysmlv2/full_engineering_model/01_generated/Rail_MBSE_Full_v1.sysml:11161",
+      "status": "AUTHORITATIVE",
+      "type": "ALLOCATED_TO"
+    },
+    {
+      "evidence": "Sheet3!3",
+      "id": "HAS_PORT::PORT::3111::轮轨纵向机械作用端口::ITM-PHY-006::双向物理",
+      "provenance": "AUTHORITATIVE",
+      "source": "approved interface instance",
+      "source_file": "tools/interface_pipeline/work/cleaned_ports.json",
+      "status": "AUTHORITATIVE",
+      "type": "HAS_PORT"
+    },
+    {
+      "evidence": "wheel/rail longitudinal boundary",
+      "id": "CG-C53D41B4A1F64D70B4607AA4",
+      "provenance": "AUTHORITATIVE",
+      "source": "formal final connection",
+      "source_file": "tools/topology_pipeline/work/final_connections.json",
+      "status": "AUTHORITATIVE",
+      "type": "TERMINATES_AT"
+    }
+  ]
+}

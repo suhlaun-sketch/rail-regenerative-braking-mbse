@@ -1,0 +1,158 @@
+{
+  "main": {
+    "fixture": "false",
+    "diagnostics": {
+      "disposed": false,
+      "fps": 5,
+      "state": {
+        "phase": "engineering",
+        "sec": -1,
+        "wi": 0,
+        "score": null,
+        "reads": null,
+        "flags": null,
+        "fixes": null,
+        "open": 0,
+        "comets": 0,
+        "engineeringNodes": 36,
+        "engineeringEdges": 32,
+        "x": "-26.5",
+        "z": "-6.3"
+      },
+      "render": {
+        "calls": 136,
+        "triangles": 14948,
+        "points": 78264
+      },
+      "memory": {
+        "geometries": 65,
+        "textures": 16,
+        "programs": 25
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 0.75,
+        "composer": false
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    },
+    "nodeCount": 28,
+    "types": [
+      "Requirement",
+      "Function",
+      "Product",
+      "Port",
+      "Item",
+      "ExternalBoundary"
+    ],
+    "logical": "Logical 0 · 无正式实体",
+    "sceneLabels": 36
+  },
+  "sceneNodeClick": "REQ-BRK-001",
+  "pickedProduct": "3111",
+  "reverse": {
+    "nodes": 28,
+    "relations": [
+      "SUPPORTS_IMPLEMENTATION",
+      "TRACE_TO_FUNCTION",
+      "TRACE_TO_FUNCTION",
+      "TRACE_TO_FUNCTION",
+      "TRACE_TO_FUNCTION",
+      "ALLOCATED_TO",
+      "ALLOCATED_TO",
+      "ALLOCATED_TO",
+      "ALLOCATED_TO",
+      "HAS_PORT",
+      "HAS_PORT",
+      "HAS_PORT",
+      "HAS_PORT",
+      "HAS_PORT",
+      "HAS_PORT",
+      "EXPOSES",
+      "EXPOSES",
+      "EXPOSES",
+      "EXPOSES",
+      "EXPOSES",
+      "EXPOSES",
+      "EXPOSES",
+      "HAS_PORT",
+      "ALLOCATED_TO",
+      "HAS_PORT",
+      "TERMINATES_AT",
+      "HAS_PORT",
+      "CONNECTS_TO",
+      "CONNECTS_TO",
+      "CONNECTS_TO",
+      "CONNECTS_TO",
+      "TRACE_TO_FUNCTION"
+    ],
+    "selected": "3111"
+  },
+  "neighbors": {
+    "nodes": 28,
+    "edges": 32
+  },
+  "evidence": {
+    "relation": "SUPPORTS_IMPLEMENTATION",
+    "id": "SUPPORTS_IMPLEMENTATION::REQ-BRK-001::FN_F_7000_01",
+    "rows": [
+      "status",
+      "source",
+      "sourceFile",
+      "evidence",
+      "mappingType",
+      "allocationId",
+      "provenanceClass"
+    ]
+  },
+  "cancelled": {
+    "busy": "查询主链",
+    "error": "",
+    "lastLog": 3
+  },
+  "finalDiag": {
+    "disposed": false,
+    "fps": 48,
+    "state": {
+      "phase": "engineering",
+      "sec": -1,
+      "wi": 0,
+      "score": null,
+      "reads": null,
+      "flags": null,
+      "fixes": null,
+      "open": 0,
+      "comets": 0,
+      "engineeringNodes": 2,
+      "engineeringEdges": 1,
+      "x": "18.1",
+      "z": "-1.0"
+    },
+    "render": {
+      "calls": 143,
+      "triangles": 14962,
+      "points": 78264
+    },
+    "memory": {
+      "geometries": 65,
+      "textures": 16,
+      "programs": 25
+    },
+    "webgl": {
+      "context": "WebGL2",
+      "pixelRatio": 0.75,
+      "composer": false
+    },
+    "gpu": {
+      "vendor": "Google Inc. (Intel)",
+      "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "passed": true
+}

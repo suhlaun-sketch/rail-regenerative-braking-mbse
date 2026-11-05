@@ -1,0 +1,115 @@
+{
+  "database": "motor-brake-system",
+  "read_only": true,
+  "labels": [
+    {
+      "label": "ExternalBoundary",
+      "count": 3
+    },
+    {
+      "label": "Function",
+      "count": 191
+    },
+    {
+      "label": "Item",
+      "count": 144
+    },
+    {
+      "label": "PhysicalNet",
+      "count": 9
+    },
+    {
+      "label": "Port",
+      "count": 517
+    },
+    {
+      "label": "Product",
+      "count": 147
+    },
+    {
+      "label": "Profile",
+      "count": 1
+    },
+    {
+      "label": "Requirement",
+      "count": 46
+    }
+  ],
+  "relationship_types": [
+    {
+      "type": "ALLOCATED_TO",
+      "count": 191
+    },
+    {
+      "type": "CONNECTED_VIA",
+      "count": 82
+    },
+    {
+      "type": "CONNECTS",
+      "count": 82
+    },
+    {
+      "type": "CONNECTS_TO",
+      "count": 172
+    },
+    {
+      "type": "CONTAINS",
+      "count": 139
+    },
+    {
+      "type": "DERIVED_CONNECTS_TO",
+      "count": 30
+    },
+    {
+      "type": "DERIVED_FROM",
+      "count": 27
+    },
+    {
+      "type": "EXPOSES",
+      "count": 517
+    },
+    {
+      "type": "HAS_PORT",
+      "count": 517
+    },
+    {
+      "type": "PARTICIPATES_IN",
+      "count": 686
+    },
+    {
+      "type": "SUPPORTS_IMPLEMENTATION",
+      "count": 21
+    },
+    {
+      "type": "TERMINATES_AT",
+      "count": 12
+    },
+    {
+      "type": "TRACE_TO_FUNCTION",
+      "count": 490
+    },
+    {
+      "type": "USES_PORT",
+      "count": 471
+    }
+  ],
+  "logical_entity_status": "NO_FORMAL_LOGICAL_LABEL",
+  "presentation_mapping": {
+    "Requirement": [
+      "Requirement"
+    ],
+    "Function": [
+      "Function"
+    ],
+    "Logical": [],
+    "Architecture": [
+      "Product",
+      "Port",
+      "Item"
+    ],
+    "Physical": [
+      "PhysicalNet",
+      "ExternalBoundary"
+    ]
+  }
+}

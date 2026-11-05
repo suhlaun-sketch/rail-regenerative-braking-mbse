@@ -1,0 +1,165 @@
+{
+  "url": "http://127.0.0.1:5173/knowledge-graph/nebula-native",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "structure": {
+    "fixture": "true",
+    "canvas": 1,
+    "clusters": 12,
+    "core": 1,
+    "panels": 6,
+    "orbitLabels": [
+      "scout",
+      "split",
+      "copy",
+      "design",
+      "code",
+      "test",
+      "proof",
+      "data",
+      "cut",
+      "ads",
+      "care",
+      "vault"
+    ],
+    "diagnostics": {
+      "disposed": false,
+      "fps": 42,
+      "state": {
+        "phase": "read",
+        "sec": 0,
+        "wi": 4,
+        "score": 35,
+        "reads": 4,
+        "flags": 0,
+        "fixes": 0,
+        "open": 0,
+        "comets": 4,
+        "x": "-11.5",
+        "z": "21.2"
+      },
+      "render": {
+        "calls": 143,
+        "triangles": 14964,
+        "points": 78264
+      },
+      "memory": {
+        "geometries": 64,
+        "textures": 16,
+        "programs": 23
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    }
+  },
+  "focusButton": "返回",
+  "fpsSamples": [
+    27,
+    25,
+    26,
+    36,
+    30,
+    35
+  ],
+  "fpsAverage": 29.8,
+  "lifecycle": [
+    {
+      "disposed": true,
+      "fps": 0,
+      "state": null,
+      "render": null,
+      "memory": null,
+      "webgl": null,
+      "gpu": null
+    },
+    {
+      "disposed": true,
+      "fps": 0,
+      "state": null,
+      "render": null,
+      "memory": null,
+      "webgl": null,
+      "gpu": null
+    },
+    {
+      "disposed": true,
+      "fps": 0,
+      "state": null,
+      "render": null,
+      "memory": null,
+      "webgl": null,
+      "gpu": null
+    },
+    {
+      "disposed": true,
+      "fps": 0,
+      "state": null,
+      "render": null,
+      "memory": null,
+      "webgl": null,
+      "gpu": null
+    },
+    {
+      "disposed": true,
+      "fps": 0,
+      "state": null,
+      "render": null,
+      "memory": null,
+      "webgl": null,
+      "gpu": null
+    }
+  ],
+  "finalState": {
+    "hosts": 1,
+    "canvases": 1,
+    "diagnostics": {
+      "disposed": false,
+      "fps": 60,
+      "state": {
+        "phase": "brief",
+        "sec": -1,
+        "wi": 0,
+        "score": 34,
+        "reads": 0,
+        "flags": 0,
+        "fixes": 0,
+        "open": 0,
+        "comets": 0,
+        "x": "0.0",
+        "z": "3.4"
+      },
+      "render": {
+        "calls": 161,
+        "triangles": 15000,
+        "points": 78264
+      },
+      "memory": {
+        "geometries": 64,
+        "textures": 16,
+        "programs": 23
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "passed": true
+}
