@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-11-05T19:37:35.8347009+08:00",
+  "query": "我希望列车在满足制动安全要求的同时，提高再生制动能量回收水平。",
+  "provider": "LOCAL",
+  "candidate_requirements": [
+    {
+      "requirement_id": "REQ-BRK-007",
+      "name": "再生制动优先需求",
+      "semantic_score": 14.5,
+      "match_reason": "domain、keywords",
+      "source": null,
+      "source_file": null
+    },
+    {
+      "requirement_id": "PRJ-ENE-004",
+      "name": "再生充电SOC上限需求",
+      "semantic_score": 9.5,
+      "match_reason": "domain、keywords",
+      "source": null,
+      "source_file": null
+    },
+    {
+      "requirement_id": "REQ-ENE-001",
+      "name": "电容式储能电源储存功能需求",
+      "semantic_score": 9.5,
+      "match_reason": "domain、keywords",
+      "source": null,
+      "source_file": null
+    },
+    {
+      "requirement_id": "REQ-ENE-007",
+      "name": "储能过温保护需求",
+      "semantic_score": 9.5,
+      "match_reason": "domain、keywords",
+      "source": null,
+      "source_file": null
+    },
+    {
+      "requirement_id": "REQ-ENE-008",
+      "name": "储能过流保护需求",
+      "semantic_score": 9.5,
+      "match_reason": "domain、keywords",
+      "source": null,
+      "source_file": null
+    }
+  ],
+  "confirmed_requirement_ids": [
+    "REQ-BRK-007",
+    "PRJ-ENE-004"
+  ],
+  "semantic_functions": [
+    {
+      "function_id": "FN_F_X100_01",
+      "name": "吸收、存储并按需释放再生制动能量",
+      "matched_by_requirements": [
+        "PRJ-ENE-004",
+        "REQ-ENE-001"
+      ],
+      "source": "SysML v2 action def"
+    }
+  ],
+  "confirmed_function_ids": [
+    "FN_F_X100_01",
+    "FN_F_3111_01"
+  ],
+  "manual_formal_function_ids": [
+    "FN_F_3111_01"
+  ],
+  "id_mapping": "EXACT_ONLY",
+  "relation_type_counts": [],
+  "evidence_sources": [],
+  "neo4j_write_performed": false,
+  "formal_assets_modified": false
+}

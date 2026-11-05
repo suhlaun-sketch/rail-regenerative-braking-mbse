@@ -1,0 +1,37 @@
+{
+  "premature": true,
+  "prematureMessage": "比赛演示只能复用工程师已确认的需求与功能草案",
+  "reqCards": 5,
+  "selectedReq": 2,
+  "fnCards": 1,
+  "suggestionsAfterRemove": 2,
+  "libraryMatches": 1,
+  "verifySuggestions": 2,
+  "phase": "ARCHITECTURE",
+  "confirmedRequirements": [
+    "REQ-BRK-007",
+    "PRJ-ENE-004"
+  ],
+  "confirmedFunctions": [
+    "FN_F_X100_01",
+    "FN_F_3111_01"
+  ],
+  "manualFunctions": [
+    "FN_F_3111_01"
+  ],
+  "acceptedSuggestions": [
+    "coverage:PRJ-ENE-004"
+  ],
+  "architectureGroups": [
+    "已确认需求2再生制动优先需求再生充电SOC上限需求",
+    "已确认功能2吸收、存储并按需释放再生制动能量通过车轮耗散能量",
+    "承接架构3车载再生储能车轮车轴",
+    "接口3轮轨纵向机械作用端口轮轴旋转机械能端口轮对段旋转机械能端口",
+    "参数与信号2旋转机械能轮轨纵向机械作用",
+    "物理网络0当前数据未提供独立实体"
+  ],
+  "canvas": 5,
+  "logicalZero": 1,
+  "modeText": "已确认草案演示 · READ ONLY · Logical 0",
+  "consoleErrors": []
+}
