@@ -1,0 +1,361 @@
+{
+  "pausedStable": true,
+  "previousStage": "参数与信号",
+  "nextStage": "完整路径",
+  "manualMode": "自由探索 · 手动镜头 · READ ONLY · Logical 0",
+  "queryOverview": "完整路径",
+  "nodeEvidence": {
+    "name": "常用制动平均减速度需求",
+    "id": "REQ-BRK-001",
+    "rows": [
+      "上游关联",
+      "下游关联",
+      "工程描述",
+      "来源文件"
+    ]
+  },
+  "relationEvidence": {
+    "type": "TRACE_TO_FUNCTION",
+    "id": "TRACE_TO_FUNCTION::REQ-BRK-001::FN_F_3111_01",
+    "rows": [
+      "status",
+      "source",
+      "sourceFile",
+      "evidence",
+      "mappingType",
+      "allocationId",
+      "relationRole",
+      "provenanceClass",
+      "relationStatus"
+    ]
+  },
+  "reverseReady": "36 对象 · 35 关系",
+  "neighborsReady": "36 对象 · 35 关系",
+  "cancelled": true,
+  "stageData": [
+    {
+      "stage": "需求检索",
+      "caption": "已检索到相关需求。",
+      "counts": "1 对象 · 0 关系",
+      "diag": {
+        "disposed": false,
+        "fps": 50,
+        "state": {
+          "phase": "engineering",
+          "sec": -1,
+          "wi": 0,
+          "score": null,
+          "reads": null,
+          "flags": null,
+          "fixes": null,
+          "open": 0,
+          "comets": 0,
+          "engineeringNodes": 1,
+          "engineeringEdges": 0,
+          "crawlerVisible": false,
+          "agentHudVisible": false,
+          "x": "0.0",
+          "z": "3.1"
+        },
+        "render": {
+          "calls": 67,
+          "triangles": 10882,
+          "points": 72668
+        },
+        "memory": {
+          "geometries": 48,
+          "textures": 14,
+          "programs": 21
+        },
+        "webgl": {
+          "context": "WebGL2",
+          "pixelRatio": 1,
+          "composer": true
+        },
+        "gpu": {
+          "vendor": "Google Inc. (Intel)",
+          "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "corner": "自动演示 · 阶段镜头 · READ ONLY · Logical 0"
+    },
+    {
+      "stage": "关联功能",
+      "caption": "沿正式追溯关系展开承担目标的系统功能。",
+      "counts": "2 对象 · 1 关系",
+      "diag": {
+        "disposed": false,
+        "fps": 49,
+        "state": {
+          "phase": "engineering",
+          "sec": -1,
+          "wi": 0,
+          "score": null,
+          "reads": null,
+          "flags": null,
+          "fixes": null,
+          "open": 0,
+          "comets": 0,
+          "engineeringNodes": 2,
+          "engineeringEdges": 1,
+          "crawlerVisible": false,
+          "agentHudVisible": false,
+          "x": "0.0",
+          "z": "3.1"
+        },
+        "render": {
+          "calls": 71,
+          "triangles": 10890,
+          "points": 72668
+        },
+        "memory": {
+          "geometries": 48,
+          "textures": 14,
+          "programs": 21
+        },
+        "webgl": {
+          "context": "WebGL2",
+          "pixelRatio": 1,
+          "composer": true
+        },
+        "gpu": {
+          "vendor": "Google Inc. (Intel)",
+          "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "corner": "自动演示 · 阶段镜头 · READ ONLY · Logical 0"
+    },
+    {
+      "stage": "架构承接",
+      "caption": "依据功能分配展开产品架构；图谱没有独立 Logical 实体。",
+      "counts": "9 对象 · 7 关系",
+      "diag": {
+        "disposed": false,
+        "fps": 42,
+        "state": {
+          "phase": "engineering",
+          "sec": -1,
+          "wi": 0,
+          "score": null,
+          "reads": null,
+          "flags": null,
+          "fixes": null,
+          "open": 0,
+          "comets": 0,
+          "engineeringNodes": 9,
+          "engineeringEdges": 7,
+          "crawlerVisible": false,
+          "agentHudVisible": false,
+          "x": "0.0",
+          "z": "3.1"
+        },
+        "render": {
+          "calls": 75,
+          "triangles": 10898,
+          "points": 72668
+        },
+        "memory": {
+          "geometries": 48,
+          "textures": 14,
+          "programs": 21
+        },
+        "webgl": {
+          "context": "WebGL2",
+          "pixelRatio": 1,
+          "composer": true
+        },
+        "gpu": {
+          "vendor": "Google Inc. (Intel)",
+          "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "corner": "自动演示 · 阶段镜头 · READ ONLY · Logical 0"
+    },
+    {
+      "stage": "接口展开",
+      "caption": "展开产品所属端口与实际连接关系。",
+      "counts": "15 对象 · 13 关系",
+      "diag": {
+        "disposed": false,
+        "fps": 43,
+        "state": {
+          "phase": "engineering",
+          "sec": -1,
+          "wi": 0,
+          "score": null,
+          "reads": null,
+          "flags": null,
+          "fixes": null,
+          "open": 0,
+          "comets": 0,
+          "engineeringNodes": 15,
+          "engineeringEdges": 13,
+          "crawlerVisible": false,
+          "agentHudVisible": false,
+          "x": "0.0",
+          "z": "3.1"
+        },
+        "render": {
+          "calls": 81,
+          "triangles": 10910,
+          "points": 72668
+        },
+        "memory": {
+          "geometries": 48,
+          "textures": 14,
+          "programs": 21
+        },
+        "webgl": {
+          "context": "WebGL2",
+          "pixelRatio": 1,
+          "composer": true
+        },
+        "gpu": {
+          "vendor": "Google Inc. (Intel)",
+          "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "corner": "自动演示 · 阶段镜头 · READ ONLY · Logical 0"
+    },
+    {
+      "stage": "参数与信号",
+      "caption": "展示真实 Item、物理网络、外部边界及端口属性。",
+      "counts": "32 对象 · 27 关系",
+      "diag": {
+        "disposed": false,
+        "fps": 48,
+        "state": {
+          "phase": "engineering",
+          "sec": -1,
+          "wi": 0,
+          "score": null,
+          "reads": null,
+          "flags": null,
+          "fixes": null,
+          "open": 0,
+          "comets": 0,
+          "engineeringNodes": 32,
+          "engineeringEdges": 27,
+          "crawlerVisible": false,
+          "agentHudVisible": false,
+          "x": "0.0",
+          "z": "3.1"
+        },
+        "render": {
+          "calls": 86,
+          "triangles": 10920,
+          "points": 72668
+        },
+        "memory": {
+          "geometries": 48,
+          "textures": 14,
+          "programs": 21
+        },
+        "webgl": {
+          "context": "WebGL2",
+          "pixelRatio": 1,
+          "composer": true
+        },
+        "gpu": {
+          "vendor": "Google Inc. (Intel)",
+          "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "corner": "自动演示 · 阶段镜头 · READ ONLY · Logical 0"
+    },
+    {
+      "stage": "完整路径",
+      "caption": "保持本次查询的完整真实工程路径。",
+      "counts": "36 对象 · 35 关系",
+      "diag": {
+        "disposed": false,
+        "fps": 42,
+        "state": {
+          "phase": "engineering",
+          "sec": -1,
+          "wi": 0,
+          "score": null,
+          "reads": null,
+          "flags": null,
+          "fixes": null,
+          "open": 0,
+          "comets": 0,
+          "engineeringNodes": 36,
+          "engineeringEdges": 35,
+          "crawlerVisible": false,
+          "agentHudVisible": false,
+          "x": "0.0",
+          "z": "3.1"
+        },
+        "render": {
+          "calls": 89,
+          "triangles": 10926,
+          "points": 72668
+        },
+        "memory": {
+          "geometries": 48,
+          "textures": 14,
+          "programs": 21
+        },
+        "webgl": {
+          "context": "WebGL2",
+          "pixelRatio": 1,
+          "composer": true
+        },
+        "gpu": {
+          "vendor": "Google Inc. (Intel)",
+          "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+        }
+      },
+      "corner": "自动演示 · 阶段镜头 · READ ONLY · Logical 0"
+    }
+  ],
+  "finalDiag": {
+    "disposed": false,
+    "fps": 48,
+    "state": {
+      "phase": "engineering",
+      "sec": -1,
+      "wi": 0,
+      "score": null,
+      "reads": null,
+      "flags": null,
+      "fixes": null,
+      "open": 0,
+      "comets": 0,
+      "engineeringNodes": 0,
+      "engineeringEdges": 0,
+      "crawlerVisible": false,
+      "agentHudVisible": false,
+      "x": "0.0",
+      "z": "3.1"
+    },
+    "render": {
+      "calls": 89,
+      "triangles": 10926,
+      "points": 72668
+    },
+    "memory": {
+      "geometries": 48,
+      "textures": 14,
+      "programs": 21
+    },
+    "webgl": {
+      "context": "WebGL2",
+      "pixelRatio": 1,
+      "composer": true
+    },
+    "gpu": {
+      "vendor": "Google Inc. (Intel)",
+      "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [
+    "GET http://127.0.0.1:5173/api/kg/summary net::ERR_ABORTED",
+    "POST http://127.0.0.1:5173/graphql net::ERR_ABORTED"
+  ],
+  "unexpectedFailures": [],
+  "passed": true
+}

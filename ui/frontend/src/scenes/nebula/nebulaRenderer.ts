@@ -265,7 +265,7 @@ function simStep(dt){
   simT += dt; orbT += dt; orbitStep();
   for (let i = jobs.length - 1; i >= 0; i--) if (jobs[i].t <= simT) { const j = jobs[i]; jobs.splice(i, 1); j.fn(); }
   if (externalMode) {
-    spiderMove(dt); cometStep(dt);
+    cometStep(dt);
     for (let k = 0; k <= 12; k++) flash[k] *= Math.exp(-dt * 1.35);
     return;
   }
@@ -737,11 +737,12 @@ function cometsDraw(){
 const MODES = [{id: 'follow', zh: '跟随'}, {id: 'over', zh: '俯瞰'}, {id: 'tilt', zh: '斜看'}, {id: 'orbit', zh: '环绕'}];
 const EL_OVER = 1.16;
 let modeI = 0, baseAz = 0;
-const cam = {pos: null, tgt: null, want: null, wantT: null, yaw: 0, pitch: 0, zoom: 1, userT: 0, focus: -1};
+const cam = {pos: null, tgt: null, want: null, wantT: null, yaw: 0, pitch: 0, zoom: 1, userT: 0, focus: -1, frame: null};
 let PRC = [], fitD = 50, offX = 0, offY = 0, W = 1, H = 1, narrow = false, bs = .5, BW = 1920, BH = 1080;
 function camWant(t){
   const m = MODES[modeI].id; let az = baseAz, el = EL_OVER, r = fitD * cam.zoom, tx = 0, ty = 0, tz = 0;
-  if (cam.focus >= 0) { const c = CL[cam.focus]; tx = c.x; tz = c.z; ty = c.y0 + c.top * .5; r = Math.max(30, 10 / (.61 * (W / H) * .8)) * cam.zoom; el = .95; }
+  if (cam.frame) { tx=cam.frame.tx;ty=cam.frame.ty;tz=cam.frame.tz;r=cam.frame.r*cam.zoom;el=cam.frame.el;az+=cam.frame.az; }
+  else if (cam.focus >= 0) { const c = CL[cam.focus]; tx = c.x; tz = c.z; ty = c.y0 + c.top * .5; r = Math.max(30, 10 / (.61 * (W / H) * .8)) * cam.zoom; el = .95; }
   else switch (m) {
     case 'over':   az += .04 * Math.sin(t * .05); break;
     case 'tilt':   az += .36 + .05 * Math.sin(t * .04); el = .7; r *= .86; break;
@@ -824,7 +825,7 @@ const clEls = AG.slice(0, 13).map((a, k) => {
   else { el.className = 'cl idle'; el.style.setProperty('--c', a.col); el.innerHTML = `<b>${a.k.toLowerCase()}</b><i>${a.zh}</i><small>—</small>`; }
   lblLayer.appendChild(el); return el;
 });
-const wtPool = Array.from({length: 40}, () => { const el = document.createElement('div'); el.className = 'wt'; el.style.display = 'none'; el.style.pointerEvents='auto'; listen(el,'click',e=>{e.stopPropagation();const id=el.dataset.nodeId;if(id&&options&&options.onNodeSelect)options.onNodeSelect(id);}); lblLayer.appendChild(el); return {el, w: null, key: ''}; });
+const wtPool = Array.from({length: 40}, () => { const el = document.createElement('div'); el.className = 'wt'; el.style.display = 'none'; el.style.pointerEvents='auto'; listen(el,'click',e=>{e.stopPropagation();const id=el.dataset.nodeId;if(id&&options&&options.onNodeSelect)options.onNodeSelect(id);});listen(el,'dblclick',e=>{e.stopPropagation();const id=el.dataset.nodeId;if(id){focusById(id);if(options&&options.onNodeSelect)options.onNodeSelect(id);}}); lblLayer.appendChild(el); return {el, w: null, key: ''}; });
 const logEl = $('#log'), secsEl = $('#secs'), tabsEl = $('#tabs'), codeEl = $('#code');
 const VB = {crawl: 'crawl', walk: 'jump', read: 'read', link: 'link', flag: 'flag', ask: 'ask', fix: 'fix', ship: 'ship', load: 'load'};
 function renderLog(){
@@ -971,29 +972,32 @@ function updateScene(dt){
   for (let k = 0; k <= 12; k++) {
     let b = k === 0 ? .9 + flash[0] * .4 : .55 + load[k] * .28 + flash[k] * .4 + (inTask.has(k) ? .1 : 0);
     // 星云蛛趴着的那团：轻轻闪烁，提示它在这里干活
-    if (k === spider.a && !spider.air && k > 0) b *= .78 + .22 * (.5 + .5 * Math.sin(animT * 13)) * (.7 + .3 * Math.sin(animT * 3.1));
+    if (!externalMode && k === spider.a && !spider.air && k > 0) b *= .78 + .22 * (.5 + .5 * Math.sin(animT * 13)) * (.7 + .3 * Math.sin(animT * 3.1));
     U.b.value[k] = b; flash[k] *= Math.exp(-dt * 2.2);
   }
   for (let k = 1; k <= 12; k++) { const c = CL[k], gp = cloudG[k]; gp.position.set(c.x, 0, c.z); gp.rotation.y = c.rot; }
   U.b.value[13] = 1; U.b.value[14] = .62; U.b.value[15] = 1.3;
   hazes.forEach(h => { h.material.opacity = h.userData.o * Math.min(1.7, U.b.value[h.userData.k] / .6) * (h.userData.k === spider.a && !spider.air ? .7 : 1); });
   if (!U.sp.value) U.sp.value = new THREE.Vector4();
-  U.sp.value.set(spider.x, spider.y, spider.z, spider.air ? .001 : 2.1 * SS);
+  U.sp.value.set(externalMode?999:spider.x, externalMode?999:spider.y, externalMode?999:spider.z, externalMode ? .001 : (spider.air ? .001 : 2.1 * SS));
   coreBall.children.forEach(m => m.rotateOnAxis(m.userData.ax, m.userData.sp * dt));
+  coreBall.scale.setScalar(externalMode ? .68 : 1);ringsG.scale.setScalar(externalMode ? .78 : 1);
   coreBall.rotation.y += dt * .08;
   coreBall.children.forEach(m => { m.material.uniforms.uA.value = Math.min(1.4, (m.userData.a0 || (m.userData.a0 = m.material.uniforms.uA.value)) * (1 + flash[0] * .5)); });
   ringsG.children.forEach(h => { const u = h.userData; const a = animT * u.sp; u.dot.position.set(Math.cos(a) * u.r, 0, Math.sin(a) * u.r); });
   ringsG.rotation.y += dt * .03;
-  abdBall.children.forEach(m => m.rotateOnAxis(m.userData.ax, m.userData.sp * 1.6 * dt)); abdBall.rotation.y += dt * .25;
+  if(!externalMode){abdBall.children.forEach(m => m.rotateOnAxis(m.userData.ax, m.userData.sp * 1.6 * dt)); abdBall.rotation.y += dt * .25;}
   // 星云蛛本体
-  const g = spider.g; g.position.set(spider.x, spider.y + Math.abs(Math.sin(spider.bob)) * (spider.walking ? .07 : .03), spider.z);
+  const g = spider.g;
+  if(!externalMode){g.position.set(spider.x, spider.y + Math.abs(Math.sin(spider.bob)) * (spider.walking ? .07 : .03), spider.z);
   qN.setFromUnitVectors(UPV, tA[0].set(spider.n[0], spider.n[1], spider.n[2]).normalize()); qY.setFromAxisAngle(UPV, spider.head);
   qP.setFromAxisAngle(XV, spider.air && spider.jump ? (spider.jump.t - .5) * .5 : 0); g.quaternion.copy(qN).multiply(qY).multiply(qP);
   SS += ((spider.a === 0 && !spider.air ? 1.5 : 1) * S - SS) * Math.min(1, dt * 4);
   const sq = spider.land; g.scale.set(SS * (1 + .14 * sq), SS * (1 - .24 * sq), SS * (1 + .14 * sq));
   spider.shadow.scale.setScalar(4.4 * SS); spider.shadow.position.set(spider.x, spider.y + .1, spider.z); spider.shadow.material.opacity = spider.air ? .25 : .8;
   const bl = (animT % 4.2) < .12 ? .25 : 1; spider.eyes.forEach(e => e.scale.set(.5, .5 * bl, 1));
-  legsStep(dt); threadsStep(dt); cometsDraw(); engineeringRelationsStep();
+  legsStep(dt); threadsStep(dt);}
+  cometsDraw(); engineeringRelationsStep();
 }
 
 /* ---------- 拔取的信息小框体：读到的词 → 爬取日志 / 读词热力；模糊 → 评分；补齐 → 需求雷达；连线 → 章节 ---------- */
@@ -1038,6 +1042,7 @@ function placeOverlays(){
     let cls = 'cl idle', txt = `待命 · 负载 ${Math.round(load[k] * 100)}%`;
     if (externalMode && engineeringState) {
       const nodes=engineeringState.nodes.filter(n=>clusterIndex(n.clusterId)===k),active=nodes.some(n=>n.active);
+      if(!nodes.length){el.style.display='none';continue;}
       cls=active?'cl on':nodes.length?'cl queue':'cl idle'; txt=nodes.length?`${nodes.length} 个真实实体${active?' · 当前命中':''}`:'无查询命中';
     } else if (sec) {
       if (s === sec && crawl.phase === 'read') { cls = 'cl on'; txt = `${sec.read}/${sec.words.length} 词 · 审查中`; }
@@ -1060,7 +1065,7 @@ function placeOverlays(){
     el.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,-100%) scale(${sc.toFixed(3)})`; }
   // 词标签：当前章节 + 刚审完的章节（渐隐）
   const show = [];
-  if (externalMode && engineeringState) engineeringState.nodes.slice(0,wtPool.length).forEach(n=>{
+  if (externalMode && engineeringState) [...engineeringState.nodes].sort((a,b)=>Number(b.active)-Number(a.active)||a.slot-b.slot).slice(0,cam.focus>=0?24:18).forEach(n=>{
     const ai=clusterIndex(n.clusterId); if(ai<1)return;
     show.push({w:`${n.nodeType} · ${n.label}`,kind:'engineering',state:n.active?'lnk':'read',f:1,ai,slot:n.slot,sec:-99,externalId:n.id});
   });
@@ -1088,7 +1093,7 @@ function placeOverlays(){
   for (let k = 0; k <= 12; k++) { const el = clEls[k]; if (el.style.display === 'none') continue; const r = el.getBoundingClientRect(); if (r.width < 2) continue; done.push({l: r.left - hr.left, r: r.right - hr.left, t: r.top - hr.top, b: r.bottom - hr.top}); }
   PRC.forEach(r => done.push({l: r[0], r: r[2], t: r[1], b: r[3]}));
   // 词标签也让开星云蛛本体，别把它盖住
-  { const [sx, sy] = project(spider.x, spider.y + .5 * SS / S, spider.z), [ex] = project(spider.x + 1.6 * SS, spider.y + .5 * SS / S, spider.z), rr = Math.max(24, Math.abs(ex - sx)); done.push({l: sx - rr, r: sx + rr, t: sy - rr * .85, b: sy + rr * .7}); }
+  if(!externalMode){ const [sx, sy] = project(spider.x, spider.y + .5 * SS / S, spider.z), [ex] = project(spider.x + 1.6 * SS, spider.y + .5 * SS / S, spider.z), rr = Math.max(24, Math.abs(ex - sx)); done.push({l: sx - rr, r: sx + rr, t: sy - rr * .85, b: sy + rr * .7}); }
   const off = 8 * sc, minY = 8;
   placed.forEach(q => {
     let ty = q.y;
@@ -1164,11 +1169,12 @@ function pickAt(x, y){
   if (!glOK) return -1;
   let best = -1, bd = Infinity;
   for (let k = 0; k <= 12; k++) { const [sx, sy] = screenOf(k), r = k === 0 ? 100 : 90; const d = (sx - x) ** 2 + (sy - y) ** 2; if (d < r * r && d < bd) { bd = d; best = k; } }
-  const [qx, qy] = project(spider.x, spider.y + .5, spider.z); if ((qx - x) ** 2 + (qy - y) ** 2 < 40 * 40) best = CRAWLER;
+  if(!externalMode){const [qx, qy] = project(spider.x, spider.y + .5, spider.z); if ((qx - x) ** 2 + (qy - y) ** 2 < 40 * 40) best = CRAWLER;}
   return best;
 }
 function showTip(k){
   const a = AG[k]; let now;
+  if(externalMode&&k>=0&&k<13){const count=engineeringState?engineeringState.nodes.filter(n=>clusterIndex(n.clusterId)===k).length:0;tip.style.setProperty('--c',a.col);tip.innerHTML=`<span><b>${a.zh}</b></span><span>${a.role}</span><span>当前查询：${count} 个真实对象</span>`;tip.hidden=false;const [sx,sy]=screenOf(k),tw=tip.offsetWidth,th=tip.offsetHeight;tip.style.left=clamp(sx+24,8,W-tw-8)+'px';tip.style.top=clamp(sy-th/2,8,H-th-8)+'px';return;}
   if (k === 0) now = task ? `${task.id} ${task.name} · 评分 ${Math.round(task.shown)} · 待答 ${openFlags()}` : '—';
   else if (k === CRAWLER) { const s = curSec(); now = spider.air ? `跳向 ${s ? AG[s.ai].k : 'CHIEF'}` : crawl.phase === 'read' && s ? `在读 ${AG[s.ai].k} · ${s.read}/${s.words.length}` : '待命'; }
   else { const idx = task ? task.path.indexOf(k) : -1, sec = idx >= 0 ? task.sections[idx] : null; now = sec ? (sec.done ? '本单已审完' : curSec() === sec ? `正在被审 · ${sec.read}/${sec.words.length}` : '本单待审') : `负载 ${Math.round(load[k] * 100)}%`; }
@@ -1179,8 +1185,8 @@ function showTip(k){
   let x = sx + 24, y = sy - th / 2; if (x + tw > W - 12) x = sx - tw - 24;
   tip.style.left = clamp(x, 8, W - tw - 8) + 'px'; tip.style.top = clamp(y, 8, H - th - 8) + 'px';
 }
-function setFocus(k){ cam.focus = (k <= 0 || k === CRAWLER || cam.focus === k) ? -1 : k; cam.zoom = 1; cam.yaw = cam.pitch = 0; syncButtons(); }
-listen(cv, 'pointerdown', e => { drag = {x: e.clientX, y: e.clientY, sx: e.clientX, sy: e.clientY, moved: false}; try { cv.setPointerCapture(e.pointerId); } catch (_) {} });
+function setFocus(k){ cam.frame=null;cam.focus = (k <= 0 || k === CRAWLER || cam.focus === k) ? -1 : k; cam.zoom = 1; cam.yaw = cam.pitch = 0; syncButtons(); }
+listen(cv, 'pointerdown', e => { if(externalMode&&options&&options.onManualControl)options.onManualControl();drag = {x: e.clientX, y: e.clientY, sx: e.clientX, sy: e.clientY, moved: false}; try { cv.setPointerCapture(e.pointerId); } catch (_) {} });
 listen(cv, 'pointermove', e => {
   const r = host.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
   if (drag) {
@@ -1199,7 +1205,7 @@ listen(cv, 'pointerup', e => {
   if (k > 0 && k < 13) setFocus(k); else if (cam.focus >= 0) setFocus(cam.focus);
 });
 listen(cv, 'pointerleave', () => { if (!drag) { tip.hidden = true; hover = -1; } });
-listen(cv, 'wheel', e => { if (!glOK) return; e.preventDefault(); cam.zoom = clamp(cam.zoom * Math.exp(e.deltaY * .0012), .3, 1.6); }, {passive: false});
+listen(cv, 'wheel', e => { if (!glOK) return; e.preventDefault();if(externalMode&&options&&options.onManualControl)options.onManualControl(); cam.zoom = clamp(cam.zoom * Math.exp(e.deltaY * .0012), .3, 1.6); }, {passive: false});
 function syncButtons(){ $$('[data-f="mode"]').forEach(b => b.textContent = cam.focus >= 0 ? '返回' : MODES[modeI].zh); }
 function act(name){
   if (name === 'mode') { if (cam.focus >= 0) cam.focus = -1; else modeI = (modeI + 1) % MODES.length; cam.yaw = cam.pitch = 0; cam.zoom = 1; }
@@ -1230,7 +1236,7 @@ clockTick(); scheduleInterval(clockTick, 1000);
 syncButtons();
 // 调试用：快进模拟若干秒（控制台里 document.getElementById('host-nebula').__ff(20)）
 host.__ff = sec => { ffing = true; for (let t = 0; t < sec; t += .05) { simStep(.05); animT += .05; frameN++; coreSay.t -= .05; codeChars += 4.5; if (glOK) { camStep(.05); updateScene(.05); } } ffing = false; };
-host.__st = () => ({phase: externalMode?'engineering':crawl.phase, sec: crawl.sec, wi: crawl.wi, score: task && Math.round(task.shown), reads: task && task.reads, flags: task && task.flags, fixes: task && task.fixes, open: openFlags(), comets: comets.length, engineeringNodes:engineeringState?.nodes?.length||0,engineeringEdges:engineeringState?.edges?.length||0,x: spider.x.toFixed(1), z: spider.z.toFixed(1)});
+host.__st = () => ({phase: externalMode?'engineering':crawl.phase, sec: crawl.sec, wi: crawl.wi, score: task && Math.round(task.shown), reads: task && task.reads, flags: task && task.flags, fixes: task && task.fixes, open: openFlags(), comets: comets.length, engineeringNodes:engineeringState?.nodes?.length||0,engineeringEdges:engineeringState?.edges?.length||0,crawlerVisible:!!(spider.g&&spider.g.visible),agentHudVisible:nr.style.display!=='none',x: spider.x.toFixed(1), z: spider.z.toFixed(1)});
 host.__mode = i => { modeI = i; syncButtons(); };
 host.__focus = k => setFocus(k);
 host.__ui = () => { if(externalMode)renderEngineeringHud(true);else{logDirty = true; renderLog(); renderTabs(); renderSec(); renderStrip(); renderSecs(); renderCounters(); renderCode(); drawPanels();} placeOverlays(); };
@@ -1267,21 +1273,30 @@ function applySnapshot(snapshot){
     const el = clEls[k]; if (!el) return;
     el.style.setProperty('--c', AG[k].col);
     const b = el.querySelector('b'), i = el.querySelector('i');
-    if (b) b.textContent = AG[k].k.toLowerCase(); if (i) i.textContent = AG[k].zh;
+    if (b) b.textContent = snapshot.engineering ? AG[k].zh : AG[k].k.toLowerCase(); if (i) i.textContent = snapshot.engineering ? AG[k].role : AG[k].zh;
   });
   const nextExternal=!!snapshot.engineering;
   if(nextExternal&&!externalMode){task=null;jobs.length=0;comets.length=0;trail.length=0;threads.forEach(t=>{t.on=false;t.ret=false;});crawl.phase='external';crawl.sec=-1;}
   externalMode=nextExternal;engineeringState=snapshot.engineering||null;
+  nr.style.display=externalMode?'none':'';
+  if(spider.g)spider.g.visible=!externalMode;if(spider.shadow)spider.shadow.visible=!externalMode;if(legG)legG.visible=!externalMode;if(threadObj)threadObj.visible=!externalMode;if(trailLine)trailLine.visible=!externalMode;if(pulseSpr)pulseSpr.visible=!externalMode;
   if(externalMode)renderEngineeringHud(true);else if(engineeringLineObj)engineeringLineObj.geometry.setDrawRange(0,0);
 }
-function focusById(id){ const k = clusterIndex(id); if (k > 0 && k < 13) setFocus(k); else { cam.focus = -1; cam.zoom = 1; cam.yaw = cam.pitch = 0; syncButtons(); } }
+function focusById(id){const node=engineeringState&&engineeringState.nodes.find(n=>n.id===id);const k=clusterIndex(node?node.clusterId:id); if (k > 0 && k < 13) setFocus(k); else { cam.frame=null;cam.focus = -1; cam.zoom = 1; cam.yaw = cam.pitch = 0; syncButtons(); } }
+function frameEngineering(clusterIds,mode){
+  const ids=[...new Set((clusterIds||[]).map(clusterIndex).filter(k=>k>0&&k<13))];
+  if(!ids.length){cam.frame={tx:0,ty:1.5,tz:0,r:fitD*(mode==='global'?1:.82),el:1.05,az:0};}
+  else{let minX=Infinity,maxX=-Infinity,minZ=Infinity,maxZ=-Infinity;ids.forEach(k=>{const c=CL[k];minX=Math.min(minX,c.x-c.R);maxX=Math.max(maxX,c.x+c.R);minZ=Math.min(minZ,c.z-c.R);maxZ=Math.max(maxZ,c.z+c.R);});const span=Math.max(maxX-minX,(maxZ-minZ)/Math.max(.65,W/H));cam.frame={tx:(minX+maxX)/2,ty:1.5,tz:(minZ+maxZ)/2,r:Math.max(mode==='focus'?30:38,span*1.18),el:mode==='focus'?.86:1.02,az:0};}
+  cam.focus=-1;cam.zoom=1;cam.yaw=cam.pitch=0;syncButtons();
+}
 function dispatchSceneEvent(event){
   if (!event || disposed) return;
   if (event.type === 'focus') focusById(event.id);
   else if (event.type === 'flash') { const k = clusterIndex(event.id); if (k >= 0 && k < flash.length) flash[k] += 1.2; }
   else if (event.type === 'relation') { const a = clusterIndex(event.sourceId), b = clusterIndex(event.targetId); if (a >= 0 && b >= 0) comet(cloudP(a), cloudP(b), event.color || '#62e3ff', .85, .48, () => { flash[b] += .6; }); }
-  else if (event.type === 'engineering-step') { const a=clusterIndex(event.sourceClusterId),b=clusterIndex(event.targetClusterId);if(a>=0&&b>=0){flash[a]+=.7;flash[b]+=1.3;comet(cloudP(a),cloudP(b),event.color||'#62e3ff',.85,.5,()=>{flash[b]+=.7;});const target=b===0?{a:0,lx:0,lz:3.1}:standOf(b);walkTo(target,null,true);} }
-  else if (event.type === 'view') { modeI = clamp(Number(event.index) || 0, 0, MODES.length - 1); cam.focus = -1; cam.yaw = cam.pitch = 0; cam.zoom = 1; syncButtons(); }
+  else if (event.type === 'engineering-step') { const a=clusterIndex(event.sourceClusterId),b=clusterIndex(event.targetClusterId);if(a>=0&&b>=0){flash[a]+=.7;flash[b]+=1.3;comet(cloudP(a),cloudP(b),event.color||'#62e3ff',.85,.5,()=>{flash[b]+=.7;});} }
+  else if(event.type==='frame')frameEngineering(event.clusterIds,event.mode);
+  else if (event.type === 'view') { modeI = clamp(Number(event.index) || 0, 0, MODES.length - 1); cam.frame=null;cam.focus = -1; cam.yaw = cam.pitch = 0; cam.zoom = 1; syncButtons(); }
   else if (event.type === 'fast-forward') host.__ff(clamp(Number(event.seconds) || 0, 0, 120));
 }
 function getDiagnostics(){

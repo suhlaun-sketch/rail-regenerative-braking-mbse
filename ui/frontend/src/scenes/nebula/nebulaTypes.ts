@@ -18,7 +18,7 @@ export interface NebulaSnapshot {
   engineering?: NebulaEngineeringState
 }
 
-export type EngineeringLayer = 'REQUIREMENT'|'FUNCTION'|'ARCHITECTURE'|'PHYSICAL'
+export type EngineeringLayer = 'REQUIREMENT'|'FUNCTION'|'ARCHITECTURE'|'PHYSICAL'|'INTERFACE'|'PARAMETER_SIGNAL'
 export type EngineeringProvenance = 'FORMAL_MODEL'|'EVIDENCE_DERIVED'|'AI_CANDIDATE'|'SIMULATION_EXECUTION'
 
 export interface NebulaEngineeringNode {
@@ -59,6 +59,7 @@ export type NebulaEvent =
   | {type:'flash'; id:string}
   | {type:'relation'; sourceId:string; targetId:string; color?:string}
   | {type:'engineering-step'; sourceClusterId:NebulaClusterId; targetClusterId:NebulaClusterId; color?:string}
+  | {type:'frame'; clusterIds:NebulaClusterId[]; mode:'global'|'query'|'focus'}
   | {type:'view'; index:number}
   | {type:'fast-forward'; seconds:number}
 
@@ -75,6 +76,7 @@ export interface NebulaDiagnostics {
 export interface NebulaRendererOptions {
   snapshot?: NebulaSnapshot
   onNodeSelect?: (nodeId:string)=>void
+  onManualControl?: ()=>void
 }
 
 export type NebulaSceneController = SceneController<NebulaSnapshot, NebulaEvent, NebulaDiagnostics>

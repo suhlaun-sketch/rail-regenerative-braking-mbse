@@ -3,130 +3,77 @@ import type {GraphEdge,GraphNode,GraphSummary,Subgraph} from '../api/knowledgeGr
 import {getGraphSummary,getNeighbors,getRequirementTrace,getReverseTrace,mergeGraphs,searchEntities} from '../api/knowledgeGraph'
 import NebulaScene from '../components/scenes/NebulaScene'
 import {adaptEdge,graphSnapshot,orderedEngineeringEdges,provenanceOf} from '../scenes/nebula/nebulaAdapter'
+import {buildEngineeringPlan,clustersOf,ENGINEERING_STAGES,graphAtPlayback} from '../scenes/nebula/nebulaPlayback'
+import type {EngineeringPlayback,EngineeringStage} from '../scenes/nebula/nebulaPlayback'
 import type {NebulaSceneController,NebulaSnapshot} from '../scenes/nebula/nebulaTypes'
 import './nebulaEngineering.css'
 
 type QueryMode='main'|'neighbors'|'reverse'
 const EMPTY:Subgraph={nodes:[],edges:[],truncated:false}
 const EMPTY_SNAPSHOT:NebulaSnapshot={...graphSnapshot(EMPTY,'',undefined,undefined,['等待 Neo4j 只读连接']),engineering:{...graphSnapshot(EMPTY,'').engineering!,status:'IDLE'}}
+const TYPE_GROUPS=[['Requirement','命中需求'],['Function','关联功能'],['Product','承接架构 / 物理对象'],['Port','接口'],['Item','参数与信号'],['PhysicalNet','物理网络'],['ExternalBoundary','外部边界']] as const
+const FIELDS:[string,string][]=[['description','工程描述'],['text','工程描述'],['requirement_text','需求内容'],['parent_name','所属系统 / 父级'],['parent_code','父级编号'],['owner_name','所属对象'],['direction','方向'],['type','类型'],['item_name','物理量 / 信号'],['physical_quantity','物理量'],['signal','信号'],['unit','单位'],['data_type','数据类型'],['code','工程编号'],['status','状态'],['source','来源'],['source_file','来源文件']]
 
 function text(value:unknown){return value==null?'':String(value)}
 function requirementId(node:GraphNode){return text(node.properties.requirement_id)||node.id}
-function delay(ms:number,signal:AbortSignal){return new Promise<void>((resolve,reject)=>{const timer=setTimeout(resolve,ms);signal.addEventListener('abort',()=>{clearTimeout(timer);reject(new DOMException('Aborted','AbortError'))},{once:true})})}
+function evidenceRows(edge:GraphEdge){return Object.entries(edge.evidence).filter(([,value])=>text(value).trim())}
+function nodeRows(node:GraphNode|null){if(!node)return [];const seen=new Set<string>();return FIELDS.flatMap(([key,label])=>{const value=node.properties[key];if(!text(value).trim()||seen.has(label))return [];seen.add(label);return [[label,Array.isArray(value)?value.join(' · '):typeof value==='object'?JSON.stringify(value):text(value)] as [string,string]]})}
 function capGraph(graph:Subgraph,seedId:string,maxNodes:number):Subgraph{
-  const byId=new Map(graph.nodes.map(n=>[n.id,n])),keep=new Set<string>(byId.has(seedId)?[seedId]:[]),edges:GraphEdge[]=[]
-  const counts=new Map<string,number>(),caps:Record<string,number>={TRACE_TO_FUNCTION:4,SUPPORTS_IMPLEMENTATION:3,ALLOCATED_TO:5,PARTICIPATES_IN:3,USES_PORT:6,HAS_PORT:9,EXPOSES:7,CONNECTED_VIA:6,CONNECTS_TO:8,DERIVED_CONNECTS_TO:5,TERMINATES_AT:4,CONTAINS:4}
-  const outgoing=new Map<string,GraphEdge[]>();graph.edges.forEach(e=>outgoing.set(e.sourceId,[...(outgoing.get(e.sourceId)??[]),e]))
+  const byId=new Map(graph.nodes.map(node=>[node.id,node])),keep=new Set<string>(byId.has(seedId)?[seedId]:[]),edges:GraphEdge[]=[]
+  const counts=new Map<string,number>(),caps:Record<string,number>={TRACE_TO_FUNCTION:5,SUPPORTS_IMPLEMENTATION:4,ALLOCATED_TO:6,PARTICIPATES_IN:4,USES_PORT:7,HAS_PORT:10,EXPOSES:8,CONNECTED_VIA:7,CONNECTS_TO:9,DERIVED_CONNECTS_TO:5,TERMINATES_AT:5,CONTAINS:5}
+  const outgoing=new Map<string,GraphEdge[]>();graph.edges.forEach(edge=>outgoing.set(edge.sourceId,[...(outgoing.get(edge.sourceId)??[]),edge]))
   const queue:{id:string;path:GraphEdge[]}[]=[{id:seedId,path:[]}],visited=new Set([seedId]);let physicalPath:GraphEdge[]=[]
-  while(queue.length&&!physicalPath.length){const current=queue.shift()!;if(current.path.length>=7)continue;const next=[...(outgoing.get(current.id)??[])].sort((a,b)=>a.relationType.localeCompare(b.relationType)||a.id.localeCompare(b.id));for(const edge of next){if(visited.has(edge.targetId))continue;const path=[...current.path,edge],target=byId.get(edge.targetId);if(target&&(target.nodeType==='PhysicalNet'||target.nodeType==='ExternalBoundary')){physicalPath=path;break}visited.add(edge.targetId);queue.push({id:edge.targetId,path})}}
+  while(queue.length&&!physicalPath.length){const current=queue.shift()!;if(current.path.length>=7)continue;for(const edge of [...(outgoing.get(current.id)??[])].sort((a,b)=>a.relationType.localeCompare(b.relationType)||a.id.localeCompare(b.id))){if(visited.has(edge.targetId))continue;const path=[...current.path,edge],target=byId.get(edge.targetId);if(target&&(target.nodeType==='PhysicalNet'||target.nodeType==='ExternalBoundary')){physicalPath=path;break}visited.add(edge.targetId);queue.push({id:edge.targetId,path})}}
   physicalPath.forEach(edge=>{if(keep.size<maxNodes){keep.add(edge.sourceId);keep.add(edge.targetId);edges.push(edge);counts.set(edge.relationType,(counts.get(edge.relationType)??0)+1)}})
-  for(const edge of orderedEngineeringEdges(graph,seedId,Math.max(graph.edges.length,maxNodes*3))){
-    if(edges.some(e=>e.id===edge.id))continue
-    if((counts.get(edge.relationType)??0)>=(caps[edge.relationType]??8))continue
-    const additions=[edge.sourceId,edge.targetId].filter(id=>!keep.has(id))
-    if(keep.size+additions.length>maxNodes)continue
-    if(!byId.has(edge.sourceId)||!byId.has(edge.targetId))continue
-    keep.add(edge.sourceId);keep.add(edge.targetId);edges.push(edge);counts.set(edge.relationType,(counts.get(edge.relationType)??0)+1)
-  }
-  if(!keep.size)graph.nodes.slice(0,maxNodes).forEach(n=>keep.add(n.id))
-  return {nodes:graph.nodes.filter(n=>keep.has(n.id)),edges,truncated:graph.truncated||graph.nodes.length>keep.size}
+  for(const edge of orderedEngineeringEdges(graph,seedId,Math.max(graph.edges.length,maxNodes*3))){if(edges.some(item=>item.id===edge.id))continue;if((counts.get(edge.relationType)??0)>=(caps[edge.relationType]??8))continue;const additions=[edge.sourceId,edge.targetId].filter(id=>!keep.has(id));if(keep.size+additions.length>maxNodes||!byId.has(edge.sourceId)||!byId.has(edge.targetId))continue;keep.add(edge.sourceId);keep.add(edge.targetId);edges.push(edge);counts.set(edge.relationType,(counts.get(edge.relationType)??0)+1)}
+  return {nodes:graph.nodes.filter(node=>keep.has(node.id)),edges,truncated:graph.truncated||graph.nodes.length>keep.size}
 }
-function evidenceRows(edge:GraphEdge){return Object.entries(edge.evidence).filter(([,v])=>text(v).trim())}
 
 export default function NebulaEngineeringPage(){
-  const controllerRef=useRef<NebulaSceneController|null>(null),abortRef=useRef<AbortController|null>(null),runRef=useRef(0),graphRef=useRef<Subgraph>(EMPTY)
-  const [snapshot,setSnapshot]=useState<NebulaSnapshot>(EMPTY_SNAPSHOT),[graph,setGraph]=useState<Subgraph>(EMPTY)
-  const [query,setQuery]=useState('常用制动平均减速度需求'),[mode,setMode]=useState<QueryMode>('main'),[maxNodes,setMaxNodes]=useState(36)
-  const [summary,setSummary]=useState<GraphSummary|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState('')
-  const [selectedNode,setSelectedNode]=useState<GraphNode|null>(null),[selectedEdge,setSelectedEdge]=useState<GraphEdge|null>(null),[logs,setLogs]=useState<string[]>(['等待 Neo4j 只读连接'])
-  const nodesById=useMemo(()=>new Map(graph.nodes.map(n=>[n.id,n])),[graph.nodes])
+  const controllerRef=useRef<NebulaSceneController|null>(null),abortRef=useRef<AbortController|null>(null),runRef=useRef(0),lastEventRef=useRef(''),lastStageRef=useRef(-1)
+  const [summary,setSummary]=useState<GraphSummary|null>(null),[query,setQuery]=useState('常用制动平均减速度需求'),[mode,setMode]=useState<QueryMode>('main'),[maxNodes,setMaxNodes]=useState(36)
+  const [fullGraph,setFullGraph]=useState<Subgraph>(EMPTY),[plan,setPlan]=useState<EngineeringStage[]>([]),[playback,setPlayback]=useState<EngineeringPlayback>({stage:0,eventCount:0,playing:false,mode:'AUTO'})
+  const [busy,setBusy]=useState(false),[error,setError]=useState(''),[selectedNode,setSelectedNode]=useState<GraphNode|null>(null),[selectedEdge,setSelectedEdge]=useState<GraphEdge|null>(null)
+  const [panelOpen,setPanelOpen]=useState(false),[resultsOpen,setResultsOpen]=useState(true),[logs,setLogs]=useState<string[]>(['等待 Neo4j 只读连接'])
+  const visibleGraph=useMemo(()=>plan.length?graphAtPlayback(plan,playback):EMPTY,[plan,playback])
+  const currentStage=plan[playback.stage]
+  const activeEdge=currentStage?.events[Math.max(0,playback.eventCount-1)]
+  const activeNodeId=activeEdge?.targetId??(playback.stage===1?visibleGraph.nodes.find(node=>node.nodeType==='Requirement')?.id:undefined)
+  const snapshot=useMemo(()=>{const value=plan.length?graphSnapshot(visibleGraph,query,selectedNode?.id??activeNodeId,selectedEdge?.id??activeEdge?.id,logs):EMPTY_SNAPSHOT;if(value.engineering)value.engineering.status=busy?'QUERYING':summary?.status==='CONNECTED'?'READY':summary?'UNAVAILABLE':'IDLE';return value},[activeEdge?.id,activeNodeId,busy,logs,plan.length,query,selectedEdge?.id,selectedNode?.id,summary,visibleGraph])
 
-  const publish=useCallback((next:Subgraph,q:string,activeNodeId?:string,activeEdgeId?:string,nextLogs=logs)=>{
-    graphRef.current=next;setGraph(next)
-    const s=graphSnapshot(next,q,activeNodeId,activeEdgeId,nextLogs);setSnapshot(s);controllerRef.current?.setSnapshot(s)
-  },[logs])
+  useEffect(()=>{const abort=new AbortController();getGraphSummary(abort.signal).then(value=>{setSummary(value);setLogs(value.status==='CONNECTED'?['Neo4j CONNECTED · '+value.nodeCount+' nodes · '+value.relationshipCount+' relations · READ ONLY']:['Neo4j 数据不可用；星云场景保持运行，不载入模拟查询结果'])}).catch(err=>{if(err.name!=='AbortError'){setError(err.message);setLogs(['Neo4j 不可用：'+err.message])}});return()=>abort.abort()},[])
+  useEffect(()=>{controllerRef.current?.setSnapshot(snapshot)},[snapshot])
+  useEffect(()=>{const controller=controllerRef.current;if(!controller||!plan.length||!currentStage)return;if(lastStageRef.current!==playback.stage&&playback.mode==='AUTO'){lastStageRef.current=playback.stage;controller.dispatch({type:'frame',clusterIds:currentStage.clusters,mode:playback.stage===6?'query':playback.stage<=1?'focus':'query'})}if(activeEdge&&lastEventRef.current!==activeEdge.id){lastEventRef.current=activeEdge.id;const nodes=new Map(fullGraph.nodes.map(node=>[node.id,node])),edge=adaptEdge(activeEdge,nodes,true);controller.dispatch({type:'engineering-step',sourceClusterId:edge.sourceClusterId,targetClusterId:edge.targetClusterId,color:edge.color})}},[activeEdge,currentStage,fullGraph.nodes,plan.length,playback.mode,playback.stage])
+  useEffect(()=>{if(!playback.playing||!plan.length)return;const stage=plan[playback.stage];let timer:number;if(playback.stage===0)timer=window.setTimeout(()=>setPlayback(value=>({...value,stage:1,eventCount:0})),500);else if(playback.eventCount<stage.events.length)timer=window.setTimeout(()=>setPlayback(value=>({...value,eventCount:value.eventCount+1})),720);else if(playback.stage<plan.length-1)timer=window.setTimeout(()=>setPlayback(value=>({...value,stage:value.stage+1,eventCount:0})),3200);else timer=window.setTimeout(()=>setPlayback(value=>({...value,playing:false})),3200);return()=>clearTimeout(timer)},[plan,playback])
 
-  useEffect(()=>{
-    const abort=new AbortController()
-    const timer=window.setTimeout(()=>getGraphSummary(abort.signal).then(s=>{
-      setSummary(s)
-      if(s.status!=='CONNECTED'){
-        const nextLogs=['Neo4j 数据不可用；场景保持运行，未载入模拟查询结果']
-        const unavailable={...EMPTY_SNAPSHOT,engineering:{...EMPTY_SNAPSHOT.engineering!,status:'UNAVAILABLE' as const,logs:nextLogs}}
-        setLogs(nextLogs);setSnapshot(unavailable);controllerRef.current?.setSnapshot(unavailable)
-      }else setLogs([`Neo4j CONNECTED · ${s.nodeCount} nodes · ${s.relationshipCount} relations · READ ONLY`])
-    }).catch(e=>{
-      if(e.name==='AbortError')return
-      setError(e.message);const nextLogs=[`Neo4j 不可用：${e.message}`]
-      const unavailable={...EMPTY_SNAPSHOT,engineering:{...EMPTY_SNAPSHOT.engineering!,status:'UNAVAILABLE' as const,logs:nextLogs}}
-      setLogs(nextLogs);setSnapshot(unavailable);controllerRef.current?.setSnapshot(unavailable)
-    }),0)
-    return()=>{clearTimeout(timer);abort.abort()}
-  },[])
-
-  const animate=useCallback(async(full:Subgraph,seed:GraphNode,q:string,signal:AbortSignal,base:Subgraph,run:number)=>{
-    const bounded=capGraph(full,seed.id,maxNodes),nodeMap=new Map(bounded.nodes.map(n=>[n.id,n])),allowed=new Set(nodeMap.keys()),visibleNodes=new Map(base.nodes.filter(n=>allowed.has(n.id)).map(n=>[n.id,n])),visibleEdges=new Map(base.edges.filter(e=>allowed.has(e.sourceId)&&allowed.has(e.targetId)).map(e=>[e.id,e]))
-    visibleNodes.set(seed.id,seed)
-    let nextLogs=[...logs,`命中种子 ${seed.nodeType} · ${seed.name} · ${seed.id}`].slice(-18)
-    publish({nodes:[...visibleNodes.values()],edges:[...visibleEdges.values()],truncated:bounded.truncated},q,seed.id,undefined,nextLogs)
-    for(const edge of orderedEngineeringEdges(bounded,seed.id,maxNodes*3)){
-      if(signal.aborted||run!==runRef.current)throw new DOMException('Aborted','AbortError')
-      const source=nodeMap.get(edge.sourceId),target=nodeMap.get(edge.targetId);if(!source||!target)continue
-      visibleNodes.set(source.id,source);visibleNodes.set(target.id,target);visibleEdges.set(edge.id,edge)
-      nextLogs=[...nextLogs,`${source.name} —${edge.relationType}→ ${target.name}`].slice(-18)
-      const next={nodes:[...visibleNodes.values()],edges:[...visibleEdges.values()],truncated:bounded.truncated}
-      publish(next,q,target.id,edge.id,nextLogs)
-      const adapted=adaptEdge(edge,nodeMap,true)
-      controllerRef.current?.dispatch({type:'engineering-step',sourceClusterId:adapted.sourceClusterId,targetClusterId:adapted.targetClusterId,color:adapted.color})
-      await delay(360,signal)
-    }
-    const done={nodes:[...visibleNodes.values()],edges:[...visibleEdges.values()],truncated:bounded.truncated}
-    nextLogs=[...nextLogs,`展开完成 · ${done.nodes.length} nodes · ${done.edges.length} relations${done.truncated?' · 已按上限截断':''}`].slice(-18)
-    setLogs(nextLogs);publish(done,q,seed.id,undefined,nextLogs);setSelectedNode(seed);setSelectedEdge(null)
-  },[logs,maxNodes,publish])
-
-  const runQuery=useCallback(async(nextMode:QueryMode=mode,nodeOverride?:GraphNode)=>{
+  const selectNode=useCallback((id:string)=>{const node=fullGraph.nodes.find(item=>item.id===id);if(!node)return;setSelectedNode(node);setSelectedEdge(null);setPanelOpen(true);setPlayback(value=>({...value,playing:false}))},[fullGraph.nodes])
+  const selectEdge=useCallback((edge:GraphEdge)=>{setSelectedEdge(edge);setSelectedNode(null);setPanelOpen(true);setPlayback(value=>({...value,playing:false}))},[])
+  const runQuery=useCallback(async(nextMode:QueryMode=mode,nodeOverride?:GraphNode,auto=false)=>{
     if(summary?.status!=='CONNECTED'){setError('Neo4j 未连接，未执行查询');return}
-    abortRef.current?.abort();const abort=new AbortController();abortRef.current=abort;const run=++runRef.current
-    setBusy(true);setError('');setMode(nextMode)
-    try{
-      let seed=nodeOverride??selectedNode,full:Subgraph
-      if(nextMode==='main'){
-        const matches=await searchEntities(query.trim(),['Requirement'],abort.signal)
-        if(!matches.length)throw new Error('未找到与问题匹配的真实 Requirement；未使用模拟结果')
-        seed=matches.find(n=>n.name===query.trim())??matches[0]
-        full=await getRequirementTrace(requirementId(seed),abort.signal)
-        if(!full.nodes.length)throw new Error(`Requirement ${requirementId(seed)} 没有可回查的正式工程关系`)
-        await animate(full,seed,query.trim(),abort.signal,EMPTY,run)
-      }else{
-        if(!seed)throw new Error('请先选择一个真实节点再继续展开')
-        full=nextMode==='neighbors'?await getNeighbors(seed.id,[],1,maxNodes,abort.signal):await getReverseTrace(seed.id,maxNodes,abort.signal)
-        if(!full.nodes.length)throw new Error(nextMode==='reverse'?'当前节点没有指向它的 Requirement 有向追溯链':'当前节点没有可展开邻居')
-        const merged=mergeGraphs(graphRef.current,full)
-        await animate(merged,seed,query.trim(),abort.signal,graphRef.current,run)
-      }
-    }catch(e){
-      const err=e as Error;if(err.name!=='AbortError'){setError(err.message);const next=[...logs,`ERROR · ${err.message}`].slice(-18);setLogs(next);const failed={...snapshot,engineering:{...snapshot.engineering!,status:'ERROR' as const,logs:next}};setSnapshot(failed);controllerRef.current?.setSnapshot(failed)}
-    }finally{if(run===runRef.current)setBusy(false)}
-  },[animate,logs,maxNodes,mode,query,selectedNode,snapshot,summary?.status])
-
-  const cancel=()=>{abortRef.current?.abort();runRef.current++;setBusy(false);setLogs(v=>[...v,'查询已取消；已生成节点保持可检查'].slice(-18))}
-  const selectNode=useCallback((id:string)=>{const node=nodesById.get(id);if(!node)return;setSelectedNode(node);setSelectedEdge(null);const s=graphSnapshot(graphRef.current,query,node.id,undefined,logs);setSnapshot(s);controllerRef.current?.setSnapshot(s)},[logs,nodesById,query])
-  const layerCounts=useMemo(()=>graph.nodes.reduce((a,n)=>{const k=n.nodeType==='Requirement'?'Requirement':n.nodeType==='Function'?'Function':n.nodeType==='PhysicalNet'||n.nodeType==='ExternalBoundary'?'Physical':'Architecture';a[k]=(a[k]||0)+1;return a},{} as Record<string,number>),[graph.nodes])
+    abortRef.current?.abort();const abort=new AbortController();abortRef.current=abort;const run=++runRef.current;setBusy(true);setError('');setMode(nextMode);setPlayback(value=>({...value,playing:false}));lastEventRef.current='';lastStageRef.current=-1
+    try{let seed=nodeOverride??selectedNode,full:Subgraph
+      if(nextMode==='main'){const matches=await searchEntities(query.trim(),['Requirement'],abort.signal);if(!matches.length)throw new Error('未找到匹配的真实 Requirement；未使用模拟结果');seed=matches.find(node=>node.name===query.trim())??matches[0];full=await getRequirementTrace(requirementId(seed),abort.signal);if(!full.nodes.length)throw new Error('Requirement '+requirementId(seed)+' 没有可回查的正式工程关系')}
+      else{if(!seed)throw new Error('请先选择一个真实节点再继续展开');const addition=nextMode==='neighbors'?await getNeighbors(seed.id,[],1,maxNodes,abort.signal):await getReverseTrace(seed.id,maxNodes,abort.signal);if(!addition.nodes.length)throw new Error(nextMode==='reverse'?'当前节点没有指向它的 Requirement 有向追溯链':'当前节点没有可展开邻居');full=mergeGraphs(fullGraph,addition)}
+      if(run!==runRef.current||!seed)return;const bounded=capGraph(full,seed.id,maxNodes),nextPlan=buildEngineeringPlan(bounded,seed.id);setFullGraph(bounded);setPlan(nextPlan);setSelectedNode(null);setSelectedEdge(null);setPanelOpen(false);setLogs(['真实查询：'+query.trim(),'种子：'+seed.name+' · '+seed.id,'返回：'+bounded.nodes.length+' 个对象 · '+bounded.edges.length+' 条关系'+(bounded.truncated?' · 已按上限截断':''),'播放计划：需求 → 功能 → 架构 → 接口 → 参数与信号 → 完整路径']);setPlayback({stage:auto?1:0,eventCount:0,playing:auto,mode:'AUTO'})
+    }catch(err){const value=err as Error;if(value.name!=='AbortError'){setError(value.message);setLogs(items=>[...items,'ERROR · '+value.message].slice(-8))}}finally{if(run===runRef.current)setBusy(false)}
+  },[fullGraph,maxNodes,mode,query,selectedNode,summary?.status])
+  const cancel=()=>{abortRef.current?.abort();runRef.current++;setBusy(false);setPlayback(value=>({...value,playing:false}));setLogs(items=>[...items,'查询已取消；已返回对象保持可检查'].slice(-8))}
+  const goStage=(index:number,playing=false)=>{if(!plan.length)return;setSelectedEdge(null);lastEventRef.current='';setPlayback(value=>({...value,stage:Math.max(0,Math.min(index,plan.length-1)),eventCount:0,playing,mode:'AUTO'}))}
+  const currentClusters=clustersOf(fullGraph)
+  const manualControl=useCallback(()=>setPlayback(value=>value.mode==='EXPLORE'&&!value.playing?value:{...value,playing:false,mode:'EXPLORE'}),[])
+  const selectedRelations=selectedNode?fullGraph.edges.filter(edge=>edge.sourceId===selectedNode.id||edge.targetId===selectedNode.id):[]
+  const friendly=nodeRows(selectedNode)
 
   return <main className="nebula-engineering-page">
-    <NebulaScene snapshot={snapshot} onReady={c=>{controllerRef.current=c;c.setSnapshot(snapshot)}} onNodeSelect={selectNode}/>
-    <section className="nek-query" aria-label="真实工程知识查询">
-      <header><b>ENGINEERING KNOWLEDGE QUERY</b><span className={summary?.status==='CONNECTED'?'ok':'off'}>{summary?.status??'CHECKING'}</span><em>READ ONLY</em></header>
-      <form onSubmit={e=>{e.preventDefault();void runQuery('main')}}><input value={query} onChange={e=>setQuery(e.target.value)} aria-label="工程问题"/><button disabled={busy||summary?.status!=='CONNECTED'}>{busy?'展开中':'查询主链'}</button>{busy&&<button type="button" onClick={cancel}>取消</button>}</form>
-      <div className="nek-controls"><button className={mode==='main'?'active':''} onClick={()=>setMode('main')}>主链模式</button><button className={mode==='neighbors'?'active':''} disabled={!selectedNode||busy} onClick={()=>void runQuery('neighbors')}>邻居展开</button><button className={mode==='reverse'?'active':''} disabled={!selectedNode||busy} onClick={()=>void runQuery('reverse')}>反向追溯</button><div className="nek-provenance"><i className="formal"/>正式模型 <i className="derived"/>证据派生 <i className="ai"/>AI候选 <i className="simulation"/>仿真执行</div><label>上限 <select value={maxNodes} onChange={e=>setMaxNodes(Number(e.target.value))}><option>24</option><option>36</option><option>60</option><option>80</option></select></label></div>
-      {error&&<p className="nek-error">{error}</p>}
-    </section>
-    <section className="nek-layer-strip"><span>Requirement <b>{layerCounts.Requirement??0}</b></span><i>→</i><span>Function <b>{layerCounts.Function??0}</b></span><i>→</i><span className="gap">Logical <b>0 · 无正式实体</b></span><i>→</i><span>Architecture <b>{layerCounts.Architecture??0}</b></span><i>→</i><span>Physical <b>{layerCounts.Physical??0}</b></span></section>
-    <aside className="nek-evidence">
-      <header><b>SOURCE EVIDENCE</b><span>节点与关系证据</span></header>
-      {selectedNode?<div className="nek-detail"><small>{selectedNode.nodeType}</small><h2>{selectedNode.name}</h2><code>{selectedNode.id}</code><dl>{Object.entries(selectedNode.properties).filter(([,v])=>text(v)).slice(0,18).map(([k,v])=><div key={k}><dt>{k}</dt><dd>{Array.isArray(v)?v.join(' · '):typeof v==='object'?JSON.stringify(v):text(v)}</dd></div>)}</dl><footer><button disabled={busy} onClick={()=>void runQuery('neighbors',selectedNode)}>继续展开邻居</button><button disabled={busy} onClick={()=>void runQuery('reverse',selectedNode)}>回溯到需求</button></footer></div>:selectedEdge?<div className="nek-detail"><small>RELATION · {provenanceOf(selectedEdge)}</small><h2>{selectedEdge.relationType}</h2><code>{selectedEdge.id}</code><p>{selectedEdge.sourceId}<br/>↓<br/>{selectedEdge.targetId}</p><dl>{evidenceRows(selectedEdge).map(([k,v])=><div key={k}><dt>{k}</dt><dd>{text(v)}</dd></div>)}</dl></div>:<p className="nek-empty">运行查询后，点击星云内实体标签、节点清单或关系，查看真实 ID、类型和来源。</p>}
-    </aside>
-    <section className="nek-results"><header><b>QUERY EXPANSION LOG</b><span>{graph.nodes.length} NODES · {graph.edges.length} RELATIONS</span></header><div className="nek-result-grid"><div>{graph.nodes.slice(0,28).map(n=><button className={selectedNode?.id===n.id?'active':''} key={n.id} onClick={()=>selectNode(n.id)}><small>{n.nodeType}</small><span>{n.name}</span><code>{n.id}</code></button>)}</div><div>{graph.edges.slice(0,32).map(e=><button className={selectedEdge?.id===e.id?'active':''} key={e.id} onClick={()=>{setSelectedEdge(e);setSelectedNode(null);const s=graphSnapshot(graphRef.current,query,undefined,e.id,logs);setSnapshot(s);controllerRef.current?.setSnapshot(s)}}><span>{e.relationType}</span><small>{provenanceOf(e)}</small></button>)}</div></div></section>
+    <NebulaScene snapshot={snapshot} onReady={controller=>{controllerRef.current=controller;controller.setSnapshot(snapshot)}} onNodeSelect={selectNode} onManualControl={manualControl}/>
+    <header className="nek-topbar"><div className="nek-brand"><small>MBSE ENGINEERING KNOWLEDGE</small><h1>工程知识图谱与关系追溯</h1><p>需求 · 功能 · 架构 · 接口 · 参数与信号</p></div><form onSubmit={event=>{event.preventDefault();void runQuery('main')}}><input aria-label="工程查询输入" value={query} onChange={event=>setQuery(event.target.value)}/><button disabled={busy||summary?.status!=='CONNECTED'}>{busy?'查询中…':'查询'}</button>{busy&&<button type="button" onClick={cancel}>取消</button>}</form><div className="nek-status"><i className={summary?.status==='CONNECTED'?'ok':'off'}/><b>{summary?.status??'CHECKING'}</b><span>{summary?summary.nodeCount+' 节点 · '+summary.relationshipCount+' 关系':'Neo4j READ ONLY'}</span></div></header>
+    <section className="nek-toolbar" aria-label="演示控制"><button disabled={!plan.length||busy} onClick={()=>goStage(1,true)}>▶ 自动演示</button><button disabled={!plan.length} onClick={()=>setPlayback(value=>({...value,playing:!value.playing,mode:'AUTO'}))}>{playback.playing?'Ⅱ 暂停':'▶ 继续'}</button><button disabled={!plan.length||playback.stage<=0} onClick={()=>goStage(playback.stage-1)}>← 上一步</button><button disabled={!plan.length||playback.stage>=6} onClick={()=>goStage(playback.stage+1)}>下一步 →</button><button disabled={!plan.length} onClick={()=>goStage(1,true)}>↻ 重播</button><button disabled={!plan.length} onClick={()=>{setPlayback(value=>({...value,stage:6,eventCount:0,playing:false,mode:'AUTO'}));controllerRef.current?.dispatch({type:'frame',clusterIds:currentClusters,mode:'query'})}}>查询全貌</button><button onClick={()=>{setPlayback(value=>({...value,playing:false,mode:'EXPLORE'}));controllerRef.current?.dispatch({type:'frame',clusterIds:currentClusters,mode:'global'})}}>全图视图</button><button className={playback.mode==='EXPLORE'?'active':''} onClick={()=>setPlayback(value=>({...value,playing:false,mode:'EXPLORE'}))}>自由探索</button><label>上限 <select value={maxNodes} onChange={event=>setMaxNodes(Number(event.target.value))}><option>24</option><option>36</option><option>60</option><option>80</option></select></label></section>
+    <nav className="nek-stage-rail" aria-label="工程关系阶段">{ENGINEERING_STAGES.map(([id,label],index)=><button key={id} disabled={!plan.length} className={index===playback.stage?'current':index<playback.stage?'done':''} onClick={()=>goStage(index)}><span>{String(index).padStart(2,'0')}</span><b>{label}</b></button>)}</nav>
+    <section className="nek-stage-caption" aria-live="polite"><small>阶段 {String(playback.stage).padStart(2,'0')} / 06</small><b>{currentStage?.label??'等待真实查询'}</b><span>{currentStage?.message??'输入工程问题后构建真实关系播放计划。'}</span>{currentStage&&<em>{visibleGraph.nodes.length} 对象 · {visibleGraph.edges.length} 关系</em>}</section>
+    {error&&<div className="nek-error" role="alert">{error}</div>}
+    <aside className={'nek-inspector '+(panelOpen?'open':'')}><button className="nek-inspector-toggle" aria-label="切换属性卡" onClick={()=>setPanelOpen(value=>!value)}>{panelOpen?'收起属性':'节点属性'}</button>{panelOpen&&<div className="nek-inspector-body"><header><span>{selectedEdge?'关系依据':selectedNode?.nodeType??'工程对象'}</span><button onClick={()=>setPanelOpen(false)}>×</button></header>{selectedNode?<><small>{selectedNode.nodeType}</small><h2>{selectedNode.name}</h2><code>{selectedNode.id}</code><dl><div><dt>上游关联</dt><dd>{selectedRelations.filter(edge=>edge.targetId===selectedNode.id).length||'未提供'}</dd></div><div><dt>下游关联</dt><dd>{selectedRelations.filter(edge=>edge.sourceId===selectedNode.id).length||'未提供'}</dd></div>{friendly.length?friendly.map(([key,value])=><div key={key}><dt>{key}</dt><dd>{value}</dd></div>):<div><dt>工程属性</dt><dd>未提供</dd></div>}</dl><div className="nek-inspector-actions"><button disabled={busy} onClick={()=>void runQuery('neighbors',selectedNode)}>展开邻居</button><button disabled={busy} onClick={()=>void runQuery('reverse',selectedNode)}>反向追溯</button><button onClick={()=>controllerRef.current?.focus(selectedNode.id)}>聚焦节点</button></div><details><summary>查看原始证据</summary><pre>{JSON.stringify(selectedNode.properties,null,2)}</pre></details></>:selectedEdge?<><small>{provenanceOf(selectedEdge)}</small><h2>{selectedEdge.relationType}</h2><code>{selectedEdge.id}</code><p>{fullGraph.nodes.find(node=>node.id===selectedEdge.sourceId)?.name??selectedEdge.sourceId}<br/>↓<br/>{fullGraph.nodes.find(node=>node.id===selectedEdge.targetId)?.name??selectedEdge.targetId}</p><dl>{evidenceRows(selectedEdge).map(([key,value])=><div key={key}><dt>{key}</dt><dd>{text(value)}</dd></div>)}</dl><details><summary>查看原始证据</summary><pre>{JSON.stringify(selectedEdge.evidence,null,2)}</pre></details></>:<p className="nek-empty">点击星云节点或底部关系，查看工程属性和来源依据。</p>}</div>}</aside>
+    <section className={'nek-results '+(resultsOpen?'open':'')}><header><div><small>当前查询</small><b>{plan.length?query:'尚未执行'}</b><span>{fullGraph.nodes.length} 对象 · {fullGraph.edges.length} 关系</span></div><button onClick={()=>setResultsOpen(value=>!value)}>{resultsOpen?'收起结果':'展开结果'}</button></header>{resultsOpen&&<div className="nek-results-body"><div className="nek-group-list">{TYPE_GROUPS.map(([type,label])=>{const nodes=fullGraph.nodes.filter(node=>node.nodeType===type);if(!nodes.length&&type!=='Item')return null;return <article key={type}><h3>{label}<span>{nodes.length}</span></h3>{nodes.length?nodes.slice(0,5).map(node=><button key={node.id} onClick={()=>selectNode(node.id)} title={node.id}>{node.name}</button>):<p>当前数据未提供独立实体</p>}</article>})}</div><div className="nek-relations"><header><b>真实关系</b><span><i className="formal"/>正式 <i className="derived"/>派生 <i className="ai"/>AI候选 <i className="simulation"/>仿真</span></header>{fullGraph.edges.slice(0,18).map(edge=><button key={edge.id} onClick={()=>selectEdge(edge)} className={selectedEdge?.id===edge.id?'active':''}><b>{edge.relationType}</b><small>{fullGraph.nodes.find(node=>node.id===edge.sourceId)?.name??edge.sourceId} → {fullGraph.nodes.find(node=>node.id===edge.targetId)?.name??edge.targetId}</small><em>{provenanceOf(edge)}</em></button>)}</div></div>}</section>
+    <div className="nek-mode-switch"><button className={mode==='main'?'active':''} onClick={()=>setMode('main')}>主链</button><button disabled={!selectedNode||busy} onClick={()=>void runQuery('neighbors')}>邻居展开</button><button disabled={!selectedNode||busy} onClick={()=>void runQuery('reverse')}>反向追溯</button></div>
+    <div className="nek-corner">{playback.mode==='EXPLORE'?'自由探索 · 手动镜头':'自动演示 · 阶段镜头'} · READ ONLY · Logical 0</div>
   </main>
 }

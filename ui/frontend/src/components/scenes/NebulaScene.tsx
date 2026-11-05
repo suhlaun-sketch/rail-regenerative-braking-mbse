@@ -8,9 +8,10 @@ export interface NebulaSceneProps {
   className?: string
   onReady?: (controller:NebulaSceneController)=>void
   onNodeSelect?: (nodeId:string)=>void
+  onManualControl?: ()=>void
 }
 
-export default function NebulaScene({snapshot=NEBULA_FIXTURE,className,onReady,onNodeSelect}:NebulaSceneProps){
+export default function NebulaScene({snapshot=NEBULA_FIXTURE,className,onReady,onNodeSelect,onManualControl}:NebulaSceneProps){
   const hostRef=useRef<HTMLDivElement>(null)
   const readyRef=useRef(onReady)
   readyRef.current=onReady
@@ -18,7 +19,7 @@ export default function NebulaScene({snapshot=NEBULA_FIXTURE,className,onReady,o
   useLayoutEffect(()=>{
     const host=hostRef.current
     if(!host)return
-    const controller=createNebulaRenderer(host,{snapshot,onNodeSelect})
+    const controller=createNebulaRenderer(host,{snapshot,onNodeSelect,onManualControl})
     readyRef.current?.(controller)
     return ()=>controller.dispose()
   },[])
