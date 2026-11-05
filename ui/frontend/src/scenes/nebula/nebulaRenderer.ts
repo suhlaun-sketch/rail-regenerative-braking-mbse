@@ -739,6 +739,7 @@ const EL_OVER = 1.16;
 let modeI = 0, baseAz = 0;
 const cam = {pos: null, tgt: null, want: null, wantT: null, yaw: 0, pitch: 0, zoom: 1, userT: 0, focus: -1, frame: null};
 let PRC = [], fitD = 50, offX = 0, offY = 0, W = 1, H = 1, narrow = false, bs = .5, BW = 1920, BH = 1080;
+let visibleInsets={top:0,bottom:0};
 function camWant(t){
   const m = MODES[modeI].id; let az = baseAz, el = EL_OVER, r = fitD * cam.zoom, tx = 0, ty = 0, tz = 0;
   if (cam.frame) { tx=cam.frame.tx;ty=cam.frame.ty;tz=cam.frame.tz;r=cam.frame.r*cam.zoom;el=cam.frame.el;az+=cam.frame.az; }
@@ -768,8 +769,10 @@ function panelRects(){
 }
 function fitCamera(){
   const rects = narrow ? [] : panelRects(), mg = narrow ? 6 : 8; PRC = rects;
+  const top=externalMode?clamp(visibleInsets.top,0,H*.42):0,bottom=externalMode?clamp(visibleInsets.bottom,0,H*.42):0;
+  const minY=Math.max(narrow?64:mg,top+mg),maxY=Math.min(H-(narrow?150:mg),H-bottom-mg),shift=(bottom-top)*.5;
   const v = new THREE.Vector3(), az = baseAz, el = EL_OVER;
-  const oxs = narrow ? [0] : [-4, -3, -2, -1, 0, 1, 2, 3, 4].map(i => i * W * .02), oys = narrow ? [H / 2 - (64 + H - 150) / 2] : Array.from({length: 13}, (_, i) => (i - 6) * H * .022);
+  const oxs = narrow ? [0] : [-4, -3, -2, -1, 0, 1, 2, 3, 4].map(i => i * W * .02), oys = narrow ? [H / 2 - (64 + H - 150) / 2+shift] : Array.from({length: 13}, (_, i) => shift+(i - 6) * H * .022);
   let best = null;
   for (const ox of oxs) for (const oy of oys) {
     camera.setViewOffset(W, H, ox, oy, W, H); camera.updateProjectionMatrix();
@@ -780,7 +783,7 @@ function fitCamera(){
       let ok = true;
       for (const p of FIT_PTS) {
         v.set(p[0], p[1], p[2]).project(camera); const sx = (v.x + 1) / 2 * W, sy = (1 - v.y) / 2 * H;
-        if (sx < mg || sx > W - mg || sy < (narrow ? 64 : mg) || sy > H - (narrow ? 150 : mg)) { ok = false; break; }
+        if (sx < mg || sx > W - mg || sy < minY || sy > maxY) { ok = false; break; }
         for (const r of rects) if (sx > r[0] && sx < r[2] && sy > r[1] && sy < r[3]) { ok = false; break; }
         if (!ok) break;
       }
@@ -1285,8 +1288,8 @@ function applySnapshot(snapshot){
 function focusById(id){const node=engineeringState&&engineeringState.nodes.find(n=>n.id===id);const k=clusterIndex(node?node.clusterId:id); if (k > 0 && k < 13) setFocus(k); else { cam.frame=null;cam.focus = -1; cam.zoom = 1; cam.yaw = cam.pitch = 0; syncButtons(); } }
 function frameEngineering(clusterIds,mode){
   const ids=[...new Set((clusterIds||[]).map(clusterIndex).filter(k=>k>0&&k<13))];
-  if(!ids.length){cam.frame={tx:0,ty:1.5,tz:0,r:fitD*(mode==='global'?1:.82),el:1.05,az:0};}
-  else{let minX=Infinity,maxX=-Infinity,minZ=Infinity,maxZ=-Infinity;ids.forEach(k=>{const c=CL[k];minX=Math.min(minX,c.x-c.R);maxX=Math.max(maxX,c.x+c.R);minZ=Math.min(minZ,c.z-c.R);maxZ=Math.max(maxZ,c.z+c.R);});const span=Math.max(maxX-minX,(maxZ-minZ)/Math.max(.65,W/H));cam.frame={tx:(minX+maxX)/2,ty:1.5,tz:(minZ+maxZ)/2,r:Math.max(mode==='focus'?30:38,span*1.18),el:mode==='focus'?.86:1.02,az:0};}
+  if(!ids.length){cam.frame={tx:0,ty:1.5,tz:0,r:fitD*(mode==='global'?1:.82),el:1.05,az:0,clusterIds:[],mode};}
+  else{let minX=Infinity,maxX=-Infinity,minZ=Infinity,maxZ=-Infinity;ids.forEach(k=>{const c=CL[k];minX=Math.min(minX,c.x-c.R);maxX=Math.max(maxX,c.x+c.R);minZ=Math.min(minZ,c.z-c.R);maxZ=Math.max(maxZ,c.z+c.R);});const usable=Math.max(.48,(H-visibleInsets.top-visibleInsets.bottom)/H),span=Math.max(maxX-minX,(maxZ-minZ)/Math.max(.65,(W/H)*usable));cam.frame={tx:(minX+maxX)/2,ty:1.5,tz:(minZ+maxZ)/2,r:Math.max(mode==='focus'?30:38,span*1.18/usable),el:mode==='focus'?.86:1.02,az:0,clusterIds:[...clusterIds],mode};}
   cam.focus=-1;cam.zoom=1;cam.yaw=cam.pitch=0;syncButtons();
 }
 function dispatchSceneEvent(event){
@@ -1296,6 +1299,7 @@ function dispatchSceneEvent(event){
   else if (event.type === 'relation') { const a = clusterIndex(event.sourceId), b = clusterIndex(event.targetId); if (a >= 0 && b >= 0) comet(cloudP(a), cloudP(b), event.color || '#62e3ff', .85, .48, () => { flash[b] += .6; }); }
   else if (event.type === 'engineering-step') { const a=clusterIndex(event.sourceClusterId),b=clusterIndex(event.targetClusterId);if(a>=0&&b>=0){flash[a]+=.7;flash[b]+=1.3;comet(cloudP(a),cloudP(b),event.color||'#62e3ff',.85,.5,()=>{flash[b]+=.7;});} }
   else if(event.type==='frame')frameEngineering(event.clusterIds,event.mode);
+  else if(event.type==='viewport'){visibleInsets.top=Math.max(0,event.top||0);visibleInsets.bottom=Math.max(0,event.bottom||0);fitCamera();if(cam.frame?.clusterIds)frameEngineering(cam.frame.clusterIds,cam.frame.mode||'query');}
   else if (event.type === 'view') { modeI = clamp(Number(event.index) || 0, 0, MODES.length - 1); cam.frame=null;cam.focus = -1; cam.yaw = cam.pitch = 0; cam.zoom = 1; syncButtons(); }
   else if (event.type === 'fast-forward') host.__ff(clamp(Number(event.seconds) || 0, 0, 120));
 }

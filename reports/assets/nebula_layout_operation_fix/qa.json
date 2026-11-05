@@ -1,0 +1,58 @@
+{
+  "requirementCount": 5,
+  "originalFunctionCount": 1,
+  "selectedRequirements": [
+    "REQ-BRK-007",
+    "PRJ-ENE-004"
+  ],
+  "functionsAfterTwoAdds": [
+    "FN_F_X100_01",
+    "FN_F_3111_01",
+    "FN_F_3112_01"
+  ],
+  "gapsAfterRemove": 2,
+  "compact1600": {
+    "height": 108
+  },
+  "expanded1600": {
+    "height": 250,
+    "ratio": 0.2777777777777778
+  },
+  "groupsBeforeEdit": [
+    "5承接架构",
+    "6接口",
+    "2参数与信号",
+    "0物理网络"
+  ],
+  "functionCardsOnReturn": 3,
+  "functionsAfterRecalc": [
+    "FN_F_X100_01",
+    "FN_F_3111_01"
+  ],
+  "groupsAfterEdit": [
+    "3承接架构",
+    "3接口",
+    "2参数与信号",
+    "0物理网络"
+  ],
+  "compact1366": {
+    "height": 108
+  },
+  "expanded1366": {
+    "height": 261.109375,
+    "ratio": 0.3399861653645833
+  },
+  "labels1600": {
+    "count": 5,
+    "allVisible": true,
+    "maxBottom": 741.2330322265625,
+    "panelTop": 778
+  },
+  "labels1366": {
+    "count": 4,
+    "allVisible": true,
+    "maxBottom": 406.63299560546875,
+    "panelTop": 646
+  },
+  "consoleErrors": []
+}

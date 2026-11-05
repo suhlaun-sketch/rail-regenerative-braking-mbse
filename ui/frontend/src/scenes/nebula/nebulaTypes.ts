@@ -60,6 +60,7 @@ export type NebulaEvent =
   | {type:'relation'; sourceId:string; targetId:string; color?:string}
   | {type:'engineering-step'; sourceClusterId:NebulaClusterId; targetClusterId:NebulaClusterId; color?:string}
   | {type:'frame'; clusterIds:NebulaClusterId[]; mode:'global'|'query'|'focus'}
+  | {type:'viewport'; top:number; bottom:number}
   | {type:'view'; index:number}
   | {type:'fast-forward'; seconds:number}
 
