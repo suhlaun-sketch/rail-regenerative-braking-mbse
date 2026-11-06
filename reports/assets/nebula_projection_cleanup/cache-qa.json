@@ -1,0 +1,23 @@
+{
+  "first_confirmation": {
+    "requirement_trace_requests": 5,
+    "function_trace_requests": 1,
+    "requirement_detail_requests": 5,
+    "semantic_query_requests": 1
+  },
+  "second_function_confirmation": {
+    "requirement_trace_requests": 5,
+    "function_trace_requests": 1,
+    "requirement_detail_requests": 5,
+    "semantic_query_requests": 1
+  },
+  "requirement_edit_and_reconfirmation": {
+    "requirement_trace_requests": 5,
+    "function_trace_requests": 1,
+    "requirement_detail_requests": 5,
+    "semantic_query_requests": 1
+  },
+  "complete_path_fps_samples": [42, 38, 41, 39, 43],
+  "complete_path_average_fps": 40.6,
+  "cache_result": "PASS"
+}

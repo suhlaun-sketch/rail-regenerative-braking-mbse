@@ -1,0 +1,482 @@
+{
+  "initial": {
+    "disposed": false,
+    "fps": 60,
+    "state": {
+      "phase": "engineering",
+      "sec": -1,
+      "wi": 0,
+      "score": null,
+      "reads": null,
+      "flags": null,
+      "fixes": null,
+      "open": 0,
+      "comets": 0,
+      "engineeringNodes": 0,
+      "engineeringEdges": 0,
+      "visibleEngineeringClusters": 0,
+      "emptyEngineeringClusters": 0,
+      "activeClusterIds": [],
+      "engineeringClusterPositions": {},
+      "backgroundPoints": 468,
+      "engineeringCloudPoints": 0,
+      "originalBackgroundPoints": 6900,
+      "originalClusterCount": 12,
+      "crawlerVisible": false,
+      "agentHudVisible": false,
+      "x": "0.0",
+      "z": "3.1"
+    },
+    "render": {
+      "calls": 2,
+      "triangles": 0,
+      "points": 468
+    },
+    "memory": {
+      "geometries": 3,
+      "textures": 12,
+      "programs": 13
+    },
+    "webgl": {
+      "context": "WebGL2",
+      "pixelRatio": 1,
+      "composer": true
+    },
+    "gpu": {
+      "vendor": "Google Inc. (Intel)",
+      "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  },
+  "stages": {
+    "requirements": {
+      "disposed": false,
+      "fps": 122,
+      "state": {
+        "phase": "engineering",
+        "sec": -1,
+        "wi": 0,
+        "score": null,
+        "reads": null,
+        "flags": null,
+        "fixes": null,
+        "open": 0,
+        "comets": 0,
+        "engineeringNodes": 5,
+        "engineeringEdges": 0,
+        "visibleEngineeringClusters": 1,
+        "emptyEngineeringClusters": 0,
+        "activeClusterIds": [
+          "scout"
+        ],
+        "engineeringClusterPositions": {
+          "scout": {
+            "x": -14,
+            "z": -2
+          }
+        },
+        "backgroundPoints": 468,
+        "engineeringCloudPoints": 2298,
+        "originalBackgroundPoints": 6900,
+        "originalClusterCount": 12,
+        "crawlerVisible": false,
+        "agentHudVisible": false,
+        "x": "0.0",
+        "z": "3.1"
+      },
+      "render": {
+        "calls": 5,
+        "triangles": 4,
+        "points": 2766
+      },
+      "memory": {
+        "geometries": 5,
+        "textures": 13,
+        "programs": 15
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    },
+    "functions": {
+      "disposed": false,
+      "fps": 104,
+      "state": {
+        "phase": "engineering",
+        "sec": -1,
+        "wi": 0,
+        "score": null,
+        "reads": null,
+        "flags": null,
+        "fixes": null,
+        "open": 0,
+        "comets": 0,
+        "engineeringNodes": 6,
+        "engineeringEdges": 4,
+        "visibleEngineeringClusters": 2,
+        "emptyEngineeringClusters": 0,
+        "activeClusterIds": [
+          "scout",
+          "split"
+        ],
+        "engineeringClusterPositions": {
+          "scout": {
+            "x": -14,
+            "z": -2
+          },
+          "split": {
+            "x": -6,
+            "z": 2
+          }
+        },
+        "backgroundPoints": 468,
+        "engineeringCloudPoints": 4596,
+        "originalBackgroundPoints": 6900,
+        "originalClusterCount": 12,
+        "crawlerVisible": false,
+        "agentHudVisible": false,
+        "x": "0.0",
+        "z": "3.1"
+      },
+      "render": {
+        "calls": 12,
+        "triangles": 16,
+        "points": 5064
+      },
+      "memory": {
+        "geometries": 6,
+        "textures": 13,
+        "programs": 15
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    },
+    "architecture": {
+      "disposed": false,
+      "fps": 70,
+      "state": {
+        "phase": "engineering",
+        "sec": -1,
+        "wi": 0,
+        "score": null,
+        "reads": null,
+        "flags": null,
+        "fixes": null,
+        "open": 0,
+        "comets": 0,
+        "engineeringNodes": 6,
+        "engineeringEdges": 4,
+        "visibleEngineeringClusters": 2,
+        "emptyEngineeringClusters": 0,
+        "activeClusterIds": [
+          "scout",
+          "split"
+        ],
+        "engineeringClusterPositions": {
+          "scout": {
+            "x": -14,
+            "z": -2
+          },
+          "split": {
+            "x": -6,
+            "z": 2
+          }
+        },
+        "backgroundPoints": 468,
+        "engineeringCloudPoints": 4596,
+        "originalBackgroundPoints": 6900,
+        "originalClusterCount": 12,
+        "crawlerVisible": false,
+        "agentHudVisible": false,
+        "x": "0.0",
+        "z": "3.1"
+      },
+      "render": {
+        "calls": 12,
+        "triangles": 16,
+        "points": 5064
+      },
+      "memory": {
+        "geometries": 6,
+        "textures": 14,
+        "programs": 15
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    },
+    "complete": {
+      "disposed": false,
+      "fps": 35,
+      "state": {
+        "phase": "engineering",
+        "sec": -1,
+        "wi": 0,
+        "score": null,
+        "reads": null,
+        "flags": null,
+        "fixes": null,
+        "open": 0,
+        "comets": 0,
+        "engineeringNodes": 7,
+        "engineeringEdges": 5,
+        "visibleEngineeringClusters": 3,
+        "emptyEngineeringClusters": 0,
+        "activeClusterIds": [
+          "scout",
+          "split",
+          "code"
+        ],
+        "engineeringClusterPositions": {
+          "scout": {
+            "x": -14,
+            "z": -2
+          },
+          "split": {
+            "x": -6,
+            "z": 2
+          },
+          "code": {
+            "x": 2,
+            "z": -1
+          }
+        },
+        "backgroundPoints": 468,
+        "engineeringCloudPoints": 6894,
+        "originalBackgroundPoints": 6900,
+        "originalClusterCount": 12,
+        "crawlerVisible": false,
+        "agentHudVisible": false,
+        "x": "0.0",
+        "z": "3.1"
+      },
+      "render": {
+        "calls": 16,
+        "triangles": 22,
+        "points": 7362
+      },
+      "memory": {
+        "geometries": 7,
+        "textures": 14,
+        "programs": 15
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    },
+    "complete1366": {
+      "disposed": false,
+      "fps": 42,
+      "state": {
+        "phase": "engineering",
+        "sec": -1,
+        "wi": 0,
+        "score": null,
+        "reads": null,
+        "flags": null,
+        "fixes": null,
+        "open": 0,
+        "comets": 0,
+        "engineeringNodes": 7,
+        "engineeringEdges": 5,
+        "visibleEngineeringClusters": 3,
+        "emptyEngineeringClusters": 0,
+        "activeClusterIds": [
+          "scout",
+          "split",
+          "code"
+        ],
+        "engineeringClusterPositions": {
+          "scout": {
+            "x": -14,
+            "z": -2
+          },
+          "split": {
+            "x": -6,
+            "z": 2
+          },
+          "code": {
+            "x": 2,
+            "z": -1
+          }
+        },
+        "backgroundPoints": 468,
+        "engineeringCloudPoints": 6894,
+        "originalBackgroundPoints": 6900,
+        "originalClusterCount": 12,
+        "crawlerVisible": false,
+        "agentHudVisible": false,
+        "x": "0.0",
+        "z": "3.1"
+      },
+      "render": {
+        "calls": 16,
+        "triangles": 22,
+        "points": 7362
+      },
+      "memory": {
+        "geometries": 7,
+        "textures": 14,
+        "programs": 15
+      },
+      "webgl": {
+        "context": "WebGL2",
+        "pixelRatio": 1,
+        "composer": true
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Intel)",
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    }
+  },
+  "labels": {
+    "requirements": [
+      {
+        "name": "需求",
+        "detail": "Requirement · 正式需求",
+        "rect": {
+          "x": 810,
+          "y": 441,
+          "w": 119,
+          "h": 26
+        }
+      }
+    ],
+    "functions": [
+      {
+        "name": "需求",
+        "detail": "Requirement · 正式需求",
+        "rect": {
+          "x": 753,
+          "y": 223,
+          "w": 119,
+          "h": 26
+        }
+      },
+      {
+        "name": "功能",
+        "detail": "Function · 系统功能",
+        "rect": {
+          "x": 990,
+          "y": 313,
+          "w": 104,
+          "h": 26
+        }
+      }
+    ],
+    "architecture": [
+      {
+        "name": "需求",
+        "detail": "Requirement · 正式需求",
+        "rect": {
+          "x": 733,
+          "y": 244,
+          "w": 119,
+          "h": 26
+        }
+      },
+      {
+        "name": "功能",
+        "detail": "Function · 系统功能",
+        "rect": {
+          "x": 885,
+          "y": 312,
+          "w": 104,
+          "h": 26
+        }
+      }
+    ],
+    "complete": [
+      {
+        "name": "需求",
+        "detail": "Requirement · 正式需求",
+        "rect": {
+          "x": 732,
+          "y": 244,
+          "w": 119,
+          "h": 26
+        }
+      },
+      {
+        "name": "功能",
+        "detail": "Function · 系统功能",
+        "rect": {
+          "x": 885,
+          "y": 312,
+          "w": 104,
+          "h": 26
+        }
+      },
+      {
+        "name": "架构与产品",
+        "detail": "Product · SysML 产品层级",
+        "rect": {
+          "x": 1031,
+          "y": 252,
+          "w": 160,
+          "h": 26
+        }
+      }
+    ],
+    "complete1366": [
+      {
+        "name": "需求",
+        "detail": "Requirement · 正式需求",
+        "rect": {
+          "x": 577,
+          "y": 275,
+          "w": 119,
+          "h": 26
+        }
+      },
+      {
+        "name": "功能",
+        "detail": "Function · 系统功能",
+        "rect": {
+          "x": 745,
+          "y": 349,
+          "w": 104,
+          "h": 26
+        }
+      },
+      {
+        "name": "架构与产品",
+        "detail": "Product · SysML 产品层级",
+        "rect": {
+          "x": 905,
+          "y": 283,
+          "w": 160,
+          "h": 26
+        }
+      }
+    ]
+  },
+  "consoleErrors": [],
+  "metricsFunction": "确认需求\n5\n检索功能\n1\n可追溯功能\n1\n确认功能\n0\n画布对象\n6\n覆盖缺口\n3",
+  "metricsComplete": "确认需求\n5\n检索功能\n1\n可追溯功能\n1\n确认功能\n1\n画布对象\n7\n覆盖缺口\n3"
+}

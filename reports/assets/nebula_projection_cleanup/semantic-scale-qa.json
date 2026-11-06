@@ -1,0 +1,33 @@
+{
+  "queries": [
+    {
+      "query": "我希望列车在满足制动安全要求的同时，提高再生制动能量回收水平。",
+      "requirements": 5,
+      "functions": 1,
+      "products": 1,
+      "paths": 2
+    },
+    {
+      "query": "我想看再生制动",
+      "requirements": 5,
+      "functions": 0,
+      "products": 0,
+      "paths": 0
+    },
+    {
+      "query": "我想看制动系统",
+      "requirements": 10,
+      "functions": 0,
+      "products": 0,
+      "paths": 0
+    },
+    {
+      "query": "列车牵引制动储能控制接口",
+      "requirements": 5,
+      "functions": 1,
+      "products": 1,
+      "paths": 1
+    }
+  ],
+  "synthetic_entities_added": 0
+}

@@ -6,6 +6,18 @@ const TYPE_CLUSTER:Record<string,NebulaClusterId>={Requirement:'scout',Function:
 const TYPE_COLOR:Record<string,string>={Requirement:'#68A9B9',Function:'#9990BA',Product:'#799AB2',Port:'#C39879',Item:'#84AD96',PhysicalNet:'#B9A17D',ExternalBoundary:'#9C927F',Profile:'#8D9AA5'}
 const CLUSTER_INDEX:Record<NebulaClusterId,number>={chief:0,scout:1,split:2,copy:3,design:4,code:5,test:6,proof:7,data:8,cut:9,ads:10,care:11,vault:12}
 
+const ENGINEERING_CLUSTER_META:Partial<Record<NebulaClusterId,{label:string;role:string}>>={
+  scout:{label:'需求',role:'Requirement · 正式需求'},
+  split:{label:'功能',role:'Function · 系统功能'},
+  design:{label:'接口',role:'Port / Interface'},
+  code:{label:'架构与产品',role:'Product · SysML 产品层级'},
+  test:{label:'物理网络',role:'PhysicalNet'},
+  data:{label:'参数与信号',role:'Item / Flow · 仅显示真实数据'},
+  proof:{label:'证据来源',role:'Profile / Evidence'},
+  vault:{label:'外部边界',role:'ExternalBoundary'},
+  care:{label:'未分类',role:'仅承载真实未分类对象'},
+}
+
 export function engineeringLayer(nodeType:string):EngineeringLayer{
   if(nodeType==='Requirement')return 'REQUIREMENT'
   if(nodeType==='Function')return 'FUNCTION'
@@ -45,15 +57,15 @@ export function adaptEdge(edge:GraphEdge,nodes:Map<string,GraphNode>,active=fals
 
 export function graphSnapshot(graph:Subgraph,query:string,activeNodeId?:string,activeEdgeId?:string,logs:string[]=[]):NebulaSnapshot{
   const sourceNodes=new Map(graph.nodes.map(n=>[n.id,n]))
+  const engineeringNodes=graph.nodes.map(n=>adaptNode(n,n.id===activeNodeId))
+  const visibleClusterIds=new Set(engineeringNodes.map(node=>node.clusterId))
   return {
     ...NEBULA_FIXTURE,
     id:`engineering-${query}`,
     title:'真实工程知识查询',
     fixture:false,
-    clusters:NEBULA_FIXTURE.clusters.map(c=>({...c,...({
-      chief:{label:'工程关系核心',role:'本次查询的真实工程子图'},scout:{label:'需求',role:'Requirement · 正式需求'},split:{label:'功能',role:'Function · 系统功能'},design:{label:'接口',role:'Port / Interface'},code:{label:'架构与产品',role:'Product · SysML 产品层级'},test:{label:'物理网络',role:'PhysicalNet'},data:{label:'参数与信号',role:'Item / Flow · 仅显示真实数据'},proof:{label:'证据来源',role:'来源与状态'},vault:{label:'外部边界',role:'ExternalBoundary'},care:{label:'未分类',role:'仅承载真实未分类对象'}
-    } as Record<string,Partial<typeof c>>)[c.id]})),
-    engineering:{query,status:'READY',nodes:graph.nodes.map(n=>adaptNode(n,n.id===activeNodeId)),edges:graph.edges.map(e=>adaptEdge(e,sourceNodes,e.id===activeEdgeId)),activeNodeId,activeEdgeId,logs},
+    clusters:NEBULA_FIXTURE.clusters.filter(c=>visibleClusterIds.has(c.id)).map(c=>({...c,...ENGINEERING_CLUSTER_META[c.id]})),
+    engineering:{query,status:'READY',nodes:engineeringNodes,edges:graph.edges.map(e=>adaptEdge(e,sourceNodes,e.id===activeEdgeId)),activeNodeId,activeEdgeId,logs},
   }
 }
 

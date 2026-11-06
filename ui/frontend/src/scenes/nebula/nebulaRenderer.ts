@@ -128,6 +128,18 @@ const standOf = k => { const c = CL[k], [lx, lz] = toLocal(c, spider.x, spider.z
 /* ================= 3. 模拟（接真实数据时替换这一段） ================= */
 let simT = 0, animT = 0, frameN = 0, tid = 46;
 let externalMode = false, engineeringState = null;
+const ENGINEERING_LAYOUT = {
+  1:{x:-14,z:-2}, 2:{x:-6,z:2}, 4:{x:10,z:2}, 5:{x:2,z:-1},
+  6:{x:11,z:-7}, 7:{x:-6,z:-8}, 8:{x:18,z:-2}, 11:{x:1,z:-11}, 12:{x:18,z:-8},
+};
+const ENGINEERING_CLOUD_SCALE=.72, ENGINEERING_POINT_RATIO=.5, ENGINEERING_STAR_RATIO=.18;
+function applyEngineeringLayout(){
+  if(!externalMode)return;
+  for(let k=1;k<=12;k++){
+    const p=ENGINEERING_LAYOUT[k]||{x:0,z:-11};
+    const c=CL[k];c.x=p.x;c.z=p.z;c.rot=0;c.cr=1;c.sr=0;
+  }
+}
 let shipped = Math.floor(minsToday() / 1.7) + 18, wordsToday = shipped * 27 + 140, fixesToday = shipped * 3 + 9;
 const scoreHist = Array.from({length: 24}, () => Math.round(rnd(80, 93)));
 const load = AG.map(() => rnd(.2, .8)), flash = AG.map(() => 0);
@@ -262,7 +274,7 @@ function deliverFx(){
 function startRead(){ crawl.phase = 'read'; crawl.wi = 0; crawl.wt = .1; crawl.batch = 4 + ((rng() * 3) | 0); flash[curSec().ai] += .6; }
 let bgT = .5;
 function simStep(dt){
-  simT += dt; orbT += dt; orbitStep();
+  simT += dt; orbT += dt; orbitStep();if(externalMode)applyEngineeringLayout();
   for (let i = jobs.length - 1; i >= 0; i--) if (jobs[i].t <= simT) { const j = jobs[i]; jobs.splice(i, 1); j.fn(); }
   if (externalMode) {
     cometStep(dt);
@@ -362,7 +374,8 @@ const cv = $('#gl');
 let renderer = null, scene, camera, composer = null, bloom = null, world, glOK = false, pr = 1;
 let engineeringLineObj = null, engineeringLinePos = null, engineeringLineCol = null;
 const U = {time: {value: 0}, px: {value: 600}, b: {value: new Float32Array(16).fill(1)}, sp: {value: null}};
-let starsObj, threadObj, sparkObj, trailLine, coreBall, abdBall, legG, ringsG, streakG, cometSprites = [], pulseSpr, GLOW;
+let starsObj, orbitDustObj, threadObj, sparkObj, trailLine, coreBall, abdBall, legG, ringsG, streakG, cometSprites = [], pulseSpr, GLOW;
+const orbitLines=[];
 const legs = [];
 const v3 = THREE ? new THREE.Vector3() : null;
 
@@ -406,7 +419,7 @@ function pointsObj(n){
   g.setAttribute('aSize', new THREE.BufferAttribute(new Float32Array(n), 1));
   g.setAttribute('aPh', new THREE.BufferAttribute(new Float32Array(n), 1));
   g.setAttribute('aCid', new THREE.BufferAttribute(new Float32Array(n), 1));
-  const p = new THREE.Points(g, ptMat()); p.frustumCulled = false; return p;
+  const p = new THREE.Points(g, ptMat()); p.frustumCulled = false;p.userData.fullDrawCount=n; return p;
 }
 function setPt(o, i, x, y, z, c, s, cid){ const g = o.geometry.attributes; g.position.setXYZ(i, x, y, z); g.aCol.setXYZ(i, c[0], c[1], c[2]); g.aSize.setX(i, s); g.aPh.setX(i, rng()); g.aCid.setX(i, cid); }
 const mix3 = (a, b, t) => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
@@ -479,7 +492,7 @@ function buildNebulae(){
   const NO = 900, od = pointsObj(NO * 3 + ND); let i = 0;
   ORBITS.forEach((o, oi) => {
     const P = []; for (let j = 0; j <= 240; j++) { const f = j / 240 * TAU; P.push(new THREE.Vector3(Math.cos(f) * o.ax, -.35, Math.sin(f) * o.az)); }
-    world.add(new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(P), new THREE.LineBasicMaterial({color: oi === 1 ? 0xffc2a6 : 0x9fd4ff, transparent: true, opacity: .2, blending: THREE.AdditiveBlending, depthWrite: false})));
+    const orbitLine=new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(P), new THREE.LineBasicMaterial({color: oi === 1 ? 0xffc2a6 : 0x9fd4ff, transparent: true, opacity: .2, blending: THREE.AdditiveBlending, depthWrite: false}));world.add(orbitLine);orbitLines.push(orbitLine);
     for (let n = 0; n < NO; n++, i++) { const f = rng() * TAU, j = 1 + gauss() * .035; const cc = (rng() < .3 ? PEACH : rng() < .5 ? ICE : WHITE).map(v => v * (.25 + rng() * .4)); setPt(od, i, Math.cos(f) * o.ax * j, -.35 + gauss() * .15, Math.sin(f) * o.az * j, cc, .035 + Math.pow(rng(), 8) * .18, 13); }
   });
   for (let n = 0; n < ND; n++, i++) {
@@ -487,7 +500,7 @@ function buildNebulae(){
     const cc = (rng() < .3 ? PEACH : rng() < .5 ? ICE : WHITE).map(v => v * (.4 + rng() * .5));
     setPt(od, i, Math.cos(a) * r * 1.15, gauss() * .35 + .4, Math.sin(a) * r * .8, cc, .04 + Math.pow(rng(), 6) * .22, 0);
   }
-  world.add(od);
+  orbitDustObj=od;world.add(od);
   // 远处星空：平面下方一层 + 上方稀疏一层
   const NS = 2600; starsObj = pointsObj(NS);
   for (let n = 0; n < NS; n++) {
@@ -762,6 +775,11 @@ function camWant(t){
 }
 const FIT_PTS = [];
 { const o = ORBITS[2], R = o.R; for (let i = 0; i < 36; i++) { const f = i / 36 * TAU, sn = Math.sin(f); FIT_PTS.push([Math.cos(f) * (o.ax + R * 1.05), 0, sn * (o.az + R * .55) - (sn < 0 ? R * .9 * -sn : 0)]); } }
+function activeEngineeringClusters(){return externalMode&&engineeringState?[...new Set(engineeringState.nodes.map(n=>clusterIndex(n.clusterId)).filter(k=>k>0&&k<13))]:[];}
+function currentFitPoints(){
+  const ids=activeEngineeringClusters();if(!externalMode||!ids.length)return FIT_PTS;
+  const pts=[];ids.forEach(k=>{const c=CL[k],r=c.R*ENGINEERING_CLOUD_SCALE;for(let i=0;i<10;i++){const a=i/10*TAU;pts.push([c.x+Math.cos(a)*r*1.12,c.y0+Math.sin(a)*r*.18,c.z+Math.sin(a)*r*.86]);}});return pts;
+}
 function panelRects(){
   const hr = host.getBoundingClientRect(), out = [];
   SR.querySelectorAll('.board .dp, .board .hd .eb, .board .hd h1 > span, .board .hd .sub, .board .hd .sub2, .board .sec > *, .board .top, .board .tools, .board .sb').forEach(el => { const r = el.getBoundingClientRect(); if (r.width > 2) out.push([r.left - hr.left - 8, r.top - hr.top - 8, r.right - hr.left + 8, r.bottom - hr.top + 8]); });
@@ -771,7 +789,7 @@ function fitCamera(){
   const rects = narrow ? [] : panelRects(), mg = narrow ? 6 : 8; PRC = rects;
   const top=externalMode?clamp(visibleInsets.top,0,H*.42):0,bottom=externalMode?clamp(visibleInsets.bottom,0,H*.42):0;
   const minY=Math.max(narrow?64:mg,top+mg),maxY=Math.min(H-(narrow?150:mg),H-bottom-mg),shift=(bottom-top)*.5;
-  const v = new THREE.Vector3(), az = baseAz, el = EL_OVER;
+  const v = new THREE.Vector3(), az = baseAz, el = EL_OVER,fitPoints=currentFitPoints();
   const oxs = narrow ? [0] : [-4, -3, -2, -1, 0, 1, 2, 3, 4].map(i => i * W * .02), oys = narrow ? [H / 2 - (64 + H - 150) / 2+shift] : Array.from({length: 13}, (_, i) => shift+(i - 6) * H * .022);
   let best = null;
   for (const ox of oxs) for (const oy of oys) {
@@ -781,7 +799,7 @@ function fitCamera(){
       const D = (lo + hi) / 2;
       camera.position.set(D * Math.sin(az) * Math.cos(el), D * Math.sin(el), D * Math.cos(az) * Math.cos(el)); camera.lookAt(0, 0, 0); camera.updateMatrixWorld();
       let ok = true;
-      for (const p of FIT_PTS) {
+      for (const p of fitPoints) {
         v.set(p[0], p[1], p[2]).project(camera); const sx = (v.x + 1) / 2 * W, sy = (1 - v.y) / 2 * H;
         if (sx < mg || sx > W - mg || sy < minY || sy > maxY) { ok = false; break; }
         for (const r of rects) if (sx > r[0] && sx < r[2] && sy > r[1] && sy < r[3]) { ok = false; break; }
@@ -971,16 +989,17 @@ function drawPanels(){ drawRadar(); drawHeat(); drawScore(); }
 function updateScene(dt){
   U.time.value = animT;
   // 星云亮度：负载 + 闪光 + 正在被审的那团更亮
-  const s = curSec(), inTask = externalMode && engineeringState ? new Set(engineeringState.nodes.map(n=>clusterIndex(n.clusterId)).filter(k=>k>=0)) : task ? new Set(task.path) : new Set();
+  const s = curSec(), inTask = externalMode && engineeringState ? new Set(engineeringState.nodes.map(n=>clusterIndex(n.clusterId)).filter(k=>k>=0)) : task ? new Set(task.path) : new Set(), selectedClusters=externalMode&&engineeringState?new Set(engineeringState.nodes.filter(n=>n.active).map(n=>clusterIndex(n.clusterId))):new Set();
   for (let k = 0; k <= 12; k++) {
-    let b = k === 0 ? .9 + flash[0] * .4 : .55 + load[k] * .28 + flash[k] * .4 + (inTask.has(k) ? .1 : 0);
+    let b = externalMode?(selectedClusters.has(k)?1.08:inTask.has(k)?.52:0):(k === 0 ? .9 + flash[0] * .4 : .55 + load[k] * .28 + flash[k] * .4 + (inTask.has(k) ? .1 : 0));
+    if(externalMode)b+=flash[k]*.34;
     // 星云蛛趴着的那团：轻轻闪烁，提示它在这里干活
     if (!externalMode && k === spider.a && !spider.air && k > 0) b *= .78 + .22 * (.5 + .5 * Math.sin(animT * 13)) * (.7 + .3 * Math.sin(animT * 3.1));
     U.b.value[k] = b; flash[k] *= Math.exp(-dt * 2.2);
   }
   for (let k = 1; k <= 12; k++) { const c = CL[k], gp = cloudG[k]; gp.position.set(c.x, 0, c.z); gp.rotation.y = c.rot; }
   U.b.value[13] = 1; U.b.value[14] = .62; U.b.value[15] = 1.3;
-  hazes.forEach(h => { h.material.opacity = h.userData.o * Math.min(1.7, U.b.value[h.userData.k] / .6) * (h.userData.k === spider.a && !spider.air ? .7 : 1); });
+  hazes.forEach(h => { h.material.opacity = h.userData.o * Math.min(1.7, U.b.value[h.userData.k] / .6) * (h.userData.k === spider.a && !spider.air ? .7 : 1) * (externalMode?.45:1); });
   if (!U.sp.value) U.sp.value = new THREE.Vector4();
   U.sp.value.set(externalMode?999:spider.x, externalMode?999:spider.y, externalMode?999:spider.z, externalMode ? .001 : (spider.air ? .001 : 2.1 * SS));
   coreBall.children.forEach(m => m.rotateOnAxis(m.userData.ax, m.userData.sp * dt));
@@ -1060,12 +1079,13 @@ function placeOverlays(){
   }
   // 星核
   { const el = clEls[0], [x, y] = project(0, CORE_Y, -7.4), sm = el.lastChild;
+    if(externalMode){el.style.display='none';}
+    else{el.style.display='';
     let txt = 'LISTENING', cls = '';
-    if (externalMode && engineeringState) { txt=`KG ${engineeringState.status} · ${engineeringState.nodes.length}N/${engineeringState.edges.length}R`; cls=engineeringState.status==='ERROR'||engineeringState.status==='UNAVAILABLE'?'ans':'ship'; }
-    else if (coreSay.t > 0) { txt = coreSay.txt; cls = coreSay.txt.startsWith('SHIP') ? 'ship' : 'ans'; }
+    if (coreSay.t > 0) { txt = coreSay.txt; cls = coreSay.txt.startsWith('SHIP') ? 'ship' : 'ans'; }
     else if (crawl.phase === 'brief' && task) { txt = `PARSING ${task.id}`; }
     if (sm.textContent !== txt) sm.textContent = txt; if (sm.className !== cls) sm.className = cls;
-    el.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,-100%) scale(${sc.toFixed(3)})`; }
+    el.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,-100%) scale(${sc.toFixed(3)})`; }}
   // 词标签：当前章节 + 刚审完的章节（渐隐）
   const show = [];
   if (externalMode && engineeringState) [...engineeringState.nodes].sort((a,b)=>Number(b.active)-Number(a.active)||a.slot-b.slot).slice(0,cam.focus>=0?24:18).forEach(n=>{
@@ -1239,7 +1259,8 @@ clockTick(); scheduleInterval(clockTick, 1000);
 syncButtons();
 // 调试用：快进模拟若干秒（控制台里 document.getElementById('host-nebula').__ff(20)）
 host.__ff = sec => { ffing = true; for (let t = 0; t < sec; t += .05) { simStep(.05); animT += .05; frameN++; coreSay.t -= .05; codeChars += 4.5; if (glOK) { camStep(.05); updateScene(.05); } } ffing = false; };
-host.__st = () => ({phase: externalMode?'engineering':crawl.phase, sec: crawl.sec, wi: crawl.wi, score: task && Math.round(task.shown), reads: task && task.reads, flags: task && task.flags, fixes: task && task.fixes, open: openFlags(), comets: comets.length, engineeringNodes:engineeringState?.nodes?.length||0,engineeringEdges:engineeringState?.edges?.length||0,crawlerVisible:!!(spider.g&&spider.g.visible),agentHudVisible:nr.style.display!=='none',x: spider.x.toFixed(1), z: spider.z.toFixed(1)});
+function pointDrawCount(object){if(object?.visible===false)return 0;const draw=object?.geometry?.drawRange?.count;return Number.isFinite(draw)?draw:(object?.userData?.fullDrawCount??object?.geometry?.attributes?.position?.count??0);}
+host.__st = () => {const active=activeEngineeringClusters(),visible=cloudG.map((g,k)=>g?.visible?k:-1).filter(k=>k>0),cloudPoints=visible.reduce((sum,k)=>sum+cloudG[k].children.reduce((n,o)=>n+(o.isPoints?pointDrawCount(o):0),0),0),backgroundPoints=pointDrawCount(starsObj)+pointDrawCount(orbitDustObj);return {phase: externalMode?'engineering':crawl.phase, sec: crawl.sec, wi: crawl.wi, score: task && Math.round(task.shown), reads: task && task.reads, flags: task && task.flags, fixes: task && task.fixes, open: openFlags(), comets: comets.length, engineeringNodes:engineeringState?.nodes?.length||0,engineeringEdges:engineeringState?.edges?.length||0,visibleEngineeringClusters:externalMode?visible.length:12,emptyEngineeringClusters:externalMode?visible.filter(k=>!active.includes(k)).length:0,activeClusterIds:engineeringState?[...new Set(engineeringState.nodes.map(n=>n.clusterId))]:[],engineeringClusterPositions:Object.fromEntries(active.map(k=>[engineeringState.nodes.find(n=>clusterIndex(n.clusterId)===k)?.clusterId,{x:CL[k].x,z:CL[k].z}])),backgroundPoints,engineeringCloudPoints:cloudPoints,originalBackgroundPoints:6900,originalClusterCount:12,crawlerVisible:!!(spider.g&&spider.g.visible),agentHudVisible:nr.style.display!=='none',x: spider.x.toFixed(1), z: spider.z.toFixed(1)};};
 host.__mode = i => { modeI = i; syncButtons(); };
 host.__focus = k => setFocus(k);
 host.__ui = () => { if(externalMode)renderEngineeringHud(true);else{logDirty = true; renderLog(); renderTabs(); renderSec(); renderStrip(); renderSecs(); renderCounters(); renderCode(); drawPanels();} placeOverlays(); };
@@ -1267,6 +1288,20 @@ function renderEngineeringHud(force=false){
   $$('.dp').forEach(el=>el.style.opacity='.25'); $('.p-log').style.opacity='.96'; $('.p-sec').style.opacity='.96';
   const logTitle=$('.p-log .dp-h b'),secTitle=$('.p-sec .dp-h b'); if(logTitle)logTitle.textContent='QUERY LOG';if(secTitle)secTitle.textContent='ENGINEERING LAYERS';
 }
+function setPointRatio(object,ratio){if(!object?.geometry)return;const full=object.userData.fullDrawCount||object.geometry.attributes?.position?.count||0;object.geometry.setDrawRange(0,Math.max(0,Math.floor(full*ratio)));}
+function syncEngineeringProjection(){
+  const active=new Set(activeEngineeringClusters());
+  for(let k=1;k<=12;k++){
+    const group=cloudG[k],visible=!externalMode||active.has(k);if(!group)continue;
+    group.visible=visible;group.scale.setScalar(externalMode?ENGINEERING_CLOUD_SCALE:1);
+    group.traverse(child=>{if(child.isPoints)setPointRatio(child,externalMode&&visible?ENGINEERING_POINT_RATIO:visible?1:0);});
+  }
+  orbitLines.forEach(line=>line.visible=!externalMode);if(orbitDustObj)orbitDustObj.visible=!externalMode;
+  if(starsObj)setPointRatio(starsObj,externalMode?ENGINEERING_STAR_RATIO:1);
+  if(coreBall)coreBall.visible=!externalMode;if(ringsG)ringsG.visible=!externalMode;if(streakG)streakG.visible=!externalMode;
+  applyEngineeringLayout();
+}
+let engineeringClusterSignature='';
 function applySnapshot(snapshot){
   if (!snapshot || !Array.isArray(snapshot.clusters)) return;
   snapshot.clusters.forEach(c => {
@@ -1281,15 +1316,16 @@ function applySnapshot(snapshot){
   const nextExternal=!!snapshot.engineering;
   if(nextExternal&&!externalMode){task=null;jobs.length=0;comets.length=0;trail.length=0;threads.forEach(t=>{t.on=false;t.ret=false;});crawl.phase='external';crawl.sec=-1;}
   externalMode=nextExternal;engineeringState=snapshot.engineering||null;
+  syncEngineeringProjection();
   nr.style.display=externalMode?'none':'';
   if(spider.g)spider.g.visible=!externalMode;if(spider.shadow)spider.shadow.visible=!externalMode;if(legG)legG.visible=!externalMode;if(threadObj)threadObj.visible=!externalMode;if(trailLine)trailLine.visible=!externalMode;if(pulseSpr)pulseSpr.visible=!externalMode;
-  if(externalMode)renderEngineeringHud(true);else if(engineeringLineObj)engineeringLineObj.geometry.setDrawRange(0,0);
+  if(externalMode){renderEngineeringHud(true);const ids=[...new Set(engineeringState.nodes.map(n=>n.clusterId))].sort(),signature=ids.join('|');if(signature!==engineeringClusterSignature){engineeringClusterSignature=signature;fitCamera();frameEngineering(ids,ids.length<=2?'focus':'query');}}else{engineeringClusterSignature='';if(engineeringLineObj)engineeringLineObj.geometry.setDrawRange(0,0);}
 }
 function focusById(id){const node=engineeringState&&engineeringState.nodes.find(n=>n.id===id);const k=clusterIndex(node?node.clusterId:id); if (k > 0 && k < 13) setFocus(k); else { cam.frame=null;cam.focus = -1; cam.zoom = 1; cam.yaw = cam.pitch = 0; syncButtons(); } }
 function frameEngineering(clusterIds,mode){
   const ids=[...new Set((clusterIds||[]).map(clusterIndex).filter(k=>k>0&&k<13))];
   if(!ids.length){cam.frame={tx:0,ty:1.5,tz:0,r:fitD*(mode==='global'?1:.82),el:1.05,az:0,clusterIds:[],mode};}
-  else{let minX=Infinity,maxX=-Infinity,minZ=Infinity,maxZ=-Infinity;ids.forEach(k=>{const c=CL[k];minX=Math.min(minX,c.x-c.R);maxX=Math.max(maxX,c.x+c.R);minZ=Math.min(minZ,c.z-c.R);maxZ=Math.max(maxZ,c.z+c.R);});const usable=Math.max(.48,(H-visibleInsets.top-visibleInsets.bottom)/H),span=Math.max(maxX-minX,(maxZ-minZ)/Math.max(.65,(W/H)*usable));cam.frame={tx:(minX+maxX)/2,ty:1.5,tz:(minZ+maxZ)/2,r:Math.max(mode==='focus'?30:38,span*1.18/usable),el:mode==='focus'?.86:1.02,az:0,clusterIds:[...clusterIds],mode};}
+  else{let minX=Infinity,maxX=-Infinity,minZ=Infinity,maxZ=-Infinity;ids.forEach(k=>{const c=CL[k],r=c.R*(externalMode?ENGINEERING_CLOUD_SCALE:1);minX=Math.min(minX,c.x-r);maxX=Math.max(maxX,c.x+r);minZ=Math.min(minZ,c.z-r);maxZ=Math.max(maxZ,c.z+r);});const usable=Math.max(.48,(H-visibleInsets.top-visibleInsets.bottom)/H),span=Math.max(maxX-minX,(maxZ-minZ)/Math.max(.65,(W/H)*usable));cam.frame={tx:(minX+maxX)/2,ty:1.5,tz:(minZ+maxZ)/2,r:Math.max(mode==='focus'?28:32,span*1.55/usable),el:mode==='focus'?.86:1.02,az:0,clusterIds:[...clusterIds],mode};}
   cam.focus=-1;cam.zoom=1;cam.yaw=cam.pitch=0;syncButtons();
 }
 function dispatchSceneEvent(event){
